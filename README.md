@@ -12,7 +12,7 @@ Hits
 
 ## Characters
 
-[Traits](https://donalharrison.github.io/no1_system/characters/Traits/)
+[Traits](https://donalharrison.github.io/no1_system/characters/traits/)
 [Skills](https://donalharrison.github.io/no1_system/characters/skills/)
 [Trainings](https://donalharrison.github.io/no1_system/characters/trainings/)
 [Talents](https://donalharrison.github.io/no1_system/characters/talents/)
