@@ -1,7 +1,8 @@
+---
 layout: page
 title: "No1 - Skills"
-permalink: /sharacters/skills/
-
+permalink: /characters/skills/
+---
 
 # Skills
 
