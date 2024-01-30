@@ -27,14 +27,15 @@ markdown: kramdown
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
   core:
-    permalink: "/core/"
+    permalink: "/core"
     output: true
   characters:
-    permalink: "/characters/"
+    permalink: "/characters"
     output: true
   bamf:
-    permalink: "/bamf/"
+    permalink: "/bamf"
     output: true
+  
 
 just_the_docs:
   # Define which collections are used in just-the-docs
