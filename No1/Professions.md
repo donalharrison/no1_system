@@ -5,44 +5,9 @@ permalink: /characters/trainings/
 ---
 
 
-# Professions
+# Training
+Training is the cornerstone of characters' capabilities & advancement.  Players invest Milestones into Training, gaining access to new [Talents](/characters/talents/) & increasing their [Skill](/characters/skills/) ratings.
 
-Acrobat
+## Training List
 
-Infiltrator
-
-Ranger
-
-Athlete
-
-Diplomat
-
-Soldier
-
-Marksman
-
-Academic
-
-Adept
-
-Scrapper
-
-Defender
-
-Tank
-
-Assassin
-
-Spy
-
-Shock Trooper
-
-Tactician
-
-Controller
-
-Healer
-
-Knight?
-
-Vanguard?
+{{ site.data.training }}
