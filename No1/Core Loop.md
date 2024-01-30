@@ -1,3 +1,9 @@
+---
+layout: page
+title: "No1 - Core"
+permalink: /core/core_loop/
+---
+
 # Core Loop
 
 At the beginning of each Scene, the BAMF will set the Timer which represent how many rounds the Scene will encompass.

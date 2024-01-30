@@ -1,3 +1,9 @@
+---
+layout: page
+title: "No1 - Skills"
+permalink: /characters/traits/
+---
+
 # Traits
 
 Traits describe the characters general qualities and characteristics, and categorize their Skills.

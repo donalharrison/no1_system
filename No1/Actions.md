@@ -1,3 +1,9 @@
+---
+layout: page
+title: "No1 - Actions"
+permalink: /core/actions/
+---
+
 # Actions
 
 Actions are more concerted efforts and advanced maneuvers that allow the player to effect the scene in dramatic ways.

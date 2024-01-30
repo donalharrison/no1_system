@@ -1,3 +1,9 @@
+---
+layout: page
+title: "No1 - Core"
+permalink: /core/shifts/
+---
+
 # Shifts
 
 Shifts represent quick actions or movements that take minimal concentration or effort.

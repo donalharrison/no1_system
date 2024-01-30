@@ -1,3 +1,9 @@
+---
+layout: page
+title: "No1 - Skills"
+permalink: /characters/Talents/
+---
+
 # Talents
 
 ## Talent design spaces

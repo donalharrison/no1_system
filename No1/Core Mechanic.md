@@ -1,3 +1,9 @@
+---
+layout: page
+title: "No1 - Core"
+permalink: /core/core_mechanic/
+---
+
 # Core Mechanic
 
 Roll a number of dice equal Challenge (plus any applicable modifiers). Count 1 Hit for each die equal to or greater than the Target (e.g., 4+).
