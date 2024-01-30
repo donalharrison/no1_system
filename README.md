@@ -1,6 +1,6 @@
 # No1s System
 
-![This is a d6 rolling a 1.](https://github.com/donalharrison/no1_system/blob/5a1ef5ffdc0b4401dd365045e40e98a1dac065dc/assets/img/perspective-dice-one.png)
+![This is a d6 rolling a 1.](https://github.com/donalharrison/no1_system/blob/5a1ef5ffdc0b4401dd365045e40e98a1dac065dc/assets/img/perspective-dice-one.png "download")
 
 Development &amp; doc repo for No1 RPG System
 
