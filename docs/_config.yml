@@ -34,11 +34,7 @@ sidebar:
       - Waypoints
   - label: Characters
     children:
-      - label: Traits
-        characters-traits
-      - label: Skills
-        characters-skills
-      - label: Training
-        characters-trainings
-      - label: Talents
-        characters-talents
+      - characters-traits
+      - characters-skills
+      - characters-trainings
+      - characters-talents
