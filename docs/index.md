@@ -23,6 +23,6 @@ Hits
 
 [Skills](https://donalharrison.github.io/no1_system/characters/skills/)
 
-[Trainings](https://donalharrison.github.io/no1_system/characters/trainings/)
+[Trainings](https://donalharrison.github.io/no1_system/characters/training/)
 
 [Talents](https://donalharrison.github.io/no1_system/characters/talents/)

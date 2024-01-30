@@ -27,7 +27,6 @@ sidebar:
       - Core Mechanic & Gameplay Loop
       - Actions & Shifts
       - Challenge
-        url: /core/challenge
       - Initiative
       - Momentum & Entropy
       - Hits
@@ -35,8 +34,11 @@ sidebar:
       - Waypoints
   - label: Characters
     children:
-      - Traits
-        url: /characters/traits
-      - Skills
-      - Training
-      - Talents
+      - label: Traits
+        characters-traits
+      - label: Skills
+        characters-skills
+      - label: Training
+        characters-trainings
+      - label: Talents
+        characters-talents

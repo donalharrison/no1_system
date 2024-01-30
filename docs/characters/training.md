@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "No1 - Skills"
-permalink: /characters/trainings/
+title: "Training"
+permalink: /characters/training/
+id: characters-training
 ---
 
 

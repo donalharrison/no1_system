@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "No1 - traits"
+title: "traits"
 permalink: /characters/traits/
+id: characters-traits
 ---
 
 # Traits

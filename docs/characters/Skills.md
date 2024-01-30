@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "No1 - Skills"
+title: "Skills"
 permalink: /characters/skills/
+id: characters-skills
 ---
 
 # Skills

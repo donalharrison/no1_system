@@ -1,3 +1,10 @@
+---
+layout: page
+title: "powers"
+permalink: /characters/powers/
+id: characters-powers
+---
+
 # Powers
 
 Hits
