@@ -16,6 +16,7 @@ title: No1s RPG SRD
 author: Some Person
 
 # Theme
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 
 # Markdown
 markdown: kramdown
