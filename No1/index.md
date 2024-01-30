@@ -1,1 +1,0 @@
-A simple attempt at sharing the No1 RPG System.
