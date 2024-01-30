@@ -19,3 +19,24 @@ author: Some Person
 
 # Markdown
 markdown: kramdown
+
+# sidebar nav
+sidebar:
+  - label: Core Rules
+    children:
+      - Core Mechanic & Gameplay Loop
+      - Actions & Shifts
+      - Challenge
+        url: /core/challenge
+      - Initiative
+      - Momentum & Entropy
+      - Hits
+      - Zones
+      - Waypoints
+  - label: Characters
+    children:
+      - Traits
+        url: /characters/traits
+      - Skills
+      - Training
+      - Talents
