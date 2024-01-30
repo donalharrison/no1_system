@@ -1,7 +1,0 @@
-# Shaman
-
-# Prerequisites
-
-# Skills
-
-# Talents

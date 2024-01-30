@@ -1,7 +1,0 @@
-# Profession
-
-# Prerequisites
-
-# Skills
-
-# Talents
