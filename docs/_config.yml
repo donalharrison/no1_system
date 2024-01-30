@@ -30,7 +30,7 @@ collections:
     permalink: "/core"
     output: true
   characters:
-    permalink: "/characters"
+    permalink: ""/:collection/:path/""
     output: true
   bamf:
     permalink: "/bamf"
