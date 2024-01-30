@@ -27,13 +27,13 @@ markdown: kramdown
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
   core:
-    permalink: "/core"
+    permalink: /:core/:core
     output: true
   characters:
     permalink: /:characters/:_characters/
     output: true
   bamf:
-    permalink: "/bamf"
+    permalink: /:bamf/:bamf
     output: true
   
 
