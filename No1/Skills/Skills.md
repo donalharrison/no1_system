@@ -1,3 +1,8 @@
+layout: page
+title: "No1 - Skills"
+permalink: /Characters/Skills
+
+
 # Skills
 
 Skills represent the character’s training across a variety of domains.
