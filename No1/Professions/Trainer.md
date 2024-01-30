@@ -1,7 +1,0 @@
-# Trainer
-
-# Prerequisites
-
-# Skills
-
-# Talents
