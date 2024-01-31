@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "traits"
+title: "Traits"
 permalink: /characters/traits/
 id: characters-traits
+nav_order: 1
 ---
 
 # Traits
