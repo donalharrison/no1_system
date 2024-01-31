@@ -6,4 +6,3 @@ permalink: /core/challenge/
 
 # Challenge
 
-Stakes?

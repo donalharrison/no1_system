@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "No1 - Core"
+title: "Core"
 permalink: /core/core_loop/
 ---
 

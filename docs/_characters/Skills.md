@@ -22,7 +22,9 @@ Rating |  Die
  
 ## Skill List
 Below is a list the base system Skills & a brief description of their uses.  The list is ordered by the Skill's associated Traits.
-[!Note] Some Skills require Training to be used (*marked X; below*).  Characters can acquire access to these skills by spending Milestones on Trainings that confer expertise with the Skill.
+
+{: .note}
+Some Skills require Training to be used (*marked X; below*).  Characters can acquire access to these skills by spending Milestones on Trainings that confer expertise with the Skill.
 
 <table>
     <tr>
