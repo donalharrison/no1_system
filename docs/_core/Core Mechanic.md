@@ -4,7 +4,17 @@ title: "Core Mechanic & Gameplay Loop"
 permalink: /core/core_mechanic/
 ---
 
-# Core Mechanic
+<details open markdown="block">
+
+<summary>
+    Table of contents
+</summary>
+
+{: .text-delta }
+- TOC
+{:toc}
+
+# Core Roll Mechanic
 
 Roll a number of dice equal Challenge (plus any applicable modifiers). Count 1 Hit for each die equal to or greater than the Target (e.g., 4+).
 
@@ -17,7 +27,7 @@ If there is a 1 in the result set, you risk allowing the enemy to seize the init
 
 # Core Loop
 
-At the beginning of each Scene, the BAMF will set the Timer which represent how many rounds the Scene will encompass.
+At the beginning of each Scene, the BAMF will set the Timer which represent hows many rounds the Scene will encompass.
 
 Some Scenes will consist of multiple encounters or sequences, each of which have their own Timer.
 

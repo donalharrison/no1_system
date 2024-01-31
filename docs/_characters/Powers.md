@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "powers"
+title: "Powers"
 permalink: /characters/powers/
 id: characters-powers
 ---

@@ -43,6 +43,9 @@ just_the_docs:
     bamf:
       name: bamf
       nav_fold: true
+    training:
+      name: Training
+      nav_fold: true
       # Exclude the collection from the navigation
       # Supports true or false (default)
       # nav_exclude: true

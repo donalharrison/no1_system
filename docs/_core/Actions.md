@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "No1 - Actions"
+title: "Actions"
 permalink: /core/actions/
 ---
 
