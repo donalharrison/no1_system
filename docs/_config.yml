@@ -24,8 +24,8 @@ collections:
   bamf:
     permalink: /:bamf/:_bamf
     output: true
-  characters_training:
-    permalink: /:characters_training/_characters/:_training
+  training:
+    permalink: characters/:_training
     output: true
   
 
