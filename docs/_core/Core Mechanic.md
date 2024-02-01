@@ -14,6 +14,8 @@ permalink: /core/core_mechanic/
 - TOC
 {:toc}
 
+</details>
+
 # System Principles
 The No1s System is . . .
 
@@ -25,7 +27,7 @@ Defining Waypoints (along with Scenes, Encounters, & Sequences) are discussed in
 # Core Mechanisms
 
 ## Challenge
-Challenge is the complexity and danger of a Scene, escalating as the stakes of the game increase.  Mechanically, Challenge defines the number of dice the player rolls when attempting any action (i.e., Challenge 1 = roll 1d, Challenge 8 = roll 8d).  
+Challenge is the complexity and danger of a Scene, escalating as the stakes of the game increase.  Mechanically, Challenge defines the number of dice the player rolls when attempting any action (i.e., Challenge 1 = roll 1d, Challenge 8 = roll 8d).  For each die equal to or greate than the Target, 
 
 ### Challenge: Result Sets, Hits, & 1s
 

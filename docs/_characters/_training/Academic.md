@@ -1,3 +1,10 @@
+---
+layout: training
+name: Academic
+---
+
+{% assign trn == site.data.training[page.name] %}
+
 # Academic
 
 Type: Trade

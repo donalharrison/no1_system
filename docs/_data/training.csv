@@ -1,21 +1,21 @@
-Name,Type,Prerequisites,Description,
-Acolyte,Trade,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",
-Scholar,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,
-Adept," Trade",Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",
-Brute,Trade,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",
+Name,Type,Prerequisites,Description,img_path
+Acolyte,Trade,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/assets/img/acolyte.png
+Scholar,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/assets/img/scholar.png
+Adept," Trade",Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/assets/img/adept.png
+Brute,Trade,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/assets/img/brute.png
 Channeler,Trade,,,
-Defender,Trade,,,
+Defender,Trade,,,/assets/img/defender.png
 Healer,Trade,,,
-Magic-user,Trade,,,
+Magic-user,Trade,,,/assets/img/magic-user.png
 Medic,Trade,,,
-Marksman,Trade,Dangerous 1,,
+Marksman,Trade,Dangerous 1,,/assets/img/marksman.png
 Overseer,Trade,Savvy 2,,
-Scrapper,Trade,,,
-Soldier,Trade,,,
-Tank,Trade,,,
+Scrapper,Trade,,,/assets/img/scrapper.png
+Soldier,Trade,,,/assets/img/soldier.png
+Tank,Trade,,,/assets/img/tank.png
 Thief,Trade,,,
 Troubador,Trade,,,
-Witch,Trade,,,
+Witch,Trade,,,/assets/img/witch.png
 Assassin,Specialization,,,
 Athlete,Specialization,,,
 Diplomat,Trade,,,
