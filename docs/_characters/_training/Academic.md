@@ -1,7 +1,7 @@
 ---
 layout: training
 name: Academic
-permalink: /characters/training/academic
+permalink: /characters/training/academic/
 ---
 
 {% assign trn == site.data.training[page.name] %}
