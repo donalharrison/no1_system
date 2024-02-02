@@ -1,5 +1,6 @@
 ---
 layout: page
+name: Training
 title: Training
 permalink: /characters/training/
 id: characters-training
