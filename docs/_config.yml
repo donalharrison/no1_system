@@ -44,7 +44,7 @@ just_the_docs:
     bamf:
       name: bamf
       nav_fold: true
-    character/training:
+    training:
       name: Training
       nav_fold: true
       # parent: Characters
