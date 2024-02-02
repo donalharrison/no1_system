@@ -25,7 +25,7 @@ collections:
     permalink: /:bamf/:_bamf
     output: true
   training:
-    permalink: /:training/:_characters:_training
+    permalink: /:training/:_training
     output: true
   
 
@@ -40,12 +40,14 @@ just_the_docs:
     characters:
       name: Characters
       nav_fold: true
+      has_children: true
     bamf:
       name: bamf
       nav_fold: true
     training:
       name: Training
       nav_fold: true
+      parent: true
       # Exclude the collection from the navigation
       # Supports true or false (default)
       # nav_exclude: true
