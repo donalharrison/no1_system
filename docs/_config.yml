@@ -40,14 +40,14 @@ just_the_docs:
     characters:
       name: Characters
       nav_fold: true
-      has_children: true
+      # has_children: true
     bamf:
       name: bamf
       nav_fold: true
     character/training:
       name: Training
       nav_fold: true
-      parent: Characters
+      # parent: Characters
       # Exclude the collection from the navigation
       # Supports true or false (default)
       # nav_exclude: true
