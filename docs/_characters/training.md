@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Training"
+title: Training
 permalink: /characters/training/
 id: characters-training
+has_children: true
 ---
 
 
