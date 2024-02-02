@@ -40,7 +40,7 @@ Entropy increases each time a 1 is contained in a roll's final results set.
 Momentum measures the level of success and proactivity the characters have attained.  High Momentum reflects arcs where the characters are experience consistent success in their pursuits.
 Momentum increases each time a roll's final result set contains no 1s and the players maintain the initiative.
 
-## Manuever -- Interacting with Challenge, Entropy, & Momentum
+## Manuevers -- Interacting with Challenge, Entropy, & Momentum
 Players utilize the 
 
 ## Core Roll Mechanic
@@ -50,8 +50,9 @@ Roll a number of dice equal Challenge (plus any applicable modifiers). Count 1 H
 If there is a 1 in the result set, you risk allowing the enemy to seize the Initiative.
 
 - If you have any unspent ranks in your focused Trait, you may choose to reroll any 1 in the result set.
-- If the rerolled result set contains no 1s, total your Hits and your team maintains the Initiative.
-- If the final result still contains any 1s, total your Hits and the enemy seizes the Initiative.
+- If the rerolled result set contains no 1s, total your Hits and your team maintains the Initiative.  Increase the Momentum.
+- If the final result still contains any 1s, total your Hits and the enemy seizes the Initiative.  Increase the Entropy.
+
 
 
 # Core Gameplay Loop
