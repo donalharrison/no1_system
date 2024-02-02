@@ -47,7 +47,7 @@ just_the_docs:
     training:
       name: Training
       nav_fold: true
-      parent: true
+      parent: characters
       # Exclude the collection from the navigation
       # Supports true or false (default)
       # nav_exclude: true
