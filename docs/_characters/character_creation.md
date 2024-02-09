@@ -2,6 +2,7 @@
 layout: default
 title: Characters
 has_children: true
+permalink: /characters/
 ---
 
 # Character Creation
