@@ -27,7 +27,9 @@ collections:
   training:
     permalink: /:training/:_training
     output: true
-  
+  training_child:
+    permalink: /:training/:_characters/:_training
+    output: true
 
 just_the_docs:
   # Define which collections are used in just-the-docs
@@ -46,6 +48,9 @@ just_the_docs:
       nav_fold: true
     training:
       name: Training
+      nav_fold: true
+    training_child:
+      name: Training2
       nav_fold: true
       # parent: Characters
       # Exclude the collection from the navigation
