@@ -1,3 +1,9 @@
+---
+layout: default
+title: Characters
+has_children: true
+---
+
 # Character Creation
 
 Choose primary Trait

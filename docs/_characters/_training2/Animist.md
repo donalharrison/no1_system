@@ -1,7 +1,0 @@
-# Animist
-
-# Prerequisites
-
-# Skills
-
-# Talents

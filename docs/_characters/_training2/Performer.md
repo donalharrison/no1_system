@@ -1,7 +1,0 @@
-# Performer
-
-# Prerequisites
-
-# Skills
-
-# Talents

@@ -1,7 +1,0 @@
-# Vanguard
-
-# Prerequisites
-
-# Skills
-
-# Talents
