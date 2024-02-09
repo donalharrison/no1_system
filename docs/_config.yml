@@ -28,7 +28,7 @@ collections:
     permalink: /:training/:_training
     output: true
   training_child:
-    permalink: /characters/:training/_characters/:_training2
+    permalink: /:characters/:training/_characters/:_training2
     output: true
 
 just_the_docs:
