@@ -13,40 +13,40 @@ markdown: kramdown
 
 # just-the-docs configs
 # Define Jekyll collections
-collections:
-  # Define a collection named "tests", its documents reside in the "_tests" directory
-  core:
-    permalink: /:core/:_core
-    output: true
-  characters:
-    permalink: /:characters/:_characters/
-    output: true
-  bamf:
-    permalink: /:bamf/:_bamf
-    output: true
-  training:
-    permalink: /:training/:_training
-    output: true
+# collections:
+#   # Define a collection named "tests", its documents reside in the "_tests" directory
+#   core:
+#     permalink: /:core/:_core
+#     output: true
+#   characters:
+#     permalink: /:characters/:_characters/
+#     output: true
+#   bamf:
+#     permalink: /:bamf/:_bamf
+#     output: true
+#   training:
+#     permalink: /:training/:_training
+#     output: true
 
 
-just_the_docs:
+# just_the_docs:
   # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "tests" collection
-    core:
-      # Give the collection a name
-      name: Core Rules
-      nav_fold: true
-    characters:
-      name: Characters
-      nav_fold: true
-      has_children: true
-    bamf:
-      name: bamf
-      nav_fold: true
-    training:
-      name: Training
-      nav_fold: true
+  # collections:
+  #   # Reference the "tests" collection
+  #   core:
+  #     # Give the collection a name
+  #     name: Core Rules
+  #     nav_fold: true
+  #   characters:
+  #     name: Characters
+  #     nav_fold: true
+  #     has_children: true
+  #   bamf:
+  #     name: bamf
+  #     nav_fold: true
+  #   training:
+  #     name: Training
+  #     nav_fold: true
       # Exclude the collection from the navigation
       # Supports true or false (default)
       # nav_exclude: true
