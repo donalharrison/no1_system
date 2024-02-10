@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Characters
+name: Characters
 has_children: true
 permalink: /characters/
 ---
