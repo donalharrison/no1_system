@@ -1,7 +1,7 @@
 ---
 layout: training
 name: Acolyte
-permalink: /characters/training/academic/
+permalink: /characters/training/acolyte/
 parent: Training
 Grandparent: Characters
 ---
