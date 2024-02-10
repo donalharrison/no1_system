@@ -1,6 +1,6 @@
 ---
 layout: training
-name: Academic
+title: Academic
 permalink: /characters/training/academic/
 parent: Training
 Grandparent: Characters
