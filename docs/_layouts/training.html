@@ -10,21 +10,13 @@
       
       {% assign trn = site.data.training | where: site.data.training.Name, page.title %}
 
-      <p>
+      <p>  trn should be here </p>
+
+      <p> {{ page.title }} </p>
+
+       {{ site.data.training.Name }}
       
-        trn should be here
-
-        {{ page.title }}
-
-        {{ site.data.training.Name }}
-
-        {{ trn }}
-      
-      {{ trn.Name }}
-
-      {{ trn.Description }}
-
-    </p>
+      <p> {{ trn.Name }} </p>
 
       {{ content }}
 
