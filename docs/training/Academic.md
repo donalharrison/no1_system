@@ -6,7 +6,7 @@ grand_parent: Characters
 permalink: /characters/training/academic/
 ---
 
-{% assign trn == site.data.training[page.name] %}
+{% assign trn == site.data.training[page.title] %}
 
 <em> {{ trn }} </em>
 <h2> {{ trn[Description] }} </h2>
