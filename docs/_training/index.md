@@ -4,6 +4,7 @@ name: Training
 title: Training
 permalink: /characters/training/
 id: characters-training
+parent: Characters
 has_children: true
 ---
 

@@ -2,7 +2,8 @@
 layout: training
 name: Academic
 permalink: /characters/training/academic/
-parent: Characters
+parent: Training
+Grandparent: Characters
 ---
 
 {% assign trn == site.data.training[page.name] %}
