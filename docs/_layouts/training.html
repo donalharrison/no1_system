@@ -8,7 +8,7 @@
     <h1>{{ page.title }}</h1>
     <section>
       
-      {% assign trn = site.data.training | where: site.data.training.Name, page.title %}
+      {% assign trn = site.data.training | where: "Name", page.title %}
 
       <p>  trn should be here </p>
 
