@@ -8,7 +8,7 @@
     <h1>{{ page.title }}</h1>
     <section>
       
-      {{ site.data.training | "Name", page.title }}
+      {{ site.data.training | where:"Name", page.title }}
 
         {{ content }}
 
