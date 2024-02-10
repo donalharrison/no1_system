@@ -8,16 +8,19 @@
     <h1>{{ page.title }}</h1>
     <section>
       
-      {% assign trn = site.data.training | where: "Name", page.title %}
-
-      <p>  trn should be here </p>
-
-      <p> {{ page.title }} </p>
-
-       {{ site.data.training.Name }}
+      {% assign tarn = site.data.training | where: "Name", page.title %}
       
-      <p> {{ trn.Name }} </p>
+      {% for trn in site.data.training %}
 
+        {% if trn.Name == page.title %}
+          <p> {{ page.title }} </p>
+
+          <p>{{ trn.Type }}</p>
+      
+          <p> {{ trn.Name }} </p>
+        {% endif %}
+      {% endfor %}
+      
       {{ content }}
 
     </section>
