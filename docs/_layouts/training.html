@@ -10,9 +10,13 @@
       
       {{ assign trn = site.data.training | where: site.data.training.name, page.title }}
 
+      <p>
+        
       {{ trn.Name }}
 
       {{ trn.Description }}
+
+    </p>
 
       {{ content }}
 
