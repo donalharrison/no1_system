@@ -1,9 +1,9 @@
 ---
 layout: training
 title: Academic
-permalink: /characters/training/academic/
 parent: Training
 Grandparent: Characters
+permalink: /characters/training/academic/
 ---
 
 {% assign trn == site.data.training[page.name] %}
