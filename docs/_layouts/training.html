@@ -8,7 +8,9 @@
     <h1>{{ page.title }}</h1>
     <section>
       
-      {% assign tarn = site.data.training | where: "Name", page.title %}
+      {% assign tarn = site.data.training | where: Name, page.title %}
+
+      <h4> {{ tarn.Name }} </h4>
       
       {% for trn in site.data.training %}
 
@@ -20,7 +22,7 @@
           <p> {{ trn.Name }} </p>
         {% endif %}
       {% endfor %}
-      
+
       {{ content }}
 
     </section>
