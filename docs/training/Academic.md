@@ -2,7 +2,7 @@
 layout: training
 title: Academic
 parent: Training
-Grandparent: Characters
+grand_parent: Characters
 permalink: /characters/training/academic/
 ---
 
