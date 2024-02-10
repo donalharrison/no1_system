@@ -1,40 +1,40 @@
 Name,Type,Prerequisites,Description,img_path
+Academic,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/assets/img/scholar.png
 Acolyte,Trade,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/assets/img/acolyte.png
-Scholar,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/assets/img/scholar.png
 Adept," Trade",Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/assets/img/adept.png
+Archmage,Discipline,,,
+Assassin,Specialization,,,
+Athlete,Specialization,,,
+Bastion,Discipline,,,
 Brute,Trade,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/assets/img/brute.png
 Channeler,Trade,,,
 Defender,Trade,,,/assets/img/defender.png
-Healer,Trade,,,
-Magic-user,Trade,,,/assets/img/magic-user.png
-Medic,Trade,,,
-Marksman,Trade,Dangerous 1,,/assets/img/marksman.png
-Overseer,Trade,Savvy 2,,
-Scrapper,Trade,,,/assets/img/scrapper.png
-Soldier,Trade,,,/assets/img/soldier.png
-Tank,Trade,,,/assets/img/tank.png
-Thief,Trade,,,
-Troubador,Trade,,,
-Witch,Trade,,,/assets/img/witch.png
-Assassin,Specialization,,,
-Athlete,Specialization,,,
 Diplomat,Trade,,,
 Driver,Specialization,,,
 Duelist,Specialization,,,
 Engineer,Specialization,,,
+Fury,Discipline,,,
+Healer,Trade,,,
 Hunter,Specialization,,,
 Infiltrator,Specialization,,,
 Knight,Specialization,,,
 Mage,Specialization,,,
+Magic-user,Trade,,,/assets/img/magic-user.png
+Marksman,Trade,Dangerous 1,,/assets/img/marksman.png
+Medic,Trade,,,
 Mesmer,Specialization,,,
+Overseer,Trade,Savvy 2,,
 Pilot,Specialization,,,
 Ranger,Specialization,,,
 Scout,Specialization,,,
+Scrapper,Trade,,,/assets/img/scrapper.png
+Shock Trooper,Discipline,,,
+Soldier,Trade,,,/assets/img/soldier.png
 Spy,Specialization,,,
 Tactician,Specialization,,,
-Wrestler,Specialization,,,
-Archmage,Discipline,,,
-Bastion,Discipline,,,
-Fury,Discipline,,,
-Shock Trooper,Discipline,,,
+Tank,Trade,,,/assets/img/tank.png
+Thief,Trade,,,
+Troubador,Trade,,,
 Vanguard,Discipline,,,
+Witch,Trade,,,/assets/img/witch.png
+Wrestler,Specialization,,,

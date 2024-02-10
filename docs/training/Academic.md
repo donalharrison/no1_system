@@ -8,6 +8,9 @@ permalink: /characters/training/academic/
 
 {% assign trn == site.data.training[page.name] %}
 
+<em> {{ trn.Name }} </em>
+<h2> {{ trn.Description }} </h2>
+
 # Academic
 
 Type: Trade
