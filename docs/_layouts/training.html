@@ -11,7 +11,11 @@
       {{ assign trn = site.data.training | where: site.data.training.name, page.title }}
 
       <p>
-        
+      
+        trn should be here
+
+        {{ trn }}
+      
       {{ trn.Name }}
 
       {{ trn.Description }}
