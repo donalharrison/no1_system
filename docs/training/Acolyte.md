@@ -1,3 +1,11 @@
+---
+layout: training
+name: Acolyte
+permalink: /characters/training/academic/
+parent: Training
+Grandparent: Characters
+---
+
 # Acolyte
 
 Type: Trade

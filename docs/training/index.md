@@ -6,6 +6,7 @@ permalink: /characters/training/
 id: characters-training
 parent: Characters
 has_children: true
+nav_order: 2
 ---
 
 
