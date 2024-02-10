@@ -4,7 +4,7 @@ name: Acolyte
 permalink: /characters/training/acolyte/
 parent: Training
 Grandparent: Characters
-nav_iorder: 1
+nav_order: 1
 ---
 
 # Acolyte

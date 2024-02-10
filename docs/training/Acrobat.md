@@ -1,7 +1,7 @@
 ---
 layout: training
 name: Acrobat
-permalink: /characters/training/academic/
+permalink: /characters/training/acrobat/
 parent: Training
 Grandparent: Characters
 ---
