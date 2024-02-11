@@ -1,15 +1,14 @@
 ---
 layout: training
-title: Channeler
+title: Magic-User
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/channeler/
+permalink: /characters/training/magic-user/
 ---
 
-# Channeler
+# Magic-User
 
 Type: Trade
-Prerequisites: Dangerous 1, Magic Skills
 
 # Prerequisites
 

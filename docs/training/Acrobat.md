@@ -3,7 +3,7 @@ layout: training
 name: Acrobat
 permalink: /characters/training/acrobat/
 parent: Training
-Grandparent: Characters
+grand_parent: Characters
 ---
 
 # Acrobat

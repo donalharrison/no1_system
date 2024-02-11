@@ -19,11 +19,17 @@ layout: default
       {% for trn in site.data.training %}
 
         {% if trn.Name == page.title %}
-          <p> {{ page.title }} </p>
+          <img src={{ trn.img_path }} width="50" height="50">
+
+          <p> {{ trn.Name }} </p>
 
           <p>{{ trn.Type }}</p>
+
+          <p>{{ trn.Prerequesites }}</p>
+
+          <p>{{ trn.Description }}</p>
       
-          <p> {{ trn.Name }} </p>
+          
         {% endif %}
       {% endfor %}
 
