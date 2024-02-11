@@ -1,14 +1,14 @@
 Name,Type,Prerequisites,Description,img_path
-Academic,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/docs/assets/img/scholar.png
-Acolyte,Trade,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/docs/assets/img/acolyte.png
-Adept," Trade",Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/docs/assets/img/adept.png
+Academic,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/assets/img/scholar.png
+Acolyte,Trade,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/assets/img/acolyte.png
+Adept," Trade",Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/assets/img/adept.png
 Archmage,Discipline,,,
 Assassin,Specialization,,,
 Athlete,Specialization,,,
 Bastion,Discipline,,,
-Brute,Trade,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/docs/assets/img/brute.png
+Brute,Trade,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/assets/img/brute.png
 Channeler,Trade,,,
-Defender,Trade,,,/docs/assets/img/defender.png
+Defender,Trade,,,/assets/img/defender.png
 Diplomat,Trade,,,
 Driver,Specialization,,,
 Duelist,Specialization,,,
