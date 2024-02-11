@@ -11,21 +11,18 @@ layout: default
   <body>
     <h1>{{ page.title }}</h1>
     <section>
-      
-      {% assign tarn = site.data.training | where: Name, page.title %}
-
-      <h4> {{ tarn.Name }} </h4>
-      
+           
       {% for trn in site.data.training %}
 
         {% if trn.Name == page.title %}
+
           <img src={{ trn.img_path }} width="50" height="50">
 
           <p> {{ trn.Name }} </p>
 
           <p>{{ trn.Type }}</p>
 
-          <p>{{ trn.Prerequesites }}</p>
+          <p>{{ trn.Prerequisites }}</p>
 
           <p>{{ trn.Description }}</p>
       

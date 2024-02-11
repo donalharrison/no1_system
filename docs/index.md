@@ -1,6 +1,6 @@
 # No1s System
 
-![This is a d6 rolling a 1.](/assets/img/perspective-dice-one.png)
+![This is a d6 rolling a 1.](/docs/assets/img/perspective-dice-one.png)
 
 Development &amp; doc repo for No1 RPG System
 
