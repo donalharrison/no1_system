@@ -5,14 +5,3 @@ parent: Training
 grand_parent: Characters
 permalink: /characters/training/channeler/
 ---
-
-# Channeler
-
-Type: Trade
-Prerequisites: Dangerous 1, Magic Skills
-
-# Prerequisites
-
-# Skills
-
-# Talents

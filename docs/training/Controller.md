@@ -5,11 +5,3 @@ parent: Training
 grand_parent: Characters
 permalink: /characters/training/controller/
 ---
-
-# Controller
-
-# Prerequisites
-
-# Skills
-
-# Talents
