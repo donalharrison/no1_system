@@ -5,11 +5,3 @@ parent: Training
 grand_parent: Characters
 permalink: /characters/training/performer/
 ---
-
-# Performer
-
-# Prerequisites
-
-# Skills
-
-# Talents

@@ -5,11 +5,3 @@ parent: Training
 grand_parent: Characters
 permalink: /characters/training/vanguard/
 ---
-
-# Vanguard
-
-# Prerequisites
-
-# Skills
-
-# Talents
