@@ -21,19 +21,21 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
         {% for t in site.data.training %}
             {% if t.Type == "Basic" %}
                 <td>
-                    <img src={{ t.img_path }} width="70" height="70">
+                    <img src="{{ t.img_path }}" width="70" height="70">
                     <br>
                     {{ t.Name }}
                     </td>
                 
-                {% assign i = forloop.length | modulo: 4 %}
+                {% assign i = forloop.index | modulo: 4 %}
                 {% if i == 0 %}
                     </tr>
                     <tr>
                 {% endif %}
             {% endif %}
         {% endfor %}
+
     </tr>
+
 </table>
 
 
