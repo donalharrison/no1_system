@@ -45,7 +45,7 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
 <table style="text-align: center;">
     <tr>
         {% for t in site.data.training %}
-            {% if t.Type == "Specializations" %}
+            {% if t.Type == "Specialization" %}
 
                 <td style="width: 80; height: 80px">
                 
@@ -71,7 +71,7 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
 <table style="text-align: center;">
     <tr>
         {% for t in site.data.training %}
-            {% if t.Type == "Disciplines" %}
+            {% if t.Type == "Discipline" %}
 
                 <td style="width: 80; height: 80px">
                 
