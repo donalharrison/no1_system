@@ -1,7 +1,7 @@
 ---
 layout: training
-title: Troubador
+title: Troubadour
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/troubador/
+permalink: /characters/training/troubadour/
 ---
