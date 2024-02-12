@@ -1,5 +1,5 @@
 Name,Type,Prerequisites,Description,img_path
-Academic,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/assets/img/scholar.png
+Academic,Trade,Savvy 2,You are highly knowledgeable & able to research complex topics.,/no1_system/assets/img/scholar.png
 Acolyte,Trade,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/assets/img/acolyte.png
 Adept," Trade",Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/assets/img/adept.png
 Archmage,Discipline,,,
