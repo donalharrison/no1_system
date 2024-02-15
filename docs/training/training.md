@@ -18,7 +18,7 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
 
 <table style="text-align: center;">
     <tr>
-        {% assign basics = site.data.training | where: site.data.training["Type"], "Basic" %}
+        {% assign basics = site.data.training | where: site.data.training.Type, "Basic" %}
         {% for t in basics %}
             {% if t.Type == "Basic" %}
 
