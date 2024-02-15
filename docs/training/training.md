@@ -18,7 +18,7 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
 
 <table style="text-align: center;">
     <tr>
-        {% assign basics = site.data.training | where: site.data.training.Type, "Basic" %}
+        {% assign basics = site.data.training | where: "Type", "Basic" %}
         {% for t in basics %}
 
                 <td style="width: 80; height: 80px">
