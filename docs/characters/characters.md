@@ -4,6 +4,7 @@ title: Characters
 name: Characters
 has_children: true
 permalink: /characters/
+nav_order: 2
 ---
 
 # Character Creation
