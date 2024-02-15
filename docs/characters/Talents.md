@@ -3,6 +3,7 @@ layout: page
 title: "Talents"
 permalink: /characters/talents/
 id: characters-talents
+parent: Characters
 ---
 
 # Talents

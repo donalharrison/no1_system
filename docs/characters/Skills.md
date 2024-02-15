@@ -3,6 +3,7 @@ layout: page
 title: "Skills"
 permalink: /characters/skills/
 id: characters-skills
+parent: Characters
 nav_order: 2
 ---
 
