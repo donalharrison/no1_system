@@ -1,7 +1,9 @@
 ---
 layout: page
-title: "Core"
+title: Shifts
 permalink: /core/shifts/
+parent: Core System
+nav_order: 4
 ---
 
 # Shifts

@@ -2,6 +2,8 @@
 layout: page
 title: "Actions"
 permalink: /core/actions/
+parent: Core System
+nav_order: 3
 ---
 
 # Actions

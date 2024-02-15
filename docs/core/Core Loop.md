@@ -2,6 +2,8 @@
 layout: page
 title: "Core"
 permalink: /core/core_loop/
+parent: Core System
+nav_order: 2
 ---
 
 # Core Loop
@@ -23,3 +25,5 @@ Actions are more concerted efforts and advanced maneuvers that allow the player 
 If the result set of an Action contains a 1, the initiative shifts to the opposing team.
 
 Play proceeds in this manner until the active Timer expires, and continues accordingly in the following scene.
+
+## Example
