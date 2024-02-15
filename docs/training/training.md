@@ -22,10 +22,11 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
         {% for t in basics %}
 
                 <td style="width: 80; height: 80px">
-
+                    <a href="{{ t.page_path }}">
                     <img src="{{ t.img_path }}" width="70" height="70">
                     <br>
                     {{ t.Name }}
+                    </a>
                     </td>
                 
                 {% assign i = forloop.index | modulo: 4 %}
@@ -47,10 +48,11 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
         {% for t in specs %}
 
                 <td style="width: 80; height: 80px">
-                
+                    <a href="{{ t.page_path }}">
                     <img src="{{ t.img_path }}" width="70" height="70">
                     <br>
                     {{ t.Name }}
+                    </a>
                     </td>
                 
                 {% assign i = forloop.index | modulo: 4 %}
@@ -72,10 +74,11 @@ Trainings are categorized in three different type -- Basics, Specializations, & 
         {% for t in discs %}
 
                 <td style="width: 80; height: 80px">
-                
+                    <a href="{{ t.page_path }}">
                     <img src="{{ t.img_path }}" width="70" height="70">
                     <br>
                     {{ t.Name }}
+                    </a>
                     </td>
                 
                 {% assign i = forloop.index | modulo: 4 %}

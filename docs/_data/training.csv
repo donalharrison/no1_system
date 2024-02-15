@@ -1,40 +1,40 @@
-Name,Type,Prerequisites,Description,img_path
-Academic,Basic,Savvy 2,You are highly knowledgeable & able to research complex topics.,/no1_system/assets/img/scholar.png
-Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png
-Adept,Basic,Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/no1_system/assets/img/adept.png
-Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png
-Channeler,Basic,,,/no1_system/assets/img/channeler.png
-Defender,Basic,,,/no1_system/assets/img/defender.png
-Diplomat,Basic,,,/no1_system/assets/img/diplomat.png
-Healer,Basic,,,/no1_system/assets/img/healer.png
-Magic-user,Basic,,,/no1_system/assets/img/magic-user.png
-Marksman,Basic,Dangerous 1,,/no1_system/assets/img/marksman.png
-Medic,Basic,,,/no1_system/assets/img/medic.png
-Overseer,Basic,Savvy 2,,/no1_system/assets/img/overseer.png
-Scrapper,Basic,,,/no1_system/assets/img/scrapper.png
-Soldier,Basic,,,/no1_system/assets/img/soldier.png
-Tank,Basic,,,/no1_system/assets/img/tank.png
-Thief,Basic,,,/no1_system/assets/img/thief.png
-Troubador,Basic,,,/no1_system/assets/img/troubador.png
-Witch,Basic,,,/no1_system/assets/img/witch.png
-Assassin,Specialization,,,/no1_system/assets/img/assassin.png
-Athlete,Specialization,,,/no1_system/assets/img/athlete.png
-Driver,Specialization,,,/no1_system/assets/img/driver.png
-Duelist,Specialization,,,/no1_system/assets/img/duelist.png
-Engineer,Specialization,,,/no1_system/assets/img/engineer.png
-Hunter,Specialization,,,/no1_system/assets/img/hunter.png
-Infiltrator,Specialization,,,/no1_system/assets/img/infiltrator.png
-Knight,Specialization,,,/no1_system/assets/img/knight.png
-Mage,Specialization,,,/no1_system/assets/img/mage.png
-Mesmer,Specialization,,,/no1_system/assets/img/mesmer.png
-Pilot,Specialization,,,/no1_system/assets/img/pilot.png
-Ranger,Specialization,,,/no1_system/assets/img/ranger.png
-Scout,Specialization,,,/no1_system/assets/img/scout.png
-Spy,Specialization,,,/no1_system/assets/img/spy.png
-Tactician,Specialization,,,/no1_system/assets/img/tactician.png
-Wrestler,Specialization,,,/no1_system/assets/img/wrestler.png
-Archmage,Discipline,,,/no1_system/assets/img/archmage.png
-Bastion,Discipline,,,/no1_system/assets/img/bastion.png
-Fury,Discipline,,,/no1_system/assets/img/fury.png
-Shock Trooper,Discipline,,,/no1_system/assets/img/shock trooper.png
-Vanguard,Discipline,,,/no1_system/assets/img/vanguard.png
+Name,Type,Prerequisites,Description,img_path,page_path
+Academic,Basic,Savvy 2,You are highly knowledgeable & able to research complex topics.,/no1_system/assets/img/scholar.png,/no1_system/characters/training/academic/
+Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
+Adept,Basic,Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
+Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png,/no1_system/characters/training/brute/
+Channeler,Basic,,,/no1_system/assets/img/channeler.png,/no1_system/characters/training/channeler/
+Defender,Basic,,,/no1_system/assets/img/defender.png,/no1_system/characters/training/defender/
+Diplomat,Basic,,,/no1_system/assets/img/diplomat.png,/no1_system/characters/training/diplomat/
+Healer,Basic,,,/no1_system/assets/img/healer.png,/no1_system/characters/training/healer/
+Magic-user,Basic,,,/no1_system/assets/img/magic-user.png,/no1_system/characters/training/magic-user/
+Marksman,Basic,Dangerous 1,,/no1_system/assets/img/marksman.png,/no1_system/characters/training/marksman/
+Medic,Basic,,,/no1_system/assets/img/medic.png,/no1_system/characters/training/medic/
+Overseer,Basic,Savvy 2,,/no1_system/assets/img/overseer.png,/no1_system/characters/training/overseer/
+Scrapper,Basic,,,/no1_system/assets/img/scrapper.png,/no1_system/characters/training/scrapper/
+Soldier,Basic,,,/no1_system/assets/img/soldier.png,/no1_system/characters/training/soldier/
+Tank,Basic,,,/no1_system/assets/img/tank.png,/no1_system/characters/training/tank/
+Thief,Basic,,,/no1_system/assets/img/thief.png,/no1_system/characters/training/thief/
+Troubadour,Basic,,,/no1_system/assets/img/troubador.png,/no1_system/characters/training/troubadour/
+Witch,Basic,,,/no1_system/assets/img/witch.png,/no1_system/characters/training/witch/
+Assassin,Specialization,,,/no1_system/assets/img/assassin.png,/no1_system/characters/training/assassin/
+Athlete,Specialization,,,/no1_system/assets/img/athlete.png,/no1_system/characters/training/athlete/
+Driver,Specialization,,,/no1_system/assets/img/driver.png,/no1_system/characters/training/driver/
+Duelist,Specialization,,,/no1_system/assets/img/duelist.png,/no1_system/characters/training/duelist/
+Engineer,Specialization,,,/no1_system/assets/img/engineer.png,/no1_system/characters/training/engineer/
+Hunter,Specialization,,,/no1_system/assets/img/hunter.png,/no1_system/characters/training/hunter/
+Infiltrator,Specialization,,,/no1_system/assets/img/infiltrator.png,/no1_system/characters/training/infiltrator/
+Knight,Specialization,,,/no1_system/assets/img/knight.png,/no1_system/characters/training/knight/
+Mage,Specialization,,,/no1_system/assets/img/mage.png,/no1_system/characters/training/mage/
+Mesmer,Specialization,,,/no1_system/assets/img/mesmer.png,/no1_system/characters/training/mesmer/
+Pilot,Specialization,,,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
+Ranger,Specialization,,,/no1_system/assets/img/ranger.png,/no1_system/characters/training/ranger/
+Scout,Specialization,,,/no1_system/assets/img/scout.png,/no1_system/characters/training/scout/
+Spy,Specialization,,,/no1_system/assets/img/spy.png,/no1_system/characters/training/spy/
+Tactician,Specialization,,,/no1_system/assets/img/tactician.png,/no1_system/characters/training/tactician/
+Wrestler,Specialization,,,/no1_system/assets/img/wrestler.png,/no1_system/characters/training/wrestler/
+Archmage,Discipline,,,/no1_system/assets/img/archmage.png,/no1_system/characters/training/archmage/
+Bastion,Discipline,,,/no1_system/assets/img/bastion.png,/no1_system/characters/training/bastion/
+Fury,Discipline,,,/no1_system/assets/img/fury.png,/no1_system/characters/training/fury/
+Shock Trooper,Discipline,,,/no1_system/assets/img/shock trooper.png,/no1_system/characters/training/shock trooper/
+Vanguard,Discipline,,,/no1_system/assets/img/vanguard.png,/no1_system/characters/training/vanguard/
