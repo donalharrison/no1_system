@@ -4,4 +4,5 @@ title: Scrapper
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/scrapper/
+nav_exclude: true
 ---

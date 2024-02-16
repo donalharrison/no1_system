@@ -4,4 +4,5 @@ title: Controller
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/controller/
+nav_exclude: true
 ---

@@ -4,4 +4,5 @@ title: Hunter
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/hunter/
+nav_exclude: true
 ---

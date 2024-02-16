@@ -4,4 +4,5 @@ title: Bastion
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/bastion/
+nav_exclude: true
 ---

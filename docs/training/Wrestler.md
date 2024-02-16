@@ -4,4 +4,5 @@ title: Wrestler
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/wrestler/
+nav_exclude: true
 ---

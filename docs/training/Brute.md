@@ -4,4 +4,5 @@ title: Brute
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/brute/
+nav_exclude: true
 ---

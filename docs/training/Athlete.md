@@ -4,4 +4,5 @@ title: Athlete
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/athlete/
+nav_exclude: true
 ---
