@@ -39,46 +39,46 @@ Fury,Discipline,,"You call upon the primal forces of the storm to erode your foe
 Shock Trooper,Discipline,,"You embrace high-impact combat, specializing in rapid assaults and overwhelming force.",/no1_system/assets/img/shock_trooper.png,/no1_system/characters/training/shock_trooper/
 Vanguard,Discipline,,"You lead the charge in battle, combining offensive and defensive capabilities to control the pace of combat.",/no1_system/assets/img/vanguard.png,/no1_system/characters/training/vanguard/
 Bounty Hunter,Specialization,,"You specialize in tracking and capturing individuals for rewards, gaining skills in investigation, surveillance, and subduing targets.",/no1_system/assets/img/bounty_hunter.png,/no1_system/characters/training/bounty_hunter/
-Shugenja,Specialization,,"You master the mystical arts of elemental and spirit magic, able to create powerful spells through prayer and ritual.",/no1_system/assets/img/shugenja/,/no1_system/characters/training/shugenja/
-Psion,Specialization,,"You posses great psychic abilities, granting you telepathy, telekinesis, and other powers of the mind.",/no1_system/assets/img/psion/,/no1_system/characters/training/psion/
-Probabilist,Specialization,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist/,/no1_system/characters/training/probabilist/
-Druid,Basic,,"You are an exponent of nature, possessing the ability to commune with animals and wield primal magic.",/no1_system/assets/img/druid/,/no1_system/characters/training/druid/
-Shaman,Specialization,,"You engage in ancient spiritual practices, gaining powers from the spirit world and connecting with ancestral energies.",/no1_system/assets/img/shaman/,/no1_system/characters/training/shaman/
-Martial Artist,Basic,,"You are trained in hand-to-hand combat, emphasizing fluid movements, precise strikes, and disciplined techniques.",/no1_system/assets/img/martial_artist/,/no1_system/characters/training/martial_artist/
-Spellreaver,Discipline,,"You draw upon arcane energies recklessly, fueling your battle frenzy to terrifying effect.",/no1_system/assets/img/spellreaver/,/no1_system/characters/training/spellreaver/
-Summoner,Specialization,,"You call upon creatures and otherworldly beings, commanding them to aid in battles or perform tasks.",/no1_system/assets/img/summoner/,/no1_system/characters/training/summoner/
-Transmuter,Specialization,,"You are adept in the art of transformation and alteration, changing the properties of objects and creatures.",/no1_system/assets/img/transmuter/,/no1_system/characters/training/transmuter/
-Shifter,Specialization,,"You possess the ability to transform your physical form, gaining unique and adaptable capabilities.",/no1_system/assets/img/shifter/,/no1_system/characters/training/shifter/
-Necromancer,Specialization,,"You command the forces of death and undeath, raising corpses and wielding dark magic.",/no1_system/assets/img/necromancer/,/no1_system/characters/training/necromancer/
-Juggernaut,Discipline,,"You are an unstoppable force on the battlefield, unharried by most enemy forces.",/no1_system/assets/img/juggernaut/,/no1_system/characters/training/juggernaut/
-Lich,Discipline,,"You exchanged your own humanity in the pursuit of unbridled power and immortality, and it was worth it.",/no1_system/assets/img/lich/,/no1_system/characters/training/lich/
-Mageknight,Discipline,,"You infuse martial prowess with arcane abilities, excelling in both physical and magical combat.",/no1_system/assets/img/mageknight/,/no1_system/characters/training/mageknight/
-Shinobi,Specialization,,"You combine stealth, espionage, and unconventional warfare, specializing in silent and deadly tactics.",/no1_system/assets/img/shinobi/,/no1_system/characters/training/shinobi/
-Samurai,Specialization,,"You embrace the way of the warrior, focusing on honor, discipline, and mastery of the blade.",/no1_system/assets/img/samurai/,/no1_system/characters/training/samurai/
-Oracle,Specialization,,"You experience divine insights and prophetic visions, providing guidance and foresight.",/no1_system/assets/img/oracle/,/no1_system/characters/training/oracle/
-Corsair,Specialization,,"You are a specialist in naval combat, piracy, and maritime adventures.",/no1_system/assets/img/corsair/,/no1_system/characters/training/corsair/
-Raindancer,Discipline,,"You control and manipulate weather, influencing the natural energies to your own advantage.",/no1_system/assets/img/raindancer/,/no1_system/characters/training/raindancer/
-Pugilist,Specialization,,"You excel in bare-knuckle brawling, using sheer physical power and tenacity in combat.",/no1_system/assets/img/pugilist/,/no1_system/characters/training/pugilist/
-Reaver,Specialization,,"You wield dark and destructive powers, unleashing chaos and devastation.",/no1_system/assets/img/reaver/,/no1_system/characters/training/reaver/
-Berserker,Specialization,,"You channel primal rage, becoming a ferocious and relentless force on the battlefield.",/no1_system/assets/img/berserker/,/no1_system/characters/training/berserker/
-Black Belt,Specialization,,"You attained the highest level of martial arts mastery, focusing on discipline, control, and precision.",/no1_system/assets/img/black belt/,/no1_system/characters/training/black belt/
-Grandmaster,Discipline,,"You achieved unparalleled expertise in a martial discipline, mastering various skills and abilities.",/no1_system/assets/img/grandmaster/,/no1_system/characters/training/grandmaster/
-Blade Weaver,Discipline,,"You blend martial skill with mystical arts, enchanting weapons and executing powerful techniques in a lethal dance.",/no1_system/assets/img/blade_weaver/,/no1_system/characters/training/blade_weaver/
-Scoundrel,Basic,,"You specialize in cunning and trickery, excelling in deceit and manipulation.",/no1_system/assets/img/scoundrel/,/no1_system/characters/training/scoundrel/
-Detective,Specialization,,"You are a master in the art of investigation, solving mysteries and uncovering hidden truths.",/no1_system/assets/img/detective/,/no1_system/characters/training/detective/
-Priest,Basic,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest/,/no1_system/characters/training/priest/
-Zealot,Discipline,,"You are devoted to an unwavering cause or deity, becoming a fervent and unyielding force.",/no1_system/assets/img/zealot/,/no1_system/characters/training/zealot/
-Dragoon,Discipline,,"You are a master of mounted combat, specializing in lance-based attacks.",/no1_system/assets/img/dragoon/,/no1_system/characters/training/dragoon/
-Swashbuckler,Specialization,,"You embrace a flamboyant and daring style of combat, focusing on agility and finesse.",/no1_system/assets/img/swashbuckler/,/no1_system/characters/training/swashbuckler/
-Beastmaster,Specialization,,"You form bonds with animals, commanding and fighting alongside loyal companions.",/no1_system/assets/img/beastmaster/,/no1_system/characters/training/beastmaster/
-Warlord,Discipline,,"You lead armies and command troops, specializing in strategic and tactical warfare.",/no1_system/assets/img/warlord/,/no1_system/characters/training/warlord/
-Diabolist,Specialization,,"You form pacts with dark entities, gaining infernal powers and dark magic.",/no1_system/assets/img/diabolist/,/no1_system/characters/training/diabolist/
-Skald,Discipline,,"You combine musical and combat abilities, inspiring allies and striking fear into enemies.",/no1_system/assets/img/skald/,/no1_system/characters/training/skald/
-Alchemist,Specialization,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist/,/no1_system/characters/training/alchemist/
-Courtier,Specialization,,"You navigate courtly intrigue, gaining favor and influence in political circles.",/no1_system/assets/img/courtier/,/no1_system/characters/training/courtier/
-Thrall,Specialization,,"You serve a supernatural or otherworldly master, gaining powers and abilities through a dark pact.",/no1_system/assets/img/thrall/,/no1_system/characters/training/thrall/
-Confessor,Specialization,,"You wield a righteous and divine fury, possessing the ability to extract truths through interrogation and purge the sins of the wicked masses.",/no1_system/assets/img/confessor/,/no1_system/characters/training/confessor/
-Elementalist,Specialization,,"You control and manipulate the elemental forces, weaving powerful spells to devastating effect.",/no1_system/assets/img/elementalist/,/no1_system/characters/training/elementalist/
-Zenith,Discipline,,"You have attained the peak of elemental mastery, achieving extraordinary abilities to bend and command the elements.",/no1_system/assets/img/zenith/,/no1_system/characters/training/zenith/
-Paragon,Discipline,,"You exemplify perfection in a chosen field, gaining unparalleled expertise and skill.",/no1_system/assets/img/paragon/,/no1_system/characters/training/paragon/
-Traveler,Discipline,,"You have develop an understanding of forgotten pathways and gates between worlds, granting you passage across the realms unhindered.",/no1_system/assets/img/traveler/,/no1_system/characters/training/traveler/
+Shugenja,Specialization,,"You master the mystical arts of elemental and spirit magic, able to create powerful spells through prayer and ritual.",/no1_system/assets/img/shugenja.png,/no1_system/characters/training/shugenja/
+Psion,Specialization,,"You posses great psychic abilities, granting you telepathy, telekinesis, and other powers of the mind.",/no1_system/assets/img/psion.png,/no1_system/characters/training/psion/
+Probabilist,Specialization,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist.png,/no1_system/characters/training/probabilist/
+Druid,Basic,,"You are an exponent of nature, possessing the ability to commune with animals and wield primal magic.",/no1_system/assets/img/druid.png,/no1_system/characters/training/druid/
+Shaman,Specialization,,"You engage in ancient spiritual practices, gaining powers from the spirit world and connecting with ancestral energies.",/no1_system/assets/img/shaman.png,/no1_system/characters/training/shaman/
+Martial Artist,Basic,,"You are trained in hand-to-hand combat, emphasizing fluid movements, precise strikes, and disciplined techniques.",/no1_system/assets/img/martial_artist.png,/no1_system/characters/training/martial_artist/
+Spellreaver,Discipline,,"You draw upon arcane energies recklessly, fueling your battle frenzy to terrifying effect.",/no1_system/assets/img/spellreaver.png,/no1_system/characters/training/spellreaver/
+Summoner,Specialization,,"You call upon creatures and otherworldly beings, commanding them to aid in battles or perform tasks.",/no1_system/assets/img/summoner.png,/no1_system/characters/training/summoner/
+Transmuter,Specialization,,"You are adept in the art of transformation and alteration, changing the properties of objects and creatures.",/no1_system/assets/img/transmuter.png,/no1_system/characters/training/transmuter/
+Shifter,Specialization,,"You possess the ability to transform your physical form, gaining unique and adaptable capabilities.",/no1_system/assets/img/shifter.png,/no1_system/characters/training/shifter/
+Necromancer,Specialization,,"You command the forces of death and undeath, raising corpses and wielding dark magic.",/no1_system/assets/img/necromancer.png,/no1_system/characters/training/necromancer/
+Juggernaut,Discipline,,"You are an unstoppable force on the battlefield, unharried by most enemy forces.",/no1_system/assets/img/juggernaut.png,/no1_system/characters/training/juggernaut/
+Lich,Discipline,,"You exchanged your own humanity in the pursuit of unbridled power and immortality, and it was worth it.",/no1_system/assets/img/lich.png,/no1_system/characters/training/lich/
+Mageknight,Discipline,,"You infuse martial prowess with arcane abilities, excelling in both physical and magical combat.",/no1_system/assets/img/mageknight.png,/no1_system/characters/training/mageknight/
+Shinobi,Specialization,,"You combine stealth, espionage, and unconventional warfare, specializing in silent and deadly tactics.",/no1_system/assets/img/shinobi.png,/no1_system/characters/training/shinobi/
+Samurai,Specialization,,"You embrace the way of the warrior, focusing on honor, discipline, and mastery of the blade.",/no1_system/assets/img/samurai.png,/no1_system/characters/training/samurai/
+Oracle,Specialization,,"You experience divine insights and prophetic visions, providing guidance and foresight.",/no1_system/assets/img/oracle.png,/no1_system/characters/training/oracle/
+Corsair,Specialization,,"You are a specialist in naval combat, piracy, and maritime adventures.",/no1_system/assets/img/corsair.png,/no1_system/characters/training/corsair/
+Raindancer,Discipline,,"You control and manipulate weather, influencing the natural energies to your own advantage.",/no1_system/assets/img/raindancer.png,/no1_system/characters/training/raindancer/
+Pugilist,Specialization,,"You excel in bare-knuckle brawling, using sheer physical power and tenacity in combat.",/no1_system/assets/img/pugilist.png,/no1_system/characters/training/pugilist/
+Reaver,Specialization,,"You wield dark and destructive powers, unleashing chaos and devastation.",/no1_system/assets/img/reaver.png,/no1_system/characters/training/reaver/
+Berserker,Specialization,,"You channel primal rage, becoming a ferocious and relentless force on the battlefield.",/no1_system/assets/img/berserker.png,/no1_system/characters/training/berserker/
+Black Belt,Specialization,,"You attained the highest level of martial arts mastery, focusing on discipline, control, and precision.",/no1_system/assets/img/black belt.png,/no1_system/characters/training/black belt/
+Grandmaster,Discipline,,"You achieved unparalleled expertise in a martial discipline, mastering various skills and abilities.",/no1_system/assets/img/grandmaster.png,/no1_system/characters/training/grandmaster/
+Blade Weaver,Discipline,,"You blend martial skill with mystical arts, enchanting weapons and executing powerful techniques in a lethal dance.",/no1_system/assets/img/blade_weaver.png,/no1_system/characters/training/blade_weaver/
+Scoundrel,Basic,,"You specialize in cunning and trickery, excelling in deceit and manipulation.",/no1_system/assets/img/scoundrel.png,/no1_system/characters/training/scoundrel/
+Detective,Specialization,,"You are a master in the art of investigation, solving mysteries and uncovering hidden truths.",/no1_system/assets/img/detective.png,/no1_system/characters/training/detective/
+Priest,Basic,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest.png,/no1_system/characters/training/priest/
+Zealot,Discipline,,"You are devoted to an unwavering cause or deity, becoming a fervent and unyielding force.",/no1_system/assets/img/zealot.png,/no1_system/characters/training/zealot/
+Dragoon,Discipline,,"You are a master of mounted combat, specializing in lance-based attacks.",/no1_system/assets/img/dragoon.png,/no1_system/characters/training/dragoon/
+Swashbuckler,Specialization,,"You embrace a flamboyant and daring style of combat, focusing on agility and finesse.",/no1_system/assets/img/swashbuckler.png,/no1_system/characters/training/swashbuckler/
+Beastmaster,Specialization,,"You form bonds with animals, commanding and fighting alongside loyal companions.",/no1_system/assets/img/beastmaster.png,/no1_system/characters/training/beastmaster/
+Warlord,Discipline,,"You lead armies and command troops, specializing in strategic and tactical warfare.",/no1_system/assets/img/warlord.png,/no1_system/characters/training/warlord/
+Diabolist,Specialization,,"You form pacts with dark entities, gaining infernal powers and dark magic.",/no1_system/assets/img/diabolist.png,/no1_system/characters/training/diabolist/
+Skald,Discipline,,"You combine musical and combat abilities, inspiring allies and striking fear into enemies.",/no1_system/assets/img/skald.png,/no1_system/characters/training/skald/
+Alchemist,Specialization,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist.png,/no1_system/characters/training/alchemist/
+Courtier,Specialization,,"You navigate courtly intrigue, gaining favor and influence in political circles.",/no1_system/assets/img/courtier.png,/no1_system/characters/training/courtier/
+Thrall,Specialization,,"You serve a supernatural or otherworldly master, gaining powers and abilities through a dark pact.",/no1_system/assets/img/thrall.png,/no1_system/characters/training/thrall/
+Confessor,Specialization,,"You wield a righteous and divine fury, possessing the ability to extract truths through interrogation and purge the sins of the wicked masses.",/no1_system/assets/img/confessor.png,/no1_system/characters/training/confessor/
+Elementalist,Specialization,,"You control and manipulate the elemental forces, weaving powerful spells to devastating effect.",/no1_system/assets/img/elementalist.png,/no1_system/characters/training/elementalist/
+Zenith,Discipline,,"You have attained the peak of elemental mastery, achieving extraordinary abilities to bend and command the elements.",/no1_system/assets/img/zenith.png,/no1_system/characters/training/zenith/
+Paragon,Discipline,,"You exemplify perfection in a chosen field, gaining unparalleled expertise and skill.",/no1_system/assets/img/paragon.png,/no1_system/characters/training/paragon/
+Traveler,Discipline,,"You have develop an understanding of forgotten pathways and gates between worlds, granting you passage across the realms unhindered.",/no1_system/assets/img/traveler.png,/no1_system/characters/training/traveler/
