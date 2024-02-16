@@ -4,7 +4,7 @@ title: Shifts
 permalink: /core/shifts/
 parent: Gameplay
 grand_parent: Core System
-nav_order: 2
+nav_order: 3
 ---
 
 # Shifts

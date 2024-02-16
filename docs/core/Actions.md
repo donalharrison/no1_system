@@ -4,7 +4,7 @@ title: Actions
 permalink: /core/actions/
 parent: Gameplay
 grand_parent: Core System
-nav_order: 1
+nav_order: 2
 ---
 
 # Actions
