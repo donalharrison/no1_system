@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "Actions"
+title: Actions
 permalink: /core/actions/
 parent: Gameplay
-nav_order: 3
+grand_parent: Core System
+nav_order: 1
 ---
 
 # Actions

@@ -3,6 +3,7 @@ layout: page
 title: Zones
 permalink: /core/zones/
 parent: Gameplay
+grand_parent: Core System
 nav_order: 3
 ---
 
