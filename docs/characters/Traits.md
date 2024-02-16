@@ -15,60 +15,66 @@ Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to 
 
 Traits also determine the character’s starting Skills at character creation.  Players choose a number of Skills equal to their Trait and gain +1 Skill Rating in those skills.
 
-# Dangerous
+## Dangerous
+
+Represents a character's prowess in combat, physical power, and ability to handle weapons with deadly precision.
 
 Skills: Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw
 
 Magic: Inferno, Tempest, Mori
 
-# Deft
+## Deft
+
+Reflects physical and mental nimbleness, influencing a character's finesse in delicate tasks requiring precision.
 
 Skills: Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble
 
 Magic: Squall, Nox
 
-# Savvy
+## Savvy
+
+Measures a character's knowledge, ingenuity, and social intelligence, affecting their ability to navigate intricate situations and interact with others effectively.
 
 Skills: Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival
 
 Magic: Rime, Mentis, Torrent
 
-# Steady
+## Steady
+
+Represents a character's resilience, determination, and mental fortitude, influencing their ability to endure challenges, resist stress, and stay focused under pressure.
 
 Skills: Athletics, Composure, Focus, Investigate, Lead, Perceive
 
 Magic: Lux,  Tellus
 
-# Uncanny
+## Uncanny
+
+Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
 Skills: Destroy, Endure, Intuit, Luck
 
 Magic: Aether, Nihil, Vivus
 
+# Defenses & Grit
+
 Traits combine to construct characters’ Defenses.  
 
-All characters posses each of the 3 Defenses, but their Primary Defense is determined by their starting Profession.
+Defenses measure the number of Hits a character can take before they begin to lose their Grit.  All characters posses each of the 3 Defenses, but their Primary Defense is determined by their starting Profession.  The Primary Defense describes how the character generally avoids harm.
 
-The Primary Defense describes how the character generally avoids harm.
+Some Abilities target specific Defenses.  Any Hits from these Abilities ignore the character’s Primary Defense (unless, of course, the Ability targets the Primary Defense).  Once a Defense is exhausted, all Hits are dealt directly to Grit until the character recovers their Defenses.
 
-Defenses measure the number of Hits a character can take before suffering Vitality loss.  
-
-Once a Defense is exhausted, all Hits are dealt directly to Vitality until the character recovers their Defenses.
-
-Some Abilities target specific Defenses.  Any Hits from these Abilities ignore the character’s Primary Defense (unless, of course, the Ability targets the Primary Defense).
-
-# Reflexes
+## Reflexes
 
 Dangerous + Deft + Savvy
 
-# Nerve
+## Nerve
 
 Savvy + Steady + Uncanny
 
-# Vigor
+## Vigor
 
 Dangerous + Steady + Uncanny
 
-# Vitality
+## Grit
 
-Vitality is equal to the total of the character’s Traits.
+Grit represents characters' capacity to take dramatic, and often heroic, action.  It is an abstraction of physical and mental health, of resolve and tenacity, of the determination that can only be mustered by individuals burdened with glorious purpose.  Grit is equal to the sum total of the character’s Traits.
