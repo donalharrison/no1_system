@@ -2,7 +2,7 @@
 layout: page
 title: "Actions"
 permalink: /core/actions/
-parent: Core System
+parent: Gameplay
 nav_order: 3
 ---
 

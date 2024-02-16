@@ -2,8 +2,8 @@
 layout: page
 title: Shifts
 permalink: /core/shifts/
-parent: Core System
-nav_order: 4
+parent: Gameplay
+nav_order: 2
 ---
 
 # Shifts

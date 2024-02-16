@@ -1,3 +1,11 @@
+---
+layout: page
+title: Zones
+permalink: /core/zones/
+parent: Gameplay
+nav_order: 3
+---
+
 # Zones
 
 Zones are abstract areas for interaction.  A battlefield may be broken into a frontline field, a hilltop vantage, trenches, etc.  A city may consist of districts like markets, residential areas, palatial estates, etc.  A port may have docks, customs offices, 

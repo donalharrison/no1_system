@@ -1,14 +1,15 @@
 ---
 layout: page
-title: "Core"
+title: Gameplay
 permalink: /core/core_loop/
 parent: Core System
 nav_order: 2
+has_children: true
 ---
 
-# Core Loop
+# Core Gameplay Loop
 
-At the beginning of each Scene, the BAMF will set the Timer which represent how many rounds the Scene will encompass.
+At the beginning of each Encounter, the BAMF will set the Timer which represent how many rounds the Encounter will encompass.
 
 Some Scenes will consist of multiple encounters or sequences, each of which have their own Timer.
 
