@@ -47,19 +47,18 @@ Characters can spend their action to use an Ability gained from their Training T
 </div>
 <div style="width: 25%; height: 100px; float: left;"> 
 
-![Recover](/assets/img/action_recover.png)
-
+<img src="/no1_system/assets/img/action_recover.png" width="100" height="100">
 </div>
 <div style="margin-left: 25%; height: 100px;"> 
 
-# Recover
-
+<h2>Recover</h2>
+<p>
 Characters can use an action to Recover lost defenses.  To do so, the player declares which Defense they are attempting to recover which determines the Skill to be used in the roll:
 * Reflexes -- Focus
 * Nerve -- Composure
 * Vigor -- Endure
 The player rolls the a number of the appropriate Skill dice equal to Challenge, increasing the associated Defense by Hits +1.
-
+<p>
 </div>
 <div style="width: 25%; height: 100px; float: left;"> 
 
