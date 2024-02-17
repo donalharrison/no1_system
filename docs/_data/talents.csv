@@ -1,0 +1,117 @@
+﻿Name,Training,Type,Description
+,Acolyte,,
+,Adept,,
+,Alchemist,,
+,Archmage,,
+Coup de grace,Assassin,Ability,
+Sneak Attack,Assassin,Trigger,"When you successfully attack a target while Hidden, add +1d6 bonus Hits to the result set."
+Powerlifter,Athlete,,When you Exert or apply
+Sprinter,Athlete,Static,"When you Shift to move to an adjacent Zone, you may move an additional Zone."
+,Bastion,,
+,Beastmaster,,
+,Berserker,,
+,Black Belt,,
+,Blade Weaver,,
+,Bounty Hunter,,
+Last Stand,Brute,Ability,Exert yourself when you are below your maximum Grit.  Regain Hits to your Primary Defense and reduce the Challenge by 1d.
+Brutal Strike,Brute,Ability,"Strike one target with a powerful and unrelenting force, adding +1d4 Hits to the result set."
+,Channeler,,
+,Confessor,,
+,Corsair,,
+,Courtier,,
+Indomitable Presence,Defender,Ability,"Intimidate your opponents, causing them to hesitate.  Add +2 to the current Timer."
+Harm’s Way,Defender,Ability,"Focus to protect an ally in your Zone.  Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
+Defensive Stance,Defender,Ability,"Focus on defending yourself in combat, adding +Hits to your Vigor. SHIFT?!?!"
+,Detective,,
+,Diabolist,,
+Browbeat,Diplomat,Ability,"Intimidate your target outside of combat, adding +2 Hits to the result set."
+Silver Tongue,Diplomat,Ability,"Persuade your target, adding +2 Hits to the result set."
+It’s all a façade,Diplomat,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
+It’s all a façade,Spy,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
+It’s all a façade,Scoundrel,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
+,Dragoon,,
+,Driver,,
+,Druid,,
+Riposte,Duelist,Trigger,Counterattack an enemy Strike that just scored 0 Hits.  Deal 1d4 bonus Hits.
+Quick Draw,Duelist,Static,You can draw or change weapons without using a Shift.
+Quick Draw,Swashbuckler,Static,You can draw or change weapons without using a Shift.
+,Elementalist,,
+,Engineer,,
+,Fury,,
+,Grandmaster,,
+Healing Hands,Healer,Trigger,
+,Hunter,,
+,Infiltrator,,
+,Juggernaut,,
+,Knight,,
+,Lich,,
+,Mage,,
+,Mageknight,,
+,Magic-user,,
+Shoot (2),Marksman,Static,Increase your Shoot rating to 2 (d8).
+Shoot (3),Marksman,Static,Increase your Shoot rating to 3 (d10).
+Controlled Pair,Marksman,Trigger,"When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
+Shooter,Marksman,Trigger,"When you Shoot your target but earn 0 Hits, add +2 Hits to the result set."
+Double Tap,Marksman,Ability,Shoot your target at +2d Challenge.
+Aim,Marksman,Ability,"Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+Aim,Soldier,Ability,"Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+Living Weapon,Martial Artist,Trigger,"When you use your Martial Arts against your target but earn 0 Hits, add +2 Hits to the result set."
+Float like a butterfly. . .,Martial Artist,Ability,"Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
+Float like a butterfly. . .,Scrapper,Ability,"Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
+First Aid,Medic,Ability,
+,Mesmer,,
+,Necromancer,,
+,Seer,,
+Coordinated Assault,Overseer,Ability,"Lead your Minions to launch a coordinated attack against a single target, dealing Hits +1d4 bonus Hits to the result set."
+Minions,Overseer,Ability,
+,Paragon,,
+,Pilot,,
+,Priest,,
+,Probabilist,,
+,Psion,,
+,Pugilist,,
+,Raindancer,,
+Skirmisher,Ranger,Trigger,"When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
+,Reaver,,
+,Samurai,,
+,Scholar,,
+Forked Tongue,Scoundrel,Ability,"Deceive your target, adding +2 Hits to the result set."
+,Scout,,
+Cleave,Scrapper,Trigger,"When you Strike your target to death, apply Hits -2 to another target in your current Zone."
+Fighter,Scrapper,Trigger,"When you Strike your target but earn 0 Hits, add +2 Hits to the result set."
+,Shaman,,
+,Shifter,,
+,Shinobi,,
+,Shock Trooper,,
+,Shugenja,,
+,Skald,,
+Overwatch,Sniper,Trigger,"When one or more hostile targets moves into your current Zone, you may deal 1d4 bonus Hits to one of them."
+Zero in,Sniper,Trigger,"When you Aim, add +1d4 bonus Hits to the result set."
+Cover Fire,Soldier,Ability,
+Combat Training,Soldier,Ability,You may Strike or Shoot at a target and use a Shift to use a non-combat skill.  Roll +2d Challenge.  Divide the Hits between the the two skills.
+Charge,Soldier,Ability,"Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."
+,Spellreaver,,
+Master Eavesdropp,Spy,Ability,Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set.
+,Summoner,,
+,Swashbuckler,,
+Fall Back,Tactician,Ability,"Lead allies in your current and all adjacent Zones in a tactical retreat, allowing a number of allies equal to Hits in the result set to immediately Shift away from hostile targets without risk."
+Reposition,Tactician,Ability,"Lead allies in your current Zones, allowing a number of them equal to the Hits in the result set to immediately use a Shift."
+Inspire Allies,Tactician,Ability,"Lead all allies in your current Zone, allowing a number of them equal to the Hits in the result set to choose 1 of the following: Recover, Take -1d to their next Action, add 1 Hit to their next result set"
+Exert (3),Tank,Static,Increase your Exert rating to 3 (d10).
+Hard to Kill,Tank,Static,Increase you Grit by 3.
+Exert (2),Tank,Static,Increase your Exert rating to 2 (d8).
+I can take it,Tank,Trigger,"When you take more than one Hit from an effect, reduce the total Hits by 1."
+Walk it off,Tank,Trigger,"When you Recover, regain +2 Defenses."
+Shake it off,Tank,Ability,Use a Shift to Recover.
+Taunt,Tank,Ability,"Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you."
+,Thief,,
+,Thrall,,
+,Transmuter,,
+,Traveler,,
+,Troubadour,,
+,Vanguard,,
+,Warlord,,
+,Witch,,
+Suplex,Wrestler,Ability,"Grapple your target, adding +1d4 bonus Hits and making them Prone."
+,Zealot,,
+,Zenith,,

@@ -19,10 +19,57 @@ If the result set of an Action contains a 1, the initiative shifts to the opposi
 
 The action may result in a Trigger for the player, which happens immediately following the resolution of the action.
 
+<div style="width: 100%;">
+    <div style="width: 25%; height: 100px; float: left;"> 
+
+![Use your Skills](/assets/img/action_skills.png)
+
+        </div>
+        <div style="margin-left: 75%; height: 100px;"> 
+
 # Use your Skills
+
+This is the core Action of the No1 system.  A character attempts an action that requires them to draw on their Skills.  If the outcome of the action is uncertain or the characters are under pressure, the player rolls a number and type of dice equal to the current Challenge and the character rating in the attempted Skill, respectively.
+
+        </div>
+    <div style="width: 25%; height: 100px; float: left;"> 
+
+![Use an Ability](/assets/img/action_ability.png)
+
+        </div>
+        <div style="margin-left: 75%; height: 100px;"> 
 
 # Use an Ability
 
+Characters can spend their action to use an Ability gained from their Training Talent trees.  Most Abilities include a Skill name in ther description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
+
+
+        </div>
+    <div style="width: 25%; height: 100px; float: left;"> 
+
+![Recover](/assets/img/action_recover.png)
+
+        </div>
+        <div style="margin-left: 75%; height: 100px;"> 
+
 # Recover
 
-# Wait For it. . .
+Characters can use an action to Recover lost defenses.  To do so, the player declares which Defense they are attempting to recover which determines the Skill to be used in the roll:
+* Reflexes -- Focus
+* Nerve -- Composure
+* Vigor -- Endure
+The player rolls the a number of the appropriate Skill dice equal to Challenge, increasing the associated Defense by Hits +1.
+
+        </div>
+    <div style="width: 25%; height: 100px; float: left;"> 
+
+![Use a Maneuver](/assets/img/action_maneuver.png)
+
+        </div>
+        <div style="margin-left: 75%; height: 100px;"> 
+
+# Use a Maneuver
+
+
+        </div>
+    </div>
