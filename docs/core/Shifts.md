@@ -11,18 +11,19 @@ nav_order: 3
 
 Shifts represent quick actions or movements that take minimal concentration or effort.
 
-- Move within your current zone
-- Move to an adjacent zone
-- Reload / Restring / Unjam a weapon
-- Hide
-- Use consumable
-- Change / draw weapon
-- Defy danger / avoid harm
-- Create an advantage
-    - Roll up to Challenge to create Hits advantages in the Current Zone.
+- **Move within your current zone**
+- **Move to an adjacent zone**
+
+- **Hide**
+- **Use your equipment**
+    - Reload / Restring / Unjam a weapon
+    - Draw / Change  a weapon
+- **Defy danger**
+- **Create an advantage**
+    - Roll up to Challenge to create a number of Advantages in the Current Zone equal to the total Hits in the result set.
     - Creating advantages does not count 1s against initiative, but does increase Entropy.
-    - Any ally can use an Advantage.
+    - Any ally can use an Advantages to:
         - Bonus hits
         -
-
-# Wait For it. . .
+- **Wait For it. . .**
+    - Characters can prepare to attempt an Action until a certain condition is met.  The player declares the Action and associated condition, then waits to make the roll to attempt the Action.
