@@ -13,8 +13,8 @@ nav_exclude: false
 Development &amp; doc repo for No1 RPG System
 
 
-## [Core System & Mechanics](/core/core_system/)
+## [Core System & Mechanics](/no1_system/core/core_system/)
 
-## [Characters](/characters/)
+## [Characters](/no1_system/characters/)
 
-## [BAMF](/bamf/)
+## [BAMF](/no1_system/bamf/)
