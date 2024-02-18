@@ -2,7 +2,8 @@
 layout: default
 title: Backgrounds
 name: Backgrounds
-has_children: true
+has_children: false
+parent: Characters
 permalink: /characters/backgrounds/
 nav_order: 1
 ---
