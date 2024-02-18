@@ -19,7 +19,7 @@ Roll / Choose Trait Array\
 For now, discuss lineage ideas with BAMF to determine Trai and/or skill bonuses
 
 ## Roll your background
-Characters was not born yesterday into a life of protagonism.  What roads have the wandered?  What spoils have they pilfered?  Who do they want to kill or, maybe more interestingly, who wants to kill them?  The No1s system's background prcedure helps to prompt you to consider and answer questions like these and others to help fill in the detail of your character.
+Characters were not born into a life of protagonism yesterday.  What roads have they wandered?  What spoils have they pilfered?  Who do they want to kill or, maybe more interestingly, who wants to kill them?  The No1s system's background procedure helps to prompt you to consider and answer questions like these and others to help fill in the detail of your character.
 The background process also closely models the priamry gameplay procedure, allowing for even the newest players to familiarize themselves with the different types of dice, earning Hits, re-rolling 1s, etc.
 
 You will take your character through some number of background terms, with only their Traits available to navigate the challenges they've faced.  Each term, you will select which Trait you are employing and determine a path associated with that Trait.  You then make a roll to determine how successful your character is during that term, with the Challenge equal to the term number and your Trait value determining your Dice Rating (e.g., Dangerous 1 = d6, Savvy 3 = d10).
