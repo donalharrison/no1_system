@@ -3,8 +3,9 @@ layout: page
 title: "Powers"
 permalink: /characters/powers/
 id: characters-powers
-parent: Characters
+parent: Appendices
 nav_order: 5
+nav_exclude: false
 ---
 
 # Powers

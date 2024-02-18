@@ -12,13 +12,17 @@ nav_order: 3
 Shifts represent quick actions or movements that take minimal concentration or effort.
 
 - **Move within your current zone**
+
 - **Move to an adjacent zone**
 
 - **Hide**
+
 - **Use your equipment**
     - Reload / Restring / Unjam a weapon
     - Draw / Change  a weapon
+
 - **Defy danger**
+
 - **Create an advantage**
     - Roll up to Challenge to create a number of Advantages in the Current Zone equal to the total Hits in the result set.
     - Creating advantages does not count 1s against initiative, but does increase Entropy.

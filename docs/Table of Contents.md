@@ -1,3 +1,9 @@
+---
+layout: default
+title: toc
+nav_exclude: true
+---
+
 # Table of Contents
 
 What it is & how it works
