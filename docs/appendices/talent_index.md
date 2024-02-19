@@ -20,7 +20,7 @@ nav_order: 4
         {{ t.Name }}
         </td>
         <td>
-        {{ t.Training }}
+        {{ t.tree }}
         </td>
         <td>
         {{ t.Type }}
