@@ -35,9 +35,9 @@ layout: default
           {% for tlnt in site.data.talents %}
             
             {% if tlnt.Training == page.title %}
-              <td>tlnt.Name</td>
-              <td>tlnt.Type</td>
-              <td>tlnt.Effect</td>
+              <td>{{ tlnt.Name }}</td>
+              <td>{{ tlnt.Type }}</td>
+              <td>{{ tlnt.Effect }}</td>
             {% endif %}
           {% endfor %}
           </tr>
