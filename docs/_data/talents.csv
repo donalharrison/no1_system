@@ -16,7 +16,7 @@ Marksman,Controlled Pair,Trigger,"When you Shoot a target with no 1s in the resu
 Overseer,Coordinated Assault,Ability,"Lead your Minions to launch a coordinated attack against a single target, dealing Hits +1d4 bonus Hits to the result set.",
 Assassin,Coup de grace,Ability,,
 Soldier,Cover Fire,Ability,,
-Diabolist,Dance with devils,,
+Diabolist,Dance with devils,,,
 Defender,Defensive Stance,Ability,"Focus on defending yourself in combat, adding +Hits to your Vigor. SHIFT?!?!",
 Probabilist,Derive axioms,Ability,Analyze,
 Marksman,Double Tap,Ability,Shoot your target at +2d Challenge.,
