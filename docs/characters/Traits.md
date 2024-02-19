@@ -4,7 +4,7 @@ title: "Traits"
 permalink: /characters/traits/
 id: characters-traits
 parent: Characters
-nav_order: 1
+nav_order: 2
 ---
 
 # Traits

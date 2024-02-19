@@ -1,3 +1,13 @@
+---
+layout: default
+title: BAMF Principles
+parent: BAMF
+nav_exclude: false
+---
+
+{: .note}
+Work in progress.  These need to be pruned and refined.
+
 # PRINCIPLES
 
 1. Keep character abilities simple — exhaustive lists of highly-specified options impair player creativity and decision making

@@ -1,3 +1,13 @@
+---
+layout: default
+title: BAMF Waypoints
+parent: BAMF
+nav_exclude: false
+---
+
+{: .note}
+Work in progress.  Needs to be termed, fleshed out, and refined.
+
 # Waypoints
 
 Waypoints are segments of game fiction.  They range in duration from a few short Scenes to entire adventures, bookended by and inciting incident and a resolution.

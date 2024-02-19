@@ -1,3 +1,9 @@
+---
+layout: default
+title: Power Ideas
+nav_exclude: true
+---
+
 # Spell Ideas
 
 # Aether

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Background tree
+has_children: true
+permalink: /characters/background_tree/
+nav_exclude: true
+---
+
 # Background Tree
 
 ### Military

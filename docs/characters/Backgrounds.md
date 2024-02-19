@@ -1,6 +1,16 @@
+---
+layout: default
+title: Backgrounds
+name: Backgrounds
+has_children: false
+parent: Characters
+permalink: /characters/backgrounds/
+nav_order: 1
+---
+
 # Backgrounds
 
-Dangerous
+## Dangerous Background Paths
 
 | Adventurer | Agent | Criminal | Military | Scourge |
 | --- | --- | --- | --- | --- |
@@ -10,7 +20,7 @@ Dangerous
 | Throw | Streetwise | Stealth | Exert | Inferno |
 | Shoot | Survival | Streetwise | Tactics | Tempest |
 
-Deft
+## Deft Background Paths
 
 | Agent | Citizen | Criminal | Professional | Razor |
 | --- | --- | --- | --- | --- |
@@ -20,9 +30,9 @@ Deft
 | Streetwise | Operate | Stealth | Implements |  |
 | Perceive | Persuade | Streetwise | Current Events |  |
 
-Savvy
+## Savvy Background Paths
 
-| Citizen | Nobility | Professional | Scholar | Prodigy |
+| Citizen | Nobility | Professional | Academic | Prodigy |
 | --- | --- | --- | --- | --- |
 | Current Events | Composure | Craft | History |  |
 | Deceive | Current Events | Current Events | Investigate |  |
@@ -30,7 +40,7 @@ Savvy
 | Operate | Lead | Implements | Research |  |
 | Persuade | Persuade | Current Events |  |  |
 
-Steady
+## Steady Background Paths
 
 | Adherent | Agent | Drifter | Professional | Ascetic |
 | --- | --- | --- | --- | --- |
@@ -40,7 +50,7 @@ Steady
 | Vivus | Streetwise | Survival | Implements |  |
 |  | Survival |  | Current Events |  |
 
-Uncanny
+## Uncanny Background Paths
 
 | Adherent | Drifter | Military | Professional | Void |
 | --- | --- | --- | --- | --- |

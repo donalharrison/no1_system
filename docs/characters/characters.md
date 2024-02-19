@@ -7,16 +7,10 @@ permalink: /characters/
 nav_order: 2
 ---
 
-# Character Creation
+Player & Charater Principles
+- Your character is a device for moving the game & story forward.
+- Roleplaying is making decisions consistent with your ***character's*** goals, knowledge, & beliefs.
+-  . . .
 
-Choose primary Trait
 
-- Pick n focuses
 
-Choose Secondary Trait
-
-- Pick n-1 focuses
-
-Choses Flaw
-
-- Pick n weaknesses
