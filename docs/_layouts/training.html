@@ -31,16 +31,17 @@ layout: default
               <th>Type</th>
               <th>Effect</th>
             </tr>
-            <tr>
           {% for tlnt in site.data.talents %}
             
             {% if tlnt.Training == page.title %}
+            <tr>
               <td>{{ tlnt.Name }}</td>
               <td>{{ tlnt.Type }}</td>
               <td>{{ tlnt.Effect }}</td>
+            </tr>
             {% endif %}
           {% endfor %}
-          </tr>
+          
           </table>
         {% endif %}
       {% endfor %}
