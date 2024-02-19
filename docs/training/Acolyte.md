@@ -1,6 +1,6 @@
 ---
 layout: training
-name: Acolyte
+title: Acolyte
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/acolyte/
