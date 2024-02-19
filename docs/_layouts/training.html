@@ -22,37 +22,34 @@ layout: default
           <br>{{ trn.Prerequisites }}
           <br>{{ trn.Description }}</p>
 
-          <h2>Talents</h2>
-          <table>
-            <tr>
-              <th>Name</th>
-              <th>Type</th>
-              <th>Effect</th>
-            </tr>
-          
-            {% for tlnt in site.data.talents %}
-            
-              {% if tlnt.Training == page.title %}
-
-              <tr>
-                <td>{{ tlnt.Name }}</td>
-                <td>{{ tlnt.Type }}</td>
-                <td>{{ tlnt.Effect }}</td>
-              </tr>
-              
-              {% endif %}
-          
-            {% endfor %}
-          
-          </table>
         {% endif %}
+        
       {% endfor %}
+      
+      <h2>Talents</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Effect</th>
+        </tr>
+      
+        {% for tlnt in site.data.talents %}
+            
+          {% if tlnt.Training == page.title %}
 
-      {{ content }}
+            <tr>
+              <td>{{ tlnt.Name }}</td>
+              <td>{{ tlnt.Type }}</td>
+              <td>{{ tlnt.Effect }}</td>
+            </tr>
+            
+          {% endif %}
+          
+        {% endfor %}
+          
+      </table>
 
     </section>
-    <footer>
-      &copy; to me
-    </footer>
   </body>
 </html>
