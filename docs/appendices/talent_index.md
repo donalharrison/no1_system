@@ -32,3 +32,8 @@ nav_order: 4
 {% endfor %}
 
 </table>
+<p>
+{% for i in site.data.talents %}
+    {{ i.tree }}
+{% endfor %}
+</p>
