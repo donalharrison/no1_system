@@ -10,7 +10,9 @@ remote_theme: just-the-docs/just-the-docs
 # Markdown
 markdown: kramdown
 
-
+# CSV configs
+csv_reader:
+  headers: true
 # just-the-docs configs
 # Define Jekyll collections
 # collections:

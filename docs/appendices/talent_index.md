@@ -26,7 +26,7 @@ nav_order: 4
         {{ t.Type }}
         </td>
         <td>
-        {{ t.Description }}
+        {{ t.Effect }}
         </td>
     </tr>
 {% endfor %}
