@@ -16,17 +16,32 @@ layout: default
 
         {% if trn.Name == page.title %}
 
-          <img src={{ trn.img_path }} width="50" height="50">
+          <img src={{ trn.img_path }} width="100" height="100">
 
-          <p> {{ trn.Name }} </p>
+          <h1> {{ trn.Name }} </h1>
 
-          <p>{{ trn.Type }}</p>
+          <p>{{ trn.Type }}
+          <br>{{ trn.Prerequisites }}
+          <br>{{ trn.Description }}</p>
 
-          <p>{{ trn.Prerequisites }}</p>
-
-          <p>{{ trn.Description }}</p>
-      
-          
+          <h2>Talents</h2>
+          <table>
+            <th>
+              <td>Name</td>
+              <td>Type</td>
+              <td>Effect</td>
+            </th>
+            <tr>
+          {% for tlnt in site.data.talents %}
+            
+            {% if tlnt.Training == page.title %}
+              <td>tlnt.Name</td>
+              <td>tlnt.Type</td>
+              <td>tlnt.Effect</td>
+            {% endif %}
+          {% endfor %}
+          </tr>
+          </table>
         {% endif %}
       {% endfor %}
 
