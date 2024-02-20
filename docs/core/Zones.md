@@ -49,4 +49,4 @@ Deep in the Sabljarn Caverns lies a crevasse of molten rock where the Ashenspire
 - The lava chasm (Point of Interest) rests in the midst of the cavern floor.
 - The Ashenspire troops rest within a guardhouse (Point of Interest) behind their wall.
 
-![A complex zone with PoIs.](/no1_system/assets/img/zones_simple_pois.png)
+![A complex zone with PoIs.](/no1_system/assets/img/zones_complex.png)
