@@ -30,7 +30,7 @@ Scrapper,Float like a butterfly. . .,Ability,"Until the beginning of your next t
 Scoundrel,Forked Tongue,Ability,"Deceive your target, adding +2 Hits to the result set."
 Mage,Grasp the arcane,Ability,NULL
 Tank,Hard to Kill,Static,Increase you Grit by 3.
-Defender,Harm’s Way,Ability,"Focus to protect an ally in your Zone.  Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
+Defender,Harm's Way,Ability,"Focus to protect an ally in your Zone.  Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
 Druid,Harmonize with nature,Ability,NULL
 Healer,Healing Hands,Trigger,NULL
 Psion,Hone the mind,Ability,Focus
@@ -40,9 +40,9 @@ Defender,Indomitable Presence,Ability,"Intimidate your opponents, causing them t
 Tactician,Inspire Allies,Ability,"Lead all allies in your current Zone, allowing a number of them equal to the Hits in the result set to choose 1 of the following: Recover, Take -1d to their next Action, add 1 Hit to their next result set"
 Priest,Invoke the divine,Ability,Composure
 Shaman,Invoke the spirits,Ability,NULL
-Diplomat,It’s all a façade,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
-Spy,It’s all a façade,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
-Scoundrel,It’s all a façade,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
+Diplomat,It's all a facade,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
+Spy,It's all a facade,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
+Scoundrel,It's all a facade,Ability,"Deceive opponents in your Current Zone, masking your true intentions."
 Brute,Last Stand,Ability,Exert yourself when you are below your maximum Grit.  Regain Hits to your Primary Defense and reduce the Challenge by 1d.
 Martial Artist,Living Weapon,Trigger,"When you use your Martial Arts against your target but earn 0 Hits, add +2 Hits to the result set."
 Spy,Master Eavesdropp,Ability,Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set.
