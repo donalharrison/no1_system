@@ -37,3 +37,7 @@ nav_order: 4
     {{ i.tree }}
 {% endfor %}
 </p>
+
+<p>
+    {{ site.data.talents | inspect }}
+</p>
