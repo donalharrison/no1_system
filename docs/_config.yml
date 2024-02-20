@@ -13,6 +13,7 @@ markdown: kramdown
 # CSV configs
 csv_reader:
   headers: true
+  encoding: utf-8
 # just-the-docs configs
 # Define Jekyll collections
 # collections:
