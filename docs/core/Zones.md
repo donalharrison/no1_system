@@ -32,13 +32,13 @@ Moving to an Adjacent Zone from your Current Zone in hostile encounters often dr
 ### Simple Zones
 The forest clearing in front of a cavern entrance has 4 Zones -- the South, East, and West clearing, and the Cave Mouth.
 
-![A simple zoned encounter.](/assets/img/zones_simple.png)
+![A simple zoned encounter.](/no1_system/assets/img/zones_simple.png)
 
 ### Simple Zones with Points of Interest
 The steps of the Pharaoh's tomb is devided into the footsteps, the first and second landing, and the entryway.
 There are 6 points of interest -- the arcane device flanked by two obelisks on the first landing, two arcophagi on the second landing, and the Tomb Doors at the entryway.
 
-![A simple zone with PoIs.](/assets/img/zones_simple_pois.png)
+![A simple zone with PoIs.](/no1_system/assets/img/zones_simple_pois.png)
 
 
 ### Complex Zones with Elevation
@@ -49,4 +49,4 @@ Deep in the Sabljarn Caverns lies a crevasse of molten rock where the Ashenspire
 - The lava chasm (Point of Interest) rests in the midst of the cavern floor.
 - The Ashenspire troops rest within a guardhouse (Point of Interest) behind their wall.
 
-![A complex zone with PoIs.](/assets/img/zones_simple_pois.png)
+![A complex zone with PoIs.](/no1_system/assets/img/zones_simple_pois.png)
