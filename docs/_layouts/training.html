@@ -18,15 +18,24 @@ layout: default
 
           <img src={{ trn.img_path }} width="100" height="100">
 
+          <br>{{ trn.Description }}</p>
           <p>{{ trn.Type }}
           <br>{{ trn.Prerequisites }}
-          <br>{{ trn.Description }}</p>
+          
 
         {% endif %}
 
       {% endfor %}
       
       <h2>Talents</h2>
+
+      <h3>Filtered talents</h3>
+      
+      {% assign tal = site.data.talents | where: "tree", page.title %}
+      {% for t in tal %}
+          {{ t.Name }}
+      {% endfor %}
+
       <table>
         <tr>
           <th>Name</th>
@@ -37,6 +46,8 @@ layout: default
         {% for tlnt in site.data.talents %}
             
           {% if tlnt.tree == page.title %}
+            {% if tlnt.rank == 1 %}
+
 
             <tr>
               <td>{{ tlnt.Name }}</td>
