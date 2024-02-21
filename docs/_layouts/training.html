@@ -29,17 +29,48 @@ layout: default
       
       <h2>Talents</h2>
 
-      <h3>Filtered talents</h3>
+      
       
       {% assign tal = site.data.talents | where: "tree", page.title %}
       {% assign r1 = tal | where: "rank", 1 %}
+      {% assign r2 = tal | where: "rank", 2 %}
+      {% assign r3 = tal | where: "rank", 3 %}
         {% if r1 %}
-            {{ t.name }} - {{ t.Effect }}
+          <h3>Rank 1</h3>
+            <div class="half" style="display:flex">
+              <img style="width: 30px" src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/plain-circle.svg">
+            </div>
+            <table>
+              <tr>
+                  <td>{{ r1.Name }}</td>
+                  <td>{{ r1.Type }}</td>
+                  <td>{{ r1.Effect }}</td>
         {% endif %}
-
-      {% for t in tal %}
-          {{ t.Name }}
-      {% endfor %}
+        {% if r2 %}
+        <h3>Rank 2</h3>
+          <div class="half" style="display:flex">
+            <img style="width: 30px" src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/plain-circle.svg">
+            <img style="width: 30px" src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/plain-circle.svg">
+          </div>
+          <table>
+            <tr>
+                <td>{{ r1.Name }}</td>
+                <td>{{ r1.Type }}</td>
+                <td>{{ r1.Effect }}</td>
+        {% endif %}
+        {% if r3 %}
+        <h3>Rank 3</h3>
+          <div class="half" style="display:flex">
+            <img style="width: 30px" src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/plain-circle.svg">
+            <img style="width: 30px" src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/plain-circle.svg">
+            <img style="width: 30px" src="https://game-icons.net/icons/ffffff/000000/1x1/delapouite/plain-circle.svg">
+          </div>
+          <table>
+            <tr>
+                <td>{{ r1.Name }}</td>
+                <td>{{ r1.Type }}</td>
+                <td>{{ r1.Effect }}</td>
+        {% endif %}
 
       <table>
         <tr>
