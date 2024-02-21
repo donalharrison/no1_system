@@ -34,7 +34,8 @@ layout: default
       {% assign tal = site.data.talents | where: "tree", page.title %}
       {% assign r1 = tal | where: "rank", 1 %}
         {% if r1 %}
-            {{ t.name }} - {{ t.Effect }} ;
+            {{ t.name }} - {{ t.Effect }}
+        {% endif %}
 
       {% for t in tal %}
           {{ t.Name }}
