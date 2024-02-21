@@ -7,6 +7,10 @@ parent: Characters
 nav_order: 2
 ---
 
+- Need to generate Arrays
+- Gain 1 rating in a number of Skills equal to the associated Trait
+- Max Skill rating 1 
+
 # Traits
 
 Traits describe the characters general qualities and characteristics, and categorize their Skills.

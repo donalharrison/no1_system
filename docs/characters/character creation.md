@@ -10,10 +10,9 @@ nav_order: 1
 
 # Character Creation
 
-Roll / Choose Trait Array\
-- Need to generate Arrays
-- Gain 1 rating in a number of Skills equal to the associated Trait
-- Max Skill rating 1 
+## Roll / Choose Trait Array
+Characters in the No1 System have 5 Traits -- **Dangerous, Deft, Savvy, Steady, and Uncanny** -- which describe the characters' general qualities and characteristics, and categorize their Skills.
+
 
 ## Choose Lineage
 For now, discuss lineage ideas with BAMF to determine Trai and/or skill bonuses
