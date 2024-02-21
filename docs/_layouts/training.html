@@ -31,7 +31,7 @@ layout: default
 
       {% assign tal = site.data.talents | where: "tree", page.title %}
       
-      {% assign r1 = = site.data.talents | where: "rank", 1 %}
+      {% assign r1 = = site.data.talents | where: "rank", "1" %}
       {% for t in r1 %}
         {% if t.tree == page.title %}
           {{ t.Name }}
