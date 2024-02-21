@@ -32,6 +32,10 @@ layout: default
       <h3>Filtered talents</h3>
       
       {% assign tal = site.data.talents | where: "tree", page.title %}
+      {% assign r1 = tal | where: "rank", 1 %}
+        {% if r1 %}
+            {{ t.name }} - {{ t.Effect }} ;
+
       {% for t in tal %}
           {{ t.Name }}
       {% endfor %}
