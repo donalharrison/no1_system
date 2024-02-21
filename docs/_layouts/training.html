@@ -32,9 +32,8 @@ layout: default
       
       
       {% assign tal = site.data.talents | where: "tree", page.title %}
+
       {% assign r1 = tal | where: "rank", 1 %}
-      {% assign r2 = tal | where: "rank", 2 %}
-      {% assign r3 = tal | where: "rank", 3 %}
         {% if r1 %}
           <h3>Rank 1</h3>
             <div class="half" style="display:flex">
@@ -48,6 +47,8 @@ layout: default
               </tr>
             </table>
         {% endif %}
+
+        {% assign r2 = tal | where: "rank", 2 %}
         {% if r2 %}
           <h3>Rank 2</h3>
             <div class="half" style="display:flex">
@@ -62,6 +63,8 @@ layout: default
               </tr>
             </table>
         {% endif %}
+        
+        {% assign r3 = tal | where: "rank", 3 %}
         {% if r3 %}
           <h3>Rank 3</h3>
             <div class="half" style="display:flex">

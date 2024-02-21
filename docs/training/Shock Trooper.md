@@ -3,6 +3,6 @@ layout: training
 title: Shock Trooper
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/shock-trooper/
+permalink: /characters/training/shock_trooper/
 nav_exclude: true
 ---
