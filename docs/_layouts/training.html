@@ -37,12 +37,13 @@ layout: default
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
       <table>
-        <tr>
           {% for t in r1 %}
             {% if t.tree == page.title %}
-            <td>{{ t.Name }}</td>
-            <td>{{ t.Type }}</td>
-            <td>{{ t.Effect }}</td>
+            <tr>
+              <td>{{ t.Name }}</td>
+              <td>{{ t.Type }}</td>
+              <td>{{ t.Effect }}</td>
+            </tr>
             {% endif %}
           {% endfor %}
         </tr>
@@ -58,9 +59,11 @@ layout: default
         <tr>
           {% for t in r2 %}
             {% if t.tree == page.title %}
-            <td>{{ t.Name }}</td>
-            <td>{{ t.Type }}</td>
-            <td>{{ t.Effect }}</td>
+            <tr>
+              <td>{{ t.Name }}</td>
+              <td>{{ t.Type }}</td>
+              <td>{{ t.Effect }}</td>
+            </tr>
             {% endif %}
           {% endfor %}
         </tr>
@@ -77,9 +80,11 @@ layout: default
         <tr>
           {% for t in r3 %}
             {% if t.tree == page.title %}
-            <td>{{ t.Name }}</td>
-            <td>{{ t.Type }}</td>
-            <td>{{ t.Effect }}</td>
+            <tr>
+              <td>{{ t.Name }}</td>
+              <td>{{ t.Type }}</td>
+              <td>{{ t.Effect }}</td>
+            </tr>
             {% endif %}
           {% endfor %}
         </tr>
