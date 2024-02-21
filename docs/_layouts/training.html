@@ -32,7 +32,7 @@ layout: default
       {% assign tal = site.data.talents | where: "tree", page.title %}
       
       {% assign r1 = site.data.talents | where: "rank", "1" %}
-      <h3>Rank 1 mofo</h3>
+      <h3>Rank 1</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
@@ -40,65 +40,51 @@ layout: default
         <tr>
           {% for t in r1 %}
             {% if t.tree == page.title %}
-            <td>{{ r1.Name }}</td>
-            <td>{{ r1.Type }}</td>
-            <td>{{ r1.Effect }}</td>
+            <td>{{ t.Name }}</td>
+            <td>{{ t.Type }}</td>
+            <td>{{ t.Effect }}</td>
             {% endif %}
           {% endfor %}
         </tr>
       </table>
-      
-      <p> {{ r1.Name }} </p>
-        {% if r1 %}
-          <h3>Rank 1</h3>
-            <div class="half" style="display:flex">
-              <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-            </div>
-            <table>
-              <tr>
-                <td>{{ r1.Name }}</td>
-                <td>{{ r1.Type }}</td>
-                <td>{{ r1.Effect }}</td>
-              </tr>
-            </table>
-        {% endif %}
 
-        {% assign r2 = tal | where: "rank", 2 %}
-        {% if r2 %}
-          <h3>Rank 2</h3>
-            <div class="half" style="display:flex">
-              <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-              <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-            </div>
-            <table>
-              <tr>
-                <td>{{ r1.Name }}</td>
-                <td>{{ r1.Type }}</td>
-                <td>{{ r1.Effect }}</td>
-              </tr>
-            </table>
-        {% endif %}
-        
-        {% assign r3 = tal | where: "rank", 3 %}
-        {% if r3 %}
-          <h3>Rank 3</h3>
-            <div class="half" style="display:flex">
-              <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-              <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-              <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-            </div>
-            <table>
-              <tr>
-                <td>{{ r1.Name }}</td>
-                <td>{{ r1.Type }}</td>
-                <td>{{ r1.Effect }}</td>
-              </tr>
-            </table>
-          {% endif %}
-      
-      {% for t in tal %}
-          {{ t.Name }}
-      {% endfor %}
+      {% assign r2 = site.data.talents | where: "rank", "2" %}
+      <h3>Rank 2</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+      <table>
+        <tr>
+          {% for t in r2 %}
+            {% if t.tree == page.title %}
+            <td>{{ t.Name }}</td>
+            <td>{{ t.Type }}</td>
+            <td>{{ t.Effect }}</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      </table>
+
+      {% assign r3 = site.data.talents | where: "rank", "3" %}
+      <h3>Rank 3</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+      <table>
+        <tr>
+          {% for t in r3 %}
+            {% if t.tree == page.title %}
+            <td>{{ t.Name }}</td>
+            <td>{{ t.Type }}</td>
+            <td>{{ t.Effect }}</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      </table>
+
 
       <table>
         <tr>
