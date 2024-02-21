@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Scoundrel
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/scoundrel/
 nav_exclude: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Scholar
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/scholar/
 nav_exclude: true
 ---

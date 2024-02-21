@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Detective
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/detective/
 nav_exclude: true
 ---

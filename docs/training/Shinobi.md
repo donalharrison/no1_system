@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Shinobi
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/shinobi/
 nav_exclude: true
 ---

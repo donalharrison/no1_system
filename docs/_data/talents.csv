@@ -51,7 +51,7 @@ Knight,,Ability,,
 Lich,,Ability,,
 Mage,Grasp the arcane,Ability,,
 Mageknight,,Ability,,
-Magic-user,Study the arcane,Ability,1,Research to memorize spells.  Gain Hits + Savvy Power ranks.
+Magic-User,Study the arcane,Ability,1,Research to memorize spells.  Gain Hits + Savvy Power ranks.
 Marksman,Aim,Ability,1,"Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
 Marksman,Controlled Pair,Trigger,2,"When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
 Marksman,Double Tap,Ability,2,Shoot your target at +2d Challenge.

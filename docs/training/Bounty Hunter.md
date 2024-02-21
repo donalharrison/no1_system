@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Bounty Hunter
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/bounty_hunter/
 nav_exclude: true
 ---

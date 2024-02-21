@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Shugenja
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/shugenja/
 nav_exclude: true
 ---

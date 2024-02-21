@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Swashbuckler
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/swashbuckler/
 nav_exclude: true
 ---

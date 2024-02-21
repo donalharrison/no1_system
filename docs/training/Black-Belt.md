@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Black-Belt
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/black_belt/
 nav_exclude: true
 ---

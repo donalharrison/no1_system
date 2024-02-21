@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Psion
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/psion/
 nav_exclude: true
 ---

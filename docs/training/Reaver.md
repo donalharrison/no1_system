@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Reaver
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/reaver/
 nav_exclude: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Samurai
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/samurai/
 nav_exclude: true
 ---

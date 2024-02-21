@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Medic
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/medic/
 nav_exclude: true
 ---

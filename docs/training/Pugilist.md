@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Pugilist
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/pugilist/
 nav_exclude: true
 ---

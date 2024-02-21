@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Seer
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/seer/
 nav_exclude: true
 ---

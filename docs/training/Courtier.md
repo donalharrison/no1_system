@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Courtier
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/courtier/
 nav_exclude: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Druid
+title: Diabolist
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/druid/
+permalink: /characters/training/diabolist/
 nav_exclude: true
 ---
