@@ -1,7 +1,7 @@
 tree,Name,Type,rank,Effect
-Acolyte,Commune with divinity,Ability,1,Composure
-Acolyte,Composure (2),Ability,2,
-Acolyte,Composure (3),,3,
+Acolyte,Commune with divinity,Ability,1,"Composure to connect with your power."
+Acolyte,Composure (2),Static,2,
+Acolyte,Composure (3),Static,3,
 Adept,Attune with forces,Ability,1,
 Adept,,Ability,,
 Alchemist,Prepare concoctions,Ability,1,Craft
