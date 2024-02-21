@@ -31,10 +31,7 @@ layout: default
 
       {% assign tal = site.data.talents | where: "tree", page.title %}
       
-      {% for t in tal %}
-            {{ t.Name }}
-      {% endfor %}
-      
+
       {% assign r1 = tal %}
       <p> {{ r1.Name }} </p>
         {% if r1 %}
@@ -83,6 +80,10 @@ layout: default
               </tr>
             </table>
           {% endif %}
+      
+      {% for t in tal %}
+          {{ t.Name }}
+      {% endfor %}
 
       <table>
         <tr>
