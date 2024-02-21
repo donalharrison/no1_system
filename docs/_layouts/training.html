@@ -32,12 +32,22 @@ layout: default
       {% assign tal = site.data.talents | where: "tree", page.title %}
       
       {% assign r1 = site.data.talents | where: "rank", "1" %}
-      {% for t in r1 %}
-        {% if t.tree == page.title %}
-          {{ t.Name }}
-        {% endif %}
-      {% endfor %}
-
+      <h3>Rank 1 mofo</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+      <table>
+        <tr>
+          {% for t in r1 %}
+            {% if t.tree == page.title %}
+            <td>{{ r1.Name }}</td>
+            <td>{{ r1.Type }}</td>
+            <td>{{ r1.Effect }}</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      </table>
+      
       <p> {{ r1.Name }} </p>
         {% if r1 %}
           <h3>Rank 1</h3>
