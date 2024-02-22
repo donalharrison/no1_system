@@ -21,9 +21,9 @@ Shifts represent quick actions or movements that take minimal concentration or e
 - **Draw / Change  a weapon**
 
 ## Defy danger
-- **Hide** - Roll Stealth to gain Hidden status
+- **Hide!** - Roll Stealth to gain Hidden status
 - **Parkour!** - Roll Tumble to move through dangerous terrain.
-- **
+- **Prove your mettle!** - Roll Exert to power through painful or obstructive effects.
 
 ## Create an advantage
 - Describe a way to use a Skill quickly to aid in your allies efforts.

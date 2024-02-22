@@ -60,7 +60,7 @@ Mage,Specialization,,"You have begun to comprehend the mysteries of natural and 
 Medic,Specialization,,"You are trained in the fields medicine and first aid, providing crucial support in healing injuries and aiding wounded comrades through mundane means.",/no1_system/assets/img/medic.png,/no1_system/characters/training/medic/
 Mesmer,Specialization,,"You are a master of the manipulation of thoughts and perceptions, specializing in psychological tactics, illusions, and mind control.",/no1_system/assets/img/mesmer.png,/no1_system/characters/training/mesmer/
 Necromancer,Specialization,,"You command the forces of death and undeath, raising corpses and wielding dark magic.",/no1_system/assets/img/necromancer.png,/no1_system/characters/training/necromancer/
-Seer,Specialization,,"You experience divine insights and prophetic visions, providing guidance and foresight.",/no1_system/assets/img/oracle.png,/no1_system/characters/training/oracle/
+Seer,Specialization,,"You experience divine insights and prophetic visions, providing guidance and foresight.",/no1_system/assets/img/oracle.png,/no1_system/characters/training/seer/
 Pilot,Specialization,,You have advanced skills at handling and operating various aircraft.,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
 Priest,Specialization,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest.png,/no1_system/characters/training/priest/
 Probabilist,Specialization,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist.png,/no1_system/characters/training/probabilist/
