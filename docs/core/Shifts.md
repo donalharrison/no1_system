@@ -14,7 +14,7 @@ Shifts represent quick actions or movements that take minimal concentration or e
 ## Move
 - **Move to an adjacent zone**
 - **Move within your current zone**
-    - Move into proximity of a Point of Interest within your current Zone
+    - Move into proximity of or away from a Point of Interest within your current Zone
 
 ## Use your equipment
 - **Reload / Restring / Unjam a weapon**
@@ -22,14 +22,15 @@ Shifts represent quick actions or movements that take minimal concentration or e
 
 ## Defy danger
 - **Hide** - Roll Stealth to gain Hidden status
+- **Parkour!** - Roll Tumble to move through dangerous terrain.
 - **
 
 ## Create an advantage
 - Describe a way to use a Skill quickly to aid in your allies efforts.
 - Roll up to Challenge to create a number of Advantages in the Current Zone equal to the total Hits in the result set.
 - Creating advantages does not count 1s against initiative, but does increase Entropy.
-- Any ally can use an Advantages to:
-    - **Bonus hits**: Add +1d4 Bonus Hits to any roll.
+- Any ally can use an Advantage to:
+    - **Bonus Hits**: Add +1d4 Bonus Hits to any roll.
     - **Re-roll a 1**: Re-roll a single die in a result set that landed on 1.
     - **Trigger a talent**: Automatically use a Trigger Talent.
     - **Calm the chaos**: Reduce the current Entropy by 1.

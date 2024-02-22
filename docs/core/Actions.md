@@ -18,7 +18,7 @@ The action may result in a Trigger for the player, which happens immediately fol
 <div style="width: 100%;">
 <div style="width: 25%; height: 250px; float: left;"> 
 
-<img src="/no1_system/assets/img/action_skills.png" width="100" height="100" algin="middle">
+<img src="/no1_system/assets/img/action_skills.png" width="100" height="100" align="middle">
 
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
@@ -29,7 +29,7 @@ This is the core Action of the No1 system.  A character attempts an action that 
 </p>
 </div>
 <div style="width: 25%; height: 250px; float: left;"> 
-<img src="/no1_system/assets/img/action_ability.png" width="100" height="100" algin="middle">
+<img src="/no1_system/assets/img/action_ability.png" width="100" height="100" align="middle">
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
 
@@ -39,7 +39,7 @@ Characters can spend their action to use an Ability gained from their Training T
 </p>
 </div>
 <div style="width: 25%; height: 250px; float: left;"> 
-<img src="/no1_system/assets/img/action_recover.png" width="100" height="100" algin="middle">
+<img src="/no1_system/assets/img/action_recover.png" width="100" height="100" align="middle">
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
 
@@ -55,7 +55,7 @@ The player rolls the a number of the appropriate Skill dice equal to Challenge, 
 </p>
 </div>
 <div style="width: 25%; height: 250px; float: left;"> 
-<img src="/no1_system/assets/img/action_maneuver.png" width="100" height="100" algin="middle">
+<img src="/no1_system/assets/img/d20_20.png" width="100" height="100" align="middle">
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
 <h2>Use a Maneuver</h2>
