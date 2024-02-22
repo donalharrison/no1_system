@@ -25,7 +25,7 @@ Represents a character's prowess in combat, physical power, and ability to handl
 
 Skills: Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw
 
-Magic: Inferno, Tempest, Mori
+Power Skills: Inferno, Tempest, Mori
 
 ## Deft
 
@@ -33,7 +33,7 @@ Reflects physical and mental nimbleness, influencing a character's finesse in de
 
 Skills: Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble
 
-Magic: Squall, Nox
+Power Skills: Squall, Nox
 
 ## Savvy
 
@@ -41,23 +41,34 @@ Measures a character's knowledge, ingenuity, and social intelligence, affecting 
 
 Skills: Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival
 
-Magic: Rime, Mentis, Torrent
+Power Skills: Rime, Mentis, Torrent
 
 ## Steady
 
 Represents a character's resilience, determination, and mental fortitude, influencing their ability to endure challenges, resist stress, and stay focused under pressure.
 
-Skills: Athletics, Composure, Focus, Investigate, Lead, Perceive
+Skills: Athletics, Composure, Endure, Focus, Investigate, Lead, Perceive
 
-Magic: Lux,  Tellus
+Power Skills: Lux,  Tellus
 
 ## Uncanny
 
 Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
-Skills: Destroy, Endure, Intuit, Luck
+Skills: Destroy, Intuit, Luck, Resist
 
-Magic: Aether, Nihil, Vivus
+Power Skills: Aether, Nihil, Vivus
+
+# Starting Traits
+
+Players choose from (or roll to determine if you're not a coward) the following arrays to apply to their characters' starting Trait scores. The scores can be applied to the Traits in any order the player wishes.
+
+** 1: 4 - 2 - 1 - 0 - 0 **
+** 2: 3 - 3 - 1 - 0 - 0 ** 
+** 3: 3 - 2 - 1 - 1 - 0 ** 
+** 4: 3 - 1 - 1 - 1 - 1 **
+** 5: 2 - 2 - 2 - 1 - 0 **
+** 6: 2 - 2 - 1 - 1 - 1 **
 
 # Defenses & Grit
 

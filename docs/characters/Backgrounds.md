@@ -24,6 +24,9 @@ During each background term, you may re-roll 1s in the term's result set a a tot
 ## Background Terms & Entropy
 If there are 1s in any term's final result set (i.e., after any re-rolls), increase the Entropy for your background by 1.  Entropy will be applied in the final Maneuver roll once you've decided to conclude your background.  Be careful -- the more Entropy generated during your background terms, the more complications you're likely to encounter at your backgrounds conclusion.
 
+##  Press your luck. . .
+You may continue through background terms as long as you like.  The catch is the *Challenge* for the term roll is equal to the term number.  Thus, the more terms the more Hits you will attain, but also the more Entropy you'll accumulate.  There is no great reward without risk. . .
+
 ## Dangerous Background Paths
 
 | Adventurer | Agent | Criminal | Military | Scourge |

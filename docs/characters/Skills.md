@@ -4,7 +4,7 @@ title: "Skills"
 permalink: /characters/skills/
 id: characters-skills
 parent: Characters
-nav_order: 2
+nav_order: 3
 ---
 
 # Skills
