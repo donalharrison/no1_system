@@ -1,17 +1,17 @@
 tree,Name,Type,rank,Effect
-Acolyte,Commune with divinity,Ability,1,"""Use your Composure to connect with a higher power.  Gain Hits + Steady Power ranks to prepare your Powers.
-You Powers gain the following characteristics:
-- Threshold: 4
-- Backlash: Penance - For each Power that results in Hits greater than Threshold, mark 1 Penance.  Penance affects your ability to call upon your higher power, as described by the BAMF when it occurs.  Penance can be paid by spending actions outside of combat usuiing Composure, reducing your current Peneance by Hits in the results set.
-
-You can use this abiility without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 action)."""
+Acolyte,Commune with divinity,Ability,1,"Use your Composure to connect with a higher power.  Gain Hits + Steady Power ranks to prepare your Powers.
+<br>You Powers gain the following characteristics:
+<br>- <b>Threshold:</b> 4
+<br>- <b>Backlash:</b> <em>Penance</em> - For each Power that results in Hits greater than Threshold, mark 1 Penance.  Penance affects your ability to call upon your higher power, as described by the BAMF when it occurs.  Penance can be paid by spending actions outside of combat usuiing Composure, reducing your current Peneance by Hits in the results set.
+<br>
+<br>You can use this abiility without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 action)."
 Acolyte,Composure (3),Static,2,Increaser your Composure rating to 2 (d8).
-Adept,Attune with forces,Ability,1,"""Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny Power ranks to prepare your Powers.
-You Powers gain the following characteristics:
-- Threshold: 3
-- Backlash: Fatigue -- You gain 1 Fatigue for every Hit a Pwer generates above Threshold.  If your total Fatigue exceeds your Grit at any time, you make all rolls at Challenge +2d.
-
-You can use this abiility without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."""
+Adept,Attune with forces,Ability,1,"Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny Power ranks to prepare your Powers.
+<br>You Powers gain the following characteristics:
+<br>- <b>Threshold:</b> 3
+<br>- <b>Backlash:</b> <em>Fatigue</em> -- You gain 1 Fatigue for every Hit a Pwer generates above Threshold.  If your total Fatigue exceeds your Grit at any time, you make all rolls at Challenge +2d.
+<br>
+<br>You can use this abiility without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."
 Adept,Insight (3),Static,2,Increase your Insight rating to 3 (d10).
 Alchemist,Prepare concoctions,Ability,1,Craft
 Archmage,Master the arcane,Ability,1,
