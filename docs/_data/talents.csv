@@ -1,9 +1,18 @@
 tree,Name,Type,rank,Effect
-Acolyte,Commune with divinity,Ability,1,"Composure to connect with your power."
-Acolyte,Composure (2),Static,2,
-Acolyte,Composure (3),Static,3,
-Adept,Attune with forces,Ability,1,
-Adept,,Ability,,
+Acolyte,Commune with divinity,Ability,1,"""Use your Composure to connect with a higher power.  Gain Hits + Steady Power ranks to prepare your Powers.
+You Powers gain the following characteristics:
+- Threshold: 4
+- Backlash: Penance - For each Power that results in Hits greater than Threshold, mark 1 Penance.  Penance affects your ability to call upon your higher power, as described by the BAMF when it occurs.  Penance can be paid by spending actions outside of combat usuiing Composure, reducing your current Peneance by Hits in the results set.
+
+You can use this abiility without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 action)."""
+Acolyte,Composure (3),Static,2,Increaser your Composure rating to 2 (d8).
+Adept,Attune with forces,Ability,1,"""Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny Power ranks to prepare your Powers.
+You Powers gain the following characteristics:
+- Threshold: 3
+- Backlash: Fatigue -- You gain 1 Fatigue for every Hit a Pwer generates above Threshold.  If your total Fatigue exceeds your Grit at any time, you make all rolls at Challenge +2d.
+
+You can use this abiility without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."""
+Adept,Insight (3),Static,2,Increase your Insight rating to 3 (d10).
 Alchemist,Prepare concoctions,Ability,1,Craft
 Archmage,Master the arcane,Ability,1,
 Assassin,Coup de grace,Ability,2,
@@ -12,12 +21,14 @@ Athlete,Powerlifter,Ability,1,"Exert yourself to accomplish a feat of strength, 
 Athlete,Sprinter,Static,1,"When you Shift to move to an adjacent Zone, you may move an additional Zone."
 Bastion,,Ability,,
 Beastmaster,,Ability,,
+Berserker,Exert (2),Static,1,
 Berserker,Frenzy,Ability,1,
 Black Belt,,Ability,,
 Blade Weaver,,Ability,,
 Bounty Hunter,,Ability,,
 Brute,Brutal Strike,Ability,1,"Strike one target with unrelenting force, adding +1d4 Hits to the result set."
 Brute,Last Stand,Ability,2,Exert yourself when you are below your maximum Grit.  Regain +Hits to your Primary Defense and reduce the Challenge by 1d.
+Brute,Exert (2),Static,1,Increase your Exert rating to 2 (d8).
 Channeler,Channel the energies,Abillity,,Focus to acess elemental forces.
 Channeler,Channeling,Abillity,,
 Confessor,,Ability,,
@@ -27,10 +38,15 @@ Defender,Defensive Stance,Ability,1,"Focus to defend yourself in combat, adding 
 Defender,Harm's Way,Ability,1,"Focus to protect an ally in your Zone.  Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
 Defender,Indomitable Presence,Ability,2,"Intimidate your opponents, causing them to hesitate.  Add +2 to the current Timer."
 Defender,Focus (2),Static,1,Increase your Focus rating to 2 (d8).
-Detective,,Ability,,
+Detective,Investigate (2),Static,1,
 Diabolist,Dance with devils,Ability,1,
-Diplomat,Browbeat,Ability,,"Intimidate your target outside of combat, adding +2 Hits to the result set."
-Diplomat,It's all a facade,Ability,,"Deceive opponents in your Current Zone, masking your true intentions."
+Diplomat,Browbeat,Ability,2,"Intimidate your target outside of combat, adding +2 Hits to the result set."
+Diplomat,It's all a facade,Ability,2,"Deceive opponents in your Current Zone, masking your true intentions."
+Diplomat,Persuade (2),Ability,1,Increase your Persuade rating to 2 (d8)
+Diplomat,Deceive (2),Ability,1,Increase your Deceive rating to 2 (d8)
+Diplomat,Unflappable,Ability,2,"When you Recover to regain Nerve, regain and additional +1d4 Bonus Hits."
+Diplomat,Persuade (3),Ability,3,Increase your Persuade rating to 3 (d10)
+Diplomat,Deceive (3),Ability,3,Increase your Deceive rating to 3 (d10)
 Diplomat,Silver Tongue,Ability,,"Persuade your target, adding +2 Hits to the result set."
 Dragoon,,Ability,,
 Driver,,Ability,,
@@ -60,7 +76,7 @@ Marksman,Shoot (3),Static,2,Increase your Shoot rating to 3 (d10).
 Marksman,Shooter,Trigger,1,"When you Shoot your target but earn 0 Hits, add +2 Hits to the result set."
 Martial Artist,Float like a butterfly. . .,Ability,1,"Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
 Martial Artist,Living Weapon,Trigger,1,"When you use your Martial Arts against your target but earn 0 Hits, add +2 Hits to the result set."
-Medic,First Aid,Ability,1,
+Medic,First Aid,Ability,1,Administer basic care to an inj
 Mesmer,,Ability,,
 Necromancer,Stir the dead,Ability,1,
 Overseer,Coordinated Assault,Ability,2,"Lead your Minions to launch a coordinated attack against a single target, dealing Hits +1d4 bonus Hits to the result set."
@@ -72,6 +88,8 @@ Probabilist,Derive axioms,Ability,1,Analyze
 Psion,Hone the mind,Ability,1,Focus
 Pugilist,,Ability,,
 Raindancer,,Ability,,
+Ranger,Shoot (3),Static,1,Increase your Shoot rating to 3 (d10).
+Ranger,Skirmisher,Trigger,1,"When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
 Ranger,Skirmisher,Trigger,1,"When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
 Reaver,,Ability,,
 Samurai,,Ability,,
@@ -110,13 +128,16 @@ Tactician,Fall Back,Ability,,"Lead allies in your current and all adjacent Zones
 Tactician,Inspire Allies,Ability,,"Lead all allies in your current Zone, allowing a number of them equal to the Hits in the result set to choose 1 of the following: Recover, Take -1d to their next Action, add 1 Hit to their next result set"
 Tactician,Reposition,Ability,,"Lead allies in your current Zones, allowing a number of them equal to the Hits in the result set to immediately use a Shift."
 Tank,Exert (2),Static,1,Increase your Exert rating to 2 (d8).
-Tank,Exert (3),Static,2,Increase your Exert rating to 3 (d10).
-Tank,Hard to Kill,Static,2,Increase you Grit by 3.
+Tank,Endure (2),Static,1,Increase your Endure rating to 2 (d8).
+Tank,Endure (3),Static,2,Increase your Endure rating to 3 (d10).
+Tank,Hard to Kill,Static,2,Increase your Grit by 3.
 Tank,I can take it,Trigger,1,"When you take more than 1 Hit from an effect, reduce the total Hits by 1."
 Tank,Shake it off,Ability,2,Use a Shift to Recover.
 Tank,Taunt,Ability,1,"Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you."
 Tank,Walk it off,Trigger,1,"When you Recover, regain +2 Defenses."
-Thief,,Ability,,
+Thief,Implements (2),Static,1,Increase your Implements rating to 2 (d8).
+Thief,Legerdemain (2),Static,1,Increase your Legerdemain rating to 2 (d8).
+Thief,Stealth (2),Static,1,Increase your Stealth rating to 2 (d8).
 Thrall,,Ability,,
 Transmuter,Study the forms,Ability,1,
 Traveler,,Ability,,

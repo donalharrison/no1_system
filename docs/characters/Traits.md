@@ -63,17 +63,17 @@ Power Skills: Aether, Nihil, Vivus
 
 Players choose from (or roll to determine if you're not a coward) the following arrays to apply to their characters' starting Trait scores. The scores can be applied to the Traits in any order the player wishes.
 
-** 1: 4 - 2 - 1 - 0 - 0 **
+**1: 4 - 2 - 1 - 0 - 0**
 
-** 2: 3 - 3 - 1 - 0 - 0 **
+**2: 3 - 3 - 1 - 0 - 0**
 
-** 3: 3 - 2 - 1 - 1 - 0 **
+**3: 3 - 2 - 1 - 1 - 0**
 
-** 4: 3 - 1 - 1 - 1 - 1 **
+**4: 3 - 1 - 1 - 1 - 1**
 
-** 5: 2 - 2 - 2 - 1 - 0 **
+**5: 2 - 2 - 2 - 1 - 0**
 
-** 6: 2 - 2 - 1 - 1 - 1 **
+**6: 2 - 2 - 1 - 1 - 1**
 
 # Defenses & Grit
 
