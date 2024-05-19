@@ -36,7 +36,7 @@ This is the core Action of the No1 system.  A character attempts an action that 
 <img src="/no1_system/assets/img/action_ability.png" width="100" height="100" align="center">
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
-</section>
+
 
 <h2>Use an Ability</h2>
 <p>
@@ -47,18 +47,11 @@ Characters can spend their action to use an Ability gained from their Training T
 
 <section>
 <div style="width: 25%; height: 250px; float: left;"> 
-<img src="/no1_system/assets/img/action_recover.png" width="100" height="100" align="middle">
+<img src="/no1_system/assets/img/shift.png" width="100" height="100" align="center">
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
 
-<section>
-<div style="width: 25%; height: 250px; float: left;"> 
-<img src="/no1_system/assets/img/action_ability.png" width="100" height="100" align="center">
-</div>
-<div style="margin-left: 25%; height: 250px;"> 
-</section>
-
-<h2>Use an Shift</h2>
+<h2>Use a Shift</h2>
 <p>
 Characters can spend their Action to use any Shift.
 </p>
@@ -67,10 +60,9 @@ Characters can spend their Action to use any Shift.
 
 <section>
 <div style="width: 25%; height: 250px; float: left;"> 
-<img src="/no1_system/assets/img/shift.png" width="100" height="100" align="middle">
+<img src="/no1_system/assets/img/action_recover.png" width="100" height="100" align="middle">
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
-
 
 <h2>Recover</h2>
 <p>
