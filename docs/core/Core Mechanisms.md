@@ -45,5 +45,9 @@ Entropy increases each time a 1 is contained in a roll's final results set.
 Momentum measures the level of success and proactivity the characters have attained.  High Momentum reflects arcs where the characters are experience consistent success in their pursuits.
 Momentum increases each time a roll's final result set contains no 1s and the players maintain the initiative.
 
-## Manuevers -- Interacting with Challenge, Entropy, & Momentum
-Players utilize the 
+## Hazard
+A crumbling bridge, a raging fire, an ogre blinded by rage.  All of these may create peril for the characters to navigate and overcome.  A fictional aspect of the scene that poses a specific threat or danger to the characters is called a Hazard.  When a character takes an Action or Shift while inside a Zone containing a Hazard, they add 1d4 to their next roll (referred to as a Hazard die) and add the result to the result set as normal.  This means Hazards create opportunities for the enemy to seize the Initiative and increase the Entropy if the Hazard die results in a 1, as well as potentially adding Hits to the result set on a roll of 4, rewarding the character's daring heroics.
+Hazards have ratings (1, 2 , 5, etc.) which determines the number of Hazard dice to add to the roll.  A raging Ogre may have Hazard 1, threatening to smash anything in its lair and imposing 1d4 to any roll made inside of the zone it occupies, while a Ixatgrigan the Corruptor, Lord of Dragon Tyrants, may have Hazard 6, adding 6d4 to every roll against it.  Hazard ratings are cumulative within the same Zone.  If the heroes face off against Ixatrigan inside of the Ogre's lair, then all rolls include 7 Hazard dice.
+
+### Defy Danger - Avoiding Hazards
+Players can use the *Defy Danger* Shift to avoid Hazards.  The total Hits in a Defy Danger result set reduces the number of Hazard dice added to any roll.  See the ***Shifts*** section for more information.

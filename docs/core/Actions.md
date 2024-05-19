@@ -51,6 +51,27 @@ Characters can spend their action to use an Ability gained from their Training T
 </div>
 <div style="margin-left: 25%; height: 250px;"> 
 
+<section>
+<div style="width: 25%; height: 250px; float: left;"> 
+<img src="/no1_system/assets/img/action_ability.png" width="100" height="100" align="center">
+</div>
+<div style="margin-left: 25%; height: 250px;"> 
+</section>
+
+<h2>Use an Shift</h2>
+<p>
+Characters can spend their Action to use any Shift.
+</p>
+</div>
+</section>
+
+<section>
+<div style="width: 25%; height: 250px; float: left;"> 
+<img src="/no1_system/assets/img/shift.png" width="100" height="100" align="middle">
+</div>
+<div style="margin-left: 25%; height: 250px;"> 
+
+
 <h2>Recover</h2>
 <p>
 Characters can use an action to Recover lost defenses.  To do so, the player declares which Defense they are attempting to recover which determines the Skill to be used in the roll:

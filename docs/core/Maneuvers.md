@@ -1,0 +1,12 @@
+---
+layout: page
+title: Maneuvers
+permalink: /core/maneuvers/
+parent: Gameplay
+grand_parent: Core System
+nav_order: 3
+---
+
+## Interacting with Challenge, Entropy, & Momentum
+
+Players utilize the 
