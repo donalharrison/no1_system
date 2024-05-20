@@ -1,19 +1,19 @@
 tree,Name,Type,rank,Effect
-Acolyte,Commune with divinity,Ability,1,"<em>When you gain this Talent, select 2 Power Skills from the list below to be your Acoloyte Foci. When you use this ability, prepare Powers that draw from these Skills:
+Acolyte,Commune with divinity,Ability,1,"<em>When you gain this Talent, select 2 Power Skills from the list below to be your Acolyte Creed. When you use this ability, prepare Powers that draw from these Skills:
 <br>- Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus
 </em>
 <br>
 <br>
-Use your Composure to connect with a higher power. Gain Hits + Steady Power ranks to prepare your Powers.
+Use your Composure to connect with a higher power. Gain Hits + Steady Power ranks to prepare your Powers (minimum 1).
 <br>You Powers gain the following characteristics:
 <br>- <b>Threshold:</b> 4
 <br>- <b>Backlash:</b> Penance - For each Power that results in Hits greater than Threshold, mark 1 Penance. Penance affects your ability to call upon your higher power, as described by the BAMF when it occurs. Penance can be paid by spending actions outside of combat usuiing Composure, reducing your current Peneance by Hits in the results set.
 <br>
 <br>You can use this ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 action)."
 Acolyte,Composure (3),Static,2,Increase your Composure rating to 3 (d10).
-Acolyte,Foci (2),Static,2,Increase one of your Foci ratings to 2 (d8).
-Acolyte,Foci (2),Static,3,Increase one of your Foci ratings to 2 (d8).
-Acolyte,Foci (3),Static,3,Increase one of your Foci ratings to 3 (d10).
+Acolyte,Creed (2),Static,2,Increase one of your Creed ratings to 2 (d8).
+Acolyte,Creed (2),Static,3,Increase one of your Creed ratings to 2 (d8).
+Acolyte,Creed (3),Static,3,Increase one of your Creed ratings to 3 (d10).
 Adept,Attune with forces,Ability,1,"<em>When you gain this Talent, select 2 Power Skills from the list below to be your Adept Foci.  When you use this ability, prepare Powers that draw from these Skills:
 <br> - Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus
 </em>
@@ -25,6 +25,7 @@ Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny
 <br>- <b>Backlash:</b> <em>Strain</em> -- You gain 1 Strain for every Hit a Power generates above Threshold.  If your total Strain exceeds your Grit at any time, you make all rolls at Challenge +2d.
 <br>
 <br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."
+Adept,Manage Strain,Ability,2,
 Adept,Insight (3),Static,2,Increase your Insight rating to 3 (d10).
 Alchemist,Prepare concoctions,Ability,1,Craft
 Archmage,Master the arcane,Ability,1,
