@@ -29,12 +29,12 @@ Below is a list the base system Skills & a brief description of their uses.  The
 Some Skills require Training to be used (*marked X; below*).  Characters can acquire access to these skills by spending Milestones on Trainings that confer expertise with the Skill.
 
 <table class="searchable sortable">
-    <tr>
+    <thead>
         <th>Name</th>
         <th>Trait</th>
         <th>Requires Training</th>
         <th>Description</th>
-    </tr>
+    </thead>
 {% for t in site.data.skills %}
     <tr>
         <td>
