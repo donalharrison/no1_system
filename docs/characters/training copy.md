@@ -51,7 +51,7 @@ Talents acrquired through Training make up the core of character advancement & c
 </table>
 </div>
 
-<div class="mytabs">
+
 <input type="radio" id="tabspecs" name="mytabs">
 <label for="tabspecs">Specializations</label>
 <div class="tab">
@@ -80,9 +80,6 @@ Talents acrquired through Training make up the core of character advancement & c
 </table>
 </div>
 
-## 
-
-<div class="mytabs">
 <input type="radio" id="tabdiscs" name="mytabs">
 <label for="tabdiscs">Disciplines</label>
 <div class="tab">
@@ -115,15 +112,11 @@ Talents acrquired through Training make up the core of character advancement & c
 
 
 <style>
-  body {
-    background: #ccc;
-    font-family: 'Roboto', sans-serif;
-}
+ 
 .mytabs {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
-    margin: 50px auto;
+    margin: 10px auto;
     padding: 25px;
 }
 .mytabs input[type="radio"] {
@@ -131,14 +124,12 @@ Talents acrquired through Training make up the core of character advancement & c
 }
 .mytabs label {
     padding: 25px;
-    background: #e2e2e2;
     font-weight: bold;
 }
 
 .mytabs .tab {
     width: 100%;
     padding: 20px;
-    background: #fff;
     order: 1;
     display: none;
 }
@@ -151,6 +142,6 @@ Talents acrquired through Training make up the core of character advancement & c
 }
 
 .mytabs input[type="radio"]:checked + label {
-    background: #fff;
+    background: #444985;
 }
 </style>
