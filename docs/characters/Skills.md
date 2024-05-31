@@ -9,7 +9,7 @@ nav_order: 3
 
 # Skills
 
-Skills represent the character’s training across a variety of domains.
+Skills represent the character’s capabilities across a variety of domains.
 
 Skills have ratings from 0 to 4.  A characters Skill rating determines which die is rolled when taking an action involving the Skill as detailed in the Skill Rating table.
 
@@ -21,7 +21,17 @@ Rating |  Die
 3      |  d10
 4      |  d12
 ```
- 
+
+## Action Skills
+Action Skills are a crucial subset of Skills in the game that allow players to perform various tasks and actions without needing a specific Ability to utilize the Skill. These Skills represent the character's aptitude, proficiencies, and expertise that enable them to handle a wide range of situations.
+
+## Effect Skills 
+Effect Skills are a distinct set of Skills that require the use of a separate Action to be activated. These Skills represent specialized abilities or techniques that characters can use to produce specific effects or outcomes within the game.
+
+Effect Skills come with the added benefit of Skill Talents which alter the results of any Actions for which the Skill is applied.  Skill Talents come in two varieties: *Static* and *Trigger*.
+
+### 
+
 ## Skill List
 Below is a list the base system Skills & a brief description of their uses.  The list is ordered by the Skill's associated Traits.
 
