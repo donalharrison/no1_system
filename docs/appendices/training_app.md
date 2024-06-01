@@ -3,8 +3,8 @@ layout: page
 name: Training Appendix
 title: Training
 permalink: /apendices/training/
-id: characters-training
-parent: Characters
+id: training-appendix
+parent: Apendices
 has_children: false
 nav_order: 4
 ---
