@@ -74,16 +74,16 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
-
-                <td style="width: 80; height: 80px">
-                    <a href="{{ s.page_path }}">
-                    <img src="{{ s.img_path }}" width="70" height="70">
-                    <br>
+            {% if s.type == 1 %}
+                <td style="width: 110; height: 80px">
                     {{ s.Name }}
-                    </a>
-                    </td>
+                <br>
+                <hr>
+                <p>
+                    {{ s.description }}
+                </p>
                 
-                {% assign i = forloop.index | modulo: 4 %}
+                {% assign i = forloop.index | modulo: 3 %}
                 {% if i == 0 %}
                     </tr>
                     <tr>
@@ -103,7 +103,7 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 .mytabs {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 25px;
 }
 .mytabs input[type="radio"] {

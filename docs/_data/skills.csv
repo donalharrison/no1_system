@@ -1,50 +1,52 @@
-name,trait,requires_training,description,,
-Aether,Uncanny,X,Draw power & knowledge from the energy of all forces unknown.,,
-Analyze,Savvy,,,,
-Arithm,Savvy,X,Change the course of fate by altering its underlying quanta.,,
-Composure,Steady,,,,
-Computers,Savvy,,,,
-Craft,Savvy,,,,
-Current Events,Savvy,,,,
-Deceive,Savvy,,,,
-Endure,Steady,,,,
-Exert,Dangerous,,Use your physical prowess to overwhelm & overcome.,,
-Focus,Steady,,,,
-Forma,Steady,X,,,
-Grapple,Dangerous,,,,
-Implements,Deft,,,,
-Inferno,Dangerous,X,,,
-Insight,Deft,,,,
-Intimidate,Dangerous,,,,
-Intuit,Uncanny,,,,
-Investigate,Savvy,,,,
-Lead,Steady,,,,
-Legerdemain,Deft,,,,
-Linguistics,Savvy,,,,
-Luck,Uncanny,,,,
-Lux,Steady,X,,,
-Martial Arts,Dangerous,,,,
-Mentis,Savvy,X,,,
-Mori,Deft,X,,,
-Navigate,Savvy,,,,
-Nox,Deft,X,,,
-Operate,Deft,,,,
-Persuade,Savvy,,,,
-Pilot,Deft,,,,
-Research,Savvy,,,,
-Rime,Savvy,X,,,
-Science,Savvy,,,,
-Shoot,Dangerous,,,,
-Squall,Deft,X,,,
-Stealth,Deft,,,,
-Streetwise,Savvy,,,,
-Strike,Dangerous,,,,
-Survival,Savvy,,,,
-Tactics,Deft,,,,
-Tellus,Tellus,X,,,
-Tempest,Dangerous,X,,,
-Throw,Dangerous,,,,
-Torrent,Savvy,X,,,
-Tumble,Deft,,,,
-Vivus,Uncanny,X,,,
-Nihil,Uncanny,X,,,
+name,trait,type,description
+Analyze,Savvy,1,The ability to examine and break down information or situations critically.
+Composure,Steady,1,Maintaining calm and control under pressure or in stressful situations.
+Computers,Savvy,1,Proficiency in using and understanding computer systems and software.
+Craft,Savvy,1,Skill in creating or repairing items through various methods and materials.
+Current Events,Savvy,1,Awareness and knowledge of recent happenings and news.
+Deceive,Savvy,1,"The art of lying, misleading, or tricking others."
+Endure,Steady,1,The capability to withstand physical or mental stress and hardships.
+Exert,Dangerous,1,Use your physical prowess to overwhelm & overcome.
+Focus,Steady,1,Concentration and mental discipline to maintain attention on a task.
+Grapple,Dangerous,1,Techniques for engaging in close combat and securing holds on an opponent.
+Implements,Deft,1,Proficiency in using tools and devices for various purposes.
+Insight,Deft,1,The ability to understand and interpret the true nature of people and situations.
+Intimidate,Dangerous,1,Using fear or threats to influence others' actions.
+Investigate,Savvy,1,"The skill of searching for information, clues, and evidence."
+Lead,Steady,1,"The ability to guide, direct, and inspire others."
+Legerdemain,Deft,1,Skill in sleight of hand and performing tricks or feats of dexterity.
+Linguistics,Savvy,1,Knowledge and understanding of languages and their structures.
+Martial Arts,Dangerous,1,Training and expertise in hand-to-hand combat techniques.
+Navigate,Savvy,1,"The ability to plan and follow a route, whether on land, sea, or air."
+Operate,Deft,1,Proficiency in controlling and managing machinery and vehicles.
+Persuade,Savvy,1,The art of convincing others to agree or take action.
+Pilot,Deft,1,The skill of flying aircraft or operating other complex vehicles.
+Research,Savvy,1,The ability to systematically investigate and gather information.
+Science,Savvy,1,Knowledge and application of scientific principles and methods.
+Shoot,Dangerous,1,"Proficiency in using ranged weapons, such as firearms or bows."
+Stealth,Deft,1,The ability to move quietly and unseen.
+Streetwise,Savvy,1,Practical knowledge and experience of urban life and its challenges.
+Strike,Dangerous,1,Skill in delivering effective blows in combat.
+Survival,Savvy,1,The ability to endure and thrive in harsh or wilderness environments.
+Tactics,Deft,1,The art of planning and executing strategies in various situations.
+Throw,Dangerous,1,Proficiency in accurately throwing objects or weapons.
+Tumble,Deft,1,"Skill in acrobatics and performing rolls, flips, and other agile movements."
+Aether,Uncanny,2,"Harnesses the energy of all forces unknown, tapping into the cosmic and mystical."
+Arithm,Savvy,2,"Manipulates reality through the knowledge of numeracy, equations, and numerical patterns."
+Destroy,Uncanny,2,"Amplifies destructive capabilities, enhancing the ability to cause harm and deal death."
+Forma,Steady,2,"Encompasses shaping and transfiguration, altering forms and structures."
+Inferno,Dangerous,2,"Commands fire and flame, igniting and controlling blazes."
+Intuit,Uncanny,2,"Enhances perception and insight, allowing for extraordinary understanding and instinctive knowledge."
+Luck,Uncanny,2,"Increases serendipity and chance, making favorable outcomes more likely and reducing mishaps."
+Lux,Steady,2,"Wields light and illumination, creating and controlling brilliance."
+Mentis,Savvy,2,"Utilizes the mind in all aspects, from illusions and telepathy to psychic attacks."
+Mori,Deft,2,"Governs death, dying, and undeath, influencing the end of life and the afterlife."
+Nihil,Uncanny,2,"Channels the energy of the void, the absolute nothingness."
+Nox,Deft,2,"Masters darkness and shadow, concealing and manipulating gloom."
+Resist,Uncanny,2,"Fortifies defenses against various forms of harm, providing exceptional resilience and endurance."
+Rime,Savvy,2,"Controls cold, ice, and frost, bringing chills and freezing environments."
+Squall,Deft,2,"Commands winds, air, and the skies, summoning gusts and atmospheric forces."
+Tellus,Tellus,2,"Manipulates earth, stone, and plants, shaping the natural and solid world."
+Tempest,Dangerous,2,"Unleashes lightning, thunder, and the storm."
+Torrent,Savvy,2,"Wields water and rain, directing and forming aquatic flows."
+Vivus,Uncanny,2,"Governs life, restoration, and healing, mending wounds and revitalizing the living."
