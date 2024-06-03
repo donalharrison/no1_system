@@ -34,9 +34,10 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 
 ## Skills Lists
 
-{% assign skill_traits = site.data.skills.traits | uniq %}
-
-<p>{{ skill_traits }}</p>
+{% assign skill_traits = site.data.skills %}
+{% for strait in skill_traits | uniq %}
+<p>{{ strait }}</p>
+{% endfor %}
 
 <div class="mytabs">
 <input type="radio" id="tabbasics" name="mytabs" checked="checked">
@@ -49,13 +50,13 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "1" %}
-                <td style="width: 33%; height: 80px; padding: 2px">
-                <p style="font-size:125%;">
+                <td style="width: 33%; height: 80px; padding: 5px">
+                <p style="font-size:125%; margin:3px;">
                     <strong>
                     {{ s.name }}
                     </strong>
                 </p>
-                <hr style="margin: 0px">
+                <hr style="margin: 3px;">
                 <p>
                     {{ s.description }}
                 </p>
@@ -76,13 +77,13 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "2" %}
-                <td style="width: 33%; height: 80px; padding: 2px">
-                <p style="font-size:125%;">
+                <td style="width: 33%; height: 80px; padding: 5px">
+                <p style="font-size:125%; margin:3px;">
                     <strong>
                     {{ s.name }}
                     </strong>
                 </p>
-                <hr style="margin: 0px">
+                <hr style="margin: 3px;">
                 <p>
                     {{ s.description }}
                 </p>
