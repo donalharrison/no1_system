@@ -70,6 +70,7 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 <label for="tabdangerous">Dangerous</label>
 
 <div class="tab">
+<h2>Action Skills</h2>
 <table style="text-align: center;">
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
@@ -82,7 +83,32 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
                 <p>
                     {{ s.description }}
                 </p>
+                </td>
+                {% assign i = forloop.index | modulo: 3 %}
+                {% if i == 0 %}
+                    </tr>
+                    <tr>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
 
+    </tr>
+</table>
+<br>
+<h2>Effect Skills</h2>
+<table style="text-align: center;">
+    <tr>
+        {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
+        {% for s in skills %}
+            {% if s.type == 2 %}
+                <td style="width: 110; height: 80px">
+                    {{ s.name }}
+                <br>
+                <hr>
+                <p>
+                    {{ s.description }}
+                </p>
+                </td>
                 {% assign i = forloop.index | modulo: 3 %}
                 {% if i == 0 %}
                     </tr>
