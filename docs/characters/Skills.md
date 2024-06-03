@@ -67,17 +67,17 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 
 <div class="mytabs">
 <input type="radio" id="tabbasics" name="mytabs" checked="checked">
-<label for="tabdangerous">Dangerous</label>
+<label for="tabdangerous" style="font-size:175%">Dangerous</label>
 
 <div class="tab">
-<h2>Action Skills</h2>
+<h3>Action Skills</h3>
 <table style="text-align: left;">
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "1" %}
                 <td style="width: 33%; height: 80px">
-                <p style="font-size:200%;">
+                <p style="font-size:125%;">
                     <strong>
                     {{ s.name }}
                     </strong>
@@ -98,14 +98,14 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
     </tr>
 </table>
 <br>
-<h2>Effect Skills</h2>
+<h3>Effect Skills</h3>
 <table style="text-align: left;">
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "2" %}
                 <td style="width: 33%; height: 80px">
-                <p style="font-size:200%;">
+                <p style="font-size:125%;">
                     <strong>
                     {{ s.name }}
                     </strong>
