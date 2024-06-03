@@ -76,7 +76,7 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
         {% for s in skills %}
             {% if s.type == 1 %}
                 <td style="width: 110; height: 80px">
-                    {{ s.Name }}
+                    {{ s.name }}
                 <br>
                 <hr>
                 <p>
