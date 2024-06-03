@@ -34,13 +34,18 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 
 ## Skills Lists
 
-{% assign skill_traits = site.data.skills | map: "trait" | uniq %}
+{% assign skill_traits = site.data.skills | map: "trait" | uniq %} 
+
 {% for strait in skill_traits %}
-<p>{{ strait }}</p>
+    {{ assign tabid = 'tab' + strait}}
+
+    {{ strait }}
+
+    {{ tabid }}
 {% endfor %}
 
 <div class="mytabs">
-<input type="radio" id="tabbasics" name="mytabs" checked="checked">
+<input type="radio" id="tabdangerous" name="mytabs" checked="checked">
 <label for="tabdangerous" style="font-size:140%">Dangerous</label>
 
 <div class="tab">
@@ -57,7 +62,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
                     </strong>
                 </p>
                 <hr style="margin: 3px;">
-                <p>
+                <p style="margin: 3px;">
                     {{ s.description }}
                 </p>
                 </td>
@@ -84,7 +89,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
                     </strong>
                 </p>
                 <hr style="margin: 3px;">
-                <p>
+                <p style="margin: 3px;">
                     {{ s.description }}
                 </p>
                 </td>
