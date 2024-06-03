@@ -37,7 +37,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 {% assign skill_traits = site.data.skills | map: "trait" | uniq %} 
 
 {% for strait in skill_traits %}
-    {% assign tabid = 'tab' + strait %}
+    {% assign tabid = 'tab' | concat: strait %}
 
     {{ strait }}
 
