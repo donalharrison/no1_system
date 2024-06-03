@@ -100,7 +100,7 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
-            {% if s.type == 2 %}
+            {% if s.type == "2" %}
                 <td style="width: 110; height: 80px">
                     {{ s.name }}
                 <br>
