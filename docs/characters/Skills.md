@@ -76,11 +76,12 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "1" %}
-                <td style="width: 110; height: 80px">
-                <h3>
+                <td style="width: 33%; height: 80px">
+                <p style="font-size:200%;">
+                    <strong>
                     {{ s.name }}
-                </h3>
-                <br>
+                    </strong>
+                </p>
                 <hr>
                 <p>
                     {{ s.description }}
@@ -103,11 +104,12 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "2" %}
-                <td style="width: 110; height: 80px">
-                <h3>
+                <td style="width: 33%; height: 80px">
+                <p style="font-size:200%;">
+                    <strong>
                     {{ s.name }}
-                </h3>
-                <br>
+                    </strong>
+                </p>
                 <hr>
                 <p>
                     {{ s.description }}
