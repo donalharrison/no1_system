@@ -41,74 +41,70 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 {% for strait in skill_traits %}
     {% assign tabid = 'tab_' | append: strait %}
 
-    {{ strait }}
-
-    {{ tabid }}
-
-    { if strait == 'Dangerous'}
+    {% if strait == 'Dangerous' %}
         <input type="radio" id="{{ tabid }}" name="mytabs" checked="checked">
     {% else % }
         <input type="radio" id="{{ tabid }}" name="mytabs">
     {% endif %}
 
-<label for="{{ tabid }}" style="font-size:140%">{{ strait}}</label>
+    <label for="{{ tabid }}" style="font-size:140%">{{ strait}}</label>
 
-<div class="tab">
-<h3>Action Skills</h3>
-<table style="text-align: left;">
-    <tr>
-        {% assign skills = site.data.skills | where: "trait", strait %}
-        {% for s in skills %}
-            {% if s.type == "1" %}
-                <td style="width: 33%; height: 80px; padding: 5px">
-                <p style="font-size:125%; margin:3px;">
-                    <strong>
-                    {{ s.name }}
-                    </strong>
-                </p>
-                <hr style="margin: 3px;">
-                <p style="margin: 3px;">
-                    {{ s.description }}
-                </p>
-                </td>
-                {% assign i = forloop.index | modulo: 3 %}
-                {% if i == 0 %}
-                    </tr>
-                    <tr>
+    <div class="tab">
+    <h3>Action Skills</h3>
+    <table style="text-align: left;">
+        <tr>
+            {% assign skills = site.data.skills | where: "trait", strait %}
+            {% for s in skills %}
+                {% if s.type == "1" %}
+                    <td style="width: 33%; height: 80px; padding: 5px">
+                    <p style="font-size:125%; margin:3px;">
+                        <strong>
+                        {{ s.name }}
+                        </strong>
+                    </p>
+                    <hr style="margin: 3px;">
+                    <p style="margin: 3px;">
+                        {{ s.description }}
+                    </p>
+                    </td>
+                    {% assign i = forloop.index | modulo: 3 %}
+                    {% if i == 0 %}
+                        </tr>
+                        <tr>
+                    {% endif %}
                 {% endif %}
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
 
-    </tr>
-</table>
-<h3>Effect Skills</h3>
-<table style="text-align: left;">
-    <tr>
-        {% assign skills = site.data.skills | where: "trait", strait %}
-        {% for s in skills %}
-            {% if s.type == "2" %}
-                <td style="width: 33%; height: 80px; padding: 5px">
-                <p style="font-size:125%; margin:3px;">
-                    <strong>
-                    {{ s.name }}
-                    </strong>
-                </p>
-                <hr style="margin: 3px;">
-                <p style="margin: 3px;">
-                    {{ s.description }}
-                </p>
-                </td>
-                {% assign i = forloop.index | modulo: 3 %}
-                {% if i == 0 %}
-                    </tr>
-                    <tr>
+        </tr>
+    </table>
+    <h3>Effect Skills</h3>
+    <table style="text-align: left;">
+        <tr>
+            {% assign skills = site.data.skills | where: "trait", strait %}
+            {% for s in skills %}
+                {% if s.type == "2" %}
+                    <td style="width: 33%; height: 80px; padding: 5px">
+                    <p style="font-size:125%; margin:3px;">
+                        <strong>
+                        {{ s.name }}
+                        </strong>
+                    </p>
+                    <hr style="margin: 3px;">
+                    <p style="margin: 3px;">
+                        {{ s.description }}
+                    </p>
+                    </td>
+                    {% assign i = forloop.index | modulo: 3 %}
+                    {% if i == 0 %}
+                        </tr>
+                        <tr>
+                    {% endif %}
                 {% endif %}
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
 
-    </tr>
-</table>
-</div>
+        </tr>
+    </table>
+    </div>
 
 {% endfor %}
 
