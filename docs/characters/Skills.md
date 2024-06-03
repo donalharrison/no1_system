@@ -82,12 +82,13 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
                 <p>
                     {{ s.description }}
                 </p>
-                
+
                 {% assign i = forloop.index | modulo: 3 %}
                 {% if i == 0 %}
                     </tr>
                     <tr>
                 {% endif %}
+            {% endif %}
         {% endfor %}
 
     </tr>
