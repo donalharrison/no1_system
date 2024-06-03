@@ -34,7 +34,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 
 ## Skills Lists
 
-{ % assign skill_traits = site.data.skills.traits | uniq %}
+{% assign skill_traits = site.data.skills.traits | uniq %}
 
 {{ skill_traits }}
 
