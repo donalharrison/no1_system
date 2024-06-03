@@ -47,7 +47,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
         <input type="radio" id="{{ tabid }}" name="mytabs">
     {% endif %}
 
-    <label for="{{ tabid }}" style="font-size:140%">{{ strait}}</label>
+    <label for="{{ tabid }}" style="font-size:140%">{{ strait }}</label>
 
     <div class="tab">
     <h3>Action Skills</h3>
