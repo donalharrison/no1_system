@@ -32,42 +32,15 @@ Effect Skills come with the added benefit of Skill Talents which alter the resul
 Skill Talents come in two varieties: *Static* and *Trigger*.
 *Static Skill Talents* take effect any time the Skill is used, while *Trigger Skill Talents* only occur when the result of the Skill attempt meet the Trigger's condition(s).
 
-## Skill List
-Below is a list the base system Skills & a brief description of their uses.  The list is ordered by the Skill's associated Traits.
+## Skills Lists
 
-{: .note}
-Some Skills require Training to be used (*marked X; below*).  Characters can acquire access to these skills by spending Milestones on Trainings that confer expertise with the Skill.
+{ % assign skill_traits = site.data.skills.traits | uniq %}
 
-<table class="searchable sortable">
-    <thead>
-        <th>Name</th>
-        <th>Trait</th>
-        <th>Requires Training</th>
-        <th>Description</th>
-    </thead>
-{% for t in site.data.skills %}
-    <tr>
-        <td>
-        {{ t.name }}
-        </td>
-        <td>
-        {{ t.trait }}
-        </td>
-        <td>
-        {{ t.requires_training }}
-        </td>
-        <td>
-        {{ t.description }}
-        </td>
-    </tr>
-{% endfor %}
-
-</table>
-
+{{ skill_traits }}
 
 <div class="mytabs">
 <input type="radio" id="tabbasics" name="mytabs" checked="checked">
-<label for="tabdangerous" style="font-size:175%">Dangerous</label>
+<label for="tabdangerous" style="font-size:140%">Dangerous</label>
 
 <div class="tab">
 <h3>Action Skills</h3>
@@ -97,7 +70,6 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 
     </tr>
 </table>
-<br>
 <h3>Effect Skills</h3>
 <table style="text-align: left;">
     <tr>
