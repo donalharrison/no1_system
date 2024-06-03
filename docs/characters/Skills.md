@@ -71,13 +71,15 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 
 <div class="tab">
 <h2>Action Skills</h2>
-<table style="text-align: center;">
+<table style="text-align: left;">
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
-            {% if s.type == 1 %}
+            {% if s.type == "1" %}
                 <td style="width: 110; height: 80px">
+                <h3>
                     {{ s.name }}
+                </h3>
                 <br>
                 <hr>
                 <p>
@@ -96,13 +98,15 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 </table>
 <br>
 <h2>Effect Skills</h2>
-<table style="text-align: center;">
+<table style="text-align: left;">
     <tr>
         {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
         {% for s in skills %}
             {% if s.type == "2" %}
                 <td style="width: 110; height: 80px">
+                <h3>
                     {{ s.name }}
+                </h3>
                 <br>
                 <hr>
                 <p>
