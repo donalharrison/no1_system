@@ -34,7 +34,9 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 
 ## Skills Lists
 
-{% assign skill_traits = site.data.skills | map: "trait" | uniq -%} 
+<div class="mytabs">
+
+{% assign skill_traits = site.data.skills | map: "trait" | uniq | sort %} 
 
 {% for strait in skill_traits %}
     {% assign tabid = 'tab_' | append: strait %}
@@ -42,17 +44,20 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
     {{ strait }}
 
     {{ tabid }}
-{% endfor %}
 
-<div class="mytabs">
-<input type="radio" id="tabdangerous" name="mytabs" checked="checked">
-<label for="tabdangerous" style="font-size:140%">Dangerous</label>
+    { if strait == 'Dangerous'}
+        <input type="radio" id="{{ tabid }}" name="mytabs" checked="checked">
+    {% else % }
+        <input type="radio" id="{{ tabid }}" name="mytabs">
+    {% endif %}
+
+<label for="{{ tabid }}" style="font-size:140%">{{ strait}}</label>
 
 <div class="tab">
 <h3>Action Skills</h3>
 <table style="text-align: left;">
     <tr>
-        {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
+        {% assign skills = site.data.skills | where: "trait", strait %}
         {% for s in skills %}
             {% if s.type == "1" %}
                 <td style="width: 33%; height: 80px; padding: 5px">
@@ -79,7 +84,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 <h3>Effect Skills</h3>
 <table style="text-align: left;">
     <tr>
-        {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
+        {% assign skills = site.data.skills | where: "trait", strait %}
         {% for s in skills %}
             {% if s.type == "2" %}
                 <td style="width: 33%; height: 80px; padding: 5px">
@@ -105,6 +110,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
 </table>
 </div>
 
+{% endfor %}
 
 </div>
 
