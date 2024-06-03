@@ -63,3 +63,73 @@ Some Skills require Training to be used (*marked X; below*).  Characters can acq
 {% endfor %}
 
 </table>
+
+
+<div class="mytabs">
+<input type="radio" id="tabbasics" name="mytabs" checked="checked">
+<label for="tabdangerous">Dangerous</label>
+
+<div class="tab">
+<table style="text-align: center;">
+    <tr>
+        {% assign skills = site.data.skills | where: "trait", "Dangerous" %}
+        {% for s in skills %}
+
+                <td style="width: 80; height: 80px">
+                    <a href="{{ s.page_path }}">
+                    <img src="{{ s.img_path }}" width="70" height="70">
+                    <br>
+                    {{ s.Name }}
+                    </a>
+                    </td>
+                
+                {% assign i = forloop.index | modulo: 4 %}
+                {% if i == 0 %}
+                    </tr>
+                    <tr>
+                {% endif %}
+        {% endfor %}
+
+    </tr>
+</table>
+</div>
+
+
+</div>
+
+
+<style>
+ 
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    padding: 25px;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 0px;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #444985;
+}
+</style>

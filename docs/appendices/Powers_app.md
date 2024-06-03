@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Powers"
-permalink: /characters/powers/
-id: characters-powers
+permalink: /appendices/powers/
+id: appendices-powers
 parent: Appendices
 nav_order: 5
 nav_exclude: false

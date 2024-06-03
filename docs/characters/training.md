@@ -124,6 +124,7 @@ Trainings are categorized in three different types -- Basics, Specializations, &
 .mytabs input[type="radio"] {
     display: none;
 }
+
 .mytabs label {
     padding: 25px;
     font-weight: bold;
@@ -131,7 +132,7 @@ Trainings are categorized in three different types -- Basics, Specializations, &
 
 .mytabs .tab {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     order: 1;
     display: none;
 }

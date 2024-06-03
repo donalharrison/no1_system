@@ -15,9 +15,9 @@ nav_order: 2
 
 Traits describe the characters general qualities and characteristics, and categorize their Skills.
 
-Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to determine which Trait is focused at the beginning of a Waypoint.  For the duration of that Waypoint, the player may re-roll any dice result of 1 equal to their focused Trait.
+Traits determine the character’s starting Skills at character creation.  Players choose a number of Skills equal to their Trait and gain +1 Skill Rating in those skills.
 
-Traits also determine the character’s starting Skills at character creation.  Players choose a number of Skills equal to their Trait and gain +1 Skill Rating in those skills.
+Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to determine which Trait is focused at the beginning of a Waypoint.  For the duration of that Waypoint, the player may re-roll any dice result of 1 equal to their focused Trait.
 
 ## Dangerous
 
