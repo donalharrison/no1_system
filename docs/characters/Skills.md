@@ -53,7 +53,7 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
     <h3>Action Skills</h3>
     <table style="text-align: left;">
         <tr>
-            {% assign skills = site.data.skills | where: "trait", {{ strait }} %}
+            {% assign skills = site.data.skills | where: "trait", strait %}
             {% for s in skills %}
                 {% if s.type == "1" %}
                     <td style="width: 33%; height: 80px; padding: 5px">
