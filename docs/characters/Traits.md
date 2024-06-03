@@ -23,59 +23,47 @@ Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to 
 
 Represents a character's prowess in combat, physical power, and ability to handle weapons with deadly precision.
 
-Skills: Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw
+<em><strong>Action Skills:</strong> Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw
 
-Power Skills: Inferno, Tempest, Mori
+<strong>Effect Skills:</strong> Inferno, Tempest, Mori</em>
 
 ## Deft
 
 Reflects physical and mental nimbleness, influencing a character's finesse in delicate tasks requiring precision.
 
-Skills: Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble
+<em><strong>Action Skills:</strong> Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble
 
-Power Skills: Squall, Nox
+<strong>Effect Skills:</strong> Squall, Nox</em>
 
 ## Savvy
 
 Measures a character's knowledge, ingenuity, and social intelligence, affecting their ability to navigate intricate situations and interact with others effectively.
 
-Skills: Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival
+<em><strong>Action Skills:</strong> Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival
 
-Power Skills: Rime, Mentis, Torrent
+<strong>Effect Skills:</strong> Rime, Mentis, Torrent</em>
 
 ## Steady
 
 Represents a character's resilience, determination, and mental fortitude, influencing their ability to endure challenges, resist stress, and stay focused under pressure.
 
-Skills: Athletics, Composure, Endure, Focus, Investigate, Lead, Perceive
+<em><strong>Action Skills:</strong> Athletics, Composure, Endure, Focus, Investigate, Lead, Perceive
 
-Power Skills: Lux,  Tellus
+<strong>Effect Skills:</strong> Lux, Tellus</em>
 
 ## Uncanny
 
 Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
-Skills: Destroy, Intuit, Luck, Resist
+<em><strong>Action Skills:</strong> --
 
-Power Skills: Aether, Nihil, Vivus
+<strong>Effect Skills:</strong> Aether, Destroy, Intuit, Luck, Nihil, Resist, Vivus</em>
 
-# Starting Traits
+# Grit
 
-Players choose from (or roll to determine if you're not a coward) the following arrays to apply to their characters' starting Trait scores. The scores can be applied to the Traits in any order the player wishes.
+Grit represents characters' capacity to take dramatic, and often heroic, action.  It is an abstraction of physical and mental health, of resolve and tenacity, of the determination that can only be mustered by individuals burdened with glorious purpose.  Grit is equal to the sum total of the character’s Traits.
 
-**1: 4 - 2 - 1 - 0 - 0**
-
-**2: 3 - 3 - 1 - 0 - 0**
-
-**3: 3 - 2 - 1 - 1 - 0**
-
-**4: 3 - 1 - 1 - 1 - 1**
-
-**5: 2 - 2 - 2 - 1 - 0**
-
-**6: 2 - 2 - 1 - 1 - 1**
-
-# Defenses & Grit
+# Defenses
 
 Traits combine to construct characters’ Defenses.  
 
@@ -95,6 +83,20 @@ Savvy + Steady + Uncanny
 
 Dangerous + Steady + Uncanny
 
-## Grit
 
-Grit represents characters' capacity to take dramatic, and often heroic, action.  It is an abstraction of physical and mental health, of resolve and tenacity, of the determination that can only be mustered by individuals burdened with glorious purpose.  Grit is equal to the sum total of the character’s Traits.
+
+# Starting Traits
+
+Players choose from (or roll to determine if you're not a coward) the following arrays to apply to their characters' starting Trait scores. The scores can be applied to the Traits in any order the player wishes.
+
+**1: 4 - 2 - 1 - 0 - 0**
+
+**2: 3 - 3 - 1 - 0 - 0**
+
+**3: 3 - 2 - 1 - 1 - 0**
+
+**4: 3 - 1 - 1 - 1 - 1**
+
+**5: 2 - 2 - 2 - 1 - 0**
+
+**6: 2 - 2 - 1 - 1 - 1**
