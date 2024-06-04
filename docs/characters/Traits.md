@@ -23,41 +23,41 @@ Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to 
 
 Represents a character's prowess in combat, physical power, and ability to handle weapons with deadly precision.
 
-<em><strong>Action Skills:</strong> Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw
+***Action Skills:*** *Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw*
 
-<strong>Effect Skills:</strong> Inferno, Tempest, Mori</em>
+***Effect Skills:*** *Inferno, Tempest, Mori*
 
 ## Deft
 
 Reflects physical and mental nimbleness, influencing a character's finesse in delicate tasks requiring precision.
 
-<em><strong>Action Skills:</strong> Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble
+***Action Skills:*** *Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble*
 
-<strong>Effect Skills:</strong> Squall, Nox</em>
+***Effect Skills:*** *Squall, Nox*
 
 ## Savvy
 
 Measures a character's knowledge, ingenuity, and social intelligence, affecting their ability to navigate intricate situations and interact with others effectively.
 
-<em><strong>Action Skills:</strong> Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival
+***Action Skills:*** *Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival*
 
-<strong>Effect Skills:</strong> Rime, Mentis, Torrent</em>
+***Effect Skills:*** *Rime, Mentis, Torrent*
 
 ## Steady
 
 Represents a character's resilience, determination, and mental fortitude, influencing their ability to endure challenges, resist stress, and stay focused under pressure.
 
-<em><strong>Action Skills:</strong> Athletics, Composure, Endure, Focus, Investigate, Lead, Perceive
+***Action Skills:*** *Composure, Endure, Focus, Investigate, Lead, Perceive*
 
-<strong>Effect Skills:</strong> Lux, Tellus</em>
+***Effect Skills:*** *Lux, Tellus*
 
 ## Uncanny
 
 Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
-<em><strong>Action Skills:</strong> --
+***Action Skills:*** *--*
 
-<strong>Effect Skills:</strong> Aether, Destroy, Intuit, Luck, Nihil, Resist, Vivus</em>
+***Effect Skills:*** *Aether, Destroy, Intuit, Luck, Nihil, Resist, Vivus*
 
 # Grit
 

@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Skill Index"
+permalink: /apendices/skills/
+id: skill-index
+parent: Appendices
+nav_order: 5
+---
 
 ## Skill List
 Below is a list the base system Skills & a brief description of their uses.  The list is ordered by the Skill's associated Traits.

@@ -8,3 +8,19 @@ nav_order: 5
 nav_exclude: false
 ---
 
+Hexes
+
+
+Rites
+
+
+Spells
+
+
+Spirits
+
+
+Techniques
+
+
+
