@@ -1,1 +1,94 @@
-name	skill	type	description
+name	skill	type	rank	prereqs	description
+	Aether				
+	Aether				
+	Aether				
+	Aether				
+	Aether				
+	Arithm				
+	Arithm				
+	Arithm				
+	Arithm				
+	Arithm				
+	Destroy				
+	Destroy				
+	Destroy				
+	Destroy				
+	Destroy				
+Unbridled	Inferno	Trigger	2		"When you score 4+ Hits on an Inferno roll, all targets in the targetted Zone suffer the Hits."
+Inextinguishable	Inferno	Trigger	1		"When you make an Inferno roll and score 0 Hits, add +2 Hits to the result."
+Raging	Inferno	Trigger			
+Singing	Inferno	Static	2		Your Inferno rolls score +1 Bonus Hits.
+Igniting	Inferno	Trigger	1		"When you score 4+ Hits on an Inferno roll, you create 1 Hazard in the targetted Zone until the flames are extinguished."
+Parching	Inferno	Trigger			"When you score 3+ Hits on an Inferno roll, your target gains Fatigued 1."
+Scorching	Inferno	Static	3		Your Inferno rolls score +1 Bonus Hits.
+	Inferno				
+	Intuit				
+	Intuit				
+	Intuit				
+	Intuit				
+	Intuit				
+	Luck				
+	Luck				
+	Luck				
+	Luck				
+	Luck				
+Blinding	Lux	Trigger	2		"When you score 3+ Hits on a Lux roll, your target gains Blind."
+Illuminating	Lux	Trigger			"When you use a Lux power on an ally, your ally loses Blind."
+	Lux				
+	Lux				
+	Lux				
+	Mentis				"When you score 3+ Hits on a Mentis roll, your target gains Consued."
+	Mentis				
+	Mentis				
+	Mentis				
+	Mentis				
+	Mori				
+	Mori				
+	Mori				
+	Mori				
+	Mori				
+	Nihil				
+	Nihil				
+	Nihil				
+	Nihil				
+	Nihil				
+Enshrouding	Nox				"When you score 3+ Hits on a Nox roll, gain Hidden 2."
+	Nox				"When you make an Nox roll and score 0 Hits, add +2 Hits to the result."
+	Nox				
+	Nox				
+	Nox				
+	Resist				"When you use the Recover Action and score 0 Hits, add +2 Hits to the result."
+	Resist				
+	Resist				
+	Resist				
+	Resist				
+	Rime				"When you make an Rime roll and score 0 Hits, add +2 Hits to the result."
+	Rime				"When you score 3+ Hits on an Rime roll, you create 1 Hazard in the targetted Zone until the flames are extinguished."
+	Rime				
+	Rime				
+	Rime				
+	Squall				
+	Squall				
+	Squall				
+	Squall				
+	Squall				
+	Tellus				
+	Tellus				
+	Tellus				
+	Tellus				
+	Tellus				
+	Tempest				
+	Tempest				
+	Tempest				
+	Tempest				
+	Tempest				
+	Torrent				
+	Torrent				
+	Torrent				
+	Torrent				
+	Torrent				
+	Vivus				
+	Vivus				
+	Vivus				
+	Vivus				
+	Vivus				
