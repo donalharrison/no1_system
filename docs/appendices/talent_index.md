@@ -14,7 +14,7 @@ nav_order: 4
         <th>Type</th>
         <th>Description</th>
     </tr>
-{% for t in site.data.talents %}
+{% for t in site.data.talents_tmp %}
     <tr>
         <td>
         {{ t.Name }}
