@@ -31,7 +31,7 @@ layout: default
 
       {% assign tal = site.data.talents | where: "tree", page.title %}
       
-      {% assign r1 = site.data.talents | where: "rank", 1 %}
+      {% assign r1 = site.data.talents | where: "rank", "1" %}
       <h3>Rank 1</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
@@ -49,7 +49,7 @@ layout: default
         </tr>
       </table>
 
-      {% assign r2 = site.data.talents | where: "rank", 2 %}
+      {% assign r2 = site.data.talents | where: "rank", "2" %}
       <h3>Rank 2</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
@@ -69,7 +69,7 @@ layout: default
         </tr>
       </table>
 
-      {% assign r3 = site.data.talents | where: "rank", 3 %}
+      {% assign r3 = site.data.talents | where: "rank", "3" %}
       <h3>Rank 3</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
