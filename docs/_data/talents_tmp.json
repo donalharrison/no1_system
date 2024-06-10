@@ -5,119 +5,119 @@
                 "tree": "Acolyte",
                 "Name": "Commune with divinity",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Acolyte Creed. When you use this ability, prepare Powers that draw from these Skills:<br>- Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em><br><br>Use your Composure to connect with a higher power. Gain Hits + Steady Power ranks to prepare your Rites (minimum 1).<br>You Rites have the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b> Penance - For each Rite you use that results in Hits greater than Threshold, mark 1 Penance. Penance affects your ability to call upon your higher power, as described by the BAMF when it occurs. Penance can be paid by spending actions outside of combat usuiing Composure, reducing your current Peneance by Hits in the results set.<br><br>You can use this ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 action)."
             },
             {
                 "tree": "Acolyte",
                 "Name": "Composure (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase your Composure rating to 3 (d10)."
             },
             {
                 "tree": "Acolyte",
                 "Name": "Creed (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase one of your Creed ratings to 2 (d8)."
             },
             {
                 "tree": "Acolyte",
                 "Name": "Creed (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase one of your Creed ratings to 2 (d8)."
             },
             {
                 "tree": "Acolyte",
                 "Name": "Creed (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase one of your Creed ratings to 3 (d10)."
             },
             {
                 "tree": "Adept",
                 "Name": "Attune with forces",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Adept Foci.  When you use this ability, prepare Powers that draw from these Skills:<br> - Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em><br><br>Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b> <em>Strain</em> -- You gain 1 Strain for every Hit a Power generates above Threshold.  If your total Strain exceeds your Grit at any time, you make all rolls at Challenge +2d.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."
             },
             {
                 "tree": "Adept",
                 "Name": "Manage Strain",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": ""
             },
             {
                 "tree": "Adept",
                 "Name": "Insight (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase your Insight rating to 3 (d10)."
             },
             {
                 "tree": "Adept",
                 "Name": "Foci (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase one of your Foci ratings to 2 (d8)."
             },
             {
                 "tree": "Adept",
                 "Name": "Foci (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase one of your Foci ratings to 2 (d8)."
             },
             {
                 "tree": "Adept",
                 "Name": "Foci (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase one of your Foci ratings to 3 (d10)."
             },
             {
                 "tree": "Alchemist",
                 "Name": "Prepare concoctions",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Craft"
             },
             {
                 "tree": "Archmage",
                 "Name": "Master the arcane",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
                 "tree": "Assassin",
                 "Name": "Coup de grace",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": ""
             },
             {
                 "tree": "Assassin",
                 "Name": "Sneak Attack",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you successfully attack a target while Hidden, add +1d6 bonus Hits to the result set."
             },
             {
                 "tree": "Athlete",
                 "Name": "Powerlifter",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Exert yourself to accomplish a feat of strength, adding +1d4 bonus hits to the result set."
             },
             {
                 "tree": "Athlete",
                 "Name": "Sprinter",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you Shift to move to an adjacent Zone, you may move an additional Zone."
             },
             {
@@ -138,14 +138,14 @@
                 "tree": "Berserker",
                 "Name": "Exert (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
                 "tree": "Berserker",
                 "Name": "Frenzy",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
@@ -173,21 +173,21 @@
                 "tree": "Brute",
                 "Name": "Brutal Strike",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Strike one target with unrelenting force, adding +1d4 Hits to the result set."
             },
             {
                 "tree": "Brute",
                 "Name": "Last Stand",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Exert yourself when you are below your maximum Grit.  Regain +Hits to your Primary Defense and reduce the Challenge by 1d."
             },
             {
                 "tree": "Brute",
                 "Name": "Exert (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Exert rating to 2 (d8)."
             },
             {
@@ -201,21 +201,21 @@
                 "tree": "Channeler",
                 "Name": "Foci (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase one of your Foci ratings to 2 (d8)."
             },
             {
                 "tree": "Channeler",
                 "Name": "Foci (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase one of your Foci ratings to 2 (d8)."
             },
             {
                 "tree": "Channeler",
                 "Name": "Foci (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase one of your Foci ratings to 3 (d10)."
             },
             {
@@ -243,91 +243,91 @@
                 "tree": "Defender",
                 "Name": "Defensive Stance",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Focus to defend yourself in combat, adding +Hits to your Primary Defense."
             },
             {
                 "tree": "Defender",
                 "Name": "Harm's Way",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Focus to protect an ally in your Zone. Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
             },
             {
                 "tree": "Defender",
                 "Name": "Indomitable Presence",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Intimidate your opponents, causing them to hesitate. Add +2 to the current Timer."
             },
             {
                 "tree": "Defender",
                 "Name": "Focus (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Focus rating to 2 (d8)."
             },
             {
                 "tree": "Detective",
                 "Name": "Investigate (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Focus rating to 2 (d8)."
             },
             {
                 "tree": "Diabolist",
                 "Name": "Dance with devils",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
                 "tree": "Diplomat",
                 "Name": "Browbeat",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Intimidate your target outside of combat, adding +2 Hits to the result set."
             },
             {
                 "tree": "Diplomat",
                 "Name": "It's all a facade",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Deceive opponents in your Current Zone, masking your true intentions."
             },
             {
                 "tree": "Diplomat",
                 "Name": "Persuade (2)",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Persuade rating to 2 (d8)"
             },
             {
                 "tree": "Diplomat",
                 "Name": "Deceive (2)",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Deceive rating to 2 (d8)"
             },
             {
                 "tree": "Diplomat",
                 "Name": "Unflappable",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "When you Recover to regain Nerve, regain and additional +1d4 Bonus Hits."
             },
             {
                 "tree": "Diplomat",
                 "Name": "Persuade (3)",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase your Persuade rating to 3 (d10)"
             },
             {
                 "tree": "Diplomat",
                 "Name": "Deceive (3)",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 3,
                 "Effect": "Increase your Deceive rating to 3 (d10)"
             },
             {
@@ -369,14 +369,14 @@
                 "tree": "Duelist",
                 "Name": "Quick Draw",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "You can draw or change weapons without using a Shift."
             },
             {
                 "tree": "Duelist",
                 "Name": "Riposte",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Counterattack an enemy Strike that just scored 0 Hits.  Deal 1d4 bonus Hits."
             },
             {
@@ -411,14 +411,14 @@
                 "tree": "Healer",
                 "Name": "Healing Hands",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 2,
                 "Effect": ""
             },
             {
                 "tree": "Healer",
                 "Name": "Embrace the cycle",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "<em>When you gain this Talent, increase you Vivus Skill rating to 2 (d8).</em><br>Use your Composure to let the cylce of life and death flow through you.  Gain Hits + Steady Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b><em>Drain</em> - If a Power results in Hits less than Threshold, you suffer a number of Hits equal to the total amount below Threshold as the cyle extracts its toll on you.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 4 - Savvy Actions (minimum 1 action)."
             },
             {
@@ -474,70 +474,70 @@
                 "tree": "Magic-User",
                 "Name": "Study the arcane",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "<em>When you gain this Talent, increase you rating in any 2 Power Skills from the list below:<br> - Aether, Arithm, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest            , Torrent</em><br><br>Research to memorize spells.  Gain Hits + Savvy Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Spellburn</em> - If a Power results in Hits greater than Threshold, you suffer a number of Hits equal to the total amount above Threshold.  Your target(s) sustain Spellburn Hits as well, in addition to the Power's effect.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 6 - Savvy Actions (minimum 1 action)."
             },
             {
                 "tree": "Marksman",
                 "Name": "Aim",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             },
             {
                 "tree": "Marksman",
                 "Name": "Controlled Pair",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 2,
                 "Effect": "When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
             },
             {
                 "tree": "Marksman",
                 "Name": "Double Tap",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Shoot your target at +2d Challenge."
             },
             {
                 "tree": "Marksman",
                 "Name": "Shoot (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Shoot rating to 2 (d8)."
             },
             {
                 "tree": "Marksman",
                 "Name": "Shoot (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase your Shoot rating to 3 (d10)."
             },
             {
                 "tree": "Marksman",
                 "Name": "Shooter",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you Shoot your target but earn 0 Hits, add +2 Hits to the result set."
             },
             {
                 "tree": "Martial Artist",
                 "Name": "Float like a butterfly. . .",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
             },
             {
                 "tree": "Martial Artist",
                 "Name": "Living Weapon",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you use your Martial Arts against your target but earn 0 Hits, add +2 Hits to the result set."
             },
             {
                 "tree": "Medic",
                 "Name": "First Aid",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Administer basic care to an injury."
             },
             {
@@ -551,21 +551,21 @@
                 "tree": "Necromancer",
                 "Name": "Stir the dead",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
                 "tree": "Overseer",
                 "Name": "Coordinated Assault",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Lead your Minions to launch a coordinated attack against a single target, dealing Hits +1d4 bonus Hits to the result set."
             },
             {
                 "tree": "Overseer",
                 "Name": "Minions",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
@@ -586,21 +586,21 @@
                 "tree": "Priest",
                 "Name": "Invoke the divine",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Composure"
             },
             {
                 "tree": "Probabilist",
                 "Name": "Derive axioms",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Analyze"
             },
             {
                 "tree": "Psion",
                 "Name": "Hone the mind",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Focus"
             },
             {
@@ -621,21 +621,21 @@
                 "tree": "Ranger",
                 "Name": "Shoot (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Shoot rating to 3 (d10)."
             },
             {
                 "tree": "Ranger",
                 "Name": "Skirmisher",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
             },
             {
                 "tree": "Ranger",
                 "Name": "Skirmisher",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
             },
             {
@@ -656,35 +656,35 @@
                 "tree": "Scholar",
                 "Name": "Knowledge is Power",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Research to gain critical information about the current situation.  Increase the current Timer by Hits - 2 and decrease the Challenge by -1d."
             },
             {
                 "tree": "Scholar",
                 "Name": "Linguistic Aptitude",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Use Linguistics to speak or decipher any language.  Create +Hits Advantages you can spend on Persuade or Invesitgate."
             },
             {
                 "tree": "Scholar",
                 "Name": "Analytical Mind",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Analyze your surroundings, gaining insights into potential weaknesses or hidden detail.  Create Hits +2 Advantages in your current Zone.  Allies can use these Advantages if you are able to communicate with them."
             },
             {
                 "tree": "Scoundrel",
                 "Name": "Forked Tongue",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Deceive your target, adding +2 Hits to the result set."
             },
             {
                 "tree": "Scoundrel",
                 "Name": "It's all a facade",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Deceive opponents in your Current Zone, masking your true intentions."
             },
             {
@@ -698,21 +698,21 @@
                 "tree": "Scrapper",
                 "Name": "Cleave",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 2,
                 "Effect": "When you Strike your target to death, apply Hits -2 to another target in your current Zone."
             },
             {
                 "tree": "Scrapper",
                 "Name": "Fighter",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you Strike your target but earn 0 Hits, add +2 Hits to the result set."
             },
             {
                 "tree": "Scrapper",
                 "Name": "Float like a butterfly. . .",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
             },
             {
@@ -742,7 +742,7 @@
                 "tree": "Shifter",
                 "Name": "Primal Form",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
@@ -798,35 +798,35 @@
                 "tree": "Soldier",
                 "Name": "Aim",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             },
             {
                 "tree": "Soldier",
                 "Name": "Charge",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."
             },
             {
                 "tree": "Soldier",
                 "Name": "Quick Draw",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "You can draw or change weapons without using a Shift."
             },
             {
                 "tree": "Soldier",
                 "Name": "Combat Training",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "You may Strike or Shoot at a target and use a Shift to use a non-combat skill.  Roll +2d Challenge.  Divide the Hits between the the two skills."
             },
             {
                 "tree": "Soldier",
                 "Name": "Cover Fire",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": ""
             },
             {
@@ -896,77 +896,77 @@
                 "tree": "Tank",
                 "Name": "Exert (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Exert rating to 2 (d8)."
             },
             {
                 "tree": "Tank",
                 "Name": "Endure (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Endure rating to 2 (d8)."
             },
             {
                 "tree": "Tank",
                 "Name": "Endure (3)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase your Endure rating to 3 (d10)."
             },
             {
                 "tree": "Tank",
                 "Name": "Hard to Kill",
                 "Type": "Static",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Increase your Grit by 3."
             },
             {
                 "tree": "Tank",
                 "Name": "I can take it",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you take more than 1 Hit from an effect, reduce the total Hits by 1."
             },
             {
                 "tree": "Tank",
                 "Name": "Shake it off",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 2,
                 "Effect": "Use a Shift to Recover."
             },
             {
                 "tree": "Tank",
                 "Name": "Taunt",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you."
             },
             {
                 "tree": "Tank",
                 "Name": "Walk it off",
                 "Type": "Trigger",
-                "rank": null,
+                "rank": 1,
                 "Effect": "When you Recover, regain +2 Defenses."
             },
             {
                 "tree": "Thief",
                 "Name": "Implements (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Implements rating to 2 (d8)."
             },
             {
                 "tree": "Thief",
                 "Name": "Legerdemain (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Legerdemain rating to 2 (d8)."
             },
             {
                 "tree": "Thief",
                 "Name": "Stealth (2)",
                 "Type": "Static",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Increase your Stealth rating to 2 (d8)."
             },
             {
@@ -980,7 +980,7 @@
                 "tree": "Transmuter",
                 "Name": "Study the forms",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
@@ -1015,7 +1015,7 @@
                 "tree": "Witch",
                 "Name": "Incant the darkness",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": ""
             },
             {
@@ -1031,7 +1031,7 @@
                 "tree": "Wrestler",
                 "Name": "Suplex",
                 "Type": "Ability",
-                "rank": null,
+                "rank": 1,
                 "Effect": "Grapple your target, adding +1d4 bonus Hits and making them Prone."
             },
             {
