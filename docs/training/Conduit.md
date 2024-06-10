@@ -6,3 +6,4 @@ grand_parent: Characters
 permalink: /characters/training/Conduit/
 nav_exclude: true
 ---
+

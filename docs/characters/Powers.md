@@ -8,19 +8,22 @@ nav_order: 5
 nav_exclude: false
 ---
 
-Hexes
+## Hexes
 
 
-Rites
+## Rites
 
 
-Spells
+## Spells
 
 
-Spirits
+## Spirits
 
 
-Techniques
+## Techniques
 
 
+## Arcana
 
+
+## Concoctions
