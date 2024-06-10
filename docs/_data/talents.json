@@ -124,14 +124,14 @@
                 "tree": "Bastion",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Beastmaster",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -152,21 +152,21 @@
                 "tree": "Black Belt",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Blade Weaver",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Bounty Hunter",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -194,7 +194,7 @@
                 "tree": "Channeler",
                 "Name": "Channeling",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Foci.  When you use this ability, prepare Powers that draw from these Skills:<br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br><br>Endure to draw the forces to your will.  Gain Hits + Steady  ranks to prepare your Techniques.<br>You Techniques have the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Recoil</em> - If a Power results in Hits less than Threshold, all targets within your Current Zone sustain Hits from the Power's effect equal to the total amount below Threshold.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 3 - Steady Actions (minimum 1           action)."
             },
             {
@@ -222,21 +222,21 @@
                 "tree": "Confessor",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Corsair",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Courtier",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -334,35 +334,35 @@
                 "tree": "Diplomat",
                 "Name": "Silver Tongue",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Persuade your target, adding +2 Hits to the result set."
             },
             {
                 "tree": "Dragoon",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Driver",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Druid",
                 "Name": "Animism",
                 "Type": "Static",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Druid",
                 "Name": "Harmonize with nature",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -383,28 +383,28 @@
                 "tree": "Elementalist",
                 "Name": "Shape the elements",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Engineer",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Fury",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Grandmaster",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -425,49 +425,49 @@
                 "tree": "Hunter",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Infiltrator",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Juggernaut",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Knight",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Lich",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Mage",
                 "Name": "Grasp the arcane",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Mageknight",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -544,7 +544,7 @@
                 "tree": "Mesmer",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -572,14 +572,14 @@
                 "tree": "Paragon",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Pilot",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -607,14 +607,14 @@
                 "tree": "Pugilist",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Raindancer",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -642,14 +642,14 @@
                 "tree": "Reaver",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Samurai",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -691,7 +691,7 @@
                 "tree": "Scout",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -719,21 +719,21 @@
                 "tree": "Seer",
                 "Name": "Peer through depths",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Perceive"
             },
             {
                 "tree": "Shaman",
                 "Name": "Invoke the spirits",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Shaman",
                 "Name": "Shamanism",
                 "Type": "Static",
-                "rank": "",
+                "rank": null,
                 "Effect":
 
             ""
@@ -749,49 +749,49 @@
                 "tree": "Shinobi",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Shock Trooper",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Shugenja",
                 "Name": "Commune with spirits",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Persuade the spirits within.  Gain Hits + Savvy Power ranks."
             },
             {
                 "tree": "Shugenja",
                 "Name": "Shugendo",
                 "Type": "Static",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Skald",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Sniper",
                 "Name": "Overwatch",
                 "Type": "Trigger",
-                "rank": "",
+                "rank": null,
                 "Effect": "When one or more hostile targets moves into your current Zone, you may deal 1d4 bonus Hits to one of them."
             },
             {
                 "tree": "Sniper",
                 "Name": "Zero in",
                 "Type": "Trigger",
-                "rank": "",
+                "rank": null,
                 "Effect": "When you Aim, add +1d4 bonus Hits to the result set."
             },
             {
@@ -833,63 +833,63 @@
                 "tree": "Spellreaver",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Spy",
                 "Name": "It's all a facade",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Deceive opponents in your Current Zone, masking your true intentions."
             },
             {
                 "tree": "Spy",
                 "Name": "Master Eavesdropp",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set."
             },
             {
                 "tree": "Summoner",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Swashbuckler",
                 "Name": "Quick Draw",
                 "Type": "Static",
-                "rank": "",
+                "rank": null,
                 "Effect": "You can draw or change weapons without using a Shift."
             },
             {
                 "tree": "Swashbuckler",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Tactician",
                 "Name": "Fall Back",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Lead allies in your current and all adjacent Zones in a tactical retreat, allowing a number of allies equal to Hits in the result set to immediately Shift away from hostile targets without risk."
             },
             {
                 "tree": "Tactician",
                 "Name": "Inspire Allies",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Lead all allies in your current Zone, allowing a number of them equal to the Hits in the result set to choose 1 of the following: Recover, Take -1d to their next Action, add 1 Hit to their next result set"
             },
             {
                 "tree": "Tactician",
                 "Name": "Reposition",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": "Lead allies in your current Zones, allowing a number of them equal to the Hits in the result set to immediately use a Shift."
             },
             {
@@ -973,7 +973,7 @@
                 "tree": "Thrall",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -987,28 +987,28 @@
                 "tree": "Traveler",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Troubadour",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Vanguard",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Warlord",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
@@ -1022,7 +1022,7 @@
                 "tree": "Witch",
                 "Name": "Witchcraft",
                 "Type": "Static",
-                "rank": "",
+                "rank": null,
 
 
                 "Effect": ""
@@ -1038,21 +1038,21 @@
                 "tree": "Zealot",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Zenith",
                 "Name": "",
                 "Type": "Ability",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             },
             {
                 "tree": "Magic-User",
                 "Name": "",
                 "Type": "",
-                "rank": "",
+                "rank": null,
                 "Effect": ""
             }
         ]
