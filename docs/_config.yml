@@ -5,7 +5,7 @@ title: No1s RPG SRD
 author: Some Person
 
 # Theme
-# remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # Markdown
 markdown: kramdown
