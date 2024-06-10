@@ -11,6 +11,7 @@ nav_order: 4
     <tr>
         <th>Name</th>
         <th>Training</th>
+        <th>Rank</th>
         <th>Type</th>
         <th>Description</th>
     </tr>
@@ -23,6 +24,9 @@ nav_order: 4
         {{ t.tree }}
         </td>
         <td>
+        {{ t.rank }}
+        </td>
+        <td>
         {{ t.Type }}
         </td>
         <td>
@@ -33,11 +37,11 @@ nav_order: 4
 
 </table>
 <p>
-{% for i in site.data.talents %}
+{% for i in site.data.talents_tmp.talents %}
     {{ i.tree }}
 {% endfor %}
 </p>
 
 <p>
-    {{ site.data.talents | inspect }}
+    {{ site.data.talents_tmp.talents | inspect }}
 </p>
