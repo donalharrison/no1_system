@@ -57,13 +57,13 @@ Enshrouding	Nox				"When you score 3+ Hits on a Nox roll, gain Hidden 2."
 	Nox				
 	Nox				
 	Nox				
-	Resist				"When you use the Recover Action and score 0 Hits, add +2 Hits to the result."
+	Resist	Trigger			"When you use the Recover Action and score 0 Hits, add +2 Hits to the result."
 	Resist				
 	Resist				
 	Resist				
 	Resist				
-	Rime				"When you make an Rime roll and score 0 Hits, add +2 Hits to the result."
-	Rime				"When you score 3+ Hits on an Rime roll, you create 1 Hazard in the targetted Zone until the flames are extinguished."
+	Rime	Trigger			"When you make an Rime roll and score 0 Hits, add +2 Hits to the result."
+	Rime	Trigger			"When you score 3+ Hits on an Rime roll, you create 1 Hazard in the targetted Zone until the flames are extinguished."
 	Rime				
 	Rime				
 	Rime				
