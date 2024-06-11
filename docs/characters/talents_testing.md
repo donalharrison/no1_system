@@ -26,8 +26,9 @@ nav_order: 8
         <h4>{{ t.type }}</h4>
     {% endif %}
     {% for e in t.effect %}
+        <p>
         {{ e }}
-        <br>
+        </p>
     {% endfor %}
     </div>
 {% endfor %}
