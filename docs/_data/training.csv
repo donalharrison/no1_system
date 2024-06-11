@@ -1,5 +1,5 @@
 Name,Type,Prerequisites,Description,img_path,page_path
-Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice,  granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
+Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice, granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
 Adept,Basic,Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
 Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png,/no1_system/characters/training/brute/
 Channeler,Basic,,"You harness and manipulate fundamental energies of existence, acting as a conduit to the elemental forces.",/no1_system/assets/img/channeler.png,/no1_system/characters/training/channeler/
