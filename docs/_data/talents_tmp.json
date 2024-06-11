@@ -7,12 +7,14 @@
             "rank": 1,
             "effect": [
                 "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Acolyte Creed:
-                <br><strong>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</strong>"
-                , "Ability: Maintain your Composure at Challenge 3 to connect with the divine. Gain Hits + Steady in **Concordance**.
-                <br>You can use this ability without using an Action at the beginning of each Waypoint.
-                If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 Action)."
-                , "Static: You may attempt to use any Rites.
-                <br>When one of your Rites is unsuccessful or contains the result set contains a 1, reduce your Concordance by 1."
+                <br><strong>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</strong>
+                </em>"
+                , "<p><strong>Ability:</strong> Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits + Steady in <em>Concordance</em>.
+                <br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 Action).
+                </p>" 
+                , "<strong>Static:</strong> You may attempt to use any Rites.
+                <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
+                "
             ]
         },
         {
