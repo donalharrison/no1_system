@@ -11,11 +11,9 @@ nav_order: 8
 
 {% for t in site.data.talents_tmp.talents %}
 
-    ### {{ t.Name}}
-    * {{ t.Type }} *
+    <h3>{{ t.Name}}</h3>
+    <h4>{{ t.Type }}</h4>
 
-    ** {{ t.Effect }}
-
-___
+    {{ t.Effect }}
 
 {% endfor %}
