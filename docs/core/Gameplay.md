@@ -9,22 +9,20 @@ has_children: true
 
 # Core Gameplay Loop
 
-At the beginning of each Encounter, the BAMF will set the Timer which represent how many rounds the Encounter will encompass.
+At the beginning of each Encounter, the BAMF will set the Timer to determine how many rounds the Encounter will encompass.
 
-Some Scenes will consist of multiple encounters or sequences, each of which have their own Timer.
-
-Once a Timer is set, the players and the BAMF make an Initiative test (*see Initiative*) to determine which team takes action first.
+Once a Timer is set, the players and the BAMF make an [Initiative](/no1_system/core/initiative/) test to determine which team takes action first.
 
 Play proceeds in rounds during which each player takes a turn.
 
-On each turn, the player can take one Shift and one Action.
+On each turn, the player can take one [Shift](/no1_system/core/shifts/) and one [Action](/no1_system/core/actions/).
 
-Shifts represent quick actions or movement that take minimal concentration or effort.
+If the final result set of an Action contains a 1, the Initiative shifts to the opposing team and the [Entropy](core/Core Mechanisms.md#Entropy) increases by 1.
 
-Actions are more concerted efforts and advanced maneuvers that allow the player to effect the scene in dramatic ways.
+If there are *No 1s* in the final result set, the active player chooses which player takes the next turn and the Momentum increases by 1.
 
-If the result set of an Action contains a 1, the initiative shifts to the opposing team.
+Play proceeds in this manner until the active Timer expires.
 
-Play proceeds in this manner until the active Timer expires, and continues accordingly in the following scene.
+When the active Timer expires, the BAMF compares the 
 
 ## Example
