@@ -18,7 +18,7 @@ nav_order: 4
 {% for t in site.data.talents_tmp.talents %}
     <tr>
         <td>
-        {{ t.Name }}
+        {{ t.name }}
         </td>
         <td>
         {{ t.tree }}
@@ -27,10 +27,10 @@ nav_order: 4
         {{ t.rank }}
         </td>
         <td>
-        {{ t.Type }}
+        {{ t.type }}
         </td>
         <td>
-        {{ t.Effect }}
+        {{ t.effect }}
         </td>
     </tr>
 {% endfor %}

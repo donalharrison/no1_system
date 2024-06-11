@@ -6,18 +6,18 @@
             "type": "Multi",
             "rank": 1,
             "effect": [
-                "<h5>Static</h5>
+                "<h4>Static</h4>
                 When you gain this Talent, select 2 Power Skills from the list below to be your Creed:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
                 "
-                , "<h5>Static</h5>
+                , "<h4>Static</h4>
                 You gain access to the Concordance resource which measures how closely you are aligned with your divine practice.
                 "
-                , "<h5>Ability</h5> 
+                , "<h4>Ability</h4> 
                 Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits + Steady in <em>Concordance</em>.
                 <br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 Action).
                 </p>" 
-                , "<h5>Static</h5>
+                , "<h4>Static</h4>
                 You may attempt to use any Rites.
                 <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 1, add 1 Hazard die to the roll for each point your Concordance is below 1.
