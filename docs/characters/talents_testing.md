@@ -16,8 +16,10 @@ nav_order: 8
 
     <h3>{{ t.name }}</h3>
     <h4>{{ t.type }}</h4>
-
-    {{ t.effect }}
+    {% for e in t.effect %}
+        {{ e }}
+        <br>
+    {% endfor %}
 
 {% endfor %}
 
