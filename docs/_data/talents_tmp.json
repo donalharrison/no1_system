@@ -6,17 +6,9 @@
             "type": "Ability",
             "rank": 1,
             "effect": [
-                "<h4>Ability</h4> 
-                Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
                 Your Concordance measures how closely you are aligned with your divine practice.
                 <br>You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
-                "
-                , "<h4>Static</h4>
-                When you gain this Talent, select 2 Effect Skills from the list below to be your Creed:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
-                You may attempt to use any Rites.
-                <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
                 "
             ]
         },
@@ -26,12 +18,15 @@
             "type": "Static",
             "rank": 1,
             "effect": [
-                "<h4>Static</h4>
-                You follow set of principles in your belief system or religious practice.  Choose two items from the list below to be your <em>Virtues</em> and two items to be your <em>Taboos</em>:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . </em>
-                <br>When you gain this Talent, select 2 Effect Skills from the list below to be your Creed:
+                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
+                <br>
+                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.
+                  Select two items from the list below to be your Virtues and two items to be your Taboos:
+                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>
+                <br>
+                <br>When you gain this Talent, select 2 Effect Skills from the list below to be your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
-                <br>You may attempt to use any Rites.
+                <br>Commitment to your Divine Doctrine lets you access [Rites](/no1_system/characters/powers/).
                 <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
                 "
