@@ -11,7 +11,7 @@ nav_order: 8
 
 # Talents
 
-
+<section>
 {% for t in site.data.talents_tmp.talents %}
 
     <h3>{{ t.name }}</h3>
@@ -20,3 +20,5 @@ nav_order: 8
     {{ t.effect }}
 
 {% endfor %}
+
+</section>
