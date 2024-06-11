@@ -9,12 +9,14 @@ has_children: false
 nav_order: 8
 ---
 
+# Talents
+
 
 {% for t in site.data.talents_tmp.talents %}
 
-    <h3>{{ t.Name }}</h3>
-    <h4>{{ t.Type }}</h4>
+    <h3>{{ t.name }}</h3>
+    <h4>{{ t.type }}</h4>
 
-    {{ t.Effect }}
+    {{ t.effect }}
 
 {% endfor %}
