@@ -13,8 +13,13 @@ nav_order: 8
 
 <section>
 {% for t in site.data.talents_tmp.talents %}
-
-    <h3>{{ t.name }}</h3>
+    {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f">
+        {% else %}
+            <div style="background-color: #232130">
+        {% endif %}
+    <strong>{{ t.name }}</strong>
     {% if t.type == "Multi" %}
         <strong><em>{{ t.type }}</em></strong>
     {% else %}
@@ -24,7 +29,7 @@ nav_order: 8
         {{ e }}
         <br>
     {% endfor %}
-
+    </div>
 {% endfor %}
 
 </section>
