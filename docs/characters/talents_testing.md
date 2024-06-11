@@ -16,7 +16,7 @@ nav_order: 8
 
     <h3>{{ t.name }}</h3>
     {% if t.type == "Multi" %}
-        <p><strong>{{ t.type }}</strong></p>
+        <strong><em>{{ t.type }}</em></strong>
     {% else %}
         <h4>{{ t.type }}</h4>
     {% endif %}

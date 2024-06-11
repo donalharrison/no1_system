@@ -2,25 +2,38 @@
     "talents": [
         {
             "tree": "Acolyte",
-            "name": "Commune with divinity",
-            "type": "Multi",
+            "name": "Commune with Divinity",
+            "type": "Ability",
+            "rank": 1,
+            "effect": [
+                "<h4>Ability</h4> 
+                Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
+                Your Concordance measures how closely you are aligned with your divine practice.
+                <br>You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+                "
+                , "<h4>Static</h4>
+                When you gain this Talent, select 2 Effect Skills from the list below to be your Creed:
+                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
+                You may attempt to use any Rites.
+                <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
+                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
+                "
+            ]
+        },
+        {
+            "tree": "Acolyte",
+            "name": "Divine Doctrine",
+            "type": "Static",
             "rank": 1,
             "effect": [
                 "<h4>Static</h4>
-                When you gain this Talent, select 2 Power Skills from the list below to be your Creed:
+                You follow set of principles in your belief system or religious practice.  Choose two items from the list below to be your <em>Virtues</em> and two items to be your <em>Taboos</em>:
+                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . </em>
+                <br>When you gain this Talent, select 2 Effect Skills from the list below to be your Creed:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
-                "
-                , "<h4>Static</h4>
-                You gain access to the Concordance resource which measures how closely you are aligned with your divine practice.
-                "
-                , "<h4>Ability</h4> 
-                Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits + Steady in <em>Concordance</em>.
-                <br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 Action).
-                </p>" 
-                , "<h4>Static</h4>
-                You may attempt to use any Rites.
+                <br>You may attempt to use any Rites.
                 <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 1, add 1 Hazard die to the roll for each point your Concordance is below 1.
+                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
                 "
             ]
         },
