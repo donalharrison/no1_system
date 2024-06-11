@@ -15,11 +15,11 @@ nav_order: 8
 {% for t in site.data.talents_tmp.talents %}
     {% assign i = forloop.index | modulo: 2 %}
         {% if i == 0 %}
-            <div style="background-color: #37344f05; padding=5px">
+            <div style="background-color: #37344f50; padding: 5px">
         {% else %}
-            <div style="background-color: #23213005; padding=5px">
+            <div style="background-color: #23213050; padding: 5px">
         {% endif %}
-    <h3>{{ t.name }}</h3>
+    <h5>{{ t.name }}</h5>
     {% if t.type == "Multi" %}
         <strong><em>{{ t.type }}</em></strong>
     {% else %}
