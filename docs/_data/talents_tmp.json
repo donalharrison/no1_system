@@ -28,8 +28,7 @@
                 , "Select 2 Effect Skills from the list below to be your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
                 "
-                , "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.
-                <br>When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
+                , "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
                 "
             ]
