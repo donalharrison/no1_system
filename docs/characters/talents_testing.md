@@ -19,11 +19,11 @@ nav_order: 8
         {% else %}
             <div style="background-color: #23213050; padding: 10px">
         {% endif %}
-    <h3 style="padding:5px">{{ t.name }}</h3>
+    <h3 style="margin:5px">{{ t.name }}</h3>
     {% if t.type == "Multi" %}
         <strong><em>{{ t.type }}</em></strong>
     {% else %}
-        <h4 style="padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
+        <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
     {% endif %}
     {% for e in t.effect %}
         <p>
