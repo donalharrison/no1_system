@@ -29,26 +29,51 @@ The action may result in a Trigger for the player, which happens immediately fol
     </tr>
     <tr>
         <td>
+            <img src="/no1_system/assets/img/action_ability.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
         </td>
         <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
+            <h2>Use an Ability</h2>
+            <p>
+            Characters can spend their action to use an Ability gained from their Training Talent trees.  Most Abilities include a Skill name in ther description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
+            </p>
         </td>
     </tr>
     <tr>
         <td>
+            <img src="/no1_system/assets/img/shift.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
         </td>
         <td>
+            <h2>Use a Shift</h2>
+            <p>
+            Characters can spend their Action to use any <a href="/no1_system/core/shifts/">Shift</a>.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/no1_system/assets/img/action_recover.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
+        </td>
+        <td>
+            <h2>Recover</h2>
+            <p>
+            Characters can use an action to Recover lost defenses.  To do so, the player declares which Defense they are attempting to recover which determines the Skill to be used in the roll:
+                <ul>
+                    <li>Reflexes: Focus</li>
+                    <li>Nerve: Composure</li>
+                    <li>Vigor: Endure</li>
+                </ul>
+            The player rolls the a number of the appropriate Skill dice equal to Challenge, increasing the associated Defense by Hits +1.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/no1_system/assets/img/d20_20.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
+        </td>
+        <td>
+            <h2>Use a Maneuver</h2>
+            <p>
+            </p>
         </td>
     </tr>
 </table>
