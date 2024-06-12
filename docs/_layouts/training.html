@@ -35,10 +35,85 @@ layout: default
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
-      <p>{{ tal }}</p>
+
+      {% for t in tal | where: "rank", "1" %}
+        {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f50; padding: 10px">
+        {% else %}
+            <div style="background-color: #23213050; padding: 10px">
+        {% endif %}
+        <h3 style="margin:5px">{{ t.name }}</h3>
+        {% if t.type == "Multi" %}
+            <strong><em>{{ t.type }}</em></strong>
+        {% else %}
+            <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
+        {% endif %}
+        {% for e in t.effect %}
+            <p>
+            {{ e }}
+            </p>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+      <h3>Rank 2</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+
+      {% for t in tal | where: "rank", "2" %}
+        {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f50; padding: 10px">
+        {% else %}
+            <div style="background-color: #23213050; padding: 10px">
+        {% endif %}
+        <h3 style="margin:5px">{{ t.name }}</h3>
+        {% if t.type == "Multi" %}
+            <strong><em>{{ t.type }}</em></strong>
+        {% else %}
+            <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
+        {% endif %}
+        {% for e in t.effect %}
+            <p>
+            {{ e }}
+            </p>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+      <h3>Rank 3</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+
+      {% for t in tal | where: "rank", "3" %}
+        {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f50; padding: 10px">
+        {% else %}
+            <div style="background-color: #23213050; padding: 10px">
+        {% endif %}
+        <h3 style="margin:5px">{{ t.name }}</h3>
+        {% if t.type == "Multi" %}
+            <strong><em>{{ t.type }}</em></strong>
+        {% else %}
+            <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
+        {% endif %}
+        {% for e in t.effect %}
+            <p>
+            {{ e }}
+            </p>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
 
 ------------------------------
-
       {% assign r1 = site.data.talents.talents | where: "rank", "1" %}
       <p>{{ r1 }}</p>
 -----------------------------
