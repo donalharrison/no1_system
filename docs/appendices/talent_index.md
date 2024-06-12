@@ -15,7 +15,7 @@ nav_order: 4
         <th>Type</th>
         <th>Description</th>
     </tr>
-{% for t in site.data.talents_tmp.talents %}
+{% for t in site.data.talents.talents %}
     <tr>
         <td>
         {{ t.name }}
@@ -37,11 +37,11 @@ nav_order: 4
 
 </table>
 <p>
-{% for i in site.data.talents_tmp.talents %}
+{% for i in site.data.talents.talents %}
     {{ i.tree }}
 {% endfor %}
 </p>
 
 <p>
-    {{ site.data.talents_tmp.talents | inspect }}
+    {{ site.data.talents.talents | inspect }}
 </p>

@@ -12,7 +12,7 @@ nav_order: 8
 # Talents
 
 <section>
-{% for t in site.data.talents_tmp.talents %}
+{% for t in site.data.talents.talents %}
     {% assign i = forloop.index | modulo: 2 %}
         {% if i == 0 %}
             <div style="background-color: #37344f50; padding: 10px">
