@@ -4,12 +4,13 @@
             "tree": "Acolyte",
             "name": "Commune with Divinity",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
                 Your Concordance measures how closely you are aligned with your Divine Doctrine.
-                "
-                , "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+                ", "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
                 "
             ]
         },
@@ -17,18 +18,17 @@
             "tree": "Acolyte",
             "name": "Divine Doctrine",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
                 <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.
-                "
-                ,"Select two items from the list below to be your Virtues and two items to be your Taboos:
+                ","Select two items from the list below to be your Virtues and two items to be your Taboos:
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>
-                "
-                , "Select 2 Effect Skills from the list below to be your Domain:
+                ", "Select 2 Effect Skills from the list below to be your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
-                "
-                , "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
+                ", "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
                 "
             ]
@@ -37,7 +37,9 @@
             "tree": "Acolyte",
             "name": "Composure (3)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Composure rating to 3 (d10)."
             ]
@@ -46,7 +48,9 @@
             "tree": "Acolyte",
             "name": "Creed (2)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Creed ratings to 2 (d8)."
             ]
@@ -55,7 +59,9 @@
             "tree": "Acolyte",
             "name": "Creed (2)",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Creed ratings to 2 (d8)."
             ]
@@ -64,7 +70,9 @@
             "tree": "Acolyte",
             "name": "Creed (3)",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Creed ratings to 3 (d10)."
             ]
@@ -73,7 +81,9 @@
             "tree": "Adept",
             "name": "Attune with forces",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Adept Foci.  When you use this ability, prepare Powers that draw from these Skills:<br> - Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em><br><br>Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b> <em>Strain</em> -- You gain 1 Strain for every Hit a Power generates above Threshold.  If your total Strain exceeds your Grit at any time, you make all rolls at Challenge +2d.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."
             ]
@@ -82,7 +92,9 @@
             "tree": "Adept",
             "name": "Manage Strain",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -91,7 +103,9 @@
             "tree": "Adept",
             "name": "Insight (3)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Insight rating to 3 (d10)."
             ]
@@ -100,7 +114,9 @@
             "tree": "Adept",
             "name": "Foci (2)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Foci ratings to 2 (d8)."
             ]
@@ -109,7 +125,9 @@
             "tree": "Adept",
             "name": "Foci (2)",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Foci ratings to 2 (d8)."
             ]
@@ -118,7 +136,9 @@
             "tree": "Adept",
             "name": "Foci (3)",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Foci ratings to 3 (d10)."
             ]
@@ -127,7 +147,9 @@
             "tree": "Alchemist",
             "name": "Prepare concoctions",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Craft"
             ]
@@ -136,7 +158,9 @@
             "tree": "Archmage",
             "name": "Master the arcane",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -145,7 +169,9 @@
             "tree": "Assassin",
             "name": "Coup de grace",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -154,7 +180,9 @@
             "tree": "Assassin",
             "name": "Sneak Attack",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you successfully attack a target while Hidden, add +1d6 bonus Hits to the result set."
             ]
@@ -163,7 +191,9 @@
             "tree": "Athlete",
             "name": "Powerlifter",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Exert yourself to accomplish a feat of strength, adding +1d4 bonus hits to the result set."
             ]
@@ -172,7 +202,9 @@
             "tree": "Athlete",
             "name": "Sprinter",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Shift to move to an adjacent Zone, you may move an additional Zone."
             ]
@@ -182,6 +214,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -191,6 +225,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -199,7 +235,9 @@
             "tree": "Berserker",
             "name": "Exert (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -208,7 +246,9 @@
             "tree": "Berserker",
             "name": "Frenzy",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -218,6 +258,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -227,6 +269,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -236,6 +280,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -244,7 +290,9 @@
             "tree": "Brute",
             "name": "Brutal Strike",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Strike one target with unrelenting force, adding +1d4 Hits to the result set."
             ]
@@ -253,7 +301,9 @@
             "tree": "Brute",
             "name": "Last Stand",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Exert yourself when you are below your maximum Grit.  Regain +Hits to your Primary Defense and reduce the Challenge by 1d."
             ]
@@ -262,7 +312,9 @@
             "tree": "Brute",
             "name": "Exert (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Exert rating to 2 (d8)."
             ]
@@ -272,6 +324,8 @@
             "name": "Channeling",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Foci.  When you use this ability, prepare Powers that draw from these Skills:<br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br><br>Endure to draw the forces to your will.  Gain Hits + Steady  ranks to prepare your Techniques.<br>You Techniques have the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Recoil</em> - If a Power results in Hits less than Threshold, all targets within your Current Zone sustain Hits from the Power's effect equal to the total amount below Threshold.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 3 - Steady Actions (minimum 1           action)."
             ]
@@ -280,7 +334,9 @@
             "tree": "Channeler",
             "name": "Foci (2)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Foci ratings to 2 (d8)."
             ]
@@ -289,7 +345,9 @@
             "tree": "Channeler",
             "name": "Foci (2)",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Foci ratings to 2 (d8)."
             ]
@@ -298,7 +356,9 @@
             "tree": "Channeler",
             "name": "Foci (3)",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase one of your Foci ratings to 3 (d10)."
             ]
@@ -308,6 +368,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -317,6 +379,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -326,6 +390,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -334,7 +400,9 @@
             "tree": "Defender",
             "name": "Defensive Stance",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Focus to defend yourself in combat, adding +Hits to your Primary Defense."
             ]
@@ -343,7 +411,9 @@
             "tree": "Defender",
             "name": "Harm's Way",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Focus to protect an ally in your Zone. Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
             ]
@@ -352,7 +422,9 @@
             "tree": "Defender",
             "name": "Indomitable Presence",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Intimidate your opponents, causing them to hesitate. Add +2 to the current Timer."
             ]
@@ -361,7 +433,9 @@
             "tree": "Defender",
             "name": "Focus (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Focus rating to 2 (d8)."
             ]
@@ -370,7 +444,9 @@
             "tree": "Detective",
             "name": "Investigate (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Focus rating to 2 (d8)."
             ]
@@ -379,7 +455,9 @@
             "tree": "Diabolist",
             "name": "Dance with devils",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -388,7 +466,9 @@
             "tree": "Diplomat",
             "name": "Browbeat",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Intimidate your target outside of combat, adding +2 Hits to the result set."
             ]
@@ -397,7 +477,9 @@
             "tree": "Diplomat",
             "name": "It's all a facade",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Deceive opponents in your Current Zone, masking your true intentions."
             ]
@@ -406,7 +488,9 @@
             "tree": "Diplomat",
             "name": "Persuade (2)",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Persuade rating to 2 (d8)"
             ]
@@ -415,7 +499,9 @@
             "tree": "Diplomat",
             "name": "Deceive (2)",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Deceive rating to 2 (d8)"
             ]
@@ -424,7 +510,9 @@
             "tree": "Diplomat",
             "name": "Unflappable",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Recover to regain Nerve, regain and additional +1d4 Bonus Hits."
             ]
@@ -433,7 +521,9 @@
             "tree": "Diplomat",
             "name": "Persuade (3)",
             "type": "Ability",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Persuade rating to 3 (d10)"
             ]
@@ -442,7 +532,9 @@
             "tree": "Diplomat",
             "name": "Deceive (3)",
             "type": "Ability",
-            "rank": 3,
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Deceive rating to 3 (d10)"
             ]
@@ -452,6 +544,8 @@
             "name": "Silver Tongue",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Persuade your target, adding +2 Hits to the result set."
             ]
@@ -461,6 +555,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -470,6 +566,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -479,6 +577,8 @@
             "name": "Animism",
             "type": "Static",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -488,6 +588,8 @@
             "name": "Harmonize with nature",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -496,7 +598,9 @@
             "tree": "Duelist",
             "name": "Quick Draw",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "You can draw or change weapons without using a Shift."
             ]
@@ -505,7 +609,9 @@
             "tree": "Duelist",
             "name": "Riposte",
             "type": "Trigger",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Counterattack an enemy Strike that just scored 0 Hits.  Deal 1d4 bonus Hits."
             ]
@@ -515,6 +621,8 @@
             "name": "Shape the elements",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -524,6 +632,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -533,6 +643,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -542,6 +654,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -550,7 +664,9 @@
             "tree": "Healer",
             "name": "Healing Hands",
             "type": "Trigger",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -559,7 +675,9 @@
             "tree": "Healer",
             "name": "Embrace the cycle",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "<em>When you gain this Talent, increase you Vivus Skill rating to 2 (d8).</em><br>Use your Composure to let the cylce of life and death flow through you.  Gain Hits + Steady Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b><em>Drain</em> - If a Power results in Hits less than Threshold, you suffer a number of Hits equal to the total amount below Threshold as the cyle extracts its toll on you.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 4 - Savvy Actions (minimum 1 action)."
             ]
@@ -569,6 +687,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -578,6 +698,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -587,6 +709,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -596,6 +720,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -605,6 +731,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -614,6 +742,8 @@
             "name": "Grasp the arcane",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -623,6 +753,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -631,7 +763,9 @@
             "tree": "Magic-User",
             "name": "Study the arcane",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "<em>When you gain this Talent, increase you rating in any 2 Power Skills from the list below:<br> - Aether, Arithm, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest            , Torrent</em><br><br>Research to memorize spells.  Gain Hits + Savvy Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Spellburn</em> - If a Power results in Hits greater than Threshold, you suffer a number of Hits equal to the total amount above Threshold.  Your target(s) sustain Spellburn Hits as well, in addition to the Power's effect.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 6 - Savvy Actions (minimum 1 action)."
             ]
@@ -640,7 +774,9 @@
             "tree": "Marksman",
             "name": "Aim",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             ]
@@ -649,7 +785,9 @@
             "tree": "Marksman",
             "name": "Controlled Pair",
             "type": "Trigger",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
             ]
@@ -658,7 +796,9 @@
             "tree": "Marksman",
             "name": "Double Tap",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Shoot your target at +2d Challenge."
             ]
@@ -667,7 +807,9 @@
             "tree": "Marksman",
             "name": "Shoot (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Shoot rating to 2 (d8)."
             ]
@@ -676,7 +818,9 @@
             "tree": "Marksman",
             "name": "Shoot (3)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Shoot rating to 3 (d10)."
             ]
@@ -685,7 +829,9 @@
             "tree": "Marksman",
             "name": "Shooter",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Shoot your target but earn 0 Hits, add +2 Hits to the result set."
             ]
@@ -694,7 +840,9 @@
             "tree": "Martial Artist",
             "name": "Float like a butterfly. . .",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
             ]
@@ -703,7 +851,9 @@
             "tree": "Martial Artist",
             "name": "Living Weapon",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you use your Martial Arts against your target but earn 0 Hits, add +2 Hits to the result set."
             ]
@@ -712,7 +862,9 @@
             "tree": "Medic",
             "name": "First Aid",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Administer basic care to an injury."
             ]
@@ -722,6 +874,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -730,7 +884,9 @@
             "tree": "Necromancer",
             "name": "Stir the dead",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -739,7 +895,9 @@
             "tree": "Overseer",
             "name": "Coordinated Assault",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Lead your Minions to launch a coordinated attack against a single target, dealing Hits +1d4 bonus Hits to the result set."
             ]
@@ -748,7 +906,9 @@
             "tree": "Overseer",
             "name": "Minions",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -758,6 +918,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -767,6 +929,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -775,7 +939,9 @@
             "tree": "Priest",
             "name": "Invoke the divine",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Composure"
             ]
@@ -784,7 +950,9 @@
             "tree": "Probabilist",
             "name": "Derive axioms",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Analyze"
             ]
@@ -793,7 +961,9 @@
             "tree": "Psion",
             "name": "Hone the mind",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Focus"
             ]
@@ -803,6 +973,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -812,6 +984,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -820,7 +994,9 @@
             "tree": "Ranger",
             "name": "Shoot (3)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Shoot rating to 3 (d10)."
             ]
@@ -829,7 +1005,9 @@
             "tree": "Ranger",
             "name": "Skirmisher",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
             ]
@@ -838,7 +1016,9 @@
             "tree": "Ranger",
             "name": "Skirmisher",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
             ]
@@ -848,6 +1028,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -857,6 +1039,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -865,7 +1049,9 @@
             "tree": "Scholar",
             "name": "Knowledge is Power",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Research to gain critical information about the current situation.  Increase the current Timer by Hits - 2 and decrease the Challenge by -1d."
             ]
@@ -874,7 +1060,9 @@
             "tree": "Scholar",
             "name": "Linguistic Aptitude",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Use Linguistics to speak or decipher any language.  Create +Hits Advantages you can spend on Persuade or Invesitgate."
             ]
@@ -883,7 +1071,9 @@
             "tree": "Scholar",
             "name": "Analytical Mind",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Analyze your surroundings, gaining insights into potential weaknesses or hidden detail.  Create Hits +2 Advantages in your current Zone.  Allies can use these Advantages if you are able to communicate with them."
             ]
@@ -892,7 +1082,9 @@
             "tree": "Scoundrel",
             "name": "Forked Tongue",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Deceive your target, adding +2 Hits to the result set."
             ]
@@ -901,7 +1093,9 @@
             "tree": "Scoundrel",
             "name": "It's all a facade",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Deceive opponents in your Current Zone, masking your true intentions."
             ]
@@ -911,6 +1105,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -919,7 +1115,9 @@
             "tree": "Scrapper",
             "name": "Cleave",
             "type": "Trigger",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Strike your target to death, apply Hits -2 to another target in your current Zone."
             ]
@@ -928,7 +1126,9 @@
             "tree": "Scrapper",
             "name": "Fighter",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Strike your target but earn 0 Hits, add +2 Hits to the result set."
             ]
@@ -937,7 +1137,9 @@
             "tree": "Scrapper",
             "name": "Float like a butterfly. . .",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
             ]
@@ -947,6 +1149,8 @@
             "name": "Peer through depths",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Perceive"
             ]
@@ -956,6 +1160,8 @@
             "name": "Invoke the spirits",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -965,6 +1171,8 @@
             "name": "Shamanism",
             "type": "Static",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -973,7 +1181,9 @@
             "tree": "Shifter",
             "name": "Primal Form",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -983,6 +1193,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -992,6 +1204,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1001,6 +1215,8 @@
             "name": "Commune with spirits",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Persuade the spirits within.  Gain Hits + Savvy Power ranks."
             ]
@@ -1010,6 +1226,8 @@
             "name": "Shugendo",
             "type": "Static",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1019,6 +1237,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1028,6 +1248,8 @@
             "name": "Overwatch",
             "type": "Trigger",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When one or more hostile targets moves into your current Zone, you may deal 1d4 bonus Hits to one of them."
             ]
@@ -1037,6 +1259,8 @@
             "name": "Zero in",
             "type": "Trigger",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Aim, add +1d4 bonus Hits to the result set."
             ]
@@ -1045,7 +1269,9 @@
             "tree": "Soldier",
             "name": "Aim",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             ]
@@ -1054,7 +1280,9 @@
             "tree": "Soldier",
             "name": "Charge",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."
             ]
@@ -1063,7 +1291,9 @@
             "tree": "Soldier",
             "name": "Quick Draw",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "You can draw or change weapons without using a Shift."
             ]
@@ -1072,7 +1302,9 @@
             "tree": "Soldier",
             "name": "Combat Training",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "You may Strike or Shoot at a target and use a Shift to use a non-combat skill.  Roll +2d Challenge.  Divide the Hits between the the two skills."
             ]
@@ -1081,7 +1313,9 @@
             "tree": "Soldier",
             "name": "Cover Fire",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1091,6 +1325,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1100,6 +1336,8 @@
             "name": "It's all a facade",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Deceive opponents in your Current Zone, masking your true intentions."
             ]
@@ -1109,6 +1347,8 @@
             "name": "Master Eavesdropp",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set."
             ]
@@ -1118,6 +1358,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1127,6 +1369,8 @@
             "name": "Quick Draw",
             "type": "Static",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "You can draw or change weapons without using a Shift."
             ]
@@ -1136,6 +1380,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1145,6 +1391,8 @@
             "name": "Fall Back",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Lead allies in your current and all adjacent Zones in a tactical retreat, allowing a number of allies equal to Hits in the result set to immediately Shift away from hostile targets without risk."
             ]
@@ -1154,6 +1402,8 @@
             "name": "Inspire Allies",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Lead all allies in your current Zone, allowing a number of them equal to the Hits in the result set to choose 1 of the following: Recover, Take -1d to their next Action, add 1 Hit to their next result set"
             ]
@@ -1163,6 +1413,8 @@
             "name": "Reposition",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Lead allies in your current Zones, allowing a number of them equal to the Hits in the result set to immediately use a Shift."
             ]
@@ -1171,7 +1423,9 @@
             "tree": "Tank",
             "name": "Exert (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Exert rating to 2 (d8)."
             ]
@@ -1180,7 +1434,9 @@
             "tree": "Tank",
             "name": "Endure (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Endure rating to 2 (d8)."
             ]
@@ -1189,7 +1445,9 @@
             "tree": "Tank",
             "name": "Endure (3)",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Endure rating to 3 (d10)."
             ]
@@ -1198,7 +1456,9 @@
             "tree": "Tank",
             "name": "Hard to Kill",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Grit by 3."
             ]
@@ -1207,7 +1467,9 @@
             "tree": "Tank",
             "name": "I can take it",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you take more than 1 Hit from an effect, reduce the total Hits by 1."
             ]
@@ -1216,7 +1478,9 @@
             "tree": "Tank",
             "name": "Shake it off",
             "type": "Ability",
-            "rank": 2,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Use a Shift to Recover."
             ]
@@ -1225,7 +1489,9 @@
             "tree": "Tank",
             "name": "Taunt",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you."
             ]
@@ -1234,7 +1500,9 @@
             "tree": "Tank",
             "name": "Walk it off",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "When you Recover, regain +2 Defenses."
             ]
@@ -1243,7 +1511,9 @@
             "tree": "Thief",
             "name": "Implements (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Implements rating to 2 (d8)."
             ]
@@ -1252,7 +1522,9 @@
             "tree": "Thief",
             "name": "Legerdemain (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Legerdemain rating to 2 (d8)."
             ]
@@ -1261,7 +1533,9 @@
             "tree": "Thief",
             "name": "Stealth (2)",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Increase your Stealth rating to 2 (d8)."
             ]
@@ -1271,6 +1545,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1279,7 +1555,9 @@
             "tree": "Transmuter",
             "name": "Study the forms",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1289,6 +1567,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1298,6 +1578,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1307,6 +1589,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1316,6 +1600,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1324,7 +1610,9 @@
             "tree": "Witch",
             "name": "Incant the darkness",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1334,6 +1622,8 @@
             "name": "Witchcraft",
             "type": "Static",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1342,7 +1632,9 @@
             "tree": "Wrestler",
             "name": "Suplex",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
             "effect": [
                 "Grapple your target, adding +1d4 bonus Hits and making them Prone."
             ]
@@ -1352,6 +1644,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1361,6 +1655,8 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
@@ -1370,6 +1666,8 @@
             "name": "",
             "type": "",
             "rank": null,
+            "requires": null,
+            "replaces": null,
             "effect": [
                 ""
             ]
