@@ -53,25 +53,23 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
     <h3>Action Skills</h3>
     <table style="text-align: left;">
         <tr>
-            {% assign skills = site.data.skills | where: "trait", strait %}
+            {% assign skills = site.data.skills | where: "trait", strait | where: "type", "1" %}
             {% for s in skills %}
-                {% if s.type == "1" %}
-                    <td style="width: 33%; height: 80px; padding: 5px">
-                    <p style="font-size:125%; margin:3px;">
-                        <strong>
-                        {{ s.name }}
-                        </strong>
-                    </p>
-                    <hr style="margin: 3px;">
-                    <p style="margin: 3px;">
-                        {{ s.description }}
-                    </p>
-                    </td>
-                    {% assign i = forloop.index | modulo: 3 %}
-                    {% if i == 0 %}
-                        </tr>
-                        <tr>
-                    {% endif %}
+                <td style="width: 33%; height: 80px; padding: 5px">
+                <p style="font-size:125%; margin:3px;">
+                    <strong>
+                    {{ s.name }}
+                    </strong>
+                </p>
+                <hr style="margin: 3px;">
+                <p style="margin: 3px;">
+                    {{ s.description }}
+                </p>
+                </td>
+                {% assign i = forloop.index | modulo: 3 %}
+                {% if i == 0 %}
+                    </tr>
+                    <tr>
                 {% endif %}
             {% endfor %}
 
@@ -80,25 +78,23 @@ Skill Talents come in two varieties: *Static* and *Trigger*.
     <h3>Effect Skills</h3>
     <table style="text-align: left;">
         <tr>
-            {% assign skills = site.data.skills | where: "trait", strait %}
+            {% assign skills = site.data.skills | where: "trait", strait | where: "type", "2" %}
             {% for s in skills %}
-                {% if s.type == "2" %}
-                    <td style="width: 33%; height: 80px; padding: 5px">
-                    <p style="font-size:125%; margin:3px;">
-                        <strong>
-                        {{ s.name }}
-                        </strong>
-                    </p>
-                    <hr style="margin: 3px;">
-                    <p style="margin: 3px;">
-                        {{ s.description }}
-                    </p>
-                    </td>
-                    {% assign i = forloop.index | modulo: 3 %}
-                    {% if i == 0 %}
-                        </tr>
-                        <tr>
-                    {% endif %}
+                <td style="width: 33%; height: 80px; padding: 5px">
+                <p style="font-size:125%; margin:3px;">
+                    <strong>
+                    {{ s.name }}
+                    </strong>
+                </p>
+                <hr style="margin: 3px;">
+                <p style="margin: 3px;">
+                    {{ s.description }}
+                </p>
+                </td>
+                {% assign i = forloop.index | modulo: 3 %}
+                {% if i == 0 %}
+                    </tr>
+                    <tr>
                 {% endif %}
             {% endfor %}
 
