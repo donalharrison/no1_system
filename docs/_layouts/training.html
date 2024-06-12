@@ -35,58 +35,7 @@ layout: default
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
-      <table>
-          {% for t in tal %}
-            {% if t.rank == "1" %}
-            <tr>
-              <td>{{ t.name }}</td>
-              <td>{{ t.type }}</td>
-              <td>{{ t.effect }}</td>
-            </tr>
-            {% endif %}
-          {% endfor %}
-        </tr>
-      </table>
-
-      <h3>Rank 2</h3>
-      <div class="half" style="display:flex">
-        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-      </div>
-      <table>
-        <tr>
-          {% for t in tal %}
-            {% if t.rank == "2" %}
-            <tr>
-              <td>{{ t.name }}</td>
-              <td>{{ t.type }}</td>
-              <td>{{ t.effect }}</td>
-            </tr>
-            {% endif %}
-          {% endfor %}
-        </tr>
-      </table>
-
-      <h3>Rank 3</h3>
-      <div class="half" style="display:flex">
-        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
-      </div>
-      <table>
-        <tr>
-          {% for t in tal %}
-            {% if t.rank == "3" %}
-            <tr>
-              <td>{{ t.name }}</td>
-              <td>{{ t.type }}</td>
-              <td>{{ t.effect }}</td>
-            </tr>
-            {% endif %}
-          {% endfor %}
-        </tr>
-      </table>
-
+      <p>{{ tal.rank }}</p>
 -----------------------------
 
 <h3>QA Data</h3>
@@ -105,6 +54,7 @@ layout: default
               <td>{{ tlnt.name }}</td>
               <td>{{ tlnt.type }}</td>
               <td>{{ tlnt.effect }}</td>
+              <td>{{ tlnt.rank }}</td>
             </tr>
             
           {% endif %}
