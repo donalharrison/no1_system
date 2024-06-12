@@ -22,7 +22,7 @@ The action may result in a Trigger for the player, which happens immediately fol
 <img src="/no1_system/assets/img/action_skills.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
 
 </div>
-<div style="margin-left: 25%;"> 
+<div style="margin-left: 25%; height: 150px;"> 
 
 <h2>Use your Skills</h2>
 <p>
@@ -36,7 +36,7 @@ This is the core Action of the No1 system.  A character attempts an action that 
 <div style="width: 25%; float: left;"> 
 <img src="/no1_system/assets/img/action_ability.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
 </div>
-<div style="margin-left: 25%;"> 
+<div style="margin-left: 25%; height: 150px;"> 
 
 
 <h2>Use an Ability</h2>
@@ -51,7 +51,7 @@ Characters can spend their action to use an Ability gained from their Training T
 <div style="width: 25%; float: left;"> 
 <img src="/no1_system/assets/img/shift.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
 </div>
-<div style="margin-left: 25%;"> 
+<div style="margin-left: 25%; height: 150px;"> 
 
 <h2>Use a Shift</h2>
 <p>
@@ -65,7 +65,7 @@ Characters can spend their Action to use any Shift.
 <div style="width: 25%; float: left;"> 
 <img src="/no1_system/assets/img/action_recover.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
 </div>
-<div style="margin-left: 25%;"> 
+<div style="margin-left: 25%; height: 150px;"> 
 
 <h2>Recover</h2>
 <p>
@@ -85,7 +85,7 @@ The player rolls the a number of the appropriate Skill dice equal to Challenge, 
 <div style="width: 25%; float: left;"> 
 <img src="/no1_system/assets/img/d20_20.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
 </div>
-<div style="margin-left: 25%;"> 
+<div style="margin-left: 25%; height: 150px;"> 
 <h2>Use a Maneuver</h2>
 <p>
 </p>
