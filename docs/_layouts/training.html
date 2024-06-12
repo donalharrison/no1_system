@@ -14,12 +14,12 @@ layout: default
            
       {% for trn in site.data.training %}
 
-        {% if trn.name == page.title %}
+        {% if trn.Name == page.title %}
 
           <img src={{ trn.img_path }} width="100" height="100">
 
           <br>{{ trn.Description }}</p>
-          <p>{{ trn.type }}
+          <p>{{ trn.Type }}
           <br>{{ trn.Prerequisites }}
           
 
@@ -29,7 +29,7 @@ layout: default
       
       <h2>Talents</h2>
 
-      {% assign tal = site.data.talents | where: "tree", page.title %}
+      {% assign tal = site.data.talents.talents | where: "tree", page.title %}
       
       <h3>Rank 1</h3>
       <div class="half" style="display:flex">
@@ -46,7 +46,7 @@ layout: default
           <th>Effect</th>
         </tr>
       
-        {% for tlnt in site.data.talents %}
+        {% for tlnt in site.data.talents.talents %}
             
           {% if tlnt.tree == page.title %}
 
