@@ -21,7 +21,7 @@ layout: default
           <br>{{ trn.Description }}</p>
           <p>{{ trn.Type }}
           <br>{{ trn.Prerequisites }}
-          
+          </p>
 
         {% endif %}
 
@@ -35,7 +35,11 @@ layout: default
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
-      <p>{{ tal.rank }}</p>
+      <p>{{ tal }}</p>
+
+
+      {% assign r1 = site.data.talents.talents | where: "rank", "1" %}
+      <p>{{ r1 }}</p>
 -----------------------------
 
 <h3>QA Data</h3>
