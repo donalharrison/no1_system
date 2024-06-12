@@ -15,7 +15,7 @@ The player totals the number of Hits they achieved by counting the number of dic
 
 The action may result in a Trigger for the player, which happens immediately following the resolution of the action.
 
-<section>
+
 <div style="width: 100%;">
 <div style="width: 25%; height: 250px; float: left;"> 
 
@@ -29,9 +29,9 @@ The action may result in a Trigger for the player, which happens immediately fol
 This is the core Action of the No1 system.  A character attempts an action that requires them to draw on on of their Skills.  If the outcome of the action is uncertain or the characters are under pressure, the player rolls a number and type of dice equal to the current Challenge and the character rating in the attempted Skill, respectively.
 </p>
 </div>
-</section>
+</div>
 
-<section>
+
 <div style="width: 25%; height: 250px; float: left;"> 
 <img src="/no1_system/assets/img/action_ability.png" width="100" height="100" align="center">
 </div>
@@ -43,9 +43,9 @@ This is the core Action of the No1 system.  A character attempts an action that 
 Characters can spend their action to use an Ability gained from their Training Talent trees.  Most Abilities include a Skill name in ther description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
 </p>
 </div>
-</section>
 
-<section>
+
+
 <div style="width: 25%; height: 250px; float: left;"> 
 <img src="/no1_system/assets/img/shift.png" width="100" height="100" align="center">
 </div>
@@ -56,9 +56,9 @@ Characters can spend their action to use an Ability gained from their Training T
 Characters can spend their Action to use any Shift.
 </p>
 </div>
-</section>
 
-<section>
+
+
 <div style="width: 25%; height: 250px; float: left;"> 
 <img src="/no1_system/assets/img/action_recover.png" width="100" height="100" align="middle">
 </div>
@@ -75,9 +75,9 @@ Characters can use an action to Recover lost defenses.  To do so, the player dec
 The player rolls the a number of the appropriate Skill dice equal to Challenge, increasing the associated Defense by Hits +1.
 </p>
 </div>
-</section>
 
-<section>
+
+
 <div style="width: 25%; height: 250px; float: left;"> 
 <img src="/no1_system/assets/img/d20_20.png" width="100" height="100" align="middle">
 </div>
@@ -87,4 +87,3 @@ The player rolls the a number of the appropriate Skill dice equal to Challenge, 
 </p>
 </div>
 </div>
-</section>
