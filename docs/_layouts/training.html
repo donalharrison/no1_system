@@ -29,14 +29,14 @@ layout: default
       
       <h2>Talents</h2>
 
-      {% assign tal = site.data.talents.talents | where: "tree", page.title %}
+      {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "1" %}
       
       <h3>Rank 1</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
 
-      {% for t in tal | where: "rank", "1" %}
+      {% for t in tal %}
         {% assign i = forloop.index | modulo: 2 %}
         {% if i == 0 %}
             <div style="background-color: #37344f50; padding: 10px">
