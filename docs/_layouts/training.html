@@ -44,11 +44,8 @@ layout: default
             <div style="background-color: #23213050; padding: 10px">
         {% endif %}
         <h3 style="margin:5px">{{ t.name }}</h3>
-        {% if t.type == "Multi" %}
-            <strong><em>{{ t.type }}</em></strong>
-        {% else %}
-            <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
-        {% endif %}
+        <h4 style="margin:5px">{{ t.type }}</h4>
+        <h5 style="margin:5px">{{ t.requires }}</h4>
         {% for e in t.effect %}
             <p>
             {{ e }}
@@ -56,6 +53,8 @@ layout: default
         {% endfor %}
         </div>
       {% endfor %}
+
+      {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "2" %}
 
       <h3>Rank 2</h3>
       <div class="half" style="display:flex">
@@ -63,7 +62,7 @@ layout: default
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
 
-      {% for t in tal | where: "rank", "2" %}
+      {% for t in tal %}
         {% assign i = forloop.index | modulo: 2 %}
         {% if i == 0 %}
             <div style="background-color: #37344f50; padding: 10px">
@@ -71,11 +70,7 @@ layout: default
             <div style="background-color: #23213050; padding: 10px">
         {% endif %}
         <h3 style="margin:5px">{{ t.name }}</h3>
-        {% if t.type == "Multi" %}
-            <strong><em>{{ t.type }}</em></strong>
-        {% else %}
-            <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
-        {% endif %}
+        <h4 style="margin:5px>{{ t.type }}</h4>
         {% for e in t.effect %}
             <p>
             {{ e }}
@@ -83,6 +78,8 @@ layout: default
         {% endfor %}
         </div>
       {% endfor %}
+
+      {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "3" %}
 
       <h3>Rank 3</h3>
       <div class="half" style="display:flex">
@@ -91,7 +88,7 @@ layout: default
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
       </div>
 
-      {% for t in tal | where: "rank", "3" %}
+      {% for t in tal %}
         {% assign i = forloop.index | modulo: 2 %}
         {% if i == 0 %}
             <div style="background-color: #37344f50; padding: 10px">
@@ -99,11 +96,7 @@ layout: default
             <div style="background-color: #23213050; padding: 10px">
         {% endif %}
         <h3 style="margin:5px">{{ t.name }}</h3>
-        {% if t.type == "Multi" %}
-            <strong><em>{{ t.type }}</em></strong>
-        {% else %}
-            <h4 style="margin:5px; padding-bottom:15px; padding-top:2px">{{ t.type }}</h4>
-        {% endif %}
+        <h4 style="margin:5px>{{ t.type }}</h4>
         {% for e in t.effect %}
             <p>
             {{ e }}

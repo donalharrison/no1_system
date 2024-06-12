@@ -9,9 +9,8 @@
             "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                Your Concordance measures how closely you are aligned with your Divine Doctrine.
-                ", "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
-                "
+                Your Concordance measures how closely you are aligned with your Divine Doctrine.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -23,69 +22,118 @@
             "replaces": null,
             "effect": [
                 "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
-                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.
-                ","Select two items from the list below to be your Virtues and two items to be your Taboos:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>
-                ", "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>
-                ", "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.
-                "
+                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:
+                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
+                "Select 2 Effect Skills from the list below to be your Domain:
+                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
+                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
         },
         {
             "tree": "Acolyte",
-            "name": "Composure (3)",
+            "name": "Composure (2)",
             "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Composure rating to 3 (d10)."
+                "Increase your Composure rating to 2 (d8)."
             ]
         },
         {
             "tree": "Acolyte",
-            "name": "Creed (2)",
+            "name": "Domain (2)",
             "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Creed ratings to 2 (d8)."
+                "Increase one of your Domains ratings to 2 (d8)."
             ]
         },
         {
             "tree": "Acolyte",
-            "name": "Creed (2)",
+            "name": "Domain (2)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Creed ratings to 2 (d8)."
+                "Increase one of your Domains ratings to 2 (d8)."
             ]
         },
         {
             "tree": "Acolyte",
-            "name": "Creed (3)",
+            "name": "Domain (3)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Creed ratings to 3 (d10)."
+                "Increase one of your Domains ratings to 3 (d10)."
             ]
         },
         {
             "tree": "Adept",
-            "name": "Attune with forces",
-            "type": "Ability",
+            "name": "Seeker of Mysteries",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Adept Foci.  When you use this ability, prepare Powers that draw from these Skills:<br> - Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em><br><br>Use your Insight to connect with the forces within.  Gain Hits + Deft or Uncanny Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b> <em>Strain</em> -- You gain 1 Strain for every Hit a Power generates above Threshold.  If your total Strain exceeds your Grit at any time, you make all rolls at Challenge +2d.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Uncanny Actions (minimum 1 action)."
+                "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers#Arcana'>Arcana</a>.",
+                "When you gain this Talent, select 2 Effect Skills from the list below to be your <em>Foci</em> which determine the Arcana you can access:
+                <br><em>Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+            ]
+        },
+        {
+            "tree": "Adept",
+            "name": "Strain Susceptibility",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Your pursuit of Arcana expose you to <strong>Strain</strong>.",
+                "When you roll one of your Foci to invoke and Arcana, you gain Strain according to the result as soon as the Arcana effects resolve.",
+                "Strain accumulates over the course of your adventures, only reducing by 1d6 at the conclusion of a Waypoint.",
+                "You suffer the effects of Strain according to the <em>Straing Effects Table</em> table below.  Strain Effects are cumulative:<br>
+                <table>
+                    <thead>
+                        <th>Strain</th>
+                        <th>Effect</th>
+                    </thead>
+                    <tr>
+                        <td>0-4</td>
+                        <td>No effect</td>
+                    </tr>
+                    <tr>
+                        <td>5-9</td>
+                        <td>Fatigued 1</td>
+                    </tr>
+                    <tr>
+                        <td>10-14</td>
+                        <td>Confused</td>
+                    </tr>
+                    <tr>
+                        <td>15-19</td>
+                        <td>Fatigued 2</td>
+                    </tr>
+                    <tr>
+                        <td>20-24</td>
+                        <td>Dazed</td>
+                    </tr>
+                    <tr>
+                        <td>25-29</td>
+                        <td>Stunned 4</td>
+                    </tr>
+                    <tr>
+                        <td>30+</td>
+                        <td>Dead</td>
+                    </tr>
+                </table>"
             ]
         },
         {
@@ -96,7 +144,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use your Insight to reduce your current Strain by Hits."
             ]
         },
         {
