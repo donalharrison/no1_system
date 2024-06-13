@@ -5,7 +5,7 @@
             "name": "Commune with Divinity",
             "type": "Ability",
             "rank": "1",
-            "requires": null,
+            "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.

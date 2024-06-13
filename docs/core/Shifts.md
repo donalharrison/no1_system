@@ -15,12 +15,14 @@ Shifts represent quick actions or movements that take minimal concentration or e
 - **Move to an adjacent zone**
 - **Move within your current zone**
     - Move into proximity of or away from a Point of Interest within your current Zone
-### Moving & Hazards
-When a character moves out of a Zone or awya from a Point of Interest that contains on or more Hazards, the player must roll a number of Hazard dice 
+
+#### Moving & Hazards
+*When a character moves out of a Zone or away from a Point of Interest that contains one or more Hazards, the player must roll a number of Hazard dice equal to the total Hazards present.*
 
 ## Use your equipment
 - **Reload / Restring / Unjam a weapon**
 - **Draw / Change  a weapon**
+- **Use a consumable item**
 
 ## Defy danger
 If an Action or Shift would cause you to add 1 or more Hazard dice to your roll, you may use a shift to attempt to avoid the danger.  Choose on of the approaches below and Roll against Challenge using the respective Skill and reduce the total number of Hazard dice equal to the Hits in the Result Set. 
