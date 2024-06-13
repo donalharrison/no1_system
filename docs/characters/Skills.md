@@ -22,6 +22,26 @@ Rating |  Die
 4      |  d12
 ```
 
+<table style="text-align: center; border: none;">
+    <tr>
+        <td><strong>Rating</strong></td>
+        <td><strong>0</strong></td>
+        <td><strong>1</strong></td>
+        <td><strong>2</strong></td>
+        <td><strong>3</strong></td>
+        <td><strong>4</strong></td>
+    </tr>
+    <tr>
+        <td><strong>Die</strong>
+        <td><img src="/no1_system/assets/img/d4.png" width="100"><h4>d4</h4></td>
+        <td><img src="/no1_system/assets/img/d6.png" width="100"><h4>d6</h4></td>
+        <td><img src="/no1_system/assets/img/d8.png" width="100"><h4>d8</h4></td>
+        <td><img src="/no1_system/assets/img/d10.png" width="100"><h4>d10</h4></td>
+        <td><img src="/no1_system/assets/img/d12.png" width="100"><h4>d12</h4></td>
+    </tr>
+</table>
+
+
 ## Action Skills
 Action Skills are a crucial subset of Skills in the game that allow players to perform various tasks and actions without needing a specific Ability to utilize the Skill. These Skills represent the character's aptitude, proficiencies, and expertise that enable them to handle a wide range of situations.
 

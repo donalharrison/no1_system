@@ -18,7 +18,7 @@ The action may result in a Trigger for the player, which happens immediately fol
 <table>
     <tr>
         <td>
-            <img src="/no1_system/assets/img/action_skills.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
+            <img src="/no1_system/assets/img/action_skills.png" width="150" height="150" style="vertical-align: middle; margin: 0 auto;">
         </td>
         <td>
             <h2>Use your Skills</h2>
@@ -29,7 +29,7 @@ The action may result in a Trigger for the player, which happens immediately fol
     </tr>
     <tr>
         <td>
-            <img src="/no1_system/assets/img/action_ability.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
+            <img src="/no1_system/assets/img/action_ability.png" width="150" height="150" style="vertical-align: middle; margin: 0 auto;">
         </td>
         <td>
             <h2>Use an Ability</h2>
@@ -40,7 +40,7 @@ The action may result in a Trigger for the player, which happens immediately fol
     </tr>
     <tr>
         <td>
-            <img src="/no1_system/assets/img/shift.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
+            <img src="/no1_system/assets/img/shift.png" width="150" height="150" style="vertical-align: middle; margin: 0 auto;">
         </td>
         <td>
             <h2>Use a Shift</h2>
@@ -77,84 +77,5 @@ The action may result in a Trigger for the player, which happens immediately fol
         </td>
     </tr>
 </table>
-</div>
-
-
--------------------------
-
-<div style="width: 100%;">
-<div style="width: 25%; float: left; padding-bottom:25px"> 
-
-<img src="/no1_system/assets/img/action_skills.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
-
-</div>
-<div style="margin-left: 25%; height: 150px; padding-bottom:25px"> 
-
-<h2>Use your Skills</h2>
-<p>
-This is the core Action of the No1 system.  A character attempts an action that requires them to draw on on of their Skills.  If the outcome of the action is uncertain or the characters are under pressure, the player rolls a number and type of dice equal to the current Challenge and the character rating in the attempted Skill, respectively.
-</p>
-</div>
-</div>
-
-
-<div style="width: 100%;">
-<div style="width: 25%; float: left; padding-bottom:25px"> 
-<img src="/no1_system/assets/img/action_ability.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
-</div>
-<div style="margin-left: 25%; height: 150px; padding-bottom:25px"> 
-
-
-<h2>Use an Ability</h2>
-<p>
-Characters can spend their action to use an Ability gained from their Training Talent trees.  Most Abilities include a Skill name in ther description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
-</p>
-</div>
-</div>
-
-
-<div style="width: 100%;">
-<div style="width: 25%; float: left; padding-bottom:25px"> 
-<img src="/no1_system/assets/img/shift.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
-</div>
-<div style="margin-left: 25%; height: 150px; padding-bottom:25px"> 
-
-<h2>Use a Shift</h2>
-<p>
-Characters can spend their Action to use any Shift.
-</p>
-</div>
-</div>
-
-
-<div style="width: 100%;">
-<div style="width: 25%; float: left; padding-bottom:25px"> 
-<img src="/no1_system/assets/img/action_recover.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
-</div>
-<div style="margin-left: 25%; height: 150px; padding-bottom:25px"> 
-
-<h2>Recover</h2>
-<p>
-Characters can use an action to Recover lost defenses.  To do so, the player declares which Defense they are attempting to recover which determines the Skill to be used in the roll:
-<ul>
-<li>Reflexes: Focus</li>
-<li>Nerve: Composure</li>
-<li>Vigor: Endure</li>
-</ul>
-The player rolls the a number of the appropriate Skill dice equal to Challenge, increasing the associated Defense by Hits +1.
-</p>
-</div>
-</div>
-
-
-<div style="width: 100%;">
-<div style="width: 25%; float: left; padding-bottom:25px"> 
-<img src="/no1_system/assets/img/d20_20.png" width="150" height="150" style="  vertical-align: middle; margin: 0 auto;">
-</div>
-<div style="margin-left: 25%; height: 150px; padding-bottom:25px"> 
-<h2>Use a Maneuver</h2>
-<p>
-</p>
-</div>
 </div>
 
