@@ -1,6 +1,6 @@
 Name,Type,Prerequisites,Description,img_path,page_path
 Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice, granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
-Adept,Basic,Savvy 1,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
+Adept,Basic,,"You are trained in mystical & supernatural forces, granting you powers to wield against your foes.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
 Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png,/no1_system/characters/training/brute/
 Channeler,Basic,,"You harness and manipulate fundamental energies of existence, acting as a conduit to the elemental forces.",/no1_system/assets/img/channeler.png,/no1_system/characters/training/channeler/
 Defender,Basic,,"You are a master of defensive combat, specializing in protecting allies, mitigating damage, and holding the line against adversaries.",/no1_system/assets/img/defender.png,/no1_system/characters/training/defender/
@@ -82,3 +82,13 @@ Tactician,Specialization,,"You are adept in strategic thinking and battlefield t
 Thrall,Specialization,,"You serve a supernatural or otherworldly master, gaining powers and abilities through a dark pact.",/no1_system/assets/img/thrall.png,/no1_system/characters/training/thrall/
 Transmuter,Specialization,,"You are adept in the art of transformation and alteration, changing the properties of objects and creatures.",/no1_system/assets/img/transmuter.png,/no1_system/characters/training/transmuter/
 Wrestler,Specialization,,"You specialize in hand-to-hand combat emphasizing strength, grappling, and close-quarters brawling.",/no1_system/assets/img/wrestler.png,/no1_system/characters/training/wrestler/
+Aberrant,Basic,Uncanny 2,,,/no1_system/characters/training/aberrant/
+Conduit,Basic,,,,/no1_system/characters/training/conduit/
+Heretic,Specialization,,,,/no1_system/characters/training/heretic/
+Advocate,Specialization,,,,/no1_system/characters/training/advocate/
+Templar,Specialization,,,,/no1_system/characters/training/templar/
+Mystic,Specialization,,,,/no1_system/characters/training/mystic/
+Justiciar,Discipline,,,,/no1_system/characters/training/justiciar/
+Shadow,Discipline,,,,/no1_system/characters/training/shadow/
+Blackguard,Discipline,,,,/no1_system/characters/training/blackguard/
+Darksworn,Discipline,,,,/no1_system/characters/training/darksworn/

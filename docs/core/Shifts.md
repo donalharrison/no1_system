@@ -25,7 +25,7 @@ Shifts represent quick actions or movements that take minimal concentration or e
 - **Use a consumable item**
 
 ## Defy danger
-If an Action or Shift would cause you to add 1 or more Hazard dice to your roll, you may use a shift to attempt to avoid the danger.  Choose on of the approaches below and Roll against Challenge using the respective Skill and reduce the total number of Hazard dice equal to the Hits in the Result Set. 
+If an Action or Shift would cause you to add 1 or more Hazard dice to your roll, you may use this Shift to attempt to avoid the danger.  Choose on of the approaches below and roll against Challenge using the respective Skill and reduce the total number of Hazard dice equal to the Hits in the Result Set. 
 - **Hide!** - Roll Stealth and gain Hidden status
 - **Parkour!** - Roll Tumble to move through dangerous environment.
 - **Prove your mettle!** - Roll Exert to power through painful or obstructive effects.
