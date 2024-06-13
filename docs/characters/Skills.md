@@ -14,7 +14,7 @@ Skills represent the character’s capabilities across a variety of domains.
 Skills have ratings from 0 to 4.  A characters Skill rating determines which die is rolled when taking an action involving the Skill as detailed in the Skill Rating table.
 
 
-<div>
+<section>
     <table style="text-align: center; border: none;">
         <tr>
             <td><h3>Skill Rating</h3></td>
@@ -33,7 +33,7 @@ Skills have ratings from 0 to 4.  A characters Skill rating determines which die
             <td><img src="/no1_system/assets/img/d12.png" width="100"><h4>d12</h4></td>
         </tr>
     </table>
-</div>
+</section>
 
 
 
