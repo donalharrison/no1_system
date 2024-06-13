@@ -13,24 +13,28 @@ Skills represent the character’s capabilities across a variety of domains.
 
 Skills have ratings from 0 to 4.  A characters Skill rating determines which die is rolled when taking an action involving the Skill as detailed in the Skill Rating table.
 
-<table style="text-align: center; border: none;">
-    <tr>
-        <td><strong>Rating</strong></td>
-        <td><strong>0</strong></td>
-        <td><strong>1</strong></td>
-        <td><strong>2</strong></td>
-        <td><strong>3</strong></td>
-        <td><strong>4</strong></td>
-    </tr>
-    <tr>
-        <td><strong>Die</strong>
-        <td><img src="/no1_system/assets/img/d4.png" width="100"><h4>d4</h4></td>
-        <td><img src="/no1_system/assets/img/d6.png" width="100"><h4>d6</h4></td>
-        <td><img src="/no1_system/assets/img/d8.png" width="100"><h4>d8</h4></td>
-        <td><img src="/no1_system/assets/img/d10.png" width="100"><h4>d10</h4></td>
-        <td><img src="/no1_system/assets/img/d12.png" width="100"><h4>d12</h4></td>
-    </tr>
-</table>
+
+<div>
+    <table style="text-align: center; border: none;">
+        <tr>
+            <td><h3>Skill Rating</h3></td>
+            <td><h3>0</h3></td>
+            <td><h3>1</h3></td>
+            <td><h3>2</h3></td>
+            <td><h3>3</h3></td>
+            <td><h3>4</h3></td>
+        </tr>
+        <tr>
+            <td><h3>Die</h3>
+            <td><img src="/no1_system/assets/img/d4.png" width="100"><h4>d4</h4></td>
+            <td><img src="/no1_system/assets/img/d6.png" width="100"><h4>d6</h4></td>
+            <td><img src="/no1_system/assets/img/d8.png" width="100"><h4>d8</h4></td>
+            <td><img src="/no1_system/assets/img/d10.png" width="100"><h4>d10</h4></td>
+            <td><img src="/no1_system/assets/img/d12.png" width="100"><h4>d12</h4></td>
+        </tr>
+    </table>
+</div>
+
 
 
 ## Action Skills
