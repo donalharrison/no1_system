@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Justiciar
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/justiciar/
 nav_exclude: true
 ---
-

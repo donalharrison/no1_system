@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Zealot
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/zealot/
 nav_exclude: true
 ---
-

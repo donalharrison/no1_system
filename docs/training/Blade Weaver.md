@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Blade Weaver
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/blade_weaver/
 nav_exclude: true
 ---
-

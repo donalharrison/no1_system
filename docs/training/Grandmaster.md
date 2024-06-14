@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Grandmaster
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/grandmaster/
 nav_exclude: true
 ---
-

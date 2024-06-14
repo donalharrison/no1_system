@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Paragon
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/paragon/
 nav_exclude: true
 ---
-

@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Heretic
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/heretic/
 nav_exclude: true
 ---
-

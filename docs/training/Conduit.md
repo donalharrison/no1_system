@@ -3,7 +3,7 @@ layout: training
 title: Conduit
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/Conduit/
+permalink: /characters/training/conduit/
 nav_exclude: true
 ---
 

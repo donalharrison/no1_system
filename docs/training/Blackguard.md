@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Blackguard
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/blackguard/
 nav_exclude: true
 ---
-

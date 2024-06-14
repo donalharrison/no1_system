@@ -1,9 +1,8 @@
 ---
 layout: training
-title: Abberant
+title: Zenith
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/abberant/
+permalink: /characters/training/zenith/
 nav_exclude: true
 ---
-
