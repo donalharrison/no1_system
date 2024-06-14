@@ -218,7 +218,7 @@
             "name": "Coup de grace",
             "type": "Ability",
             "rank": "2",
-            "requires": null,
+            "requires": "Sneak Attack",
             "replaces": null,
             "effect": [
                 ""
@@ -831,24 +831,13 @@
         },
         {
             "tree": "Marksman",
-            "name": "Controlled Pair",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
-            ]
-        },
-        {
-            "tree": "Marksman",
-            "name": "Double Tap",
+            "name": "Ready",
             "type": "Ability",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Shoot your target at +2d Challenge."
+                "You can use the <em>Use Your Equipment</em> Shift to reload, draw, or restring / unjam a ranged weapon once per turn without using your Shift."
             ]
         },
         {
@@ -864,6 +853,17 @@
         },
         {
             "tree": "Marksman",
+            "name": "Double Tap",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Shoot your target at +2d Challenge."
+            ]
+        },
+        {
+            "tree": "Marksman",
             "name": "Shoot (3)",
             "type": "Static",
             "rank": "2",
@@ -872,16 +872,26 @@
             "effect": [
                 "Increase your Shoot rating to 3 (d10)."
             ]
-        },
-        {
+        },        {
             "tree": "Marksman",
             "name": "Shooter",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
                 "When you Shoot your target but earn 0 Hits, add +2 Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Controlled Pair",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
             ]
         },
         {
@@ -897,13 +907,68 @@
         },
         {
             "tree": "Martial Artist",
-            "name": "Living Weapon",
+            "name": "Martial Arts (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Martial Arts rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Parry",
             "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
+                "When your Reflexes defense is above 0 take Hits in melee combat from an attacker you can see, reduce your Reflexes by 1 and reduce the Hits by 3."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Dual Strike",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can split Hits scored by your Martial Arts between 2 melee targets in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Living Weapon",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
                 "When you use your Martial Arts against your target but earn 0 Hits, add +2 Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Sweep the Leg",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Martial Arts against your target at -2 Hits, but making them Prone."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Counterstrike",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Parry",
+            "replaces": null,
+            "effect": [
+                "When you Parry a melee attack, immediately use your Martial Arts against the attack at -1 Challenge."
             ]
         },
         {
@@ -1161,17 +1226,6 @@
         },
         {
             "tree": "Scrapper",
-            "name": "Cleave",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "When you Strike your target to death, apply Hits -2 to another target in your current Zone."
-            ]
-        },
-        {
-            "tree": "Scrapper",
             "name": "Fighter",
             "type": "Trigger",
             "rank": "1",
@@ -1190,6 +1244,50 @@
             "replaces": null,
             "effect": [
                 "Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Strike (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Cleave",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike your target to death, apply Hits -2 to another target in your current Zone."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Combat Reflexes",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When a hostile target Shifts away from you in melee combat, they add an additional Hazard die to their next roll."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike rating to 3 (d10)."
             ]
         },
         {
