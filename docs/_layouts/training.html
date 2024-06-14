@@ -45,7 +45,16 @@ layout: default
         {% endif %}
         <h3 style="margin:5px">{{ t.name }}</h3>
         <h4 style="margin:5px">{{ t.type }}</h4>
-        <h5 style="margin:5px">{{ t.requires }}</h5>
+        {% if t.requires %}
+          <p style="margin:5px, font-size: 12">
+              <strong>Requires:</strong><em>{{ t.requires }}</em>
+          </p>
+        {% endif %}
+        {% if t.replaces %}
+          <p style="margin:5px, font-size: 12">
+              <strong>Replaces:</strong><em>{{ t.replaces }}</em>
+          </p>
+        {% endif %}
         {% for e in t.effect %}
             <p>
             {{ e }}

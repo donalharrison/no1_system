@@ -123,7 +123,7 @@
                     </tr>
                     <tr>
                         <td>20-24</td>
-                        <td>Dazed</td>
+                        <td>Vulnerable 3</td>
                     </tr>
                     <tr>
                         <td>25-29</td>
@@ -251,7 +251,7 @@
             "name": "Sprinter",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Deft 2",
             "replaces": null,
             "effect": [
                 "When you Shift to move to an adjacent Zone, you may move an additional Zone."
