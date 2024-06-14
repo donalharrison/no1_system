@@ -546,7 +546,7 @@
         {
             "tree": "Diplomat",
             "name": "Deceive (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -1193,13 +1193,13 @@
         },
         {
             "tree": "Scoundrel",
-            "name": "Forked Tongue",
-            "type": "Ability",
+            "name": "Deceive (2)",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Deceive your target, adding +2 Hits to the result set."
+                "Increase your Deceive rating to 2 (d8)"
             ]
         },
         {
@@ -1211,6 +1211,39 @@
             "replaces": null,
             "effect": [
                 "Deceive opponents in your Current Zone, masking your true intentions."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Cheap Shot",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Deceive opponents in your Current Zone and score Hits equal to or greater than the number of opponents, you may immediately Strike, Shoot, or use your Marital Arts against, adding +1d4 Bonus Hits to the result."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Forked Tongue",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Deceive your target, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Made You Look",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Deceive opponents in your Current Zone and move away from them, you may ignore a number of Hazard dice equal to your Deceive Hits."
             ]
         },
         {
