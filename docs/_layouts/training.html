@@ -46,13 +46,13 @@ layout: default
         <h3 style="margin:5px">{{ t.name }}</h3>
         <h4 style="margin:5px">{{ t.type }}</h4>
         {% if t.requires %}
-          <p style="margin:5px, font-size: 12">
-              <strong>Requires:</strong><em>{{ t.requires }}</em>
+          <p style="margin:5px, font-size: 10">
+              <strong>Requires: </strong><em>{{ t.requires }}</em>
           </p>
         {% endif %}
         {% if t.replaces %}
-          <p style="margin:5px, font-size: 12">
-              <strong>Replaces:</strong><em>{{ t.replaces }}</em>
+          <p style="margin:5px, font-size: 10">
+              <strong>Replaces: </strong><em>{{ t.replaces }}</em>
           </p>
         {% endif %}
         {% for e in t.effect %}
@@ -64,7 +64,7 @@ layout: default
       {% endfor %}
 
       {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "2" %}
-
+      <br>
       <h3>Rank 2</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
@@ -80,6 +80,16 @@ layout: default
         {% endif %}
         <h3 style="margin:5px">{{ t.name }}</h3>
         <h4 style="margin:5px">{{ t.type }}</h4>
+        {% if t.requires %}
+          <p style="margin:5px, font-size: 10">
+              <strong>Requires: </strong><em>{{ t.requires }}</em>
+          </p>
+        {% endif %}
+        {% if t.replaces %}
+          <p style="margin:5px, font-size: 10">
+              <strong>Replaces: </strong><em>{{ t.replaces }}</em>
+          </p>
+        {% endif %}
         {% for e in t.effect %}
             <p>
             {{ e }}
@@ -89,7 +99,7 @@ layout: default
       {% endfor %}
 
       {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "3" %}
-
+      <br>
       <h3>Rank 3</h3>
       <div class="half" style="display:flex">
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
@@ -106,6 +116,16 @@ layout: default
         {% endif %}
         <h3 style="margin:5px">{{ t.name }}</h3>
         <h4 style="margin:5px">{{ t.type }}</h4>
+        {% if t.requires %}
+          <p style="margin:5px, font-size: 10">
+              <strong>Requires: </strong><em>{{ t.requires }}</em>
+          </p>
+        {% endif %}
+        {% if t.replaces %}
+          <p style="margin:5px, font-size: 10">
+              <strong>Replaces: </strong><em>{{ t.replaces }}</em>
+          </p>
+        {% endif %}
         {% for e in t.effect %}
             <p>
             {{ e }}
