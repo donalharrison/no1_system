@@ -347,13 +347,17 @@
         },
         {
             "tree": "Brute",
-            "name": "Last Stand",
+            "name": "Just Getting Started",
             "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Exert yourself when you are below your maximum Grit.  Regain +Hits to your Primary Defense and reduce the Challenge by 1d."
+                "Exert yourself when you are below your maximum Grit, then choose 1:
+                <ul>
+                    <li>Regain Hits to your Primary Defense.</li>
+                    <li<Increase the current Timer by 1.</li>
+                </ul>"
             ]
         },
         {
@@ -365,6 +369,28 @@
             "replaces": null,
             "effect": [
                 "Increase your Exert rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Brute",
+            "name": "You're Next",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Intimidate in your Current Zone.  If you score Hits greater than their current Nerve, they become <a href:'/no1_system/core/statuses#Afraid/'>Afraid</a> of you."
+            ]
+        },
+        {
+            "tree": "Brute",
+            "name": "Grisly Slaughter",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike your target to death, describe the gruesome end you delivered.  Then all hostile targets in your Current Zone with Nerve less than Hits become Afraid of you."
             ]
         },
         {

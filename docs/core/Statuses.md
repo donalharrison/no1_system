@@ -22,7 +22,6 @@ While Confused, add 2 Hazard to your rolls.
 ## Dazed
 Until the end of your next turn, you can either take one action or one shift, but not both.
 
-
 ## Dying
 When your Grit is 0, roll 1d4 + the current Timer to determine the number of rounds before you die.
 
@@ -31,9 +30,11 @@ Reduce Hits from any roll equal to Fatigue rating until your use Endure to Recov
 
 ## Hidden
 
-
 ## Prone
 While Prone, you have Vulnerable 2 to an melee attack made against you and you take Actions at Hazard 2.  You must use a Shift to stand back up.
+
+## Provoked
+Something about having to take actions against the source of provocation.
 
 ## Stunned
 You can only take the Recover Action as long as you have a Stunned rating of 1 or higher.  When you take the Recover Action, reduce your Stunned rating by Hits and do not regain any Defenses.

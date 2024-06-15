@@ -42,5 +42,8 @@ If an Action or Shift would cause you to add 1 or more Hazard dice to your roll,
     - **Re-roll a 1**: Re-roll a single die in a result set that landed on 1.
     - **Calm the chaos**: Reduce the current Entropy by 1.
 
+## Initiate a Contest
+
+
 ## Wait For it. . .
 Characters can prepare to attempt an Action until a certain condition is met, such as when an enemy enters their current Zone or an ally lights the wagon on fire.  The player declares the Action and associated condition, then waits to make the roll to attempt the Action.
