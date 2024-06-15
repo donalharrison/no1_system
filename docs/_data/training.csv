@@ -2,6 +2,7 @@ Name,Type,Prerequisites,Description,img_path,page_path
 Aberrant,Basic,Uncanny 2,"You tap into mysterious and otherworldly sources, harnessing enigmatic and often dangerous powers beyond mortal comprehension.",/no1_system/assets/img/aberrant.png,/no1_system/characters/training/aberrant/
 Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice, granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
 Adept,Basic,,"You have a connection, innate or learned, with cosmic or supernatural forces, granting you extraordinary powers and influence over the fabric of reality.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
+Alchemist,Basic,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist.png,/no1_system/characters/training/alchemist/
 Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png,/no1_system/characters/training/brute/
 Channeler,Basic,,"You harness and manipulate fundamental energies of existence, acting as a conduit to the elemental forces.",/no1_system/assets/img/channeler.png,/no1_system/characters/training/channeler/
 Conduit,Basic,,,/no1_system/assets/img/conduit.png,/no1_system/characters/training/conduit/
@@ -45,7 +46,6 @@ Warlord,Discipline,,"You lead armies and command troops, specializing in strateg
 Zealot,Discipline,,"You are devoted to an unwavering cause or deity, becoming a fervent and unyielding force.",/no1_system/assets/img/zealot.png,/no1_system/characters/training/zealot/
 Zenith,Discipline,,"You have attained the peak of elemental mastery, achieving extraordinary abilities to bend and command the elements.",/no1_system/assets/img/zenith.png,/no1_system/characters/training/zenith/
 Advocate,Specialization,,,/no1_system/assets/img/advocate.png,/no1_system/characters/training/advocate/
-Alchemist,Specialization,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist.png,/no1_system/characters/training/alchemist/
 Assassin,Specialization,,"You are a master of dealing death, specializing in lethal takedowns and covert strikes.",/no1_system/assets/img/assassin.png,/no1_system/characters/training/assassin/
 Athlete,Specialization,,"You have trained your body to peak physicality, able to accomplish greats feats of strength, agility, and speed.",/no1_system/assets/img/athlete.png,/no1_system/characters/training/athlete/
 Beastmaster,Specialization,,"You form bonds with animals, commanding and fighting alongside loyal companions.",/no1_system/assets/img/beastmaster.png,/no1_system/characters/training/beastmaster/

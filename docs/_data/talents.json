@@ -468,6 +468,17 @@
         },
         {
             "tree": "Defender",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Defender",
             "name": "Indomitable Presence",
             "type": "Ability",
             "rank": "2",
@@ -479,13 +490,13 @@
         },
         {
             "tree": "Defender",
-            "name": "Focus (2)",
+            "name": "Vigorous",
             "type": "Static",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Focus rating to 2 (d8)."
+                "Increase your Vigor by 3."
             ]
         },
         {
