@@ -1,7 +1,6 @@
 Name,Type,Prerequisites,Description,img_path,page_path
 Aberrant,Basic,Uncanny 2,"You tap into mysterious and otherworldly sources, harnessing enigmatic and often dangerous powers beyond mortal comprehension.",/no1_system/assets/img/aberrant.png,/no1_system/characters/training/aberrant/
 Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice, granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
-Adept,Basic,,"You have a connection, innate or learned, with cosmic or supernatural forces, granting you extraordinary powers and influence over the fabric of reality.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
 Alchemist,Basic,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist.png,/no1_system/characters/training/alchemist/
 Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png,/no1_system/characters/training/brute/
 Channeler,Basic,,"You harness and manipulate fundamental energies of existence, acting as a conduit to the elemental forces.",/no1_system/assets/img/channeler.png,/no1_system/characters/training/channeler/
@@ -13,7 +12,7 @@ Healer,Basic,,"You possess knowledge and abilities to mend wounds, cure ailments
 Magic-User,Basic,,"You rely on the study arcane arts to cast spells, manipulate reality, and unlock the mysteries of the magical realms.",/no1_system/assets/img/magic-user.png,/no1_system/characters/training/magic-user/
 Marksman,Basic,Dangerous 1,"You specialize in precision ranged combat, excelling in using various ranged weapons with accuracy and deadly efficiency.",/no1_system/assets/img/marksman.png,/no1_system/characters/training/marksman/
 Martial Artist,Basic,,"You are trained in hand-to-hand combat, emphasizing fluid movements, precise strikes, and disciplined techniques.",/no1_system/assets/img/martial_artist.png,/no1_system/characters/training/martial_artist/
-Mystic,Basic,,"You possess hidden & forgotten knowledge, bestowing you with mystical powers to wielf against your foes.",/no1_system/assets/img/mystic.png,/no1_system/characters/training/mystic/
+Mystic,Basic,,"You possess hidden & forgotten knowledge, bestowing you with mystical powers to wield against your foes.",/no1_system/assets/img/mystic.png,/no1_system/characters/training/mystic/
 Scholar,Basic,Savvy 2,You are highly knowledgeable & able to research complex topics.,/no1_system/assets/img/scholar.png,/no1_system/characters/training/scholar/
 Scoundrel,Basic,,"You specialize in cunning and trickery, excelling in deceit and manipulation.",/no1_system/assets/img/scoundrel.png,/no1_system/characters/training/scoundrel/
 Scrapper,Basic,,"You are a master close-quarters armed combat, using a combination of strength, agility, and brawling skills to excel in melee engagements",/no1_system/assets/img/scrapper.png,/no1_system/characters/training/scrapper/
@@ -45,6 +44,7 @@ Vanguard,Discipline,,"You lead the charge in battle, combining offensive and def
 Warlord,Discipline,,"You lead armies and command troops, specializing in strategic and tactical warfare.",/no1_system/assets/img/warlord.png,/no1_system/characters/training/warlord/
 Zealot,Discipline,,"You are devoted to an unwavering cause or deity, becoming a fervent and unyielding force.",/no1_system/assets/img/zealot.png,/no1_system/characters/training/zealot/
 Zenith,Discipline,,"You have attained the peak of elemental mastery, achieving extraordinary abilities to bend and command the elements.",/no1_system/assets/img/zenith.png,/no1_system/characters/training/zenith/
+Adept,Specialization,,"You've unraveled certain threads of lost lore, bestowing you with powers both great & terrible.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
 Advocate,Specialization,,,/no1_system/assets/img/advocate.png,/no1_system/characters/training/advocate/
 Assassin,Specialization,,"You are a master of dealing death, specializing in lethal takedowns and covert strikes.",/no1_system/assets/img/assassin.png,/no1_system/characters/training/assassin/
 Athlete,Specialization,,"You have trained your body to peak physicality, able to accomplish greats feats of strength, agility, and speed.",/no1_system/assets/img/athlete.png,/no1_system/characters/training/athlete/
@@ -69,6 +69,7 @@ Mage,Specialization,,"You have begun to comprehend the mysteries of natural and 
 Medic,Specialization,,"You are trained in the fields medicine and first aid, providing crucial support in healing injuries and aiding wounded comrades through mundane means.",/no1_system/assets/img/medic.png,/no1_system/characters/training/medic/
 Mesmer,Specialization,,"You are a master of the manipulation of thoughts and perceptions, specializing in psychological tactics, illusions, and mind control.",/no1_system/assets/img/mesmer.png,/no1_system/characters/training/mesmer/
 Necromancer,Specialization,,"You command the forces of death and undeath, raising corpses and wielding dark magic.",/no1_system/assets/img/necromancer.png,/no1_system/characters/training/necromancer/
+Nexus,Specialization,,,,
 Overseer,Specialization,Savvy 2,"You have a group of minions at your command, capable of coordinating your followers' efforst to achieve your aims.",/no1_system/assets/img/overseer.png,/no1_system/characters/training/overseer/
 Pilot,Specialization,,You have advanced skills at handling and operating various aircraft.,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
 Priest,Specialization,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest.png,/no1_system/characters/training/priest/

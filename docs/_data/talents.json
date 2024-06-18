@@ -746,6 +746,17 @@
             ]
         },
         {
+            "tree": "Grandmaster",
+            "name": "Dim Mak",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
             "tree": "Healer",
             "name": "Healing Hands",
             "type": "Trigger",

@@ -15,17 +15,28 @@ Hexes require Focus (or Compsure?) to maintain, with each Hex adding to the diff
 ## Rites
 Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wielder's Concordance, breaking their connection to the divine and adding risk to their practice.
 
-## Spells
+## Power Keywords
 
+Ongoing
 
-## Spirits
-
-
-## Techniques
+Aura
 
 
 ## Arcana
 
+## Concoctions
 
+<<<<<<< HEAD
 
 ## Concoctions
+=======
+## Hexes
+
+## Rites
+
+## Spells
+
+## Spirits
+
+## Techniques
+>>>>>>> 6de0d7740289393621049e98b490354d23f447cf

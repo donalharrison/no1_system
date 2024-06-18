@@ -23,7 +23,7 @@ While Confused, add 2 Hazard to your rolls.
 Until the end of your next turn, you can either take one action or one shift, but not both.
 
 ## Dying
-When your Grit is 0, roll 1d4 + the current Timer to determine the number of rounds before you die.
+When your Grit is 0, roll 1d4 to determine your Dying rating.  Each turn while your Grit is 0, reduce your Dying rating by 1.  When your Dying rating is 5 or greater, you are Dead.
 
 ## Fatigued
 Reduce Hits from any roll equal to Fatigue rating until your use Endure to Recover.  When you take the Recover Action, reduce your Fatigued rating by Hits and do not regain any Vigor.
