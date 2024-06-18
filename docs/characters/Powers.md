@@ -8,22 +8,23 @@ nav_order: 5
 nav_exclude: false
 ---
 
-## Hexes
+# Powers
 
-
-## Rites
-
-
-## Spells
-
-
-## Spirits
-
-
-## Techniques
+## Power Tags
+Ongoing
+[Aura]
 
 
 ## Arcana
 
-
 ## Concoctions
+
+## Hexes
+
+## Rites
+
+## Spells
+
+## Spirits
+
+## Techniques
