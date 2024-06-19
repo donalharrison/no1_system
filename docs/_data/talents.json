@@ -442,7 +442,7 @@
             "tree": "Channeler",
             "name": "Channeling",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
             "requires": "Recoil",
             "replaces": null,
             "effect": [
@@ -455,7 +455,7 @@
             "tree": "Channeler",
             "name": "Recoil",
             "type": "Static",
-            "rank": 1,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
