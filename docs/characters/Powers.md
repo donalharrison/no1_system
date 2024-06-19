@@ -8,20 +8,12 @@ nav_order: 5
 nav_exclude: false
 ---
 
-# Powers
+## Hexes
+Debilitating & damaging effects that persist against hostile targets.
+Hexes require Focus (or Compsure?) to maintain, with each Hex adding to the difficulty of the roll.
 
-## Power Traits
-
-### Threshold
-The number of Hits needed for the power to be executed to maximal effect.
-
-### Null
-The effect(s) that trigger when the power is attempted, but the roll produces 0 Hits.
-
-### Sustain
-
-
-
+## Rites
+Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wielder's Concordance, breaking their connection to the divine and adding risk to their practice.
 
 ## Power Keywords
 
@@ -34,6 +26,10 @@ Aura
 
 ## Concoctions
 
+<<<<<<< HEAD
+
+## Concoctions
+=======
 ## Hexes
 
 ## Rites
@@ -43,3 +39,4 @@ Aura
 ## Spirits
 
 ## Techniques
+>>>>>>> 6de0d7740289393621049e98b490354d23f447cf

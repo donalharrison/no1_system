@@ -84,7 +84,7 @@
             "replaces": null,
             "effect": [
                 "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers#Arcana'>Arcana</a>.",
-                "When you gain this Talent, select 2 Effect Skills from the list below to be your <em>Foci</em> which determine the Arcana you can access:
+                "When you gain this Talent, select 2 Effect Skills from the list below to be your <em>Affinity</em> which determine the Arcana you can access:
                 <br><em>Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
             ]
         },
@@ -97,7 +97,7 @@
             "replaces": null,
             "effect": [
                 "Your pursuit of Arcana expose you to <strong>Strain</strong>.",
-                "When you roll one of your Foci to invoke and Arcana, you gain Strain according to the result as soon as the Arcana effects resolve.",
+                "When you roll one of your Affinity to invoke and Arcana, you gain Strain according to the result as soon as the Arcana effects resolve.",
                 "Strain accumulates over the course of your adventures, only reducing by 1d6 at the conclusion of a Waypoint.",
                 "You suffer the effects of Strain according to the <em>Straing Effects Table</em> table below.  Strain Effects are cumulative:<br>
                 <table>
@@ -160,35 +160,35 @@
         },
         {
             "tree": "Mystic",
-            "name": "Foci (2)",
+            "name": "Affinity (2)",
             "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Foci ratings to 2 (d8)."
+                "Increase one of your Affinity ratings to 2 (d8)."
             ]
         },
         {
             "tree": "Mystic",
-            "name": "Foci (2)",
+            "name": "Affinity (2)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Foci ratings to 2 (d8)."
+                "Increase one of your Affinity ratings to 2 (d8)."
             ]
         },
         {
             "tree": "Mystic",
-            "name": "Foci (3)",
+            "name": "Affinity (3)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Foci ratings to 3 (d10)."
+                "Increase one of your Affinity ratings to 3 (d10)."
             ]
         },
         {
@@ -435,40 +435,40 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Foci.  When you use this ability, prepare Powers that draw from these Skills:<br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br><br>Endure to draw the forces to your will.  Gain Hits + Steady  ranks to prepare your Techniques.<br>You Techniques have the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Recoil</em> - If a Power results in Hits less than Threshold, all targets within your Current Zone sustain Hits from the Power's effect equal to the total amount below Threshold.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 3 - Steady Actions (minimum 1           action)."
+                "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Affinity.  When you use this ability, prepare Powers that draw from these Skills:<br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br><br>Endure to draw the forces to your will.  Gain Hits + Steady  ranks to prepare your Techniques.<br>You Techniques have the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Recoil</em> - If a Power results in Hits less than Threshold, all targets within your Current Zone sustain Hits from the Power's effect equal to the total amount below Threshold.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 3 - Steady Actions (minimum 1           action)."
             ]
         },
         {
             "tree": "Channeler",
-            "name": "Foci (2)",
+            "name": "Affinity (2)",
             "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Foci ratings to 2 (d8)."
+                "Increase one of your Affinity ratings to 2 (d8)."
             ]
         },
         {
             "tree": "Channeler",
-            "name": "Foci (2)",
+            "name": "Affinity (2)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Foci ratings to 2 (d8)."
+                "Increase one of your Affinity ratings to 2 (d8)."
             ]
         },
         {
             "tree": "Channeler",
-            "name": "Foci (3)",
+            "name": "Affinity (3)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase one of your Foci ratings to 3 (d10)."
+                "Increase one of your Affinity ratings to 3 (d10)."
             ]
         },
         {
@@ -567,7 +567,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Focus rating to 2 (d8)."
+                "Increase your Investigate rating to 2 (d8)."
             ]
         },
         {
@@ -773,6 +773,17 @@
             "name": "",
             "type": "Ability",
             "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Grandmaster",
+            "name": "Dim Mak",
+            "type": "Ability",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
