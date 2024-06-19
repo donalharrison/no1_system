@@ -376,7 +376,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike one target with unrelenting force, adding +1d4 Hits to the result set."
+                "Strike one target with unrelenting force, adding +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -390,7 +390,7 @@
                 "Exert yourself when you are below your maximum Grit, then choose 1:
                 <ul>
                     <li>Regain Hits to your Primary Defense.</li>
-                    <li<Increase the current Timer by 1.</li>
+                    <li>Increase the current Timer by 1.</li>
                 </ul>"
             ]
         },
@@ -398,11 +398,22 @@
             "tree": "Brute",
             "name": "Exert (2)",
             "type": "Static",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Increase your Exert rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Brute",
+            "name": "Intimidate (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Intimidate rating to 2 (d8)."
             ]
         },
         {
@@ -413,7 +424,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Intimidate in your Current Zone.  If you score Hits greater than their current Nerve, they become <a href:'/no1_system/core/statuses#Afraid/'>Afraid</a> of you."
+                "Intimidate all targets in your Current Zone.  If you score Hits greater than their current Nerve, they become <a href:'/no1_system/core/statuses#Afraid/'>Afraid</a> of you."
             ]
         },
         {
@@ -431,11 +442,24 @@
             "tree": "Channeler",
             "name": "Channeling",
             "type": "Ability",
-            "rank": null,
+            "rank": 1,
+            "requires": "Recoil",
+            "replaces": null,
+            "effect": [
+                "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Affinity:
+                <br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>",
+                "Your Affinity for these forces all you to use <a href="">Techniques</a> that channel their power (<em>see <a href="">Using Techniques</a></em>)."
+            ]
+        },
+        {
+            "tree": "Channeler",
+            "name": "Recoil",
+            "type": "Static",
+            "rank": 1,
             "requires": null,
             "replaces": null,
             "effect": [
-                "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Affinity.  When you use this ability, prepare Powers that draw from these Skills:<br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br><br>Endure to draw the forces to your will.  Gain Hits + Steady  ranks to prepare your Techniques.<br>You Techniques have the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Recoil</em> - If a Power results in Hits less than Threshold, all targets within your Current Zone sustain Hits from the Power's effect equal to the total amount below Threshold.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 3 - Steady Actions (minimum 1           action)."
+                "If a Technique you use results in Hits over its Threshold, all targets within your Current Zone sustain Hits from the Techniques's effect equal to the Threshold."
             ]
         },
         {
@@ -1041,7 +1065,7 @@
             "requires": "Any Aggressive Stance",
             "replaces": null,
             "effect": [
-                "When you are in your Front Stance and score 4+ Hits in melee combat, your taget becomes Dazed."
+                "When you are in an Aggressive Stance and score 4+ Hits in melee combat, your taget becomes Dazed."
             ]
         },
         {
@@ -1052,7 +1076,7 @@
             "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
-                "When you are in your Back Stance and take 4+ Hits in melee combat from an attacker you can see, reduce the total hits by 1."
+                "When you are in a Defensive Stance and take 4+ Hits in melee combat from an attacker you can see, reduce the total hits by 1."
             ]
         },
         {
@@ -1063,7 +1087,7 @@
             "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
-                "When you are in your Back Stance and take Hits in melee combat from an attacker you can see, reduce your Reflexes by 1 and reduce the Hits by 3."
+                "When you are in a Defensive Stance and take Hits in melee combat from an attacker you can see, reduce your Reflexes by 1 and reduce the Hits by 3."
             ]
         },
         {
@@ -1107,7 +1131,7 @@
             "requires": "Parry",
             "replaces": null,
             "effect": [
-                "When you Parry a melee attack, immediately use your Martial Arts against the attack at -1 Challenge."
+                "When you Parry a melee attack, immediately use your Martial Arts against the attacker at -1 Challenge."
             ]
         },
         {
