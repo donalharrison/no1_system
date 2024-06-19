@@ -995,7 +995,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You assume a defensive posture, reducing all Hits from using your Martial Arts by -1.",
+                "You assume a Defensive Stance, reducing all Hits from using your Martial Arts by -1.",
                 "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
             ]
         },
@@ -1007,7 +1007,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You assume an aggressive posture, adding +1 Bonus Hits when using your Martial Arts.",
+                "You assume an Aggressive Stance, adding +1 Bonus Hits when using your Martial Arts.",
                 "You can maintain this stance until you use a different Shift and as long as your Reflexes are above 0."
             ]
         },
@@ -1022,16 +1022,26 @@
                 "Increase your Martial Arts rating to 2 (d8)."
             ]
         },
-        
         {
             "tree": "Martial Artist",
-            "name": "",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
+            "name": "Knee Strike",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Any Aggressive Stance",
             "replaces": null,
             "effect": [
-                "Increase your Martial Arts rating to 2 (d8)."
+                "When you are in an Aggressive Stance and score 4+ Hits in melee combat, your target gains Fatigued 2."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Ridge Hand Strike",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Any Aggressive Stance",
+            "replaces": null,
+            "effect": [
+                "When you are in your Front Stance and score 4+ Hits in melee combat, your taget becomes Dazed."
             ]
         },
         {
@@ -1039,7 +1049,7 @@
             "name": "High Block",
             "type": "Trigger",
             "rank": 3,
-            "requires": "Back Stance",
+            "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
                 "When you are in your Back Stance and take 4+ Hits in melee combat from an attacker you can see, reduce the total hits by 1."
@@ -1050,7 +1060,7 @@
             "name": "Parry",
             "type": "Trigger",
             "rank": "2",
-            "requires": "Back Stance",
+            "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
                 "When you are in your Back Stance and take Hits in melee combat from an attacker you can see, reduce your Reflexes by 1 and reduce the Hits by 3."
@@ -1082,11 +1092,11 @@
             "tree": "Martial Artist",
             "name": "Sweep the Leg",
             "type": "Ability",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Martial Arts against your target at -2 Hits, but making them Prone."
+                "Use your Martial Arts against your target and reduce the Hits by -2.  If 1+ Hits remain, your target falls Prone."
             ]
         },
         {
