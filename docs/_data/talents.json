@@ -215,7 +215,7 @@
         },
         {
             "tree": "Assassin",
-            "name": "Coup de grace",
+            "name": "Coup de Grace",
             "type": "Ability",
             "rank": "2",
             "requires": "Sneak Attack",
@@ -299,6 +299,40 @@
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Black Belt",
+            "name": "Cross Block",
+            "type": "Trigger",
+            "rank": 2,
+            "requires": null,
+            "replaces": "High Block",
+            "effect": [
+                "When you take more than 3 Hits from a melee attack by a target you can see, reduce the total hits by 2."
+            ]
+        },
+        {
+            "tree": "Black Belt",
+            "name": "Renraku Waza",
+            "type": "Ability",
+            "rank": 3,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Martial Arts against a target in your Current Zone.",
+                "If you score 3+ Hits, add +1d4 Bonus Hits to the results set."
+            ]
+        },
+        {
+            "tree": "Black Belt",
+            "name": "Flying Kick",
+            "type": "Ability",
+            "rank": 1,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."
             ]
         },
         {
@@ -944,7 +978,43 @@
         },
         {
             "tree": "Martial Artist",
+            "name": "Back Stance",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You assume a defensive posture, reducing all Hits from using your Martial Arts by -1.",
+                "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Front Stance",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You assume an aggressive posture, adding +1 Bonus Hits when using your Martial Arts.",
+                "You can maintain this stance until you use a different Shift and as long as your Reflexes are above 0."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
             "name": "Martial Arts (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Martial Arts rating to 2 (d8)."
+            ]
+        },
+        
+        {
+            "tree": "Martial Artist",
+            "name": "",
             "type": "Static",
             "rank": "1",
             "requires": null,
@@ -955,13 +1025,24 @@
         },
         {
             "tree": "Martial Artist",
-            "name": "Parry",
+            "name": "High Block",
             "type": "Trigger",
-            "rank": "1",
-            "requires": null,
+            "rank": 3,
+            "requires": "Back Stance",
             "replaces": null,
             "effect": [
-                "When your Reflexes defense is above 0 take Hits in melee combat from an attacker you can see, reduce your Reflexes by 1 and reduce the Hits by 3."
+                "When you are in your Back Stance and take 4+ Hits in melee combat from an attacker you can see, reduce the total hits by 1."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
+            "name": "Parry",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Back Stance",
+            "replaces": null,
+            "effect": [
+                "When you are in your Back Stance and take Hits in melee combat from an attacker you can see, reduce your Reflexes by 1 and reduce the Hits by 3."
             ]
         },
         {
