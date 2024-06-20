@@ -1059,7 +1059,7 @@
         {
             "tree": "Martial Artist",
             "name": "Float like a butterfly. . .",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -1490,7 +1490,7 @@
         {
             "tree": "Scrapper",
             "name": "Float like a butterfly. . .",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -1550,7 +1550,18 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Strike a target for 4+ Hits, they gain Wounded 2."
+                "When you Strike a target for 4+ Hits, they gain Wounded 1."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Sting Like a Bee",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target while engaged in a Contest, add +2 Bonus Hits to the results set."
             ]
         },
         {
