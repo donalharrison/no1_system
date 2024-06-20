@@ -707,17 +707,6 @@
         },
         {
             "tree": "Diplomat",
-            "name": "It's all a facade",
-            "type": "Ability",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Deceive opponents in your Current Zone, masking your true intentions."
-            ]
-        },
-        {
-            "tree": "Diplomat",
             "name": "Deceive (2)",
             "type": "Static",
             "rank": "3",
@@ -753,7 +742,7 @@
             "tree": "Diplomat",
             "name": "Steel Nerves",
             "type": "Trigger",
-            "rank": "3",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1582,7 +1571,7 @@
         },
         {
             "tree": "Scrapper",
-            "name": "Sting Like a Bee",
+            "name": "Deadly Contestant",
             "type": "Trigger",
             "rank": "3",
             "requires": null,
