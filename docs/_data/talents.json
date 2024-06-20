@@ -563,6 +563,17 @@
         },
         {
             "tree": "Defender",
+            "name": "Shake it off",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, regain +2 Defenses."
+            ]
+        },
+        {
+            "tree": "Defender",
             "name": "Focus (2)",
             "type": "Static",
             "rank": "1",
@@ -574,24 +585,58 @@
         },
         {
             "tree": "Defender",
-            "name": "Indomitable Presence",
+            "name": "Indomitable Will",
             "type": "Ability",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Intimidate your opponents, causing them to hesitate. Add +2 to the current Timer."
+                "Maintain your Composure engaged in a Contest, causing your opponent to hesitate.",
+                "Add +2 to the current Timer and reduce the Momentum by -Hits."
             ]
         },
         {
             "tree": "Defender",
             "name": "Vigorous",
             "type": "Static",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Increase your Vigor by 3."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Armor Training",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an addition +2 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Get Behind Me",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Stay Close to Me",
+            "replaces": null,
+            "effect": [
+                "When you use a Shift to protect 1 ally in your Current Zone, your protect 2 allies instead."
             ]
         },
         {
@@ -1052,7 +1097,7 @@
         {
             "tree": "Martial Artist",
             "name": "Float like a butterfly. . .",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -1483,8 +1528,8 @@
         {
             "tree": "Scrapper",
             "name": "Float like a butterfly. . .",
-            "type": "Ability",
-            "rank": "1",
+            "type": "Shift",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1510,14 +1555,14 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Strike your target to death, apply Hits -2 to another target in your current Zone."
+                "When you Strike your target to death, immediately Strike at another target in your current Zone."
             ]
         },
         {
             "tree": "Scrapper",
             "name": "Combat Reflexes",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1528,11 +1573,33 @@
             "tree": "Scrapper",
             "name": "Strike (3)",
             "type": "Static",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Increase your Strike rating to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Savage Strikes",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target for 4+ Hits, they gain Wounded 1."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Sting Like a Bee",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target while engaged in a Contest, add +2 Bonus Hits to the results set."
             ]
         },
         {
@@ -1867,13 +1934,13 @@
         },
         {
             "tree": "Tank",
-            "name": "Shake it off",
-            "type": "Ability",
-            "rank": "2",
+            "name": "Walk it off",
+            "type": "Shift",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to Recover."
+                "Use the Recover action."
             ]
         },
         {
@@ -1889,7 +1956,7 @@
         },
         {
             "tree": "Tank",
-            "name": "Walk it off",
+            "name": "Shake it off",
             "type": "Trigger",
             "rank": "1",
             "requires": null,
@@ -1898,6 +1965,18 @@
                 "When you Recover, regain +2 Defenses."
             ]
         },
+        {
+            "tree": "Tank",
+            "name": "It's Just a Scratch",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, regain 2 Grit."
+            ]
+        },
+        
         {
             "tree": "Thief",
             "name": "Implements (2)",
