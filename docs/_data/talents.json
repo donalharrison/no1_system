@@ -565,7 +565,7 @@
             "tree": "Defender",
             "name": "Shake it off",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -599,7 +599,7 @@
             "tree": "Defender",
             "name": "Vigorous",
             "type": "Static",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1491,7 +1491,7 @@
             "tree": "Scrapper",
             "name": "Float like a butterfly. . .",
             "type": "Ability",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1517,14 +1517,14 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Strike your target to death, apply Hits -2 to another target in your current Zone."
+                "When you Strike your target to death, immediately Strike at another target in your current Zone."
             ]
         },
         {
             "tree": "Scrapper",
             "name": "Combat Reflexes",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1535,11 +1535,22 @@
             "tree": "Scrapper",
             "name": "Strike (3)",
             "type": "Static",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Increase your Strike rating to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Savage Strikes",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target for 4+ Hits, they gain Wounded 2."
             ]
         },
         {

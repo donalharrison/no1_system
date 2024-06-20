@@ -43,6 +43,7 @@ You can only take the Recover Action as long as you have a Stunned rating of 1 o
 
 
 ## Wounded
+Effects that restore your Grit have no effect and you cannot take the Recover Action as long as your Wounded rating is above 0.  The Wounded status persists until an effect (e.g., from an Ability or Power) returns your Wounded rating to 0.
 
 <hr>
 
