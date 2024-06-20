@@ -762,17 +762,6 @@
         },
         {
             "tree": "Diplomat",
-            "name": "Deceive (3)",
-            "type": "Ability",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Deceive rating to 3 (d10)"
-            ]
-        },
-        {
-            "tree": "Diplomat",
             "name": "Let's Be Civilized",
             "type": "Ability",
             "rank": "3",
