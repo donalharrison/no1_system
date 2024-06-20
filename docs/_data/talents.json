@@ -530,24 +530,35 @@
         },
         {
             "tree": "Defender",
-            "name": "Defensive Stance",
+            "name": "Focused Defense",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Focus to defend yourself in combat, adding +Hits to your Primary Defense."
+                "Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Stay Close to Me",
+            "type": "Shift",
+            "rank": "1",
+            "requires": "",
+            "replaces": null,
+            "effect": [
+                "Use a Shift to protect 1 ally in your Current Zone."
             ]
         },
         {
             "tree": "Defender",
             "name": "Harm's Way",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Stay Close to Me",
             "replaces": null,
             "effect": [
-                "Focus to protect an ally in your Zone. Before the beginning of your next turn, you may redirect a number of Hits against that ally to yourself equal to the Hits in your Focus result set."
+                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Defender Rank.",
             ]
         },
         {
