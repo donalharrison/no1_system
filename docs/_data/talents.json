@@ -616,6 +616,39 @@
                 ""
             ]
         },
+                {
+            "tree": "Diplomat",
+            "name": "Persuade (2)",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade rating to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Diplomat",
+            "name": "Nobody's Fool",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Nothing slips by you while engaged in social Contests, scoring +2 Bonus Hits when using Insight or Persuade."
+            ]
+        },
+        {
+            "tree": "Diplomat",
+            "name": "Silver Tongue",
+            "type": "Ability",
+            "rank": 1,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persuade your target, adding +2 Hits to the result set."
+            ]
+        },
         {
             "tree": "Diplomat",
             "name": "Browbeat",
@@ -624,7 +657,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Intimidate your target outside of combat, adding +2 Hits to the result set."
+                "Intimidate your opponent while engaged in a Contest, adding +2 Hits to the result set."
             ]
         },
         {
@@ -640,20 +673,9 @@
         },
         {
             "tree": "Diplomat",
-            "name": "Persuade (2)",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Persuade rating to 2 (d8)"
-            ]
-        },
-        {
-            "tree": "Diplomat",
             "name": "Deceive (2)",
             "type": "Static",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -668,7 +690,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Recover to regain Nerve, regain and additional +1d4 Bonus Hits."
+                "When you Recover to regain Nerve, regain and additional +2 Bonus Hits."
             ]
         },
         {
@@ -684,6 +706,17 @@
         },
         {
             "tree": "Diplomat",
+            "name": "Steel Nerves",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you take 4+ Hits and Nerve is your Primary Defense, spend 4 Momentum to immediately regain 3 Nerve."
+            ]
+        },
+        {
+            "tree": "Diplomat",
             "name": "Deceive (3)",
             "type": "Ability",
             "rank": "3",
@@ -695,13 +728,18 @@
         },
         {
             "tree": "Diplomat",
-            "name": "Silver Tongue",
+            "name": "Let's Be Civilized",
             "type": "Ability",
-            "rank": null,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade your target, adding +2 Hits to the result set."
+                "Once per Waypoint, you may attempt to avert a Combat encounter with sentient creatures by entering into negotiations.",
+                "On the turn of the first round of a Combat before the first attack is made, Persuade your enemies.
+                <ul>
+                    <li><strong>If Hits + Savvy > Challenge:</strong> Set the Momentum to 0 & your enemies pause to hear your offer.</li>
+                    <li><strong>If Hits + Savvy <= Challenge:</strong> Your team loses the Intiative & a number of enemies equal to Hits are Provoked by you.</li>
+                </ul>"
             ]
         },
         {
