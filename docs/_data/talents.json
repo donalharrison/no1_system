@@ -552,6 +552,17 @@
         },
         {
             "tree": "Defender",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Defender",
             "name": "Harm's Way",
             "type": "Trigger",
             "rank": "2",
@@ -570,40 +581,6 @@
             "replaces": null,
             "effect": [
                 "When you Recover, regain +2 Defenses."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Focus (2)",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Focus rating to 2 (d8)."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Indomitable Will",
-            "type": "Ability",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Maintain your Composure engaged in a Contest, causing your opponent to hesitate.",
-                "Add +2 to the current Timer and reduce the Momentum by -Hits."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Vigorous",
-            "type": "Static",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Vigor by 3."
             ]
         },
         {
@@ -630,6 +607,17 @@
         },
         {
             "tree": "Defender",
+            "name": "Armor Expert",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an addition +4 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Defender",
             "name": "Get Behind Me",
             "type": "Trigger",
             "rank": "3",
@@ -637,6 +625,29 @@
             "replaces": null,
             "effect": [
                 "When you use a Shift to protect 1 ally in your Current Zone, your protect 2 allies instead."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Indomitable Will",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Maintain your Composure engaged in a Contest, causing your opponent to hesitate.",
+                "Add +2 to the current Timer and reduce the Momentum by -Hits."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Vigorous",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Vigor by 3."
             ]
         },
         {
@@ -1703,17 +1714,6 @@
         },
         {
             "tree": "Soldier",
-            "name": "Aim",
-            "type": "Ability",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
-            ]
-        },
-        {
-            "tree": "Soldier",
             "name": "Charge",
             "type": "Ability",
             "rank": "1",
@@ -1725,9 +1725,42 @@
         },
         {
             "tree": "Soldier",
+            "name": "Physical Training",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use Endure or Exert to tackle a physical task, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Soldier",
+            "name": "Aim",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+            ]
+        },
+        {
+            "tree": "Soldier",
+            "name": "Armor Training",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an addition +2 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Soldier",
             "name": "Quick Draw",
             "type": "Static",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1736,13 +1769,13 @@
         },
         {
             "tree": "Soldier",
-            "name": "Combat Training",
+            "name": "Toughened",
             "type": "Ability",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You may Strike or Shoot at a target and use a Shift to use a non-combat skill.  Roll +2d Challenge.  Divide the Hits between the the two skills."
+                "Increase your Grit by +2."
             ]
         },
         {
@@ -1753,7 +1786,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use your Tactics to fire a ranged weapon in your Current or an Adjacent Zone, protecting your allies by forcing your enemies to seek cover.",
+                "Allies can ignore a number of Hazards in the targetted Zone equal to Hits in the result set."
             ]
         },
         {
