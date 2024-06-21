@@ -26,7 +26,7 @@ Shifts represent quick actions or movements that take minimal concentration or e
 
 ## Defy danger
 If an Action or Shift would cause you to add 1 or more Hazard dice to your roll, you may use this Shift to attempt to avoid the danger.  Choose on of the approaches below and roll against Challenge using the respective Skill and reduce the total number of Hazard dice equal to the Hits in the Result Set. 
-- **Hide!** - Roll Stealth and gain Hidden status
+- **Hide!** - Roll Stealth and gain Hidden status equal to your Hits.
 - **Parkour!** - Roll Tumble to move through dangerous environment.
 - **Prove your mettle!** - Roll Exert to power through painful or obstructive effects.
 
@@ -43,7 +43,7 @@ If an Action or Shift would cause you to add 1 or more Hazard dice to your roll,
     - **Calm the chaos**: Reduce the current Entropy by 1.
 
 ## Initiate a Contest
-
+You issue a challenge to a single enemy to engage you one on one.  If they take up your Challenge, you enter into a <a href='/no1_system/cire/gameplay/contests/'>Contest</a>.
 
 ## Wait For it. . .
 Characters can prepare to attempt an Action until a certain condition is met, such as when an enemy enters their current Zone or an ally lights the wagon on fire.  The player declares the Action and associated condition, then waits to make the roll to attempt the Action.
