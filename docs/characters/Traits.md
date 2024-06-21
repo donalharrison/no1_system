@@ -33,7 +33,7 @@ Represents a character's prowess in combat, physical power, and ability to handl
 </section>
 
 <section>
-<strong>Action Skills: </strong><em>
+<strong>Effect Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
@@ -55,7 +55,7 @@ Reflects physical and mental nimbleness, influencing a character's finesse in de
 </section>
 
 <section>
-<strong>Action Skills: </strong><em>
+<strong>Effect Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
