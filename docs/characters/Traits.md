@@ -28,7 +28,7 @@ Represents a character's prowess in combat, physical power, and ability to handl
 ***Effect Skills:*** *Inferno, Tempest, Mori*
 
 ### Action Skills 
-{% assign dang = data.skills where | "trait", "Dangerous"}
+{% assign dang = site.data.skills | where: "trait", "Dangerous" %}
 {% for s in dang %}
     {% if s.type == 1 %}
         {{ s.name }}
