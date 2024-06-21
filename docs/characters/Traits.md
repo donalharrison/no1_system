@@ -33,7 +33,7 @@ Represents a character's prowess in combat, physical power, and ability to handl
     {% if s.type == 1 %}
         {{ s.name }}
     {% endif %}
-{% end for %}
+{% endfor %}
 
 
 ## Deft
