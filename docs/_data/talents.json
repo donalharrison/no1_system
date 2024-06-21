@@ -954,7 +954,7 @@
             "name": "Embrace the Cycle",
             "type": "Ability",
             "rank": "1",
-            "requires": null,
+            "requires": "The Cycle's Drain",
             "replaces": null,
             "effect": [
                 "When you gain this Talent, increase you Vivus rating to 2 (d8).",
