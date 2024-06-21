@@ -1,8 +1,8 @@
 ---
 layout: page
-name: Training Appendix
-title: Training
-permalink: /apendices/training/
+name: Training Table
+title: Training Table
+permalink: /apendices/training_table/
 id: training-appendix
 parent: Apendices
 has_children: false

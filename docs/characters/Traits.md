@@ -32,101 +32,101 @@ Represents a character's prowess in combat, physical power, and ability to handl
 </em>
 </section>
 
-### Effect Skills
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
 ## Deft
 
 Reflects physical and mental nimbleness, influencing a character's finesse in delicate tasks requiring precision.
 
-### Action Skills 
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "1" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
-### Effect Skills
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
 ## Savvy
 
 Measures a character's knowledge, ingenuity, and social intelligence, affecting their ability to navigate intricate situations and interact with others effectively.
 
-### Action Skills 
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "1" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
-### Effect Skills
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
 ## Steady
 
 Represents a character's resilience, determination, and mental fortitude, influencing their ability to endure challenges, resist stress, and stay focused under pressure.
 
-### Action Skills 
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "1" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
-### Effect Skills
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
 ## Uncanny
 
 Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
-### Action Skills 
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "1" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
-### Effect Skills
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
 # Grit

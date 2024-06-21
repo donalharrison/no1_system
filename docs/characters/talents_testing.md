@@ -1,13 +1,14 @@
 ---
 layout: page
-name: Training
-title: Talents
-permalink: /characters/talents-test/
-id: characters-talents-test
-parent: Characters
+name: Talents Appendix
+title: TTalents Appendix
+permalink: /apendices/talents_appendix/
+id: talents-appendix
+parent: Apendices
 has_children: false
-nav_order: 8
+nav_order: 4
 ---
+
 
 # Talents
 
