@@ -496,6 +496,43 @@
             ]
         },
         {
+            "tree": "Conduit",
+            "name": "Attune with Essence",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Bonded Essence",
+            "replaces": null,
+            "effect": [
+                "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
+                "Attunment measures the strength of connection to your power, which determines the strangth of the Marvels you can manifest."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Bonded Essence",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
+                "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.  When the result set of a Marvels contains a 1, reduce your Atttunement by 1."
+                "If your Attunement equals 0, you cannot manifest Marvels."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
             "tree": "Confessor",
             "name": "",
             "type": "Ability",
@@ -811,13 +848,28 @@
         },
         {
             "tree": "Druid",
-            "name": "Harmonize with nature",
+            "name": "Attune with Nature",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
+            "requires": "Nature's Bond",
+            "replaces": null,
+            "effect": [
+                "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
+                "Attunment measures the strength of connection to nature, which determines the strangth of the Marvels you can manifest."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Nature's Bond",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Your Essence is innately bound to this Nature, allowing you to manifest Marvels from any of the followin Effect Skills:
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
+                "When the result set of a Marvels contains a 1, reduce your Atttunement by 1.",
+                "If your Attunement equals 0, you cannot manifest Marvels."
             ]
         },
         {
@@ -998,13 +1050,105 @@
         },
         {
             "tree": "Magic-User",
-            "name": "Study the arcane",
-            "type": "Ability",
+            "name": "Spellburn",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "<em>When you gain this Talent, increase you rating in any 2 Power Skills from the list below:<br> - Aether, Arithm, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest            , Torrent</em><br><br>Research to memorize spells.  Gain Hits + Savvy Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 4<br>- <b>Backlash:</b> <em>Spellburn</em> - If a Power results in Hits greater than Threshold, you suffer a number of Hits equal to the total amount above Threshold.  Your target(s) sustain Spellburn Hits as well, in addition to the Power's effect.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 6 - Savvy Actions (minimum 1 action)."
+                "When you use a Spell and trigger its Entropy effect, you take Hits equal to the Spell's Threshold."
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Study Spells",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Spellburn",
+            "replaces": null,
+            "effect": [
+                "Research the magical secrets and recipes that empower your Spells.",
+                "You gain Hits in Spell points to invest in ranks of your Spells.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Spellcraft",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze a magical effect you encounter to determine its type, source, and/or effects."
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Research (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Research rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Magical Affinity",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Magical Affinity",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "",
+            "type": "",
+            "rank": 3,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "",
+            "type": "",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
@@ -2136,17 +2280,6 @@
             "tree": "Zenith",
             "name": "",
             "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Magic-User",
-            "name": "",
-            "type": "",
             "rank": null,
             "requires": null,
             "replaces": null,
