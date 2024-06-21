@@ -23,10 +23,6 @@ Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to 
 
 Represents a character's prowess in combat, physical power, and ability to handle weapons with deadly precision.
 
-***Action Skills:*** *Exert, Grapple, Intimidate, Martial Arts, Strike, Shoot, Throw*
-
-***Effect Skills:*** *Inferno, Tempest, Mori*
-
 ### Action Skills 
 
 <section>
@@ -39,7 +35,7 @@ Represents a character's prowess in combat, physical power, and ability to handl
 ### Effect Skills
 
 <section>
-{% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "1" %}
+{% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
@@ -61,7 +57,7 @@ Reflects physical and mental nimbleness, influencing a character's finesse in de
 ### Effect Skills
 
 <section>
-{% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "1" %}
+{% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
@@ -83,7 +79,7 @@ Measures a character's knowledge, ingenuity, and social intelligence, affecting 
 ### Effect Skills
 
 <section>
-{% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "1" %}
+{% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
@@ -105,7 +101,7 @@ Represents a character's resilience, determination, and mental fortitude, influe
 ### Effect Skills
 
 <section>
-{% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "1" %}
+{% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
@@ -127,7 +123,7 @@ Encompasses supernatural or extraordinary abilities, intuition, and a character'
 ### Effect Skills
 
 <section>
-{% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "1" %}
+{% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
