@@ -69,7 +69,7 @@ Mage,Specialization,,"You have begun to comprehend the mysteries of natural and 
 Medic,Specialization,,"You are trained in the fields medicine and first aid, providing crucial support in healing injuries and aiding wounded comrades through mundane means.",/no1_system/assets/img/medic.png,/no1_system/characters/training/medic/
 Mesmer,Specialization,,"You are a master of the manipulation of thoughts and perceptions, specializing in psychological tactics, illusions, and mind control.",/no1_system/assets/img/mesmer.png,/no1_system/characters/training/mesmer/
 Necromancer,Specialization,,"You command the forces of death and undeath, raising corpses and wielding dark magic.",/no1_system/assets/img/necromancer.png,/no1_system/characters/training/necromancer/
-Nexus,Specialization,,,,
+Nexus,Specialization,,,/no1_system/assets/img/nexus.png,/no1_system/characters/training/nexus/
 Overseer,Specialization,Savvy 2,"You have a group of minions at your command, capable of coordinating your followers' efforst to achieve your aims.",/no1_system/assets/img/overseer.png,/no1_system/characters/training/overseer/
 Pilot,Specialization,,You have advanced skills at handling and operating various aircraft.,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
 Priest,Specialization,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest.png,/no1_system/characters/training/priest/
@@ -94,3 +94,5 @@ Templar,Specialization,,,/no1_system/assets/img/templar.png,/no1_system/characte
 Thrall,Specialization,,"You serve a supernatural or otherworldly master, gaining powers and abilities through a dark pact.",/no1_system/assets/img/thrall.png,/no1_system/characters/training/thrall/
 Transmuter,Specialization,,"You are adept in the art of transformation and alteration, changing the properties of objects and creatures.",/no1_system/assets/img/transmuter.png,/no1_system/characters/training/transmuter/
 Wrestler,Specialization,,"You specialize in hand-to-hand combat emphasizing strength, grappling, and close-quarters brawling.",/no1_system/assets/img/wrestler.png,/no1_system/characters/training/wrestler/
+Slayer,Specialization,,,/no1_system/assets/img/slayer.png,/no1_system/characters/training/slayer/
+Mage Hunter,,,,/no1_system/assets/img/mage_hunter.png,/no1_system/characters/training/mage_hunter/
