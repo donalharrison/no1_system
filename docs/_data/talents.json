@@ -27,7 +27,7 @@
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
-                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  When one of your Rites is unsuccessful or the result set contains a 1, reduce your Concordance by 1.
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
         },
@@ -454,7 +454,7 @@
         {
             "tree": "Channeler",
             "name": "Recoil",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -511,7 +511,7 @@
             "tree": "Conduit",
             "name": "Bonded Essence",
             "type": "Static",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -951,7 +951,30 @@
         },
         {
             "tree": "Healer",
-            "name": "Healing Hands",
+            "name": "Embrace the Cycle",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, increase you Vivus rating to 2 (d8).",
+                "You can use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that call on the Vivus Skill."
+            ]
+        },
+        {
+            "tree": "Healer",
+            "name": "The Cycle's Drain",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "If one your Techniques's result set contains a 1, you suffer a number of Hits equal to the Technique's Threshold to your Grit."
+            ]
+        },
+        {
+            "tree": "Healer",
+            "name": "",
             "type": "Trigger",
             "rank": "2",
             "requires": null,
@@ -962,13 +985,13 @@
         },
         {
             "tree": "Healer",
-            "name": "Embrace the cycle",
-            "type": "Ability",
-            "rank": "1",
+            "name": "Healing Hands",
+            "type": "Trigger",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "<em>When you gain this Talent, increase you Vivus Skill rating to 2 (d8).</em><br>Use your Composure to let the cylce of life and death flow through you.  Gain Hits + Steady Power ranks to prepare your Powers.<br>You Powers gain the following characteristics:<br>- <b>Threshold:</b> 3<br>- <b>Backlash:</b><em>Drain</em> - If a Power results in Hits less than Threshold, you suffer a number of Hits equal to the total amount below Threshold as the cyle extracts its toll on you.<br><br>You can use this ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 4 - Savvy Actions (minimum 1 action)."
+                ""
             ]
         },
         {
@@ -1909,6 +1932,17 @@
             "replaces": null,
             "effect": [
                 "You can draw or change weapons without using a Shift."
+            ]
+        },
+        {
+            "tree": "Soldier",
+            "name": "Flanking",
+            "type": "Shift",
+            "rank": "3",
+            "requires": "Tactics (2)",
+            "replaces": null,
+            "effect": [
+                "Use your Tactics to position yourself and an ally in your current Zone advantageously, choosing one target in your current Zone to gain a Vulnerable rating equal to Hits."
             ]
         },
         {
