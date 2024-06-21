@@ -29,11 +29,19 @@ Represents a character's prowess in combat, physical power, and ability to handl
 
 ### Action Skills 
 
-{% assign dang = site.data.skills | where: "trait", "Dangerous" %}
+<section>
 {% for s in site.data.skills | where: "trait", "Dangerous" | where: "type", "1" %}
-    <p>{{ s.name }}</p>
+    {{ s.name }},
 {% endfor %}
+</section>
 
+### Effect Skills
+
+<section>
+{% for s in site.data.skills | where: "trait", "Dangerous" | where: "type", "2" %}
+    {{ s.name }},
+{% endfor %}
+</section>
 
 ## Deft
 
