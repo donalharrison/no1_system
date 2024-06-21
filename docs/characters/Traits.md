@@ -30,7 +30,8 @@ Represents a character's prowess in combat, physical power, and ability to handl
 ### Action Skills 
 
 <section>
-{% for s in site.data.skills | where: "trait", "Dangerous" | where: "type", "1" %}
+{% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "1" %}
+{% for s in skls %}
     {{ s.name }},
 {% endfor %}
 </section>
@@ -38,7 +39,8 @@ Represents a character's prowess in combat, physical power, and ability to handl
 ### Effect Skills
 
 <section>
-{% for s in site.data.skills | where: "trait", "Dangerous" | where: "type", "2" %}
+{% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "1" %}
+{% for s in skls %}
     {{ s.name }},
 {% endfor %}
 </section>
@@ -47,33 +49,89 @@ Represents a character's prowess in combat, physical power, and ability to handl
 
 Reflects physical and mental nimbleness, influencing a character's finesse in delicate tasks requiring precision.
 
-***Action Skills:*** *Craft, Implements, Insight, Legerdemain, Operate, Pilot, Stealth, Tactics, Tumble*
+### Action Skills 
 
-***Effect Skills:*** *Squall, Nox*
+<section>
+{% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
+
+### Effect Skills
+
+<section>
+{% assign skls = site.data.skills | where: "trait", "Deft" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
 
 ## Savvy
 
 Measures a character's knowledge, ingenuity, and social intelligence, affecting their ability to navigate intricate situations and interact with others effectively.
 
-***Action Skills:*** *Computers, Current Events, Deceive, History, Linguistics, Navigate, Persuade, Research, Science, Streetwise, Survival*
+### Action Skills 
 
-***Effect Skills:*** *Rime, Mentis, Torrent*
+<section>
+{% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
+
+### Effect Skills
+
+<section>
+{% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
 
 ## Steady
 
 Represents a character's resilience, determination, and mental fortitude, influencing their ability to endure challenges, resist stress, and stay focused under pressure.
 
-***Action Skills:*** *Composure, Endure, Focus, Investigate, Lead, Perceive*
+### Action Skills 
 
-***Effect Skills:*** *Lux, Tellus*
+<section>
+{% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
+
+### Effect Skills
+
+<section>
+{% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
 
 ## Uncanny
 
 Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
-***Action Skills:*** *--*
+### Action Skills 
 
-***Effect Skills:*** *Aether, Destroy, Intuit, Luck, Nihil, Resist, Vivus*
+<section>
+{% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
+
+### Effect Skills
+
+<section>
+{% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "1" %}
+{% for s in skls %}
+    {{ s.name }},
+{% endfor %}
+</section>
 
 # Grit
 
