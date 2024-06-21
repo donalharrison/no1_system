@@ -23,13 +23,13 @@ Traits are also used to re-roll 1s during a Waypoint.  Each player rolls 1d6 to 
 
 Represents a character's prowess in combat, physical power, and ability to handle weapons with deadly precision.
 
-### Action Skills 
-
 <section>
+<strong>Action Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Dangerous" | where: "type", "1" %}
 {% for s in skls %}
     {{ s.name }},
 {% endfor %}
+</em>
 </section>
 
 ### Effect Skills
