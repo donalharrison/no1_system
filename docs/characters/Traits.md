@@ -27,6 +27,15 @@ Represents a character's prowess in combat, physical power, and ability to handl
 
 ***Effect Skills:*** *Inferno, Tempest, Mori*
 
+### Action Skills 
+{% assign dang = data.skills where | "trait", "Dangerous"}
+{% for s in dang %}
+    {% if s.type == 1 %}
+        {{ s.name }}
+    {% endif %}
+{% end for %}
+
+
 ## Deft
 
 Reflects physical and mental nimbleness, influencing a character's finesse in delicate tasks requiring precision.
