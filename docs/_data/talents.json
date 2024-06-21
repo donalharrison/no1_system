@@ -517,7 +517,7 @@
             "effect": [
                 "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
                 <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
-                "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.  When the result set of a Marvels contains a 1, reduce your Atttunement by 1."
+                "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.  When the result set of a Marvels contains a 1, reduce your Atttunement by 1.",
                 "If your Attunement equals 0, you cannot manifest Marvels."
             ]
         },
