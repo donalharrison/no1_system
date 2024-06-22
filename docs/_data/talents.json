@@ -1392,7 +1392,106 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Administer basic care to an injury."
+                "Use your Medicine to restore 2 Grit to a target in your Zone."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Stop Whining!",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "",
+            "name": "Fortune Favors the Bold",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "",
+            "name": "Double or Nothing",
+            "type": "Trigger",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you take an Action that contains no 1s in the result set <em>without any re-rolls</em>, reduce your Nerve by Hits and roll 1d20."
+            ]
+        },
+        {
+            "tree": "",
+            "name": "Blooded",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are Resistant to posion damage."
+            ]
+        },
+        {
+            "tree": "",
+            "name": "Clever Solution",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "."
+            ]
+        },
+        {
+            "tree": "",
+            "name": "Strong Arm",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can Throw weapons into Adjacent Zones."
+            ]
+        },
+        {
+            "tree": "",
+            "name": "Side Step",
+            "type": "Shift",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Shift to gain bonus Def."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Swift Offense",
+            "type": "Trigger",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you attack a target that has not yet acted in this encounter, add +1d4 Bonus hits to the result set."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Smooth Talker",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can spend Momentum to add Hits to the results set of any Action taken to Deceive or Persuade."
             ]
         },
         {
@@ -2038,7 +2137,7 @@
             "tree": "Tactician",
             "name": "Fall Back",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2049,7 +2148,7 @@
             "tree": "Tactician",
             "name": "Inspire Allies",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2065,6 +2164,17 @@
             "replaces": null,
             "effect": [
                 "Lead allies in your current Zones, allowing a number of them equal to the Hits in the result set to immediately use a Shift."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Seize the Initiative",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
@@ -2198,6 +2308,28 @@
             "replaces": null,
             "effect": [
                 "Increase your Stealth rating to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Thief",
+            "name": "Street Smart",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Profane Allure",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {

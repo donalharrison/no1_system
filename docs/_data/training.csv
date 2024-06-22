@@ -1,5 +1,5 @@
 Name,Type,Prerequisites,Description,img_path,page_path
-Aberrant,Basic,Uncanny 2,"You tap into mysterious and otherworldly sources, harnessing enigmatic and often dangerous powers beyond mortal comprehension.",/no1_system/assets/img/aberrant.png,/no1_system/characters/training/aberrant/
+Aberrant,Basic,Uncanny 2,"You tap into mysterious and otherworldly power sources, harnessing enigmatic and often dangerous powers beyond mortal comprehension.",/no1_system/assets/img/aberrant.png,/no1_system/characters/training/aberrant/
 Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice, granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
 Alchemist,Basic,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist.png,/no1_system/characters/training/alchemist/
 Brute,Basic,Dangerous 2,"You are a savage & resilient combatant, focusing on destroying one target at a time.",/no1_system/assets/img/brute.png,/no1_system/characters/training/brute/
@@ -77,7 +77,7 @@ Overseer,Specialization,Savvy 2,"You have a group of minions at your command, ca
 Pilot,Specialization,,You have advanced skills at handling and operating various aircraft.,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
 Priest,Specialization,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest.png,/no1_system/characters/training/priest/
 Probabilist,Specialization,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist.png,/no1_system/characters/training/probabilist/
-Psion,Specialization,,"You posses great psychic abilities, granting you telepathy, telekinesis, and other powers of the mind.",/no1_system/assets/img/psion.png,/no1_system/characters/training/psion/
+Psion,Basic,,"You posses great psychic abilities, granting you telepathy, telekinesis, and other powers of the mind.",/no1_system/assets/img/psion.png,/no1_system/characters/training/psion/
 Pugilist,Specialization,,"You excel in bare-knuckle brawling, using sheer physical power and tenacity in combat.",/no1_system/assets/img/pugilist.png,/no1_system/characters/training/pugilist/
 Ranger,Specialization,,"You are a lethal warden of the untamed environs, specializing in operations across treacherous terrain, and engaging enemies in close combat and direct-fire battles.",/no1_system/assets/img/ranger.png,/no1_system/characters/training/ranger/
 Reaver,Specialization,,"You wield dark and destructive powers, unleashing chaos and devastation.",/no1_system/assets/img/reaver.png,/no1_system/characters/training/reaver/
