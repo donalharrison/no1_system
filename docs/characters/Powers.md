@@ -37,8 +37,8 @@ Aura
             <a href='/no1_system/characters/powers/arcana/'>
                 <p class='power-header'>Arcana</p>
                 <img src='/no1_system/assets/img/powers_arcana.png' width='120' height='120'>
-                <p>You wield knowledge of great mysteries, empowering you to bend reality.</p>
-            </a>
+                        </a>
+            <p>You wield knowledge of great mysteries, empowering you to bend reality.</p>
             <a href='/no1_system/characters/training/mystic/'><img src='/no1_system/assets/img/mystic.png' width='25' height='25'></a>
             <a href='/no1_system/characters/training/adept/'><img src='/no1_system/assets/img/adept.png' width='25' height='25'></a>
             <a href='/no1_system/characters/training/cabalist/'><img src='/no1_system/assets/img/cabalist.png' width='25' height='25'></a>
@@ -47,10 +47,120 @@ Aura
             <a href='/no1_system/characters/powers/concoctions/'>
                 <p class='power-header'>Concoctions</p>
                 <img src='/no1_system/assets/img/powers_concoctions.png' width='120' height='120'>
-                <p>Blend & boil sinister mixtures or restorative tinctures to give you and your allies the edge you need to win the day.</p>
             </a>
+            <p>Brew, distill, & infuse sinister or restorative mixtures.</p>
             <a href='/no1_system/characters/training/alchemist/'><img src='/no1_system/assets/img/alchemist.png' width='25' height='25'></a>
             <a href='/no1_system/characters/training/witch/'><img src='/no1_system/assets/img/witch.png' width='25' height='25'></a>
+        </td>
+    </tr>
+    <tr>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/gifts/'>
+                <p class='power-header'>Gifts</p>
+                <img src='/no1_system/assets/img/powers_gifts.png' width='120' height='120'>
+            </a>
+            <p>You hold the favor of a powerful entity that bestows you with great boons.</p>
+            <a href='/no1_system/characters/training/petitioner/'><img src='/no1_system/assets/img/petitioner.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/diabolist/'><img src='/no1_system/assets/img/diabolist.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/thrall/'><img src='/no1_system/assets/img/thrall.png' width='25' height='25'></a>
+        </td>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/hexes/'>
+                <p class='power-header'>Hexes</p>
+                <img src='/no1_system/assets/img/powers_hexes.png' width='120' height='120'>
+            </a>
+            <p></p>
+            <a href='/no1_system/characters/training/diabolist/'><img src='/no1_system/assets/img/diabolist.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/witch/'><img src='/no1_system/assets/img/witch.png' width='25' height='25'></a>
+        </td>
+    </tr>
+    <tr>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/marvels/'>
+                <p class='power-header'>Marvels</p>
+                <img src='/no1_system/assets/img/powers_marvels.png' width='120' height='120'>
+            </a>
+            <p>You possess a connection to a raw source of energy enabling you to produce effects that verge on miracles.</p>
+            <a href='/no1_system/characters/training/conduit/'><img src='/no1_system/assets/img/conduit.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/nexus/'><img src='/no1_system/assets/img/nexus.png' width='25' height='25'></a>
+        </td>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/portents/'>
+                <p class='power-header'>Portents</p>
+                <img src='/no1_system/assets/img/powers_portents.png' width='120' height='120'>
+            </a>
+            <p>You glimpse the unseen & the infinite, predicting & even guiding the course of the future.</p>
+            <a href='/no1_system/characters/training/seer/'><img src='/no1_system/assets/img/seer.png' width='25' height='25'></a>
+        </td>
+    </tr>
+    <tr>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/rites/'>
+                <p class='power-header'>Rites</p>
+                <img src='/no1_system/assets/img/powers_rites.png' width='120' height='120'>
+            </a>
+            <p>You practice the customs & ceremonies of the spiritual doctrine bringing the divine into the material world.</p>
+            <a href='/no1_system/characters/training/acolyte/'><img src='/no1_system/assets/img/acolyte.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/advocate/'><img src='/no1_system/assets/img/advocate.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/priest/'><img src='/no1_system/assets/img/priest.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/heretic/'><img src='/no1_system/assets/img/heretic.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/confessor/'><img src='/no1_system/assets/img/confessor.png' width='25' height='25'></a>
+        </td>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/sagas/'>
+                <p class='power-header'>Sagas</p>
+                <img src='/no1_system/assets/img/powers_sagas.png' width='120' height='120'>
+            </a>
+            <p></p>
+            <a href='/no1_system/characters/training/troubadour/'><img src='/no1_system/assets/img/troubadour.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/skald/'><img src='/no1_system/assets/img/skald.png' width='25' height='25'></a>
+        </td>
+    </tr>
+    <tr>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/spells/'>
+                <p class='power-header'>Spells</p>
+                <img src='/no1_system/assets/img/powers_spells.png' width='120' height='120'>
+            </a>
+            <p>You have studied the methods & recipes used to rain magic down upon the masses.</p>
+            <a href='/no1_system/characters/training/magic_user/'><img src='/no1_system/assets/img/magic_user.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/mage/'><img src='/no1_system/assets/img/mage.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/necromancer/'><img src='/no1_system/assets/img/necromancer.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/archmage/'><img src='/no1_system/assets/img/archmage.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/mageknight/'><img src='/no1_system/assets/img/mageknight.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/spellreaver/'><img src='/no1_system/assets/img/spellreaver.png' width='25' height='25'></a>
+        </td>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/spirits/'>
+                <p class='power-header'>Spirits</p>
+                <img src='/no1_system/assets/img/powers_spirits.png' width='120' height='120'>
+            </a>
+            <p></p>
+            <a href='/no1_system/characters/training/shaman/'><img src='/no1_system/assets/img/shaman.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/shugenja/'><img src='/no1_system/assets/img/shugenja.png' width='25' height='25'></a>
+        </td>
+    </tr>
+    <tr>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/techniques/'>
+                <p class='power-header'>Techniques</p>
+                <img src='/no1_system/assets/img/powers_techniques.png' width='120' height='120'>
+            </a>
+            <p></p>
+            <a href='/no1_system/characters/training/channeler/'><img src='/no1_system/assets/img/channeler.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/healer/'><img src='/no1_system/assets/img/healer.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/elementalist/'><img src='/no1_system/assets/img/elementalist.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/raindancer/'><img src='/no1_system/assets/img/raindancer.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/zenith/'><img src='/no1_system/assets/img/zenith.png' width='25' height='25'></a>
+        </td>
+        <td style='width: 50%;'>
+            <a href='/no1_system/characters/powers/wards/'>
+                <p class='power-header'>Wards</p>
+                <img src='/no1_system/assets/img/powers_wards.png' width='120' height='120'>
+            </a>
+            <p></p>
+            <a href='/no1_system/characters/training/mage_hunter/'><img src='/no1_system/assets/img/mage_hunter.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/training/bastion/'><img src='/no1_system/assets/img/bastion.png' width='25' height='25'></a>
         </td>
     </tr>
 </table>
@@ -88,5 +198,10 @@ Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wiel
     .power-header {
         font-size: 30px;
         font-weight: normal;
+        margin: 5px;
+    }
+
+    td:hover {
+        background-color: #2e5f99;
     }
 </style>
