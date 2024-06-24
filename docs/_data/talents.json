@@ -83,7 +83,7 @@
             "requires": "Strain Susceptibility",
             "replaces": null,
             "effect": [
-                "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers#Arcana'>Arcana</a>.",
+                "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers/arcana/'>Arcana</a>.",
                 "When you gain this Talent, select 2 Effect Skills from the list below to be your <em>Affinity</em> which determine the Arcana you can access:
                 <br><em>Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
             ]
@@ -100,7 +100,7 @@
                 "When you roll one of your Affinity to invoke and Arcana, you gain Strain according to the result as soon as the Arcana effects resolve.",
                 "Strain accumulates over the course of your adventures, only reducing by 1d6 at the conclusion of a Waypoint.",
                 "You suffer the effects of Strain according to the <em>Straing Effects Table</em> table below.  Strain Effects are cumulative:<br>
-                <table style='width: 50%'>
+                <table style='width: 50%;'>
                     <thead>
                         <th>Strain</th>
                         <th>Effect</th>
