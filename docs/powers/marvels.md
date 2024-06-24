@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Marvels
 grand_parent: Characters
 parent: Powers

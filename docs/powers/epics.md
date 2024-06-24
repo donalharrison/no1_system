@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Epics
 grand_parent: Characters
 parent: Powers

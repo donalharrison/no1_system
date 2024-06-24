@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Concoctions
 grand_parent: Characters
 parent: Powers

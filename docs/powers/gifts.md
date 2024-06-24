@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Gifts
 grand_parent: Characters
 parent: Powers

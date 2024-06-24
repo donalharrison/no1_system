@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Spells
 grand_parent: Characters
 parent: Powers

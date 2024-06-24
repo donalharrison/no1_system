@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Rites
 grand_parent: Characters
 parent: Powers

@@ -1,5 +1,5 @@
 ---
-layout: powers
+layout: default
 title: Hexes
 grand_parent: Characters
 parent: Powers
