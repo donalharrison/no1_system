@@ -1,0 +1,166 @@
+---
+layout: default
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ page.title }}</h1>
+    <section>
+           
+      {% for trn in site.data.training %}
+
+        {% if trn.Name == page.title %}
+
+          <img src={{ trn.img_path }} width="100" height="100">
+
+          <br>{{ trn.Description }}</p>
+          <p>{{ trn.Type }}
+          <br>{{ trn.Prerequisites }}
+          </p>
+
+        {% endif %}
+
+      {% endfor %}
+      
+      <h2>Talents</h2>
+
+      {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "1" %}
+      
+      <h3>Rank 1</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+
+      {% for t in tal %}
+        {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f50; padding: 10px">
+        {% else %}
+            <div style="background-color: #23213050; padding: 10px">
+        {% endif %}
+        <h3 style="margin:5px">{{ t.name }}</h3>
+        <h4 style="margin:5px">{{ t.type }}</h4>
+        {% if t.requires %}
+          <p style="margin:5px, font-size: 8">
+              <strong>Requires: </strong><em>{{ t.requires }}</em>
+          </p>
+        {% endif %}
+        {% if t.replaces %}
+          <p style="margin:5px, font-size: 8">
+              <strong>Replaces: </strong><em>{{ t.replaces }}</em>
+          </p>
+        {% endif %}
+        {% for e in t.effect %}
+            <p>
+            {{ e }}
+            </p>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+      {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "2" %}
+      <br>
+      <h3>Rank 2</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+
+      {% for t in tal %}
+        {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f50; padding: 10px">
+        {% else %}
+            <div style="background-color: #23213050; padding: 10px">
+        {% endif %}
+        <h3 style="margin:5px">{{ t.name }}</h3>
+        <h4 style="margin:5px">{{ t.type }}</h4>
+        {% if t.requires %}
+          <p style="margin:5px, font-size: 8">
+              <strong>Requires: </strong><em>{{ t.requires }}</em>
+          </p>
+        {% endif %}
+        {% if t.replaces %}
+          <p style="margin:5px, font-size: 8">
+              <strong>Replaces: </strong><em>{{ t.replaces }}</em>
+          </p>
+        {% endif %}
+        {% for e in t.effect %}
+            <p>
+            {{ e }}
+            </p>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+      {% assign tal = site.data.talents.talents | where: "tree", page.title | where: "rank", "3" %}
+      <br>
+      <h3>Rank 3</h3>
+      <div class="half" style="display:flex">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+      </div>
+
+      {% for t in tal %}
+        {% assign i = forloop.index | modulo: 2 %}
+        {% if i == 0 %}
+            <div style="background-color: #37344f50; padding: 10px">
+        {% else %}
+            <div style="background-color: #23213050; padding: 10px">
+        {% endif %}
+        <h3 style="margin:5px">{{ t.name }}</h3>
+        <h4 style="margin:5px">{{ t.type }}</h4>
+        {% if t.requires %}
+          <p style="margin:5px, font-size: 8">
+              <strong>Requires: </strong><em>{{ t.requires }}</em>
+          </p>
+        {% endif %}
+        {% if t.replaces %}
+          <p style="margin:5px, font-size: 8">
+              <strong>Replaces: </strong><em>{{ t.replaces }}</em>
+          </p>
+        {% endif %}
+        {% for e in t.effect %}
+            <p>
+            {{ e }}
+            </p>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+-----------------------------
+
+<h3>QA Data</h3>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Effect</th>
+        </tr>
+      
+        {% for tlnt in site.data.talents.talents %}
+            
+          {% if tlnt.tree == page.title %}
+
+            <tr>
+              <td>{{ tlnt.name }}</td>
+              <td>{{ tlnt.type }}</td>
+              <td>{{ tlnt.effect }}</td>
+              <td>{{ tlnt.rank }}</td>
+            </tr>
+            
+          {% endif %}
+          
+        {% endfor %}
+          
+      </table>
+
+    </section>
+  </body>
+</html>
