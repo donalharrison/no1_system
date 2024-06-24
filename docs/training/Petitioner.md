@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Supplicant
+title: Petitioner
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/supplicant/
+permalink: /characters/training/petitioner/
 nav_exclude: true
 ---
