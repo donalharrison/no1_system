@@ -1,33 +1,17 @@
 ---
 layout: default
-title: Lineages
-name: Lineages
+title: Lineage
+name: Lineage
 has_children: false
-parent: Characters
-permalink: /characters/lineages
+grand_parent: Characters
+parent: Character Creation
+permalink: /characters/char_creation/lineage
 nav_order: 1
 ---
 
-# Human
+# nobility
 
-# Dwarf
+# urchin
 
-# Elf
-
-# Gnome
-
-# Halfling
-
-
-# Devilspawn
-
-# Dragonkin
-
-# Skiv
-
-# Goblin
-
-# Orc
-
-# Half-breed
+# merchant?
 
