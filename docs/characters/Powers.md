@@ -36,8 +36,11 @@ Aura
         <td>
             <a href='/no1_system/characters/powers/arcana/'>
                 <p class='power-header'>Arcana</p>
-                <img src='/no1_system/assets/img/powers_arcana.png'>
+                <img src='/no1_system/assets/img/powers_arcana.png' width='120' height='120'>
                 <p>You wield knowledge of great mysteries, empowering you to bend reality.</p>
+                <img src='/no1_system/assets/img/mystic.png' width='15' height='15'>
+                <img src='/no1_system/assets/img/adept.png' width='15' height='15'>
+                <img src='/no1_system/assets/img/cabalist.png' width='15' height='15'>
             </a>
         </td>
         <td>
@@ -75,11 +78,6 @@ Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wiel
 
 
 <style>
-    
-    td a:hover {
-        background-color: #4A90E2;
-    }
-
     .power-header {
         font-size: 30px;
         font-weight: bold;
