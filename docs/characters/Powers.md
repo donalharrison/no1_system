@@ -38,12 +38,19 @@ Aura
                 <p class='power-header'>Arcana</p>
                 <img src='/no1_system/assets/img/powers_arcana.png' width='120' height='120'>
                 <p>You wield knowledge of great mysteries, empowering you to bend reality.</p>
-                <img src='/no1_system/assets/img/mystic.png' width='15' height='15'>
-                <img src='/no1_system/assets/img/adept.png' width='15' height='15'>
-                <img src='/no1_system/assets/img/cabalist.png' width='15' height='15'>
             </a>
+            <a href='/no1_system/characters/trainings/mystic/'><img src='/no1_system/assets/img/mystic.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/trainings/adept/'><img src='/no1_system/assets/img/adept.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/trainings/cabalist/'><img src='/no1_system/assets/img/cabalist.png' width='25' height='25'></a>
         </td>
         <td>
+            <a href='/no1_system/characters/powers/concoctions/'>
+                <p class='power-header'>Concoctions</p>
+                <img src='/no1_system/assets/img/powers_concoctions.png' width='120' height='120'>
+                <p>Blend & boil sinister mixtures or restorative tinctures to give you and your allies the edge you need to win the day.</p>
+            </a>
+            <a href='/no1_system/characters/trainings/alchemist/'><img src='/no1_system/assets/img/alchemist.png' width='25' height='25'></a>
+            <a href='/no1_system/characters/trainings/witch/'><img src='/no1_system/assets/img/witch.png' width='25' height='25'></a>
         </td>
     </tr>
 </table>
@@ -80,6 +87,6 @@ Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wiel
 <style>
     .power-header {
         font-size: 30px;
-        font-weight: bold;
+        font-weight: normal;
     }
 </style>
