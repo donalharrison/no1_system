@@ -31,13 +31,13 @@ Ongoing
 Aura
 
 
-<table>
+<table style='text-align: center'>
     <tr>
         <td>
             <a href='/no1_system/characters/powers/arcana/'>
-                <h2>Arcana</h2>
+                <p class='power-header'>Arcana</p>
                 <img src='/no1_system/assets/img/powers_arcana.png'>
-                <h3>You wield knowledge of great mysteries, empowering you to bend reality.</h3>
+                <p>You wield knowledge of great mysteries, empowering you to bend reality.</p>
             </a>
         </td>
         <td>
@@ -76,7 +76,12 @@ Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wiel
 
 <style>
     
-    a:hover {
+    td a:hover {
         background-color: #4A90E2;
+    }
+
+    .power-header {
+        font-size: 30px;
+        font-weight: bold;
     }
 </style>
