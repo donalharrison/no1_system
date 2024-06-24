@@ -3,6 +3,7 @@ layout: default
 title: Backgrounds
 name: Backgrounds
 has_children: false
+grand_parent: Character Creation
 parent: Characters
 permalink: /characters/backgrounds/
 nav_order: 3

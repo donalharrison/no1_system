@@ -8,7 +8,7 @@ parent: Character Creation
 permalink: /characters/char_creation/species
 nav_order: 1
 ---
-s
+
 # Human
 
 # Dwarf

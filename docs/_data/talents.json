@@ -100,7 +100,7 @@
                 "When you roll one of your Affinity to invoke and Arcana, you gain Strain according to the result as soon as the Arcana effects resolve.",
                 "Strain accumulates over the course of your adventures, only reducing by 1d6 at the conclusion of a Waypoint.",
                 "You suffer the effects of Strain according to the <em>Straing Effects Table</em> table below.  Strain Effects are cumulative:<br>
-                <table>
+                <table style='width: 50%'>
                     <thead>
                         <th>Strain</th>
                         <th>Effect</th>
@@ -446,9 +446,9 @@
             "requires": "Recoil",
             "replaces": null,
             "effect": [
-                "<em>When you gain this Talent, select 2 Power Skills from the list below to be your Channeler Affinity:
-                <br> - Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>",
-                "Your Affinity for these forces all you to use <a href=''>Techniques</a> that channel their power (<em>see <a href=''>Using Techniques</a></em>)."
+                "Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.",
+                "When you gain this Talent, select 2 Power Skills from the list below to be your Affinities:
+                <br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>"
             ]
         },
         {
