@@ -13,7 +13,7 @@ Magic-User,Basic,,"You rely on the study arcane arts to cast spells, manipulate 
 Marksman,Basic,Dangerous 1,"You specialize in precision ranged combat, excelling in using various ranged weapons with accuracy and deadly efficiency.",/no1_system/assets/img/marksman.png,/no1_system/characters/training/marksman/
 Martial Artist,Basic,,"You are trained in hand-to-hand combat, emphasizing fluid movements, precise strikes, and disciplined techniques.",/no1_system/assets/img/martial_artist.png,/no1_system/characters/training/martial_artist/
 Mystic,Basic,,"You possess hidden & forgotten knowledge, bestowing you with mystical powers to wield against your foes.",/no1_system/assets/img/mystic.png,/no1_system/characters/training/mystic/
-Petitioner,Basic,,"You cried for deliverance in an uncaring world, yet someone, or something, answered your petition.",,
+Petitioner,Basic,,"You cried for deliverance in an uncaring world, yet someone, or something, answered your petition.",/no1_system/assets/img/petitioner.png,/no1_system/characters/training/petitioner/
 Psion,Basic,,"You posses great psychic abilities, granting you telepathy, telekinesis, and other powers of the mind.",/no1_system/assets/img/psion.png,/no1_system/characters/training/psion/
 Scholar,Basic,Savvy 2,You are highly knowledgeable & able to research complex topics.,/no1_system/assets/img/scholar.png,/no1_system/characters/training/scholar/
 Scoundrel,Basic,,"You specialize in cunning and trickery, excelling in deceit and manipulation.",/no1_system/assets/img/scoundrel.png,/no1_system/characters/training/scoundrel/
