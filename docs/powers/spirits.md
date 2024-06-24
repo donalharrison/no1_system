@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Spirits
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/spirits/
-nav_exclude: true
 ---
 

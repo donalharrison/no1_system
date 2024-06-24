@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Concoctions
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/concoctions/
-nav_exclude: true
 ---
 

@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Techniques
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/techniques/
-nav_exclude: true
 ---
 

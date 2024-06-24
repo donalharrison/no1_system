@@ -2,7 +2,7 @@
 layout: default
 title: Character Creation
 name: Character Creation
-has_children: false
+has_children: True
 parent: Characters
 permalink: /characters/char_creation
 nav_order: 1

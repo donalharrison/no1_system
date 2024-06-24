@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Marvels
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/marvels/
-nav_exclude: true
 ---
 

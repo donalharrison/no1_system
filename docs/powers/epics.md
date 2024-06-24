@@ -1,8 +1,8 @@
 ---
 layout: powers
-title: Hexes
+title: Epics
 grand_parent: Characters
 parent: Powers
-permalink: /characters/powers/hexes/
+permalink: /characters/powers/epics/
 ---
 

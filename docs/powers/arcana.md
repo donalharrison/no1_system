@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Arcana
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/arcana/
-nav_exclude: true
 ---
 

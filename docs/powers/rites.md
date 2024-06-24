@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Rites
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/rites/
-nav_exclude: true
 ---
 

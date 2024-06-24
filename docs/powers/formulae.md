@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Formulae
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/formulae/
-nav_exclude: true
 ---
 

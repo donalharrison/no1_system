@@ -1,9 +1,8 @@
 ---
 layout: powers
 title: Spells
-parent: Powers
 grand_parent: Characters
+parent: Powers
 permalink: /characters/powers/spells/
-nav_exclude: true
 ---
 
