@@ -5,7 +5,7 @@ name: Character Creation
 has_children: True
 parent: Characters
 permalink: /characters/char_creation
-nav_order: 1
+nav_order: 5
 ---
 
 # Character Creation
