@@ -1,3 +1,4 @@
+Name,Type,Prerequisites,Description,img_path,page_path
 Aberrant,Basic,Uncanny 2,"You tap into mysterious and otherworldly power sources, harnessing enigmatic and often dangerous powers beyond mortal comprehension.",/no1_system/assets/img/aberrant.png,/no1_system/characters/training/aberrant/
 Acolyte,Basic,Steady 2,"You are a follower of a religion or spiritual practice, granting you kowledge of and powers from its principles.",/no1_system/assets/img/acolyte.png,/no1_system/characters/training/acolyte/
 Alchemist,Basic,,"You are adept at potion-making and transmutation, wielding transformative concoctions.",/no1_system/assets/img/alchemist.png,/no1_system/characters/training/alchemist/
@@ -100,4 +101,3 @@ Thrall,Specialization,,"You serve a supernatural or otherworldly master, gaining
 Transmuter,Specialization,,"You are adept in the art of transformation and alteration, changing the properties of objects and creatures.",/no1_system/assets/img/transmuter.png,/no1_system/characters/training/transmuter/
 Weapon Master,Specialization,,You are a seasoned fighter with unparalleled skill in wielding a wide array of weapons.,/no1_system/assets/img/weapon_master.png,/no1_system/characters/training/weapon_master/
 Wrestler,Specialization,,"You specialize in hand-to-hand combat emphasizing strength, grappling, and close-quarters brawling.",/no1_system/assets/img/wrestler.png,/no1_system/characters/training/wrestler/
-Name,Type,Prerequisites,Description,img_path,page_path
