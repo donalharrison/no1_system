@@ -13,9 +13,12 @@ nav_order: 5
 ## Formulate your Concept
 As with all things creative or scientific, you have to have a starting point.  What story do you want to forge?
 
-## Roll / Choose Trait Array
+## Choose (or Roll) Trait Array
 Characters in the No1 System have 5 Traits -- **Dangerous, Deft, Savvy, Steady, and Uncanny** -- which describe the characters' general qualities and characteristics, and categorize their Skills.  You will assign values to each of these to help construct your character's capabilities.
 
+### Choose Your Primary Defense
+
+## Choose Species
 
 ## Choose Lineage
 For now, discuss lineage ideas with BAMF to determine Trai and/or skill bonuses

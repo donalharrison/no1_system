@@ -43,6 +43,7 @@ Attempts to Perceive you require Hits >= your Hidden rating.
 While Prone, you have Vulnerable 2 to an melee attack made against you and you take Actions at Hazard 2.  You must use a Shift to stand back up.
 
 ## Provoked
+#### Fixed
 Something about having to take actions against the source of provocation.
 
 ## Restrained

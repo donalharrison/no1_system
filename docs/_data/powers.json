@@ -1,6 +1,997 @@
 {
     "arcana": [
         {
+            "name": "The Prime Conflagration",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                "Inferno", 
+                "Aether"
+            ],
+            "aspects": [
+                {
+                    "Inferno": {
+                        "type": "Ability",
+                        "strain": 5,
+                        "effect": {
+                            "0": "Deal Hits to 1 target in your Current or an Adjacent Zone.",
+                            "1": "Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1.",
+                            "4": "Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."
+                        }
+                    }
+                },
+                {
+                    "Aether": {
+                        "type": "Shift",
+                        "strain": 5,
+                        "effect": {
+                            "0": "1 target in your Current Zone gains Dazed.",
+                            "1": "Up to 2 targets in your Current Zone gain Dazed.",
+                            "4": "Up to Hits targets in your Current Zone gain Dazed."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Flame of Affliction",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Inferno": {
+                        "type": "Ability",
+                        "strain": 4,
+                        "effect": {
+                            "2":
+                        }
+                    },
+                    "Mori": {
+                        "type": "Trigger",
+                        "strain": 5,
+                        "effect": {
+                            "2":
+                        }
+                    },
+                    "Plaga": {
+                        "type": "Ability",
+                        "strain": 3,
+                        "effect": {
+                            "2": 
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Eternal Cycle",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Mori": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Vivus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Great Tapestry",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Aether": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Aevum": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Locus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mori": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nox": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Vivus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Silent War",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Bellor": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Destroy": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nox": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Fractured Mirror",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Aevum": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Locus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Luck": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mentis": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Iron Moon",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Bellor": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mori": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Veri": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Crimson Sun",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Bellor": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Resist": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Long Night",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Aevum": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nox": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Growing Dawn",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "": {
+                        "type": "Lux",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "": {
+                        "type": "Ordi",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Coming War",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Bellor": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Ordi": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Heart of Cruelty",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Destroy": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mori": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Plaga": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                    
+                }
+            ]
+        },
+        {
+            "name": "The Shattered Peace",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Bellor": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Ordi": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Quiet",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Nihil": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Forgotten Cold",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Intuit": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mentis": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Rime": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Lost Winds",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Luck": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Squall": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Black Sun",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nox": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Ordi": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Ebon Field",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Locus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nihil": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nox": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Eternal Bloom",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Phylla": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Tellus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Vivus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Void's Embrace",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Forma": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nihil": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+
+                }
+            ]
+        },
+        {
+            "name": "The Whispering Stars",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Aether": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Locus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Nox": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Celestial Conflux",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Aether": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Dreamer's Well",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Aether": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mentis": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Tempest Core",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Squall": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Tempest": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Torrent": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Luminous Shard",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Tellus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Endless Ruin",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Bellor": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Destroy": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Mori": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Blood Hand",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Inferno": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Veri": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Bleeding Tome",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Mori": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Plaga": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Veri": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Hungering Tide",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Destroy": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Tellus": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Torrent": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Vihreän Astri",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "Lux": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Ordi": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    },
+                    "Plaga": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "The Recursion",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "": {
+                        "type": "",
+                        "strain": ,
+                        "effect": {
+                            ""
+                        }
+                    }
+                }
+            ]
         }
     ],
     "concoctions": [
@@ -9,14 +1000,38 @@
     ],
     "hexes": [
         {
+            "name": "",
+            "type": "",
+            "effect": "",
+            "threshold": "",
+            "requires": null,
+            "keywords": [
+                ""
+            ]
         }
     ],
     "rites": [
         {
+            "name": "",
+            "type": "",
+            "effect": "",
+            "threshold": "",
+            "requires": null,
+            "keywords": [
+                ""
+            ]
         }
     ],
     "spells": [
         {
+            "name": "",
+            "type": "",
+            "effect": "",
+            "threshold": "",
+            "requires": null,
+            "keywords": [
+                ""
+            ]
         }
     ],
     "spirits": [
