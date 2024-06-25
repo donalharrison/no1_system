@@ -24,13 +24,11 @@ nav_exclude: false
 The effect persists as long as the user maintains Focus.  The Ongoing keyword has a numeric rating that determines how challenging the power is to maintain.  Characters can have any number of ongoing effects simultaneously, summing the total Ongoing ratings for all active powers together.
 Ongoing effects all have the following Trigger:
 
-<table>
-<td>
-<h3>>Maintain Focus</h3>
+<div style="background-color: #37344f50; padding: 10px">
+<h3>Maintain Focus</h3>
 <h4>Trigger</h4>
 When any Hits are scored against you, Focus to maintain your Ongoing effects.  If the total Hits in the result set is not equal to or greater than your total Ongoing rating, your Ongoing effects are dismissed.
-</td>
-</table>
+</div>
 
 **Aura**
 

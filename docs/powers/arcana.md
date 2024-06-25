@@ -23,6 +23,9 @@ The Arcana's effects depend on how many rank you have invested.
 
 {% assign arcs = site.data.powers.arcana %}
 
+{{ arcs }}
+
+
 {% for a in arcs %}
     {% assign i = forloop.index | modulo: 2 %}
     {% if i == 0 %}
