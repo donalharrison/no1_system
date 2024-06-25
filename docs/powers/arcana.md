@@ -23,9 +23,7 @@ The Arcana's effects depend on how many rank you have invested.
 
 {% assign arcs = site.data.powers.arcana %}
 
-{{ arcs }}
-
-
+<section>
 {% for a in arcs %}
     {% assign i = forloop.index | modulo: 2 %}
     {% if i == 0 %}
@@ -53,3 +51,4 @@ The Arcana's effects depend on how many rank you have invested.
         <h4 style="margin:5px">{{ asp.type }}</h4>
     {% endfor %}
 {% endfor %}
+</section>
