@@ -6,30 +6,28 @@
             "threshold": null,
             "requires": null,
             "keywords": [
-                "Inferno", 
+                "Inferno",
                 "Aether"
             ],
             "aspects": [
                 {
-                    "Inferno": {
-                        "type": "Ability",
-                        "strain": 5,
-                        "effect": {
-                            "0": "Deal Hits to 1 target in your Current or an Adjacent Zone.",
-                            "1": "Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1.",
-                            "4": "Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."
-                        }
+                    "skill": "Inferno",
+                    "type": "Ability",
+                    "strain": 5,
+                    "effect": {
+                        "0": "Deal Hits to 1 target in your Current or an Adjacent Zone.",
+                        "1": "Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1.",
+                        "4": "Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."
                     }
                 },
                 {
-                    "Aether": {
-                        "type": "Shift",
-                        "strain": 5,
-                        "effect": {
-                            "0": "1 target in your Current Zone gains Dazed.",
-                            "1": "Up to 2 targets in your Current Zone gain Dazed.",
-                            "4": "Up to Hits targets in your Current Zone gain Dazed."
-                        }
+                    "skill": "Aether",
+                    "type": "Shift",
+                    "strain": 5,
+                    "effect": {
+                        "0": "1 target in your Current Zone gains Dazed.",
+                        "1": "Up to 2 targets in your Current Zone gain Dazed.",
+                        "4": "Up to Hits targets in your Current Zone gain Dazed."
                     }
                 }
             ]
@@ -44,26 +42,27 @@
             ],
             "aspects": [
                 {
-                    "Inferno": {
-                        "type": "Ability",
-                        "strain": 4,
-                        "effect": {
-                            "2":
-                        }
-                    },
-                    "Mori": {
-                        "type": "Trigger",
-                        "strain": 5,
-                        "effect": {
-                            "2":
-                        }
-                    },
-                    "Plaga": {
-                        "type": "Ability",
-                        "strain": 3,
-                        "effect": {
-                            "2": 
-                        }
+                    "skill": "Inferno",
+                    "type": "Ability",
+                    "strain": 4,
+                    "effect": {
+                        "2": null
+                    }
+                },
+                {
+                    "skill": "Mori",
+                    "type": "Trigger",
+                    "strain": 5,
+                    "effect": {
+                        "2": null
+                    }
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "Ability",
+                    "strain": 3,
+                    "effect": {
+                        "2": null
                     }
                 }
             ]
@@ -78,20 +77,16 @@
             ],
             "aspects": [
                 {
-                    "Mori": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Vivus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -105,55 +100,46 @@
             ],
             "aspects": [
                 {
-                    "Aether": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Aevum": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Locus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mori": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nox": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Vivus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Tempor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -167,27 +153,22 @@
             ],
             "aspects": [
                 {
-                    "Bellor": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Destroy": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nox": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -201,34 +182,28 @@
             ],
             "aspects": [
                 {
-                    "Aevum": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Locus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Luck": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mentis": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Tempor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Luck",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mentis",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -242,27 +217,22 @@
             ],
             "aspects": [
                 {
-                    "Bellor": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mori": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Veri": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Sanguis",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -276,27 +246,22 @@
             ],
             "aspects": [
                 {
-                    "Bellor": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Resist": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Resist",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -310,20 +275,16 @@
             ],
             "aspects": [
                 {
-                    "Aevum": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nox": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Tempor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -337,20 +298,16 @@
             ],
             "aspects": [
                 {
-                    "": {
-                        "type": "Lux",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "": {
-                        "type": "Ordi",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Lux",
+                    "type": null,
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Ordi",
+                    "type": null,
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -364,20 +321,16 @@
             ],
             "aspects": [
                 {
-                    "Bellor": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Ordi": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -391,28 +344,22 @@
             ],
             "aspects": [
                 {
-                    "Destroy": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mori": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Plaga": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
-                    
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -426,20 +373,16 @@
             ],
             "aspects": [
                 {
-                    "Bellor": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Ordi": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -453,13 +396,10 @@
             ],
             "aspects": [
                 {
-                    "Nihil": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Nihil",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -473,27 +413,22 @@
             ],
             "aspects": [
                 {
-                    "Intuit": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mentis": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Rime": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Intuit",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mentis",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Rime",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -507,20 +442,16 @@
             ],
             "aspects": [
                 {
-                    "Luck": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Squall": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Luck",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Squall",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -534,27 +465,22 @@
             ],
             "aspects": [
                 {
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nox": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Ordi": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -568,27 +494,22 @@
             ],
             "aspects": [
                 {
-                    "Locus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nihil": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nox": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nihil",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -602,27 +523,22 @@
             ],
             "aspects": [
                 {
-                    "Phylla": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Tellus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Vivus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Phylla",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Tellus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -636,21 +552,16 @@
             ],
             "aspects": [
                 {
-                    "Forma": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nihil": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-
+                    "skill": "Forma",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nihil",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -664,34 +575,28 @@
             ],
             "aspects": [
                 {
-                    "Aether": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Locus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Nox": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -705,20 +610,16 @@
             ],
             "aspects": [
                 {
-                    "Aether": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -732,20 +633,16 @@
             ],
             "aspects": [
                 {
-                    "Aether": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mentis": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mentis",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -759,27 +656,22 @@
             ],
             "aspects": [
                 {
-                    "Squall": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Tempest": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Torrent": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Squall",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Tempest",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Torrent",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -793,20 +685,16 @@
             ],
             "aspects": [
                 {
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Tellus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Tellus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -820,27 +708,22 @@
             ],
             "aspects": [
                 {
-                    "Bellor": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Destroy": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Mori": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -854,20 +737,16 @@
             ],
             "aspects": [
                 {
-                    "Inferno": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Veri": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Inferno",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Sanguis",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -881,27 +760,22 @@
             ],
             "aspects": [
                 {
-                    "Mori": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Plaga": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Veri": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Sanguis",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -915,27 +789,22 @@
             ],
             "aspects": [
                 {
-                    "Destroy": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Tellus": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Torrent": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Tellus",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Torrent",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -949,27 +818,22 @@
             ],
             "aspects": [
                 {
-                    "Lux": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Ordi": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    },
-                    "Plaga": {
-                        "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
-                    }
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "",
+                    "strain": null,
+                    "effect": {}
                 }
             ]
         },
@@ -985,18 +849,15 @@
                 {
                     "": {
                         "type": "",
-                        "strain": ,
-                        "effect": {
-                            ""
-                        }
+                        "strain": null,
+                        "effect": {}
                     }
                 }
             ]
         }
     ],
     "concoctions": [
-        {
-        }
+        {}
     ],
     "hexes": [
         {
@@ -1035,15 +896,12 @@
         }
     ],
     "spirits": [
-        {
-        }
+        {}
     ],
     "techniques": [
-        {
-        }
+        {}
     ],
     "wards": [
-        {
-        }
+        {}
     ]
 }
