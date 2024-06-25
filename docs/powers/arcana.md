@@ -33,22 +33,22 @@ The Arcana's effects depend on how many rank you have invested.
     {% endif %}
     <h3 style="margin:5px">{{ a.name }}</h3>
     <h4 style="margin:5px">Max Ranks</h4>
-
-    {% assign k = a.max_ranks %}
-    {% for i in (1..k) %}
+    {% assign j = a.max_ranks %}
+    {% for i in (1..j) %}
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
     {% endfor %}
-
     {% if a.requires %}
         <p style="margin:5px, font-size: 8">
             <strong>Requires: </strong><em>{{ a.requires }}</em>
         </p>
     {% endif %}
     {% for asp in a.aspects %}
-        <p>
-        {{ asp }}
-        </p>
-        <h4 style="margin:5px">{{ asp.type }}</h4>
+        <p>{{ asp }}</p>
+        <p>{{ asp[0] }}</p>
+        <h4 style="margin:5px">
+            {{ asp.type }}
+        </h4>
     {% endfor %}
+    </div>
 {% endfor %}
 </section>
