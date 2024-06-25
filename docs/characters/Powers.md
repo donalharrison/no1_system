@@ -13,23 +13,21 @@ nav_exclude: false
 
 ## Power Traits
 
-### Speed
-The amount of actions and/or shifts required to use the power
-
-### Entropy Trigger
-What happens when the results set of the power roll contains a 1.
-
-### Threshold
-The number of Hits at which the magnitude of the power's effect increases.
-
-### Effect
-What the power does.
+**Speed:** The number of actions and/or shifts required to use the power
+**Entropy Effect:** What happens when the results set of the power roll contains a 1.
+**Threshold Effect:** The number of Hits at which the magnitude of the power's effect increases.
+**Effect:** What the power does.
 
 ## Power Keywords
+**Ongoing**
+The effect persists as long as the user maintains Focus.  The Ongoing keyword has a numeric rating that determines how challenging the power is to maintain.  Characters can have any number of ongoing effects simultaneously, summing the total Ongoing ratings for all active powers together.
+Ongoing effects all have the following Trigger:
+### Maintain Focus
+#### Trigger
+When any Hits are scored against you, Focus to maintain your Ongoing effects.  If the total Hits in the result set is not equal to or greater than your total Ongoing rating, your Ongoing effects are dismissed.
 
-Ongoing
-
-Aura
+**Aura**
+The effect persists and does not require the user to maintain Focus.  Powers with the Aura keyword will specify the duration and conditions under which the effects persist or are dismissed.
 
 
 <table style='text-align: center'>

@@ -30,10 +30,11 @@ Players are encouraged to describe interesting descriptions for how their charac
 
 ## Concluding Contests
 Contests can conclude in one of four ways:
-1. The Contest Timer expires.
-2. One of the contestants forfeits.
-3. One of the contestants is defeated.
-4. The Game Fiction changes such that the Contest is no longer coherent or relevant.
+1. The Game Fiction changes such that the Contest is no longer coherent or relevant.
+2. The Contest Timer expires.
+3. One of the contestants forfeits.
+4. One of the contestants is defeated.
+
 
 Once the Contest concludes, the victor is the contestant who won the most rounds.
 * If the victor is a PC, the PC gains +1 Renown and the Momentum increases by +5.
