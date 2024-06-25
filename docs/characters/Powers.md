@@ -14,11 +14,8 @@ nav_exclude: false
 ## Power Traits
 
 **Speed:** The number of actions and/or shifts required to use the power
-
 **Entropy Effect:** What happens when the results set of the power roll contains a 1.
-
 **Threshold Effect:** The number of Hits at which the magnitude of the power's effect increases.
-
 **Effect:** What the power does.
 
 ## Power Keywords
@@ -29,12 +26,9 @@ Ongoing effects all have the following Trigger:
 
 <table>
 <td>
-
-### Maintain Focus
-#### Trigger
-
+<h3>>Maintain Focus</h3>
+<h4>Trigger</h4>
 When any Hits are scored against you, Focus to maintain your Ongoing effects.  If the total Hits in the result set is not equal to or greater than your total Ongoing rating, your Ongoing effects are dismissed.
-
 </td>
 </table>
 
@@ -190,34 +184,6 @@ Powers have one or more effect skills listed in their keywords.  These keywords 
         </td>
     </tr>
 </table>
-
-
-
-## Arcana
-
-## Concoctions
-
-## Gifts
-
-## Hexes
-Debilitating & damaging effects that persist against hostile targets.
-Hexes require Focus (or Compsure?) to maintain, with each Hex adding to the difficulty of the roll.
-
-## Marvels
-
-## Portents
-
-## Rites
-Divine gifts to help and harm.  Fail to conduct Rites correctly reduces the wielder's Concordance, breaking their connection to the divine and adding risk to their practice.
-
-## Sagas
-
-## Spells
-
-## Spirits
-
-## Techniques
-
 
 
 <style>
