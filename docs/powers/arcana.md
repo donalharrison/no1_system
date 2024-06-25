@@ -34,7 +34,7 @@ The Arcana's effects depend on how many rank you have invested.
     <h4 style="margin:5px">Max Ranks</h4>
 
     {% assign k = a.max_ranks %}
-    {% for i in (1..k)}
+    {% for i in (1..k) %}
         <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
     {% endfor %}
 
