@@ -42,13 +42,11 @@ The Arcana's effects depend on how many rank you have invested.
             <strong>Requires: </strong><em>{{ a.requires }}</em>
         </p>
     {% endif %}
-    {% for asp in a.aspects %}
-        <p>{{ asp }}</p>
-        <p>{{ asp[0] }}</p>
-        <h4 style="margin:5px">
-            {{ asp.type }}
-        </h4>
-    {% endfor %}
+    <p>{{ a.aspects }}</p>
+    <hr>
+    <p>{{ a.aspects[1] }}</p>
+    <hr>
+    <p>{{ a.aspects[1].type }}</p>
     </div>
 {% endfor %}
 </section>
