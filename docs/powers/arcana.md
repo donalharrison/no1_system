@@ -49,3 +49,4 @@ The Arcana's effects depend on how many rank you have invested.
         </p>
         <h4 style="margin:5px">{{ asp.type }}</h4>
     {% endfor %}
+{% endfor %}
