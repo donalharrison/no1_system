@@ -25,9 +25,12 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 <div class="column">
 
 {% for s in site.data.powers.spells %}
-{% assign i = forloop.index | modulo: 2 %}
-
-<div class="row">
+    {% assign i = forloop.index | modulo: 2 %}
+    {% if i == 0 %}
+        <div class="row" style="background-color: #4b476650">
+    {% else %}
+        <div class="row" style="background-color: #37344f50">
+    {% endif %}
     <h3 style="margin:5px">{{s.name}}</h3>
     <h4 style="margin:5px">{{s.type}}</h4>
     <em>{{s.keywords}}</em>
@@ -47,14 +50,12 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 
 <style>
   .row {
-    display: flex;
     background-color: gray;
-
+    margin: 5px;
   }
 
   .column {
     flex: 95%;
     background-color: darkgray;
-    margin: 5px;
   }
 </style>
