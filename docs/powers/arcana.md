@@ -60,7 +60,7 @@ The Arcana's effects depend on how many rank you have invested.
                 <tr>
                 <td>{{ dtl }}</td>
                 <td style="width: 20%;">
-                {% assign k = dtl.rank %}
+                {% assign k = dtl[1].rank %}
                 {% for i in (1..k) %}
                     <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
                 {% endfor %}
