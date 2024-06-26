@@ -22,18 +22,18 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 
 <section>
 
-<div class="column">
+<div style="background-color: ; margin: 5px;>
 
 {% for s in site.data.powers.spells %}
     {% assign i = forloop.index | modulo: 2 %}
     {% if i == 0 %}
-        <div class="row" style="background-color: #4b476650">
+        <div style="background-color: #4b476650; margin: 5px;">
     {% else %}
-        <div class="row" style="background-color: #37344f50">
+        <div class="row" style="background-color: #37344f50; margin: 5px;">
     {% endif %}
     <h3 style="margin:5px">{{s.name}}</h3>
     <h4 style="margin:5px">{{s.type}}</h4>
-    <em>{{s.keywords}}</em>
+    <em>{{s.keywords | join: ", "}}</em>
     <details>
         <summary></summary>
         <p><strong>Requires: </strong>{{s.requires}}</p>
@@ -47,15 +47,3 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 {% endfor %}
 
 </section>
-
-<style>
-  .row {
-    background-color: gray;
-    margin: 5px;
-  }
-
-  .column {
-    flex: 95%;
-    background-color: darkgray;
-  }
-</style>
