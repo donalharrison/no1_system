@@ -50,7 +50,7 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
         <p>{{t.effect}}</p>
         {% endfor %}
     </details>
-</div>
+    </div>
 {% endfor %}
-
+</div>
 </section>
