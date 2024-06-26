@@ -22,30 +22,25 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 
 <section>
 
-<div class="row">
+<div class="column">
 
 {% for s in site.data.powers.spells %}
 {% assign i = forloop.index | modulo: 2 %}
 
-  <div class="column">
+<div class="row">
+    <h3 style="margin:5px">{{s.name}}</h3>
+    <h4 style="margin:5px">{{s.type}}</h4>
+    <em>{{s.keywords}}</em>
     <details>
-      <summary>
-        <h3 style="margin:5px">{{s.name}}</h3>
-        <h4 style="margin:5px">{{s.type}}</h4>
-        <em>s.keywords</em>
-      </summary>
-      <p><strong>Requires: </strong>{{s.requires}}</p>
-      <p><strong>Effect: </strong>{{s.effect}}</p>
-      {% for t in s.threshold %}
+        <summary></summary>
+        <p><strong>Requires: </strong>{{s.requires}}</p>
+        <p><strong>Effect: </strong>{{s.effect}}</p>
+        {% for t in s.threshold %}
         <h5 style="margin:5px">Threshold {{t.hits}} </h5>
         <p>{{t.effect}}</p>
-      {% endfor %}
+        {% endfor %}
     </details>
-  </div>
-{% if i == 0 %}
-    </div>
-    <div class="column">
-{% endif %}
+</div>
 {% endfor %}
 
 </section>
@@ -58,7 +53,7 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
   }
 
   .column {
-    flex: 50%;
+    flex: 95%;
     background-color: darkgray;
     margin: 5px;
   }
