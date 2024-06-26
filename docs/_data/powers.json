@@ -14,11 +14,11 @@
                     "skill": "Inferno",
                     "type": "Ability",
                     "strain": 5,
-                    "effects": {
-                        "a": {"rank":0, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone."},
-                        "b":{"rank":1, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1."},
-                        "c":{"rank":4, "effect":"Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."}
-                    }
+                    "effects": [
+                        {"rank":0, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone."},
+                        {"rank":1, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1."},
+                        {"rank":4, "effect":"Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."}
+                    ]
                 },
                 {
                     "skill": "Aether",
