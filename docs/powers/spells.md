@@ -27,12 +27,12 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 {% for s in site.data.powers.spells %}
     {% assign i = forloop.index | modulo: 2 %}
     {% if i == 0 %}
-        <div style="background-color: #4b476650; margin: 5px; padding: 5px;">
+        <div style="background-color: #4b476650; margin: 10px; padding: 5px;">
     {% else %}
-        <div class="row" style="background-color: #37344f50; margin: 5px; padding: 5px;">
+        <div class="row" style="background-color: #37344f50; margin: 10px; padding: 5px;">
     {% endif %}
-    <h3>{{s.name}}</h3>
-    <h4>{{s.type}}</h4>
+    <h3 style="margin-top: 5px;">{{s.name}}</h3>
+    <h4 style="margin-top: 5px;">{{s.type}}</h4>
     <em>{{s.keywords | join: ", "}}</em>
     <details>
         <summary></summary>
