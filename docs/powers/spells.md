@@ -7,9 +7,7 @@ permalink: /characters/powers/spells/
 ---
 
 # Spells
-
-The mysteries of the Cosm leave traces across all of existence.  Hidden and forgotten lore may not be captured in the great voluems of history, but their effects are profound and resonana.
-Some curious, and some say foolhardy, folk study these mysteries, known casually as Arcana.  Knowledge and comprehension of this mystical wisdom empowers these individuals to bend and shape reality to their will.
+Spells are cool.
 
 ## Studying Spells
 When you use an Ability that provides Spell Ranks, you invest those in specific Spells to increase their Rank reflecting your increased proficiency with them.
