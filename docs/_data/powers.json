@@ -14,10 +14,10 @@
                     "skill": "Inferno",
                     "type": "Ability",
                     "strain": 5,
-                    "effect": {
-                        "0": "Deal Hits to 1 target in your Current or an Adjacent Zone.",
-                        "1": "Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1.",
-                        "4": "Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."
+                    "effects": {
+                        "a": {"rank":0, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone."},
+                        "b":{"rank":1, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1."},
+                        "c":{"rank":4, "effect":"Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."}
                     }
                 },
                 {
@@ -25,9 +25,9 @@
                     "type": "Shift",
                     "strain": 5,
                     "effect": {
-                        "0": "1 target in your Current Zone gains Dazed.",
-                        "1": "Up to 2 targets in your Current Zone gain Dazed.",
-                        "4": "Up to Hits targets in your Current Zone gain Dazed."
+                        "a": {"rank":0, "effect":"1 target in your Current Zone gains Dazed."},
+                        "b": {"rank":0, "effect":"Up to 2 targets in your Current Zone gain Dazed."},
+                        "c": {"rank":0, "effect": "Up to Hits targets in your Current Zone gain Dazed."}
                     }
                 }
             ]

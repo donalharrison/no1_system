@@ -46,8 +46,9 @@ The Arcana's effects depend on how many rank you have invested.
         {{ asp.skill }}
         <h4 style="margin:2px">{{ asp.type }}</h4>
         <strong>Strain:</strong> {{ asp.strain }}<br>
-        {% for eff in asp.effects %}
-            <p>eff</p>
+        {% for eff in asp.effect %}
+            <p>eff.rank</p>
+            <p>eff.effect</p>
         {% endfor %}
     {% endfor %}
     </div>
