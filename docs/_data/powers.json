@@ -65,11 +65,11 @@
                     "strain": 4,
                     "effects": [
                         {
-                            "rank":3,
+                            "rank": 3,
                             "effect": "Deal Hits to 1 target's Grit, ignoring all Defenses."
                         },
                         {
-                            "rank":5,
+                            "rank": 5,
                             "effect": "Deal Hits to all target's Grit, ignoring all Defenses."
                         }
                     ]
@@ -83,853 +83,2678 @@
                             "rank": 3,
                             "effect": "When a target you can see in your Current Zone dies, restore Hits to your Grit."
                         }
-                ]
-            },
-            {
-                "skill": "Plaga",
-                "type": "Ability",
-                "strain": 3,
-                "effects": [
-                    {}
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Eternal Cycle",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Mori",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Vivus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Great Tapestry",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Aether",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Tempor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Locus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mori",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nox",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Vivus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Silent War",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Bellor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Destroy",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nox",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Fractured Mirror",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Tempor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Locus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Luck",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mentis",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Iron Moon",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Bellor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mori",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Sanguis",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Crimson Sun",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Bellor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Resist",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Long Night",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Tempor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nox",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Growing Dawn",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Lux",
-                "type": null,
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Ordi",
-                "type": null,
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Coming War",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Bellor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Ordi",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Heart of Cruelty",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Destroy",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mori",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Plaga",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Shattered Peace",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Bellor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Ordi",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Quiet",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Nihil",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Forgotten Cold",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Intuit",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mentis",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Rime",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Lost Winds",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Luck",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Squall",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Black Sun",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nox",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Ordi",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Ebon Field",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Locus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nihil",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nox",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Eternal Bloom",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Phylla",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Tellus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Vivus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Void's Embrace",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Forma",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nihil",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Whispering Stars",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Aether",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Locus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Nox",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Celestial Conflux",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Aether",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Dreamer's Well",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Aether",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mentis",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Tempest Core",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Squall",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Tempest",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Torrent",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Luminous Shard",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Tellus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Endless Ruin",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Bellor",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Destroy",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Mori",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Blood Hand",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Inferno",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Sanguis",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Bleeding Tome",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Mori",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Plaga",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Sanguis",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Hungering Tide",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Destroy",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Tellus",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Torrent",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Vihreän Astri",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "skill": "Lux",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Ordi",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            },
-            {
-                "skill": "Plaga",
-                "type": "",
-                "strain": null,
-                "effects": [{}]
-            }
-        ]
-    },
-    {
-        "name": "The Recursion",
-        "max_ranks": 4,
-        "threshold": null,
-        "requires": null,
-        "keywords": [
-            ""
-        ],
-        "aspects": [
-            {
-                "": {
+                    ]
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "Ability",
+                    "strain": 3,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Eternal Cycle",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Mori",
                     "type": "",
                     "strain": null,
-                    "effects": [{}]
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
                 }
-            }
-        ]
-    }
-],
-"concoctions": [
-    {}
-],
-"hexes": [
-    {
-        "name": "",
-        "type": "",
-        "effect": "",
-        "threshold": "",
-        "requires": null,
-        "keywords": [
-            ""
-        ]
-    }
-],
-"rites": [
-    {
-        "name": "",
-        "type": "",
-        "effect": "",
-        "threshold": "",
-        "requires": null,
-        "keywords": [
-            ""
-        ]
-    }
-],
-"spells": [
-    {
-        "name": "",
-        "type": "",
-        "effect": "",
-        "threshold": "",
-        "requires": null,
-        "keywords": [
-            ""
-        ]
-    }
-],
-"spirits": [
-    {}
-],
-"techniques": [
-    {}
-],
-"wards": [
-    {}
-]
+            ]
+        },
+        {
+            "name": "The Great Tapestry",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Tempor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Silent War",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Fractured Mirror",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Tempor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Luck",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mentis",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Iron Moon",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Sanguis",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Crimson Sun",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Resist",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Long Night",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Tempor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Growing Dawn",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Lux",
+                    "type": null,
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Ordi",
+                    "type": null,
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Coming War",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Heart of Cruelty",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Shattered Peace",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Quiet",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Nihil",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Forgotten Cold",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Intuit",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mentis",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Rime",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Lost Winds",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Luck",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Squall",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Black Sun",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Ebon Field",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nihil",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Eternal Bloom",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Phylla",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Tellus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Void's Embrace",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Forma",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nihil",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Whispering Stars",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Locus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Nox",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Celestial Conflux",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Dreamer's Well",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Aether",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mentis",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Tempest Core",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Squall",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Tempest",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Torrent",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Luminous Shard",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Tellus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Endless Ruin",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Bellor",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Blood Hand",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Inferno",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Sanguis",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Bleeding Tome",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Mori",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Sanguis",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Hungering Tide",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Destroy",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Tellus",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Torrent",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Vihreän Astri",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "skill": "Lux",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Ordi",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                },
+                {
+                    "skill": "Plaga",
+                    "type": "",
+                    "strain": null,
+                    "effects": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Recursion",
+            "max_ranks": 4,
+            "threshold": null,
+            "requires": null,
+            "keywords": [
+                ""
+            ],
+            "aspects": [
+                {
+                    "": {
+                        "type": "",
+                        "strain": null,
+                        "effects": [
+                            {}
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "concoctions": [
+        {}
+    ],
+    "hexes": [
+        {
+            "name": "",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        }
+    ],
+    "rites": [
+        {
+            "name": "",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        }
+    ],
+    "spells": [
+        {
+            "name": "Arc Lightning",
+            "type": "Ability",
+            "effect": "Choose 3 targets you can see in your Current Zone. Deal 1 Hit to each target.",
+            "threshold": [
+                {
+                    "hits": 4,
+                    "effect": "Choose 3 targets you can see in your Current Zone.  Deal 3 Hits the first target, 2 Hits to the second target, & 1 Hit to the third."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tempest"
+            ]
+        },
+        {
+            "name": "Arrest",
+            "type": "Ability",
+            "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained <em>x</em>, where <em>x</em> is equal to Hits.",
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained <em>x</em>, where <em>x</em> is equal to Hits +2."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Ongoing 2",
+                "Lux",
+                "Aether"
+            ]
+        },
+        {
+            "name": "Asphyxiate",
+            "type": "Ability",
+            "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Dazed and Vulnerable <em>x</em>, where <em>x</em> is equal to Hits.",
+            "threshold": [
+                {
+                    "hits": 4,
+                    "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Stunned and Vulnerable <em>x</em>, where <em>x</em> is equal to Hits."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+                , "Mori"
+                , "Squall"
+            ]
+        },
+        {
+            "name": "Augment Senses",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Biting Rain",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Blazing Volley",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Blinding Flare",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Bone Splinters",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Call to the Netherworld",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Chain Lightning",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Charm Target",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Chill of the Grave",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Chill to the Bone",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Choking Fumes",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Circle of Affliction",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Circle of Confinement",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Comet Storm",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Contact Other Plane",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Crippling Blight",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Cyclone",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Damping Pulse",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Dark Blast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Dazzling Lights",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Death Cloud",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Deathmark",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Detect Magic",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Detention Sphere",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Dimension Door",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Disintegrate",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Dispel",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Displacement Wave",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Doom Blade",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Ethereal Haze",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Exsanguinate",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Feather Fall",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Fiery Fingers",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Fiery Gambit",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Fireball",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Firebreathing",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Flame Slash",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Fly",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Fog of War",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Forked Bolt",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Frost Bite",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Frost Breath",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Galvanic Blast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Galvanic Bombardment",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Gate",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Geistblast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Glacial Ray",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Grim Return",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Grow / Shrink Target",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Hungry Flames",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Ice Cage",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Icy Blast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Incinerate",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Incite",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Invisibility",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Lash of Malice",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Lash of Thorns",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Lightning Axe",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Lightning Bolt",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Lightning Storm",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Mage Hand",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Mage armor",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Magic Missile",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Malevolent Whispers",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Message",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Might of Oaks",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Mindstatic",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Misty Step",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Necrotic Fumes",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Plummet",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Polymorph",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Psychic Spear",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Restrain Target",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Rolling Thunder",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Sandblast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Seismic Strikes",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Seismic Wave",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Send to the Void",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Sending",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Settle the Score",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Shadow Step",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Shard Volley",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Shield",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Shift Planes",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Silence",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Sleep",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Stall for Time",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Strangling Spores",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Stun Target",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Summon Spirit Animal",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Sweltering Sunlight",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Tainted Strikes",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Teleport",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Thunder Clap",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Time Stop",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Trumpet Blast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Twincast",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Veil of Somr",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Veil of Wintr",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Vine Snare",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Void Snare",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Voidwalk",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Volcanic Fallout",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Volcanic Hammer",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Waterknot",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Wildfire",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Wish",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Withercrown",
+            "type": "",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                ""
+            ]
+        }
+    ],
+    "spirits": [
+        {}
+    ],
+    "techniques": [
+        {}
+    ],
+    "wards": [
+        {}
+    ]
 }
