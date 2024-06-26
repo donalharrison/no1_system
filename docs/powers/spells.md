@@ -46,6 +46,7 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
     </div>
     <div class="column">
 {% endif %}
+{% endfor %}
 
 </section>
 
