@@ -36,15 +36,15 @@
                     "effects": [
                         {
                             "rank": 0,
-                            "effect": "1 target in your Current Zone gains Dazed."
+                            "effect": "Score 2+ Hits to have 1 target in your Current Zone gains Dazed."
                         },
                         {
-                            "rank": 0,
-                            "effect": "Up to 2 targets in your Current Zone gain Dazed."
+                            "rank": 1,
+                            "effect": "Score 2+ Hits to have up to 2 targets in your Current Zone gain Dazed."
                         },
                         {
-                            "rank": 0,
-                            "effect": "Up to Hits targets in your Current Zone gain Dazed."
+                            "rank": 4,
+                            "effect": "Score 2+ Hits to have up to Hits targets in your Current Zone gain Dazed."
                         }
                     ]
                 }
@@ -52,7 +52,7 @@
         },
         {
             "name": "The Flame of Affliction",
-            "max_ranks": 4,
+            "max_ranks": 7,
             "threshold": null,
             "requires": null,
             "keywords": [
@@ -64,7 +64,14 @@
                     "type": "Ability",
                     "strain": 4,
                     "effect": [
-                        {}
+                        {
+                            "rank":3,
+                            "effect": "Deal Hits to 1 target's Grit, ignoring all Defenses."
+                        },
+                        {
+                            "rank":5,
+                            "effect": "Deal Hits to all target's Grit, ignoring all Defenses."
+                        }
                     ]
                 },
                 {
@@ -72,7 +79,10 @@
                     "type": "Trigger",
                     "strain": 5,
                     "effect": [
-                        {}
+                        {
+                            "rank": 3,
+                            "effect": "When a target you can see in your Current Zone dies, restore Hits to your Grit."
+                        }
                 ]
             },
             {

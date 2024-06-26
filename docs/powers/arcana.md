@@ -25,12 +25,7 @@ The Arcana's effects depend on how many rank you have invested.
 
 <section>
 {% for a in arcs %}
-    {% assign i = forloop.index | modulo: 2 %}
-    {% if i == 0 %}
-        <div style="background-color: #37344f50; padding: 10px">
-    {% else %}
-        <div style="background-color: #23213050; padding: 10px">
-    {% endif %}
+    <div style="background-color: #37344f50; padding: 10px">
     <h3 style="margin:5px">{{ a.name }}</h3>
     <h4 style="margin:5px">Max Ranks</h4>
     {% assign j = a.max_ranks %}
@@ -66,10 +61,10 @@ The Arcana's effects depend on how many rank you have invested.
             {% endfor %}
         </table>
         </div>
-        <div style="height:6px;"></div>
+        <div style="height:8px;"></div>
     {% endfor %}
     </div>
-    <div style="height:6px;"></div>
+    <div style="height:12px;"></div>
 {% endfor %}
 </section>
 
