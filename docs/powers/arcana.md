@@ -43,18 +43,18 @@ The Arcana's effects depend on how many rank you have invested.
         </p>
     {% endif %}
     {% for asp in a.aspects %}
-        <div style="background-color: #4b476650; padding: 8px">
+        <div style="background-color: #4b476650; padding: 8px; height:5px;">
         {{ asp.skill }}
         <h4 style="margin:2px">{{ asp.type }}</h4>
         <strong>Strain:</strong> {{ asp.strain }}<br>
         {% for eff in asp.effect %}
             {% for dtl in eff %}
-                <p>{{ dtl.rank }}</p>
-                <p>{{ dtl.effect }}</p>
+                <p><strong>Rank: </strong>{{ dtl.rank }}</p>
+                <br>{{ dtl.effect }}
             {% endfor %}
         {% endfor %}
         </div>
-        <div style=></div>
+        <div style="height:5px;"></div>
     {% endfor %}
     </div>
     <div></div>
