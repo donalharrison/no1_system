@@ -56,6 +56,7 @@ The Arcana's effects depend on how many rank you have invested.
             {% for dtl in eff %}
                 <tr>
                 <td style="width: 20%;">
+                {{ eff }}
                 {% assign k = dtl.rank %}
                 {% for i in (1..k) %}
                     <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
