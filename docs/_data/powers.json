@@ -15,9 +15,18 @@
                     "type": "Ability",
                     "strain": 5,
                     "effects": [
-                        {"rank":0, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone."},
-                        {"rank":1, "effect":"Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1."},
-                        {"rank":4, "effect":"Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."}
+                        {
+                            "rank": 0,
+                            "effect": "Deal Hits to 1 target in your Current or an Adjacent Zone."
+                        },
+                        {
+                            "rank": 1,
+                            "effect": "Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1."
+                        },
+                        {
+                            "rank": 4,
+                            "effect": "Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."
+                        }
                     ]
                 },
                 {
@@ -25,9 +34,18 @@
                     "type": "Shift",
                     "strain": 5,
                     "effects": [
-                        {"rank":0, "effect":"1 target in your Current Zone gains Dazed."},
-                        {"rank":0, "effect":"Up to 2 targets in your Current Zone gain Dazed."},
-                        {"rank":0, "effect": "Up to Hits targets in your Current Zone gain Dazed."}
+                        {
+                            "rank": 0,
+                            "effect": "1 target in your Current Zone gains Dazed."
+                        },
+                        {
+                            "rank": 0,
+                            "effect": "Up to 2 targets in your Current Zone gain Dazed."
+                        },
+                        {
+                            "rank": 0,
+                            "effect": "Up to Hits targets in your Current Zone gain Dazed."
+                        }
                     ]
                 }
             ]
@@ -45,863 +63,863 @@
                     "skill": "Inferno",
                     "type": "Ability",
                     "strain": 4,
-                    "effect": {
-                        "2": null
-                    }
+                    "effect": [
+                        {}
+                    ]
                 },
                 {
                     "skill": "Mori",
                     "type": "Trigger",
                     "strain": 5,
-                    "effect": {
-                        "2": null
-                    }
-                },
-                {
-                    "skill": "Plaga",
-                    "type": "Ability",
-                    "strain": 3,
-                    "effect": {
-                        "2": null
-                    }
+                    "effect": [
+                        {}
+                ]
+            },
+            {
+                "skill": "Plaga",
+                "type": "Ability",
+                "strain": 3,
+                "effect": [
+                    {}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Eternal Cycle",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Mori",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Vivus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Great Tapestry",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Aether",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Tempor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Locus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mori",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nox",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Vivus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Silent War",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Bellor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Destroy",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nox",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Fractured Mirror",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Tempor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Locus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Luck",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mentis",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Iron Moon",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Bellor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mori",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Sanguis",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Crimson Sun",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Bellor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Resist",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Long Night",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Tempor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nox",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Growing Dawn",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Lux",
+                "type": null,
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Ordi",
+                "type": null,
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Coming War",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Bellor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Ordi",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Heart of Cruelty",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Destroy",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mori",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Plaga",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Shattered Peace",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Bellor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Ordi",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Quiet",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Nihil",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Forgotten Cold",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Intuit",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mentis",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Rime",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Lost Winds",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Luck",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Squall",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Black Sun",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nox",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Ordi",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Ebon Field",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Locus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nihil",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nox",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Eternal Bloom",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Phylla",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Tellus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Vivus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Void's Embrace",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Forma",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nihil",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Whispering Stars",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Aether",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Locus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Nox",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Celestial Conflux",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Aether",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Dreamer's Well",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Aether",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mentis",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Tempest Core",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Squall",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Tempest",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Torrent",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Luminous Shard",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Tellus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Endless Ruin",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Bellor",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Destroy",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Mori",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Blood Hand",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Inferno",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Sanguis",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Bleeding Tome",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Mori",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Plaga",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Sanguis",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Hungering Tide",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Destroy",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Tellus",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Torrent",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Vihreän Astri",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "skill": "Lux",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Ordi",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            },
+            {
+                "skill": "Plaga",
+                "type": "",
+                "strain": null,
+                "effect": [{}]
+            }
+        ]
+    },
+    {
+        "name": "The Recursion",
+        "max_ranks": 4,
+        "threshold": null,
+        "requires": null,
+        "keywords": [
+            ""
+        ],
+        "aspects": [
+            {
+                "": {
+                    "type": "",
+                    "strain": null,
+                    "effect": [{}]
                 }
-            ]
-        },
-        {
-            "name": "The Eternal Cycle",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Mori",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Vivus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Great Tapestry",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Aether",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Tempor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Locus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mori",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nox",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Vivus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Silent War",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Destroy",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nox",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Fractured Mirror",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Tempor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Locus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Luck",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mentis",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Iron Moon",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mori",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Sanguis",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Crimson Sun",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Resist",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Long Night",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Tempor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nox",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Growing Dawn",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Lux",
-                    "type": null,
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Ordi",
-                    "type": null,
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Coming War",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Ordi",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Heart of Cruelty",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Destroy",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mori",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Plaga",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Shattered Peace",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Ordi",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Quiet",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Nihil",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Forgotten Cold",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Intuit",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mentis",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Rime",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Lost Winds",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Luck",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Squall",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Black Sun",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nox",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Ordi",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Ebon Field",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Locus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nihil",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nox",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Eternal Bloom",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Phylla",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Tellus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Vivus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Void's Embrace",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Forma",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nihil",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Whispering Stars",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Aether",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Locus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Nox",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Celestial Conflux",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Aether",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Dreamer's Well",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Aether",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mentis",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Tempest Core",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Squall",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Tempest",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Torrent",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Luminous Shard",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Tellus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Endless Ruin",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Destroy",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Mori",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Blood Hand",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Inferno",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Sanguis",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Bleeding Tome",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Mori",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Plaga",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Sanguis",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Hungering Tide",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Destroy",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Tellus",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Torrent",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Vihreän Astri",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "skill": "Lux",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Ordi",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                },
-                {
-                    "skill": "Plaga",
-                    "type": "",
-                    "strain": null,
-                    "effect": {}
-                }
-            ]
-        },
-        {
-            "name": "The Recursion",
-            "max_ranks": 4,
-            "threshold": null,
-            "requires": null,
-            "keywords": [
-                ""
-            ],
-            "aspects": [
-                {
-                    "": {
-                        "type": "",
-                        "strain": null,
-                        "effect": {}
-                    }
-                }
-            ]
-        }
-    ],
-    "concoctions": [
-        {}
-    ],
-    "hexes": [
-        {
-            "name": "",
-            "type": "",
-            "effect": "",
-            "threshold": "",
-            "requires": null,
-            "keywords": [
-                ""
-            ]
-        }
-    ],
-    "rites": [
-        {
-            "name": "",
-            "type": "",
-            "effect": "",
-            "threshold": "",
-            "requires": null,
-            "keywords": [
-                ""
-            ]
-        }
-    ],
-    "spells": [
-        {
-            "name": "",
-            "type": "",
-            "effect": "",
-            "threshold": "",
-            "requires": null,
-            "keywords": [
-                ""
-            ]
-        }
-    ],
-    "spirits": [
-        {}
-    ],
-    "techniques": [
-        {}
-    ],
-    "wards": [
-        {}
-    ]
+            }
+        ]
+    }
+],
+"concoctions": [
+    {}
+],
+"hexes": [
+    {
+        "name": "",
+        "type": "",
+        "effect": "",
+        "threshold": "",
+        "requires": null,
+        "keywords": [
+            ""
+        ]
+    }
+],
+"rites": [
+    {
+        "name": "",
+        "type": "",
+        "effect": "",
+        "threshold": "",
+        "requires": null,
+        "keywords": [
+            ""
+        ]
+    }
+],
+"spells": [
+    {
+        "name": "",
+        "type": "",
+        "effect": "",
+        "threshold": "",
+        "requires": null,
+        "keywords": [
+            ""
+        ]
+    }
+],
+"spirits": [
+    {}
+],
+"techniques": [
+    {}
+],
+"wards": [
+    {}
+]
 }
