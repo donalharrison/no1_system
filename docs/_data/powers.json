@@ -24,7 +24,7 @@
                     "skill": "Aether",
                     "type": "Shift",
                     "strain": 5,
-                    "effect": {
+                    "effects": {
                         "a": {"rank":0, "effect":"1 target in your Current Zone gains Dazed."},
                         "b": {"rank":0, "effect":"Up to 2 targets in your Current Zone gain Dazed."},
                         "c": {"rank":0, "effect": "Up to Hits targets in your Current Zone gain Dazed."}

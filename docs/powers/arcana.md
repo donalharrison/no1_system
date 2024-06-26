@@ -35,7 +35,7 @@ The Arcana's effects depend on how many rank you have invested.
     <h4 style="margin:5px">Max Ranks</h4>
     {% assign j = a.max_ranks %}
     {% for i in (1..j) %}
-        <img style="width: 30px" src="/no1_system/assets/img/plain-circle.png">
+        <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
     {% endfor %}
     {% if a.requires %}
         <p style="margin:5px, font-size: 8">
@@ -47,12 +47,25 @@ The Arcana's effects depend on how many rank you have invested.
         {{ asp.skill }}
         <h4 style="margin:5px">{{ asp.type }}</h4>
         <strong>Strain:</strong> {{ asp.strain }}<br>
-        {% for eff in asp.effect %}
-            {% for dtl in eff %}
-                <p><strong>Rank: </strong>{{ dtl.rank }}</p>
-                <br>{{ dtl.effect }}
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Effect</th>
+            </tr>
+            {% for eff in asp.effects %}
+            <tr>
+                {% for dtl in eff %}
+                    <td style="width: 20%;">
+                    {% assign k = dtl.rank %}
+                    {% for i in (1..k) %}
+                        <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
+                    {% endfor %}
+                    </td>
+                    <td>{{ dtl.effect }}</td>
+                {% endfor %}
+            </tr>
             {% endfor %}
-        {% endfor %}
+        </table>
         </div>
         <div style="height:5px;"></div>
     {% endfor %}
@@ -60,3 +73,13 @@ The Arcana's effects depend on how many rank you have invested.
     <div style="height:5px;"></div>
 {% endfor %}
 </section>
+
+<style>
+    tr:nth-child(even) {
+        background-color: #34324050;
+    }
+    
+    tr {
+        border-bottom: 1px solid #ddd;
+        }
+</style>
