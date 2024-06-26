@@ -31,8 +31,8 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
     {% else %}
         <div class="row" style="background-color: #37344f50; margin: 5px; padding: 5px;">
     {% endif %}
-    <h3 style="margin:5px">{{s.name}}</h3>
-    <h4 style="margin:5px">{{s.type}}</h4>
+    <h3>{{s.name}}</h3>
+    <h4>{{s.type}}</h4>
     <em>{{s.keywords | join: ", "}}</em>
     <details>
         <summary></summary>
@@ -43,9 +43,10 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
         {% if s.requires %}
             <p><em>Requires: </em>{{s.requires}}</p>
         {% endif %}
-        <p><strong>Effect: </strong>{{s.effect}}</p>
+        <p><strong>Effect</strong>
+        <br>{{s.effect}}</p>
         {% for t in s.threshold %}
-        <h5 style="margin:5px">Threshold {{t.hits}} </h5>
+        <h5>Threshold {{t.hits}} </h5>
         <p>{{t.effect}}</p>
         {% endfor %}
     </details>
