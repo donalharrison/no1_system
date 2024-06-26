@@ -22,21 +22,27 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 
 <section>
 
-<div style="background-color: ; margin: 5px;>
+<div style="background-color: ; margin: 5px;">
 
 {% for s in site.data.powers.spells %}
     {% assign i = forloop.index | modulo: 2 %}
     {% if i == 0 %}
-        <div style="background-color: #4b476650; margin: 5px;">
+        <div style="background-color: #4b476650; margin: 5px; padding: 5px;">
     {% else %}
-        <div class="row" style="background-color: #37344f50; margin: 5px;">
+        <div class="row" style="background-color: #37344f50; margin: 5px; padding: 5px;">
     {% endif %}
     <h3 style="margin:5px">{{s.name}}</h3>
     <h4 style="margin:5px">{{s.type}}</h4>
     <em>{{s.keywords | join: ", "}}</em>
     <details>
         <summary></summary>
-        <p><strong>Requires: </strong>{{s.requires}}</p>
+        {% assign j = s.max_ranks %}
+        {% for i in (1..j) %}
+            <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
+        {% endfor %}
+        {% if s.requires %}
+            <p><em>Requires: </em>{{s.requires}}</p>
+        {% endif %}
         <p><strong>Effect: </strong>{{s.effect}}</p>
         {% for t in s.threshold %}
         <h5 style="margin:5px">Threshold {{t.hits}} </h5>
