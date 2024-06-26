@@ -52,18 +52,17 @@ The Arcana's effects depend on how many rank you have invested.
                 <th style="width: 20%;">Rank</th>
                 <th>Effect</th>
             </tr>
-            {% for eff in asp.effects %}
-                {% for dtl in eff %}
-                    <tr>
-                    <td style="width: 20%;">
-                    {% assign k = dtl.rank %}
-                    {% for i in (1..k) %}
-                        <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
-                    {% endfor %}
-                    </td>
-                    <td>{{ dtl.effect }}</td>
-                    </tr>
+            {% assign eff = asp.effects %}
+            {% for dtl in eff %}
+                <tr>
+                <td style="width: 20%;">
+                {% assign k = dtl.rank %}
+                {% for i in (1..k) %}
+                    <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
                 {% endfor %}
+                </td>
+                <td>{{ dtl.effect }}</td>
+                </tr>
             {% endfor %}
         </table>
         </div>
