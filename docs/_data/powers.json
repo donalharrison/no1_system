@@ -63,7 +63,7 @@
                     "skill": "Inferno",
                     "type": "Ability",
                     "strain": 4,
-                    "effect": [
+                    "effects": [
                         {
                             "rank":3,
                             "effect": "Deal Hits to 1 target's Grit, ignoring all Defenses."
@@ -78,7 +78,7 @@
                     "skill": "Mori",
                     "type": "Trigger",
                     "strain": 5,
-                    "effect": [
+                    "effects": [
                         {
                             "rank": 3,
                             "effect": "When a target you can see in your Current Zone dies, restore Hits to your Grit."
@@ -89,7 +89,7 @@
                 "skill": "Plaga",
                 "type": "Ability",
                 "strain": 3,
-                "effect": [
+                "effects": [
                     {}
                 ]
             }
@@ -108,13 +108,13 @@
                 "skill": "Mori",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Vivus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -131,43 +131,43 @@
                 "skill": "Aether",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Tempor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Locus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mori",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nox",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Vivus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -184,19 +184,19 @@
                 "skill": "Bellor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Destroy",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nox",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -213,25 +213,25 @@
                 "skill": "Tempor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Locus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Luck",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mentis",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -248,19 +248,19 @@
                 "skill": "Bellor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mori",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Sanguis",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -277,19 +277,19 @@
                 "skill": "Bellor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Resist",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -306,13 +306,13 @@
                 "skill": "Tempor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nox",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -329,13 +329,13 @@
                 "skill": "Lux",
                 "type": null,
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Ordi",
                 "type": null,
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -352,13 +352,13 @@
                 "skill": "Bellor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Ordi",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -375,19 +375,19 @@
                 "skill": "Destroy",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mori",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Plaga",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -404,13 +404,13 @@
                 "skill": "Bellor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Ordi",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -427,7 +427,7 @@
                 "skill": "Nihil",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -444,19 +444,19 @@
                 "skill": "Intuit",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mentis",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Rime",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -473,13 +473,13 @@
                 "skill": "Luck",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Squall",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -496,19 +496,19 @@
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nox",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Ordi",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -525,19 +525,19 @@
                 "skill": "Locus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nihil",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nox",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -554,19 +554,19 @@
                 "skill": "Phylla",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Tellus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Vivus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -583,13 +583,13 @@
                 "skill": "Forma",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nihil",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -606,25 +606,25 @@
                 "skill": "Aether",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Locus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Nox",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -641,13 +641,13 @@
                 "skill": "Aether",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -664,13 +664,13 @@
                 "skill": "Aether",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mentis",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -687,19 +687,19 @@
                 "skill": "Squall",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Tempest",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Torrent",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -716,13 +716,13 @@
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Tellus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -739,19 +739,19 @@
                 "skill": "Bellor",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Destroy",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Mori",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -768,13 +768,13 @@
                 "skill": "Inferno",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Sanguis",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -791,19 +791,19 @@
                 "skill": "Mori",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Plaga",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Sanguis",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -820,19 +820,19 @@
                 "skill": "Destroy",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Tellus",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Torrent",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -849,19 +849,19 @@
                 "skill": "Lux",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Ordi",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             },
             {
                 "skill": "Plaga",
                 "type": "",
                 "strain": null,
-                "effect": [{}]
+                "effects": [{}]
             }
         ]
     },
@@ -878,7 +878,7 @@
                 "": {
                     "type": "",
                     "strain": null,
-                    "effect": [{}]
+                    "effects": [{}]
                 }
             }
         ]
