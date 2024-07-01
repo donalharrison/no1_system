@@ -272,7 +272,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
         <strong>Dangerous</strong>
     </summary>
     <p>Gain +1 rating in the <em>Dangerous</em> Trait.</p>
-        <<p><strong>>Species:</strong>
+        <p><em><strong>Species:</strong></em>
             <ul>
                 <li><strong>Dwarf &mdash; </strong>
                 </li>
@@ -310,7 +310,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
         <strong>Deft</strong>
     </summary>
     <p>Gain +1 rating in the <em>Deft</em> Trait.</p>
-    <p><strong>Species:</strong>
+    <p><em><strong>Species:</strong></em>
         <ul>
             <li><strong>Dragonkin &mdash; </strong>fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.</li>
             <li>
@@ -347,7 +347,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
         <strong>Savvy</strong>
     </summary>
     <p>Gain +1 rating in the <em>Savvy</em> Trait.</p>
-    <p><strong>Species:</strong>
+    <p><em><strong>Species:</strong></em>
         <ul>
             <li></li>
             <li></li>
@@ -360,7 +360,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
         <strong>Steady</strong>
     </summary>
     <p>Gain +1 rating in the <em>Steady</em> Trait.</p>
-    <p><strong>Species:</strong>
+    <p><em><strong>Species:</strong></em>
         <ul>
             <li></li>
             <li></li>
@@ -373,7 +373,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <strong>Uncanny</strong>
 </summary>
     <p>Gain +1 rating in the <em>Uncanny</em>> Trait.</p>
-    <p><strong>Species:</strong>
+    <p><em><strong>Species:</strong></em>
         <ul>
             <li></li>
             <li></li>
