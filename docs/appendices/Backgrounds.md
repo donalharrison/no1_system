@@ -3,10 +3,9 @@ layout: default
 title: Backgrounds
 name: Backgrounds
 has_children: false
-grand_parent: Characters
-parent: Character Creation
-permalink: /characters/char_creation/backgrounds/
-nav_order: 3
+parent: Appendices
+permalink: /appendices/backgrounds/
+nav_exclude: true
 ---
 
 # Backgrounds

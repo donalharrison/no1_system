@@ -26,10 +26,10 @@ When crafting your Thesis, consider the following:
 
 #### Examples of Theses
 
-- **"A stoic warrior seeking redemption for past mistakes, driven by a code of honor and duty."**
-- **"A curious scholar eager to uncover ancient secrets, guided by a thirst for knowledge and adventure."**
-- **"A cunning thief with a heart of gold, balancing a life of crime with a desire to protect the innocent."**
-- **"A cheerful bard who brings joy to others, hiding their own past tragedies behind a mask of humor."**
+- *"A stoic warrior seeking redemption for past mistakes, driven by a code of honor and duty."*
+- *"A curious scholar eager to uncover ancient secrets, guided by a thirst for knowledge and adventure."*
+- *"A cunning thief with a heart of gold, balancing a life of crime with a desire to protect the innocent."*
+- *"A cheerful bard who brings joy to others, hiding their own past tragedies behind a mask of humor."*
 
 #### Importance of the Thesis
 
@@ -44,112 +44,100 @@ The character theme expands on the Thesis, providing details, fleshing out perso
 ### Temperament
 The character's personality at a high-level.  Temperament does not capture all of the subtelties and nuances within the character's psyche, instead capturing the character's general tone or outlook.
 
-#### Ruthless
-You hold fast to one basic rule: get the job done. You've been called cold, calculating, and brutal. Your reputation for ruthless efficiency makes your fellows wary of you. But when failure is not an option, leaders go to you first.
-
-#### Haunted
-You are haunted by a past mistake that led to the suffering or death of innocents. This ghost from your past drives you to seek redemption, striving to right the wrongs and protect the innocent at all costs, even if it means putting yourself in harm's way.
-
-#### Loyalist
-You have unwavering loyalty to a cause, leader, or organization. This loyalty has defined your actions and decisions, sometimes putting you at odds with others who don't share your dedication. You will go to great lengths to support and defend your chosen allegiance.
-
-#### Vengeful
-Someone or something wronged you deeply in the past, and now your life is driven by a desire for vengeance. This burning need for retribution influences your every decision, often leading you down dark and dangerous paths. You will not rest until justice, or your version of it, is served.
-
-#### Idealist
-You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change. While some see you as a beacon of hope, others might view you as naive or impractical.
-
-#### Cynic
-Having seen the darker side of life, you no longer believe in the inherent goodness of people or institutions. Your cynicism makes you skeptical of others' motives and cautious in your actions. You rely on your sharp wit and keen perception to navigate through deceit and corruption.
-
-#### Protector
-You have a strong instinct to protect those who are weaker or in need. This protective nature often puts you in harm's way, as you are willing to sacrifice your own safety for the well-being of others. You are seen as a guardian and a champion by those you help.
-
-#### Visionary
-You have a unique and far-reaching vision that sets you apart from others. This vision drives you to pursue goals that others might find impossible or impractical. Your innovative thinking and determination can lead to great achievements, but also to isolation and misunderstanding.
-
-#### Outcast
-For reasons beyond your control, you were cast out from your community or family. This experience has made you resilient and self-reliant, but also wary of forming close ties. You constantly seek to prove your worth and find a place where you truly belong.
-
-#### Zealot
-You are fiercely devoted to a particular cause, religion, or ideology. This zealotry drives your actions and decisions, often leading you to extremes that others might shy away from. Your passion can inspire and rally others, but it can also make you inflexible and intolerant of differing views.
-
-#### Shadowed Past
-You have a mysterious or criminal past that you keep hidden from most people. This shadowed history has taught you valuable skills and lessons, but it also haunts you, as you fear the day it might catch up with you. You are constantly looking over your shoulder, ready to confront your past if necessary.
-
-#### Nomad
-You have spent most of your life wandering from place to place, never settling down for long. This nomadic lifestyle has made you adaptable and resourceful, but also rootless and longing for stability. You value freedom and new experiences above all else.
-
-#### Driven
-There is a particular goal or ambition that drives you relentlessly. Whether it's becoming the best at your craft, uncovering a great truth, or achieving power, this drive defines your actions. It gives you purpose and direction, but can also lead to obsession and burnout.
-
-#### Mentor
-You have a wealth of knowledge and experience, and you feel a strong duty to pass it on to others. This mentor role shapes your interactions, as you seek to guide and teach those around you. You are patient and wise, but can sometimes come across as overbearing or controlling.
-
-#### Paragon
-You strive to live by a strict code of ethics or morality, seeking to be an exemplar of virtue. This pursuit of perfection influences your every decision and action. While others admire your integrity, they may also find you rigid or uncompromising.
-
-### Temperament Options for Character Backgrounds
-
-#### Calm
-You maintain a serene and composed demeanor, even in the face of adversity. Your calmness helps you think clearly and make rational decisions, earning you the trust and respect of others. However, your detachment can sometimes make you seem aloof or indifferent.
-
-#### Energetic
-You are full of life and vitality, always ready to take action and tackle challenges head-on. Your enthusiasm and drive inspire those around you, but your high energy can sometimes come off as impulsive or overwhelming.
-
-#### Stoic
-You possess a steady and unflappable nature, enduring hardships without complaint. Your stoic attitude makes you a reliable figure in crises, but it can also make you seem distant or emotionally unavailable.
-
-#### Cheerful
-You have an optimistic and sunny disposition, always looking for the bright side of any situation. Your cheerfulness lifts the spirits of those around you, but some might find your relentless positivity naive or unrealistic.
-
-#### Brooding
-You are introspective and often lost in thought, with a tendency to focus on the darker aspects of life. Your brooding nature gives you depth and insight, but it can also make you seem moody or pessimistic.
-
-#### Hot-Tempered
-You are quick to anger and have a fiery personality. Your passion and intensity can be motivating and compelling, but your temper can lead to conflicts and rash decisions.
-
-#### Compassionate
-You are deeply empathetic and caring, always seeking to help and support others. Your compassion makes you a beloved figure, but it can also lead you to neglect your own needs or be taken advantage of by others.
-
-#### Cynical
-You have a skeptical and distrustful view of the world, always questioning others' motives. Your cynicism makes you shrewd and hard to deceive, but it can also make you seem jaded or negative.
-
-#### Determined
-You are resolute and unwavering in your goals, never giving up until you achieve what you set out to do. Your determination is inspiring, but your single-mindedness can sometimes make you inflexible or stubborn.
-
-#### Playful
-You have a lighthearted and mischievous nature, always looking for fun and humor in life. Your playful attitude makes you charming and entertaining, but some might find you frivolous or unreliable.
-
-#### Reserved
-You are quiet and introspective, preferring to observe and reflect rather than speak out. Your reserved nature makes you a good listener and thoughtful companion, but it can also make you seem distant or unapproachable.
+<detail>
+<summary>
+#### Adventurous
+You crave excitement and new experiences, always seeking out the next adventure. Your adventurous spirit makes you bold and courageous, but it can also lead you into risky situations or make you restless.
+</summary>
+</detail>
 
 #### Ambitious
 You have a strong desire to succeed and achieve greatness. Your ambition drives you to constantly strive for improvement and excellence, but it can also lead to ruthless behavior or burnout.
 
-#### Loyal
-You are fiercely devoted to your friends, family, and causes. Your loyalty makes you a trusted ally and dependable companion, but it can also blind you to others' faults or make you inflexible.
+#### Brooding
+You are introspective and often lost in thought, with a tendency to focus on the darker aspects of life. Your brooding nature gives you depth and insight, but it can also make you seem moody or pessimistic.
 
-#### Adventurous
-You crave excitement and new experiences, always seeking out the next adventure. Your adventurous spirit makes you bold and courageous, but it can also lead you into risky situations or make you restless.
+#### Calm
+You maintain a serene and composed demeanor, even in the face of adversity. Your calmness helps you think clearly and make rational decisions, earning you the trust and respect of others. However, your detachment can sometimes make you seem aloof or indifferent.
 
-#### Pragmatic
-You have a practical and realistic approach to life, always looking for the most efficient solutions. Your pragmatism makes you reliable and effective, but it can also make you seem cold or unfeeling.
+#### Cheerful
+You have an optimistic and sunny disposition, always looking for the bright side of any situation. Your cheerfulness lifts the spirits of those around you, but some might find your relentless positivity naive or unrealistic.
 
-#### Gentle
-You are kind-hearted and mild-mannered, always treating others with kindness and respect. Your gentle nature makes you a calming presence, but it can also make you seem weak or easily taken advantage of.
+#### Compassionate
+You are deeply empathetic and caring, always seeking to help and support others. Your compassion makes you a beloved figure, but it can also lead you to neglect your own needs or be taken advantage of by others.
 
 #### Confident
 You have a strong belief in your abilities and judgments, always carrying yourself with assurance. Your confidence inspires others and helps you take decisive action, but it can also come off as arrogance.
 
+#### Cynical
+You have a skeptical and distrustful view of the world, always questioning others' motives. Your cynicism makes you shrewd and hard to deceive, but it can also make you seem jaded or negative.
+Having seen the darker side of life, you no longer believe in the inherent goodness of people or institutions. Your cynicism makes you skeptical of others' motives and cautious in your actions. You rely on your sharp wit and keen perception to navigate through deceit and corruption.
+
+#### Determined
+You are resolute and unwavering in your goals, never giving up until you achieve what you set out to do. Your determination is inspiring, but your single-mindedness can sometimes make you inflexible or stubborn.
+
+#### Driven
+There is a particular goal or ambition that drives you relentlessly. Whether it's becoming the best at your craft, uncovering a great truth, or achieving power, this drive defines your actions. It gives you purpose and direction, but can also lead to obsession and burnout.
+
+#### Energetic
+You are full of life and vitality, always ready to take action and tackle challenges head-on. Your enthusiasm and drive inspire those around you, but your high energy can sometimes come off as impulsive or overwhelming.
+
+#### Gentle
+You are kind-hearted and mild-mannered, always treating others with kindness and respect. Your gentle nature makes you a calming presence, but it can also make you seem weak or easily taken advantage of.
+
+#### Haunted
+You are haunted by a past mistake that led to the suffering or death of innocents. This ghost from your past drives you to seek redemption, striving to right the wrongs and protect the innocent at all costs, even if it means putting yourself in harm's way.
+
+#### Hot-Tempered
+You are quick to anger and have a fiery personality. Your passion and intensity can be motivating and compelling, but your temper can lead to conflicts and rash decisions.
+
+#### Idealistic
+You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality.. While some see you as a beacon of hope, others might view you as naive or impractical.
+
 #### Inquisitive
 You are naturally curious and always seeking to learn more about the world around you. Your inquisitive nature drives you to explore and discover, but it can also make you nosy or distractible.
+
+#### Loyal
+You are fiercely devoted to your friends, family, and causes. Your loyalty makes you a trusted ally and dependable companion, but it can also blind you to others' faults or make you inflexible.
+
+#### Mentor
+You have a wealth of knowledge and experience, and you feel a strong duty to pass it on to others. This mentor role shapes your interactions, as you seek to guide and teach those around you. You are patient and wise, but can sometimes come across as overbearing or controlling.
+
+#### Outcast
+For reasons beyond your control, you were cast out from your community or family. This experience has made you resilient and self-reliant, but also wary of forming close ties. You constantly seek to prove your worth and find a place where you truly belong.
+
+#### Paragon
+You strive to live by a strict code of ethics or morality, seeking to be an exemplar of virtue. This pursuit of perfection influences your every decision and action. While others admire your integrity, they may also find you rigid or uncompromising.
 
 #### Pessimistic
 You tend to expect the worst and prepare for negative outcomes. Your pessimism makes you cautious and prepared for adversity, but it can also dampen morale and make you seem defeatist.
 
-#### Idealistic
-You hold strong beliefs in how things should be and strive to live up to those ideals. Your idealism drives you to make the world a better place, but it can also make you inflexible or disappointed by reality.
+#### Playful
+You have a lighthearted and mischievous nature, always looking for fun and humor in life. Your playful attitude makes you charming and entertaining, but some might find you frivolous or unreliable.
+
+#### Pragmatic
+You have a practical and realistic approach to life, always looking for the most efficient solutions. Your pragmatism makes you reliable and effective, but it can also make you seem cold or unfeeling.
+
+#### Protector
+You have a strong instinct to protect those who are weaker or in need. This protective nature often puts you in harm's way, as you are willing to sacrifice your own safety for the well-being of others. You are seen as a guardian and a champion by those you help.
+
+#### Reserved
+You are quiet and introspective, preferring to observe and reflect rather than speak out. Your reserved nature makes you a good listener and thoughtful companion, but it can also make you seem distant or unapproachable.
+
+#### Ruthless
+You hold fast to one basic rule: get the job done. You've been called cold, calculating, and brutal. Your reputation for ruthless efficiency makes your fellows wary of you. But when failure is not an option, leaders go to you first.
+
+#### Stoic
+You possess a steady and unflappable nature, enduring hardships without complaint. Your stoic attitude makes you a reliable figure in crises, but it can also make you seem distant or emotionally unavailable.
+
+#### Vengeful
+Someone or something wronged you deeply in the past, and now your life is driven by a desire for vengeance. This burning need for retribution influences your every decision, often leading you down dark and dangerous paths. You will not rest until justice, or your version of it, is served.
+
+#### Visionary
+You have a unique and far-reaching vision that sets you apart from others. This vision drives you to pursue goals that others might find impossible or impractical. Your innovative thinking and determination can lead to great achievements, but also to isolation and misunderstanding.
+
+#### Zealous
+You are fiercely devoted to a particular cause, religion, or ideology. This zealotry drives your actions and decisions, often leading you to extremes that others might shy away from. Your passion can inspire and rally others, but it can also make you inflexible and intolerant of differing views.
 
 ### Heritage
 Your character's Heritage captures the heritable traits of the lineage and determines your species ( and subspecies where applicable).  Each Heritage is associated with one of the core Traits, granting a bonus rating in that Trait.  Once you've chosen your Heritage Trait, you can select a species from the respective Trait, gaining additional bonuses as specified.
@@ -245,6 +233,7 @@ You are driven by a thirst for understanding and learning. This motivation leads
 
 #### Legacy
 You are driven by a desire to leave a lasting impact on the world. This motivation pushes you to create, build, or achieve something that will be remembered long after you are gone, but it can also make you obsessive or disconnected from the present.
+
 #### Love
 The desire to protect and care for those you love is your primary motivation. This drives you to acts of great compassion and sacrifice, but it can also make you vulnerable or overly protective.
 
@@ -271,80 +260,80 @@ The pursuit of riches and material gain is your primary goal. This motivation pu
 
 ### Experience
 
-#### Hero
-Early in your life, you found yourself facing an overwhelming challenge. You risked your own life to save others and overcome despite the impossible odds. Your bravery and heroism have earned you recognition in some form.
-
-#### Tragedy
-Your home or community was destroyed in a cataclysmic event, leaving you one of the few survivors. The trauma of this loss has made you resilient and determined, always ready to face new challenges and protect what little you have left.
-
-#### Sole Survivor
-Trapped in an extreme survival situation, you had to overcome physical torments and/or psychological stresses that would have broken most people. You survived while  those around you fell, and now you alone are left to tell the tale.
-
-#### Lost Love
-You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.
-
-#### Betrayed
-At some point in your past, someone you trusted betrayed you. This betrayal has made you wary and distrustful of others, always looking for hidden motives and preparing for the worst. You rely on your own strength and cunning to navigate the dangerous world around you.
-
-#### Military Service
-You served in a formal military organization, gaining combat experience, discipline, and tactical knowledge. This experience has made you proficient in warfare and strategy, but it also comes with the memories of battles fought and comrades lost.
-
-#### Guild Membership
-You were a member of a professional guild, learning specialized skills and trade secrets. This experience has provided you with valuable connections and expertise in a particular craft or profession, but it also means you may have obligations or rivalries within the guild.
-
-#### Crime
-You have a history of engaging in criminal activities, whether as a thief, smuggler, or enforcer. This experience has made you street-smart and adept at underhanded tactics, but it also means you have a past that could catch up with you and enemies who may seek revenge.
-
-#### War
-You lived through a major conflict, either as a soldier, civilian, or resistance fighter. This experience has shaped your views on violence and survival, leaving you with scars both physical and psychological, as well as a deep understanding of the horrors of war.
-
-#### Civilian Life
-You lived a relatively peaceful and uneventful life as a civilian, focusing on day-to-day activities and relationships. This experience has given you a strong sense of community and practical skills, but it might also make you less prepared for the dangers of adventuring.
-
-#### Tragedy
-You experienced a significant personal tragedy, such as the loss of loved ones, a natural disaster, or a devastating betrayal. This experience has forged your resilience and shaped your motivations, driving you to overcome the pain of your past.
-
 #### Academic Study
 You spent years immersed in academic pursuits, studying various fields of knowledge and honing your intellect. This experience has made you well-educated and analytical, but it can also make you somewhat detached from the practical realities of life.
 
-#### Merchant Trade
-You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.
-
-#### Exploration
-You have a background in exploring unknown territories, mapping uncharted lands, and discovering hidden secrets. This experience has given you a sense of adventure and keen survival instincts, but it also means you've faced countless dangers and unknown threats.
-
-#### Religious Service
-You served in a religious order, dedicating your life to spiritual practices, rituals, and helping others. This experience has given you a deep sense of faith and moral guidance, but it can also mean you've encountered fanaticism or internal conflicts within the order.
-
-#### Noble Court
-You spent time in the courts of nobility, learning the intricacies of politics, diplomacy, and courtly manners. This experience has made you skilled in social navigation and intrigue, but it can also mean you have powerful enemies or political rivals.
-
-#### Artisan Craft
-You honed your skills as an artisan, creating beautiful and functional works of art or tools. This experience has given you a deep appreciation for craftsmanship and detail, but it might also mean you have little experience with combat or adventuring.
-
-#### Mercenary Work
-You worked as a mercenary, taking on dangerous jobs for pay and living a life of constant risk. This experience has made you tough, adaptable, and skilled in combat, but it also means you have a reputation that can attract trouble and a past filled with violent encounters.
-
-#### Healer
-You trained and worked as a healer, whether through magical means or traditional medicine. This experience has given you extensive knowledge of healing practices and a compassionate outlook, but it can also mean you've seen much suffering and loss.
-
-#### Political Activism
+#### Activism
 You were involved in a political movement or rebellion, fighting for a cause you believed in. This experience has given you a strong sense of justice and strategic thinking, but it also means you have enemies who oppose your ideals and possibly a bounty on your head.
-
-#### Ship Crew
-You served as a member of a ship's crew, whether on a merchant vessel, pirate ship, or navy. This experience has given you knowledge of seamanship, navigation, and life at sea, but it also means you might have faced shipwrecks, mutinies, or naval battles.
-
-#### Performance
-You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.
 
 #### Apprenticeship
 You spent years as an apprentice, learning a trade or craft from a master. This experience has given you a strong foundation in a specific skill and a mentor you can rely on, but it also means you might be expected to take over the business or uphold a legacy.
 
+#### Artisan Craft
+You honed your skills as an artisan, creating beautiful and functional works of art or tools. This experience has given you a deep appreciation for craftsmanship and detail, but it might also mean you have little experience with combat or adventuring.
+
+#### Betrayed
+At some point in your past, someone you trusted betrayed you. This betrayal has made you wary and distrustful of others, always looking for hidden motives and preparing for the worst. You rely on your own strength and cunning to navigate the dangerous world around you.
+
+#### Civilian Life
+You lived a relatively peaceful and uneventful life as a civilian, focusing on day-to-day activities and relationships. This experience has given you a strong sense of community and practical skills, but it might also make you less prepared for the dangers of adventuring.
+
+#### Crime
+You have a history of engaging in criminal activities, whether as a thief, smuggler, or enforcer. This experience has made you street-smart and adept at underhanded tactics, but it also means you have a past that could catch up with you and enemies who may seek revenge.
+
+#### Exploration
+You have a background in exploring unknown territories, mapping uncharted lands, and discovering hidden secrets. This experience has given you a sense of adventure and keen survival instincts, but it also means you've faced countless dangers and unknown threats.
+
+#### Guildsman
+You were a member of a professional guild, learning specialized skills and trade secrets. This experience has provided you with valuable connections and expertise in a particular craft or profession, but it also means you may have obligations or rivalries within the guild.
+
+#### Mender
+You trained and worked as a healer, whether through magical means or traditional medicine. This experience has given you extensive knowledge of healing practices and a compassionate outlook, but it can also mean you've seen much suffering and loss.
+
+#### Hero
+Early in your life, you found yourself facing an overwhelming challenge. You risked your own life to save others and overcome despite the impossible odds. Your bravery and heroism have earned you recognition in some form.
+
+#### Intelligencer
+You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.
+
+#### Lost Love
+You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.
+
+#### Merchant Trade
+You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.
+
+#### Mercenary
+You worked as a mercenary, taking on dangerous jobs for pay and living a life of constant risk. This experience has made you tough, adaptable, and skilled in combat, but it also means you have a reputation that can attract trouble and a past filled with violent encounters.
+
+#### Military Service
+You served in a formal military organization, gaining combat experience, discipline, and tactical knowledge. This experience has made you proficient in warfare and strategy, but it also comes with the memories of battles fought and comrades lost.
+
+#### Noblility
+You spent time in the courts of nobility, learning the intricacies of politics, diplomacy, and courtly manners. This experience has made you skilled in social navigation and intrigue, but it can also mean you have powerful enemies or political rivals.
+
+#### Nomad
+You have spent most of your life wandering from place to place, never settling down for long. This nomadic lifestyle has made you adaptable and resourceful, but also rootless and longing for stability. You value freedom and new experiences above all else.
+
+#### Performance
+You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.
+
+#### Religious Service
+You served in a religious order, dedicating your life to spiritual practices, rituals, and helping others. This experience has given you a deep sense of faith and moral guidance, but it can also mean you've encountered fanaticism or internal conflicts within the order.
+
+#### Shadowed Past
+You have a mysterious or criminal past that you keep hidden from most people. This shadowed history has taught you valuable skills and lessons, but it also haunts you, as you fear the day it might catch up with you. You are constantly looking over your shoulder, ready to confront your past if necessary.
+
+#### Ship Crew
+You served as a member of a ship's crew, whether on a merchant vessel, pirate ship, or navy. This experience has given you knowledge of seamanship, navigation, and life at sea, but it also means you might have faced shipwrecks, mutinies, or naval battles.
+
 #### Survivor
 You survived a catastrophic event that few others did, such as a plague, a massacre, or a natural disaster. This experience has made you resilient and resourceful, but it also means you carry the weight of trauma and loss.
 
-#### Spy
-You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.
+#### Tragedy
+You experienced a significant personal tragedy, such as the loss of loved ones, a natural disaster, or a cataclysmic event. This experience has forged your resilience and shaped your motivations, driving you to overcome the pain of your past and protect what little you have left.
+
+#### War
+You lived through a major conflict, either as a soldier, civilian, or resistance fighter. This experience has shaped your views on violence and survival, leaving you with scars both physical and psychological, as well as a deep understanding of the horrors of war.
 
 ## Traits
 

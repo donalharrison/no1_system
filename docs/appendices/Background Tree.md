@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Background tree
-has_children: true
-permalink: /characters/background_tree/
+has_children: false
+parent: Appendices
+permalink: /appendices/background_tree/
 nav_exclude: true
 ---
 
