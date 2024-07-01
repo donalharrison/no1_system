@@ -276,9 +276,9 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             <ul>
                 <li><strong>Dwarf -- </strong>
                 </li>
-                <li><strong>Devilspawn -- <strong>
+                <li><strong>Devilspawn -- </strong>
                 </li>
-                <li><strong>Dragonkin<li>
+                <li><strong>Dragonkin -- </strong></li>
                 <li><strong>Elf -- </strong>
                     <br><em>Dangerous Subspecies</em>:
                     <ul>
