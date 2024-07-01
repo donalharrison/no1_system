@@ -271,33 +271,36 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <summary>
         <strong>Dangerous</strong>
     </summary>
-    <p>Gain +1 rating in the *Dangerous* Trait.</p>
-        <p><strong>Species:</strong>
+    <p>Gain +1 rating in the <em>Dangerous</em> Trait.</p>
+        <<p><strong>>Species:</strong>
             <ul>
-                <li><strong>Dwarf -- </strong>
+                <li><strong>Dwarf &mdash; </strong>
                 </li>
-                <li><strong>Devilspawn -- </strong>
+                <li><strong>Devilspawn &mdash; Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.</strong>
                 </li>
-                <li><strong>Dragonkin -- </strong></li>
-                <li><strong>Elf -- </strong>
+                <li>
+                    <strong>Dragonkin &mdash;  fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.</strong>
+                </li>
+                <li>
+                    <strong>Elf &mdash; </strong> you travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
                     <br><em>Dangerous Subspecies</em>:
                     <ul>
-                        <li><strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, harness the power of the Spirits Form, communing with ancient spirits, practicing forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
-                        <li><strong>Irun-ar <em>(Dune Elf)</em>:</strong> Dune Elves, the Irun-ar, once of the Oror realms, possess an unmatched endurance and adaptability in harsh desert environments. They command a deep understanding of desert life and use sand,  wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
-                        <li><strong>Ithindi <em>(Grey Elf)</em>:</strong> Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</li>
-                        <li><strong>Hravani em>(Wild Elf)</em>:</strong> Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.</li>
+                        <li><strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
+                        <li><strong>Irun-ar <em>(Dune Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                        <li><strong>Ithindi <em>(Grey Elf)</em>:</strong> Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</li>
+                        <li><strong>Hravani <em>(Wild Elf)</em>:</strong> Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.</li>
                     </ul>
                 </li>
-                <li><strong>Felinar -- </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
+                <li><strong>Felinar &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
                 <br><em>Dangerous Subspecies</em>:
                     <ul>
                         <li><strong>Leino:</strong> Lion men and women, known for their wisdom and warrior spirit.</li>
                         <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
                     </ul>
                 </li>
-                <li><strong>Human -- </strong></li>
-                <li><strong>Orc -- </strong></li>
-                <li><strong>Quarry-Breed -- </strong></li>
+                <li><strong>Human &mdash; </strong></li>
+                <li><strong>Orc &mdash; </strong></li>
+                <li><strong>Quarry-Breed <em>(Half-orc)</em>&mdash; </strong> Bred by the Elves to be hunted for sport, your people are feared for their brutal nature.  Other species will avoid and not understand you.  Elves will despise you.</li>
             </ul>
         </p>
 </details>
@@ -306,10 +309,34 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <summary>
         <strong>Deft</strong>
     </summary>
-    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p>Gain +1 rating in the <em>Deft</em> Trait.</p>
     <p><strong>Species:</strong>
         <ul>
-            <li></li>
+            <li><strong>Dragonkin &mdash; </strong>fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.</li>
+            <li>
+                <strong>Elf &mdash; </strong> you travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
+                <br><em>Dangerous Subspecies</em>:
+                    <ul>
+                        <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
+                        <li><strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</li>
+                        <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
+                        <li><strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</li>
+                        <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
+                        <li><strong>Erynor <em>(Wood Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Felinar &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
+                    <br><em>Dangerous Subspecies</em>:
+                        <ul>
+                            <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
+                            <li><strong>Lynari:</strong> A mix of puma, panther, jaguar, and leopard traits, agile and stealthy.</li>
+                        </ul>
+                </li>
+            <li><strong>Goblin &mdash; </strong></li>
+            <li><strong>Gnome &mdash; </strong></li>
+            <li><strong>Half-elf &mdash; </strong></li>
+            <li><strong>Skiv &mdash; </strong></li>
             <li></li>
         </ul>
     </p>
@@ -319,7 +346,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <summary>
         <strong>Savvy</strong>
     </summary>
-    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p>Gain +1 rating in the <em>Savvy</em> Trait.</p>
     <p><strong>Species:</strong>
         <ul>
             <li></li>
@@ -332,7 +359,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <summary>
         <strong>Steady</strong>
     </summary>
-    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p>Gain +1 rating in the <em>Steady</em> Trait.</p>
     <p><strong>Species:</strong>
         <ul>
             <li></li>
@@ -345,7 +372,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <summary>
 <strong>Uncanny</strong>
 </summary>
-    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p>Gain +1 rating in the <em>Uncanny</em>> Trait.</p>
     <p><strong>Species:</strong>
         <ul>
             <li></li>
@@ -830,6 +857,9 @@ Players choose from (or roll if you're not a coward) the following arrays to app
 
 #### Spend Milestones on Training
 Invest your starting Milestone(s) and any gained from your background on Training Ranks, granting you Talents to deploy in your pursuits.
+
+
+## Targets
 
 
 <style>
