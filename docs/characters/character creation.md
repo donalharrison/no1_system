@@ -44,6 +44,8 @@ The character theme expands on the Thesis, providing details, fleshing out perso
 ### Temperament
 The character's personality at a high-level.  Temperament does not capture all of the subtelties and nuances within the character's psyche, instead capturing the character's general tone or outlook.
 
+#### Choose two (2)
+
 <div class='row'>
 <div class='column'>
 
@@ -265,6 +267,8 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 </div>
 
 ### Heritage
+
+#### Choose one (1)
 Your character's Heritage captures the heritable traits of the lineage and determines your species ( and subspecies where applicable).  Each Heritage is associated with one of the core Traits, granting a bonus rating in that Trait.  Once you've chosen your Heritage Trait, you can select a species from the respective Trait, gaining additional bonuses as specified.
 
 <details>
@@ -489,6 +493,8 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 
 ### Esteem
 
+#### Choose one (1)
+Your Esteem describes your social standing and the perceptions have of you that can influence how you interact with the world and how the world responds to them.
 
 <div class='row'>
 <div class='column'>
@@ -598,6 +604,8 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 </div>
 
 ### Motivation
+#### Choose three (3)
+Motivations are the driving forces that can shape your character's goals, decisions, and interactions, adding depth and direction to their stories.
 
 <div class='row'>
 <div class='column'>
@@ -749,6 +757,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 </div>
 
 ### Experience
+#### Choose two (2)
 
 <div class='row'>
 <div class='column'>
@@ -952,12 +961,16 @@ Players choose from (or roll if you're not a coward) the following arrays to app
 
 **6:** 2 - 2 - 1 - 1 - 1
 
+### Choose Starting Skills
+Your character gains one (1) Skill Rank in a number of Skills of your choice equal to your rating in the associated Trait.
+
 ### Choose Your Primary Defense
 **Reflexes:** Dangerous + Deft + Savvy
 
 **Nerve:** Savvy + Steady + Uncanny
 
 **Vigor:** Dangerous + Steady + Uncanny
+
 
 ## Training
 
