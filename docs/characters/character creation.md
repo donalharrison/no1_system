@@ -265,41 +265,93 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 </div>
 
 ### Heritage
-Your character's Heritage captures the heritable traits of the lineage and determines your species ( and subspecies where applicable).  Each Heritage is associated with one of the core Traits, granting a bonus rating in that Trait.  Once you've chosen your Heritage Trait, you can select a species from the respective Trait, gaining additional bonuses as specified.</p>
+Your character's Heritage captures the heritable traits of the lineage and determines your species ( and subspecies where applicable).  Each Heritage is associated with one of the core Traits, granting a bonus rating in that Trait.  Once you've chosen your Heritage Trait, you can select a species from the respective Trait, gaining additional bonuses as specified.
 
 <details>
-<summary>
-<strong>Dangerous</strong>
-</summary>
-<p></p>
+    <summary>
+        <strong>Dangerous</strong>
+    </summary>
+    <p>Gain +1 rating in the *Dangerous* Trait.</p>
+        <p><strong>Species:</strong>
+            <ul>
+                <li><strong>Dwarf -- </strong>
+                </li>
+                <li><strong>Devilspawn -- <strong>
+                </li>
+                <li><strong>Dragonkin<li>
+                <li><strong>Elf -- </strong>
+                    <br><em>Dangerous Subspecies</em>:
+                    <ul>
+                        <li><strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, harness the power of the Spirits Form, communing with ancient spirits, practicing forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
+                        <li><strong>Irun-ar <em>(Dune Elf)</em>:</strong> Dune Elves, the Irun-ar, once of the Oror realms, possess an unmatched endurance and adaptability in harsh desert environments. They command a deep understanding of desert life and use sand,  wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                        <li><strong>Ithindi <em>(Grey Elf)</em>:</strong> Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</li>
+                        <li><strong>Hravani em>(Wild Elf)</em>:</strong> Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.</li>
+                    </ul>
+                </li>
+                <li><strong>Felinar -- </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
+                <br><em>Dangerous Subspecies</em>:
+                    <ul>
+                        <li><strong>Leino:</strong> Lion men and women, known for their wisdom and warrior spirit.</li>
+                        <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
+                    </ul>
+                </li>
+                <li><strong>Human -- </strong></li>
+                <li><strong>Orc -- </strong></li>
+                <li><strong>Quarry-Breed -- </strong></li>
+            </ul>
+        </p>
 </details>
 
 <details>
-<summary>
-<strong>Deft</strong>
-</summary>
-<p></p>
+    <summary>
+        <strong>Deft</strong>
+    </summary>
+    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p><strong>Species:</strong>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </p>
 </details>
 
 <details>
-<summary>
-<strong>Savvy</strong>
-</summary>
-<p></p>
+    <summary>
+        <strong>Savvy</strong>
+    </summary>
+    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p><strong>Species:</strong>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </p>
 </details>
 
 <details>
-<summary>
-<strong>Steady</strong>
-</summary>
-<p></p>
+    <summary>
+        <strong>Steady</strong>
+    </summary>
+    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p><strong>Species:</strong>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </p>
 </details>
 
 <details>
 <summary>
 <strong>Uncanny</strong>
 </summary>
-<p></p>
+    <p>Gain +1 rating in the *Deft* Trait.</p>
+    <p><strong>Species:</strong>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </p>
 </details>
 
 ### Esteem
@@ -413,7 +465,6 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 </div>
 
 ### Motivation
-
 
 <div class='row'>
 <div class='column'>
@@ -653,15 +704,15 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <p>You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.</p>
 </details>
 
-</div>
-<div class='column'>
-
 <details>
 <summary>
 <strong>Lost Love</strong>
 </summary>
 <p>You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.</p>
 </details>
+
+</div>
+<div class='column'>
 
 <details>
 <summary>
