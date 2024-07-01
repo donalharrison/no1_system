@@ -4,8 +4,8 @@ title: Species
 name: Species
 has_children: false
 grand_parent: Characters
-parent: Character Creation
-permalink: /characters/char_creation/species
+parent: Appendices
+permalink: /appendices/species
 nav_order: 1
 ---
 

@@ -44,6 +44,9 @@ The character theme expands on the Thesis, providing details, fleshing out perso
 ### Temperament
 The character's personality at a high-level.  Temperament does not capture all of the subtelties and nuances within the character's psyche, instead capturing the character's general tone or outlook.
 
+<div class='row'>
+<div class='column'>
+
 <details>
 <summary>
 <strong>Adventurous</strong>
@@ -150,6 +153,9 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <p>You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality.. While some see you as a beacon of hope, others might view you as naive or impractical.</p>
 </details>
 
+</div>
+<div class='column'>
+
 <details>
 <summary>
 <strong>Inquisitive</strong>
@@ -255,6 +261,9 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <p>You are fiercely devoted to a particular cause, religion, or ideology. This zealotry drives your actions and decisions, often leading you to extremes that others might shy away from. Your passion can inspire and rally others, but it can also make you inflexible and intolerant of differing views.</p>
 </details>
 
+</div>
+</div>
+
 ### Heritage
 Your character's Heritage captures the heritable traits of the lineage and determines your species ( and subspecies where applicable).  Each Heritage is associated with one of the core Traits, granting a bonus rating in that Trait.  Once you've chosen your Heritage Trait, you can select a species from the respective Trait, gaining additional bonuses as specified.</p>
 
@@ -294,6 +303,10 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 </details>
 
 ### Esteem
+
+
+<div class='row'>
+<div class='column'>
 
 <details>
 <summary>
@@ -344,6 +357,9 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <p>You actively maintain a hidden identity, concealing your true nature or past. This secretive approach lets you operate under the radar, gather information unnoticed, and protect yourself from those who might seek you out.</p>
 </details>
 
+</div>
+<div class='column'>
+
 <details>
 <summary>
 <strong>Mysterious</strong>
@@ -393,7 +409,14 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <p>Your name is synonymous with scandal and controversy. Whether through personal indiscretions, public failures, or shocking actions, your reputation has been marred by gossip and scandal. This notoriety can make social interactions challenging, but it can also make you a topic of interest.</p>
 </details>
 
+</div>
+</div>
+
 ### Motivation
+
+
+<div class='row'>
+<div class='column'>
 
 <details>
 <summary>
@@ -465,6 +488,9 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <p>You have a strong sense of right and wrong and are motivated to uphold justice and fight against wrongdoing. This motivation pushes you to protect the innocent and punish the guilty, but it can also make you inflexible or judgmental.</p>
 </details>
 
+</div>
+<div class='column'>
+
 <details>
 <summary>
 <strong>Knowledge</strong>
@@ -535,7 +561,13 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <p>The pursuit of riches and material gain is your primary goal. This motivation pushes you to seek out profitable opportunities and take risks for financial gain, but it can also make you greedy or unscrupulous.</p>
 </details>
 
+</div>
+</div>
+
 ### Experience
+
+<div class='row'>
+<div class='column'>
 
 <details>
 <summary>
@@ -620,6 +652,9 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 </summary>
 <p>You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.</p>
 </details>
+
+</div>
+<div class='column'>
 
 <details>
 <summary>
@@ -712,6 +747,9 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <p>You lived through a major conflict, either as a soldier, civilian, or resistance fighter. This experience has shaped your views on violence and survival, leaving you with scars both physical and psychological, as well as a deep understanding of the horrors of war.</p>
 </details>
 
+</div>
+</div>
+
 ## Traits
 
 ### Choose (or Roll) Trait Array
@@ -741,3 +779,14 @@ Players choose from (or roll if you're not a coward) the following arrays to app
 
 #### Spend Milestones on Training
 Invest your starting Milestone(s) and any gained from your background on Training Ranks, granting you Talents to deploy in your pursuits.
+
+
+<style>
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 50%;
+    }
+</style>
