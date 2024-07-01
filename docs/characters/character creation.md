@@ -47,212 +47,212 @@ The character's personality at a high-level.  Temperament does not capture all o
 <details>
 <summary>
 <h4>Adventurous</h4>
-<p>You crave excitement and new experiences, always seeking out the next adventure. Your adventurous spirit makes you bold and courageous, but it can also lead you into risky situations or make you restless.</p>
 </summary>
+<p>You crave excitement and new experiences, always seeking out the next adventure. Your adventurous spirit makes you bold and courageous, but it can also lead you into risky situations or make you restless.</p>
 </details>
 
 <details>
 <summary>
 <h4>Ambitious</h4>
-<p>You have a strong desire to succeed and achieve greatness. Your ambition drives you to constantly strive for improvement and excellence, but it can also lead to ruthless behavior or burnout.</p>
 </summary>
+<p>You have a strong desire to succeed and achieve greatness. Your ambition drives you to constantly strive for improvement and excellence, but it can also lead to ruthless behavior or burnout.</p>
 </details>
 
 <details>
 <summary>
 <h4>Brooding</h4>
-<p>You are introspective and often lost in thought, with a tendency to focus on the darker aspects of life. Your brooding nature gives you depth and insight, but it can also make you seem moody or pessimistic.</p>
 </summary>
+<p>You are introspective and often lost in thought, with a tendency to focus on the darker aspects of life. Your brooding nature gives you depth and insight, but it can also make you seem moody or pessimistic.</p>
 </details>
 
 <details>
 <summary>
 <h4>Calm</h4>
-<p>You maintain a serene and composed demeanor, even in the face of adversity. Your calmness helps you think clearly and make rational decisions, earning you the trust and respect of others. However, your detachment can sometimes make you seem aloof or indifferent.</p>
 </summary>
+<p>You maintain a serene and composed demeanor, even in the face of adversity. Your calmness helps you think clearly and make rational decisions, earning you the trust and respect of others. However, your detachment can sometimes make you seem aloof or indifferent.</p>
 </details>
 
 <details>
 <summary>
 <h4>Cheerful</h4>
-<p>You have an optimistic and sunny disposition, always looking for the bright side of any situation. Your cheerfulness lifts the spirits of those around you, but some might find your relentless positivity naive or unrealistic.</p>
 </summary>
+<p>You have an optimistic and sunny disposition, always looking for the bright side of any situation. Your cheerfulness lifts the spirits of those around you, but some might find your relentless positivity naive or unrealistic.</p>
 </details>
 
 <details>
 <summary>
 <h4>Compassionate</h4>
-<p>You are deeply empathetic and caring, always seeking to help and support others. Your compassion makes you a beloved figure, but it can also lead you to neglect your own needs or be taken advantage of by others.</p>
 </summary>
+<p>You are deeply empathetic and caring, always seeking to help and support others. Your compassion makes you a beloved figure, but it can also lead you to neglect your own needs or be taken advantage of by others.</p>
 </details>
 
 <details>
 <summary>
 <h4>Confident</h4>
-<p>You have a strong belief in your abilities and judgments, always carrying yourself with assurance. Your confidence inspires others and helps you take decisive action, but it can also come off as arrogance.</p>
 </summary>
+<p>You have a strong belief in your abilities and judgments, always carrying yourself with assurance. Your confidence inspires others and helps you take decisive action, but it can also come off as arrogance.</p>
 </details>
 
 <details>
 <summary>
 <h4>Cynical</h4>
+</summary>
 <p>You have a skeptical and distrustful view of the world, always questioning others' motives. Your cynicism makes you shrewd and hard to deceive, but it can also make you seem jaded or negative.
 Having seen the darker side of life, you no longer believe in the inherent goodness of people or institutions. Your cynicism makes you skeptical of others' motives and cautious in your actions. You rely on your sharp wit and keen perception to navigate through deceit and corruption.</p>
-</summary>
 </details>
 
 <details>
 <summary>
 <h4>Determined</h4>
-<p>You are resolute and unwavering in your goals, never giving up until you achieve what you set out to do. Your determination is inspiring, but your single-mindedness can sometimes make you inflexible or stubborn.</p>
 </summary>
+<p>You are resolute and unwavering in your goals, never giving up until you achieve what you set out to do. Your determination is inspiring, but your single-mindedness can sometimes make you inflexible or stubborn.</p>
 </details>
 
 <details>
 <summary>
 <h4>Driven</h4>
-<p>There is a particular goal or ambition that drives you relentlessly. Whether it's becoming the best at your craft, uncovering a great truth, or achieving power, this drive defines your actions. It gives you purpose and direction, but can also lead to obsession and burnout.</p>
 </summary>
+<p>There is a particular goal or ambition that drives you relentlessly. Whether it's becoming the best at your craft, uncovering a great truth, or achieving power, this drive defines your actions. It gives you purpose and direction, but can also lead to obsession and burnout.</p>
 </details>
 
 <details>
 <summary>
 <h4>Energetic</h4>
-<p>You are full of life and vitality, always ready to take action and tackle challenges head-on. Your enthusiasm and drive inspire those around you, but your high energy can sometimes come off as impulsive or overwhelming.</p>
 </summary>
+<p>You are full of life and vitality, always ready to take action and tackle challenges head-on. Your enthusiasm and drive inspire those around you, but your high energy can sometimes come off as impulsive or overwhelming.</p>
 </details>
 
 <details>
 <summary>
 <h4>Gentle</h4>
-<p>You are kind-hearted and mild-mannered, always treating others with kindness and respect. Your gentle nature makes you a calming presence, but it can also make you seem weak or easily taken advantage of.</p>
 </summary>
+<p>You are kind-hearted and mild-mannered, always treating others with kindness and respect. Your gentle nature makes you a calming presence, but it can also make you seem weak or easily taken advantage of.</p>
 </details>
 
 <details>
 <summary>
 <h4>Haunted</h4>
-<p>You are haunted by a past mistake that led to the suffering or death of innocents. This ghost from your past drives you to seek redemption, striving to right the wrongs and protect the innocent at all costs, even if it means putting yourself in harm's way.</p>
 </summary>
+<p>You are haunted by a past mistake that led to the suffering or death of innocents. This ghost from your past drives you to seek redemption, striving to right the wrongs and protect the innocent at all costs, even if it means putting yourself in harm's way.</p>
 </details>
 
 <details>
 <summary>
 <h4>Hot-Tempered</h4>
-<p>You are quick to anger and have a fiery personality. Your passion and intensity can be motivating and compelling, but your temper can lead to conflicts and rash decisions.</p>
 </summary>
+<p>You are quick to anger and have a fiery personality. Your passion and intensity can be motivating and compelling, but your temper can lead to conflicts and rash decisions.</p>
 </details>
 
 <details>
 <summary>
 <h4>Idealistic</h4>
-<p>You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality.. While some see you as a beacon of hope, others might view you as naive or impractical.</p>
 </summary>
+<p>You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality.. While some see you as a beacon of hope, others might view you as naive or impractical.</p>
 </details>
 
 <details>
 <summary>
 <h4>Inquisitive</h4>
-<p>You are naturally curious and always seeking to learn more about the world around you. Your inquisitive nature drives you to explore and discover, but it can also make you nosy or distractible.</p>
 </summary>
+<p>You are naturally curious and always seeking to learn more about the world around you. Your inquisitive nature drives you to explore and discover, but it can also make you nosy or distractible.</p>
 </details>
 
 <details>
 <summary>
 <h4>Loyal</h4>
-<p>You are fiercely devoted to your friends, family, and causes. Your loyalty makes you a trusted ally and dependable companion, but it can also blind you to others' faults or make you inflexible.</p>
 </summary>
+<p>You are fiercely devoted to your friends, family, and causes. Your loyalty makes you a trusted ally and dependable companion, but it can also blind you to others' faults or make you inflexible.</p>
 </details>
 
 <details>
 <summary>
 <h4>Mentor</h4>
-<p>You have a wealth of knowledge and experience, and you feel a strong duty to pass it on to others. This mentor role shapes your interactions, as you seek to guide and teach those around you. You are patient and wise, but can sometimes come across as overbearing or controlling.</p>
 </summary>
+<p>You have a wealth of knowledge and experience, and you feel a strong duty to pass it on to others. This mentor role shapes your interactions, as you seek to guide and teach those around you. You are patient and wise, but can sometimes come across as overbearing or controlling.</p>
 </details>
 
 <details>
 <summary>
 <h4>Outcast</h4>
-<p>For reasons beyond your control, you were cast out from your community or family. This experience has made you resilient and self-reliant, but also wary of forming close ties. You constantly seek to prove your worth and find a place where you truly belong.</p>
 </summary>
+<p>For reasons beyond your control, you were cast out from your community or family. This experience has made you resilient and self-reliant, but also wary of forming close ties. You constantly seek to prove your worth and find a place where you truly belong.</p>
 </details>
 
 <details>
 <summary>
 <h4>Paragon</h4>
-<p>You strive to live by a strict code of ethics or morality, seeking to be an exemplar of virtue. This pursuit of perfection influences your every decision and action. While others admire your integrity, they may also find you rigid or uncompromising.</p>
 </summary>
+<p>You strive to live by a strict code of ethics or morality, seeking to be an exemplar of virtue. This pursuit of perfection influences your every decision and action. While others admire your integrity, they may also find you rigid or uncompromising.</p>
 </details>
 
 <details>
 <summary>
 <h4>Pessimistic</h4>
-<p>You tend to expect the worst and prepare for negative outcomes. Your pessimism makes you cautious and prepared for adversity, but it can also dampen morale and make you seem defeatist.</p>
 </summary>
+<p>You tend to expect the worst and prepare for negative outcomes. Your pessimism makes you cautious and prepared for adversity, but it can also dampen morale and make you seem defeatist.</p>
 </details>
 
 <details>
 <summary>
 <h4>Playful</h4>
-<p>You have a lighthearted and mischievous nature, always looking for fun and humor in life. Your playful attitude makes you charming and entertaining, but some might find you frivolous or unreliable.</p>
 </summary>
+<p>You have a lighthearted and mischievous nature, always looking for fun and humor in life. Your playful attitude makes you charming and entertaining, but some might find you frivolous or unreliable.</p>
 </details>
 
 <details>
 <summary>
 <h4>Pragmatic</h4>
-<p>You have a practical and realistic approach to life, always looking for the most efficient solutions. Your pragmatism makes you reliable and effective, but it can also make you seem cold or unfeeling.</p>
 </summary>
+<p>You have a practical and realistic approach to life, always looking for the most efficient solutions. Your pragmatism makes you reliable and effective, but it can also make you seem cold or unfeeling.</p>
 </details>
 
 <details>
 <summary>
 <h4>Protector</h4>
-<p>You have a strong instinct to protect those who are weaker or in need. This protective nature often puts you in harm's way, as you are willing to sacrifice your own safety for the well-being of others. You are seen as a guardian and a champion by those you help.</p>
 </summary>
+<p>You have a strong instinct to protect those who are weaker or in need. This protective nature often puts you in harm's way, as you are willing to sacrifice your own safety for the well-being of others. You are seen as a guardian and a champion by those you help.</p>
 </details>
 
 <details>
 <summary>
 <h4>Reserved</h4>
-<p>You are quiet and introspective, preferring to observe and reflect rather than speak out. Your reserved nature makes you a good listener and thoughtful companion, but it can also make you seem distant or unapproachable.</p>
 </summary>
+<p>You are quiet and introspective, preferring to observe and reflect rather than speak out. Your reserved nature makes you a good listener and thoughtful companion, but it can also make you seem distant or unapproachable.</p>
 </details>
 
 <details>
 <summary>
 <h4>Ruthless</h4>
-<p>You hold fast to one basic rule: get the job done. You've been called cold, calculating, and brutal. Your reputation for ruthless efficiency makes your fellows wary of you. But when failure is not an option, leaders go to you first.</p>
 </summary>
+<p>You hold fast to one basic rule: get the job done. You've been called cold, calculating, and brutal. Your reputation for ruthless efficiency makes your fellows wary of you. But when failure is not an option, leaders go to you first.</p>
 </details>
 
 <details>
 <summary>
 <h4>Stoic</h4>
-<p>You possess a steady and unflappable nature, enduring hardships without complaint. Your stoic attitude makes you a reliable figure in crises, but it can also make you seem distant or emotionally unavailable.</p>
 </summary>
+<p>You possess a steady and unflappable nature, enduring hardships without complaint. Your stoic attitude makes you a reliable figure in crises, but it can also make you seem distant or emotionally unavailable.</p>
 </details>
 
 <details>
 <summary>
 <h4>Vengeful</h4>
-<p>Someone or something wronged you deeply in the past, and now your life is driven by a desire for vengeance. This burning need for retribution influences your every decision, often leading you down dark and dangerous paths. You will not rest until justice, or your version of it, is served.</p>
 </summary>
+<p>Someone or something wronged you deeply in the past, and now your life is driven by a desire for vengeance. This burning need for retribution influences your every decision, often leading you down dark and dangerous paths. You will not rest until justice, or your version of it, is served.</p>
 </details>
 
 <details>
 <summary>
 <h4>Visionary</h4>
-<p>You have a unique and far-reaching vision that sets you apart from others. This vision drives you to pursue goals that others might find impossible or impractical. Your innovative thinking and determination can lead to great achievements, but also to isolation and misunderstanding.</p>
 </summary>
+<p>You have a unique and far-reaching vision that sets you apart from others. This vision drives you to pursue goals that others might find impossible or impractical. Your innovative thinking and determination can lead to great achievements, but also to isolation and misunderstanding.</p>
 </details>
 
 <details>
 <summary>
 <h4>Zealous</h4>
-<p>You are fiercely devoted to a particular cause, religion, or ideology. This zealotry drives your actions and decisions, often leading you to extremes that others might shy away from. Your passion can inspire and rally others, but it can also make you inflexible and intolerant of differing views.</p>
 </summary>
+<p>You are fiercely devoted to a particular cause, religion, or ideology. This zealotry drives your actions and decisions, often leading you to extremes that others might shy away from. Your passion can inspire and rally others, but it can also make you inflexible and intolerant of differing views.</p>
 </details>
 
 ### Heritage
@@ -261,36 +261,36 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <details>
 <summary>
 <h4>Dangerous</h4>
-<p></p>
 </summary>
+<p></p>
 </details>
 
 <details>
 <summary>
 <h4>Deft</h4>
-<p></p>
 </summary>
+<p></p>
 </details>
 
 <details>
 <summary>
 <h4>Savvy</h4>
-<p></p>
 </summary>
+<p></p>
 </details>
 
 <details>
 <summary>
 <h4>Steady</h4>
-<p></p>
 </summary>
+<p></p>
 </details>
 
 <details>
 <summary>
 <h4>Uncanny</h4>
-<p></p>
 </summary>
+<p></p>
 </details>
 
 ### Esteem
@@ -298,99 +298,99 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <details>
 <summary>
 <h4>Beloved</h4>
-<p>You are adored by many for your kindness, generosity, and charm. People go out of their way to help and support you, viewing you with affection and loyalty. This beloved status can create a strong network of allies and supporters, but it also means you must maintain a likable persona.</p>
 </summary>
+<p>You are adored by many for your kindness, generosity, and charm. People go out of their way to help and support you, viewing you with affection and loyalty. This beloved status can create a strong network of allies and supporters, but it also means you must maintain a likable persona.</p>
 </details>
 
 <details>
 <summary>
 <h4>Cursed</h4>
-<p>You are believed to be cursed or ill-fated, with a reputation for bringing bad luck or misfortune wherever you go. People are cautious around you, and your presence can cause unease. This reputation can be a significant hindrance, but it might also give you a certain mystique.</p>
 </summary>
+<p>You are believed to be cursed or ill-fated, with a reputation for bringing bad luck or misfortune wherever you go. People are cautious around you, and your presence can cause unease. This reputation can be a significant hindrance, but it might also give you a certain mystique.</p>
 </details>
 
 <details>
 <summary>
 <h4>Enigmatic</h4>
-<p>You are a mystery to most, with an aura of secrecy and the unknown surrounding you. People are intrigued by your presence and curious about your background. This enigmatic reputation can draw interest and speculation, but it might also lead to misunderstandings.</p>
 </summary>
+<p>You are a mystery to most, with an aura of secrecy and the unknown surrounding you. People are intrigued by your presence and curious about your background. This enigmatic reputation can draw interest and speculation, but it might also lead to misunderstandings.</p>
 </details>
 
 <details>
 <summary>
 <h4>Famous</h4>
-<p>Your deeds and exploits are known far and wide. Whether through heroism, remarkable achievements, or simply being in the right place at the right time, your name is recognized by many. This fame can open doors and attract admirers, but it also brings scrutiny and high expectations.</p>
 </summary>
+<p>Your deeds and exploits are known far and wide. Whether through heroism, remarkable achievements, or simply being in the right place at the right time, your name is recognized by many. This fame can open doors and attract admirers, but it also brings scrutiny and high expectations.</p>
 </details>
 
 <details>
 <summary>
 <h4>Feared</h4>
-<p>Your reputation strikes fear into the hearts of many. Whether through displays of power, brutal efficiency, or merciless actions, you command respect through intimidation. This fear can keep adversaries at bay, but it might also isolate you from potential allies.</p>
 </summary>
+<p>Your reputation strikes fear into the hearts of many. Whether through displays of power, brutal efficiency, or merciless actions, you command respect through intimidation. This fear can keep adversaries at bay, but it might also isolate you from potential allies.</p>
 </details>
 
 <details>
 <summary>
 <h4>Honorable</h4>
-<p>You are known for your unwavering principles and honorable conduct. People trust and respect you for your integrity and ethical behavior. This honorable reputation can help you build strong alliances and gain respect, but it also means you must consistently uphold your values.</p>
 </summary>
+<p>You are known for your unwavering principles and honorable conduct. People trust and respect you for your integrity and ethical behavior. This honorable reputation can help you build strong alliances and gain respect, but it also means you must consistently uphold your values.</p>
 </details>
 
 <details>
 <summary>
 <h4>Incognito</h4>
-<p>You actively maintain a hidden identity, concealing your true nature or past. This secretive approach lets you operate under the radar, gather information unnoticed, and protect yourself from those who might seek you out.</p>
 </summary>
+<p>You actively maintain a hidden identity, concealing your true nature or past. This secretive approach lets you operate under the radar, gather information unnoticed, and protect yourself from those who might seek you out.</p>
 </details>
 
 <details>
 <summary>
 <h4>Mysterious</h4>
-<p>You are an enigma, shrouded in mystery and speculation. Few know your true background or intentions, making you an intriguing and unpredictable figure. This mysterious reputation can give you an edge in negotiations and encounters, but it also means others may be cautious around you.</p>
 </summary>
+<p>You are an enigma, shrouded in mystery and speculation. Few know your true background or intentions, making you an intriguing and unpredictable figure. This mysterious reputation can give you an edge in negotiations and encounters, but it also means others may be cautious around you.</p>
 </details>
 
 <details>
 <summary>
 <h4>Nameless</h4>
-<p>You are an unknown figure, blending into the crowd without drawing much attention. This anonymity allows you to move freely and act without preconceived notions from others, though it also means your achievements might go unnoticed.</p>
 </summary>
+<p>You are an unknown figure, blending into the crowd without drawing much attention. This anonymity allows you to move freely and act without preconceived notions from others, though it also means your achievements might go unnoticed.</p>
 </details>
 
 <details>
 <summary>
 <h4>Notorious</h4>
-<p>You are infamous for actions that have drawn significant attention, often for the wrong reasons. Whether due to criminal activities, ruthless behavior, or controversial decisions, your reputation precedes you, making people wary and authorities vigilant.</p>
 </summary>
+<p>You are infamous for actions that have drawn significant attention, often for the wrong reasons. Whether due to criminal activities, ruthless behavior, or controversial decisions, your reputation precedes you, making people wary and authorities vigilant.</p>
 </details>
 
 <details>
 <summary>
 <h4>Outlaw</h4>
-<p>You are recognized as a rebel or outlaw, living outside the bounds of conventional law and order. This reputation makes you a target for law enforcement but also a hero to those who resist authority. Your status as an outlaw can provide you with a network of fellow rebels and sympathizers.</p>
 </summary>
+<p>You are recognized as a rebel or outlaw, living outside the bounds of conventional law and order. This reputation makes you a target for law enforcement but also a hero to those who resist authority. Your status as an outlaw can provide you with a network of fellow rebels and sympathizers.</p>
 </details>
 
 <details>
 <summary>
 <h4>Renowned</h4>
-<p>You are widely respected and admired for your expertise and accomplishments in a particular field. Your skills and knowledge are sought after, and your reputation precedes you in professional circles. This renown can open professional opportunities, but it also brings high expectations and competition.</p>
 </summary>
+<p>You are widely respected and admired for your expertise and accomplishments in a particular field. Your skills and knowledge are sought after, and your reputation precedes you in professional circles. This renown can open professional opportunities, but it also brings high expectations and competition.</p>
 </details>
 
 <details>
 <summary>
 <h4>Revered</h4>
-<p>You are held in high regard for your wisdom, kindness, and exemplary conduct. People seek your guidance and respect your opinions. This reverence can help you influence others and gain support, but it also places a burden of maintaining a high moral standard.</p>
 </summary>
+<p>You are held in high regard for your wisdom, kindness, and exemplary conduct. People seek your guidance and respect your opinions. This reverence can help you influence others and gain support, but it also places a burden of maintaining a high moral standard.</p>
 </details>
 
 <details>
 <summary>
 <h4>Scandalous</h4>
-<p>Your name is synonymous with scandal and controversy. Whether through personal indiscretions, public failures, or shocking actions, your reputation has been marred by gossip and scandal. This notoriety can make social interactions challenging, but it can also make you a topic of interest.</p>
 </summary>
+<p>Your name is synonymous with scandal and controversy. Whether through personal indiscretions, public failures, or shocking actions, your reputation has been marred by gossip and scandal. This notoriety can make social interactions challenging, but it can also make you a topic of interest.</p>
 </details>
 
 ### Motivation
@@ -398,141 +398,141 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <details>
 <summary>
 <h4>Adventure</h4>
-<p>The thrill of exploration and discovery is what drives you. This motivation leads you to seek out new experiences, travel to unknown places, and take on daring challenges, but it can also make you reckless or restless.</p>
 </summary>
+<p>The thrill of exploration and discovery is what drives you. This motivation leads you to seek out new experiences, travel to unknown places, and take on daring challenges, but it can also make you reckless or restless.</p>
 </details>
 
 <details>
 <summary>
 <h4>Ambition</h4>
-<p>You have a strong desire to achieve success and rise to a higher status. This motivation drives you to work hard, take risks, and pursue opportunities for advancement, but it can also make you competitive or ruthless.</p>
 </summary>
+<p>You have a strong desire to achieve success and rise to a higher status. This motivation drives you to work hard, take risks, and pursue opportunities for advancement, but it can also make you competitive or ruthless.</p>
 </details>
 
 <details>
 <summary>
 <h4>Compassion</h4>
-<p>You are deeply motivated by a desire to help others and alleviate suffering. This drive leads you to acts of kindness and generosity, but it can also make you overextend yourself or neglect your own needs.</p>
 </summary>
+<p>You are deeply motivated by a desire to help others and alleviate suffering. This drive leads you to acts of kindness and generosity, but it can also make you overextend yourself or neglect your own needs.</p>
 </details>
 
 <details>
 <summary>
 <h4>Curiosity</h4>
-<p>An insatiable curiosity motivates you to uncover secrets and learn the hidden truths of the world. This drive leads you to investigate mysteries and delve into the unknown, but it can also make you nosy or oblivious to dangers.</p>
 </summary>
+<p>An insatiable curiosity motivates you to uncover secrets and learn the hidden truths of the world. This drive leads you to investigate mysteries and delve into the unknown, but it can also make you nosy or oblivious to dangers.</p>
 </details>
 
 <details>
 <summary>
 <h4>Duty</h4>
-<p>A strong sense of responsibility and duty motivates you to fulfill your obligations and serve a greater good. This drive makes you reliable and committed, but it can also make you self-sacrificing or burdened by expectations.</p>
 </summary>
+<p>A strong sense of responsibility and duty motivates you to fulfill your obligations and serve a greater good. This drive makes you reliable and committed, but it can also make you self-sacrificing or burdened by expectations.</p>
 </details>
 
 <details>
 <summary>
 <h4>Faith</h4>
-<p>Your spiritual beliefs and religious convictions are your guiding force. This motivation drives you to follow your faith's teachings, seek spiritual growth, and fulfill religious duties, but it can also make you dogmatic or intolerant of other beliefs.</p>
 </summary>
+<p>Your spiritual beliefs and religious convictions are your guiding force. This motivation drives you to follow your faith's teachings, seek spiritual growth, and fulfill religious duties, but it can also make you dogmatic or intolerant of other beliefs.</p>
 </details>
 
 <details>
 <summary>
 <h4>Freedom</h4>
-<p>You value personal liberty above all else and are motivated to break free from constraints and help others do the same. This motivation drives you to oppose tyranny and seek independence, but it can also make you rebellious or unwilling to compromise.</p>
 </summary>
+<p>You value personal liberty above all else and are motivated to break free from constraints and help others do the same. This motivation drives you to oppose tyranny and seek independence, but it can also make you rebellious or unwilling to compromise.</p>
 </details>
 
 <details>
 <summary>
 <h4>Glory</h4>
-<p>You seek recognition and fame for your deeds. This motivation pushes you to achieve great feats and earn a lasting legacy, but it can also make you vain or overly concerned with public opinion.</p>
 </summary>
+<p>You seek recognition and fame for your deeds. This motivation pushes you to achieve great feats and earn a lasting legacy, but it can also make you vain or overly concerned with public opinion.</p>
 </details>
 
 <details>
 <summary>
 <h4>Honor</h4>
-<p>You are motivated by a personal code of ethics and a desire to uphold your honor. This drives you to act with integrity and courage, but it can also make you rigid or overly concerned with appearances.</p>
 </summary>
+<p>You are motivated by a personal code of ethics and a desire to uphold your honor. This drives you to act with integrity and courage, but it can also make you rigid or overly concerned with appearances.</p>
 </details>
 
 <details>
 <summary>
 <h4>Justice</h4>
-<p>You have a strong sense of right and wrong and are motivated to uphold justice and fight against wrongdoing. This motivation pushes you to protect the innocent and punish the guilty, but it can also make you inflexible or judgmental.</p>
 </summary>
+<p>You have a strong sense of right and wrong and are motivated to uphold justice and fight against wrongdoing. This motivation pushes you to protect the innocent and punish the guilty, but it can also make you inflexible or judgmental.</p>
 </details>
 
 <details>
 <summary>
 <h4>Knowledge</h4>
-<p>You are driven by a thirst for understanding and learning. This motivation leads you to seek out new information, explore the unknown, and master new skills, but it can also make you obsessive or detached from practical concerns.</p>
 </summary>
+<p>You are driven by a thirst for understanding and learning. This motivation leads you to seek out new information, explore the unknown, and master new skills, but it can also make you obsessive or detached from practical concerns.</p>
 </details>
 
 <details>
 <summary>
 <h4>Legacy</h4>
-<p>You are driven by a desire to leave a lasting impact on the world. This motivation pushes you to create, build, or achieve something that will be remembered long after you are gone, but it can also make you obsessive or disconnected from the present.</p>
 </summary>
+<p>You are driven by a desire to leave a lasting impact on the world. This motivation pushes you to create, build, or achieve something that will be remembered long after you are gone, but it can also make you obsessive or disconnected from the present.</p>
 </details>
 
 <details>
 <summary>
 <h4>Love</h4>
-<p>The desire to protect and care for those you love is your primary motivation. This drives you to acts of great compassion and sacrifice, but it can also make you vulnerable or overly protective.</p>
 </summary>
+<p>The desire to protect and care for those you love is your primary motivation. This drives you to acts of great compassion and sacrifice, but it can also make you vulnerable or overly protective.</p>
 </details>
 
 <details>
 <summary>
 <h4>Loyalty</h4>
-<p>You are motivated by a deep sense of loyalty to a person, group, or cause. This motivation makes you a steadfast ally and committed supporter, but it can also make you overly dependent or blind to flaws.</p>
 </summary>
+<p>You are motivated by a deep sense of loyalty to a person, group, or cause. This motivation makes you a steadfast ally and committed supporter, but it can also make you overly dependent or blind to flaws.</p>
 </details>
 
 <details>
 <summary>
 <h4>Peace</h4>
-<p>You strive for harmony and the resolution of conflict. This motivation leads you to mediate disputes, seek peaceful solutions, and promote understanding, but it can also make you avoidant of necessary confrontations.</p>
 </summary>
+<p>You strive for harmony and the resolution of conflict. This motivation leads you to mediate disputes, seek peaceful solutions, and promote understanding, but it can also make you avoidant of necessary confrontations.</p>
 </details>
 
 <details>
 <summary>
 <h4>Power</h4>
-<p>You desire influence and control, aiming to rise to a position of authority or dominance. This motivation drives you to pursue leadership roles and assert your will, but it can also make you ruthless or power-hungry.</p>
 </summary>
+<p>You desire influence and control, aiming to rise to a position of authority or dominance. This motivation drives you to pursue leadership roles and assert your will, but it can also make you ruthless or power-hungry.</p>
 </details>
 
 <details>
 <summary>
 <h4>Revenge</h4>
-<p>You are driven by a desire to avenge a wrong done to you or your loved ones. This motivation gives you a relentless focus and determination to see justice served, but it can also consume you and lead to destructive choices.</p>
 </summary>
+<p>You are driven by a desire to avenge a wrong done to you or your loved ones. This motivation gives you a relentless focus and determination to see justice served, but it can also consume you and lead to destructive choices.</p>
 </details>
 
 <details>
 <summary>
 <h4>Redemption</h4>
-<p>You seek to atone for past mistakes or sins, striving to make amends and find forgiveness. This motivation drives you to do good and seek out opportunities to right your wrongs, but it can also make you overly self-sacrificing or guilt-ridden.</p>
 </summary>
+<p>You seek to atone for past mistakes or sins, striving to make amends and find forgiveness. This motivation drives you to do good and seek out opportunities to right your wrongs, but it can also make you overly self-sacrificing or guilt-ridden.</p>
 </details>
 
 <details>
 <summary>
 <h4>Survival</h4>
-<p>You are motivated by a primal need to survive and protect yourself and your loved ones. This drive makes you resourceful and determined, but it can also make you wary or distrustful.</p>
 </summary>
+<p>You are motivated by a primal need to survive and protect yourself and your loved ones. This drive makes you resourceful and determined, but it can also make you wary or distrustful.</p>
 </details>
 
 <details>
 <summary>
 <h4>Wealth</h4>
-<p>The pursuit of riches and material gain is your primary goal. This motivation pushes you to seek out profitable opportunities and take risks for financial gain, but it can also make you greedy or unscrupulous.</p>
 </summary>
+<p>The pursuit of riches and material gain is your primary goal. This motivation pushes you to seek out profitable opportunities and take risks for financial gain, but it can also make you greedy or unscrupulous.</p>
 </details>
 
 ### Experience
@@ -540,176 +540,176 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 <details>
 <summary>
 <h4>Academic Study</h4>
-<p>You spent years immersed in academic pursuits, studying various fields of knowledge and honing your intellect. This experience has made you well-educated and analytical, but it can also make you somewhat detached from the practical realities of life.</p>
 </summary>
+<p>You spent years immersed in academic pursuits, studying various fields of knowledge and honing your intellect. This experience has made you well-educated and analytical, but it can also make you somewhat detached from the practical realities of life.</p>
 </details>
 
 <details>
 <summary>
 <h4>Activism</h4>
-<p>You were involved in a political movement or rebellion, fighting for a cause you believed in. This experience has given you a strong sense of justice and strategic thinking, but it also means you have enemies who oppose your ideals and possibly a bounty on your head.</p>
 </summary>
+<p>You were involved in a political movement or rebellion, fighting for a cause you believed in. This experience has given you a strong sense of justice and strategic thinking, but it also means you have enemies who oppose your ideals and possibly a bounty on your head.</p>
 </details>
 
 <details>
 <summary>
 <h4>Apprenticeship</h4>
-<p>You spent years as an apprentice, learning a trade or craft from a master. This experience has given you a strong foundation in a specific skill and a mentor you can rely on, but it also means you might be expected to take over the business or uphold a legacy.</p>
 </summary>
+<p>You spent years as an apprentice, learning a trade or craft from a master. This experience has given you a strong foundation in a specific skill and a mentor you can rely on, but it also means you might be expected to take over the business or uphold a legacy.</p>
 </details>
 
 <details>
 <summary>
 <h4>Artisan Craft</h4>
-<p>You honed your skills as an artisan, creating beautiful and functional works of art or tools. This experience has given you a deep appreciation for craftsmanship and detail, but it might also mean you have little experience with combat or adventuring.</p>
 </summary>
+<p>You honed your skills as an artisan, creating beautiful and functional works of art or tools. This experience has given you a deep appreciation for craftsmanship and detail, but it might also mean you have little experience with combat or adventuring.</p>
 </details>
 
 <details>
 <summary>
 <h4>Betrayed</h4>
-<p>At some point in your past, someone you trusted betrayed you. This betrayal has made you wary and distrustful of others, always looking for hidden motives and preparing for the worst. You rely on your own strength and cunning to navigate the dangerous world around you.</p>
 </summary>
+<p>At some point in your past, someone you trusted betrayed you. This betrayal has made you wary and distrustful of others, always looking for hidden motives and preparing for the worst. You rely on your own strength and cunning to navigate the dangerous world around you.</p>
 </details>
 
 <details>
 <summary>
 <h4>Civilian Life</h4>
-<p>You lived a relatively peaceful and uneventful life as a civilian, focusing on day-to-day activities and relationships. This experience has given you a strong sense of community and practical skills, but it might also make you less prepared for the dangers of adventuring.</p>
 </summary>
+<p>You lived a relatively peaceful and uneventful life as a civilian, focusing on day-to-day activities and relationships. This experience has given you a strong sense of community and practical skills, but it might also make you less prepared for the dangers of adventuring.</p>
 </details>
 
 <details>
 <summary>
 <h4>Crime</h4>
-<p>You have a history of engaging in criminal activities, whether as a thief, smuggler, or enforcer. This experience has made you street-smart and adept at underhanded tactics, but it also means you have a past that could catch up with you and enemies who may seek revenge.</p>
 </summary>
+<p>You have a history of engaging in criminal activities, whether as a thief, smuggler, or enforcer. This experience has made you street-smart and adept at underhanded tactics, but it also means you have a past that could catch up with you and enemies who may seek revenge.</p>
 </details>
 
 <details>
 <summary>
 <h4>Exploration</h4>
-<p>You have a background in exploring unknown territories, mapping uncharted lands, and discovering hidden secrets. This experience has given you a sense of adventure and keen survival instincts, but it also means you've faced countless dangers and unknown threats.</p>
 </summary>
+<p>You have a background in exploring unknown territories, mapping uncharted lands, and discovering hidden secrets. This experience has given you a sense of adventure and keen survival instincts, but it also means you've faced countless dangers and unknown threats.</p>
 </details>
 
 <details>
 <summary>
 <h4>Guildsman</h4>
-<p>You were a member of a professional guild, learning specialized skills and trade secrets. This experience has provided you with valuable connections and expertise in a particular craft or profession, but it also means you may have obligations or rivalries within the guild.</p>
 </summary>
+<p>You were a member of a professional guild, learning specialized skills and trade secrets. This experience has provided you with valuable connections and expertise in a particular craft or profession, but it also means you may have obligations or rivalries within the guild.</p>
 </details>
 
 <details>
 <summary>
 <h4>Mender</h4>
-<p>You trained and worked as a healer, whether through magical means or traditional medicine. This experience has given you extensive knowledge of healing practices and a compassionate outlook, but it can also mean you've seen much suffering and loss.</p>
 </summary>
+<p>You trained and worked as a healer, whether through magical means or traditional medicine. This experience has given you extensive knowledge of healing practices and a compassionate outlook, but it can also mean you've seen much suffering and loss.</p>
 </details>
 
 <details>
 <summary>
 <h4>Hero</h4>
-<p>Early in your life, you found yourself facing an overwhelming challenge. You risked your own life to save others and overcome despite the impossible odds. Your bravery and heroism have earned you recognition in some form.</p>
 </summary>
+<p>Early in your life, you found yourself facing an overwhelming challenge. You risked your own life to save others and overcome despite the impossible odds. Your bravery and heroism have earned you recognition in some form.</p>
 </details>
 
 <details>
 <summary>
 <h4>Intelligencer</h4>
-<p>You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.</p>
 </summary>
+<p>You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.</p>
 </details>
 
 <details>
 <summary>
 <h4>Lost Love</h4>
-<p>You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.</p>
 </summary>
+<p>You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.</p>
 </details>
 
 <details>
 <summary>
 <h4>Merchant Trade</h4>
-<p>You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.</p>
 </summary>
+<p>You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.</p>
 </details>
 
 <details>
 <summary>
 <h4>Mercenary</h4>
-<p>You worked as a mercenary, taking on dangerous jobs for pay and living a life of constant risk. This experience has made you tough, adaptable, and skilled in combat, but it also means you have a reputation that can attract trouble and a past filled with violent encounters.</p>
 </summary>
+<p>You worked as a mercenary, taking on dangerous jobs for pay and living a life of constant risk. This experience has made you tough, adaptable, and skilled in combat, but it also means you have a reputation that can attract trouble and a past filled with violent encounters.</p>
 </details>
 
 <details>
 <summary>
 <h4>Military</h4>
-<p>You served in a formal military organization, gaining combat experience, discipline, and tactical knowledge. This experience has made you proficient in warfare and strategy, but it also comes with the memories of battles fought and comrades lost.</p>
 </summary>
+<p>You served in a formal military organization, gaining combat experience, discipline, and tactical knowledge. This experience has made you proficient in warfare and strategy, but it also comes with the memories of battles fought and comrades lost.</p>
 </details>
 
 <details>
 <summary>
 <h4>Noblility</h4>
-<p>You spent time in the courts of nobility, learning the intricacies of politics, diplomacy, and courtly manners. This experience has made you skilled in social navigation and intrigue, but it can also mean you have powerful enemies or political rivals.</p>
 </summary>
+<p>You spent time in the courts of nobility, learning the intricacies of politics, diplomacy, and courtly manners. This experience has made you skilled in social navigation and intrigue, but it can also mean you have powerful enemies or political rivals.</p>
 </details>
 
 <details>
 <summary>
 <h4>Nomad</h4>
-<p>You have spent most of your life wandering from place to place, never settling down for long. This nomadic lifestyle has made you adaptable and resourceful, but also rootless and longing for stability. You value freedom and new experiences above all else.</p>
 </summary>
+<p>You have spent most of your life wandering from place to place, never settling down for long. This nomadic lifestyle has made you adaptable and resourceful, but also rootless and longing for stability. You value freedom and new experiences above all else.</p>
 </details>
 
 <details>
 <summary>
 <h4>Performance</h4>
-<p>You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.</p>
 </summary>
+<p>You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.</p>
 </details>
 
 <details>
 <summary>
 <h4>Religious Service</h4>
-<p>You served in a religious order, dedicating your life to spiritual practices, rituals, and helping others. This experience has given you a deep sense of faith and moral guidance, but it can also mean you've encountered fanaticism or internal conflicts within the order.</p>
 </summary>
+<p>You served in a religious order, dedicating your life to spiritual practices, rituals, and helping others. This experience has given you a deep sense of faith and moral guidance, but it can also mean you've encountered fanaticism or internal conflicts within the order.</p>
 </details>
 
 <details>
 <summary>
 <h4>Shadowed Past</h4>
-<p>You have a mysterious or criminal past that you keep hidden from most people. This shadowed history has taught you valuable skills and lessons, but it also haunts you, as you fear the day it might catch up with you. You are constantly looking over your shoulder, ready to confront your past if necessary.</p>
 </summary>
+<p>You have a mysterious or criminal past that you keep hidden from most people. This shadowed history has taught you valuable skills and lessons, but it also haunts you, as you fear the day it might catch up with you. You are constantly looking over your shoulder, ready to confront your past if necessary.</p>
 </details>
 
 <details>
 <summary>
 <h4>Ship Crew</h4>
-<p>You served as a member of a ship's crew, whether on a merchant vessel, pirate ship, or navy. This experience has given you knowledge of seamanship, navigation, and life at sea, but it also means you might have faced shipwrecks, mutinies, or naval battles.</p>
 </summary>
+<p>You served as a member of a ship's crew, whether on a merchant vessel, pirate ship, or navy. This experience has given you knowledge of seamanship, navigation, and life at sea, but it also means you might have faced shipwrecks, mutinies, or naval battles.</p>
 </details>
 
 <details>
 <summary>
 <h4>Survivor</h4>
-<p>You survived a catastrophic event that few others did, such as a plague, a massacre, or a natural disaster. This experience has made you resilient and resourceful, but it also means you carry the weight of trauma and loss.</p>
 </summary>
+<p>You survived a catastrophic event that few others did, such as a plague, a massacre, or a natural disaster. This experience has made you resilient and resourceful, but it also means you carry the weight of trauma and loss.</p>
 </details>
 
 <details>
 <summary>
 <h4>Tragedy</h4>
-<p>You experienced a significant personal tragedy, such as the loss of loved ones, a natural disaster, or a cataclysmic event. This experience has forged your resilience and shaped your motivations, driving you to overcome the pain of your past and protect what little you have left.</p>
 </summary>
+<p>You experienced a significant personal tragedy, such as the loss of loved ones, a natural disaster, or a cataclysmic event. This experience has forged your resilience and shaped your motivations, driving you to overcome the pain of your past and protect what little you have left.</p>
 </details>
 
 <details>
 <summary>
 <h4>War</h4>
-<p>You lived through a major conflict, either as a soldier, civilian, or resistance fighter. This experience has shaped your views on violence and survival, leaving you with scars both physical and psychological, as well as a deep understanding of the horrors of war.</p>
 </summary>
+<p>You lived through a major conflict, either as a soldier, civilian, or resistance fighter. This experience has shaped your views on violence and survival, leaving you with scars both physical and psychological, as well as a deep understanding of the horrors of war.</p>
 </details>
 
 ## Traits
