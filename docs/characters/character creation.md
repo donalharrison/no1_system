@@ -2,10 +2,10 @@
 layout: default
 title: Character Creation
 name: Character Creation
-has_children: True
+has_children: False
 parent: Characters
 permalink: /characters/char_creation
-nav_order: 5
+nav_order: 6
 ---
 
 # Character Creation
@@ -37,7 +37,7 @@ The Thesis sets the tone for your character’s development and provides a clear
 
 Use your Thesis as a touchstone throughout the game, allowing it to guide your character’s evolution and interactions. This initial statement will help you stay focused on your character’s essence and make your roleplaying more cohesive and immersive.
 
-## THEME
+## T.H.E.M.E.
 
 The character theme expands on the Thesis, providing details, fleshing out personality and motivation, and giving the players more cues to to inform their roelplaying.  The No 1's System breaks character themes into 5 components -- **Temperament**, **Heritage**, **Esteem**, **Motivation**, and **Experience**.  Each of these components are one piece of the larger picture and can be referenced when the player needs inspiration for how the character would interacts with the game fiction.
 
@@ -378,7 +378,6 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             <li>
                 <strong>Skiv <em>(Ratfolk)</em> &mdash; </strong> youare cunning and resourceful, known for your ability to thrive in any environment.  Your kind make excellent spies, thieves, and survivalists.
             </li>
-            <li></li>
         </ul>
     </p>
 </details>
@@ -455,7 +454,6 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             <li>
                 <strong>Jätti &mdash; </strong>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.
             </li>
-            <li></li>
         </ul>
     </p>
 </details>
@@ -966,20 +964,17 @@ Your character gains one (1) Skill Rank in a number of Skills of your choice equ
 
 ### Choose Your Primary Defense
 **Reflexes:** Dangerous + Deft + Savvy
-
 **Nerve:** Savvy + Steady + Uncanny
-
 **Vigor:** Dangerous + Steady + Uncanny
 
 
 ## Training
+***Spend Milestones On Training***
 
-#### Spend Milestones on Training
-Invest your starting Milestone(s) and any gained from your background on Training Ranks, granting you Talents to deploy in your pursuits.
-
+Invest your Milestones gained from your THEME, along with any starting Milestone(s), on Training Ranks, granting you Talents to deploy in your pursuits.
 
 ## Targets
-
+***Defining Your Character's Goals***
 
 <style>
     .row {
