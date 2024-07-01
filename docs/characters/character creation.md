@@ -274,12 +274,17 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <p>Gain +1 rating in the <em>Dangerous</em> Trait.</p>
         <p><em><strong>Species:</strong></em>
             <ul>
-                <li><strong>Dwarf &mdash; </strong>
-                </li>
-                <li><strong>Devilspawn &mdash; Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.</strong>
+                <li>
+                    <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong> You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.
                 </li>
                 <li>
-                    <strong>Dragonkin &mdash;  fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.</strong>
+                    <strong>Dwarf &mdash; </strong>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.
+                </li>
+                <li>
+                    <strong>Devilspawn &mdash; </strong>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.
+                </li>
+                <li>
+                    <strong>Dragonkin &mdash; </strong>fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.
                 </li>
                 <li>
                     <strong>Elf &mdash; </strong> you travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
@@ -291,16 +296,28 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                         <li><strong>Hravani <em>(Wild Elf)</em>:</strong> Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.</li>
                     </ul>
                 </li>
-                <li><strong>Felinar &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
+                <li><strong>Felinar <em>(Catfolk)</em> &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
                 <br><em>Dangerous Subspecies</em>:
                     <ul>
                         <li><strong>Leino:</strong> Lion men and women, known for their wisdom and warrior spirit.</li>
                         <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
                     </ul>
                 </li>
-                <li><strong>Human &mdash; </strong></li>
-                <li><strong>Orc &mdash; </strong></li>
-                <li><strong>Quarry-Breed <em>(Half-orc)</em>&mdash; </strong> Bred by the Elves to be hunted for sport, your people are feared for their brutal nature.  Other species will avoid and not understand you.  Elves will despise you.</li>
+                <li>
+                    <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+                </li>
+                <li>
+                    <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+                </li>
+                <li>
+                    <strong>Jätti &mdash; </strong>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.
+                </li>
+                <li>
+                    <strong>Orc &mdash; </strong>
+                </li>
+                <li>
+                    <strong>Quarry-Breed <em>(Half-orc)</em>&mdash; </strong> Bred by the Elves to be hunted for sport, your people are feared for their brutal nature.  Other species will avoid and not understand you.  Elves will despise you.
+                </li>
             </ul>
         </p>
 </details>
@@ -312,31 +329,51 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <p>Gain +1 rating in the <em>Deft</em> Trait.</p>
     <p><em><strong>Species:</strong></em>
         <ul>
-            <li><strong>Dragonkin &mdash; </strong>fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.</li>
+            <li>
+                <strong>Dragonkin &mdash; </strong>fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.
+            </li>
+            <li>
+                <strong>Dwarf &mdash; </strong>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.
+            </li>
             <li>
                 <strong>Elf &mdash; </strong> you travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
+                <br><em>Deft Subspecies</em>:
+                <ul>
+                    <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
+                    <li><strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</li>
+                    <li><strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</li>
+                    <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</li>
+                    <li><strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</li>
+                    <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
+                    <li><strong>Erynor <em>(Wood Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Felinar <em>(Catfolk)</em> &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
                 <br><em>Dangerous Subspecies</em>:
                     <ul>
-                        <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
-                        <li><strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</li>
-                        <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
-                        <li><strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</li>
-                        <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
-                        <li><strong>Erynor <em>(Wood Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                        <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
+                        <li><strong>Lynari:</strong> A mix of puma, panther, jaguar, and leopard traits, agile and stealthy.</li>
                     </ul>
-                </li>
-                <li>
-                    <strong>Felinar &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
-                    <br><em>Dangerous Subspecies</em>:
-                        <ul>
-                            <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
-                            <li><strong>Lynari:</strong> A mix of puma, panther, jaguar, and leopard traits, agile and stealthy.</li>
-                        </ul>
-                </li>
-            <li><strong>Goblin &mdash; </strong></li>
-            <li><strong>Gnome &mdash; </strong></li>
-            <li><strong>Half-elf &mdash; </strong></li>
-            <li><strong>Skiv &mdash; </strong></li>
+            </li>
+            <li>
+                <strong>Goblin &mdash; </strong>Known for you ingenuity and resourcefulness, Goblins excel in tinkering and trade, and often more ilicit activities.
+            </li>
+            <li>
+                <strong>Gnome &mdash; </strong>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.
+            </li>
+            <li>
+                <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+            </li>
+            <li>
+                <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+            </li>
+            <li>
+                <strong>Halfling &mdash; </strong>You are stout hearted and jovial.  Most people do not take as seriously as you might deserve, and sometimes that works out in your favor.
+            </li>
+            <li>
+                <strong>Skiv <em>(Ratfolk)</em> &mdash; </strong> youare cunning and resourceful, known for your ability to thrive in any environment.  Your kind make excellent spies, thieves, and survivalists.
+            </li>
             <li></li>
         </ul>
     </p>
@@ -349,8 +386,37 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <p>Gain +1 rating in the <em>Savvy</em> Trait.</p>
     <p><em><strong>Species:</strong></em>
         <ul>
-            <li></li>
-            <li></li>
+            <li>
+                    <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong> You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.
+            </li>
+            <li>
+                <strong>Elf &mdash; </strong> You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
+                <br><em>Savvy Subspecies</em>:
+                <ul>
+                    <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
+                    <li><strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</li>
+                    <li><strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</li>
+                    <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</li>
+                    <li><strong>Oror <em>(Sun Elf)</em>:</strong> Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.</li>
+                    <li><strong>Ehelnor <em>(Star Elf)</em>:</strong> Star Elves, the Ehelnor, possess an innate connection to the Cosm, using celestial energies to peer into the mysteries of distant stars. With a keen sense of destiny, they often serve as prophets, guiding their people with visions of the future.  They largely reside in the plane of Sideria and are rarely seen within the material plane of Aerdth.</li>
+                    <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Goblin &mdash; </strong>Known for you ingenuity and resourcefulness, Goblins excel in tinkering and trade, and often more ilicit activities.
+            </li>
+            <li>
+                <strong>Gnome &mdash; </strong>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.
+            </li>
+            <li>
+                <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+            </li>
+            <li>
+                <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+            </li>
+            <li>
+                <strong>Serafaed &mdash; </strong>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.
+            </li>
         </ul>
     </p>
 </details>
@@ -362,7 +428,29 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <p>Gain +1 rating in the <em>Steady</em> Trait.</p>
     <p><em><strong>Species:</strong></em>
         <ul>
-            <li></li>
+            <li>
+                <strong>Elf &mdash; </strong> You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
+                <br><em>Steady Subspecies</em>:
+                <ul>
+                    <li><strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</li>
+                    <li><strong>Miurdan <em>(Mountain  Elf)</em>:</strong> Mountain Elves, the Miurdan, have an affinity and influence over stone, soil, and metals. In their solitary mountain realms, they are adept builders and formidable warriors, forging great fortresses and using elemental powers to defend their territories.</li>
+                    <li><strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</li>
+                    <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
+                    <li><strong>Erynor <em>(Wood Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                </ul>
+            </li>
+            <li><strong>Felinar <em>(Catfolk)</em> &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
+            <br><em>Dangerous Subspecies</em>:
+                <ul>
+                    <li><strong>Leino:</strong> Lion men and women, known for their wisdom and warrior spirit.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+            </li>
+            <li>
+                <strong>Jätti &mdash; </strong>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.
+            </li>
             <li></li>
         </ul>
     </p>
@@ -375,8 +463,26 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <p>Gain +1 rating in the <em>Uncanny</em>> Trait.</p>
     <p><em><strong>Species:</strong></em>
         <ul>
-            <li></li>
-            <li></li>
+            <li>
+                <strong>Devilspawn &mdash; </strong>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.
+            </li>
+            <li>
+                <strong>Elf &mdash; </strong> You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
+                <br><em>Uncanny Subspecies</em>:
+                <ul>
+                    <li><strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
+                    <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
+                    <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</li>
+                    <li><strong>Oror <em>(Sun Elf)</em>:</strong> Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.</li>
+                    <li><strong>Sieluni  <em>(Soul Elf)</em>:</strong> Soul Elves, or Sieluni, possess a deep connection to the spirits of the Cosm. They are dreamwalkers, able to traverse the realm of dreams and unlock hidden truths. They possess unique abilities to connect with the ethereal realm, often taking prolonged pilgrimages into the ghostly planes communing with the dead.  They serve as spiritual guides and are often healers, providing solace and wisdom to their kin.  Despite this powerful affinity, their connection to the spirit realms leaves them untrusted by most, even their elven kin.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+            </li>
+            <li>
+                <strong>Serafaed &mdash; </strong>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.
+            </li>
         </ul>
     </p>
 </details>
