@@ -10,9 +10,10 @@ permalink: /characters/powers/techniques/
 
 
 ## Current
-
+Techniques allow your to channel raw energies into effects to harm or empower.  Calling upon these power creates a stream of evergy that flows through you, called ***Current***.  As this Current grows stronger, you can harness more powerful Techniques.
 
 ## Using Techniques
+Each Technique includes a *Cost* & a *Current* value.  The Cost value is how much Current is required to use the Technique.  The Current value is how much Current the Technique generates for you to use other Techniques.  A Tehcniques Current value sets your available Current, it does not add to it.  Managing your Current can be challenging, requiring planning to build up to ever stronger Techniques.
 
 
 
@@ -32,7 +33,8 @@ permalink: /characters/powers/techniques/
                 <p>{{ tech }}</p>
             </summary>
         </details>
-    {% assign eskills = site.data.skills | where: "type", "2" | map: "name" | uniq | sort %} 
+    {% endfor %}
+    {% assign eskills = site.data.skills | where: "type", "2" | map: "name" | uniq | sort %}
 
     </div>
 
