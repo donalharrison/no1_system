@@ -1573,7 +1573,7 @@
         },
         {
             "tree": "Probabilist",
-            "name": "Derive axioms",
+            "name": "Derive Axioms",
             "type": "Ability",
             "rank": "1",
             "requires": null,
@@ -1591,6 +1591,28 @@
             "replaces": null,
             "effect": [
                 "Focus"
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Haymaker",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "User your Martial Arts to smash your target's face, giving them a Stunned rating equal to Hits -2."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Sting Like a Bee",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
@@ -1634,18 +1656,29 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
+                "When you Shift to move and then attack a target, you may spend 1 Hit to Shift again this turn."
             ]
         },
         {
             "tree": "Ranger",
-            "name": "Skirmisher",
+            "name": "Weathered",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "If you would add Hazard dice to a roll due to environmental effects, reduce the total Hazard dice by -2."
+            ]
+        },
+        {
+            "tree": "Ranger",
+            "name": "Survivalist",
             "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shift to move within your current Zone and attack a target, you may spend 1 Hit to Shift again this turn."
+                "When you roll Survival and score 0 Hits, add +2 Bonus Hits to the result set."
             ]
         },
         {

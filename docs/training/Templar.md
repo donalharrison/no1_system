@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Slayer
+title: Templar
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/slayer/
+permalink: /characters/training/t/
 nav_exclude: true
 ---
