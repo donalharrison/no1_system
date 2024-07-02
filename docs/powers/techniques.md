@@ -29,9 +29,8 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
     {% for tech in techs %}
         <h3>{{ tech.name }}</h3>
         <details>
-            <summary>
+            <summary></summary>
                 <p>{{ tech }}</p>
-            </summary>
         </details>
     {% endfor %}
     </div>
@@ -53,14 +52,6 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
         </div>
     {% endfor %}
 </div>
-
-
-
-<p>{{techs}}</p>
-
-{% for tag in techs.keywords | uniq %}
-    <p>{{tag}}</p>
-{% endfor %}
 
 
 <style>
