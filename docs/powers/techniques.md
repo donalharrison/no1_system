@@ -27,21 +27,21 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
     <div class="tab">
 
     {% for tech in techs %}
+        <h3>{{ tech.name }}</h3>
         <details>
-            <h3>{{ tech.name }}</h3>
             <summary>
                 <p>{{ tech }}</p>
             </summary>
         </details>
     {% endfor %}
-    {% assign eskills = site.data.skills | where: "type", "2" | map: "name" | uniq | sort %}
-
     </div>
+
+    {% assign eskills = site.data.skills | where: "type", "2" | map: "name" | uniq | sort %}
 
     {% for eskill in eskills %}
         {% assign tabid = 'tab_' | append: eskill %}
         <input type="radio" id="{{ tabid }}" name="mytabs">
-        <label for="{{ tabid }}" style="font-size:140%">{{ strait }}</label>
+        <label for="{{ tabid }}" style="font-size:140%">{{ eskill }}</label>
         <div class="tab">
             {% for tech in site.data.powers.techniques %}
                 {% for tag in tech.keywords %}
@@ -50,6 +50,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
                     {% endif %}
                 {% endfor %}
             {% endfor %}
+        </div>
     {% endfor %}
 </div>
 
