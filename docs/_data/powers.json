@@ -2867,13 +2867,14 @@
     "techniques": [
         {
             "name": "Aether Spike",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 0,
+            "effect": "Send a bolt of cosmic energy at a taget, scoring 1 Hit.",
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Send a bolt of cosmic energy at a taget, scoring 2 Hits."
                 }
             ],
             "requires": null,
@@ -2883,13 +2884,14 @@
         },
         {
             "name": "Aether Gust",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 4,
+            "effect": "Send a wave of energy outward, pushing a number of targets in your Current Zone equal to Hits in the results set to the Adjacent Zone closest to them.",
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Send a wave of energy outward, pushing all targets in your Current Zone to the Adjacent Zone closest to them."
                 }
             ],
             "requires": null,
@@ -2899,9 +2901,10 @@
         },
         {
             "name": "Aether Tunnel",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 4,
+            "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  You and your allies can use the tunnel to Shift to the tunnel's endpoints without incurring Hazard.",
+            "current": 0,
             "threshold": [
                 {
                     "hits": null,
@@ -2910,18 +2913,19 @@
             ],
             "requires": null,
             "keywords": [
-                "Aether"
+                "Aether", "Ongoing 2"
             ]
         },
         {
             "name": "Bring the Ending",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 3,
+            "effect": "The current Timer expires.",
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "The current Timer expires.  The next Timer is set to 4."
                 }
             ],
             "requires": null,
@@ -2931,13 +2935,14 @@
         },
         {
             "name": "Essence Flux",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Trigger",
+            "cost": 2,
+            "effect": "When one of your allies you can see takes Hits from an attack, you momentarily send them to the Aether, reducing the Hits the take by Hits in the result set.",
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "When one of your allies you can see takes Hits from an attack, you momentarily send them to the Aether, reducing the Hits the take by Hits in the result set.  Create 1 Advantage in the target ally's Current Zone."
                 }
             ],
             "requires": null,
@@ -2948,8 +2953,9 @@
         {
             "name": "Drain Current",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -2963,13 +2969,18 @@
         },
         {
             "name": "Invoke Fire",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 4,
+            "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.",
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Deal 3 Hits to up to 2 targets in your Current or Adjacent Zone.",
+                },
+                {
+                    "hits": 5,
+                    "effect": "Deal 3 Hits to up to 3 targets in your Current or Adjacent Zone."
                 }
             ],
             "requires": null,
@@ -2980,8 +2991,9 @@
         {
             "name": "Stoke the Flames",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -2995,9 +3007,10 @@
         },
         {
             "name": "Kindle",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 1,
+            "effect": "Deal X Hits to one target in your Current Zone, where X is equal to . . .",
+            "current": 3,
             "threshold": [
                 {
                     "hits": null,
@@ -3011,29 +3024,31 @@
         },
         {
             "name": "Immolation",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 1,
+            "effect": "One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits inin fire damage when they use Strike or Martial Arts.",
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +3 Bonus Hits inin fire damage when they use Strike or Martial Arts."
                 }
             ],
             "requires": null,
             "keywords": [
-                "Inferno"
+                "Inferno", "Aura"
             ]
         },
         {
             "name": "Rending Flames",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "cost": 3,
+            "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 2 Hits to another target in the same Zone.",
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 5,
+                    "effect": "Deal 5 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 3 Hits to another target in the same Zone.",
                 }
             ],
             "requires": null,
@@ -3044,8 +3059,9 @@
         {
             "name": "Blazing Volley",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3060,8 +3076,9 @@
         {
             "name": "Pyroclasm",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3076,8 +3093,9 @@
         {
             "name": "Invoke the Dawn",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3092,8 +3110,9 @@
         {
             "name": "Radiant Mending",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3108,8 +3127,9 @@
         {
             "name": "Revitalizing Ray",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3124,8 +3144,9 @@
         {
             "name": "Beaming Defiance",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3140,8 +3161,9 @@
         {
             "name": "Sweltering Rays",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3156,8 +3178,9 @@
         {
             "name": "Mind Rot",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3172,8 +3195,9 @@
         {
             "name": "Tormenting Voice",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3185,12 +3209,12 @@
                 "Mentis"
             ]
         },
-        
         {
             "name": "Mind Spike",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3205,8 +3229,9 @@
         {
             "name": "Psychic Spear",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3221,8 +3246,9 @@
         {
             "name": "Invoke Death",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3237,8 +3263,9 @@
         {
             "name": "Mortality Spear",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3253,8 +3280,9 @@
         {
             "name": "Merciless Resolve",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3269,8 +3297,9 @@
         {
             "name": "Alms of Vivus",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3285,8 +3314,9 @@
         {
             "name": "Death's Touch",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3301,8 +3331,9 @@
         {
             "name": "Culling Ritual",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3317,8 +3348,9 @@
         {
             "name": "Invoke Despair",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3333,8 +3365,9 @@
         {
             "name": "Negation Blast",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3349,8 +3382,9 @@
         {
             "name": "Void Rift",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3365,8 +3399,9 @@
         {
             "name": "Enter the Infinite",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3381,8 +3416,9 @@
         {
             "name": "Dark Blast",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3397,8 +3433,9 @@
         {
             "name": "Dark Ritual",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3413,8 +3450,9 @@
         {
             "name": "Dread Fugue",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3429,8 +3467,9 @@
         {
             "name": "Umbral Juke",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3445,8 +3484,9 @@
         {
             "name": "Subtle Strike",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3461,8 +3501,9 @@
         {
             "name": "Vengeance of Shadows",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3477,8 +3518,9 @@
         {
             "name": "Eclipse",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3493,8 +3535,9 @@
         {
             "name": "Spreading Darkness",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3509,8 +3552,9 @@
         {
             "name": "Eyes of Night",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3525,8 +3569,9 @@
         {
             "name": "Pain Bolt",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3541,8 +3586,9 @@
         {
             "name": "Wrath of Frost",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3557,8 +3603,9 @@
         {
             "name": "Freezing Surge",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3573,8 +3620,9 @@
         {
             "name": "Forstbite",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3589,8 +3637,9 @@
         {
             "name": "Glacial Spike",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3605,8 +3654,9 @@
         {
             "name": "Invoke the Winds",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3621,8 +3671,9 @@
         {
             "name": "Stride of the Clouds",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3637,8 +3688,9 @@
         {
             "name": "Zephyr Strike",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3653,8 +3705,9 @@
         {
             "name": "Whirlwind",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3669,8 +3722,9 @@
         {
             "name": "Seismic Suge",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3685,8 +3739,9 @@
         {
             "name": "Invoke Calamity",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3701,8 +3756,9 @@
         {
             "name": "Return to Nature",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3717,8 +3773,9 @@
         {
             "name": "Crystal Volley",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3733,8 +3790,9 @@
         {
             "name": "Slagstorm",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3749,8 +3807,9 @@
         {
             "name": "Thunderous Charge",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3765,8 +3824,9 @@
         {
             "name": "Lightning Strike",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3781,8 +3841,9 @@
         {
             "name": "Hydro Blast",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3797,8 +3858,9 @@
         {
             "name": "Water Spout",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3813,8 +3875,9 @@
         {
             "name": "Cascade",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3829,8 +3892,9 @@
         {
             "name": "Riptide",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3845,8 +3909,9 @@
         {
             "name": "Water Whip",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3861,8 +3926,9 @@
         {
             "name": "Tangle Wave",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3877,8 +3943,9 @@
         {
             "name": "Soothing Waters",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3893,8 +3960,9 @@
         {
             "name": "Crashing Wave",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3906,12 +3974,12 @@
                 "Torrent"
             ]
         },
-        
         {
             "name": "Undertow",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3926,8 +3994,9 @@
         {
             "name": "Revitalize",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3942,8 +4011,9 @@
         {
             "name": "Rush of Vitality",
             "type": "",
-            "max_ranks": null,
+            "cost": null,
             "effect": "",
+            "current": null,
             "threshold": [
                 {
                     "hits": null,
@@ -3956,7 +4026,6 @@
             ]
         }
     ],
-    
     "wards": [
         {}
     ]
