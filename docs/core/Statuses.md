@@ -40,7 +40,7 @@ Attempts to Perceive you require Hits >= your Hidden rating.
 
 ## Prone
 #### Fixed
-While Prone, you have Vulnerable 2 to an melee attack made against you and you take Actions at Hazard 2.  You must use a Shift to stand back up.
+While Prone, you have Vulnerable 2 to any melee attack made against you and you take Actions at Hazard 2.  You must use a Shift to stand back up.
 
 ## Provoked
 #### Fixed
@@ -56,7 +56,7 @@ You can only take the Recover Action as long as you have a Stunned rating of 1 o
 
 ## Unconscious
 #### Variable
-You have Vulnerable 1 and can only take the Recover Action using Endure as long as you have a Unconscious rating of 1 or higher.
+You have Vulnerable 2 and can only take the Recover Action using Endure as long as you have a Unconscious rating of 1 or higher.  When you take the Recover Action, reduce your Stunned rating by Hits and do not regain any Defenses.
 
 ## Vulnerable
 #### Variable
