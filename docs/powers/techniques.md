@@ -20,6 +20,8 @@ permalink: /characters/powers/techniques/
 
 {% assign techs = site.data.powers.techniques %}
 
+<p>{{techs}}</p>
+
 {% for tag in techs.keywords | uniq %}
     <p>{{tag}}</p>
 {% endfor %}
