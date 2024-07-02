@@ -293,7 +293,7 @@
                     ]
                 },
                 {
-                    "skill": "Sanguis",
+                    "skill": "Sangui",
                     "type": "",
                     "strain": null,
                     "effects": [
@@ -905,7 +905,7 @@
                     ]
                 },
                 {
-                    "skill": "Sanguis",
+                    "skill": "Sangui",
                     "type": "",
                     "strain": null,
                     "effects": [
@@ -940,7 +940,7 @@
                     ]
                 },
                 {
-                    "skill": "Sanguis",
+                    "skill": "Sangui",
                     "type": "",
                     "strain": null,
                     "effects": [
@@ -2865,8 +2865,1081 @@
         {}
     ],
     "techniques": [
-        {}
+        {
+            "name": "Aether Spike",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Aether"
+            ]
+        },
+        {
+            "name": "Aether Gust",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Aether"
+            ]
+        },
+        {
+            "name": "Aether Tunnel",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Aether"
+            ]
+        },
+        {
+            "name": "Bring the Ending",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Aether"
+            ]
+        },
+        {
+            "name": "Essence Flux",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Aether"
+            ]
+        },
+        {
+            "name": "Drain Current",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Aether"
+            ]
+        },
+        {
+            "name": "Invoke Fire",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Stoke the Flames",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Kindle",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Immolation",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Rending Flames",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Blazing Volley",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Pyroclasm",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Inferno"
+            ]
+        },
+        {
+            "name": "Invoke the Dawn",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Lux"
+            ]
+        },
+        {
+            "name": "Radiant Mending",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Lux"
+            ]
+        },
+        {
+            "name": "Revitalizing Ray",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Lux"
+            ]
+        },
+        {
+            "name": "Beaming Defiance",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Lux"
+            ]
+        },
+        {
+            "name": "Sweltering Rays",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Lux"
+            ]
+        },
+        {
+            "name": "Mind Rot",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mentis"
+            ]
+        },
+        {
+            "name": "Tormenting Voice",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mentis"
+            ]
+        },
+        
+        {
+            "name": "Mind Spike",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mentis"
+            ]
+        },
+        {
+            "name": "Psychic Spear",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mentis"
+            ]
+        },
+        {
+            "name": "Invoke Death",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mori"
+            ]
+        },
+        {
+            "name": "Mortality Spear",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mori"
+            ]
+        },
+        {
+            "name": "Merciless Resolve",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mori"
+            ]
+        },
+        {
+            "name": "Alms of Vivus",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mori"
+            ]
+        },
+        {
+            "name": "Death's Touch",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mori"
+            ]
+        },
+        {
+            "name": "Culling Ritual",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Mori"
+            ]
+        },
+        {
+            "name": "Invoke Despair",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nihil"
+            ]
+        },
+        {
+            "name": "Negation Blast",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nihil"
+            ]
+        },
+        {
+            "name": "Void Rift",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nihil"
+            ]
+        },
+        {
+            "name": "Enter the Infinite",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nihil"
+            ]
+        },
+        {
+            "name": "Dark Blast",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Dark Ritual",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Grasp of Shadows"
+            ]
+        },
+        {
+            "name": "Dread Fugue",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Umbral Juke",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Subtle Strike",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Vengeance of Shadows",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Eclipse",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Spreading Darkness",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Eyes of Night",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Nox"
+            ]
+        },
+        {
+            "name": "Pain Bolt",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Wrath of Frost",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Rime"
+            ]
+        },
+        {
+            "name": "Freezing Surge",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Rime"
+            ]
+        },
+        {
+            "name": "Forstbite",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Rime"
+            ]
+        },
+        {
+            "name": "Glacial Spike",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Rime"
+            ]
+        },
+        {
+            "name": "Invoke the Winds",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Squall"
+            ]
+        },
+        {
+            "name": "Stride of the Clouds",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Squall"
+            ]
+        },
+        {
+            "name": "Zephyr Strike",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Squall"
+            ]
+        },
+        {
+            "name": "Whirlwind",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Squall"
+            ]
+        },
+        {
+            "name": "Seismic Suge",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tellus"
+            ]
+        },
+        {
+            "name": "Invoke Calamity",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tellus"
+            ]
+        },
+        {
+            "name": "Return to Nature",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tellus"
+            ]
+        },
+        {
+            "name": "Crystal Volley",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tellus"
+            ]
+        },
+        {
+            "name": "Slagstorm",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tellus"
+            ]
+        },
+        {
+            "name": "Thunderous Charge",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tempest"
+            ]
+        },
+        {
+            "name": "Lightning Strike",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Tempest"
+            ]
+        },
+        {
+            "name": "Hydro Blast",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Water Spout",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Cascade",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Riptide",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Water Whip",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Tangle Wave",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Soothing Waters",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Crashing Wave",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
+        {
+            "name": "Revitalize",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Vivus"
+            ]
+        },
+        {
+            "name": "Rush of Vitality",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Vivus"
+            ]
+        }
     ],
+    
     "wards": [
         {}
     ]
