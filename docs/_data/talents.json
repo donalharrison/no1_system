@@ -1630,13 +1630,56 @@
         },
         {
             "tree": "Priest",
-            "name": "Invoke the divine",
+            "name": "Commune with Divinity",
             "type": "Ability",
+            "rank": "1",
+            "requires": "Divine Doctrine",
+            "replaces": null,
+            "effect": [
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
+                <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Priest",
+            "name": "Divine Doctrine",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Composure"
+                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
+                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:
+                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
+                "Select 2 Effect Skills from the list below to be your Domain:
+                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
+                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
+            ]
+        },
+        {
+            "tree": "Priest",
+            "name": "Invoke the Divine",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Commune with Divinity",
+            "replaces": null,
+            "effect": [
+                "When you Commune with Divinity to gain Concordance, add +1d4 Hits to the result set."
+            ]
+        },        
+        {
+            "tree": "Priest",
+            "name": "Extended Doctrine",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Divine Doctrine",
+            "replaces": null,
+            "effect": [
+                "Select 1 additional Effect Skills from the list below to add to your Domain:
+                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>"
             ]
         },
         {
