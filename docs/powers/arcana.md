@@ -32,9 +32,9 @@ The Arcana's effects depend on how many rank you have invested.
     {% for i in (1..j) %}
         <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
     {% endfor %}
-    <summary>
-        <details>
-        </details>
+    <details>
+        <summary>
+        </summary>
     {% if a.requires %}
         <p style="margin:5px, font-size: 8">
             <strong>Requires: </strong><em>{{ a.requires }}</em>
@@ -66,7 +66,7 @@ The Arcana's effects depend on how many rank you have invested.
         </div>
         <div style="height:8px;"></div>
     {% endfor %}
-    </summary>
+    </details>
     </div>
     <div style="height:12px;"></div>
 {% endfor %}

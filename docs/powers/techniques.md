@@ -18,6 +18,9 @@ permalink: /characters/powers/techniques/
 
 # Technique List
 
+{% assign eskills = site.data.skills | where: "type", "2" %}
+<p>{{eskills}}</p>
+
 {% assign techs = site.data.powers.techniques %}
 
 <p>{{techs}}</p>
