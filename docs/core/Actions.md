@@ -34,7 +34,7 @@ The action may result in a Trigger for the player, which happens immediately fol
         <td>
             <h2>Use an Ability</h2>
             <p>
-            Characters can spend their action to use an Ability gained from their Training Talent trees.  Most Abilities include a Skill name in ther description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
+            Characters can spend their action to use an Ability gained from their Training Talent trees.  Most Abilities include a Skill name in their description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
             </p>
         </td>
     </tr>

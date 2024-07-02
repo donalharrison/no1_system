@@ -9,19 +9,25 @@ has_children: false
 nav_order: 3
 ---
 
-
 # Training
 Training is the cornerstone of characters' capabilities & advancement.  Players invest Milestones into Training ranks, gaining access to [Talents](/characters/talents/) which provide new abilities or increase their [Skill](/no1_system/characters/skills/) ratings.  Each Milestone spent increases characters' rank in the respective Training & allows them to select one of the Talents on that Training's list of equal or lower rank that the character does not yet have.
 Characters must meet all prerequisites before spending a Milestone on Training ranks.
 
 ## Talents
-Talents acrquired through Training make up the core of character advancement & customization.  There are three distinct types of Talents:
-- Ability: The 
-- Static:
-- Trigger: Triggers take effect when certain conditions are met when a character attempts an Action.  If an Action meets a Trigger's condition, the effects happens immediately following the resolution of the Action (unless noted otherwise in the Trigger's description).
+Talents acrquired through Training make up the core of character advancement & customization.  There are three distinct types of Talents -- **Abilities, Static, & Triggers**.
+
+### Abilities
+Ability Talents require an Action to use.  Abilities include a Skill name in their description, which indicates the Skill rating used to determine the type of dice rolled when using the Ability.
+
+### Static
+
+### Trigger
+Triggers take effect when certain conditions are met when a character attempts an Action.  If an Action meets a Trigger's condition, the effects happens immediately following the resolution of the Action (unless noted otherwise in the Trigger's description).
 
 ## Training Lists
-Trainings are categorized in three different types -- Basics, Specializations, & Disciplines.  These categories reflect the advanced experience required to study, master, & leverage the Training's talents.
+Trainings are classified Basics, Specializations, or Disciplines.  These categories reflect the advanced experience required to study, master, & leverage the Training's talents.
+
+Basics are the earliest Trainings availabe to characters, generally requiring only certain Trait ratings.  Specializations are more advanced Trainings that also have require specific Skill Ranks.  Disciplines are the pinnacle of Training, representing expertise and mastery of esoteric Talents, with requirements that can only be accomplished in the game fiction.   
 
 
 <div class="mytabs">

@@ -964,7 +964,9 @@ Your character gains one (1) Skill Rank in a number of Skills of your choice equ
 
 ### Choose Your Primary Defense
 **Reflexes:** Dangerous + Deft + Savvy
+
 **Nerve:** Savvy + Steady + Uncanny
+
 **Vigor:** Dangerous + Steady + Uncanny
 
 
