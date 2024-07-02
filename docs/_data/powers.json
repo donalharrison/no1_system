@@ -3906,6 +3906,23 @@
                 "Torrent"
             ]
         },
+        
+        {
+            "name": "Undertow",
+            "type": "",
+            "max_ranks": null,
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": null,
+                    "effect": ""
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Torrent"
+            ]
+        },
         {
             "name": "Revitalize",
             "type": "",
