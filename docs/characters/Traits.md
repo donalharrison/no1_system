@@ -152,3 +152,13 @@ Savvy + Steady + Uncanny
 ## Vigor
 
 Dangerous + Steady + Uncanny
+
+## Qualities
+
+### Enemies
+
+### Favors
+
+### Renown
+
+### Wealth

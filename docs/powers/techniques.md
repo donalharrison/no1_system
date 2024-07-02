@@ -18,22 +18,80 @@ permalink: /characters/powers/techniques/
 
 # Technique Lists
 
-
-{% assign eskills = site.data.skills | where: "type", "2" %}
-<p>{{eskills}}</p>
-
-<hr>
-
-{% for es in eskills %}
-    <p>{{es.name}}</p>
-{% endfor %}
-
-
-
 {% assign techs = site.data.powers.techniques %}
+
+<div class="mytabs">
+    <input type="radio" id="tab_all" name="mytabs" checked="checked">
+    <label for="tab_all" style="font-size:140%">All Skills</label>
+    <div class="tab">
+
+    {% for tech in techs %}
+        <details>
+            <h3>{{ tech.name }}</h3>
+            <summary>
+                <p>{{ tech }}</p>
+            </summary>
+        </details>
+    {% assign eskills = site.data.skills | where: "type", "2" | map: "name" | uniq | sort %} 
+
+    </div>
+
+    {% for eskill in eskills %}
+        {% assign tabid = 'tab_' | append: eskill %}
+        <input type="radio" id="{{ tabid }}" name="mytabs">
+        <label for="{{ tabid }}" style="font-size:140%">{{ strait }}</label>
+        <div class="tab">
+            {% for tech in site.data.powers.techniques %}
+                {% for tag in tech.keywords %}
+                    {% if tag == eskill %}
+                        <p>{{ tech }}</p>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+    {% endfor %}
+</div>
+
+
 
 <p>{{techs}}</p>
 
 {% for tag in techs.keywords | uniq %}
     <p>{{tag}}</p>
 {% endfor %}
+
+
+<style>
+ 
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    padding: 25px;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 0px;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #444985;
+}
+</style>

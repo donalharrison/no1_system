@@ -1643,6 +1643,17 @@
         },
         {
             "tree": "Priest",
+            "name": "Domain (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Domains ratings to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Priest",
             "name": "Divine Doctrine",
             "type": "Static",
             "rank": "1",
@@ -1672,14 +1683,47 @@
         },        
         {
             "tree": "Priest",
-            "name": "Extended Doctrine",
+            "name": "Extended Domain",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "2",
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
                 "Select 1 additional Effect Skills from the list below to add to your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>"
+            ]
+        },        
+        {
+            "tree": "Priest",
+            "name": "",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Priest",
+            "name": "Domain (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Domains ratings to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Priest",
+            "name": "Domain (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Domains ratings to 3 (d10)."
             ]
         },
         {
