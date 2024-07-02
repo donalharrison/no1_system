@@ -2461,7 +2461,40 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Grapple your target, adding +1d4 bonus Hits and making them Prone."
+                "Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grapple Status."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Sprawl",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When an opponet you can see tries to Grapple you, reduce Hits in their result set by -2."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Chokeslam",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "O Goshi",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you have an opponent Grappled, you may reduce their Grappled rating by -1 to give them Vulnerable 2."
             ]
         },
         {

@@ -48,11 +48,15 @@ Something about having to take actions against the source of provocation.
 
 ## Restrained
 #### Variable
-While your Restrained rating is greater than 0, you can take no Shifts and Hits from any combat Actions are reduced by your Restrained rating.  You use yr Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
+While your Restrained rating is greater than 0, you can take no Shifts and Hits from any combat Actions you take are reduced by your Restrained rating.  You use your Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
 
 ## Stunned
 #### Variable
 You can only take the Recover Action as long as you have a Stunned rating of 1 or higher.  When you take the Recover Action, reduce your Stunned rating by Hits and do not regain any Defenses.
+
+## Unconscious
+#### Variable
+You have Vulnerable 1 and can only take the Recover Action using Endure as long as you have a Unconscious rating of 1 or higher.
 
 ## Vulnerable
 #### Variable
