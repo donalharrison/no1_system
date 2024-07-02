@@ -18,8 +18,8 @@ permalink: /characters/powers/techniques/
 
 # Technique List
 
-{% assign eskills = site.data.skills | where: "type", "2" | uniq %}
-<p>{{eskills.name | uniq }}</p>
+{% assign eskills = site.data.skills.name | where: "type", "2" | uniq %}
+<p>{{eskills}}</p>
 
 {% assign techs = site.data.powers.techniques %}
 
