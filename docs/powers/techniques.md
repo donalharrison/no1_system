@@ -18,6 +18,18 @@ permalink: /characters/powers/techniques/
 
 # Technique Lists
 
+
+{% assign eskills = site.data.skills | where: "type", "2" %}
+<p>{{eskills}}</p>
+
+<hr>
+
+{% for es in eskills %}
+    <p>{{es.name}}</p>
+{% endfor %}
+
+
+
 {% assign techs = site.data.powers.techniques %}
 
 <p>{{techs}}</p>
