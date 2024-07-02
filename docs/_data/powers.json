@@ -2937,12 +2937,12 @@
             "name": "Essence Flux",
             "type": "Trigger",
             "cost": 2,
-            "effect": "When one of your allies you can see takes Hits from an attack, you momentarily send them to the Aether, reducing the Hits the take by Hits in the result set.",
+            "effect": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.",
             "current": 1,
             "threshold": [
                 {
                     "hits": 4,
-                    "effect": "When one of your allies you can see takes Hits from an attack, you momentarily send them to the Aether, reducing the Hits the take by Hits in the result set.  Create 1 Advantage in the target ally's Current Zone."
+                    "effect": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.  Create 1 Advantage in the target ally's Current Zone."
                 }
             ],
             "requires": null,
@@ -2976,7 +2976,7 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Deal 3 Hits to up to 2 targets in your Current or Adjacent Zone.",
+                    "effect": "Deal 3 Hits to up to 2 targets in your Current or Adjacent Zone."
                 },
                 {
                     "hits": 5,
@@ -3048,7 +3048,7 @@
             "threshold": [
                 {
                     "hits": 5,
-                    "effect": "Deal 5 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 3 Hits to another target in the same Zone.",
+                    "effect": "Deal 5 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 3 Hits to another target in the same Zone."
                 }
             ],
             "requires": null,
