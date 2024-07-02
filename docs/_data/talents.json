@@ -287,18 +287,75 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Exert rating to 2 (d8)."
+            ]
+        },
+            {
+            "tree": "Berserker",
+            "name": "Rage",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Exert yourslef and enter a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women.  You gain a Rage Aura equal to Hits +1 in the result set.",
+                "While you are in a Rage, add +1 Bonus Hits to any results set using Strike, Martial Arts, Grapple, or Throw.",
+                "When your Rage Aura equals 0, you gain Fatigued 2 and Confused, and the Entropy increases by +2."
             ]
         },
         {
             "tree": "Berserker",
             "name": "Frenzy",
-            "type": "Ability",
-            "rank": "1",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Rage",
+            "replaces": null,
+            "effect": [
+                "When you are in a Rage and score Hits in melee combat, increase your Rage Aura by +1."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Indomitable Rage",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Rage",
+            "replaces": null,
+            "effect": [
+                "While you are in a Rage, you automatically regain +1 point to your Primary Defense at the beginning of your turn and you are immune to being Afraid."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Vicious Rage",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Rage",
+            "replaces": null,
+            "effect": [
+                "While you are in a Rage, add +2 Bonus Hits to any results set using Strike, Martial Arts, Grapple, or Throw (instead of +1)."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Exert (3)",
+            "type": "Static",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Exert rating to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Bloodlust",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Rage",
+            "replaces": null,
+            "effect": [
+                "When you are in a Rage and suffer Hits from a melee attack, increase you Rage Aura by +1."
             ]
         },
         {
@@ -418,13 +475,24 @@
         },
         {
             "tree": "Brute",
-            "name": "You're Next",
+            "name": "Who's Next",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Intimidate all targets in your Current Zone.  If you score Hits greater than their current Nerve, they become <a href:'/no1_system/core/statuses#Afraid/'>Afraid</a> of you."
+            ]
+        },
+        {
+            "tree": "Brute",
+            "name": "You're Next",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike your target to death, you can Initiate a Contest with one hostile target in your Current Zone wihtout using a Shift."
             ]
         },
         {
@@ -1679,6 +1747,94 @@
             "replaces": null,
             "effect": [
                 "When you roll Survival and score 0 Hits, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Rending Strike",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike your target, delaing +1 Bonus Hits directly to their Grit."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Blood Fury",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are below your maximum Grit, add +1 Bonus Hits to any results set using Strike."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Strike (3)",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike rating to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Whirlwind Strike",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike at all hostile Targets in your Current Zone.  Deal 1 Hit to a number of targets equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Soul Reaver",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike your target to death, immediately regain +2 points to your Grit."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Vicious Whirlwind",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": "Whirlwind Strike",
+            "effect": [
+                "Strike at all hostile Targets in your Current Zone.  Deal 2 Hits to a number of targets equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Vicious Rending",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": "Rending Strike",
+            "effect": [
+                "Strike your target, delaing +2 Bonus Hits directly to their Grit."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
