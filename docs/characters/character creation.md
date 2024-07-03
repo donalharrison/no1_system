@@ -692,7 +692,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Notorious</strong>
 </summary>
 <p>You are infamous for actions that have drawn significant attention, often for the wrong reasons. Whether due to criminal activities, ruthless behavior, or controversial decisions, your reputation precedes you, making people wary and authorities vigilant.</p>
-<p>Gain Enemies 2 & Wealth 2.
+<p>Gain Enemies 2 & Wealth 2.</p>
 </details>
 
 <details>
@@ -700,7 +700,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Outlaw</strong>
 </summary>
 <p>You are recognized as a rebel or outlaw, living outside the bounds of conventional law and order. This reputation makes you a target for law enforcement but also a hero to those who resist authority. Your status as an outlaw can provide you with a network of fellow rebels and sympathizers.</p>
-<p>Gain Enemies 3, Favors 2, & Renown 2.
+<p>Gain Enemies 3, Favors 2, & Renown 2.</p>
 </details>
 
 <details>
