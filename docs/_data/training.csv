@@ -60,7 +60,7 @@ Corsair,Specialization,,"You are a specialist in naval combat, piracy, and marit
 Courtier,Specialization,,"You navigate courtly intrigue, gaining favor and influence in political circles.",/no1_system/assets/img/courtier.png,/no1_system/characters/training/courtier/
 Detective,Specialization,,"You are a master in the art of investigation, solving mysteries and uncovering hidden truths.",/no1_system/assets/img/detective.png,/no1_system/characters/training/detective/
 Diabolist,Specialization,,"You form pacts with dark entities, gaining infernal powers and dark magic.",/no1_system/assets/img/diabolist.png,/no1_system/characters/training/diabolist/
-Driver,Specialization,,"You have expertise in in handling various vehicles, excelling in maneuvering, speed, and precision driving.",/no1_system/assets/img/driver.png,/no1_system/characters/training/driver/
+Operator,Specialization,,"You have expertise in in handling various vehicles, excelling in maneuvering, speed, and precision handling.",/no1_system/assets/img/driver.png,/no1_system/characters/training/driver/
 Duelist,Specialization,,"You are a master of the art of one-on-one combat, specializing in deadly duels that are elegant and even ceremonial.",/no1_system/assets/img/duelist.png,/no1_system/characters/training/duelist/
 Elementalist,Specialization,,"You control and manipulate the elemental forces, weaving powerful spells to devastating effect.",/no1_system/assets/img/elementalist.png,/no1_system/characters/training/elementalist/
 Engineer,Specialization,,"You possess advanced knowledge of machinery, technology, and invention, contributing to problem-solving and innovation.",/no1_system/assets/img/engineer.png,/no1_system/characters/training/engineer/
@@ -76,7 +76,7 @@ Mesmer,Specialization,,"You are a master of the manipulation of thoughts and per
 Necromancer,Specialization,,"You command the forces of death and undeath, raising corpses and wielding dark magic.",/no1_system/assets/img/necromancer.png,/no1_system/characters/training/necromancer/
 Nexus,Specialization,,"You are a focal point of magical energies, able to manipulate and control various forms of powers with unparalleled skill.",/no1_system/assets/img/nexus.png,/no1_system/characters/training/nexus/
 Overseer,Specialization,Savvy 2,"You have a group of minions at your command, capable of coordinating your followers' efforst to achieve your aims.",/no1_system/assets/img/overseer.png,/no1_system/characters/training/overseer/
-Pilot,Specialization,,You have advanced skills at handling and operating various aircraft.,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
+Pilot,,,You have advanced skills at handling and operating various aircraft.,/no1_system/assets/img/pilot.png,/no1_system/characters/training/pilot/
 Priest,Specialization,,"You serve a divine cause, gaining powers through faith, miracles, and spiritual connections.",/no1_system/assets/img/priest.png,/no1_system/characters/training/priest/
 Probabilist,Specialization,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist.png,/no1_system/characters/training/probabilist/
 Pugilist,Specialization,,"You excel in bare-knuckle brawling, using sheer physical power and tenacity in combat.",/no1_system/assets/img/pugilist.png,/no1_system/characters/training/pugilist/

@@ -152,7 +152,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <summary>
 <strong>Idealistic</strong>
 </summary>
-<p>You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality.. While some see you as a beacon of hope, others might view you as naive or impractical.</p>
+<p>You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality. While some see you as a beacon of hope, others might view you as naive or impractical.</p>
 </details>
 
 </div>
@@ -280,11 +280,11 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             <ul>
                 <li>
                     <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong> You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.
-                    <p>Gain +1 Skill Rank in Perceive.  You gain the ability to Fly, which allows you to Shift to Move Out of Your Current Zone vertically.</p>
+                    <p>Gain +1 Skill Rank in Perceive.  You gain the ability to *Fly*, which allows you to Shift to Move Out of Your Current Zone vertically.</p>
                 </li>
                 <li>
                     <strong>Dwarf &mdash; </strong>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.
-                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Caft, Endure, Grapple, or Strike.</p>
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Caft, Endure, History, Insight, Grapple, or Strike.</p>
                 </li>
                 <li>
                     <strong>Devilspawn &mdash; </strong>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.
@@ -299,11 +299,11 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                     <ul>
                         <li>
                             <strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.
-                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Sangui, Shoot, Stealth, Strike, or Plaga.</p>
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Cosmology, Sangui, Shoot, Stealth, Strike, Survival, Tumble, or Plaga.</p>
                         </li>
                         <li>
                             <strong>Irun-ar <em>(Dune Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.
-                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Endure, Inferno, Shoot, Strike, Survival, or Resist.</p>
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Endure, Inferno, Martial Arts, Shoot, Strike, Survival, or Resist.</p>
                         </li>
                         <li>
                             <strong>Ithindi <em>(Grey Elf)</em>:</strong> Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.
@@ -330,11 +330,11 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                 </li>
                 <li>
                     <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
-                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Current Events, Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
                 </li>
                 <li>
                     <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
-                    <p>Gain +1 rating in one other Trait of yoru choice.</p>
+                    <p>Gain +1 rating in one other Trait of your choice.</p>
                 </li>
                 <li>
                     <strong>Jätti &mdash; </strong>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.
@@ -370,13 +370,34 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                 <strong>Elf &mdash; </strong> you travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
                 <br><em>Deft Subspecies</em>:
                 <ul>
-                    <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
-                    <li><strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</li>
-                    <li><strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</li>
-                    <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</li>
-                    <li><strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</li>
-                    <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
-                    <li><strong>Erynor <em>(Wood Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                    <li>
+                        <strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Legerdemain, Mori, Nox, Shoot, Stealth, Strike, or Perceive.</p>
+                    </li>
+                    <li>
+                        <strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Insight, Mori, Rime, Shoot, Stealth, or Strike.</p>
+                    </li>
+                    <li>
+                        <strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in  harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Aether, Composure, Cosmology, History, Insight, Intuit, Lead, Lux, Ordi, Persuade, Shoot, Strike, or Tactics.</p>
+                    </li>
+                    <li>
+                        <strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
+                    </li>
+                    <li>
+                        <strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Exert, History, Navigate, Operate, Strike, Survival, Tactics, or Torrent.</p>
+                    </li>
+                    <li>
+                        <strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
+                    </li>
+                    <li>
+                        <strong>Erynor <em>(Wood Elf)</em>:</strong> Erynor, the Wood Elves, are deeply attuned to the natural world. They live harmoniously within lush woodlands, where their keen senses and agility make them exceptional hunters and guardians of nature. Their bond with the wilderness is strong, and they revere the spirits of the forest.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Intimidate, Perceive, Phylla, Shoot, Stealth, Strike, Survival, Tellus, or Tumble.</p>
+                    </li>
                 </ul>
             </li>
             <li>
@@ -399,20 +420,22 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </li>
             <li>
                 <strong>Gnome &mdash; </strong>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.
-                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Cosmology, Craft, Implements, Legerdemain, Mentis, Research, or Shoot.</p>
             </li>
             <li>
                 <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
-                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Current Events, Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
             </li>
             <li>
                 <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+                <p>Gain +1 rating in one other Trait of your choice.</p>
             </li>
             <li>
                 <strong>Halfling &mdash; </strong>You are stout hearted and jovial.  Most people do not take as seriously as you might deserve, and sometimes that works out in your favor.
             </li>
             <li>
                 <strong>Skiv <em>(Ratfolk)</em> &mdash; </strong> youare cunning and resourceful, known for your ability to thrive in any environment.  Your kind make excellent spies, thieves, and survivalists.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Legerdemain, Luck, Perceive, Plaga, or Stealth.</p>
             </li>
         </ul>
     </p>
@@ -427,18 +450,40 @@ Your character's Heritage captures the heritable traits of the lineage and deter
         <ul>
             <li>
                     <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong> You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.
+                    <p>Gain +1 Skill Rank in Perceive.  You gain the ability to *Fly*, which allows you to Shift to Move Out of Your Current Zone vertically.</p>
             </li>
             <li>
                 <strong>Elf &mdash; </strong> You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
                 <br><em>Savvy Subspecies</em>:
                 <ul>
-                    <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
-                    <li><strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</li>
-                    <li><strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</li>
-                    <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</li>
-                    <li><strong>Oror <em>(Sun Elf)</em>:</strong> Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.</li>
-                    <li><strong>Ehelnor <em>(Star Elf)</em>:</strong> Star Elves, the Ehelnor, possess an innate connection to the Cosm, using celestial energies to peer into the mysteries of distant stars. With a keen sense of destiny, they often serve as prophets, guiding their people with visions of the future.  They largely reside in the plane of Sideria and are rarely seen within the material plane of Aerdth.</li>
-                    <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
+                    <li>
+                        <strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Legerdemain, Mori, Nox, Shoot, Stealth, Strike, or Perceive.</p>
+                    </li>
+                    <li>
+                        <strong>Dwin-ar <em>(Frost Elf)</em>:</strong> The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Insight, Mori, Rime, Shoot, Stealth, or Strike.</p>
+                    </li>
+                    <li>
+                        <strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Aether, Composure, Cosmology, History, Insight, Intuit, Lead, Lux, Ordi, Persuade, Shoot, Strike, or Tactics.</p>
+                    </li>
+                    <li>
+                        <strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, gain power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
+                    </li>
+                    <li>
+                        <strong>Oror <em>(Sun Elf)</em>:</strong> Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Cosmology, Deceive, Destroy, Inferno, Lux, Lead, Perceive, or Persuade.</p>
+                    </li>
+                    <li>
+                        <strong>Ehelnor <em>(Star Elf)</em>:</strong> Star Elves, the Ehelnor, possess an innate connection to the Cosm, using celestial energies to peer into the mysteries of distant stars. With a keen sense of destiny, they often serve as prophets, guiding their people with visions of the future.  They largely reside in the plane of Sideria and are rarely seen within the material plane of Aerdth.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
+                    </li>
+                    <li>
+                        <strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
+                    </li>
                 </ul>
             </li>
             <li>
@@ -446,7 +491,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </li>
             <li>
                 <strong>Gnome &mdash; </strong>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.
-                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Cosmology, Craft, Implements, Legerdemain, Mentis, Research, or Shoot.</p>
             </li>
             <li>
                 <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
@@ -454,6 +499,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </li>
             <li>
                 <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+                <p>Gain +1 rating in one other Trait of your choice.</p>
             </li>
             <li>
                 <strong>Serafaed &mdash; </strong>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.
@@ -473,11 +519,26 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                 <strong>Elf &mdash; </strong> You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
                 <br><em>Steady Subspecies</em>:
                 <ul>
-                    <li><strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</li>
-                    <li><strong>Miurdan <em>(Mountain  Elf)</em>:</strong> Mountain Elves, the Miurdan, have an affinity and influence over stone, soil, and metals. In their solitary mountain realms, they are adept builders and formidable warriors, forging great fortresses and using elemental powers to defend their territories.</li>
-                    <li><strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</li>
-                    <li><strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</li>
-                    <li><strong>Erynor <em>(Wood Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
+                    <li>
+                        <strong>Vallinde <em>(High Elf)</em>:</strong> The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Aether, Composure, Cosmology, History, Insight, Intuit, Lead, Lux, Ordi, Persuade, Shoot, Strike, or Tactics.</p>
+                    </li>
+                    <li>
+                        <strong>Miurdan <em>(Mountain  Elf)</em>:</strong> Mountain Elves, the Miurdan, have an affinity and influence over stone, soil, and metals. In their solitary mountain realms, they are adept builders and formidable warriors, forging great fortresses and using elemental powers to defend their territories.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in History, Insight, Lead, Ordi, Perceive, Research, Shoot, Strike, Survival, or Tellus.</p>
+                    </li>
+                    <li>
+                        <strong>Vey-ar <em>(Sea Elf)</em>:</strong> Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Exert, History, Navigate, Operate, Strike, Survival, Tactics, or Torrent.</p>
+                    </li>
+                    <li>
+                        <strong>Telun-ar <em>(Sky Elf)</em>:</strong> Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
+                    </li>
+                    <li>
+                        <strong>Erynor <em>(Wood Elf)</em>:</strong> Erynor, the Wood Elves, are deeply attuned to the natural world. They live harmoniously within lush woodlands, where their keen senses and agility make them exceptional hunters and guardians of nature. Their bond with the wilderness is strong, and they revere the spirits of the forest.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Intimidate, Perceive, Phylla, Shoot, Stealth, Strike, Survival, Tellus, or Tumble.</p>
+                    </li>
                 </ul>
             </li>
             <li><strong>Felinar <em>(Catfolk)</em> &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
@@ -488,6 +549,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </li>
             <li>
                 <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+                <p>Gain +1 rating in one other Trait of your choice.</p>
             </li>
             <li>
                 <strong>Jätti &mdash; </strong>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.
@@ -510,19 +572,35 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                 <strong>Elf &mdash; </strong> You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
                 <br><em>Uncanny Subspecies</em>:
                 <ul>
-                    <li><strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
-                    <li><strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</li>
-                    <li><strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</li>
-                    <li><strong>Oror <em>(Sun Elf)</em>:</strong> Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.</li>
-                    <li><strong>Sieluni  <em>(Soul Elf)</em>:</strong> Soul Elves, or Sieluni, possess a deep connection to the spirits of the Cosm. They are dreamwalkers, able to traverse the realm of dreams and unlock hidden truths. They possess unique abilities to connect with the ethereal realm, often taking prolonged pilgrimages into the ghostly planes communing with the dead.  They serve as spiritual guides and are often healers, providing solace and wisdom to their kin.  Despite this powerful affinity, their connection to the spirit realms leaves them untrusted by most, even their elven kin.</li>
+                    <li>
+                        <strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Cosmology, Sangui, Shoot, Stealth, Strike, Survival, Tumble, or Plaga.</p>
+                    </li>
+                    <li>
+                        <strong>Nhul-ar <em>(Dark Elf)</em>:</strong> Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Legerdemain, Mori, Nox, Shoot, Stealth, Strike, or Perceive.</p>
+                    </li>
+                    <li>
+                        <strong>Ranor <em>(Moon Elf)</em>:</strong> Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
+                    </li>
+                    <li>
+                        <strong>Oror <em>(Sun Elf)</em>:</strong> Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Cosmology, Deceive, Destroy, Inferno, Lux, Lead, Perceive, or Persuade.</p>
+                    </li>
+                    <li>
+                        <strong>Sieluni  <em>(Soul Elf)</em>:</strong> Soul Elves, or Sieluni, possess a deep connection to the spirits of the Cosm. They are dreamwalkers, able to traverse the realm of dreams and unlock hidden truths. They possess unique abilities to connect with the ethereal realm, often taking prolonged pilgrimages into the ghostly planes communing with the dead.  They serve as spiritual guides and are often healers, providing solace and wisdom to their kin.  Despite this powerful affinity, their connection to the spirit realms leaves them untrusted by most, even their elven kin.
+                        <p><em>Choose one (1):</em> Gain +1 Skill Rank in Compsure, Cosmology, History, Insight, Intuit, Luck, Mori, Nihil, Plaga, Tempor, or Vivus.</p>
+                    </li>
                 </ul>
             </li>
             <li>
                 <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
-                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Strike, or Shoot.</p>
             </li>
             <li>
                 <strong>Serafaed &mdash; </strong>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Composure, Craft, History, Insight, Lead, Lux, Ordi, Persuade, Strike, or Vivus.</p>
             </li>
         </ul>
     </p>
@@ -541,6 +619,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Beloved</strong>
 </summary>
 <p>You are adored by many for your kindness, generosity, and charm. People go out of their way to help and support you, viewing you with affection and loyalty. This beloved status can create a strong network of allies and supporters, but it also means you must maintain a likable persona.</p>
+<p>Gain Favors 2 & Renown 1.</p>
 </details>
 
 <details>
@@ -548,6 +627,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Cursed</strong>
 </summary>
 <p>You are believed to be cursed or ill-fated, with a reputation for bringing bad luck or misfortune wherever you go. People are cautious around you, and your presence can cause unease. This reputation can be a significant hindrance, but it might also give you a certain mystique.</p>
+<p>Gain +1 Milestone.  Increase the Entropy by +5 at the start of each Waypoint.</p>
 </details>
 
 <details>
@@ -555,6 +635,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Enigmatic</strong>
 </summary>
 <p>You are a mystery to most, with an aura of secrecy and the unknown surrounding you. People are intrigued by your presence and curious about your background. This enigmatic reputation can draw interest and speculation, but it might also lead to misunderstandings.</p>
+<p>.</p>
 </details>
 
 <details>
@@ -562,6 +643,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Famous</strong>
 </summary>
 <p>Your deeds and exploits are known far and wide. Whether through heroism, remarkable achievements, or simply being in the right place at the right time, your name is recognized by many. This fame can open doors and attract admirers, but it also brings scrutiny and high expectations.</p>
+<p>Gain Wealth 3 & Renown 2.</p>
 </details>
 
 <details>
@@ -569,6 +651,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Feared</strong>
 </summary>
 <p>Your reputation strikes fear into the hearts of many. Whether through displays of power, brutal efficiency, or merciless actions, you command respect through intimidation. This fear can keep adversaries at bay, but it might also isolate you from potential allies.</p>
+<p>Gain Enemies 2, Wealth 2 & Renown 2.</p>
 </details>
 
 <details>
@@ -576,6 +659,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Honorable</strong>
 </summary>
 <p>You are known for your unwavering principles and honorable conduct. People trust and respect you for your integrity and ethical behavior. This honorable reputation can help you build strong alliances and gain respect, but it also means you must consistently uphold your values.</p>
+<p>Gain Enemies 1, Wealth 1 & Renown 2.</p>
 </details>
 
 <details>
@@ -583,6 +667,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Incognito</strong>
 </summary>
 <p>You actively maintain a hidden identity, concealing your true nature or past. This secretive approach lets you operate under the radar, gather information unnoticed, and protect yourself from those who might seek you out.</p>
+<p>Gain Enemies 1 & Favors 3.</p>
 </details>
 
 </div>
@@ -593,6 +678,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Mysterious</strong>
 </summary>
 <p>You are an enigma, shrouded in mystery and speculation. Few know your true background or intentions, making you an intriguing and unpredictable figure. This mysterious reputation can give you an edge in negotiations and encounters, but it also means others may be cautious around you.</p>
+<p></p>
 </details>
 
 <details>
@@ -607,6 +693,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Notorious</strong>
 </summary>
 <p>You are infamous for actions that have drawn significant attention, often for the wrong reasons. Whether due to criminal activities, ruthless behavior, or controversial decisions, your reputation precedes you, making people wary and authorities vigilant.</p>
+<p>Gain Enemies 2 & Wealth 2.
 </details>
 
 <details>
@@ -614,6 +701,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Outlaw</strong>
 </summary>
 <p>You are recognized as a rebel or outlaw, living outside the bounds of conventional law and order. This reputation makes you a target for law enforcement but also a hero to those who resist authority. Your status as an outlaw can provide you with a network of fellow rebels and sympathizers.</p>
+<p>Gain Enemies 3, Favors 2, & Renown 2.
 </details>
 
 <details>
@@ -621,6 +709,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Renowned</strong>
 </summary>
 <p>You are widely respected and admired for your expertise and accomplishments in a particular field. Your skills and knowledge are sought after, and your reputation precedes you in professional circles. This renown can open professional opportunities, but it also brings high expectations and competition.</p>
+<p>Gain Renown 4.</p>
 </details>
 
 <details>
@@ -628,6 +717,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Revered</strong>
 </summary>
 <p>You are held in high regard for your wisdom, kindness, and exemplary conduct. People seek your guidance and respect your opinions. This reverence can help you influence others and gain support, but it also places a burden of maintaining a high moral standard.</p>
+<p>Gain Favors 3 & Renown 1.</p>
 </details>
 
 <details>
@@ -635,6 +725,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Scandalous</strong>
 </summary>
 <p>Your name is synonymous with scandal and controversy. Whether through personal indiscretions, public failures, or shocking actions, your reputation has been marred by gossip and scandal. This notoriety can make social interactions challenging, but it can also make you a topic of interest.</p>
+<p>Gain Enemies 2 & Wealth 2.</p>
 </details>
 
 </div>
