@@ -347,7 +347,6 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                 <li>
                     <strong>Quarry-Breed <em>(Half-orc)</em>&mdash; </strong> Bred by the Elves to be hunted for sport, your people are feared for their brutal nature.  Other species will avoid and not understand you.  Elves will despise you.
                     <p>Gain +1 Skill Rank in Exert, Perceive, Strike, or Survival.  When you Strike a target in melee combat, add +1d4 Bonus Hits to the result set.</p>
-                    <p>
                 </li>
             </ul>
         </p>
