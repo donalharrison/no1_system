@@ -153,12 +153,14 @@ Savvy + Steady + Uncanny
 
 Dangerous + Steady + Uncanny
 
-## Qualities
+# Qualities
 
-### Enemies
+## Enemies
 
-### Favors
+## Favors
 
-### Renown
+## Gear
 
-### Wealth
+## Renown
+
+## Wealth
