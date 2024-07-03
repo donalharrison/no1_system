@@ -275,17 +275,20 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     <summary>
         <strong>Dangerous</strong>
     </summary>
-    <p>Gain +1 rating in the <em>Dangerous</em> Trait.</p>
+    <p>Gain +1 rating in the <em>Dangerous</em> Trait, then choose a Species.</p>
         <p><em><strong>Species:</strong></em>
             <ul>
                 <li>
                     <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong> You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.
+                    <p>Gain +1 Skill Rank in Perceive.  You gain the ability to Fly, which allows you to Shift to Move Out of Your Current Zone vertically.</p>
                 </li>
                 <li>
                     <strong>Dwarf &mdash; </strong>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Caft, Endure, Grapple, or Strike.</p>
                 </li>
                 <li>
                     <strong>Devilspawn &mdash; </strong>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
                 </li>
                 <li>
                     <strong>Dragonkin &mdash; </strong>fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.
@@ -294,33 +297,57 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                     <strong>Elf &mdash; </strong> you travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.
                     <br><em>Dangerous Subspecies</em>:
                     <ul>
-                        <li><strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</li>
-                        <li><strong>Irun-ar <em>(Dune Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</li>
-                        <li><strong>Ithindi <em>(Grey Elf)</em>:</strong> Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</li>
-                        <li><strong>Hravani <em>(Wild Elf)</em>:</strong> Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.</li>
+                        <li>
+                            <strong>Sereg-ar <em>(Blood Elf)</em>:</strong> Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Sangui, Shoot, Stealth, Strike, or Plaga.</p>
+                        </li>
+                        <li>
+                            <strong>Irun-ar <em>(Dune Elf)</em>:</strong> Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Endure, Inferno, Shoot, Strike, Survival, or Resist.</p>
+                        </li>
+                        <li>
+                            <strong>Ithindi <em>(Grey Elf)</em>:</strong> Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Exert, Intimidate, Shoot, Stealth, Strike, or Tactics.</p>
+                        </li>
+                        <li>
+                            <strong>Hravani <em>(Wild Elf)</em>:</strong> Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Exert, Intimidate, Shoot, Stealth, Strike, Survival, or Perceive.</p>
+                        </li>
                     </ul>
                 </li>
                 <li><strong>Felinar <em>(Catfolk)</em> &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
                 <br><em>Dangerous Subspecies</em>:
                     <ul>
-                        <li><strong>Leino:</strong> Lion men and women, known for their wisdom and warrior spirit.</li>
-                        <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
+                        <li>
+                            <strong>Leino:</strong> Lion men and women, known for their wisdom and warrior spirit.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Endure, Insight, Intimidate, Lead, Strike, or Tactics.</p>
+                        </li>
+                        <li>
+                            <strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Exert, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
+                        </li>
                     </ul>
                 </li>
                 <li>
                     <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
                 </li>
                 <li>
                     <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
+                    <p>Gain +1 rating in one other Trait of yoru choice.</p>
                 </li>
                 <li>
                     <strong>Jätti &mdash; </strong>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Composure, Endure, Exert, Focus, Grapple, Strike, or Tellus.</p>
                 </li>
                 <li>
-                    <strong>Orc &mdash; </strong>
+                    <strong>Orc &mdash; </strong>Your kind are fierce and resilient known for their strength, combat prowess, and tribal cultures. You value honor and bravery, often living in close-knit clans that emphasize warrior traditions and survival in harsh environments.
+                    <p><em>Choose one (1):</em> Gain +1 Skill Rank in Destroy, Exert, Grapple, Navigate, Strike, Survival, or Tactics.</p>
                 </li>
                 <li>
                     <strong>Quarry-Breed <em>(Half-orc)</em>&mdash; </strong> Bred by the Elves to be hunted for sport, your people are feared for their brutal nature.  Other species will avoid and not understand you.  Elves will despise you.
+                    <p>Gain +1 Skill Rank in Exert, Perceive, Strike, or Survival.  When you Strike a target in melee combat, add +1d4 Bonus Hits to the result set.</p>
+                    <p>
                 </li>
             </ul>
         </p>
@@ -356,18 +383,27 @@ Your character's Heritage captures the heritable traits of the lineage and deter
                 <strong>Felinar <em>(Catfolk)</em> &mdash; </strong> The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
                 <br><em>Dangerous Subspecies</em>:
                     <ul>
-                        <li><strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.</li>
-                        <li><strong>Lynari:</strong> A mix of puma, panther, jaguar, and leopard traits, agile and stealthy.</li>
+                        <li>
+                            <strong>Tigon:</strong> Tiger warriors and hunters, fierce and savage in battle.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Exert, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
+                        </li>
+                        <li>
+                            <strong>Lynari:</strong> A mix of puma, panther, jaguar, and leopard traits, agile and stealthy.
+                            <p><em>Choose one (1):</em> Gain +1 Skill Rank in Deceive, Legerdemain, Martial Arts, Perceive, Shoot, Stealth, Strike, Throw, or Tumble.</p>
+                        </li>
                     </ul>
             </li>
             <li>
                 <strong>Goblin &mdash; </strong>Known for you ingenuity and resourcefulness, Goblins excel in tinkering and trade, and often more ilicit activities.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Craft, Deceive, Implements, Legerdemain, Shoot, or Stealth.</p>
             </li>
             <li>
                 <strong>Gnome &mdash; </strong>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
             </li>
             <li>
                 <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
             </li>
             <li>
                 <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
@@ -410,9 +446,11 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </li>
             <li>
                 <strong>Gnome &mdash; </strong>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
             </li>
             <li>
                 <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
             </li>
             <li>
                 <strong>Human &mdash; </strong>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.
@@ -481,6 +519,7 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </li>
             <li>
                 <strong>Half-elf &mdash; </strong>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.
+                <p><em>Choose one (1):</em> Gain +1 Skill Rank in Analyze, Craft, Implements, Legerdemain, Mentis, Research, Science, or Shoot.</p>
             </li>
             <li>
                 <strong>Serafaed &mdash; </strong>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.
@@ -769,13 +808,6 @@ Motivations are the driving forces that can shape your character's goals, decisi
 
 <details>
 <summary>
-<strong>Activism</strong>
-</summary>
-<p>You were involved in a political movement or rebellion, fighting for a cause you believed in. This experience has given you a strong sense of justice and strategic thinking, but it also means you have enemies who oppose your ideals and possibly a bounty on your head.</p>
-</details>
-
-<details>
-<summary>
 <strong>Apprenticeship</strong>
 </summary>
 <p>You spent years as an apprentice, learning a trade or craft from a master. This experience has given you a strong foundation in a specific skill and a mentor you can rely on, but it also means you might be expected to take over the business or uphold a legacy.</p>
@@ -851,15 +883,15 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <p>You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.</p>
 </details>
 
-</div>
-<div class='column'>
-
 <details>
 <summary>
 <strong>Merchant Trade</strong>
 </summary>
 <p>You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.</p>
 </details>
+
+</div>
+<div class='column'>
 
 <details>
 <summary>
@@ -894,6 +926,13 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Performance</strong>
 </summary>
 <p>You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.</p>
+</details>
+
+<details>
+<summary>
+<strong>Politico</strong>
+</summary>
+<p>You served as a public official or advisor, navigating the complex and often treacherous world of politics. This experience has honed your skills in diplomacy, persuasion, and strategy. You are adept at reading people, managing alliances, and leveraging power dynamics to achieve your goals.</p>
 </details>
 
 <details>

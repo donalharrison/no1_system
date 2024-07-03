@@ -101,6 +101,6 @@ Thrall,Specialization,,"You serve a supernatural or otherworldly master, gaining
 Transmuter,Specialization,,"You are adept in the art of transformation and alteration, changing the properties of objects and creatures.",/no1_system/assets/img/transmuter.png,/no1_system/characters/training/transmuter/
 Weapon Master,Specialization,,You are a seasoned fighter with unparalleled skill in wielding a wide array of weapons.,/no1_system/assets/img/weapon_master.png,/no1_system/characters/training/weapon_master/
 Wrestler,Specialization,,"You specialize in hand-to-hand combat emphasizing strength, grappling, and close-quarters brawling.",/no1_system/assets/img/wrestler.png,/no1_system/characters/training/wrestler/
-Bard,Discipline,,,,
-Rhapsodist,Specialization,,,,
-Balladeer,Specialization,,,,
+Bard,Discipline,,"You are a renowned storyteller whose esteemed reputation has earned a sovereign endorsement, granting you the authority to witness and certify transactions and contracts.",,
+Rhapsodist,Specialization,,"You are amaster storyteller who chronicles great events in modern and ancient history through epic tales, inspiring others with their profound knowledge and captivating performances.",,
+Balladeer,Specialization,,"You craft poignant ballads that recount inspiring tales of heroes and tragedies, using their evocative performances to stir deep emotions.",,
