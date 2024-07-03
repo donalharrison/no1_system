@@ -2862,8 +2862,753 @@
         }
     ],
     "spirits": [
-        {}
-    ],
+        {
+            "name": "Guardian",
+            "description": "Summon a protective spirit that defends an ally from attacks.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Vengeance",
+            "description": "Call forth a vengeful spirit to attack and haunt an enemy.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Healing",
+            "description": "Summon a benevolent spirit that heals and rejuvenates allies over time.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Wild",
+            "description": "Call upon an animal spirit to assist in combat or tracking.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Tellus",
+                "Phylla"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Wisdom",
+            "description": "Summon a wise spirit to provide guidance and knowledge.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Intuit"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Storm",
+            "description": "Unleash a storm spirit to cause havoc with wind and lightning.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Tempest",
+                "Squall"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Shadows",
+            "description": "Summon a shadowy spirit to scout and gather information.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Nox"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Strength",
+            "description": "Empower an ally with the strength of a powerful spirit.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Destroy"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Lies",
+            "description": "Call upon a spirit to create convincing illusions to deceive enemies.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Tranquility",
+            "description": "Summon a calming spirit to soothe emotions and restore peace.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Ordi",
+                "Vivus"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Balance",
+            "description": "Call upon a spirit of balance to restore equilibrium and peace.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Fire",
+            "description": "Summon a fiery spirit that engulfs enemies in flames.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Inferno"
+            ],
+            "effects": [
+                {"skill": "Inferno", "type": "Ability", "effect": "Burn one target in your Current or an Adjacent Zone for Hits in the result set."}
+            ]
+        },
+        {
+            "name": "Water",
+            "description": "Call forth a water spirit to control and manipulate water.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Torrent"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Earth",
+            "description": "Summon an earth spirit to create barriers and cause tremors.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Tellus"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Air",
+            "description": "Call upon an air spirit to grant flight and manipulate the wind.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Squall"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Light",
+            "description": "Summon a radiant spirit to illuminate dark areas and blind foes.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Lux"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Darkness",
+            "description": "Call forth a spirit of darkness to obscure vision and create shadows.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Nox"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Forest",
+            "description": "Call upon a spirit of nature to control plants and wildlife.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Phylla"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Moons",
+            "description": "Summon a lunar spirit to grant night vision and manipulate tides.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Lux",
+                "Nox"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Suns",
+            "description": "Call forth a solar spirit to burn away curses and empower allies.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Inferno",
+                "Lux"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Frost",
+            "description": "Summon a frost spirit to freeze enemies and create ice barriers.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Rime"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Thunder",
+            "description": "Call upon a thunder spirit to unleash powerful lightning strikes.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Tempest"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Hunt",
+            "description": "Summon a hunting spirit to track and capture prey.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Destroy",
+                "Intuit"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Mountain",
+            "description": "Call forth a mountain spirit to grant immense strength and endurance.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Tellus"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Sea",
+            "description": "Summon a sea spirit to control ocean currents and summon sea creatures.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Torrent"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Chaos",
+            "description": "Summon a chaotic spirit to disrupt enemies and create confusion.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Bellor"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Deserts",
+            "description": "Call forth a desert spirit to create sandstorms and desiccation.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                "Inferno",
+                "Lux",
+                "Tellus"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Sky",
+            "description": "Summon a sky spirit to control weather and see great distances.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Squall"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "The Condemned",
+            "description": "Call upon an underworld spirit to communicate with the dead and protect against necromancy.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Mori",
+                "Nihil"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Courage",
+            "description": "Summon a courageous spirit to bolster morale and instill bravery in allies.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Justice",
+            "description": "Call forth a spirit of justice to judge the wicked and uphold the law.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Ordi"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Fortune",
+            "description": "Summon a spirit of luck to influence chance and bring good fortune.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Luck"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Knowledge",
+            "description": "Call upon a spirit of knowledge to uncover secrets and provide insights.",
+            "requires": "",
+            "cost": "1",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Dreams",
+            "description": "Summon a dream spirit to influence sleep, dreams, and the subconscious mind.",
+            "requires": "3",
+            "cost": "Mentis",
+            "keywords": [
+                ""
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "War",
+            "description": "Summon a warrior spirit to bolster your ferocity and destroy your foes.",
+            "requires": "",
+            "cost": "2",
+            "keywords": [
+                "Bellor"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Myozo no Kaze (Star Wind)",
+            "description": "A wind that brings clarity and vision, guiding those who seek wisdom and insight.",
+            "requires": "Shugenja 2",
+            "cost": "2",
+            "keywords": [
+                "Aether"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Amabu no Kaze (Radiant Wind)",
+            "description": "A wind infused with healing light, restoring health and vitality to those it touches.",
+            "requires": "Shugenja 1",
+            "cost": "1",
+            "keywords": [
+                "Lux"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Koro-koro no Kaze (Thunder Wind)",
+            "description": "A wind that carries the power of thunder, capable of invoking storms and shattering obstacles.",
+            "requires": "Shugenja 1",
+            "cost": "1",
+            "keywords": [
+                "Tempest"
+            ],
+            "effects": [
+                {}
+            ]
+        },
+        {
+            "name": "Tamah no Kaze (Spirit Wind)",
+            "description": "A wind that connects the living with the spirits of the ancestors, providing guidance and ancestral strength.",
+            "requires": "Shugenja 1",
+            "cost": "1",
+            "keywords": ["Mori", "Vivus"],
+            "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "Hametzu no Kaze (Destruction Wind)",
+                "description": "A wind of pure destructive force, capable of tearing down barriers and overwhelming foes.",
+                "requires": "Shugenja 2",
+                "cost": "2",
+                "keywords": [
+                    "Bellor",
+                    "Mori"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "Jensu no Kaze (Life Wind)",
+                "description": "A wind that breathes life into barren lands, promoting growth and rejuvenation.",
+                "requires": "Shugenja 1",
+                "cost": "2",
+                "keywords": [
+                    "Vivus"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "Hotanei no Kaze (Justice Wind)",
+                "description": "A wind that upholds the principles of justice and order, dispelling chaos and corruption.",
+                "requires": "Shugenja 2",
+                "cost": "1",
+                "keywords": [
+                    "Ordi"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "Umi no Kaze (Dream Wind)",
+                "description": "A wind that weaves through the realm of dreams, inspiring creativity and revealing hidden truths.",
+                "requires": "Shugenja 2",
+                "cost": "2",
+                "keywords": [
+                    "Mentis"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "Musui no Kaze (Water Wind)",
+                "description": "A wind that flows with the essence of water, capable of summoning rains and controlling rivers.",
+                "requires": "Shugenja 1",
+                "cost": "1",
+                "keywords": [
+                    "Torrent"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "Sugi no Toro (The Great Lantern)",
+                "description": "The 6 chambered lantern that captures all the light of the world.",
+                "requires": "Shugenja 3",
+                "cost": "4",
+                "keywords": [
+                    "Lux",
+                    "Mori"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Hero",
+                "description": "An ancestor who performed great acts of bravery and valor, inspiring courage and strength.",
+                "requires": "Shaman 3",
+                "cost": "3",
+                "keywords": [
+                    "Bellor",
+                    "Ordi"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Traitor",
+                "description": "An ancestor known for betrayal, whose spirit now serves as a warning against deceit and treachery.",
+                "requires": "Shaman 3",
+                "cost": "2",
+                "keywords": [
+                    "Nihil"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Healer",
+                "description": "An ancestor who dedicated their life to healing the sick and wounded, offering restorative and protective powers.",
+                "requires": "Shaman 1",
+                "cost": "1",
+                "keywords": [
+                    "Vivus"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Warrior",
+                "description": "An ancestor famed for their combat prowess and strategic mind, granting strength and battle skills.",
+                "requires": "Shaman 1",
+                "cost": "2",
+                "keywords": [
+                    "Bellor"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Trickster",
+                "description": "An ancestor who was a master of deception and cunning, helping to outwit enemies and navigate difficult situations.",
+                "requires": "Shaman 2",
+                "cost": "2",
+                "keywords": [
+                    "Luck"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Protector",
+                "description": "An ancestor who safeguarded their community, offering shielding and defensive abilities.",
+                "requires": "Shaman 1",
+                "cost": "1",
+                "keywords": [
+                    "Resist"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Seeker",
+                "description": "An ancestor who was a relentless pursuer of truth and knowledge, aiding in uncovering secrets and hidden paths.",
+                "requires": "Shaman 1",
+                "cost": "2",
+                "keywords": [
+                    "Intuit"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Betrayed",
+                "description": "An ancestor who suffered betrayal, their spirit now warns and protects against similar treacheries.",
+                "requires": "Shaman 2",
+                "cost": "3",
+                "keywords": [
+                    "Inferno"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Martyr",
+                "description": "An ancestor who sacrificed themselves for a greater cause, providing resilience and determination.",
+                "requires": "Shaman 2",
+                "cost": "3",
+                "keywords": [
+                    "Mori",
+                    "Vivus"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Lover",
+                "description": "An ancestor known for their deep compassion and love, offering comfort and emotional strength.",
+                "requires": "Shaman 2",
+                "cost": "2",
+                "keywords": [
+                    "Mentis"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Wanderer",
+                "description": "An ancestor who traveled far and wide, offering skills in navigation and discovery.",
+                "requires": "Shaman 1",
+                "cost": "1",
+                "keywords": [
+                    "Intuit",
+                    "Luck"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Harbinger",
+                "description": "An ancestor who foretold significant events, providing prophetic visions and foresight.",
+                "requires": "Shaman 2",
+                "cost": "2",
+                "keywords": [
+                    "Intuit"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Keeper",
+                "description": "An ancestor who preserved traditions and knowledge, aiding in the retention and recall of important information.",
+                "requires": "Shaman 3",
+                "cost": "4",
+                "keywords": [
+                    "Intuit",
+                    "Luck",
+                    "Resist"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Avenger",
+                "description": "An ancestor who sought to avenge wrongs, offering vengeful and retributive powers.",
+                "requires": "Shaman 2",
+                "cost": "3",
+                "keywords": [
+                    "Bellor"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Peacemaker",
+                "description": "An ancestor who resolved conflicts and promoted harmony, aiding in diplomacy and reconciliation.",
+                "requires": "Shaman 1",
+                "cost": "1",
+                "keywords": [
+                    "Ordi"
+                ],
+                "effects": [
+                    {}
+                ]
+            },
+            {
+                "name": "The Innovator",
+                "description": "An ancestor known for their creativity and invention, providing inspiration and problem-solving abilities.",
+                "requires": "Shaman 1",
+                "cost": "2",
+                "keywords": [
+                    "Craft"
+                ],
+                "effects": [
+                    {}
+                ]
+            }
+        ],
     "techniques": [
         {
             "name": "Aether Spike",

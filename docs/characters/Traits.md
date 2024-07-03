@@ -77,7 +77,7 @@ Measures a character's knowledge, ingenuity, and social intelligence, affecting 
 </section>
 
 <section>
-<strong>Action Skills: </strong><em>
+<strong>Effect Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Savvy" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
@@ -99,7 +99,7 @@ Represents a character's resilience, determination, and mental fortitude, influe
 </section>
 
 <section>
-<strong>Action Skills: </strong><em>
+<strong>Effect Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Steady" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},
@@ -112,16 +112,7 @@ Represents a character's resilience, determination, and mental fortitude, influe
 Encompasses supernatural or extraordinary abilities, intuition, and a character's connection to the mysterious and unexplainable, granting them unique insights and powers.
 
 <section>
-<strong>Action Skills: </strong><em>
-{% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "1" %}
-{% for s in skls %}
-    {{ s.name }},
-{% endfor %}
-</em>
-</section>
-
-<section>
-<strong>Action Skills: </strong><em>
+<strong>Effect Skills: </strong><em>
 {% assign skls = site.data.skills | where: "trait", "Uncanny" | where: "type", "2" %}
 {% for s in skls %}
     {{ s.name }},

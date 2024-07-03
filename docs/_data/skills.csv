@@ -5,7 +5,7 @@ Arithm,Savvy,2,"Manipulates reality through the knowledge of numeracy, equations
 Bellor,Dangerous,2,"Encompasses the forces of war, hostility, battle, and violence."
 Composure,Steady,1,Maintaining calm and control under pressure or in stressful situations.
 Computers,Savvy,1,Proficiency in using and understanding computer systems and software.
-Cosmology,Savvy,1,"The study of the structure, origins, and fundamental nature of the universe, encompassing the understanding of celestial bodies, cosmic phenomena, and the underlying principles that govern them."
+Cosmology,Savvy,1,"The study of the  fundamental nature of the universe, including celestial bodies, cosmic phenomena, and their underlying principles"
 Craft,Savvy,2,Skill in creating or repairing items through various methods and materials.
 Current Events,Savvy,1,Awareness and knowledge of recent happenings and news.
 Deceive,Savvy,1,"The art of lying, misleading, or tricking others."
@@ -29,6 +29,7 @@ Locus,Steady,2,"Encompasses position, spatial relation, and movement."
 Luck,Uncanny,2,"Increases serendipity and chance, making favorable outcomes more likely and reducing mishaps."
 Lux,Steady,2,"Wields light and illumination, creating and controlling brilliance."
 Martial Arts,Dangerous,1,Training and expertise in hand-to-hand combat techniques.
+Medicine,Savvy,2,"The knowledge and practices to diagnose, treat, and prevent illnesses and injuries."
 Mentis,Savvy,2,"Utilizes the mind in all aspects, from illusions and telepathy to psychic attacks."
 Mori,Deft,2,"Governs death, dying, and undeath, influencing the end of life and the afterlife."
 Navigate,Savvy,1,"The ability to plan and follow a route, whether on land, sea, or air."

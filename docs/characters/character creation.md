@@ -618,7 +618,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Beloved</strong>
 </summary>
 <p>You are adored by many for your kindness, generosity, and charm. People go out of their way to help and support you, viewing you with affection and loyalty. This beloved status can create a strong network of allies and supporters, but it also means you must maintain a likable persona.</p>
-<p>Gain Favors 2 & Renown 1.</p>
+<p>Gain Favors 3 & Renown 1.</p>
 </details>
 
 <details>
@@ -642,7 +642,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Famous</strong>
 </summary>
 <p>Your deeds and exploits are known far and wide. Whether through heroism, remarkable achievements, or simply being in the right place at the right time, your name is recognized by many. This fame can open doors and attract admirers, but it also brings scrutiny and high expectations.</p>
-<p>Gain Wealth 3 & Renown 2.</p>
+<p>Gain Enemies 1, Renown 2 & Wealth 3.</p>
 </details>
 
 <details>
@@ -677,7 +677,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Mysterious</strong>
 </summary>
 <p>You are an enigma, shrouded in mystery and speculation. Few know your true background or intentions, making you an intriguing and unpredictable figure. This mysterious reputation can give you an edge in negotiations and encounters, but it also means others may be cautious around you.</p>
-<p></p>
+<p>Gain Gear 3 & Wealth 1.</p>
 </details>
 
 <details>
@@ -685,6 +685,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Nameless</strong>
 </summary>
 <p>You are an unknown figure, blending into the crowd without drawing much attention. This anonymity allows you to move freely and act without preconceived notions from others, though it also means your achievements might go unnoticed.</p>
+<p>Gain Gear 2 & Wealth 2.</p>
 </details>
 
 <details>

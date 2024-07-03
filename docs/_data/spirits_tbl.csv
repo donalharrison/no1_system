@@ -1,0 +1,62 @@
+﻿name,description,requires,cost,keywords
+Guardian,Summon a protective spirit that defends an ally from attacks.,,1,
+Vengeance,Call forth a vengeful spirit to attack and haunt an enemy.,,2,
+Healing,Summon a benevolent spirit that heals and rejuvenates allies over time.,,2,
+The Wild,Call upon an animal spirit to assist in combat or tracking.,,1,"Tellus, Phylla"
+Wisdom,Summon a wise spirit to provide guidance and knowledge.,,1,Intuit
+The Storm,Unleash a storm spirit to cause havoc with wind and lightning.,,2,"Tempest, Squall"
+Shadows,Summon a shadowy spirit to scout and gather information.,,2,Nox
+Strength,Empower an ally with the strength of a powerful spirit.,,1,Destroy
+Lies,Call upon a spirit to create convincing illusions to deceive enemies.,,2,
+Tranquility,Summon a calming spirit to soothe emotions and restore peace.,,2,"Ordi, Vivus"
+Balance,Call upon a spirit of balance to restore equilibrium and peace.,,2,
+Fire,Summon a fiery spirit that engulfs enemies in flames.,,1,Inferno
+Water,Call forth a water spirit to control and manipulate water.,,1,Torrent
+Earth,Summon an earth spirit to create barriers and cause tremors.,,1,Tellus
+Air,Call upon an air spirit to grant flight and manipulate the wind.,,1,Squall
+Light,Summon a radiant spirit to illuminate dark areas and blind foes.,,1,Lux
+Darkness,Call forth a spirit of darkness to obscure vision and create shadows.,,2,Nox
+The Forest,Call upon a spirit of nature to control plants and wildlife.,,2,Phylla
+The Moons,Summon a lunar spirit to grant night vision and manipulate tides.,,2,"Lux, Nox"
+The Suns,Call forth a solar spirit to burn away curses and empower allies.,,2,"Inferno, Lux"
+Frost,Summon a frost spirit to freeze enemies and create ice barriers.,,1,Rime
+Thunder,Call upon a thunder spirit to unleash powerful lightning strikes.,,1,Tempest
+The Hunt,Summon a hunting spirit to track and capture prey.,,2,"Destroy, Intuit"
+Mountain,Call forth a mountain spirit to grant immense strength and endurance.,,1,Tellus
+Sea,Summon a sea spirit to control ocean currents and summon sea creatures.,,2,Torrent
+Chaos,Summon a chaotic spirit to disrupt enemies and create confusion.,,2,Bellor
+The Deserts,Call forth a desert spirit to create sandstorms and desiccation.,,1,"Inferno, Lux, Tellus"
+Sky,Summon a sky spirit to control weather and see great distances.,,2,Squall
+The Comdemned,Call upon an underworld spirit to communicate with the dead and protect against necromancy.,,2,"Mori, Nihil"
+Courage,Summon a courageous spirit to bolster morale and instill bravery in allies.,,1,
+Justice,Call forth a spirit of justice to judge the wicked and uphold the law.,,2,Ordi
+Fortune,Summon a spirit of luck to influence chance and bring good fortune.,,2,Luck
+Knowledge,Call upon a spirit of knowledge to uncover secrets and provide insights.,,1,
+Dreams,"Summon a dream spirit to influence sleep, dreams, and the subconscious mind.",,3,Mentis
+War,Summon a warrior spirit to bolster your ferocity and destroy your foes.,,2,Bellor
+Myozo no Kaze (Star Wind),"A wind that brings clarity and vision, guiding those who seek wisdom and insight.",Shugenja 2,2,Aether
+Amabu no Kaze (Radiant Wind),"A wind infused with healing light, restoring health and vitality to those it touches.",Shugenja 1,1,Lux
+Koro-koro no Kaze (Thunder Wind),"A wind that carries the power of thunder, capable of invoking storms and shattering obstacles.",Shugenja 1,1,Tempest
+Tamah no Kaze (Spirit Wind),"A wind that connects the living with the spirits of the ancestors, providing guidance and ancestral strength.",Shugenja 1,1,"Mori, Vivus"
+Hametzu no Kaze (Destruction Wind),"A wind of pure destructive force, capable of tearing down barriers and overwhelming foes.",Shugenja 2,2,"Bellor, Mori"
+Jensu no Kaze (Life Wind),"A wind that breathes life into barren lands, promoting growth and rejuvenation.",Shugenja 1,2,Vivus
+Hotanei no Kaze (Justice Wind),"A wind that upholds the principles of justice and order, dispelling chaos and corruption.",Shugenja 2,1,Ordi
+Umi no Kaze (Dream Wind),"A wind that weaves through the realm of dreams, inspiring creativity and revealing hidden truths.",Shugenja 2,2,Mentis
+Musui no Kaze (Water Wind),"A wind that flows with the essence of water, capable of summoning rains and controlling rivers.",Shugenja 1,1,Torrent
+Sugi no Toro (The Great Lantern),The 6 chambered lantern that captures all the light of the world.,Shugenja 3,4,"Lux, Mori"
+The Hero,"An ancestor who performed great acts of bravery and valor, inspiring courage and strength.",Shaman 3,3,"Bellor, Ordi"
+The Traitor,"An ancestor known for betrayal, whose spirit now serves as a warning against deceit and treachery.",Shaman 3,2,Nihil
+The Healer,"An ancestor who dedicated their life to healing the sick and wounded, offering restorative and protective powers.",Shaman 1,1,Vivus
+The Warrior,"An ancestor famed for their combat prowess and strategic mind, granting strength and battle skills.",Shaman 1,2,Bellor
+The Trickster,"An ancestor who was a master of deception and cunning, helping to outwit enemies and navigate difficult situations.",Shaman 2,2,Luck
+The Protector,"An ancestor who safeguarded their community, offering shielding and defensive abilities.",Shaman 1,1,Resist
+The Seeker,"An ancestor who was a relentless pursuer of truth and knowledge, aiding in uncovering secrets and hidden paths.",Shaman 1,2,Intuit
+The Betrayed,"An ancestor who suffered betrayal, their spirit now warns and protects against similar treacheries.",Shaman 2,3,Inferno
+The Martyr,"An ancestor who sacrificed themselves for a greater cause, providing resilience and determination.",Shaman 2,3,"Mori, Vivus"
+The Lover,"An ancestor known for their deep compassion and love, offering comfort and emotional strength.",Shaman 2,2,Mentis
+The Wanderer,"An ancestor who traveled far and wide, offering skills in navigation and discovery.",Shaman 1,1,"Intuit, Luck"
+The Harbinger,"An ancestor who foretold significant events, providing prophetic visions and foresight.",Shaman 2,2,Intuit
+The Keeper,"An ancestor who preserved traditions and knowledge, aiding in the retention and recall of important information.",Shaman 3,4,"Intuit, Luck, Resist"
+The Avenger,"An ancestor who sought to avenge wrongs, offering vengeful and retributive powers.",Shaman 2,3,Bellor
+The Peacemaker,"An ancestor who resolved conflicts and promoted harmony, aiding in diplomacy and reconciliation.",Shaman 1,1,Ordi
+The Innovator,"An ancestor known for their creativity and invention, providing inspiration and problem-solving abilities.",Shaman 1,2,Craft
