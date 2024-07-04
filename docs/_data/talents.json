@@ -9,8 +9,7 @@
             "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                Your Concordance measures how closely you are aligned with your Divine Doctrine.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -290,7 +289,7 @@
                 "Increase your Exert rating to 2 (d8)."
             ]
         },
-            {
+        {
             "tree": "Berserker",
             "name": "Rage",
             "type": "Shift",
@@ -584,8 +583,7 @@
             "replaces": null,
             "effect": [
                 "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
-                "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.  When the result set of a Marvels contains a 1, reduce your Atttunement by 1.",
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.  When the result set of a Marvels contains a 1, reduce your Atttunement by 1.",
                 "If your Attunement equals 0, you cannot manifest Marvels."
             ]
         },
@@ -777,7 +775,7 @@
                 ""
             ]
         },
-                {
+        {
             "tree": "Diplomat",
             "name": "Persuade (2)",
             "type": "Ability",
@@ -935,8 +933,7 @@
             "replaces": null,
             "effect": [
                 "Your Essence is innately bound to this Nature, allowing you to manifest Marvels from any of the followin Effect Skills:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
-                "When the result set of a Marvels contains a 1, reduce your Atttunement by 1.",
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","When the result set of a Marvels contains a 1, reduce your Atttunement by 1.",
                 "If your Attunement equals 0, you cannot manifest Marvels."
             ]
         },
@@ -1296,7 +1293,8 @@
             "effect": [
                 "Increase your Shoot rating to 3 (d10)."
             ]
-        },        {
+        },
+        {
             "tree": "Marksman",
             "name": "Shooter",
             "type": "Trigger",
@@ -1637,8 +1635,7 @@
             "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -1680,7 +1677,7 @@
             "effect": [
                 "When you Commune with Divinity to gain Concordance, add +1d4 Hits to the result set."
             ]
-        },        
+        },
         {
             "tree": "Priest",
             "name": "Extended Domain",
@@ -1692,7 +1689,7 @@
                 "Select 1 additional Effect Skills from the list below to add to your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>"
             ]
-        },        
+        },
         {
             "tree": "Priest",
             "name": "",
@@ -2552,7 +2549,6 @@
                 "When you Recover, regain 2 Grit."
             ]
         },
-        
         {
             "tree": "Thief",
             "name": "Implements (2)",
@@ -2598,169 +2594,740 @@
             ]
         },
         {
-            "tree": "Diabolist",
-            "name": "Profane Allure",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Thrall",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Transmuter",
-            "name": "Study the forms",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Traveler",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Troubadour",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Vanguard",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Warlord",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Witch",
-            "name": "Incant the darkness",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Witch",
-            "name": "Witchcraft",
+            "tree": "Shinobi",
+            "name": "Intonjutsu",
             "type": "Static",
-            "rank": null,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "When you Hide!, you may take an Additional Shift this turn.",
+                "If you you are already Hidden and Shift to Move, you may take an Additional Shift this turn."
             ]
         },
         {
-            "tree": "Wrestler",
-            "name": "Suplex",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grapple Status."
-            ]
-        },
-        {
-            "tree": "Wrestler",
-            "name": "Sprawl",
+            "tree": "Shinobi",
+            "name": "Kishu Kogeki",
             "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When an opponet you can see tries to Grapple you, reduce Hits in their result set by -2."
+                "When you score Hits against a target while Hidden, add +1d6 Bonus Hits to the result set."
             ]
         },
         {
-            "tree": "Wrestler",
-            "name": "Chokeslam",
+            "tree": "Shinobi",
+            "name": "Smoke Bomb",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately use a Shift to Hide!, gaining +2 Bonus Hits to the Hidden rating."
+            ]
+        },
+        {
+            "tree": "Shinobi",
+            "name": "Doku No Senmoka",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you coat your weapons in Poison, double the Poison's effect."
+            ]
+        },
+        {
+            "tree": "Shinobi",
+            "name": "Ninja, Vanish!",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend Momentum to gain Hidden X, where X is the amount of Momentum spent."
+            ]
+        },
+        {
+            "tree": "Shinobi",
+            "name": "Mewosorasu",
             "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "."
+                "Deceive all opponents in your Current Zone, making a number of them equal to Hits Confused."
             ]
         },
         {
-            "tree": "Wrestler",
-            "name": "O Goshi",
+            "tree": "Shinobi",
+            "name": "Dasshutsu-jutsu",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Shinobi",
+            "name": "Kigai O Yokeru",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from an attack that includes targets other than your self and your Reflexes are above 0, reduce Hits by -2."
+            ]
+        },
+        {
+            "tree": "Shinobi",
+            "name": "Caltrops",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to  scatter caltrops in a a Current Zone, creating a Hazard 3.  Any target who Shifts to Move into or out of the affected Zone are Slowed.  You can move away from your caltrops without suffering the Hazard or Slowed."
+            ]
+        },
+        {
+            "tree": "Shinobi",
+            "name": "Shinobi's Reflexes",
             "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you have an opponent Grappled, you may reduce their Grappled rating by -1 to give them Vulnerable 2."
+                "When you use a Shift to Wait For It, you can take a Shift in addition to the Action you take when the condition is met."
             ]
         },
         {
-            "tree": "Zealot",
-            "name": "",
+            "tree": "Shinobi",
+            "name":  "Grappling Hook",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Zenith",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        }
-    ]
+            "Use your Implements to throw a grappling hook, allowing you to use your Shift to Move to an Adjacent Zone that is vertical from your Current Zone."
+        ]
+    },
+    {
+        "tree": "Shinobi",
+        "name": "Nerve Strike",
+        "type": "Ability",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Use your Martial Arts against your target, reducing Hits by -2. If the reduced result set still has 2+ Hits, the Target gains Stunned equal to the reduced Hits, but suffers no damage to their Defenses or Grit."
+        ]
+    },
+    {
+        "tree": "Shinobi",
+        "name": "Master of Deception",
+        "type": "Ability",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Deceive your opponents to create false information or cover your tracks more effectively, adding +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Shinobi",
+        "name": "Hensōjutsu",
+        "type": "Ability",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": []
+    },
+    {
+        "tree": "Spy",
+        "name": "Blend In",
+        "type": "Trigger",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you use a Shift to Hide!, add +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Master of Disguise",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "!!!!"
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Silent Takedown",
+        "type": "Ability",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Strike an opponent whil Hidden, attempting to subdue the quietyl.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Implements (3)",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Increase your Implements rank to 3 (d10)."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Master Eavesdropper",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Poison Expert",
+        "type": "Static",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you use a Poison, double the Poison's effects."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Quick Escape",
+        "type": "Trigger",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you suffer Hits from a target you can see and your Reflexes are above 0, you may attempt to Tumble away from danger.  If Hits in your result set equal or exceed the Hits you would suffer, you avoid all harm and Shift to Move to an Adjacent Zone, ignoring Hazards."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Stealth (3)",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Increase your Strike rating to 3 (d10)."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Escape Artist",
+        "type": "Trigger",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Observant",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "You can use a Shift to Perceive or Investigate when gathering information or searching for clues."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Counterintelligence",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Use your Insight to detect lies and hidden motives, adding +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Hidden Arsenal",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you are being searched by someone attempting to disarm you of your weapons and implements, you may use Legerdemain to hide up to Gear X on your person, where X is equal to Hits in the result set."
+        ]
+    },
+    {
+        "tree": "Spy",
+        "name": "Hide in Plain Sight",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you use Stealth to avoid detection but get less than 3 Hits in the result set, you may spend 4 momentum to gain Hidden 5."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Trailblazer",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "You reduce the Hazard rating of Zones you Move through with your Shifts by -2."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Keen Senses",
+        "type": "Trigger",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you Perceive traces of your target(s) or clues about the best path to take but score 0 Hits, add +2 Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Silent Movement",
+        "type": "Trigger",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you use Stealth to move through hostile or unfamiliar territory, add +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Natural Camouflage",
+        "type": "Ability",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Use Stealth to conceal yourself while in a natural environment.  Until you take use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Rapid Recon",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Use your Stealth while scouting ahead of your allies.  On 4+ Hits, you gain 2 additional Shifts this turn."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Expert Tracker",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Use your skills of Survival to track an enemy, adding +1d4 Bonus Hits and ignoring 1s in the result set."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Ambush Tactics",
+        "type": "Trigger",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you make an Initiative Test in an Ambush, add +2d4 Bonus Hits to the result set.  If your team's total Initiative is 8 or more greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Scout's Eye",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When Perceive your enemy to Create an Advantage, add +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Evasion",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you suffer Hits from an attack that includes targets other than your self and your Reflexes are above 0, reduce Hits by -2."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Observant",
+        "type": "Static",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "You can use a Shift to Perceive or Investigate when gathering information or searching for clues."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Swift Reflexes",
+        "type": "Trigger",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you are the target of an Ambush, add Hits from your Initiative Test to your Reflexes until the beginning of your next turn."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Hide in Plain Sight",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you use Stealth to avoid detection but get less than 3 Hits in the result set, you may spend 4 momentum to gain Hidden 5."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Alertness",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Scout",
+        "name": "Pathfinder's Mark",
+        "type": "Shift",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Use your Survival skill to Create an Advantage while scouting ahead of your allies, adding +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Operate (2)",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Increase your Operate rating to 2 (d8)"
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Quick Mount",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "You can mount or dismount a vehicle or creature without using a Shift."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Mounted Combatant",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you Operate a mount (or vehicle) and Shift to Move, you may Strike or Shoot at an enemy as part of the Shift."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Battle-Ready",
+        "type": "Static",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "You are adept at maneuvering your mounts and vehicles in combat.  You and your mounts and vehicles share all Defenses."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Outrider",
+        "type": "Trigger",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you Operate a mount or vehicle and Shift to Move, you may move an additional Zone."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Operate (3)",
+        "type": "Static",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Increase your Operate rating to 3 (d10)."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Mounted Navigator",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you Operate a mount (or vehicle) and Shift to Move, you may Navigate your way as part of the Shift."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Horselord",
+        "type": "Static",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Operate a mount, adding +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Skipper",
+        "type": "Static",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Operate a watercraft, adding +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Coachman",
+        "type": "Static",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Operate a land vehicle, adding +1d4 Bonus Hits to the result set."
+        ]
+    },
+    {
+        "tree": "Operator",
+        "name": "Don't Worry, She'll Hold Together",
+        "type": "Static",
+        "rank": "3",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Mounts and vehicles you Operate reduce any Hits suffered by -1."
+        ]
+    },
+    {
+        "tree": "Diabolist",
+        "name": "Profane Allure",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Thrall",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Transmuter",
+        "name": "Study the forms",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Traveler",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Troubadour",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Vanguard",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Warlord",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Witch",
+        "name": "Incant the darkness",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Witch",
+        "name": "Witchcraft",
+        "type": "Static",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Wrestler",
+        "name": "Suplex",
+        "type": "Ability",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grapple Status."
+        ]
+    },
+    {
+        "tree": "Wrestler",
+        "name": "Sprawl",
+        "type": "Trigger",
+        "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When an opponet you can see tries to Grapple you, reduce Hits in their result set by -2."
+        ]
+    },
+    {
+        "tree": "Wrestler",
+        "name": "Chokeslam",
+        "type": "Ability",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "."
+        ]
+    },
+    {
+        "tree": "Wrestler",
+        "name": "O Goshi",
+        "type": "Trigger",
+        "rank": "2",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "When you have an opponent Grappled, you may reduce their Grappled rating by -1 to give them Vulnerable 2."
+        ]
+    },
+    {
+        "tree": "Zealot",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Zenith",
+        "name": "",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    }
+]
 }
