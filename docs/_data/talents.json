@@ -2760,7 +2760,7 @@
             "tree": "Thief",
             "name": "Thieves' Cant",
             "rank": "1",
-            "type": "",
+            "type": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2770,19 +2770,19 @@
         {
             "tree": "Thief",
             "name": "At Home in the Shadows",
-            "rank": "1",
-            "type": "",
+            "rank": "2",
+            "type": "Trigger",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shift to Hide!, if your score 2+ Hits you can take an additional Shift this turn."
+                "When you Shift to Hide! and score 2+ Hits, you can take an additional Shift this turn."
             ]
         },
         {
             "tree": "Thief",
             "name": "Second-Story Work",
             "rank": "2",
-            "type": "",
+            "type": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2793,7 +2793,7 @@
             "tree": "Thief",
             "name": "Fast Hands",
             "rank": "2",
-            "type": "",
+            "type": "Trigger",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2804,7 +2804,7 @@
             "tree": "Thief",
             "name": "Evasion",
             "rank": "2",
-            "type": "",
+            "type": "Trigger",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2815,7 +2815,7 @@
             "tree": "Thief",
             "name": "Invisible Footsteps",
             "rank": "3",
-            "type": "",
+            "type": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2826,7 +2826,7 @@
             "tree": "Thief",
             "name": "Thief's Reflexes",
             "rank": "3",
-            "type": "",
+            "type": "Trigger",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2837,7 +2837,7 @@
             "tree": "Thief",
             "name": "Pickpocket",
             "rank": "1",
-            "type": "",
+            "type": "Ability",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2848,7 +2848,7 @@
             "tree": "Thief",
             "name": "Trap Master",
             "rank": "2",
-            "type": "",
+            "type": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2859,7 +2859,7 @@
             "tree": "Thief",
             "name": "Escape Artist",
             "rank": "2",
-            "type": "",
+            "type": "Trigger",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2870,11 +2870,11 @@
             "tree": "Thief",
             "name": "Unseen Strike",
             "rank": "3",
-            "type": "",
+            "type": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shoot a target while Hidden, you do not lose your Hidden rating."
+                "You do not lose your Hidden rating when you Shoot a target while Hidden,."
             ]
         },
         {
