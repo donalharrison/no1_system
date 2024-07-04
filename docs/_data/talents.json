@@ -361,7 +361,7 @@
             "replaces": null,
             "effect": [
                 "Focus to gain an Aura X, where X is the number of Hits in the result set.
-                <br>While the Aura persists, all Allies in your Current Zone regain Grit equal to your "tree": "Heretic", rank at the beginning of your turn.
+                <br>While the Aura persists, all Allies in your Current Zone regain Grit equal to your Heretic rank at the beginning of your turn.
                 <br>All hostile targets in your Current Zone gain Fatigued 1."
             ]
         },
