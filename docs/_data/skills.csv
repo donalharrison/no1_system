@@ -15,7 +15,7 @@ Exert,Dangerous,1,Use your physical prowess to overwhelm & overcome.
 Focus,Steady,1,Concentration and mental discipline to maintain attention on a task.
 Forma,Steady,2,"Encompasses shaping and transfiguration, altering forms and structures."
 Grapple,Dangerous,1,Techniques for engaging in close combat and securing holds on an opponent.
-History,Savvy,1,"History is the study of past events, civilizations, and cultures, providing insight into how they have shaped the present world."
+History,Savvy,1,"The study of past events, civilizations, and cultures, providing insight into how they have shaped the present world."
 Implements,Deft,1,Proficiency in using tools and devices for various purposes.
 Inferno,Dangerous,2,"Commands fire and flame, igniting and controlling blazes."
 Insight,Deft,1,The ability to understand and interpret the true nature of people and situations.
@@ -56,8 +56,8 @@ Tactics,Deft,1,The art of planning and executing strategies in various situation
 Tellus,Steady,2,"Manipulates earth, stone, and plants, shaping the natural and solid world."
 Tempest,Dangerous,2,"Unleashes lightning, thunder, and the storm."
 Tempor,Uncanny,2,"Time as a single, limitless entity."
+Theology,Savvy,1,"The study of gods, religions, and spritual practices past and present, granting insight into their doctrines and impact."
 Throw,Dangerous,1,Proficiency in accurately throwing objects or weapons.
 Torrent,Savvy,2,"Wields water and rain, directing and forming aquatic flows."
 Tumble,Deft,1,"Skill in acrobatics and performing rolls, flips, and other agile movements."
 Vivus,Uncanny,2,"Governs life, restoration, and healing, mending wounds and revitalizing the living."
-Theology,Savvy,1,

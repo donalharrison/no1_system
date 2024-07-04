@@ -38,7 +38,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Composure rating to 2 (d8)."
+                "Increase your Composure Rank to 2 (d8)."
             ]
         },
         {
@@ -83,8 +83,7 @@
             "replaces": null,
             "effect": [
                 "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers/arcana/'>Arcana</a>.",
-                "When you gain this Talent, select 2 Effect Skills from the list below to be your <em>Affinity</em> which determine the Arcana you can access:
-                <br><em>Aether, Inferno, Lux, Mori, Nihil, Nox, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+                "Intuit, Research, or use your Insight to unravel these mysteries further, gaining Hits in Arcana Ranks to invest in your Arcana."
             ]
         },
         {
@@ -154,7 +153,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Insight rating to 3 (d10)."
+                "Increase your Insight Rank to 3 (d10)."
             ]
         },
         {
@@ -286,7 +285,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Exert rating to 2 (d8)."
+                "Increase your Exert Rank to 2 (d8)."
             ]
         },
         {
@@ -343,7 +342,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Exert rating to 3 (d10)."
+                "Increase your Exert Rank to 3 (d10)."
             ]
         },
         {
@@ -458,7 +457,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Exert rating to 2 (d8)."
+                "Increase your Exert Rank to 2 (d8)."
             ]
         },
         {
@@ -469,7 +468,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Intimidate rating to 2 (d8)."
+                "Increase your Intimidate Rank to 2 (d8)."
             ]
         },
         {
@@ -515,7 +514,8 @@
             "effect": [
                 "Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.",
                 "When you gain this Talent, select 2 Power Skills from the list below to be your Affinities:
-                <br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>"
+                <br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>",
+                "At the beginning of each Waypoint, your Current is 0."
             ]
         },
         {
@@ -526,7 +526,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "If a Technique you use results in Hits over its Threshold, all targets within your Current Zone sustain Hits from the Techniques's effect equal to the Threshold."
+                "If a Technique you use has a 1 in the result set, all targets within your Current Zone sustain Hits from the Techniques's effect equal to its lowest Threshold."
             ]
         },
         {
@@ -661,7 +661,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Focus rating to 2 (d8)."
+                "Increase your Focus Rank to 2 (d8)."
             ]
         },
         {
@@ -705,7 +705,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Endure rating to 2 (d8)."
+                "Increase your Endure Rank to 2 (d8)."
             ]
         },
         {
@@ -761,7 +761,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Investigate rating to 2 (d8)."
+                "Increase your Investigate Rank to 2 (d8)."
             ]
         },
         {
@@ -783,7 +783,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade rating to 2 (d8)"
+                "Increase your Persuade Rank to 2 (d8)"
             ]
         },
         {
@@ -827,7 +827,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive rating to 2 (d8)"
+                "Increase your Deceive Rank to 2 (d8)"
             ]
         },
         {
@@ -849,7 +849,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade rating to 3 (d10)"
+                "Increase your Persuade Rank to 3 (d10)"
             ]
         },
         {
@@ -1022,7 +1022,7 @@
             "requires": "The Cycle's Drain",
             "replaces": null,
             "effect": [
-                "When you gain this Talent, increase you Vivus rating to 2 (d8).",
+                "When you gain this Talent, increase you Vivus Rank to 2 (d8).",
                 "You can use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that call on the Vivus Skill."
             ]
         },
@@ -1144,7 +1144,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use a Spell and trigger its Entropy effect, you take Hits equal to the Spell's Threshold."
+                "When a Spell you use has a 1 in the result set, you suffer Hits equal to the Spell's lowest Threshold."
             ]
         },
         {
@@ -1156,7 +1156,7 @@
             "replaces": null,
             "effect": [
                 "Research the magical secrets and recipes that empower your Spells.",
-                "You gain Hits in Spell points to invest in ranks of your Spells.",
+                "You gain Hits in Spell Ranks to invest in your Spells.",
                 "You may use this Ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action)."
             ]
         },
@@ -1179,7 +1179,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Research rating to 2 (d8)."
+                "Increase your Research Rank to 2 (d8)."
             ]
         },
         {
@@ -1202,7 +1202,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Affinity rating to 2 (d8)."
+                "Increase your Affinity Rank to 2 (d8)."
             ]
         },
         {
@@ -1269,7 +1269,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Shoot rating to 2 (d8)."
+                "Increase your Shoot Rank to 2 (d8)."
             ]
         },
         {
@@ -1291,7 +1291,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Shoot rating to 3 (d10)."
+                "Increase your Shoot Rank to 3 (d10)."
             ]
         },
         {
@@ -1359,7 +1359,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Martial Arts rating to 2 (d8)."
+                "Increase your Martial Arts Rank to 2 (d8)."
             ]
         },
         {
@@ -1797,7 +1797,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Shoot rating to 3 (d10)."
+                "Increase your Shoot Rank to 3 (d10)."
             ]
         },
         {
@@ -1863,7 +1863,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Strike rating to 3 (d10)."
+                "Increase your Strike Rank to 3 (d10)."
             ]
         },
         {
@@ -1984,7 +1984,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive rating to 2 (d8)"
+                "Increase your Deceive Rank to 2 (d8)"
             ]
         },
         {
@@ -2072,7 +2072,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Strike rating to 2 (d8)."
+                "Increase your Strike Rank to 2 (d8)."
             ]
         },
         {
@@ -2105,7 +2105,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Strike rating to 3 (d10)."
+                "Increase your Strike Rank to 3 (d10)."
             ]
         },
         {
@@ -2458,7 +2458,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Exert rating to 2 (d8)."
+                "Increase your Exert Rank to 2 (d8)."
             ]
         },
         {
@@ -2469,7 +2469,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Endure rating to 2 (d8)."
+                "Increase your Endure Rank to 2 (d8)."
             ]
         },
         {
@@ -2480,7 +2480,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Endure rating to 3 (d10)."
+                "Increase your Endure Rank to 3 (d10)."
             ]
         },
         {
@@ -2557,7 +2557,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Implements rating to 2 (d8)."
+                "Increase your Implements Rank to 2 (d8)."
             ]
         },
         {
@@ -2568,7 +2568,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Legerdemain rating to 2 (d8)."
+                "Increase your Legerdemain Rank to 2 (d8)."
             ]
         },
         {
@@ -2579,7 +2579,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Stealth rating to 2 (d8)."
+                "Increase your Stealth Rank to 2 (d8)."
             ]
         },
         {
@@ -2754,14 +2754,14 @@
         "requires": null,
         "replaces": null,
         "effect": [
-            "When you use a Shift to Hide!, add +1d4 Bonus Hits to the result set."
+            "When you use a Shift to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
         ]
     },
     {
         "tree": "Spy",
         "name": "Master of Disguise",
         "type": "Ability",
-        "rank": "1",
+        "rank": "3",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -2831,7 +2831,7 @@
         "requires": null,
         "replaces": null,
         "effect": [
-            "Increase your Strike rating to 3 (d10)."
+            "Increase your Strike Rank to 3 (d10)."
         ]
     },
     {
@@ -2860,7 +2860,7 @@
         "tree": "Spy",
         "name": "Counterintelligence",
         "type": "Ability",
-        "rank": "1",
+        "rank": "3",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -2926,7 +2926,7 @@
         "tree": "Scout",
         "name": "Natural Camouflage",
         "type": "Ability",
-        "rank": "2",
+        "rank": "3",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -2937,7 +2937,7 @@
         "tree": "Scout",
         "name": "Rapid Recon",
         "type": "Ability",
-        "rank": "1",
+        "rank": "2",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -2948,7 +2948,7 @@
         "tree": "Scout",
         "name": "Expert Tracker",
         "type": "Ability",
-        "rank": "1",
+        "rank": "2",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -3014,7 +3014,7 @@
         "tree": "Scout",
         "name": "Hide in Plain Sight",
         "type": "Trigger",
-        "rank": "2",
+        "rank": "3",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -3025,7 +3025,7 @@
         "tree": "Scout",
         "name": "Alertness",
         "type": "Trigger",
-        "rank": "2",
+        "rank": "3",
         "requires": null,
         "replaces": null,
         "effect": [
@@ -3051,7 +3051,7 @@
         "requires": null,
         "replaces": null,
         "effect": [
-            "Increase your Operate rating to 2 (d8)"
+            "Increase your Operate Rank to 2 (d8)"
         ]
     },
     {
@@ -3106,7 +3106,7 @@
         "requires": null,
         "replaces": null,
         "effect": [
-            "Increase your Operate rating to 3 (d10)."
+            "Increase your Operate Rank to 3 (d10)."
         ]
     },
     {
@@ -3173,6 +3173,29 @@
         "replaces": null,
         "effect": [
             ""
+        ]
+    },
+    {
+        "tree": "Petitioner",
+        "name": "Desperate Plea",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Petitioner",
+        "name": "Receive Gifts",
+        "type": "Ability",
+        "rank": null,
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            "Persuade or maintain your Compsure to contact your Patron and gain Hits in Gift Ranks to invest your Gifts.",
+            "You may use this Ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Uncanny Actions (minimum 1 Action)."
         ]
     },
     {
@@ -3246,6 +3269,17 @@
         "name": "Incant the darkness",
         "type": "Ability",
         "rank": "1",
+        "requires": null,
+        "replaces": null,
+        "effect": [
+            ""
+        ]
+    },
+    {
+        "tree": "Witch",
+        "name": "Witch's Familiar",
+        "type": "Ability",
+        "rank": "2",
         "requires": null,
         "replaces": null,
         "effect": [
