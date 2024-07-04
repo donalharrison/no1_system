@@ -1426,6 +1426,84 @@
         },
         {
             "tree": "Marksman",
+            "name": "Patient Shot",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Wait For It with the condition that an ally scores 1+ Hits against your target in melee combat.  When the the condition is met, Shoot your target dealing Hits directly to their Grit."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Pinning Shot",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Shoot your target, reducing Hits in the result set by -2 but giving your target Restrained 2."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Piercing Shots",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You know how punch through your targets' defenses, scoring +1 Bonus Hits to their Grit when you score 1+ Hits with Shoot."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Reflex Shot",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are the target on Ambush, you immediately dela +1d4 Bonus Hits to one target."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Suppressing Fire",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Tactics to fire a ranged weapon in your Current or an Adjacent Zone, protecting your allies by forcing your enemies to seek cover.",
+                "Allies can ignore a number of Hazards in the targetted Zone equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Crippling Shot",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Shoot your target, redicing Hits in the result set by -2 but giving your target Fatigued 1 and Wounded 1."
+            ]
+        },
+        {
+            "tree": "Marksman",
+            "name": "Two Birds, One Shot",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Shoot two targets in your Current or an Adjacent Zon, dividing Hits between the two."
+            ]
+        },
+        {
+            "tree": "Marksman",
             "name": "Ready",
             "type": "Ability",
             "rank": "1",
@@ -2504,7 +2582,7 @@
         },
         {
             "tree": "Soldier",
-            "name": "Cover Fire",
+            "name": "Supressing Fire",
             "type": "Ability",
             "rank": "2",
             "requires": null,
