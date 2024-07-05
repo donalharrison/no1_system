@@ -3001,17 +3001,6 @@
             ]
         },
         {
-            "tree": "",
-            "name": "Side Step",
-            "type": "Shift",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Shift to gain bonus Def."
-            ]
-        },
-        {
             "tree": "Scoundrel",
             "name": "Swift Offense",
             "type": "Trigger",
@@ -3458,6 +3447,61 @@
             "replaces": null,
             "effect": [
                 "Increase your Deceive Rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Deceive (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Deceive Rank to 3 (d10)"
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Persuade (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Game Recognize Game",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Insight to determine if someone is trying to con you, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Pocket Sand",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to throw sand in your target's eyes.  In 2+ Hits, your target gain Blind."
             ]
         },
         {
