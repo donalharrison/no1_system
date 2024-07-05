@@ -1020,8 +1020,8 @@
         {
             "tree": "Courtier",
             "name": "Social Chameleon",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1042,8 +1042,8 @@
         {
             "tree": "Courtier",
             "name": "Inspiring Presence",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1064,8 +1064,8 @@
         {
             "tree": "Courtier",
             "name": "Crisis Averted",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1075,8 +1075,8 @@
         {
             "tree": "Courtier",
             "name": "Shadow Network",
-            "type": "",
-            "rank": "",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1087,8 +1087,8 @@
         {
             "tree": "Courtier",
             "name": "Regal Bearing",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1109,8 +1109,8 @@
         {
             "tree": "Courtier",
             "name": "Flawless Etiquette",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1120,9 +1120,9 @@
         {
             "tree": "Courtier",
             "name": "Whispered Secrets",
-            "type": "",
-            "rank": "",
-            "requires": null,
+            "type": "Ability",
+            "rank": "2",
+            "requires": "The Better Part of Valor",
             "replaces": null,
             "effect": [
                 "You are a master at communicating subtly and discreetly, exchanging critical information without arousing suspicion.  Deceive to communicate with an ally in your Current Zone when you are being observed by unwanted ears.  On 3+ Hits, you can speak freely without being overheard."
