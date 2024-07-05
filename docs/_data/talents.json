@@ -234,6 +234,150 @@
             ]
         },
         {
+            "tree": "Assassin",
+            "name": "Poison Expert",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are a master of using Poison, doubling the Poison's effects."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Unseen Shot",
+            "rank": "1",
+            "type": "Static",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You do not lose your Hidden rating when you Shoot a target while Hidden."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Silent Takedown",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Death from the Shadows",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike or Shoot your target to death, you may immediately use your Stealth without using a Shift."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Marked for Death",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use yout Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 while the Aura persist."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Vanish",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Ambush Expert",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you make an Initiative Test in an Ambush, you may spend Momentum to increase Hits scored by X, where X is the number of Momentum spent.
+                <br>If your team's total Initiative is 6+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Never Unnarmed",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are being searched by someone attempting to disarm you of your weapons and implements, you may use Legerdemain to hide a dagger on your person is you sore 1+ Hits."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "At Home in the Shadows",
+            "rank": "1",
+            "type": "Trigger",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Shift to Hide! and score 2+ Hits, you can take an additional Shift this turn."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Assassinate",
+            "type": "3",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Fearsome Reputation",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +3 Renown and +1 Enemies"
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Contract Killer",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +3 Renown and +1 Enemies"
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "The Job's Not Done",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +3 Renown and +1 Enemies"
+            ]
+        },
+        {
             "tree": "Athlete",
             "name": "Powerlifter",
             "type": "Ability",
@@ -1461,7 +1605,7 @@
             "tree": "Marksman",
             "name": "Reflex Shot",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1495,7 +1639,7 @@
             "tree": "Marksman",
             "name": "Two Birds, One Shot",
             "type": "Ability",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1550,7 +1694,7 @@
             "tree": "Marksman",
             "name": "Shooter",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2946,13 +3090,13 @@
         },
         {
             "tree": "Thief",
-            "name": "Unseen Strike",
+            "name": "Unseen Shot",
             "rank": "3",
             "type": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You do not lose your Hidden rating when you Shoot a target while Hidden,."
+                "You do not lose your Hidden rating when you Shoot a target while Hidden."
             ]
         },
         {
@@ -3149,7 +3293,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike an opponent whil Hidden, attempting to subdue the quietyl.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
+                "Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -3182,7 +3326,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use a Poison, double the Poison's effects."
+                "You are a master of using Poison, doubling the Poison's effects."
             ]
         },
         {
@@ -3336,7 +3480,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you make an Initiative Test in an Ambush, add +2d4 Bonus Hits to the result set.  If your team's total Initiative is 8 or more greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
+                "When you make an Initiative Test in an Ambush, add +2d4 Bonus Hits to the result set.
+                <br>If your team's total Initiative is 8+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
             ]
         },
         {
