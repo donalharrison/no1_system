@@ -1427,6 +1427,128 @@
             ]
         },
         {
+            "tree": "Detective",
+            "name": "Observant",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can use a Shift to Perceive or Investigate when gathering information or searching for clues."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Interrogator",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persuade or Intimidate a target you are questioning, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Investigate 3",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Investigation Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Deductive Reasoning",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze the facts and data, adding +1d4 Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Shadow the Perp",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Stealth to follow or observe a target without being noticed, adding +1d4 Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Analyze 3",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Analyze Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Intuitive Insight",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Insight to determine if your target is lying or to sense their intentions, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Informant Network",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.
+                <br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Heightened Awareness",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Logical Conclusion",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can draw accurate conclusions from limited information.  Spend 3 Momentum to state yoru conclusion.  The BAMF will tell you if you are correct."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Master Investigator",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Investigate, then Analyze your findings, summing the Hits in both result sets."
+            ]
+        },
+        {
             "tree": "Diabolist",
             "name": "Dance with devils",
             "type": "Ability",
