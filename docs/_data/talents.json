@@ -3036,7 +3036,8 @@
                 "The different Henchmen have their own statistics that specify their Grit, Actions, and any Talents they have.",
                 "If one of your Henchman's Grit reaches 0, they die.  You may compose a letter of condolences to their next of kin if you see fit to stoop.",
                 "Your Henchmen wait for your instruction.  On each of your turns, your Henchmen use either a Shift or an Action unless you use a Talent to lead them.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint if you are in a city.  If you use it during a Waypoint while you are in a city, it requires 7 + Savvy Actions (minimum 1 Action).""<em><strong>Advanced Henchmen:</strong> Each Henchman also has a Rating that determines how experienced they are.  All Henchmen have a rating of 1 when recruited.  You can increase a Henchman's rating by using the Promote Henchman talent.</em>"
+                "You may use this Ability without using an Action at the beginning of each Waypoint if you are in a city.  If you use it during a Waypoint while you are in a city, it requires 7 + Savvy Actions (minimum 1 Action).",
+                "<em><strong>Advanced Henchmen:</strong> Each Henchman also has a Rating that determines how experienced they are.  All Henchmen have a rating of 1 when recruited.  You can increase a Henchman's rating by using the Promote Henchman talent.</em>"
             ]
         },
         {
@@ -3175,7 +3176,8 @@
                 "The different Haunts have their own statistics that specify their Grit, Actions, and any Talents they have.",
                 "If one of your Haunt's Grit reaches 0, they are released from your service and rejoin the souls you've yet to disturb.",
                 "Your Haunts wait for your instruction.  On each of your turns, your Haunts use either a Shift or an Action unless you use a Talent to lead them.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near the spirits or remain of the dead.  If you use it during a Waypoint while you are near the spirits or remain of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).""<em><strong>Advanced Haunts:</strong> Each Haunt also has a Rating that determines how experienced they are.  All Haunt have a rating of 1 when recruited.  You can increase a Haunts's rating by using the Empower Haunts talent."
+                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near the spirits or remain of the dead.  If you use it during a Waypoint while you are near the spirits or remain of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).",
+                "<em><strong>Advanced Haunts:</strong> Each Haunt also has a Rating that determines how experienced they are.  All Haunt have a rating of 1 when recruited.  You can increase a Haunts's rating by using the Empower Haunts talent."
             ]
         },
         {
@@ -3350,7 +3352,8 @@
                 "The different Beasts have their own statistics that specify their Grit, Actions, and any Talents they have.",
                 "If one of your Beasts' Grit reaches 0, they die.  You're a terrible person if you let your pets die.",
                 "Your Beasts wait for your instruction.  On each of your turns, your Beasts use either a Shift or an Action unless you use a Talent to lead them.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near a fertile wilderness region.  If you use it during a Waypoint while you are near a fertile wilderness region, it requires 7 - Steady Actions (minimum 1 Action).""<em><strong>Advanced Beasts:</strong> Each Beast also has a Rating that determines how experienced they are.  All Beasts have a rating of 1 when recruited.  You can increase a Beasts' rating by using the Train Beasts talent.</em>"
+                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near a fertile wilderness region.  If you use it during a Waypoint while you are near a fertile wilderness region, it requires 7 - Steady Actions (minimum 1 Action).",
+                "<em><strong>Advanced Beasts:</strong> Each Beast also has a Rating that determines how experienced they are.  All Beasts have a rating of 1 when recruited.  You can increase a Beasts' rating by using the Train Beasts talent.</em>"
             ]
         },
         {
