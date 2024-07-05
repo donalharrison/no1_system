@@ -792,17 +792,6 @@
             ]
         },
         {
-            "tree": "Beastmaster",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
             "tree": "Berserker",
             "name": "Exert (2)",
             "type": "Static",
@@ -3034,36 +3023,434 @@
             ]
         },
         {
-            "tree": "Necromancer",
-            "name": "Stir the dead",
+            "tree": "Overseer",
+            "name": "Recruit Henchmen",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Persuade at Challenge 3 to gain Hits + Savvy Henchmen Ranks to recruit Henchmen from the table below.",
+                "Henchmen are a type of Minion you can command to do your bidding.",
+                "Each type of Henchman has it own Cost which specifies the number of Henchmen Ranks you mus invest to recruit them.",
+                "The different Henchmen have their own statistics that specify their Grit, Actions, and any Talents they have.",
+                "If one of your Henchman's Grit reaches 0, they die.  You may compose a letter of condolences to their next of kin if you see fit to stoop.",
+                "Your Henchmen wait for your instruction.  On each of your turns, your Henchmen use either a Shift or an Action unless you use a Talent to lead them.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint if you are in a city.  If you use it during a Waypoint while you are in a city, it requires 7 + Savvy Actions (minimum 1 Action).""<em><strong>Advanced Henchmen:</strong> Each Henchman also has a Rating that determines how experienced they are.  All Henchmen have a rating of 1 when recruited.  You can increase a Henchman's rating by using the Promote Henchman talent.</em>"
             ]
         },
         {
             "tree": "Overseer",
-            "name": "Coordinated Assault",
+            "name": "Promote Henchmen",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Recruit Henchmen",
+            "replaces": null,
+            "effect": [
+                "When you Persuade to Recruit Henchmen, you may spend Henchmen Ranks to increase your current Henchmen's ratings.",
+                "Each Henchman rating costs a number of Henchmen Ranks equal to the rating value (i.e., rating 2 = 2 Henchmen Ranks, rating 3 = 3 Henchmen Ranks)."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Skilled Recruiter",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "When you recruit Minions, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Coordinated Strike",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Recruit Henchmen",
+            "replaces": null,
+            "effect": [
+                "Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Weapons Free!",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Lead X Minions to score Hits equal to their Ranged Stat to any number of targets in their Current or an Adjacent Zone, where X is the number of Hits in your result set."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Don't Just Stand There!",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Lead X Minions to score Hits equal to their Melee Stat to any number of targets in their Current Zone, where X is the number of Hits in your result set."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Coordinated Volley",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Lead your Minions to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the sum of your Minons' Ranged stat in the target's Current Zone."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "At Ease, Soldiers!",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Lead X Minions in your Current Zone to regain 2 Grit, where X is equal to Hits in the result set. These Minions cannot Shift or take an Action this turn."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Rally the Troops",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Spend 4 Momentum to allow all Minions in your Current Zone to regain up to 2 Grit."
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Lead (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Persuade (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Overseer",
+            "name": "Lead (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 3 (d10)"
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Stir the Dead",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Mori to gain Hits + Mori Haunt Ranks to recruit Haunts from the table below.",
+                "Haunts are a type of undead Minion you can command to do you bidding.",
+                "Each type of Haunt has it own Cost which specifies the number of Haunts Ranks you mus invest to recruit them.",
+                "The different Haunts have their own statistics that specify their Grit, Actions, and any Talents they have.",
+                "If one of your Haunt's Grit reaches 0, they are released from your service and rejoin the souls you've yet to disturb.",
+                "Your Haunts wait for your instruction.  On each of your turns, your Haunts use either a Shift or an Action unless you use a Talent to lead them.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near the spirits or remain of the dead.  If you use it during a Waypoint while you are near the spirits or remain of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).""<em><strong>Advanced Haunts:</strong> Each Haunt also has a Rating that determines how experienced they are.  All Haunt have a rating of 1 when recruited.  You can increase a Haunts's rating by using the Empower Haunts talent."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Empower Haunts",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Stir the Dead",
+            "replaces": null,
+            "effect": [
+                "When you use Mori to Stir the Dead, you may spend Haunt Ranks to increase your current Haunts' ratings.",
+                "Each Haunt rating costs a number of Haunt Ranks equal to the rating value (i.e., rating 2 = 2 Haunt Ranks, rating 3 = 3 Haunt Ranks)."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Danse Macabre",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Stir the Dead",
+            "replaces": null,
+            "effect": [
+                "When you use Mori to Stir the Dead, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Rip and Tear!",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the + sum of your Minions' Melee stat in the target's Current Zone.",
+                "If the target dies, one other target in the same Zone becomes Afraid of your Minions."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Feast On Their Flesh!",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Stir the Dead",
+            "replaces": null,
+            "effect": [
+                "Lead X Haunts to score 1 Hit against any number of targets in their Current Zones and regain 1 Grit, where X is the number of Hits in your result set."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Dread Siphon",
             "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Lead your Minions to launch a coordinated attack against a single target, dealing Hits +1d4 bonus Hits to the result set."
+                "Use Mori to score X Hits against one target in your Current Zone, where X is the number of Hits in your result set.",
+                "If X is +3+, up to X allies and/or Minions to regain up to 2 Grit."
             ]
         },
         {
-            "tree": "Overseer",
-            "name": "Minions",
+            "tree": "Necromancer",
+            "name": "Dread Presence",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Intimidate targets in your Current Zone, forcing Hits + your Mori Rank targets to become Afraid of you."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Swarm the Enemy",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Lead X Minions to immediately Shift to Move into one target's Current Zone.  Minions must be in a Zone Adjacent to the target Zone.",
+                "Once in position, the target suffers X + the sum of your Minions' Melee stat in the target's Current Zone."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Death's Reach",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Stir the Dead",
+            "replaces": null,
+            "effect": [
+                "Lead your Haunts to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the Hits in the result set + sum of your Haunts Ranged stat in the target's Current Zone."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Bone Splinters",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "When a Minion dies in your Current or an Adjacent Zone, use Mori.  On 2+ Hits, up to 2 targets in the dead target's Zone take 2 Hits."
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Lead (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Intimidate (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Intimidate Rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Mori (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Mori Rank to 3 (d10)"
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Mori (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Mori Rank to 4 (d12)"
+            ]
+        },
+        {
+            "tree": "Necromancer",
+            "name": "Corpse Explosion",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Recruit Haunt",
+            "replaces": null,
+            "effect": [
+                "When a target you can see that has a corporeal form dies in your Current or an Adjacent Zone, use Mori.  On 3+ Hits, all other targets in the dead target's Zone take 2 Hits."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Tame Beasts",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Maintain your Composure at challenge 3 to gain Hits + Steady Beast Ranks to recruit Beasts from the table below.",
+                "Beasts are a type of Minion you train to follow your commands.",
+                "Each type of Beast has it own Cost which specifies the number of Beast Ranks you must invest to recruit them.",
+                "The different Beasts have their own statistics that specify their Grit, Actions, and any Talents they have.",
+                "If one of your Beasts' Grit reaches 0, they die.  You're a terrible person if you let your pets die.",
+                "Your Beasts wait for your instruction.  On each of your turns, your Beasts use either a Shift or an Action unless you use a Talent to lead them.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near a fertile wilderness region.  If you use it during a Waypoint while you are near a fertile wilderness region, it requires 7 - Steady Actions (minimum 1 Action).""<em><strong>Advanced Beasts:</strong> Each Beast also has a Rating that determines how experienced they are.  All Beasts have a rating of 1 when recruited.  You can increase a Beasts' rating by using the Train Beasts talent.</em>"
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Train Beast",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "When you maintain your Composure to Tame Beasts, you may spend Beast Ranks to increase your current Beasts' ratings.",
+                "Each Beast rating costs a number of Beast Ranks equal to the rating value (i.e., rating 2 = 2 Beast Ranks, rating 3 = 3 Beast Ranks)."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Friend of the Wilds",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "When you maintain your Composure to Tame Beasts, add +1d4 Bonus Hits to the reuslt set."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Pack Tactics",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Protect the Alpha",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the resul set.  Until your next turn, any Hits you suffer are redirected to Minions in yoru Current Zone."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "One of the Pack",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Strike, Shoot, or use your Martial Arts against a target you can see in your Current Zone.  On 3+ Hits, all Minions under your command may score Hits equal to their Melee Stat against any target in their Current Zones."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Feed the Pack",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Lead X Beasts in your Current Zone to regain 2 Grit, where X is equal to Hits in the result set. These Beasts cannot Shift or take an Action this turn."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Gather the Pack",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
+            "replaces": null,
+            "effect": [
+                "Spend 3 Momentum to allow all Minions under your command to move up to 1 Zone closer to you and regain 1 Grit."
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Lead (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 3 (d10)"
+            ]
+        },
+        {
+            "tree": "Beastmaster",
+            "name": "Composure (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 3 (d10)"
             ]
         },
         {
@@ -3475,7 +3862,7 @@
             "tree": "Scoundrel",
             "name": "Insight (2)",
             "type": "Static",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
