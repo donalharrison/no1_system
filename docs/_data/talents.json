@@ -930,13 +930,178 @@
         },
         {
             "tree": "Corsair",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Sea Legs",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "You are adept at fighting on accustomed to the rolling decks of ships. While you are moving on board a shipYou add +1d4 Bonus Hits when you Strike or Shoot a target, and you reduce all Hazards by -1."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Pirate's Charm",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persuade a sailor, pirate, or maritime merchant, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Nautical Navigator",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Navigate Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Sword of the Seas",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Sea Lore",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Cosmology or History rank to 2 (d8)"
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Fearsome Reputation",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +3 Renown and +1 Enemies"
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Plunderer's Instinct",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Perceive or Investigate to find hidden compartments, treaure, or valuable cargo, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Broadside Barrage",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Lead the crew of a ship in unleashing a devastating broadside attack.  On 2+ Hits, the ballistae to deal double Hits on their next Shoot attempt."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Mariner's Endurance",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover to reduce Fatigue, recover any remaining Hits to Vigor once your Fatigue rating is 0."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Operate 3",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Operate Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Strike 3",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Grappling Hook",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to throw a grappling hook, allowing you to use your Shift to Move to an Adjacent Zone that is vertical from your Current Zone."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Tidal Strike",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend Momentum to Strike with the rage of the seas adding +X Bonus Hits to the result set, where X is the amount of Momentum spent."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Weather the Storm",
+            "type": "",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Lead your crew through a severe storm or troubled waters.  On 2+ Hits, all crew Actions add +2 Bonus Hits to their Result Set."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Smuggler's Cunning",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Deceive a target that holds a position of authority, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Corsair",
+            "name": "Captain's Command",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Lead all allies in your Current Zone allowing X allies to immediately use a Shoft or Trigger, where X is the number of Hits in the result set."
             ]
         },
         {
