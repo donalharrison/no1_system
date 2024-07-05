@@ -270,7 +270,7 @@
             "tree": "Assassin",
             "name": "Death from the Shadows",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -285,7 +285,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use yout Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 while the Aura persist."
+                "Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 while the Aura persist."
             ]
         },
         {
@@ -359,11 +359,11 @@
             "tree": "Assassin",
             "name": "Contract Killer",
             "type": "Static",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Gain +3 Renown and +1 Enemies"
+                ""
             ]
         },
         {
@@ -374,7 +374,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Gain +3 Renown and +1 Enemies"
+                ""
             ]
         },
         {
