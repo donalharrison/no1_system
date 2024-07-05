@@ -1429,8 +1429,8 @@
         {
             "tree": "Detective",
             "name": "Observant",
-            "type": "",
-            "rank": "",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1440,8 +1440,8 @@
         {
             "tree": "Detective",
             "name": "Interrogator",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1451,8 +1451,8 @@
         {
             "tree": "Detective",
             "name": "Investigate 3",
-            "type": "",
-            "rank": "",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1473,8 +1473,8 @@
         {
             "tree": "Detective",
             "name": "Shadow the Perp",
-            "type": "",
-            "rank": "",
+            "type": "Abiltiy",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1484,8 +1484,8 @@
         {
             "tree": "Detective",
             "name": "Analyze 3",
-            "type": "",
-            "rank": "",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1495,8 +1495,8 @@
         {
             "tree": "Detective",
             "name": "Intuitive Insight",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
