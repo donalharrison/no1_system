@@ -433,11 +433,11 @@
             "tree": "Heretic",
             "name": "Unorthodox Doctrine",
             "type": "Static",
-            "rank": "2",
-            "requires": null,
+            "rank": "1",
+            "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-            "Select 1 additional Effect Skills from the list below to add to your Domain:
+            "Select 1 additional Effect Skill from the list below to add to your Domain:
             <br>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus"
             ]
         },
