@@ -975,8 +975,8 @@
         {
             "tree": "Corsair",
             "name": "Sea Lore",
-            "type": "",
-            "rank": "",
+            "type": "2",
+            "rank": "Static",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -986,8 +986,8 @@
         {
             "tree": "Corsair",
             "name": "Fearsome Reputation",
-            "type": "",
-            "rank": "",
+            "type": "Static",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1030,7 +1030,7 @@
         {
             "tree": "Corsair",
             "name": "Operate 3",
-            "type": "Trigger",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -1041,7 +1041,7 @@
         {
             "tree": "Corsair",
             "name": "Strike 3",
-            "type": "Trigger",
+            "type": "Strike",
             "rank": "2",
             "requires": null,
             "replaces": null,
