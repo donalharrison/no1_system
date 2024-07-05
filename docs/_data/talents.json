@@ -291,12 +291,12 @@
         {
             "tree": "Assassin",
             "name": "Vanish",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Spend Momentum to gain Hidden X, where X is the amount of Momentum spent."
             ]
         },
         {
@@ -409,6 +409,210 @@
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
                 Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Inspire Allies",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Leadd 2",
+            "replaces": null,
+            "effect": [
+                "Lead all allies in your Current Zone, allowing a number of them equal to the Hits in the result set to immediately do 1 of the following:
+                    <ul>
+                        <li>Recover</li>
+                        <li>Reduce one Variable Status by -1</li>
+                        <li>Add +1 Bonus Hits to their next result set</li>
+                    </ul>"
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Reposition",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Tactics allies in your current Zones, allowing X allies to immediately use a Shift, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Seize the Initiative",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When an enemy scores 1 or 0 Hits in their result set, your team regains the initiative."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Battlefield Command",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Lead all allies in your Current Zone, granting X allies +2 Bonus Hits on their next roll, where X is the number of Hits in the result set.",
+                "If you score 4+ Hits, reduce the Entropy by -2."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactical Assessment",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are adept at planning battles and missions.  You add +1d4 Bonus Hits when you use your Tactics to plan a mission."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Coordinated Attack",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Lead the assault in combat designating one target in your Current Zone.  The target gains Vulnerable X, where X is equal to Hits -2 in the result set."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Defensive Maneuver",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Momentum to grant all allies in your Current Zone to regain +X to their Primary Defenses, where X is equal to the Momentum spent."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactical Retreat",
+            "type": "2",
+            "rank": "Ability",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Tactics to guide allies in your current and all adjacent Zones in a tactical retreat, allowing a number of allies equal to Hits in the result set to immediately Shift away from hostile targets and reducing any Hazard by -1."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Rallying Cry",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Lead allies in your Current Zone, adding Hits -1 to the Momentum and Creating 1 Advantage in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Flanking Maneuver",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 3 Momentum and use your Tactics to outmanuever your enemies.  On 2+ Hits, you may designate up to 3 targets in your Current or Adjacent Zones to gain Vulnerable 1."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactical Strike",
+            "type": "Abiltiy",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Tactics instead of Strike to attack an enemy in yoru Current Zone.  The target suffers Hits -2 to their Defense and you Create 1 Advantage in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactics 2",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactics 3",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactics 4",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Lead 2",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Combat Reflexes",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When a hostile target Shifts away from you in melee combat, they add an additional Hazard die to their next roll."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Decisive Action",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are adept take swift and decisive action to turn the tide.  If you Lead or use your Tactics on the first turn of a Timer, increase the Momentum by +2."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Tactical Mastermind",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use your Tactics, adding +1 Bonus Hits to the result set."
             ]
         },
         {
@@ -1755,9 +1959,218 @@
         },
         {
             "tree": "Engineer",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Tinkering",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Mechanical Mastery",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Gadgeteer",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Reinforced Armor",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Inventor's Insight",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Repair Expert",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Energy Manipulation",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Advanced Tools",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Explosive Expert",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Field Modifications",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Defensive Turret",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Energy Shield",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Analytical Mind",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Robotics",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Innovative Design",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Energy Conversion",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Structural Analysis",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Automated Systems",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Tactical Analysis",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Engineer",
+            "name": "Master Inventor",
+            "type": "",
+            "rank": "",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1853,15 +2266,439 @@
                 ""
             ]
         },
+
+        Knight
+        "Heretic's Vow",
+        The Heretic makes a vow that grants them power but comes with a cost.
+        - **Mechanics:** The Heretic can choose a vow (e.g., Vow of Silence, Vow of Poverty) that grants a significant benefit (e.g., advantage on stealth checks, increased spell slots) but imposes a restriction. Breaking the vow results in temporary penalties.
+        
+        
+        
         {
             "tree": "Infiltrator",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Silent Movement",
+            "type": "Trigger",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "When you use Stealth to move through hostile or unfamiliar territory, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Disguise Expert",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Deceive the world to gain Disguised X, where X is euqal to Hits in the result set.  You cannot use this ability if you are being observed by an enemy."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Stealth (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Stealth Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Stealth (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Stealth Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Deceive (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Deceive Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Implements (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Implements Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Implements (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Implements Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Lock Master",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to disable a lock blocking your way, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Evasion",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from an attack that includes targets other than your self and your Reflexes are above 0, reduce Hits by -2."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Vanish",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend Momentum to gain Hidden X, where X is the amount of Momentum spent."
+            ]
+        },
+        {
+            "tree": "Intiltrator",
+            "name": "Blend In",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Shift to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Spy Network",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+            "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.
+            <br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Mimicry",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Deceive your opponents while Hidden, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Counter-Surveillance",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Perceive to detect hidden observers or surveillance devices, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Escape Artist",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Deep Cover",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You maintain false identities to use for subtly gathering information.  You have a number of these identities equal to your Infiltrator Rank."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Forgery",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Craft, Implements, or Linguistics to forge documents or objects, adding +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Master of Subterfuge",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Deceive or use Legerdemain to create a diversion, Create 2 Advantages in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Infiltrator's Instincts",
+            "type": "",
+            "rank": "",
+            "requires": null,
+            Knight
+           "Heretic's Vow",
+           The Heretic makes a vow that grants them power but comes with a cost.
+           - **Mechanics:** The Heretic can choose a vow (e.g., Vow of Silence, Vow of Poverty) that grants a significant benefit (e.g., advantage on stealth checks, increased spell slots) but imposes a restriction. Breaking the vow results in temporary penalties.
+           
+           
+           
+           {
+                "tree": "Infiltrator",
+                "name": "Silent Movement",
+                "type": "Trigger",
+                "rank": "1",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "When you use Stealth to move through hostile or unfamiliar territory, add +1d4 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Disguise Expert",
+                "type": "Ability",
+                "rank": "1",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Deceive the world to gain Disguised X, where X is euqal to Hits in the result set.  You cannot use this ability if you are being observed by an enemy."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Stealth (3)",
+                "type": "Static",
+                "rank": "1",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Increase your Stealth Rank to 3 (d10)."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Stealth (4)",
+                "type": "Static",
+                "rank": "3",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Increase your Stealth Rank to 4 (d12)."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Deceive (2)",
+                "type": "Static",
+                "rank": "1",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Increase your Deceive Rank to 2 (d8)."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Implements (2)",
+                "type": "Static",
+                "rank": "1",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Increase your Implements Rank to 2 (d8)."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Implements (3)",
+                "type": "Static",
+                "rank": "3",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Increase your Implements Rank to 3 (d10)."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Lock Master",
+                "type": "Ability",
+                "rank": "2",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Use your Implements to disable a lock blocking your way, adding +1d4 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Evasion",
+                "type": "Trigger",
+                "rank": "3",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "When you suffer Hits from an attack that includes targets other than your self and your Reflexes are above 0, reduce Hits by -2."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Vanish",
+                "type": "Ability",
+                "rank": "2",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Spend Momentum to gain Hidden X, where X is the amount of Momentum spent."
+                ]
+            },
+            {
+                "tree": "Intiltrator",
+                "name": "Blend In",
+                "type": "Trigger",
+                "rank": "1",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "When you use a Shift to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Spy Network",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+               "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.
+               <br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Mimicry",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Deceive your opponents while Hidden, adding +2 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Counter-Surveillance",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Perceive to detect hidden observers or surveillance devices, adding +1d4 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Escape Artist",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Deep Cover",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "You maintain false identities to use for subtly gathering information.  You have a number of these identities equal to your Infiltrator Rank."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Forgery",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "Use your Craft, Implements, or Linguistics to forge documents or objects, adding +2 Bonus Hits to the result set."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Master of Subterfuge",
+                "type": "Trigger",
+                "rank": "3",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "When you Deceive or use Legerdemain to create a diversion, Create 2 Advantages in your Current Zone."
+                ]
+            },
+            {
+                "tree": "Infiltrator",
+                "name": "Infiltrator's Instincts",
+                "type": "",
+                "rank": "",
+                "requires": null,
+                "replaces": null,
+                "effect": [
+                    "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
+                ]
+            },
+            "replaces": null,
+            "effect": [
+                "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -3268,50 +4105,6 @@
             ]
         },
         {
-            "tree": "Tactician",
-            "name": "Fall Back",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Lead allies in your current and all adjacent Zones in a tactical retreat, allowing a number of allies equal to Hits in the result set to immediately Shift away from hostile targets without risk."
-            ]
-        },
-        {
-            "tree": "Tactician",
-            "name": "Inspire Allies",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Lead all allies in your current Zone, allowing a number of them equal to the Hits in the result set to choose 1 of the following: Recover, Take -1d to their next Action, add 1 Hit to their next result set"
-            ]
-        },
-        {
-            "tree": "Tactician",
-            "name": "Reposition",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Lead allies in your current Zones, allowing a number of them equal to the Hits in the result set to immediately use a Shift."
-            ]
-        },
-        {
-            "tree": "Tactician",
-            "name": "Seize the Initiative",
-            "type": "Ability",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
             "tree": "Tank",
             "name": "Exert (2)",
             "type": "Static",
@@ -3813,7 +4606,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Strike Rank to 3 (d10)."
+                "Increase your Stealth Rank to 3 (d10)."
             ]
         },
         {
