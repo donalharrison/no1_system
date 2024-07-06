@@ -219,7 +219,7 @@
             "requires": "Sneak Attack",
             "replaces": null,
             "effect": [
-                ""
+                "Use a Shift and immediately Strike a target in your Current Zone that is Prone.  On 6+ Hits, the target dies."
             ]
         },
         {
@@ -230,7 +230,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you successfully attack a target while Hidden, add +1d6 bonus Hits to the result set."
+                "When you score Hits against a target while Hidden, add +1d6 bonus Hits to the result set."
             ]
         },
         {
@@ -296,7 +296,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend Momentum to gain Hidden X, where X is the amount of Momentum spent."
+                "Spend X Momentum to gain Hidden X, where X is the amount of Momentum spent."
             ]
         },
         {
@@ -330,7 +330,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shift to Hide! and score 2+ Hits, you can take an additional Shift this turn."
+                "When you Defy Danger to Hide! and score 2+ Hits, you can take an additional Shift this turn."
             ]
         },
         {
@@ -338,10 +338,10 @@
             "name": "Assassinate",
             "type": "3",
             "rank": "",
-            "requires": null,
+            "requires": "Marked for Death, Sneak Attack",
             "replaces": null,
             "effect": [
-                ""
+                "When you Sneak Attack a target you have Marked for Death, add +2d6 Bonus Hits to the result set."
             ]
         },
         {
@@ -358,23 +358,23 @@
         {
             "tree": "Assassin",
             "name": "Contract Killer",
-            "type": "Static",
+            "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Persuade one target in your Current Zone to negotiate terms of a contract, adding +2 Bonus Hits to the result set."
             ]
         },
         {
             "tree": "Assassin",
             "name": "The Job's Not Done",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "2",
-            "requires": null,
+            "requires": "Marked for Death",
             "replaces": null,
             "effect": [
-                ""
+                "When a target you have Marked for Death escapes, immediately spend 1 Momentum to gain Favor 1.  You can only use this favor to learn about the escaped target's wherabouts."
             ]
         },
         {
@@ -397,6 +397,83 @@
             "replaces": null,
             "effect": [
                 "When you Shift to move to an adjacent Zone, you may move an additional Zone."
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Exert (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Tumble (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Exert (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Tumble (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Acrobat",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are adept in acrobatics, adding +2 Bonus Hits any result sets using Tumble."
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Freerunner",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Acrobat",
+            "replaces": null,
+            "effect": [
+                "When you Defy Danger using Parkour!, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Peak Conditioning",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, regain +2 Defenses."
             ]
         },
         {
