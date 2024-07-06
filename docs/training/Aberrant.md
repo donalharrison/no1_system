@@ -1,6 +1,6 @@
 ---
 layout: training
-title: Abberant
+title: Aberant
 parent: Training
 grand_parent: Characters
 permalink: /characters/training/aberrant/

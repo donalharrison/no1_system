@@ -18,6 +18,10 @@ If you are in the same Zone as the source of your fear, you must Shift out of yo
 #### Fixed
 While Blind, add Hazard 4 to your rolls.
 
+## Charmed
+### Variable
+While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.  Charmed decreases by -1 eahc round. 
+
 ## Confused
 #### Fixed
 While Confused, add 2 Hazard to your rolls.
@@ -25,6 +29,10 @@ While Confused, add 2 Hazard to your rolls.
 ## Dazed
 #### Fixed
 Until the end of your next turn, you can either take one action or one shift, but not both.
+
+## Disguised
+### Variable
+Your Disguised rating determines how well you have concealed your identity.  Actions taken to use Insight, Investigate, or Perceive your true identity reduce your Disgeised rating by Hits in their result set.
 
 ## Dying
 #### Incremental
@@ -50,6 +58,10 @@ Something about having to take actions against the source of provocation.
 #### Variable
 While your Restrained rating is greater than 0, you can take no Shifts and Hits from any combat Actions you take are reduced by your Restrained rating.  You use your Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
 
+## Slowed
+### Variable
+While yor Slowed rating is above 0, you mus use two (2) Shifts to Move and you cannot use Trigger Talents.
+
 ## Stunned
 #### Variable
 You can only take the Recover Action as long as you have a Stunned rating of 1 or higher.  When you take the Recover Action, reduce your Stunned rating by Hits and do not regain any Defenses.
@@ -68,5 +80,3 @@ Effects that restore your Grit have no effect and you cannot take the Recover Ac
 
 <hr>
 
-Slowed
-Your effective movement is reduced in half, requiring two shifts to 
