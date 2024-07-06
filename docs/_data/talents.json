@@ -75,18 +75,6 @@
             ]
         },
         {
-            "tree": "Mystic",
-            "name": "Seek Mysteries",
-            "type": "Static",
-            "rank": "1",
-            "requires": "Strain Susceptibility",
-            "replaces": null,
-            "effect": [
-                "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers/arcana/'>Arcana</a>.",
-                "Intuit, Research, or use your Insight to unravel these mysteries further, gaining Hits in Arcana Ranks to invest in your Arcana."
-            ]
-        },
-        {
             "tree": "Aberrant",
             "name": "Aberration",
             "type": "Static",
@@ -140,6 +128,19 @@
             "replaces": null,
             "effect": [
                 "When you score 5+ Hits with your Aberration's Effect Triggers, you may immediately use a different Effect Trigger from your Aberration."
+            ]
+        },
+        {
+            "tree": "Mystic",
+            "name": "Seek Mysteries",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Strain Susceptibility",
+            "replaces": null,
+            "effect": [
+                "You hold knowledge of the mysteries of the cosmos, bending secret powers to your will.  You gain access to <a href='/no1_system/characters/powers/arcana/'>Arcana</a>.",
+                "Intuit, Research, or use your Insight to unravel these mysteries further, gaining Hits in Arcana Ranks to invest in your Arcana.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 4 Actions."
             ]
         },
         {
@@ -4662,8 +4663,7 @@
             "replaces": null,
             "effect": [
                 "Choose one of the Skills from the list below to gain as your Academic Dsicipline:
-                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
-                "When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -4698,8 +4698,7 @@
             "replaces": null,
             "effect": [
                 "Choose a new Skill from the list below to gain as your Academic Dsicipline:
-                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
-                "When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -5012,9 +5011,58 @@
         },
         {
             "tree": "Shaman",
-            "name": "Invoke the spirits",
+            "name": "Trance",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
+            "requires": "Spirit's Severance",
+            "replaces": null,
+            "effect": [
+                "You are capable of traversing the spirit world to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.",
+                "Set any current Spirit ranks to 0.  Then Endure, maintain your Composure, or use your Insight to enter a trancelike state to walk the spirit world. You gain Hits + Steady in Spirit Ranks to invest in Spirits.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Steady Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Spirit's Severance",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Your connection to your Spirits is only as strong as your ability to wield their boons.",
+                "If the result set of one of your Spirits contains a 1, reduce your Rank in that Spirit by X, where X is equal to Hits in the same result set.",
+                "If you have 0 Spirit Ranks, you become Confused and the Entropy increases by +3."
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Shamanistic Affinity",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one of the Effect Skills below to be an Affinity.
+                <br><em></em>"
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Spirit Walker",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you enter a Trance, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5023,13 +5071,80 @@
         },
         {
             "tree": "Shaman",
-            "name": "Shamanism",
+            "name": "Insight (1)",
             "type": "Static",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Endure (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Shamanistic Affinity",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one of the Effect Skills below to be an Affinity.
+                <br><em></em>"
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shaman",
+            "name": "Humble Offering",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1."
             ]
         },
         {
