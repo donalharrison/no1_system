@@ -264,7 +264,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Craft Rank to 1 (d6)."
             ]
         },
         {
@@ -275,7 +275,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Craft Rank to 2 (d8)."
             ]
         },
         {
@@ -286,7 +286,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Craft Rank to 3 (d10)."
             ]
         },
         {
@@ -363,7 +363,7 @@
             "requires": "Sneak Attack",
             "replaces": null,
             "effect": [
-                "Use a Shift and immediately Strike a target in your Current Zone that is Prone.  On 6+ Hits, the target dies."
+                "Spend 3 Momentum and immediately Strike a target in your Current Zone that is Prone.  On 6+ Hits, the target dies."
             ]
         },
         {
