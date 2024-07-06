@@ -2443,13 +2443,90 @@
         },
         {
             "tree": "Hunter",
-            "name": "",
+            "name": "Aim",
             "type": "Ability",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Survival (3)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Survival Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Silent Stalker",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use Stealth in a wilderness environment, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Natural Camoflauge",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Stealth to conceal yourself while in a natural environment.  Until you take use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Perceive (2)",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Perceive Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Shoot (2)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Shoot Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Predator’s Instinct",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt or Initiative Test."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Keen Tracker",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use Survival to track and locate a target, add +2 Bonus Hits to the result set."
             ]
         },
         {
@@ -2939,7 +3016,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Shoot your target at +2d Challenge."
+                "Shoot your target at Hazard 3."
             ]
         },
         {
