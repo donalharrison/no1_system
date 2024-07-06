@@ -2724,7 +2724,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use a Shift to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
+                "When you Defy Danger to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -4974,7 +4974,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shift to Hide! and score 2+ Hits, you can take an additional Shift this turn."
+                "When you Defy Danger to Hide! and score 2+ Hits, you can take an additional Shift this turn."
             ]
         },
         {
@@ -5118,7 +5118,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately use a Shift to Hide!, gaining +2 Bonus Hits to the Hidden rating."
+                "Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately Defy Danger to Hide!, gaining +2 Bonus Hits to the Hidden rating."
             ]
         },
         {
@@ -5248,7 +5248,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use a Shift to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
+                "When you Defy Danger to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -5728,13 +5728,90 @@
         },
         {
             "tree": "Troubadour",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Practiced Trouper",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Consummate Performer",
+            "replaces": null,
+            "effect": [
+                "You can Craft to recite and Epic."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Consummate Performer",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "You are unshakable in your performances, allowing you to use Focus or Composure to Maintain Focus on your Ongoing Epics."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Strike (1)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Craft (1)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Craft Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Composure (2)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Strike (2)",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Craft (2)",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Craft Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Troubadour",
+            "name": "Renowned Performer",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain Renown 2."
             ]
         },
         {
