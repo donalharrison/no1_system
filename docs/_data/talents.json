@@ -4094,6 +4094,143 @@
             ]
         },
         {
+            "tree": "Nexus",
+            "name": "Attune with Essence",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Bonded Essence",
+            "replaces": null,
+            "effect": [
+                "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
+                "Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.",
+                "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
+                "If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Bonded Essence",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Empowered Essence",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Attune with Essence",
+            "replaces": null,
+            "effect": [
+                "When you Attune with Essence to gain Attunement, add +1d4 Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Affinity (2)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Marvelous Attunement",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use one of your Marvels and score 4+ Hits, gain +1 Attunement."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Insight (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Marvelous Maneuver",
+            "type": "Shift",
+            "rank": "3",
+            "requires": "Attune with Essence",
+            "replaces": null,
+            "effect": [
+                "Spend 4 Momentum and immediately use one of your Marvels without spending an Action."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Insight (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Nexus",
+            "name": "Focus (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 4 (d12)."
+            ]
+        },
+        {
             "tree": "Pugilist",
             "name": "Haymaker",
             "type": "Ability",
