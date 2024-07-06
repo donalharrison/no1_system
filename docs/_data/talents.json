@@ -3167,6 +3167,17 @@
             ]
         },
         {
+            "tree": "Knight",
+            "name": "Momentous Act",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Momentum, then take an Action.  If there are no 1s in the result set, increase the Momentum by +5."
+            ]
+        },
+        {
             "tree": "Lich",
             "name": "",
             "type": "Ability",
