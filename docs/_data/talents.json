@@ -253,7 +253,95 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft"
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.""You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Craft Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Craft (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Craft (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Craft (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Dangerous Distillation",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Craft to prepare Concoctions, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Practiced Applications",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Once per turn you can use or apply a Concoction that requires a Shift to Use Your Equipment wihtout using a Shift."
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Brew Broker",
+            "type": "",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Persuade or Deceive a target to sell your Concoctions and score 2+ Hits, gain +1 Wealth from the transaction."
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Premium Potables",
+            "type": "",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Persuade or Deceive a target to sell your Concoctions and score 3+ Hits, gain +1 Wealth from the transaction."
+            ]
+        },
+        {
+            "tree": "Alchemist",
+            "name": "Accomplished Alchemist",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Craft to prepare Concoctions, add +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -5907,8 +5995,7 @@
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
                 "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>",
-                "When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
+                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
             ]
         },
         {
@@ -5919,7 +6006,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions."
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.""You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Craft Actions (minimum 1 Action)."
             ]
         },
         {
