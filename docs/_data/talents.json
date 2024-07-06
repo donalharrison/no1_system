@@ -1140,7 +1140,7 @@
             "tree": "Conduit",
             "name": "Affinity (3)",
             "type": "Static",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
