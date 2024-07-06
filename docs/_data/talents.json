@@ -2345,6 +2345,28 @@
         },
         {
             "tree": "Duelist",
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Duelist",
+            "name": "Veteran Competitor",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can Initiate a Contest with one hostile target in your Current Zone without using a Shift."
+            ]
+        },
+        {
+            "tree": "Duelist",
             "name": "Riposte",
             "type": "Trigger",
             "rank": "2",
@@ -2352,6 +2374,50 @@
             "replaces": null,
             "effect": [
                 "Counterattack an enemy Strike that just scored 0 Hits.  Deal 1d4 bonus Hits."
+            ]
+        },
+        {
+            "tree": "Duelist",
+            "name": "Deadly Contestant",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target while engaged in a Contest, add +2 Bonus Hits to the results set."
+            ]
+        },
+        {
+            "tree": "Duelist",
+            "name": "Draw Steel",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target in the first round of a Contest, add +2 Bonus Hits to the results set."
+            ]
+        },
+        {
+            "tree": "Duelist",
+            "name": "Strike (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Duelist",
+            "name": "Renowned Victor",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike your opponent to win a Contest, gain +1 Renown."
             ]
         },
         {
@@ -4589,6 +4655,53 @@
         },
         {
             "tree": "Scholar",
+            "name": "Academic Dsicipline",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one of the Skills from the list below to gain as your Academic Dsicipline:
+                <br><em>Cosmology, History, Linguistics, Nature, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Analytical Mind",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze your surroundings, gaining insights into potential weaknesses or hidden detail.  Create Hits +2 Advantages in your current Zone.  Allies can only use these Advantages if you are able to communicate with them.",
+                "If your score 3+ Hits, you can take an additional Shift this turn."
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Analyze (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Multidisciplinary Studies",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose a new Skill from the list below to gain as your Academic Dsicipline:
+                <br><em>Cosmology, History, Linguistics, Nature, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+            ]
+        },
+        {
+            "tree": "Scholar",
             "name": "Knowledge is Power",
             "type": "Ability",
             "rank": "2",
@@ -4600,9 +4713,42 @@
         },
         {
             "tree": "Scholar",
+            "name": "Analyze (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Research (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Academic Discipline Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Rank in one (1) of your Academic Disipline Skills."
+            ]
+        },
+        {
+            "tree": "Scholar",
             "name": "Linguistic Aptitude",
             "type": "Ability",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -4611,13 +4757,35 @@
         },
         {
             "tree": "Scholar",
-            "name": "Analytical Mind",
-            "type": "Ability",
-            "rank": "1",
+            "name": "Academic Discipline Increase",
+            "type": "Static",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Analyze your surroundings, gaining insights into potential weaknesses or hidden detail.  Create Hits +2 Advantages in your current Zone.  Allies can use these Advantages if you are able to communicate with them."
+                "Increase your Rank in one (1) of your Academic Disipline Skills."
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Academic Discipline Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Rank in one (1) of your Academic Disipline Skills."
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Research (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
@@ -6133,8 +6301,7 @@
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
                 "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>",
-                "When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
+                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
             ]
         },
         {
