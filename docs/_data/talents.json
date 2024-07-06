@@ -3042,7 +3042,7 @@
         {
             "tree": "Knight",
             "name": "Chivalric Obligation",
-            "type": "Ability",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -3129,7 +3129,40 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Strike Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Knight",
+            "name": "Noble Warrion",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 2 (d8) and your Composure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Knight",
+            "name": "History (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your History Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Knight",
+            "name": "Inspiring Vanquish",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you score Hits and kill a targer, one ally you can see in your Currnet Zone may immediately use the Recover action."
             ]
         },
         {
@@ -3164,6 +3197,18 @@
             "replaces": null,
             "effect": [
                 "When your Dedication goes below 1, you may spend 5 Grit to increase your Dedication by +1."
+            ]
+        },
+        {
+            "tree": "Knight",
+            "name": "A Noble End",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are Dying, you may increase your Dying rating to 4, accepting an honorable daeth.",
+                "If you do, all allies in the current Encounter can immediately use Recover without using an Action and the current Timer increases by +2."
             ]
         },
         {
@@ -3622,6 +3667,126 @@
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Avowed Quest",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Your are on a Quest of great importance.  Write a new Target with the <em>Quest</em> keyword to represent this undertaking.  Work with the BAMF to structure this Target.  You may only have one Quest of this type active at a time.",
+                "Your quest grants you Conviction, allowing you to access powers to be used in pursuit of your Quest.  When you gain this Talent, your Conviction equals 5."
+                "As you set out on a Quest, select one Effect Skill from the list below to be your Boon, and gain +1 Skill Rank in the chosen Skill:
+                <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>",
+                "Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.",
+                "If you fail to complete your Quest, lose 1 Renown and increase the Entropy by +5."
+                "If you have no Quest, your Conviction is 0.  You may write a new Target with the Quest keyword at the beginning of the each Waypoint."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Strike with Conviction",
+            "type": "Shift",
+            "rank": "1",
+            "requires": "Avowed Quest",
+            "replaces": null,
+            "effect": [
+                "Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Strike (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Boon (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Boon Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Relentless Conviction",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Avowed Quest",
+            "replaces": null,
+            "effect": [
+                "Increase the Entropy by +2 to regain +3 Conviction"
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Wrathful Conviction",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Avowed Quest",
+            "replaces": null,
+            "effect": [
+                "Spend 2 Conviction, then use your Boon to harm your foe scoring Hits against one target in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Eternal Conviction",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Avowed Quest",
+            "replaces": null,
+            "effect": [
+                "When you are Dying, you may spend 2 Conviction and increase the Entropy by +4.  You recover from the Dying status, regain 3 Grit, and Recover without using an Action."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "Boon (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Boon Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Templar",
+            "name": "I Am Inevitable.",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "If you succesfully complete every part of a Quest, you may immediately spend 5 Momentum to roll 1d20:
+                <ul>
+                    <li>If you roll 12+, increase the Momentum by +3.  You and all allies gain +1 Milestone, and you gain +2 Renown.</li>
+                    <li>If you roll 11 or less, increase the Entropy by +5 and gain +2 Enemies.</li>
+                </ul>"
             ]
         },
         {
