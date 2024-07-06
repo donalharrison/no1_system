@@ -3678,7 +3678,7 @@
             "replaces": null,
             "effect": [
                 "Your are on a Quest of great importance.  Write a new Target with the <em>Quest</em> keyword to represent this undertaking.  Work with the BAMF to structure this Target.  You may only have one Quest of this type active at a time.",
-                "Your quest grants you Conviction, allowing you to access powers to be used in pursuit of your Quest.  When you gain this Talent, your Conviction equals 5."
+                "Your quest grants you Conviction, allowing you to access powers to be used in pursuit of your Quest.  When you gain this Talent, your Conviction equals 5.",
                 "As you set out on a Quest, select one Effect Skill from the list below to be your Boon, and gain +1 Skill Rank in the chosen Skill:
                 <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>",
                 "Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.",
