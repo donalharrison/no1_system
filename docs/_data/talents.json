@@ -94,8 +94,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You have an innate ability that deviates from the normal."
-                , "When you gain this Talent, choose one of the following Effect Skill to be your Aberration:
+                "You have an innate ability that deviates from the normal.", "When you gain this Talent, choose one of the following Effect Skill to be your Aberration:
                 <br><em>Destroy, Intuit, Luck, Resist</em>"
             ]
         },
@@ -1220,7 +1219,7 @@
                 "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
                 "Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.",
                 "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
-                "If your Attunement equals 0 or below, you gain Stunned 3 and the Entropy increases by +3.",
+                "If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
@@ -2103,7 +2102,7 @@
                 "Endure or use your Insight to connect with nature, gaining Hits in Attunement.",
                 "Attunment measures the strength of connection to nature, which determines the strength of the Marvels you can manifest.",
                 "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
-                "If your Attunement equals 0 or below, you gain Fatigued 4 and the Momentum decreases by -2.",
+                "If your Attunement equals 0 or less, you gain Fatigued 4 and the Momentum decreases by -2.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Steady Actions (minimum 1 Action)."
             ]
         },
@@ -3438,7 +3437,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade at Challenge 3 to gain Hits + Savvy Henchmen Ranks to recruit Henchmen from the table below.",
+                "Persuade at Challenge 3 to gain Hits + Savvy Henchmen Ranks to recruit Henchmen from the Henchman Minions table.",
                 "Henchmen are a type of Minion you can command to do your bidding.",
                 "Each type of Henchman has it own Cost which specifies the number of Henchmen Ranks you mus invest to recruit them.",
                 "The different Henchmen have their own statistics that specify their Grit, Actions, and any Talents they have.",
@@ -3578,7 +3577,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Mori to gain Hits + Mori Haunt Ranks to recruit Haunts from the table below.",
+                "Use Mori to gain Hits + Mori Haunt Ranks to recruit Haunts from the Haunt Minions table.",
                 "Haunts are a type of undead Minion you can command to do you bidding.",
                 "Each type of Haunt has it own Cost which specifies the number of Haunts Ranks you mus invest to recruit them.",
                 "The different Haunts have their own statistics that specify their Grit, Actions, and any Talents they have.",
@@ -3754,7 +3753,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Maintain your Composure at challenge 3 to gain Hits + Steady Beast Ranks to recruit Beasts from the table below.",
+                "Maintain your Composure at challenge 3 to gain Hits + Steady Beast Ranks to recruit Beasts from the Beast Minions table.",
                 "Beasts are a type of Minion you train to follow your commands.",
                 "Each type of Beast has it own Cost which specifies the number of Beast Ranks you must invest to recruit them.",
                 "The different Beasts have their own statistics that specify their Grit, Actions, and any Talents they have.",
@@ -5900,13 +5899,37 @@
         },
         {
             "tree": "Witch",
-            "name": "Incant the darkness",
+            "name": "Witchcraft",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain the ability to cast Hexes on your enemies.",
+                "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest<em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Witch's Brew",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Hexcrafter",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Witchcraft",
+            "replaces": null,
+            "effect": [
+                "When you Focus to Maintain Focus on your Ongoing effects, add +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -5917,18 +5940,85 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Persuade the spirits of the world at Challenge 3 to send you a Beast Minion.  On 1+ Hits, you may recruit a Beast of cost 1 or less from the Beast Minions table.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
             "tree": "Witch",
-            "name": "Witchcraft",
+            "name": "Affinity (2)",
             "type": "Static",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Not Just Yet, My Pet",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Witch's Familiar",
+            "replaces": null,
+            "effect": [
+                "When you can see your Beast Minion and it dies, spend 3 Grit to return it to life."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Craft (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Craft Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Dangerous Distillation",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Craft to prepare Concoctions, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Greater Familiar",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Witch's Familiar",
+            "replaces": null,
+            "effect": [
+                "When you Persuade the spirits of the world to send you a Beast Minon, you may recruit a of cost 2 or less."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Blood for Power",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Witch's Familiar",
+            "replaces": null,
+            "effect": [
+                "When you Focus to Maintain Focus on your Ongoing effects, spend X Grit to add X Bonus Hits to the result set."
             ]
         },
         {
