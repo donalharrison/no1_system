@@ -653,7 +653,7 @@
             "requires": "Heterodox Practice",
             "replaces": null,
             "effect": [
-                "Use a Shift to maitain your Composure, immediately gaining 1d4+1 Concordance."
+                "Use a Shift to maintain your Composure, immediately gaining 1d4+1 Concordance."
             ]
         },
         {
@@ -1084,7 +1084,10 @@
             "replaces": null,
             "effect": [
                 "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
-                "Attunment measures the strength of connection to your power, which determines the strangth of the Marvels you can manifest."
+                "Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.",
+                "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
+                "If your Attunement equals 0 or below, you gain Stunned 3 and the Entropy increases by +3.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -1095,19 +1098,86 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.  When the result set of a Marvels contains a 1, reduce your Atttunement by 1.","If your Attunement equals 0, you cannot manifest Marvels."
+                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
+                "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
             ]
         },
         {
             "tree": "Conduit",
-            "name": "",
+            "name": "Affinity (2)",
             "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Insight (3)",
+            "type": "Static",
             "rank": null,
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Insight Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Conduit",
+            "name": "Attuning Conflux",
+            "type": "Shift",
+            "rank": "3",
+            "requires": "Attune with Essence",
+            "replaces": null,
+            "effect": [
+                "Spend X Hits from the result set of the next Marvel you use this turn to increase your Attunement by X."
             ]
         },
         {
@@ -1897,8 +1967,11 @@
             "requires": "Nature's Bond",
             "replaces": null,
             "effect": [
-                "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
-                "Attunment measures the strength of connection to nature, which determines the strangth of the Marvels you can manifest."
+                "Endure or use your Insight to connect with nature, gaining Hits in Attunement.",
+                "Attunment measures the strength of connection to nature, which determines the strength of the Marvels you can manifest.",
+                "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
+                "If your Attunement equals 0 or below, you gain Fatigued 4 and the Momentum decreases by -2.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -1909,8 +1982,122 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Your Essence is innately bound to this Nature, allowing you to manifest Marvels from any of the followin Effect Skills:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","When the result set of a Marvels contains a 1, reduce your Atttunement by 1.","If your Attunement equals 0, you cannot manifest Marvels."
+                "You possess an innate bond with nature and the natural world.",
+                "When you gain this Talent, you gain the following two Effect Skills as your <em>Affinity</em> allowing you to further empower your Marvels and Effect Triggers:
+                <br><em>Phylla, Tellus</em>",
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Nourish the Bond",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Nature's Bond",
+            "replaces": null,
+            "effect": [
+                "Select 2 additional Effect Skills from the list below to add to your Afinity:
+                <br><em>Plaga, Rime, Squall, Torrent</em>"
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Temper the Bond",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Nature's Bond",
+            "replaces": null,
+            "effect": [
+                "Select 2 additional Effect Skills from the list below to add to your Afinity:
+                <br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>"
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Affinity (2)",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Affinity (2)",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Insight (3)",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Endure (3)",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Nature's Wrath",
+            "type": "Shift",
+            "rank": "3",
+            "requires": "Attune with Nature",
+            "replaces": null,
+            "effect": [
+                "Spend X Attunement and spend an Action to use two Marvels.  You can add +X bonus Hits to either Marvel's result set.",
+                "Your Attunement decreases to 0."
             ]
         },
         {
@@ -2541,7 +2728,7 @@
             "effect": [
                 "Research the magical secrets and recipes that empower your Spells.",
                 "You gain Hits in Spell Ranks to invest in your Spells.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action)."
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action)."
             ]
         },
         {
@@ -3036,7 +3223,7 @@
                 "The different Henchmen have their own statistics that specify their Grit, Actions, and any Talents they have.",
                 "If one of your Henchman's Grit reaches 0, they die.  You may compose a letter of condolences to their next of kin if you see fit to stoop.",
                 "Your Henchmen wait for your instruction.  On each of your turns, your Henchmen use either a Shift or an Action unless you use a Talent to lead them.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint if you are in a city.  If you use it during a Waypoint while you are in a city, it requires 7 + Savvy Actions (minimum 1 Action).",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint if you are in a city.  If you use it during a Waypoint while you are in a city, it requires 7 + Savvy Actions (minimum 1 Action).",
                 "<em><strong>Advanced Henchmen:</strong> Each Henchman also has a Rating that determines how experienced they are.  All Henchmen have a rating of 1 when recruited.  You can increase a Henchman's rating by using the Promote Henchman talent.</em>"
             ]
         },
@@ -3176,7 +3363,7 @@
                 "The different Haunts have their own statistics that specify their Grit, Actions, and any Talents they have.",
                 "If one of your Haunt's Grit reaches 0, they are released from your service and rejoin the souls you've yet to disturb.",
                 "Your Haunts wait for your instruction.  On each of your turns, your Haunts use either a Shift or an Action unless you use a Talent to lead them.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near the spirits or remain of the dead.  If you use it during a Waypoint while you are near the spirits or remain of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint if you are near the spirits or remain of the dead.  If you use it during a Waypoint while you are near the spirits or remain of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).",
                 "<em><strong>Advanced Haunts:</strong> Each Haunt also has a Rating that determines how experienced they are.  All Haunt have a rating of 1 when recruited.  You can increase a Haunts's rating by using the Empower Haunts talent.</em>"
             ]
         },
@@ -3352,7 +3539,7 @@
                 "The different Beasts have their own statistics that specify their Grit, Actions, and any Talents they have.",
                 "If one of your Beasts' Grit reaches 0, they die.  You're a terrible person if you let your pets die.",
                 "Your Beasts wait for your instruction.  On each of your turns, your Beasts use either a Shift or an Action unless you use a Talent to lead them.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint if you are near a fertile wilderness region.  If you use it during a Waypoint while you are near a fertile wilderness region, it requires 7 - Steady Actions (minimum 1 Action).",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint if you are near a fertile wilderness region.  If you use it during a Waypoint while you are near a fertile wilderness region, it requires 7 - Steady Actions (minimum 1 Action).",
                 "<em><strong>Advanced Beasts:</strong> Each Beast also has a Rating that determines how experienced they are.  All Beasts have a rating of 1 when recruited.  You can increase a Beasts' rating by using the Train Beasts talent.</em>"
             ]
         },
@@ -3487,7 +3674,10 @@
             "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
+                "If the result set of one of your Rites contains a 1, reduce your Concordance by 1.
+                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -3515,8 +3705,7 @@
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:
                 <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
-                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
             ]
         },
         {
@@ -5180,7 +5369,7 @@
             "replaces": null,
             "effect": [
                 "Persuade or maintain your Compsure to contact your Patron and gain Hits in Gift Ranks to invest your Gifts.",
-                "You may use this Ability without using an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Uncanny Actions (minimum 1 Action)."
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Uncanny Actions (minimum 1 Action)."
             ]
         },
         {
