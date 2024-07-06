@@ -253,7 +253,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.""You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Craft Actions (minimum 1 Action)."
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Craft Actions (minimum 1 Action)."
             ]
         },
         {
@@ -5995,7 +5996,8 @@
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
                 "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
+                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>",
+                "When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
             ]
         },
         {
@@ -6006,7 +6008,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.""You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Craft Actions (minimum 1 Action)."
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Craft Actions (minimum 1 Action)."
             ]
         },
         {
