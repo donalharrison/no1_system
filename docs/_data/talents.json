@@ -87,6 +87,63 @@
             ]
         },
         {
+            "tree": "Aberrant",
+            "name": "Aberration",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You have an innate ability that deviates from the normal."
+                , "When you gain this Talent, choose one of the following Effect Skill to be your Aberration:
+                <br><em>Destroy, Intuit, Luck, Resist</em>"
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Aberration (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Abberation Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Break the Mold",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you score 3+ Hits with your Aberration's Effect Triggers, increase the Momentum by +2."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Aberration (3)",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Abberation Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Living Anomaly",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you score 5+ Hits with your Aberration's Effect Triggers, you may immediately use a different Effect Trigger from your Aberration."
+            ]
+        },
+        {
             "tree": "Mystic",
             "name": "Strain Susceptibility",
             "type": "Static",
@@ -5734,7 +5791,12 @@
             "requires": "Consummate Performer",
             "replaces": null,
             "effect": [
-                "You can Craft to recite and Epic."
+                "You can Craft to recite an Epic.",
+                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:
+                <ul>
+                    <li>Lose 1 Renown</li>
+                    <li>Decrease the Momentum by -2</li>
+                </ul>"
             ]
         },
         {
@@ -5751,7 +5813,7 @@
         {
             "tree": "Troubadour",
             "name": "Strike (1)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5762,7 +5824,7 @@
         {
             "tree": "Troubadour",
             "name": "Craft (1)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5773,7 +5835,7 @@
         {
             "tree": "Troubadour",
             "name": "Composure (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5784,7 +5846,7 @@
         {
             "tree": "Troubadour",
             "name": "Strike (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -5795,7 +5857,7 @@
         {
             "tree": "Troubadour",
             "name": "Craft (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -5806,7 +5868,7 @@
         {
             "tree": "Troubadour",
             "name": "Renowned Performer",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
