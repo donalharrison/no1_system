@@ -5907,7 +5907,8 @@
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
                 "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest<em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
+                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>",
+                "When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
             ]
         },
         {
