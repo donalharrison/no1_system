@@ -1099,8 +1099,7 @@
             "replaces": null,
             "effect": [
                 "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
-                "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
+                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
             ]
         },
         {
@@ -2015,11 +2014,22 @@
             "tree": "Druid",
             "name": "Affinity (2)",
             "type": "Ability",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Druid",
+            "name": "Wild Talker",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Linguistics to ask one natural animal in yoru Current Zone X questions, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -3676,8 +3686,7 @@
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
                 <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
                 "If the result set of one of your Rites contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.",
-                "You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.","You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -3704,8 +3713,7 @@
                 "Select two items from the list below to be your Virtues and two items to be your Taboos:
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
-                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
+                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>","Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
             ]
         },
         {
@@ -3799,9 +3807,146 @@
         },
         {
             "tree": "Pugilist",
+            "name": "Float like a butterfly. . .",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense."
+            ]
+        },
+        {
+            "tree": "Pugilist",
             "name": "Sting Like a Bee",
             "type": "Ability",
             "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Martial arts after you Float Like a Butterfly, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Jab",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Journeyman Competitor",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "Use your Martial Arts while engaged in a Contest to deliver a rapid punch to your opponent.  On +1 Hits, score 1 Hit on the target and immediately use different <em>Combination Punch</em>."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Cross",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Journeyman Competitor",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "Use your Martial Arts while engaged in a Contest to deliver a rear-hand punch to your opponent.  On +2 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Hook",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Journeyman Competitor",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "Use your Martial Arts while engaged in a Contest to deliver a rotating punch to your opponent.  On +3 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Uppercut",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Journeyman Competitor",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "Use your Martial Arts while engaged in a Contest to deliver a rising punch to your opponent.  On +3 Hits, score 3 Hits on the target."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Knockout Punch",
+            "type": "Trigger",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you successfully score Hits on 4+ <em>Combination Punches</em>, use your Martial Arts against your opponent adding +1d4 Bonus Hits to the result set.",
+                "On 4+ Hits, your target becomes Unconscious 1."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Journeyman Competitor",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can Initiate a Contest with one hostile target in your Current Zone without using a Shift."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Work the Body",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Martial Arts against one target in your Current Zone.  On 2+ Hits, the target gain Fatigued 2."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Shake it off",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, regain +2 Defenses."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Bob and Weave",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Slip and Counter",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are in a Defensive Stance and take Hits in melee combat from a target you can see, reduce the Hits taken by -2 and use your Martial Arts to deal Hits to the attacking target."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Martial Arts (3)",
+            "type": "Ability",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3810,13 +3955,35 @@
         },
         {
             "tree": "Pugilist",
-            "name": "",
+            "name": "Focus (2)",
             "type": "Ability",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Focus (3)",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Down, but Not Out",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are used to getting back up after a hard blow.  If you gain the Unconscious Status, reduce the rating by -1."
             ]
         },
         {
