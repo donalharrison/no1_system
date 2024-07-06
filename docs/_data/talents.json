@@ -4662,7 +4662,8 @@
             "replaces": null,
             "effect": [
                 "Choose one of the Skills from the list below to gain as your Academic Dsicipline:
-                <br><em>Cosmology, History, Linguistics, Nature, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
+                "When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -4685,7 +4686,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Analyze Rank to 2 (d8)."
             ]
         },
         {
@@ -4697,7 +4698,8 @@
             "replaces": null,
             "effect": [
                 "Choose a new Skill from the list below to gain as your Academic Dsicipline:
-                <br><em>Cosmology, History, Linguistics, Nature, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
+                "When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -4719,7 +4721,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Affinity Rank to 3 (d10)."
             ]
         },
         {
@@ -4730,7 +4732,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Research Rank to 2 (d8)."
             ]
         },
         {
@@ -4785,7 +4787,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Research Rank to 3 (d10)."
             ]
         },
         {

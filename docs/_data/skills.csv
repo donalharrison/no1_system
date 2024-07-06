@@ -32,6 +32,7 @@ Martial Arts,Dangerous,1,Training and expertise in hand-to-hand combat technique
 Medicine,Savvy,2,"The knowledge and practices to diagnose, treat, and prevent illnesses and injuries."
 Mentis,Savvy,2,"Utilizes the mind in all aspects, from illusions and telepathy to psychic attacks."
 Mori,Deft,2,"Governs death, dying, and undeath, influencing the end of life and the afterlife."
+Nature,Savvy,1,The study of the natural world and its processes.
 Navigate,Savvy,1,"The ability to plan and follow a route, whether on land, sea, or air."
 Nihil,Uncanny,2,"Channels the energy of the void, the absolute nothingness."
 Nox,Deft,2,"Masters darkness and shadow, concealing and manipulating gloom."
@@ -48,6 +49,7 @@ Rime,Savvy,2,"Controls cold, ice, and frost, bringing chills and freezing enviro
 Sangui,Dangerous,2,Of blood that flows.
 Shoot,Dangerous,1,"Proficiency in using ranged weapons, such as firearms or bows."
 Squall,Deft,2,"Commands winds, air, and the skies, summoning gusts and atmospheric forces."
+Skrimisiology,Savvy,1,"The study of non-humanoid creatures and species, including their strengths, weakness, and behavior."
 Stealth,Deft,1,The ability to move quietly and unseen.
 Streetwise,Savvy,1,Practical knowledge and experience of urban life and its challenges.
 Strike,Dangerous,1,Skill in delivering effective blows in combat.
