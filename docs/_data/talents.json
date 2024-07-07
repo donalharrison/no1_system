@@ -909,7 +909,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Cosmology or Theology Ranks to 2 (d8)"
+                "Increase your Cosmology or Theology Ranks to 2 {d8)."
             ]
         },
         {
@@ -1151,13 +1151,157 @@
         },
         {
             "tree": "Bounty Hunter",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Implements (1)",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Implements Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "I Can Bring You In Warm, Or I Can Bring You In Cold.",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Intimidate a target in yout Current Zone that you are trying to apprehend, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Implements (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Implements Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Bolas",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to ensnare one target in your Current or and Adjacent Zone.  The target gains Prone and Restrained X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Manacles",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Implements to bind the hands of one target in your Current Zone.  On 2+ Hits, the target gains Restrained X, where X is 8+Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Survival (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Survival Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Streetwise (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Streetwise Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": ". . .A Complicated Profession.",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +2 Enemies and either +1 Renown or +3 Wealth."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Shrewd Contractor",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, addin +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Word on the Street",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Streetwise to gain valuable information or find the right person to talk to about you target.  On 3+ Hits, you gain +1 Favor to use in your hunt."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "Intimidate (2)",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Intimidate Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Bounty Hunter",
+            "name": "It's A Dirty Job. . .",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you successfully apprehend a wanted target, gain +1 Renown or +2 Wealth."
+            ]
+        },        
+        {
+            "tree": "Bounty Hunter",
+            "name": "No Disintegrations",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike one target in your Current Zone or Shoot one target in your Current or an Adjacent Zone aiming to subdue them.",
+                "On 4+ Hits, your target gains Unconscious 1.  Otherwise target gains Stunned 4."
             ]
         },
         {
@@ -1465,7 +1609,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Cosmology or History rank to 2 (d8)"
+                "Increase your Cosmology or History rank to 2 (d8)."
             ]
         },
         {
@@ -2052,7 +2196,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 (d8)"
+                "Increase your Persuade Rank to 2 {d8)."
             ]
         },
         {
@@ -2096,7 +2240,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 2 (d8)"
+                "Increase your Deceive Rank to 2 {d8)."
             ]
         },
         {
@@ -2118,7 +2262,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 3 (d10)"
+                "Increase your Persuade Rank to 3 {d10)."
             ]
         },
         {
@@ -3992,7 +4136,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 2 (d8)"
+                "Increase your Lead Rank to 2 {d8)."
             ]
         },
         {
@@ -4003,7 +4147,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 (d8)"
+                "Increase your Persuade Rank to 2 {d8)."
             ]
         },
         {
@@ -4014,7 +4158,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 3 (d10)"
+                "Increase your Lead Rank to 3 {d10)."
             ]
         },
         {
@@ -4146,7 +4290,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 2 (d8)"
+                "Increase your Lead Rank to 2 {d8)."
             ]
         },
         {
@@ -4157,7 +4301,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Intimidate Rank to 2 (d8)"
+                "Increase your Intimidate Rank to 2 {d8)."
             ]
         },
         {
@@ -4168,7 +4312,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Mori Rank to 3 (d10)"
+                "Increase your Mori Rank to 3 {d10)."
             ]
         },
         {
@@ -4179,7 +4323,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Mori Rank to 4 (d12)"
+                "Increase your Mori Rank to 4 {d12)."
             ]
         },
         {
@@ -4297,7 +4441,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 3 (d10)"
+                "Increase your Lead Rank to 3 {d10)."
             ]
         },
         {
@@ -4308,7 +4452,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Composure Rank to 3 (d10)"
+                "Increase your Composure Rank to 3 {d10)."
             ]
         },
         {
@@ -5089,7 +5233,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 2 (d8)"
+                "Increase your Deceive Rank to 2 {d8)."
             ]
         },
         {
@@ -5100,7 +5244,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 3 (d10)"
+                "Increase your Deceive Rank to 3 {d10)."
             ]
         },
         {
@@ -5111,7 +5255,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 (d8)"
+                "Increase your Persuade Rank to 2 {d8)."
             ]
         },
         {
@@ -6405,7 +6549,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Operate Rank to 2 (d8)"
+                "Increase your Operate Rank to 2 {d8)."
             ]
         },
         {
