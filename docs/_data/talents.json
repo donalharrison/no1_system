@@ -553,7 +553,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Exert Rank to 2 (d8)."
             ]
         },
         {
@@ -564,7 +564,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Tumble rank to 2 (d8)."
             ]
         },
         {
@@ -575,7 +575,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Exert Rank to 3 (d10)."
             ]
         },
         {
@@ -586,7 +586,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Tumble rank to 3 (d10)."
             ]
         },
         {
@@ -909,7 +909,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Cosmology or Theology Ranks to 2 (d8)"
+                "Increase your Cosmology or Theology Ranks to 2 (d8)."
             ]
         },
         {
@@ -1465,7 +1465,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Cosmology or History rank to 2 (d8)"
+                "Increase your Cosmology or History rank to 2 (d8)."
             ]
         },
         {
@@ -2052,7 +2052,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 (d8)"
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -2096,7 +2096,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 2 (d8)"
+                "Increase your Deceive Rank to 2 (d8)."
             ]
         },
         {
@@ -2118,7 +2118,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 3 (d10)"
+                "Increase your Persuade Rank to 3 (d10)."
             ]
         },
         {
@@ -2352,7 +2352,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Stealth Rank to 3 (d10)."
             ]
         },
         {
@@ -2407,7 +2407,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Strike Rank to 4 (d12)."
             ]
         },
         {
@@ -3062,7 +3062,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Strike Rank to 2 (d8)."
             ]
         },
         {
@@ -3262,7 +3262,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When a Spell you use has a 1 in the result set, you suffer Hits equal to the Spell's lowest Threshold."
+                "If a Spell you use has a 1 in the result set, you suffer Hits equal to the Spell's lowest Threshold."
             ]
         },
         {
@@ -3990,7 +3990,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 2 (d8)"
+                "Increase your Lead Rank to 2 (d8)."
             ]
         },
         {
@@ -4001,7 +4001,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 (d8)"
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -4012,7 +4012,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 3 (d10)"
+                "Increase your Lead Rank to 3 (d10)."
             ]
         },
         {
@@ -4144,7 +4144,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 2 (d8)"
+                "Increase your Lead Rank to 2 (d8)."
             ]
         },
         {
@@ -4155,7 +4155,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Intimidate Rank to 2 (d8)"
+                "Increase your Intimidate Rank to 2 (d8)."
             ]
         },
         {
@@ -4166,7 +4166,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Mori Rank to 3 (d10)"
+                "Increase your Mori Rank to 3 (d10)."
             ]
         },
         {
@@ -4177,7 +4177,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Mori Rank to 4 (d12)"
+                "Increase your Mori Rank to 4 (d12)."
             ]
         },
         {
@@ -4295,7 +4295,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 3 (d10)"
+                "Increase your Lead Rank to 3 (d10)."
             ]
         },
         {
@@ -4306,7 +4306,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Composure Rank to 3 (d10)"
+                "Increase your Composure Rank to 3 (d10)."
             ]
         },
         {
@@ -4743,7 +4743,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Martial Arts Rank to 3 (d10)."
             ]
         },
         {
@@ -4754,7 +4754,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Focus Rank to 2 (d8)."
             ]
         },
         {
@@ -4765,7 +4765,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Focus Rank to 3 (d10)."
             ]
         },
         {
@@ -5087,7 +5087,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 2 (d8)"
+                "Increase your Deceive Rank to 2 (d8)."
             ]
         },
         {
@@ -5098,7 +5098,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 3 (d10)"
+                "Increase your Deceive Rank to 3 (d10)."
             ]
         },
         {
@@ -5109,7 +5109,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 (d8)"
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -5356,7 +5356,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Affinity Rank to 1 (d6)."
             ]
         },
         {
@@ -5367,7 +5367,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Insight Rank to 1 (d6)."
             ]
         },
         {
@@ -5378,7 +5378,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Endure Rank to 1 (d6)."
             ]
         },
         {
@@ -5389,7 +5389,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Affinity Rank to 2 (d8)."
             ]
         },
         {
@@ -5400,7 +5400,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Affinity Rank to 3 (d10)."
             ]
         },
         {
@@ -5423,7 +5423,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Insight Rank to 2 (d8)."
             ]
         },
         {
@@ -5527,7 +5527,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Affinity Rank to 1 (d6)."
             ]
         },
         {
@@ -5538,7 +5538,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Insight Rank to 1 (d6)."
             ]
         },
         {
@@ -5549,7 +5549,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Persuade Rank to 1 (d6)."
             ]
         },
         {
@@ -5560,7 +5560,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Deceive Rank to 1 (d6)."
             ]
         },
         {
@@ -5571,7 +5571,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase one of your Affinity Ranks to 2 (d8)."
             ]
         },
         {
@@ -5582,7 +5582,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase one of your Affinity Ranks to 3 (d10)."
             ]
         },
         {
@@ -5605,7 +5605,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -5616,7 +5616,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Insight Rank to 2 (d8)."
             ]
         },
         {
@@ -6541,7 +6541,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Operate Rank to 2 (d8)"
+                "Increase your Operate Rank to 2 (d8)."
             ]
         },
         {
@@ -6667,25 +6667,128 @@
         },
         {
             "tree": "Petitioner",
-            "name": "Desperate Plea",
+            "name": "Receive Gifts",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Persuade, Endure, or maintain your Composure to contact your Patron and gain Hits in Gifts rating which determines the highest rank of Gifts you can use.",
+                "If a Gift you use has a 1 in the result set, reduce your Gifts rating by -1.",
+                "If your Gifts rating equals 0 or less, increase the Entropy by +4 and gain +1 Debts.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Uncanny Actions (minimum 1 Action)."
             ]
         },
         {
             "tree": "Petitioner",
-            "name": "Receive Gifts",
+            "name": "Gifts Affinity",
             "type": "Ability",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade or maintain your Compsure to contact your Patron and gain Hits in Gift Ranks to invest your Gifts.",
-                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Uncanny Actions (minimum 1 Action)."
+                "Choose one of the Effect Skills below to be an Affinity.
+                <br><em></em>"
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Desperate Plea",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 4 Momentum to convince your Patron to restore your Gifts.  Regain +2 Gifts rating and increase the Entropy by +2."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Persuade (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Composure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Composure (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Gifts Affinity",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one of the Effect Skills below to be an Affinity.
+                <br><em></em>"
             ]
         },
         {
