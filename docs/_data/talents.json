@@ -2179,13 +2179,108 @@
         },
         {
             "tree": "Diabolist",
-            "name": "Dance with devils",
+            "name": "Dance With Devils",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Persuade, Endure, or maintain your Composure to contact your the Patrons of the Hellplanes and gain Hits in Gifts rating which determines the highest rank of Gifts you can use.",
+                "If a Gift you use has a 1 in the result set, reduce your Gifts rating by -1.",
+                "If your Gifts rating equals 0 or less, increase the Entropy by +4 and gain +1 Debts.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Savvy Actions (minimum 1 Action) and the Entropy increases by +1."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Diabolic Gifts",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Receive Gifts",
+            "replaces": null,
+            "effect": [
+                "You discover your Patron dweall in the Hellplanes.",
+                "Increase your Deceive or Persuade  Rank to 1 (d6), 2 (d8), or 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Touch the Hellplanes",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain the ability to cast Hexes on your enemies.",
+                "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Hexes with Skill Talents:
+                <br><em>Aether, Inferno, Mori, Nox, Plaga, Rime, Sangui, Tempest</em>",
+                "When you lose focus on your Ongoing Hexes, increase the Entropy by +3."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Profane Allure",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase the Entropy by +1, then Deceive or Persuade on target in your Current Zone to give them Charmed X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Profane Caress",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase the Entropy by +1, then touch one target in your Current Zone who is Charmed by you to regain X Grit, where X is the target's Charmed rating.  The target loses Charmed."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Diabolic Voice",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Deceive or Persuade a target, you may add +1d4 Bonus Hits to the result set.  Increase the Entropy by +1."
+            ]
+        },
+        {
+            "tree": "Diabolist",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
             ]
         },
         {
@@ -7031,17 +7126,6 @@
             ]
         },
         {
-            "tree": "Diabolist",
-            "name": "Profane Allure",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
-        {
             "tree": "Petitioner",
             "name": "Receive Gifts",
             "type": "Ability",
@@ -7060,7 +7144,7 @@
             "name": "Gifts Affinity",
             "type": "Ability",
             "rank": "2",
-            "requires": null,
+            "requires": "Receive Gifts",
             "replaces": null,
             "effect": [
                 "Choose one of the Effect Skills below to be an Affinity.

@@ -29,13 +29,16 @@ Tank,Basic,Steady 3,"You are highly resilient and indomitable, specializing in a
 Thief,Basic,Deft 2,"You practice stealth, infiltration, and larceny skills, excelling in covert operations, thievery, and disarming traps.",/no1_system/assets/img/thief.png,/no1_system/characters/training/thief/
 Troubadour,Basic,Savvy 2,"You are of a class of lyric-poets and entertainer, using your prowess for performance to bolster your allies and inspire fear in your enemies.",/no1_system/assets/img/troubadour.png,/no1_system/characters/training/troubadour/
 Witch,Basic,"Savvy 2, Uncanny 2","You embrace occult knowledge and practice dark arts, gaining magical abilities that blend traditional spellcasting with mystical arts.",/no1_system/assets/img/witch.png,/no1_system/characters/training/witch/
+Advocate,Discipline,,"You are a charismatic defender of a cause or philospohy, using your concordance to champion your causes.",/no1_system/assets/img/advocate.png,/no1_system/characters/training/advocate/
 Archmage,Discipline,,"You have attained the pinnacle of magical mastery, wielding immense power and knowledge of the arcane.",/no1_system/assets/img/archmage.png,/no1_system/characters/training/archmage/
 Bard,Discipline,,"You are a renowned storyteller whose esteemed reputation has earned a sovereign endorsement, granting you the authority to witness and certify transactions and contracts.",/no1_system/assets/img/bard.png,/no1_system/characters/training/bard/
 Bastion,Discipline,,"You are an unyielding defender, weilding magical and supernatural energies to fortify yourself and hold ground against your foes.",/no1_system/assets/img/bastion.png,/no1_system/characters/training/bastion/
 Blackguard,Discipline,,You are a fallen knight who embraces dark powers and twisted honor to achieve your goals.,/no1_system/assets/img/blackguard.png,/no1_system/characters/training/blackguard/
 Blade Weaver,Discipline,,"You blend martial skill with mystical arts, enchanting weapons and executing powerful techniques in a lethal dance.",/no1_system/assets/img/blade_weaver.png,/no1_system/characters/training/blade_weaver/
+Cabalist,Discipline,,"You are a master practitioner of secret and arcane rituals, unlocking forbidden knowledge to bend reality.",/no1_system/assets/img/cabalist.png,/no1_system/characters/training/cabalist/
 Confessor,Discipline,,"You wield a righteous and divine fury, possessing the ability to extract truths through interrogation and purge the sins of the wicked masses.",/no1_system/assets/img/confessor.png,/no1_system/characters/training/confessor/
 Darksworn,Discipline,,"You are a devotee of shadowy forces, drawing strength from darkness and forbidden magic.",/no1_system/assets/img/darksworn.png,/no1_system/characters/training/darksworn/
+Dissident,Discipline,,,,
 Dragoon,Discipline,,"You are a master of mounted combat, specializing in lance-based attacks.",/no1_system/assets/img/dragoon.png,/no1_system/characters/training/dragoon/
 Fury,Discipline,,"You call upon the primal forces of the storm to erode your foes with gales of wind, blizzards, and thunder storms.",/no1_system/assets/img/fury.png,/no1_system/characters/training/fury/
 Grandmaster,Discipline,,"You achieved unparalleled expertise in a martial discipline, mastering various skills and abilities.",/no1_system/assets/img/grandmaster.png,/no1_system/characters/training/grandmaster/
@@ -55,7 +58,6 @@ Warlord,Discipline,,"You lead armies and command troops, specializing in strateg
 Zealot,Discipline,,"You are devoted to an unwavering cause or deity, becoming a fervent and unyielding force.",/no1_system/assets/img/zealot.png,/no1_system/characters/training/zealot/
 Zenith,Discipline,,"You have attained the peak of elemental mastery, achieving extraordinary abilities to bend and command the elements.",/no1_system/assets/img/zenith.png,/no1_system/characters/training/zenith/
 Adept,Specialization,,"You've unraveled certain threads of lost lore, bestowing you with powers both great & terrible.",/no1_system/assets/img/adept.png,/no1_system/characters/training/adept/
-Advocate,Discipline,,"You are a charismatic defender of a cause or philospohy, using your concordance to champion your causes.",/no1_system/assets/img/advocate.png,/no1_system/characters/training/advocate/
 Assassin,Specialization,,"You are a master of dealing death, specializing in lethal takedowns and covert strikes.",/no1_system/assets/img/assassin.png,/no1_system/characters/training/assassin/
 Athlete,Specialization,,"You have trained your body to peak physicality, able to accomplish greats feats of strength, agility, and speed.",/no1_system/assets/img/athlete.png,/no1_system/characters/training/athlete/
 Balladeer,Specialization,,"You craft poignant ballads that recount inspiring tales of heroes and tragedies, using their evocative performances to stir deep emotions.",/no1_system/assets/img/balladeer.png,/no1_system/characters/training/balladeer/
@@ -63,7 +65,6 @@ Beastmaster,Specialization,,"You form bonds with animals, commanding and fightin
 Berserker,Specialization,,"You channel primal rage, becoming a ferocious and relentless force on the battlefield.",/no1_system/assets/img/berserker.png,/no1_system/characters/training/berserker/
 Black Belt,Specialization,,"You attained the highest level of martial arts mastery, focusing on discipline, control, and precision.",/no1_system/assets/img/black_belt.png,/no1_system/characters/training/black_belt/
 Bounty Hunter,Specialization,,"You specialize in tracking and capturing individuals for rewards, gaining skills in investigation, surveillance, and subduing targets.",/no1_system/assets/img/bounty_hunter.png,/no1_system/characters/training/bounty_hunter/
-Cabalist,Discipline,,"You are a master practitioner of secret and arcane rituals, unlocking forbidden knowledge to bend reality.",/no1_system/assets/img/cabalist.png,/no1_system/characters/training/cabalist/
 Corsair,Specialization,,"You are a specialist in naval combat, piracy, and maritime adventures.",/no1_system/assets/img/corsair.png,/no1_system/characters/training/corsair/
 Courtier,Specialization,,"You navigate courtly intrigue, gaining favor and influence in political circles.",/no1_system/assets/img/courtier.png,/no1_system/characters/training/courtier/
 Detective,Specialization,,"You are a master in the art of investigation, solving mysteries and uncovering hidden truths.",/no1_system/assets/img/detective.png,/no1_system/characters/training/detective/
