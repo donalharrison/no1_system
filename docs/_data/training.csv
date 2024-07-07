@@ -38,7 +38,7 @@ Blade Weaver,Discipline,,"You blend martial skill with mystical arts, enchanting
 Cabalist,Discipline,,"You are a master practitioner of secret and arcane rituals, unlocking forbidden knowledge to bend reality.",/no1_system/assets/img/cabalist.png,/no1_system/characters/training/cabalist/
 Confessor,Discipline,,"You wield a righteous and divine fury, possessing the ability to extract truths through interrogation and purge the sins of the wicked masses.",/no1_system/assets/img/confessor.png,/no1_system/characters/training/confessor/
 Darksworn,Discipline,,"You are a devotee of shadowy forces, drawing strength from darkness and forbidden magic.",/no1_system/assets/img/darksworn.png,/no1_system/characters/training/darksworn/
-Dissident,Discipline,,,,
+Dissident,Discipline,,"You have forsaken the patrons who granted your bountiful gifts, now marked as their enemy.",/no1_system/assets/img/dissident.png,/no1_system/characters/training/dissident/
 Dragoon,Discipline,,"You are a master of mounted combat, specializing in lance-based attacks.",/no1_system/assets/img/dragoon.png,/no1_system/characters/training/dragoon/
 Fury,Discipline,,"You call upon the primal forces of the storm to erode your foes with gales of wind, blizzards, and thunder storms.",/no1_system/assets/img/fury.png,/no1_system/characters/training/fury/
 Grandmaster,Discipline,,"You achieved unparalleled expertise in a martial discipline, mastering various skills and abilities.",/no1_system/assets/img/grandmaster.png,/no1_system/characters/training/grandmaster/
