@@ -2595,7 +2595,7 @@
         },
         {
             "tree": "Duelist",
-            "name": "Veteran Competitor",
+            "name": "Journeyman Competitor",
             "type": "Static",
             "rank": "1",
             "requires": null,
@@ -7885,11 +7885,11 @@
             "tree": "Wrestler",
             "name": "Suplex",
             "type": "Ability",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grapple Status."
+                "Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grappled Status."
             ]
         },
         {
@@ -7907,11 +7907,11 @@
             "tree": "Wrestler",
             "name": "Chokeslam",
             "type": "Ability",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "."
+                "Grapple one target in your Current Zone.  On 3+ Hits, your target becomes Prone and Dazed 2."
             ]
         },
         {
@@ -7922,7 +7922,117 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you have an opponent Grappled, you may reduce their Grappled rating by -1 to give them Vulnerable 2."
+                "When you have an opponent Grappled, you may reduce their Grappled rating by -1 to give them Vulnerable 2 and Prone."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Grapple (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Grapple Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Off the Top Rope!",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to move into an adjacent Zone, then immediately Grapple your target, adding +2 Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Grapple (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Grapple Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Grapple (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Grapple Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Endure (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Exert (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Exert Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Journeyman Competitor",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can Initiate a Contest with one hostile target in your Current Zone without using a Shift."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "Down, but Not Out",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are used to getting back up after a hard blow.  If you gain the Unconscious Status, reduce the rating by -1."
+            ]
+        },
+        {
+            "tree": "Wrestler",
+            "name": "At Home in the Clench",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you have an target Grappled and use an Action to Recover, add +1d4 Bonus Hits to the result set."
             ]
         },
         {
