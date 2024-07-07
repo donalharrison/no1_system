@@ -5515,7 +5515,7 @@
                 "<h4 style='margin: 3px';>Portent</h4>",
                 "Spend 2 Momentum and use Locus to send a message to one target.",
                 "On 1+ Hits, you send a message of 25 words or less to your target.",
-                "On 2+ Hits, the target may reply in 10 wirds of less."
+                "On 2+ Hits, the target may reply in 10 wirds of less.",
                 "On 3+ Hits, you may immediately use a different <em>Portent</em>."
             ]
         },
