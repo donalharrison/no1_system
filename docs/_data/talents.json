@@ -7294,6 +7294,154 @@
             ]
         },
         {
+            "tree": "Rhapsodist",
+            "name": "Practiced Trouper",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Consummate Performer",
+            "replaces": null,
+            "effect": [
+                "You can Craft to recite an Epic.",
+                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:
+                <ul>
+                    <li>Lose 1 Renown</li>
+                    <li>Decrease the Momentum by -2</li>
+                </ul>"
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Consummate Performer",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are unshakable in your performances, allowing you to use Focus or Composure to Maintain Focus on your Ongoing Epics."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Gift of Prose",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Practiced Trouper",
+            "replaces": null,
+            "effect": [
+                "You have honed your craft in reciting Sagas.  You add +1 Bonus Hits to the result set when you Craft and Epic with the Saga keyword."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Craft (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Craft Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Composure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Composure (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "History (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your History Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Versed in the Classics",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your History Rank to 3 (d10) and your Insight or Linguistics Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Scholar of the Classics",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your History Rank to 4 (d12) and your Insight or Linguistics Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Craft (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Craft Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Craft (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Craft Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Renowned Recitations",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +2 Renown."
+            ]
+        },
+        {
             "tree": "Vanguard",
             "name": "",
             "type": "Ability",
