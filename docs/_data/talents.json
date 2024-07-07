@@ -909,7 +909,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Cosmology or Theology Ranks to 2 {d8)."
+                "Increase your Cosmology or Theology Ranks to 2 (d8)."
             ]
         },
         {
@@ -2196,7 +2196,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 {d8)."
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -2240,7 +2240,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 2 {d8)."
+                "Increase your Deceive Rank to 2 (d8)."
             ]
         },
         {
@@ -2262,7 +2262,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 3 {d10)."
+                "Increase your Persuade Rank to 3 (d10)."
             ]
         },
         {
@@ -4136,7 +4136,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 2 {d8)."
+                "Increase your Lead Rank to 2 (d8)."
             ]
         },
         {
@@ -4147,7 +4147,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 {d8)."
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -4158,7 +4158,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 3 {d10)."
+                "Increase your Lead Rank to 3 (d10)."
             ]
         },
         {
@@ -4290,7 +4290,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 2 {d8)."
+                "Increase your Lead Rank to 2 (d8)."
             ]
         },
         {
@@ -4301,7 +4301,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Intimidate Rank to 2 {d8)."
+                "Increase your Intimidate Rank to 2 (d8)."
             ]
         },
         {
@@ -4312,7 +4312,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Mori Rank to 3 {d10)."
+                "Increase your Mori Rank to 3 (d10)."
             ]
         },
         {
@@ -4323,7 +4323,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Mori Rank to 4 {d12)."
+                "Increase your Mori Rank to 4 (d12)."
             ]
         },
         {
@@ -4441,7 +4441,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Lead Rank to 3 {d10)."
+                "Increase your Lead Rank to 3 (d10)."
             ]
         },
         {
@@ -4452,7 +4452,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Composure Rank to 3 {d10)."
+                "Increase your Composure Rank to 3 (d10)."
             ]
         },
         {
@@ -5233,7 +5233,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 2 {d8)."
+                "Increase your Deceive Rank to 2 (d8)."
             ]
         },
         {
@@ -5244,7 +5244,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 3 {d10)."
+                "Increase your Deceive Rank to 3 (d10)."
             ]
         },
         {
@@ -5255,7 +5255,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 2 {d8)."
+                "Increase your Persuade Rank to 2 (d8)."
             ]
         },
         {
@@ -6549,7 +6549,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Operate Rank to 2 {d8)."
+                "Increase your Operate Rank to 2 (d8)."
             ]
         },
         {
