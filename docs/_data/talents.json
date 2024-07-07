@@ -763,7 +763,7 @@
         },
         {
             "tree": "Tactician",
-            "name": "Tactics 2",
+            "name": "Tactics (2)",
             "type": "Static",
             "rank": "1",
             "requires": null,
@@ -774,9 +774,9 @@
         },
         {
             "tree": "Tactician",
-            "name": "Tactics 3",
+            "name": "Tactics (3)",
             "type": "Static",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -785,9 +785,9 @@
         },
         {
             "tree": "Tactician",
-            "name": "Tactics 4",
+            "name": "Tactics (4)",
             "type": "Static",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -796,7 +796,7 @@
         },
         {
             "tree": "Tactician",
-            "name": "Lead 2",
+            "name": "Lead (2)",
             "type": "Static",
             "rank": "1",
             "requires": null,
@@ -808,8 +808,8 @@
         {
             "tree": "Tactician",
             "name": "Combat Reflexes",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -820,7 +820,7 @@
             "tree": "Tactician",
             "name": "Decisive Action",
             "type": "Static",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -830,8 +830,8 @@
         {
             "tree": "Tactician",
             "name": "Tactical Mastermind",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3613,6 +3613,17 @@
             ]
         },
         {
+            "tree": "Soldier",
+            "name": "Shoot (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Shoot Rank to 2 (d8)."
+            ]
+        },
+        {
             "tree": "Marksman",
             "name": "Double Tap",
             "type": "Ability",
@@ -5378,6 +5389,39 @@
             ]
         },
         {
+            "tree": "Brute",
+            "name": "Strike (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Soldier",
+            "name": "Strike (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Soldier",
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 2 (d8)."
+            ]
+        },
+        {
             "tree": "Scrapper",
             "name": "Cleave",
             "type": "Trigger",
@@ -5434,13 +5478,203 @@
         },
         {
             "tree": "Seer",
-            "name": "Peer through depths",
+            "name": "Peer Through Depths",
             "type": "Ability",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Perceive"
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Increase the Entropy by +1 and Perceive to gain a vision of one target of your choice.",
+                "On 2+ Hits, you learn the target's current location.",
+                "On 3+ Hits, you may immediately use different <em>Portent</em>."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Sift Through Sands",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Spend 3 Momentum and Investigate to discern the meaning of the clues you have gathered.",
+                "On 2+ Hits, you can ask the BAMF to confirm or refute your interpretation.",
+                "On 3+ Hits, you may immediately use a different <em>Portent</em>."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Reach Through Mists",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Spend 2 Momentum and use Locus to send a message to one target.",
+                "On 1+ Hits, you send a message of 25 words or less to your target.",
+                "On 2+ Hits, the target may reply in 10 wirds of less."
+                "On 3+ Hits, you may immediately use a different <em>Portent</em>."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Think the Unthinkable",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "When you have used 3+ different <em>Portents</em> this turn, a terrible thought enters your mind, one that you wish your could push beyond memory.",
+                "You gain Fatigued 2 and the BAMF reveals one secret to you about the game fiction."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Know the Unknowable",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "When you have used 3+ different <em>Portents</em> this turn, you learn a dangerous detail about the movements of the Cosm.",
+                "You gain Fatigued 3 and may ask the BAMF one question about the game fiction."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Read the Bones",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Analyze the remains of oen or more creatures, then roll 1d20 as X:
+                <ul>
+                    <li>If X is less than , increase the Entropy by +3.</li>
+                    <li>If X is greater than 8, increase the Momentum by +3.</li>
+                    <li>If X is greater than 15, increase the Momentum by +3 and take on additional Action this turn.</li>
+                </ul>
+                "
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Dig Through Time",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Momentum to add X Bonus Hits to the next Portent you use this turn."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Ponder",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Spend 2 Momentum and Analyze to understand the signs of a specific situation.  On 3+ Hits, ask the BAMF one <em>'Yes or No'</em> question about the game fiction."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Preordain",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Roll 2d4 to gain X, then choose one:
+                <ul>
+                    <li>Spend 4 Momentum to allow one ally in your Current or Adjacent Zone to add +X Bonus Hits to their next result set.</li>
+                    <li>Increase the Entropy by +2 to reduce Hits in the next result set of one target Current or Adjacent Zone by -X.</li>
+                </ul>"
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Glimpse the Cosm",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Percieve to observe the movements of the Cosm.  On 2+ Hits, gain Blind 2 and choose 1:
+                <ul>
+                    <li>You learn the current location of one target of your choosing.</li>
+                    <li>The BAMF reveals one secret to you about the game fiction.</li>
+                    <li>You may immediately use a different <em>Portent</em>.
+                    </ul>
+                "
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Behold the Cosm",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Glimpse the Cosm",
+            "replaces": null,
+            "effect": [
+                "When you Glimpse the Cosm and score 3+ Hits, choose 2 options instead of 1."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Foresee",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "Intuit to learn the intentions of X targets in your Current Zone, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Unexplained Vision",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px';>Portent</h4>",
+                "When you use 4+ <em>Portents</em> this turn, your receive a cryptic vision.  The BAMF will describe the vision you receive, which may be unrelated to one of your current Targets."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "See Beyond",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Momentum and Perceive to reveal hiden creatures and secrets.  You gain Truesight X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Uncanny Trait Increase",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -7276,6 +7510,17 @@
         },
         {
             "tree": "Soldier",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Brute",
             "name": "Dangerous Trait Increase",
             "type": "Static",
             "rank": "3",
