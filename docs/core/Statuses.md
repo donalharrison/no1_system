@@ -42,6 +42,10 @@ When your Grit is 0, roll 1d4 to determine your Dying rating.  Each turn while y
 #### Variable
 Reduce Hits from any roll equal to Fatigue rating until your use Endure to Recover.  When you take the Recover Action, reduce your Fatigued rating by Hits and do not regain any Vigor.
 
+## Grappled
+#### Variable
+While your Grappled rating is greater than 0, you can take no Shifts and Hits from any Actions you take to Strike, Shoot, or use Martial Arts are reduced by your Grappled rating.  You use your Exert, Grapple, or Tumble Skill to escape, reducing your Grappled rating by Hits in the results set.
+
 ## Hidden
 #### Variable
 Attempts to Perceive you require Hits >= your Hidden rating.
@@ -56,7 +60,7 @@ Something about having to take actions against the source of provocation.
 
 ## Restrained
 #### Variable
-While your Restrained rating is greater than 0, you can take no Shifts and Hits from any combat Actions you take are reduced by your Restrained rating.  You use your Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
+While your Restrained rating is greater than 0, you can take no Shifts and Hits from any Actions you take to Strike, Shoot, or use Martial Arts are reduced by your Restrained rating.  You use your Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
 
 ## Slowed
 ### Variable
