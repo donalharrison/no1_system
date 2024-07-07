@@ -3050,8 +3050,7 @@
                 "Your elevated status requires that you show bravery, strength, and conviction in all your affairs.",
                 "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash braving danger and facing fear or defeat without hesitation.
                 <br>Select two other Virtue from the list below:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>",
-                "You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
+                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>","You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
                 "Whenever you act against your Virtues, reduce your Dedication by -1. If your Dedication is 0 or less, increase the Entropy by +5."
             ]
         },
@@ -3680,8 +3679,7 @@
                 "Your are on a Quest of great importance.  Write a new Target with the <em>Quest</em> keyword to represent this undertaking.  Work with the BAMF to structure this Target.  You may only have one Quest of this type active at a time.",
                 "Your Quest grants you Conviction, allowing you to access powers to be used in pursuit of your Quest.  When you gain this Talent, your Conviction equals 5.",
                 "As you set out on a Quest, select one Effect Skill from the list below to be your Boon, and gain +1 Skill Rank in the chosen Skill:
-                <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>",
-                "Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.",
+                <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>","Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.",
                 "If you fail to complete your Quest, lose 1 Renown and increase the Entropy by +5.",
                 "If you have no Quest, your Conviction is 0.  You may write a new Target with the Quest keyword at the beginning of the each Waypoint."
             ]
@@ -6889,6 +6887,523 @@
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Soldier",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Scrapper",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Reaver",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Assassin",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Black Belt",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Knight",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Ranger",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Thief",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Scout",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Ranger",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Infiltrator",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Spy",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Athlete",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Tactician",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Operator",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Diplomat",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Coutier",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Magic-User",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Detective",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you  Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Spy",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Balladeer",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Rhapsodist",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Scholar",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Tank",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Knight",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Priest",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Hunter",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Healer",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Ranger",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Witch",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Petitioner",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Mystic",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Adept",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
             ]
         }
     ]
