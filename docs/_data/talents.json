@@ -2213,8 +2213,7 @@
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
                 "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Hexes with Skill Talents:
-                <br><em>Aether, Inferno, Mori, Nox, Plaga, Rime, Sangui, Tempest</em>",
-                "When you lose focus on your Ongoing Hexes, increase the Entropy by +3."
+                <br><em>Aether, Inferno, Mori, Nox, Plaga, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +3."
             ]
         },
         {
@@ -2977,7 +2976,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+                "Use a Shift to aim carefully, then immediately Shoot your target.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             ]
         },
         {
@@ -3603,7 +3602,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+                "Use a Shift to aim carefully, then immediately Shoot your target.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             ]
         },
         {
@@ -3928,8 +3927,7 @@
                 "Your are on a Quest of great importance.  Write a new Target with the <em>Quest</em> keyword to represent this undertaking.  Work with the BAMF to structure this Target.  You may only have one Quest of this type active at a time.",
                 "Your Quest grants you Conviction, allowing you to access powers to be used in pursuit of your Quest.  When you gain this Talent, your Conviction equals 5.",
                 "As you set out on a Quest, select one Effect Skill from the list below to be your Boon, and gain +1 Skill Rank in the chosen Skill:
-                <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>","Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.","If you fail to complete your Quest, lose 1 Renown and increase the Entropy by +5.",
-                "If you have no Quest, your Conviction is 0.  You may write a new Target with the Quest keyword at the beginning of the each Waypoint."
+                <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>","Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.","If you fail to complete your Quest, lose 1 Renown and increase the Entropy by +5.","If you have no Quest, your Conviction is 0.  You may write a new Target with the Quest keyword at the beginning of the each Waypoint."
             ]
         },
         {
@@ -6240,24 +6238,109 @@
         },
         {
             "tree": "Sniper",
-            "name": "Overwatch",
-            "type": "Trigger",
-            "rank": null,
+            "name": "Shoot (3)",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When one or more hostile targets moves into your current Zone, you may deal 1d4 bonus Hits to one of them."
+                "Increase your Shoot Rank to 3 (d10)."
             ]
         },
         {
             "tree": "Sniper",
             "name": "Zero in",
             "type": "Trigger",
-            "rank": null,
-            "requires": null,
+            "rank": "1",
+            "requires": "Aim",
             "replaces": null,
             "effect": [
                 "When you Aim, add +1d4 bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Unseen Shot",
+            "rank": "1",
+            "type": "Static",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You do not lose your Hidden rating when you Shoot a target while Hidden."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Overwatch",
+            "type": "Shift",
+            "rank": null,
+            "requires": "2",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin:3px'>>Defensive Stance</h4>",
+                "Position yourself in your Current Zone to assume a Defensive Stance.",
+                "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Target Acquired",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Overwatch",
+            "replaces": null,
+            "effect": [
+                "When you are in a Defensive Stance and a target Shifts to Move in your Current or and Adjacent Zone, immediately score +1d4 Bonus Hits against that target."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Bug Out",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Overwatch",
+            "replaces": null,
+            "effect": [
+                "When you are in a Defensive Stance and 2+ targets Shifts to Move into your Current Zone, you may immediately Shift to Move to and Adjacent Zone, reducing Hazard by -2."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Shoot (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Shoot Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "360, No Scope",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are the target of an Ambush, spend 3 Momentum to immediately make Shoot one target in your Current Zone before your enemy takes a turn."
+            ]
+        },
+        {
+            "tree": "Sniper",
+            "name": "Boom! Headshot!",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Aim and Shoot your target for 6+ Hits, Spend 3 Momentum and the BAMF decides one of the following:
+                <ul>
+                    <li>Your target dies instantly.</li>
+                    <li>Your target gains Stunned 5.</li>
+                    <li>Your target gains Vulnerable 3.</li>
+                </ul>
+                "
             ]
         },
         {
@@ -6290,7 +6373,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+                "Use a Shift to aim carefully, then immediately Shoot your target.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
             ]
         },
         {
