@@ -3902,18 +3902,106 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Medicine to restore 2 Grit to a target in your Zone."
+                "Score 3+ Hits with your Medicine to restore 1 Grit to one target in your Current Zone by X."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Medicine (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Medicine Rank to 2 (d8)."
             ]
         },
         {
             "tree": "Medic",
             "name": "Stop Whining!",
             "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Medicine to reduce the Wounded rating of one target in your Current Zone by X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Smelling Salts",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Medicine to reduce the Unconscious rating of one target in your Current Zone by X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Snap Out of It!",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Medicine to reduce the Dazed or Stunned rating of one target in your Current Zone by X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "I'll Patch You Up",
+            "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use your Medicine to have one target in your Current Zone recover X to their Primary Defense, where X is euqal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Stem the Bleeding ",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use your Medicine to reduce the Dying Rating of one target in your current zone by X, where X is equal to Hits -1 in the result set."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Medicine (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Medicine Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Medicine (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Medicine Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Medic",
+            "name": "Emergency Medicine",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can use Medicine as Shift instead of an Action."
             ]
         },
         {

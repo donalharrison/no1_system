@@ -36,7 +36,7 @@ Your Disguised rating determines how well you have concealed your identity.  Act
 
 ## Dying
 #### Incremental
-When your Grit is 0, roll 1d4 to determine your Dying rating.  Each turn while your Grit is 0, reduce your Dying rating by 1.  When your Dying rating is 5 or greater, you are Dead.
+When your Grit is 0, roll 1d4 to determine your Dying rating.  While your Dying rating is above 0, you can take not Actions and use no Shifts.  Each turn while your Grit is 0, increase your Dying rating by +1.  If you suffer Hits from a hostile Action, increase your Dying Rating by +1.  When your Dying rating is 5 or greater, you are Dead.
 
 ## Fatigued
 #### Variable
