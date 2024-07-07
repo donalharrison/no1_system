@@ -5322,7 +5322,7 @@
             "effect": [
                 "Your connection to your Spirits is only as strong as your ability to wield their boons.",
                 "If the result set of one of your Spirits contains a 1, reduce your Rank in that Spirit by X, where X is equal to Hits in the same result set.",
-                "If you have 0 Spirit Ranks, you become Confused and the Entropy increases by +3."
+                "If you have 0 Spirit Ranks, you gain Confused 2 and the Entropy increases by +3."
             ]
         },
         {
@@ -5472,24 +5472,162 @@
         },
         {
             "tree": "Shugenja",
-            "name": "Commune with spirits",
+            "name": "Entreat Spirits",
             "type": "Ability",
-            "rank": null,
-            "requires": null,
+            "rank": "1",
+            "requires": "Spirit's Severance",
             "replaces": null,
             "effect": [
-                "Persuade the spirits within.  Gain Hits + Savvy Power ranks."
+                "You are capable of persuading the spirits if this world and beyond to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.",
+                "Set any current Spirit ranks to 0.  Then Persuade, use your Insight, or Deceive the Spirits in a ceremony of your own design. You gain Hits + Savvy in Spirit Ranks to invest in Spirits.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Savvy Actions (minimum 1 Action)."
             ]
         },
         {
             "tree": "Shugenja",
-            "name": "Shugendo",
+            "name": "Spirit's Severance",
             "type": "Static",
-            "rank": null,
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Your connection to your Spirits is only as strong as your ability to wield their boons.",
+                "If the result set of one of your Spirits contains a 1, reduce your Rank in that Spirit by X, where X is equal to Hits in the same result set.",
+                "If you have 0 Spirit Ranks, you gain Fatigued 2 and the Entropy increases by +3."
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Shugenja's Affinity",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one of the Effect Skills below to be an Affinity.
+                <br><em></em>"
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Superb Host",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Entreat Spirits, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Insight (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Persuade (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Deceive (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Shamanistic Affinity",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one of the Effect Skills below to be an Affinity.
+                <br><em></em>"
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Persuade (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Shugenja",
+            "name": "Shugen-do",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1."
             ]
         },
         {
