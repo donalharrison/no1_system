@@ -41,14 +41,15 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
         {% if s.requires %}
             <p><em>Requires: </em>{{s.requires}}</p>
         {% endif %}
-        <p><strong>Effect</strong>
-        <br>{{s.effect}}</p>
+        {% if s.effect %}
+            <p><strong>Effect</strong>
+            <br>{{s.effect}}</p>
+        {% endif %}
         {% assign thresh = s.threshold %}
             {% for t in thresh %}
-                <h5>Threshold {{t.hits}} </h5>
-                <p>{{t.effect}}</p>
+                <p><strong>Threshold &mdash {{t.hits}}</strong>
+                <br>{{t.effect}}</p>
             {% endfor %}
-        <p>{{thresh}}</p>
     </details>
     </div>
 {% endfor %}

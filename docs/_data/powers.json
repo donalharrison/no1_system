@@ -1084,8 +1084,12 @@
             "name": "Arc Lightning",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Choose 3 targets you can see in your Current Zone. Deal 1 Hit to each target.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Choose 3 targets you can see in your Current Zone. Deal 1 Hit to each target."
+                },
                 {
                     "hits": 4,
                     "effect": "Choose 3 targets you can see in your Current Zone.  Deal 3 Hits the first target, 2 Hits to the second target, & 1 Hit to the third."
@@ -1100,8 +1104,12 @@
             "name": "Arrest",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained <em>X</em>, where <em>X</em> is equal to Hits.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained X, where X is equal to Hits."
+                },
                 {
                     "hits": 3,
                     "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained <em>x</em>, where <em>x</em> is equal to Hits +2."
@@ -1118,11 +1126,15 @@
             "name": "Asphyxiate",
             "type": "Ability",
             "max_ranks": 2,
-            "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Vulnerable 2 and Dazed <em>X</em>, where <em>x</em> is equal to Hits.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 2,
+                    "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Vulnerable 2 and Dazed X, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 4,
-                    "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Stunned and Vulnerable <em>x</em>, where <em>x</em> is equal to Hits."
+                    "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Stunned and Vulnerable X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -1136,12 +1148,12 @@
             "name": "Augment Senses",
             "type": "Shift",
             "max_ranks": 2,
-            "effect": "Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:
-                <br><em>Focus, Insight, Investigate, Operate, Perceive</em>",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:
+                <br><em>Focus, Insight, Investigate, Operate, Perceive</em>"
                 }
             ],
             "requires": null,
@@ -1158,6 +1170,10 @@
             "effect": "All targets in your Current or an Adjacent Zone suffer 1 Hit to their Primary Defenses.",
             "threshold": [
                 {
+                    "hits": 2,
+                    "effect": ""
+                },
+                {
                     "hits": 4,
                     "effect": "All targets in your Current or an Adjacent Zone suffer 2 Hit to their Primary Defense."
                 }
@@ -1171,8 +1187,12 @@
             "name": "Blazing Volley",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 3+ Hits to deal 2 Hits to up to 3 targets in an Adjacent Zone.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "Score 3+ Hits to deal 2 Hits to up to 3 targets in an Adjacent Zone."
+                },
                 {
                     "hits": 5,
                     "effect": "Deal 3 Hits to up to 4 targets in an Adjacent Zone."
@@ -1187,8 +1207,12 @@
             "name": "Blinding Flare",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Score 2+ Hits to make one target in your Current or an Adjacent Zone gain Blind 1.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone gain Blind 1."
+                },
                 {
                     "hits": 4,
                     "effect": "make one target in your Current or an Adjacent Zone gain Blind 3."
@@ -1204,11 +1228,11 @@
             "name": "Call to the Netherworld",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Reach out to the spirits of the dead when you are in their presence to ask X questions, where X is the number of Hits in the result set.",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Reach out to the spirits of the dead when you are in their presence to ask X questions, where X is the number of Hits in the result set."
                 }
             ],
             "requires": null,
@@ -1221,11 +1245,15 @@
             "name": "Chain Lightning",
             "type": "Ability",
             "max_ranks": "5",
-            "effect": "Score 3+ Hits to deal Hits to one Target in your Current or an Adjacent Zone.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 3,
+                    "effect": "Deal X to one Target in your Current or an Adjacent Zone, X. . ."
+                },
+                {
                     "hits": 5,
-                    "effect": "<em><strong>Trigger</strong></em> &mdash cast this spell again choosing a different target."
+                    "effect": "<em><strong>Trigger</strong></em> &mdash cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
                 }
             ],
             "requires": "Arc Lightning 2",
@@ -1237,8 +1265,12 @@
             "name": "Charm Target",
             "type": "Ability",
             "max_ranks": 2,
-            "effect": "Score 1+ Hits to make 1 target in your Current Zone gain Charmed X, where X is equal to Hits in the results set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current Zone gains Charmed X, where X is equal to Hits in the results set."
+                },
                 {
                     "hits": 4,
                     "effect": "Up to 2 targets in your Current Zone gain Charmed X, where X is equal to Hits in the results set."
@@ -1253,8 +1285,12 @@
             "name": "Chill of the Grave",
             "type": "Ability",
             "max_ranks": 2,
-            "effect": "One target in your Current Zone becomes Afraid of you and gains Fatigued X, where x is equal to Hits in the result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current Zone becomes Afraid of you and gains Fatigued X, where x is equal to Hits in the result set."
+                },
                 {
                     "hits": 4,
                     "effect": "Up to two targets in your Current Zone become Afraid of you and gains Fatigued X, where x is equal to Hits in the result set."
@@ -1270,8 +1306,12 @@
             "name": "Chill to the Bone",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "One target in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set."
+                },
                 {
                     "hits": 3,
                     "effect": "Up to two targets in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set."
@@ -1287,8 +1327,12 @@
             "name": "Choking Fumes",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Up to X targets in your Current or an Adjacent Zone gain Fatigued 1, where X is equal to Hits in the result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Up to X targets in your Current or an Adjacent Zone gain Fatigued 1, where X is equal to Hits in the result set."
+                },
                 {
                     "hits": 3,
                     "effect": "Up to X targets in your Current or an Adjacent Zone gain Fatigued 1, where X is equal to Hits in the result set."
@@ -1305,11 +1349,15 @@
             "name": "Circle of Affliction",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 3+ Hits to have one target in your Current Zone gain Wounded 1.",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": 4,
-                    "effect": "Have up to 2 targets in your Current Zone gain Wounded 1."
+                    "hits": 3,
+                    "effect": "One target in your Current Zone gain Wounded 1 Ongoing."
+                },
+                {
+                    "hits": 5,
+                    "effect": "One target in your Current Zone gains Wounded 3 Ongoing."
                 }
             ],
             "requires": null,
@@ -1324,11 +1372,15 @@
             "name": "Circle of Confinement",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 3+ Hits to have one target in your Current Zone gain Restrained 1 at the start of each of its turns.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 2,
+                    "effect": "One target in your Current Zone gains Restrained 1 at the start of each of its turns."
+                },
+                {
                     "hits": 4,
-                    "effect": "Score 3+ Hits to have one target in your Current Zone gain Restrained 3 at the start of each of its turns."
+                    "effect": "One target in your Current Zone gains Restrained 3 at the start of each of its turns."
                 }
             ],
             "requires": null,
@@ -1343,8 +1395,12 @@
             "name": "Comet Storm",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 3+ Hits to have all targets in your Current or an Adjacent Zone suffer 4 Hits.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "All targets in your Current or an Adjacent Zone suffer 4 Hits."
+                },
                 {
                     "hits": 6,
                     "effect": "All targets in up to 3 Zones Current and Adjacent to you suffer 6 Hits."
@@ -1362,8 +1418,12 @@
             "name": "Contact Other Plane",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Increase the Entropy by +5 to reach out to the Cosm.  On 3+ Hits, you establish contact with someone or something.  You can ask X questions, where X is number of Hits in the reuslt set.",
+            "effect": "Increase the Entropy by +5 to reach out to the Cosm.",
             "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "You establish contact with someone or something.  You can ask X questions, where X is number of Hits in the reuslt set."
+                },
                 {
                     "hits": 5,
                     "effect": "Same as above, but decrease the Entropy by -2."
@@ -1378,8 +1438,12 @@
             "name": "Crippling Blight",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Touch one target you can see in your Current Zone.  They gain Vulnerable 1 and gain Fatigue X, where X is euqla to Hits in the result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Touch one target you can see in your Current Zone.  They gain Vulnerable 1 and gain Fatigue X, where X is equal to Hits in the result set."
+                },
                 {
                     "hits": 4,
                     "effect": "Touch up to 2 targets you can see in your Current Zone.  They gain Vulnerable 1 and gain Fatigue X, where X is euqla to Hits in the result set."
@@ -1399,7 +1463,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard 3.",
+                    "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard 3."
+                },
+                {
                     "hits": 2,
                     "effect": "Target your Current or an Adjacent Zone.  Up to X targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard X, where X is equal to Hits in the resul set."
                 }
@@ -1415,10 +1481,14 @@
             "name": "Damping Pulse",
             "type": "Ability",
             "max_ranks": null,
-            "effect": "Up to 2 targets in your Current or an Adjacent Zone gain Fatigued 2.",
+            "effect":null,
             "threshold": [
                 {
-                    "hits": 3,
+                    "hits": 2,
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gain Fatigued 2."
+                },
+                {
+                    "hits": 4,
                     "effect": "Up to 3 targets in your Current or an Adjacent Zone gain Fatigued 2."
                 }
             ],
@@ -1435,7 +1505,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set.",
+                    "effect": "One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 4,
                     "effect": "One target in your Current or an Adjacent Zone loses X + 2 Grit, where X is equal to Hits in the result set."
                 }
@@ -1450,8 +1522,12 @@
             "name": "Dazzling Lights",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Score 1+ Hits to have up to 3 targets in your Current Zone gain Dazed 1.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Up to 3 targets in your Current Zone gain Dazed 1."
+                },
                 {
                     "hits": 3,
                     "effect": "Up to 3 targets in your Current Zone gain Confused 2."
@@ -1471,7 +1547,9 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "All creatures in your Current or an Adjacent Zone gain Wounded 1 and lose 3 Grit.",
+                    "effect": "All creatures in your Current or an Adjacent Zone gain Wounded 1 and lose 3 Grit."
+                },
+                {
                     "hits": 6,
                     "effect": "All creatures in your Current or an Adjacent Zone become Wounded 3 and lose X Grit, where X is equal to Hits in the result set."
                 }
@@ -1485,8 +1563,12 @@
             "name": "Deathmark",
             "type": "Ability",
             "max_ranks": null,
-            "effect": "Score 1+ Hits to have one target in your Current Zone gain Vulnerable 2.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "One target in your Current Zone gain Vulnerable 2."
+                },
                 {
                     "hits": 3,
                     "effect": "One target in your Current Zone gains Vulnerable 2 at the beginning of each of your turns."
@@ -1501,8 +1583,12 @@
             "name": "Detect Magic",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Gain Aura X to sense any presence any magical Power in your Current Zone, where X is equal to Hits in thes result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Gain Aura X to sense any presence any magical Power in your Current Zone, where X is equal to Hits in thes result set."
+                },
                 {
                     "hits": 3,
                     "effect": "Gain Aura X to sense any presence  any magical Power in your Current Zone, where X is equal to Hits in thes result set.  Add +1d4 Bonus Hits to any Action you use to identify the nature or source of the Power."
@@ -1517,16 +1603,20 @@
             "name": "Detention Sphere",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Score 2+ Hits to make on target in your Current Zone Aura 2.  While the Aura is active, they cannot be the target of any Actions and have Stunned 2 and Unconscious 1.  You may use a Shift on each of your turns to Move the Detention Sphere.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 2,
+                    "effect": "One target in your Current Zone cannot be the target of any Actions and gain Stunned 2 and Unconscious 1 Ongoing.  You may use a Shift on each of your turns to Move the Detention Sphere."
+                },
+                {
                     "hits": 4,
-                    "effect": "Same as above, except the Detention Sphere is Aura X. where x is equal to Hits in the result set."
+                    "effect": "Same as above, except the target gain Stunned X +1 and Unconscious X Ongoing, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                "Ongoing 3",
+                "Ongoing 4",
                 "Aether",
                 "Lux",
                 "Ordi"
@@ -1536,11 +1626,13 @@
             "name": "Dimension Door",
             "type": "Shift",
             "max_ranks": 3,
-            "effect": ,
+            "effect": null,
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Allow one target in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards.",
+                    "effect": "Allow one target in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards."
+                },
+                {
                     "hits": 3,
                     "effect": "Allow up to 2 targets in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards."
                 }
@@ -1554,8 +1646,12 @@
             "name": "Disintegrate",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Spend 5 Momentum to have one target in your Current or an Adjacent Zone takes X + 2 Hits, where X is equal to Hits in the result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Spend 5 Momentum to have one target in your Current or an Adjacent Zone takes X + 2 Hits, where X is equal to Hits in the result set."
+                },
                 {
                     "hits": 8,
                     "effect": "Spend 5 Momentum to have one target in your Current or an Adjacent Zone loses all Grit.  If the target can gain the Dying status, they do."
@@ -1570,8 +1666,12 @@
             "name": "Dispel",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Score 2+ Hits to reduce the rating of one Aura you can sense in your Current Zone by 2.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Reduce the rating of one Aura you can sense in your Current Zone by 2."
+                },
                 {
                     "hits": 3,
                     "effect": "Reduce the rating of one Aura you can sense in your Current Zone by X, where X is equal to Hits in the result set."
@@ -1579,15 +1679,19 @@
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Nihil"
             ]
         },
         {
             "name": "Displacement Wave",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 2+ Hits to push up to 3 targets in your Current Zone into an Adjacent Zone.  They each become Prone.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Move up to 3 targets in your Current Zone into an Adjacent Zone.  They each become Prone."
+                },
                 {
                     "hits": 4,
                     "effect": "Push up to X targets in your Current Zone into an Adjacent Zone, where X is equal to Hits in the result set.  They each become Prone."
@@ -1602,8 +1706,12 @@
             "name": "Doom Blade",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 2+ Hits to have one target in your Curent Zone loses 4 Grit.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Curent Zone loses 4 Grit."
+                },
                 {
                     "hits": 3,
                     "effect": "One target in your Curent Zone loses X Grit, wher X is equal to Hits in the result set."
@@ -1618,11 +1726,15 @@
             "name": "Ethereal Haze",
             "type": "Shift",
             "max_ranks": 3,
-            "effect": "Score 2+ Hits to prevent any Hits to Defenses or Grit until the end of your next turn.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 2,
+                    "effect": "Prevent any Hits to Defenses or Grit until the end of your next turn."
+                },
+                {
                     "hits": 3,
-                    "effect": "Score 2+ Hits to prevent any Hits to Defenses or Grit until the end of your next turn.  Increase the Timer by +1."
+                    "effect": "Prevent any Hits to Defenses or Grit until the end of your next turn.  Increase the Timer by +1."
                 }
             ],
             "requires": null,
@@ -1636,8 +1748,12 @@
             "name": "Exsanguinate",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "One target in your Current Zone loses X Grit and you regain 2 Grit, where X is equal to Hits in the result set.",
+            "effect": null,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current Zone loses X Grit and you regain 2 Grit, where X is equal to Hits in the result set."
+                },
                 {
                     "hits": 3,
                     "effect": "One target in your Current Zone loses X + 2 Grit and you regain X Grit, where X is equal to Hits in the result set."
@@ -1653,11 +1769,11 @@
             "name": "Feather Fall",
             "type": "Trigger",
             "max_ranks": 3,
-            "effect": "When a target you can see is falling from a height that risks harming them, spend 1 Momentum and score 1+ Hits to allow them to float down gracefully.",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "When a target you can see is falling from a height that risks harming them, spend 1 Momentum and score 1+ Hits to allow them to float down gracefully."
                 }
             ],
             "requires": null,
@@ -1673,7 +1789,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Up to 2 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set.",
+                    "effect": "Up to 2 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 3,
                     "effect": "Up to 3 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set."
                 }
@@ -1717,11 +1835,15 @@
             "threshold": [
                 {
                     "hits": 4,
-                    "effect": "Up to 4 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set.",
+                    "effect": "Up to 4 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 6,
-                    "effect": "Up to 4 targets in your Currrent or an Adjacent Zone take X + 2 Hits, where X is equal to Hits in the result set.",
+                    "effect": "Up to 4 targets in your Currrent or an Adjacent Zone take X + 2 Hits, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 8,
-                    "effect": "All targets in your Currrent or an Adjacent Zone take X + 2 Hits, where X is equal to Hits in the result set.",
+                    "effect": "All targets in your Currrent or an Adjacent Zone take X + 2 Hits, where X is equal to Hits in the result set."
                 }
             ],
             "requires": "Flame Slash 4",
@@ -1738,9 +1860,13 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Up to 2 targets in your Currrent Zone take 3 Hits and gain Vulnerable 1.",
+                    "effect": "Up to 2 targets in your Currrent Zone take 3 Hits and gain Vulnerable 1."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to 3 targets in your Currrent Zone take 3 Hits and gain Vulnerable 1.",
+                    "effect": "Up to 3 targets in your Currrent Zone take 3 Hits and gain Vulnerable 1."
+                },
+                {
                     "hits": 6,
                     "effect": "Up to 3 targets in your Currrent Zone take X Hits and gain Vulnerable 1, where X is equal to Hits in the result set."
                 }
@@ -1758,7 +1884,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
+                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 3,
                     "effect": "One target in your Current Zone takes X + 2 Hits, where X is equal to Hits in the result set."
                 }
@@ -1776,7 +1904,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone gains the Fly keyword.",
+                    "effect": "One target in your Current Zone gains the Fly keyword."
+                },
+                {
                     "hits": 3,
                     "effect": "Up to 2 targets in your Current Zone gains the Fly keyword."
                 }
@@ -1794,7 +1924,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Target your Current or an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell.",
+                    "effect": "Target your Current or an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell."
+                },
+                {
                     "hits": 3,
                     "effect": "Target your Current and an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell.",
                 }
@@ -1814,7 +1946,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Divide 3 Hits between up to 2 target in your Current or an Adjacent Zone.",
+                    "effect": "Divide 3 Hits between up to 2 target in your Current or an Adjacent Zone."
+                },
+                {
                     "hits": 4,
                     "effect": "Divide X Hits between up to 2 target in your Current or an Adjacent Zone."
                 }
@@ -1848,9 +1982,13 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Up to 2 targets in your Currrent Zone take 2 Hits and gain Slowed 2.",
+                    "effect": "Up to 2 targets in your Currrent Zone take 2 Hits and gain Slowed 2."
+                },
+                {
                     "hits": 1,
-                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed 2.",
+                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed 2."
+                },
+                {
                     "hits": 1,
                     "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed X, X. . .",
                 }
@@ -1868,9 +2006,13 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current or an Adjacent Zone take 2 Hits.",
+                    "effect": "One target in your Current or an Adjacent Zone take 2 Hits."
+                },
+                {
                     "hits": 3,
-                    "effect": "One target in your Current or an Adjacent Zone take 3 Hits.",
+                    "effect": "One target in your Current or an Adjacent Zone take 3 Hits."
+                },
+                {
                     "hits": 4,
                     "effect": "One target in your Current or an Adjacent Zone take X Hits, X. . .",
                 }
@@ -1889,7 +2031,7 @@
                 {
                     "hits": 2,
                     "effect": "One target [current] takes 3 Hits.
-                    <br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast the spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
+                    <br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
             "requires": null,
@@ -1901,11 +2043,13 @@
             "name": "Gate",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": ,
+            "effect": null,
             "threshold": [
                 {
                     "hits": 4,
-                    "effect": "Open an arcane gateway in your Current Zone to a location in a different world of the Cosm.",
+                    "effect": "Open an arcane gateway in your Current Zone to a location in a different world of the Cosm."
+                },
+                {
                     "hits": 7,
                     "effect": "Open an arcane gateway in your Current Zone to a destination in a different world of the Cosm.  You may choose the destination."
                 }
@@ -1923,7 +2067,9 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target [current] takes 2 Hits and gains Afraid 2.",
+                    "effect": "One target [current] takes 2 Hits and gains Afraid 2."
+                },
+                {
                     "hits": 4,
                     "effect": "One target [current] takes 2 Hits and gains Afraid X, X. . ."
                 }
@@ -1941,7 +2087,9 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "One target [current] gains Restrained 2 and Slowed 4.",
+                    "effect": "One target [current] gains Restrained 2 and Slowed 4."
+                },
+                {
                     "hits": 5,
                     "effect": "One target [current] gains Restrained 2, Slowed 4, and Vulnerable 2."
                 }
@@ -1980,7 +2128,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone takes 2 Hits.  If the target dies, one other target in your Current Zone takes 2 Hits.",
+                    "effect": "One target in your Current Zone takes 2 Hits.  If the target dies, one other target in your Current Zone takes 2 Hits."
+                },
+                {
                     "hits": 4,
                     "effect": "One target in your Current Zone takes 3 Hits.  If the target dies, repeat this effect until the target does not die or there are no other target in your Current Zone."
                 }
