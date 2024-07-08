@@ -1083,7 +1083,7 @@
         {
             "name": "Arc Lightning",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 4,
             "effect": "Choose 3 targets you can see in your Current Zone. Deal 1 Hit to each target.",
             "threshold": [
                 {
@@ -1099,8 +1099,8 @@
         {
             "name": "Arrest",
             "type": "Ability",
-            "max_ranks": null,
-            "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained <em>x</em>, where <em>x</em> is equal to Hits.",
+            "max_ranks": 4,
+            "effect": "One target you can see in your Current or an Adjacent Zone gains Restrained <em>X</em>, where <em>X</em> is equal to Hits.",
             "threshold": [
                 {
                     "hits": 3,
@@ -1117,8 +1117,8 @@
         {
             "name": "Asphyxiate",
             "type": "Ability",
-            "max_ranks": null,
-            "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Dazed and Vulnerable <em>x</em>, where <em>x</em> is equal to Hits.",
+            "max_ranks": 2,
+            "effect": "You pull the air from the lungs of one target you can see in your Current Zone.  They gain Vulnerable 2 and Dazed <em>X</em>, where <em>x</em> is equal to Hits.",
             "threshold": [
                 {
                     "hits": 4,
@@ -1134,9 +1134,10 @@
         },
         {
             "name": "Augment Senses",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 2,
+            "effect": "Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:
+                <br><em>Focus, Insight, Investigate, Operate, Perceive</em>",
             "threshold": [
                 {
                     "hits": null,
@@ -1145,78 +1146,65 @@
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Vivus",
+                "Mentis",
+                "Forma"
             ]
         },
         {
             "name": "Biting Rain",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": "All targets in your Current or an Adjacent Zone suffer 1 Hit to their Primary Defenses.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "All targets in your Current or an Adjacent Zone suffer 2 Hit to their Primary Defense."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Plaga"
             ]
         },
         {
             "name": "Blazing Volley",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 3+ Hits to deal 2 Hits to up to 3 targets in an Adjacent Zone.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 5,
+                    "effect": "Deal 3 Hits to up to 4 targets in an Adjacent Zone."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Inferno"
             ]
         },
         {
             "name": "Blinding Flare",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Score 2+ Hits to make one target in your Current or an Adjacent Zone gain Blind 1.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "make one target in your Current or an Adjacent Zone gain Blind 3."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
-            ]
-        },
-        {
-            "name": "Bone Splinters",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
+                "Inferno",
+                "Lux"
             ]
         },
         {
             "name": "Call to the Netherworld",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Reach out to the spirits of the dead when you are in their presence to ask X questions, where X is the number of Hits in the result set.",
             "threshold": [
                 {
                     "hits": null,
@@ -1225,135 +1213,149 @@
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Vivus"
             ]
         },
         {
             "name": "Chain Lightning",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": "5",
+            "effect": "Score 3+ Hits to deal Hits to one Target in your Current or an Adjacent Zone.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 5,
+                    "effect": "<em><strong>Trigger</strong></em> &mdash cast this spell again choosing a different target."
                 }
             ],
-            "requires": null,
+            "requires": "Arc Lightning 2",
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Charm Target",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": "Score 1+ Hits to make 1 target in your Current Zone gain Charmed X, where X is equal to Hits in the results set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Up to 2 targets in your Current Zone gain Charmed X, where X is equal to Hits in the results set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mentis"
             ]
         },
         {
             "name": "Chill of the Grave",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": "One target in your Current Zone becomes Afraid of you and gains Fatigued X, where x is equal to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Up to two targets in your Current Zone become Afraid of you and gains Fatigued X, where x is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Rime"
             ]
         },
         {
             "name": "Chill to the Bone",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "One target in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to two targets in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Rime"
             ]
         },
         {
             "name": "Choking Fumes",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Up to X targets in your Current or an Adjacent Zone gain Fatigued 1, where X is equal to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to X targets in your Current or an Adjacent Zone gain Fatigued 1, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Plaga",
+                "Squall"
             ]
         },
         {
             "name": "Circle of Affliction",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 3+ Hits to have one target in your Current Zone gain Wounded 1.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Have up to 2 targets in your Current Zone gain Wounded 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aether",
+                "Locus",
+                "Lux",
+                "Ongoing 2"
             ]
         },
         {
             "name": "Circle of Confinement",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 3+ Hits to have one target in your Current Zone gain Restrained 1 at the start of each of its turns.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Score 3+ Hits to have one target in your Current Zone gain Restrained 3 at the start of each of its turns."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aether",
+                "Locus",
+                "Lux",
+                "Ongoing 3"
             ]
         },
         {
             "name": "Comet Storm",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 3+ Hits to have all targets in your Current or an Adjacent Zone suffer 4 Hits.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 6,
+                    "effect": "All targets in up to 3 Zones Current and Adjacent to you suffer 6 Hits."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aether"
+                "Locus",
+                "Inferno",
+                "Tellus"
             ]
         },
         {

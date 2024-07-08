@@ -16,19 +16,19 @@ If you are in the same Zone as the source of your fear, you must Shift out of yo
 
 ## Blind
 #### Fixed
-While Blind, add Hazard 4 to your rolls.
+While Blind, add Hazard 4 to your rolls.  Your Blind rating decreases by -1 at the end of each of your turns.
 
 ## Charmed
-### Variable
-While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.  Charmed decreases by -1 eahc round. 
+#### Variable
+While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.  Charmed decreases by -1 eahc round.
 
 ## Confused
 #### Fixed
-While Confused, add 2 Hazard to your rolls.
+While Confused, add 2 Hazard to your rolls.  Your Confused rating decreases by -1 at the end of each of your turns.
 
 ## Dazed
 #### Fixed
-Until the end of your next turn, you can either take one action or one shift, but not both.
+Until the end of your next turn, you can either take one action or one shift, but not both.  Your Dazed rating decreases by -1 at the end of each of your turns.
 
 ## Disguised
 ### Variable
@@ -56,15 +56,15 @@ While Prone, you have Vulnerable 2 to any melee attack made against you and you 
 
 ## Provoked
 #### Fixed
-Something about having to take actions against the source of provocation.
+While you are Provoked, reduce Hits in the result sets of any Actions you take aginast targets other than the provoking target.
 
 ## Restrained
 #### Variable
 While your Restrained rating is greater than 0, you can take no Shifts and Hits from any Actions you take to Strike, Shoot, or use Martial Arts are reduced by your Restrained rating.  You use your Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
 
 ## Slowed
-### Variable
-While yor Slowed rating is above 0, you mus use two (2) Shifts to Move and you cannot use Trigger Talents.
+#### Variable
+While yor Slowed rating is above 0, you mus use two (2) Shifts to Move and you cannot use Trigger Talents.   Your Slowed rating decreases by -1 at the end of each of your turns.
 
 ## Stunned
 #### Variable
@@ -76,7 +76,7 @@ You have Vulnerable 2 and can only take the Recover Action using Endure as long 
 
 ## Vulnerable
 #### Variable
-Any action that scores Hits against you gain a number of d4 Bonus Hits equal to your Vulnerable Rating.
+Any action that scores Hits against you gains +1d4 Bonus Hits while your Vulnerable Rating is greater than 0.  Your Vulnerable ratind decreases by -1 at the end of each of your turns.
 
 ## Wounded
 #### Variable
