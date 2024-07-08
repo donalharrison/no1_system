@@ -1431,11 +1431,13 @@
             "name": "Dark Blast",
             "type": "Ability",
             "max_ranks": 2,
-            "effect": "One target in your Current or an Adjacent zone loses X Grit, where X is equal to Hits in the result set.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set.",
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent zone loses X + 2 Grit, where X is equal to Hits in the result set."
+                    "effect": "One target in your Current or an Adjacent Zone loses X + 2 Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -1465,14 +1467,16 @@
             "name": "Death Cloud",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "Score 3+ Hits to have all creatures in your Current or an Adjacent Zone gain Wounded 1 and lose 3 Grit.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 3,
+                    "effect": "All creatures in your Current or an Adjacent Zone gain Wounded 1 and lose 3 Grit.",
                     "hits": 6,
                     "effect": "All creatures in your Current or an Adjacent Zone become Wounded 3 and lose X Grit, where X is equal to Hits in the result set."
                 }
             ],
-            "requires": "Dark Blast 2",
+            "requires": "Dark Blast 2, Necrotic Fumes 1",
             "keywords": [
                 "Mori"
             ]
@@ -1513,7 +1517,7 @@
             "name": "Detention Sphere",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "Score 2+ Hits to make on target in your Current zone Aura 2.  While the Aura is active, they cannot be the target of any Actions and have Stunned 2 and Unconscious 1.  You may use a Shift on each of your turns to Move the Detention Sphere.",
+            "effect": "Score 2+ Hits to make on target in your Current Zone Aura 2.  While the Aura is active, they cannot be the target of any Actions and have Stunned 2 and Unconscious 1.  You may use a Shift on each of your turns to Move the Detention Sphere.",
             "threshold": [
                 {
                     "hits": 4,
@@ -1532,14 +1536,16 @@
             "name": "Dimension Door",
             "type": "Shift",
             "max_ranks": 3,
-            "effect": "Score 1+ Hits to allow one target in your Current Zone to move to any Zone up to 2 adjacencies away.",
+            "effect": ,
             "threshold": [
                 {
+                    "hits": 1,
+                    "effect": "Allow one target in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards.",
                     "hits": 3,
-                    "effect": "Score 1+ Hits to allow up to targets in your Current Zone to move to any Zone up to 2 adjacencies away."
+                    "effect": "Allow up to 2 targets in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards."
                 }
             ],
-            "requires": null,
+            "requires": "Misty Step 2",
             "keywords": [
                 "Locus"
             ]
@@ -1964,28 +1970,30 @@
         },
         {
             "name": "Hungry Flames",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone takes 2 Hits.  If the target dies, one other target in your Current Zone takes 2 Hits.",
+                    "hits": 4,
+                    "effect": "One target in your Current Zone takes 3 Hits.  If the target dies, repeat this effect until the target does not die or there are no other target in your Current Zone."
                 }
             ],
-            "requires": null,
+            "requires": "Fiery Fingers 2",
             "keywords": [
-                ""
+                "Inferno"
             ]
         },
         {
             "name": "Ice Cage",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
+                    "hits": 2,
                     "effect": ""
                 }
             ],
@@ -1996,29 +2004,31 @@
         },
         {
             "name": "Icy Blast",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone takes X Hits and gains Slowed 1, where X is equal to Hits in the result set.",
+                    "hits": 4,
+                    "effect": "One target in your Current or an Adjacent Zone loses X + 2 Hits and gains Slowed 1, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Rime"
             ]
         },
         {
             "name": "Incinerate",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Up to X dead target and Gear in your Current Zone are reduced to ashes, X. . ."
                 }
             ],
             "requires": null,
@@ -2028,141 +2038,178 @@
         },
         {
             "name": "Incite",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone becomes Provoked Ongoing.",
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone becomes Provoked by another target in the same Zone Ongoing."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 2",
+                "Bellor",
+                "Mentis"
             ]
         },
         {
             "name": "Invisibility",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone becomes Invisible Ongoing.",
+                    "hits": 4,
+                    "effect": "Up to 2 targets in your Current Zone becomes Invisible Ongoing.",
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 2"
             ]
         },
         {
             "name": "Lash of Malice",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone takes X Hits, X. . ., then choose one (1):
+                    <ul>
+                        <li>The target gains Restrained 3.</li>
+                        <li>You pull the target into your Current Zone.</li>
+                        <li>The target gain Afrai 2.</li>
+                    </ul>",
+                    "hits": 4,
+                    "effect": "One target in your Current Zone or and Adjacent takes X Hits, X. . ., then choose two (2):
+                    <ul>
+                        <li>The target gains Restrained 3.</li>
+                        <li>You pull the target into your Current Zone.</li>
+                        <li>The target gain Afrai 2.</li>
+                    </ul>",
+                    
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Bellor"
             ]
         },
         {
             "name": "Lash of Thorns",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone or and Adjacent takes 2 Hits, then choose one (1):
+                    <ul>
+                        <li>The target gains Restrained 3.</li>
+                        <li>You pull the target into your Current Zone.</li>
+                        <li>The target gain Wounded 1.</li>
+                    </ul>",
+                    "hits": 4,
+                    "effect": "One target in your Current Zone or and Adjacent takes 2 Hits, then choose two (2):
+                    <ul>
+                        <li>The target gains Restrained 3.</li>
+                        <li>You pull the target into your Current Zone.</li>
+                        <li>The target gain Wounded 1.</li>
+                    </ul>",
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Phylla"
             ]
         },
         {
             "name": "Lightning Axe",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Increase the Entropy by +3 and one target [current] takes X +2 Hits, X. . .",
+                    "hits": 4,
+                    "effect": "Increase the Entropy by +2 and one target [current] takes X +3 Hits, X. . ."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Lightning Bolt",
             "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Up to 3 targets in up to 4 Linear Zones take X Hits, X. . .",
+                    "hits": 4,
+                    "effect": "Up to 3 targets in up to 4 Linear Zones take X Hits and gain Stunned 2, X. . ."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Lightning Storm",
-            "type": "",
+            "type": "Ability",
             "max_ranks": null,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Conjure a Lightning Storm [current] Ongoing.  On each of your turns your can use a Shift to move the Lightning Storm one Adjacent Zone or have one target in the Lightning Storm's Current Zone take +2d4 Bonus Hits.",
+                    "hits": 3,
+                    "effect": "Conjure a Lightning Storm [current] Ongoing.  On each of your turns your can use a Shift to move the Lightning Storm one Adjacent Zone or have up to 2 targets in the Lightning Storm's Current Zone take +2d4 Bonus Hits."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3"
             ]
         },
         {
             "name": "Mage Hand",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Conjure a telekenetic Hand [current] to lift and carry up to X Gear, X. . .  The Hand can use one Shift on each of your turns and you may use a Shift on each of your turns to have the Hand take 1 Action."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 1"
             ]
         },
         {
             "name": "Mage armor",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "You gain an Armor Defense X until you cast this spell again, X. . ."
                 }
             ],
             "requires": null,
@@ -2172,13 +2219,15 @@
         },
         {
             "name": "Magic Missile",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Create 3 magical darts that each deal 2 Hits.  You may target up to 3 targets [current].",
+                    "hits": 3,
+                    "effect": "Create X magical darts that each deal 2 Hits, X. . .  You may target up to X targets [current]."
                 }
             ],
             "requires": null,
@@ -2188,61 +2237,74 @@
         },
         {
             "name": "Malevolent Whispers",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target [current] gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing.",
+                    "hits": 4,
+                    "effect": "Up to 2 targets [current] gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing.",
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 2",
+                "Mentis",
+                "Mori",
+                "Nox"
             ]
         },
         {
             "name": "Message",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "You may contact one target you know personally who is on your current plane, sending a message of 15 words or less.  The target may reply.",
+                    "hits": 3,
+                    "effect": "You may contact one target you know personally who is on your current plane, sending X message of 15 words or less, X . . .  The target may reply to each message."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Locum",
+                "Mentis"
             ]
         },
         {
             "name": "Might of Oaks",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone gains Aura 2 to add +1d4 Bonus Hits to any Action using Exert, Grapple, Strike, or Martial Arts.",
+                    "hits": 3,
+                    "effect": "One target in your Current Zone gains Aura X to add +1d4 Bonus Hits to any Action using Exert, Grapple, Strike, or Martial Arts, X. . ."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Phylla",
+                "Tellus"
             ]
         },
         {
             "name": "Mindstatic",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target [current] gains Confused 2.",
+                    "hits": 4,
+                    "effect": "Up to 2 target [current] gain Confused 2.",
                 }
             ],
             "requires": null,
@@ -2252,226 +2314,228 @@
         },
         {
             "name": "Misty Step",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Move to any Adjacent Zone up ignoring Hazards.",
+                    "hits": 4,
+                    "effect": "Move to any Zone up to 2 adjacencies away ignoring Hazards."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Locus"
             ]
         },
         {
             "name": "Necrotic Fumes",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to 3 target in your Current or an Adjacent Zone gain lose 1 Grit and gain Fatigued 1.",
+                    "hits": 4,
+                    "effect": "All targets in your Current or an Adjacent Zone gain lose 1 Grit and gain Fatigued 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori"
             ]
         },
         {
             "name": "Plummet",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target [current] loses the Flying keyword until the beginning of your next turn.",
+                    "hits": 4,
+                    "effect": "Up to 2 targets [current] lose the Flying keyword until the beginning of your next turn."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
-            ]
-        },
-        {
-            "name": "Polymorph",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
+                "Squall"
             ]
         },
         {
             "name": "Psychic Spear",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Select one target [current] and choose one (1):
+                    <ul>
+                        <li>The target takes X Hits to their Nerve, X. . .</li>
+                        <li>The target gains Dazed 2 and Confused 2.</li>
+                        <li>You read the targets surface thoughts.</li>
+                    </ul>
+                    ",
+                    "hits": 4,
+                    "effect": "Select one target [current] and choose two (2):
+                    <ul>
+                        <li>The target takes X Hits to their Nerve, X. . .</li>
+                        <li>The target gains Dazed 2 and Confused 2.</li>
+                        <li>You read the targets surface thoughts.</li>
+                    </ul>
+                    ",
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mentis"
             ]
         },
         {
             "name": "Restrain Target",
-            "type": "",
+            "type": "Ability",
             "max_ranks": null,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target [current] gains Restrained 2 at the start of each of its turns Ongoing.",
+                    "hits": 5,
+                    "effect": "Up to two targets [current] gain Restrained 2 at the start of each of its turns Ongoing."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3"
             ]
         },
         {
             "name": "Rolling Thunder",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Spend X Momentum.  All targets in your Current Zone take 2 Hits and X targets gain Dazed 1.  All targets in an Adjacent Zone take 1 Hit and X - 1 targets gain Dazed 1.",
+                    "hits": 4,
+                    "effect": "Spend X Momentum.  All targets in your Current Zone take 2 Hits and X + 2 targets gain Dazed 1.  All targets in an Adjacent Zone take 1 Hit and X targets gain Dazed 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Sandblast",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone takes 2 Hits and gains Blind 1.",
+                    "hits": 4,
+                    "effect": "Up to 2 targets in your Current Zone takes 2 Hits and gains Blind 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tellus"
             ]
         },
         {
             "name": "Seismic Strikes",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone gains the following Ongoing:
+                    <h4 style='margin: 3px;'>Trigger &mdash </h4> When you Strike or use your Martial Arts and score 3+ Hits, your target becomes Prone."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3",
+                "Tellus"
             ]
         },
         {
             "name": "Seismic Wave",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Up to 2 targets in your Current Zone become Prone.",
+                    "hits": 4,
+                    "effect": "Up to X targets [current] become Prone."
                 }
             ],
-            "requires": null,
+            "requires": "Seismic Strikes 1",
             "keywords": [
-                ""
+                "Tellus"
             ]
         },
         {
             "name": "Send to the Void",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 5,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "One target [current] becomes trapped in the Ina.  If you Maintain Focus for 4+ rounds, the target reappears in a random location across the Cosm.  Otherwise, they reappear in the Zone where they were before this effect occured."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3",
+                "Nihil"
             ]
         },
         {
             "name": "Sending",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "You may contact one target anywhere in the Cosm, sending a message of 25 words or less.  The target may reply."
                 }
             ],
-            "requires": null,
+            "requires": "Message 3",
             "keywords": [
-                ""
-            ]
-        },
-        {
-            "name": "Settle the Score",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
+                "Aether",
+                "Nihil"
             ]
         },
         {
             "name": "Shadow Step",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Move to any Adjacent Zone up ignoring Hazards.",
+                    "hits": 4,
+                    "effect": "Move to any Zone up to 2 adjacencies away ignoring Hazards."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Nox"
             ]
         },
         {
@@ -2555,7 +2619,7 @@
             ]
         },
         {
-            "name": "Stall for Time",
+            "name": "Make the Time",
             "type": "",
             "max_ranks": null,
             "effect": "",
@@ -3849,7 +3913,7 @@
         },
         {
             "name": "Blazing Volley",
-            "type": "",
+            "type": "Ability",
             "cost": null,
             "effect": "",
             "current": null,
