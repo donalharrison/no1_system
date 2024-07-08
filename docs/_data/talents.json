@@ -1094,26 +1094,14 @@
             ]
         },
         {
-            "tree": "Black Belt",
-            "name": "Cross Block",
-            "type": "Trigger",
-            "rank": 2,
-            "requires": null,
-            "replaces": "High Block",
-            "effect": [
-                "When you take more than 3 Hits from a melee attack by a target you can see, reduce the total hits by 2."
-            ]
-        },
-        {
-            "tree": "Black Belt",
-            "name": "Renraku Waza",
-            "type": "Ability",
-            "rank": 3,
+            "tree": "Martial Artist",
+            "name": "Martial Arts (3)",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Martial Arts against a target in your Current Zone.",
-                "If you score 3+ Hits, add +1d4 Bonus Hits to the results set."
+                "Increase your Martial Arts Rank to 3 (d10)."
             ]
         },
         {
@@ -1129,15 +1117,62 @@
         },
         {
             "tree": "Black Belt",
-            "name": "",
+            "name": "Cross Block",
+            "type": "Trigger",
+            "rank": 2,
+            "requires": "Any Defensive Stance",
+            "replaces": null,
+            "effect": [
+                "When you are in a Defensive Stance and take 3+ Hits in melee combat from an attacker you can see, reduce the total hits by 1."
+            ]
+        },
+        
+        {
+            "tree": "Black Belt",
+            "name": "Kansetsu Geri",
+            "type": "Trigger",
+            "rank": 2,
+            "requires": "Any Aggressive Stance",
+            "replaces": null,
+            "effect": [
+                "When you are in a Aggressive Stance and score 4+ Hits in melee combat, your target gains Vulnerable 2."
+            ]
+        },
+        {
+            "tree": "Black Belt",
+            "name": "Renraku Waza",
             "type": "Ability",
-            "rank": null,
+            "rank": 3,
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use your Martial Arts against a target in your Current Zone.",
+                "If you score 3+ Hits, add +1d4 Bonus Hits to the results set."
             ]
         },
+        {
+            "tree": "Martial Artist",
+            "name": "Martial Arts (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Martial Arts Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Black Belt",
+            "name": "Sound Mind, Sound Body",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use an Action to Recover Defenses, you may regain up to +1 Grit."
+            ]
+        },
+        
         {
             "tree": "Blade Weaver",
             "name": "",
@@ -3808,6 +3843,17 @@
         },
         {
             "tree": "Martial Artist",
+            "name": "Martial Arts (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Martial Arts Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Martial Artist",
             "name": "Knee Strike",
             "type": "Trigger",
             "rank": "3",
@@ -3825,7 +3871,7 @@
             "requires": "Any Aggressive Stance",
             "replaces": null,
             "effect": [
-                "When you are in an Aggressive Stance and score 4+ Hits in melee combat, your taget becomes Dazed."
+                "When you are in an Aggressive Stance and score 4+ Hits in melee combat, your taget gains Dazed 1."
             ]
         },
         {
@@ -3880,7 +3926,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Martial Arts against your target and reduce the Hits by -2.  If 1+ Hits remain, your target falls Prone."
+                "Use your Martial Arts against your target and reduce the Hits by -2.  If 1+ Hits remain, your target becomes Prone."
             ]
         },
         {
@@ -3891,7 +3937,7 @@
             "requires": "Parry",
             "replaces": null,
             "effect": [
-                "When you Parry a melee attack, immediately use your Martial Arts against the attacker at -1 Challenge."
+                "When you Parry a melee attack, immediately use your Martial Arts against the attacker at scoring Hits -2."
             ]
         },
         {
@@ -6683,6 +6729,17 @@
             "replaces": null,
             "effect": [
                 "When you Recover, regain 2 Grit."
+            ]
+        },
+        {
+            "tree": "Tank",
+            "name": "Not Dead Yet",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You do not die until your Dying rating is 6 or greater."
             ]
         },
         {
