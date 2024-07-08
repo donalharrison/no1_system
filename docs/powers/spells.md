@@ -48,7 +48,7 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
                 <h5>Threshold {{t.hits}} </h5>
                 <p>{{t.effect}}</p>
             {% endfor %}
-        <p>thresh</p>
+        <p>{{thresh}}</p>
     </details>
     </div>
 {% endfor %}
