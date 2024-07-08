@@ -35,6 +35,7 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
     <details>
         <summary></summary>
         {% assign j = s.max_ranks %}
+        <h4 style="margin-top: 5px;">{{s.max_ranks}}</h4>
         {% for i in (1..j) %}
             <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
         {% endfor %}

@@ -2111,7 +2111,7 @@
                     <ul>
                         <li>The target grows in size, gaining +5 Grit, +5 Vigor, and adding +1d4 Bonus Hits to any result set using Endure, Exert, Strike, or Grapple Ongoing.</li>
                         <li>The target shrinks in size, gaining +5 Reflexes and adding +1d4 Bonus Hits to any result set using Stealth or Tumple.</li>
-                        "
+                    </ul>"
                 }
             ],
             "requires": null,
