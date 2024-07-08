@@ -743,6 +743,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Adventure</strong>
 </summary>
 <p>The thrill of exploration and discovery is what drives you. This motivation leads you to seek out new experiences, travel to unknown places, and take on daring challenges, but it can also make you reckless or restless.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -750,6 +751,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Ambition</strong>
 </summary>
 <p>You have a strong desire to achieve success and rise to a higher status. This motivation drives you to work hard, take risks, and pursue opportunities for advancement, but it can also make you competitive or ruthless.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -757,6 +759,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Compassion</strong>
 </summary>
 <p>You are deeply motivated by a desire to help others and alleviate suffering. This drive leads you to acts of kindness and generosity, but it can also make you overextend yourself or neglect your own needs.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -764,6 +767,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Curiosity</strong>
 </summary>
 <p>An insatiable curiosity motivates you to uncover secrets and learn the hidden truths of the world. This drive leads you to investigate mysteries and delve into the unknown, but it can also make you nosy or oblivious to dangers.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -771,6 +775,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Duty</strong>
 </summary>
 <p>A strong sense of responsibility and duty motivates you to fulfill your obligations and serve a greater good. This drive makes you reliable and committed, but it can also make you self-sacrificing or burdened by expectations.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -778,6 +783,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Faith</strong>
 </summary>
 <p>Your spiritual beliefs and religious convictions are your guiding force. This motivation drives you to follow your faith's teachings, seek spiritual growth, and fulfill religious duties, but it can also make you dogmatic or intolerant of other beliefs.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -785,6 +791,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Freedom</strong>
 </summary>
 <p>You value personal liberty above all else and are motivated to break free from constraints and help others do the same. This motivation drives you to oppose tyranny and seek independence, but it can also make you rebellious or unwilling to compromise.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -792,6 +799,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Glory</strong>
 </summary>
 <p>You seek recognition and fame for your deeds. This motivation pushes you to achieve great feats and earn a lasting legacy, but it can also make you vain or overly concerned with public opinion.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -799,6 +807,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Honor</strong>
 </summary>
 <p>You are motivated by a personal code of ethics and a desire to uphold your honor. This drives you to act with integrity and courage, but it can also make you rigid or overly concerned with appearances.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -806,6 +815,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Justice</strong>
 </summary>
 <p>You have a strong sense of right and wrong and are motivated to uphold justice and fight against wrongdoing. This motivation pushes you to protect the innocent and punish the guilty, but it can also make you inflexible or judgmental.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 </div>
@@ -816,6 +826,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Knowledge</strong>
 </summary>
 <p>You are driven by a thirst for understanding and learning. This motivation leads you to seek out new information, explore the unknown, and master new skills, but it can also make you obsessive or detached from practical concerns.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -823,6 +834,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Legacy</strong>
 </summary>
 <p>You are driven by a desire to leave a lasting impact on the world. This motivation pushes you to create, build, or achieve something that will be remembered long after you are gone, but it can also make you obsessive or disconnected from the present.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -830,6 +842,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Love</strong>
 </summary>
 <p>The desire to protect and care for those you love is your primary motivation. This drives you to acts of great compassion and sacrifice, but it can also make you vulnerable or overly protective.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -837,6 +850,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Loyalty</strong>
 </summary>
 <p>You are motivated by a deep sense of loyalty to a person, group, or cause. This motivation makes you a steadfast ally and committed supporter, but it can also make you overly dependent or blind to flaws.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -844,6 +858,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Peace</strong>
 </summary>
 <p>You strive for harmony and the resolution of conflict. This motivation leads you to mediate disputes, seek peaceful solutions, and promote understanding, but it can also make you avoidant of necessary confrontations.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -851,6 +866,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Power</strong>
 </summary>
 <p>You desire influence and control, aiming to rise to a position of authority or dominance. This motivation drives you to pursue leadership roles and assert your will, but it can also make you ruthless or power-hungry.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -858,6 +874,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Revenge</strong>
 </summary>
 <p>You are driven by a desire to avenge a wrong done to you or your loved ones. This motivation gives you a relentless focus and determination to see justice served, but it can also consume you and lead to destructive choices.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -865,6 +882,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Redemption</strong>
 </summary>
 <p>You seek to atone for past mistakes or sins, striving to make amends and find forgiveness. This motivation drives you to do good and seek out opportunities to right your wrongs, but it can also make you overly self-sacrificing or guilt-ridden.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -872,6 +890,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Survival</strong>
 </summary>
 <p>You are motivated by a primal need to survive and protect yourself and your loved ones. This drive makes you resourceful and determined, but it can also make you wary or distrustful.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -879,6 +898,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Wealth</strong>
 </summary>
 <p>The pursuit of riches and material gain is your primary goal. This motivation pushes you to seek out profitable opportunities and take risks for financial gain, but it can also make you greedy or unscrupulous.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 </div>
@@ -895,6 +915,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Academic Study</strong>
 </summary>
 <p>You spent years immersed in academic pursuits, studying various fields of knowledge and honing your intellect. This experience has made you well-educated and analytical, but it can also make you somewhat detached from the practical realities of life.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -902,6 +923,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Apprenticeship</strong>
 </summary>
 <p>You spent years as an apprentice, learning a trade or craft from a master. This experience has given you a strong foundation in a specific skill and a mentor you can rely on, but it also means you might be expected to take over the business or uphold a legacy.</p>
+<p>Gain +1 Milestone and Mentor 1.</p>
 </details>
 
 <details>
@@ -909,6 +931,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Artisan Craft</strong>
 </summary>
 <p>You honed your skills as an artisan, creating beautiful and functional works of art or tools. This experience has given you a deep appreciation for craftsmanship and detail, but it might also mean you have little experience with combat or adventuring.</p>
+<p>Gain +1 Milestone and increase your Craft Rank by +1.</p>
 </details>
 
 <details>
@@ -916,6 +939,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Betrayed</strong>
 </summary>
 <p>At some point in your past, someone you trusted betrayed you. This betrayal has made you wary and distrustful of others, always looking for hidden motives and preparing for the worst. You rely on your own strength and cunning to navigate the dangerous world around you.</p>
+<p>Gain +1 Milestone and +1 Enemies.</p>
 </details>
 
 <details>
@@ -923,6 +947,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Civilian Life</strong>
 </summary>
 <p>You lived a relatively peaceful and uneventful life as a civilian, focusing on day-to-day activities and relationships. This experience has given you a strong sense of community and practical skills, but it might also make you less prepared for the dangers of adventuring.</p>
+<p>Gain +1 Milestone and +2 Gear.</p>
 </details>
 
 <details>
@@ -930,6 +955,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Crime</strong>
 </summary>
 <p>You have a history of engaging in criminal activities, whether as a thief, smuggler, or enforcer. This experience has made you street-smart and adept at underhanded tactics, but it also means you have a past that could catch up with you and enemies who may seek revenge.</p>
+<p>Gain +1 Milestone and +2 Wealth.</p>
 </details>
 
 <details>
@@ -937,6 +963,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Exploration</strong>
 </summary>
 <p>You have a background in exploring unknown territories, mapping uncharted lands, and discovering hidden secrets. This experience has given you a sense of adventure and keen survival instincts, but it also means you've faced countless dangers and unknown threats.</p>
+<p>Gain +1 Milestone and +2 Wealth.</p>
 </details>
 
 <details>
@@ -944,6 +971,13 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Guildsman</strong>
 </summary>
 <p>You were a member of a professional guild, learning specialized skills and trade secrets. This experience has provided you with valuable connections and expertise in a particular craft or profession, but it also means you may have obligations or rivalries within the guild.</p>
+<p>Gain +1 Milestone and choose one (1):
+    <ul>
+        <li>Increase your Craft Rank by +1.</li>
+        <li>Gain +1 Renown and +2 Wealth.</li>
+        <li>Gain +2 Gear and +1 Wealth.</li>
+    </ul>
+</p>
 </details>
 
 <details>
@@ -951,6 +985,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Mender</strong>
 </summary>
 <p>You trained and worked as a healer, whether through magical means or traditional medicine. This experience has given you extensive knowledge of healing practices and a compassionate outlook, but it can also mean you've seen much suffering and loss.</p>
+<p>Gain +1 Milestone and increase your Medicine Rank by +1.</p>
 </details>
 
 <details>
@@ -958,6 +993,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Hero</strong>
 </summary>
 <p>Early in your life, you found yourself facing an overwhelming challenge. You risked your own life to save others and overcome despite the impossible odds. Your bravery and heroism have earned you recognition in some form.</p>
+<p>Gain +1 Milestone and +1 Renown.</p>
 </details>
 
 <details>
@@ -965,6 +1001,13 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Intelligencer</strong>
 </summary>
 <p>You worked as a spy, gathering intelligence and engaging in covert operations. This experience has made you skilled in stealth, deception, and analysis, but it also means you have a network of contacts and potential enemies who know your true identity.</p>
+<p>Gain +1 Milestone and choose one (1):
+    <ul>
+        <li>Increase your Stealth Rank by +1.</li>
+        <li>Gain +1 Enemies and +2 Favors.</li>
+        <li>Gain +1 Secrets.</li>
+    </ul>
+</p>
 </details>
 
 <details>
@@ -979,6 +1022,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Merchant Trade</strong>
 </summary>
 <p>You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.</p>
+<p>Gain +1 Milestone and +3 Wealth.</p>
 </details>
 
 </div>
@@ -989,6 +1033,14 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Mercenary</strong>
 </summary>
 <p>You worked as a mercenary, taking on dangerous jobs for pay and living a life of constant risk. This experience has made you tough, adaptable, and skilled in combat, but it also means you have a reputation that can attract trouble and a past filled with violent encounters.</p>
+<p>Gain +1 Milestone and choose one (1):
+    <ul>
+        <li>Increase your Strike or Tactics Rank by +1.</li>
+        <li>Gain +2 Gear and +1 Wealth.</li>
+        <li>Gain +1 Enemies and +3 Wealth.</li>
+        <li>Gain +1 Enemies, +1 Gear, +1 Renown, and +1 Wealth.</li>
+    </ul>
+</p>
 </details>
 
 <details>
@@ -996,6 +1048,15 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Military</strong>
 </summary>
 <p>You served in a formal military organization, gaining combat experience, discipline, and tactical knowledge. This experience has made you proficient in warfare and strategy, but it also comes with the memories of battles fought and comrades lost.</p>
+<p>Gain +1 Milestone and choose one (1):
+    <ul>
+        <li>Increase your Strike or Tactics Rank by +1.</li>
+        <li>Increase your Operate or Shoot Rank by +1.</li>
+        <li>Gain +2 Gear and +1 Renown.</li>
+        <li>Gain +3 Gear and +1 Wealth.</li>
+        <li>Gain +1 Enemies, +2 Gear, and +1 Renown.</li>
+    </ul>
+</p>
 </details>
 
 <details>
@@ -1003,6 +1064,13 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Noblility</strong>
 </summary>
 <p>You spent time in the courts of nobility, learning the intricacies of politics, diplomacy, and courtly manners. This experience has made you skilled in social navigation and intrigue, but it can also mean you have powerful enemies or political rivals.</p>
+<p>Gain +1 Milestone and choose one (1):
+    <ul>
+        <li>Increase your Persuade Rank by +1.</li>
+        <li>Gain +3 Wealth.</li>
+        <li>Gain +1 Enemies and +2 Renown.</li>
+    </ul>
+</p>
 </details>
 
 <details>
@@ -1010,6 +1078,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Nomad</strong>
 </summary>
 <p>You have spent most of your life wandering from place to place, never settling down for long. This nomadic lifestyle has made you adaptable and resourceful, but also rootless and longing for stability. You value freedom and new experiences above all else.</p>
+<p>Gain +1 Milestone, +2 Gear, and increase your Survival Rank by +1.</p>
 </details>
 
 <details>
@@ -1017,6 +1086,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Performance</strong>
 </summary>
 <p>You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.</p>
+<p>Gain +1 Milestone, +1 Wealth, and increase your Craft Rank by +1.</p>
 </details>
 
 <details>

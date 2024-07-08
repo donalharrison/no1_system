@@ -154,4 +154,6 @@ Dangerous + Steady + Uncanny
 
 ## Renown
 
+## Secrets
+
 ## Wealth

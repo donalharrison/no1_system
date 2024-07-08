@@ -48,7 +48,7 @@ While your Grappled rating is greater than 0, you can take no Shifts and Hits fr
 
 ## Hidden
 #### Variable
-Attempts to Perceive you require Hits >= your Hidden rating.
+Attempts to Perceive you require Hits in a Perceive result set greater than your Hidden rating.  If you take any Action other than to Shift, your Hidden rating becomes 0.
 
 ## Prone
 #### Fixed
