@@ -1395,9 +1395,11 @@
             "name": "Cyclone",
             "type": "Ability",
             "max_ranks": null,
-            "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard 3.",
+            "effect": null,
             "threshold": [
                 {
+                    "hits": 1,
+                    "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard 3.",
                     "hits": 2,
                     "effect": "Target your Current or an Adjacent Zone.  Up to X targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard X, where X is equal to Hits in the resul set."
                 }
@@ -1601,7 +1603,7 @@
                     "effect": "One target in your Curent Zone loses X Grit, wher X is equal to Hits in the result set."
                 }
             ],
-            "requires": null,
+            "requires": "Dark Blast 2",
             "keywords": [
                 "Mori"
             ]
@@ -1643,9 +1645,9 @@
         },
         {
             "name": "Feather Fall",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Trigger",
+            "max_ranks": 3,
+            "effect": "When a target you can see is falling from a height that risks harming them, spend 1 Momentum and score 1+ Hits to allow them to float down gracefully.",
             "threshold": [
                 {
                     "hits": null,
@@ -1654,146 +1656,173 @@
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Squall"
             ]
         },
         {
             "name": "Fiery Fingers",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Up to 2 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set.",
+                    "hits": 3,
+                    "effect": "Up to 3 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Inferno"
             ]
         },
         {
-            "name": "Fiery Gambit",
-            "type": "",
+            "name": "Gambit of the Cosm",
+            "type": "Ability",
             "max_ranks": null,
-            "effect": "",
+            "effect": "Spend 2 Momentum to roll 1d20 as X.  If X is less than the Challenge + Entropy, mark 1 Hit.  Repeat this process until X is greater than Challenge + Entropy or you choose to stop.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone takes 3 Hits.",
+                    "hits": 3,
+                    "effect": "All targets in your Current Zone takes 3 Hits.",
+                    "hits": 6,
+                    "effect": "Reduce the Entropy by -3 and immediately take another Action.",
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aether",
+                "Inferno",
+                "Luck"
             ]
         },
         {
             "name": "Fireball",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Up to 4 targets in your Currrent or an Adjacent Zone take X Hits, where X is equal to Hits in the result set.",
+                    "hits": 6,
+                    "effect": "Up to 4 targets in your Currrent or an Adjacent Zone take X + 2 Hits, where X is equal to Hits in the result set.",
+                    "hits": 8,
+                    "effect": "All targets in your Currrent or an Adjacent Zone take X + 2 Hits, where X is equal to Hits in the result set.",
                 }
             ],
-            "requires": null,
+            "requires": "Flame Slash 4",
             "keywords": [
-                ""
+                "Inferno",
+                "Lux"
             ]
         },
         {
             "name": "Firebreathing",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Up to 2 targets in your Currrent Zone take 3 Hits and gain Vulnerable 1.",
+                    "hits": 4,
+                    "effect": "Up to 3 targets in your Currrent Zone take 3 Hits and gain Vulnerable 1.",
+                    "hits": 6,
+                    "effect": "Up to 3 targets in your Currrent Zone take X Hits and gain Vulnerable 1, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Inferno"
             ]
         },
         {
             "name": "Flame Slash",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
+                    "hits": 3,
+                    "effect": "One target in your Current Zone takes X + 2 Hits, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Inferno"
             ]
         },
         {
             "name": "Fly",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone gains the Fly keyword.",
+                    "hits": 3,
+                    "effect": "Up to 2 targets in your Current Zone gains the Fly keyword."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Squall"
             ]
         },
         {
             "name": "Fog of War",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Target your Current or an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell.",
+                    "hits": 3,
+                    "effect": "Target your Current and an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell.",
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3",
+                "Mentis",
+                "Squall"
             ]
         },
         {
             "name": "Forked Bolt",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Divide 3 Hits between up to 2 target in your Current or an Adjacent Zone.",
+                    "hits": 4,
+                    "effect": "Divide X Hits between up to 2 target in your Current or an Adjacent Zone."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Frost Bite",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One taget in your Current Zone takes X Hits and gain Slowed 2, X. . ."
                 }
             ],
             "requires": null,
@@ -1803,29 +1832,37 @@
         },
         {
             "name": "Frost Breath",
-            "type": "",
-            "max_ranks": null,
+            "type": "Ability",
+            "max_ranks": 4,
             "effect": "",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Up to 2 targets in your Currrent Zone take 2 Hits and gain Slowed 2.",
+                    "hits": 1,
+                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed 2.",
+                    "hits": 1,
+                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed X, X. . .",
                 }
             ],
-            "requires": null,
+            "requires": "Frostbite 2",
             "keywords": [
-                ""
+                "Rime"
             ]
         },
         {
             "name": "Galvanic Blast",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone take 2 Hits.",
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone take 3 Hits.",
+                    "hits": 4,
+                    "effect": "One target in your Current or an Adjacent Zone take X Hits, X. . .",
                 }
             ],
             "requires": null,
@@ -1835,98 +1872,94 @@
         },
         {
             "name": "Galvanic Bombardment",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target [current] takes 3 Hits.
+                    <br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast the spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Gate",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": ,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Open an arcane gateway in your Current Zone to a location in a different world of the Cosm.",
+                    "hits": 7,
+                    "effect": "Open an arcane gateway in your Current Zone to a destination in a different world of the Cosm.  You may choose the destination."
                 }
             ],
-            "requires": null,
+            "requires": "Dimension Door 3",
             "keywords": [
-                ""
+                "Ongoing 3"
             ]
         },
         {
             "name": "Geistblast",
-            "type": "",
-            "max_ranks": null,
+            "type": "Ability",
+            "max_ranks": 3,
             "effect": "",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target [current] takes 2 Hits and gains Afraid 2.",
+                    "hits": 4,
+                    "effect": "One target [current] takes 2 Hits and gains Afraid X, X. . ."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori"
             ]
         },
         {
             "name": "Glacial Ray",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target [current] gains Restrained 2 and Slowed 4.",
+                    "hits": 5,
+                    "effect": "One target [current] gains Restrained 2, Slowed 4, and Vulnerable 2."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
-            ]
-        },
-        {
-            "name": "Grim Return",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
+                "Rime"
             ]
         },
         {
             "name": "Grow / Shrink Target",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Touch one target in your Current Zone and choose one (1):
+                    <ul>
+                        <li>The target grows in size, gaining +5 Grit, +5 Vigor, and adding +1d4 Bonus Hits to any result set using Endure, Exert, Strike, or Grapple Ongoing.</li>
+                        <li>The target shrinks in size, gaining +5 Reflexes and adding +1d4 Bonus Hits to any result set using Stealth or Tumple.</li>
+                        "
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 4",
+                "Forma"
             ]
         },
         {
