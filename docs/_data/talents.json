@@ -1094,7 +1094,7 @@
             ]
         },
         {
-            "tree": "Martial Artist",
+            "tree": "Black Belt",
             "name": "Martial Arts (3)",
             "type": "Static",
             "rank": "1",
@@ -1131,7 +1131,7 @@
             "tree": "Black Belt",
             "name": "Kansetsu Geri",
             "type": "Trigger",
-            "rank": 2,
+            "rank": "3",
             "requires": "Any Aggressive Stance",
             "replaces": null,
             "effect": [
@@ -1142,7 +1142,7 @@
             "tree": "Black Belt",
             "name": "Renraku Waza",
             "type": "Ability",
-            "rank": 3,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1151,7 +1151,7 @@
             ]
         },
         {
-            "tree": "Martial Artist",
+            "tree": "Black Belt",
             "name": "Martial Arts (4)",
             "type": "Static",
             "rank": "3",
