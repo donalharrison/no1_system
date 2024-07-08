@@ -1690,12 +1690,12 @@
             "effect": "Spend 2 Momentum to roll 1d20 as X.  If X is less than the Challenge + Entropy, mark 1 Hit.  Repeat this process until X is greater than Challenge + Entropy or you choose to stop.",
             "threshold": [
                 {
-                    "hits": 1,
-                    "effect": "One target in your Current Zone takes 3 Hits.",
-                    "hits": 3,
-                    "effect": "All targets in your Current Zone takes 3 Hits.",
-                    "hits": 6,
-                    "effect": "Reduce the Entropy by -3 and immediately take another Action.",
+                    ["hits": 1,
+                    "effect": "One target in your Current Zone takes 3 Hits."],
+                    ["hits": 3,
+                    "effect": "All targets in your Current Zone takes 3 Hits."],
+                    ["hits": 6,
+                    "effect": "Reduce the Entropy by -3 and immediately take another Action."],
                 }
             ],
             "requires": null,
