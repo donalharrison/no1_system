@@ -43,8 +43,8 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
         {% endif %}
         <p><strong>Effect</strong>
         <br>{{s.effect}}</p>
-        {% assign thresh = s.threshold %}
-            {% for t in s.thresh %}
+        {% assign thresh == s.threshold %}
+            {% for t in thresh %}
                 <h5>Threshold {{t.hits}} </h5>
                 <p>{{t.effect}}</p>
             {% endfor %}
