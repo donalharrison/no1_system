@@ -16,7 +16,7 @@ If you are in the same Zone as the source of your fear, you must Shift out of yo
 
 ## Blind
 #### Fixed
-While Blind, add Hazard 4 to your rolls.  Your Blind rating decreases by -1 at the end of each of your turns.
+While Blind, add Hazard 4 to all of your rolls and you do not create Hazards when creatures Shift to Move past you.  Your Blind rating decreases by -1 at the end of each of your turns.
 
 ## Charmed
 #### Variable
@@ -24,14 +24,14 @@ While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.
 
 ## Confused
 #### Fixed
-While Confused, add 2 Hazard to your rolls.  Your Confused rating decreases by -1 at the end of each of your turns.
+While Confused, add 2 Hazard to your rolls and you do not create Hazards when creatures Shift to Move past you.  Your Confused rating decreases by -1 at the end of each of your turns.
 
 ## Dazed
 #### Fixed
-Until the end of your next turn, you can either take one action or one shift, but not both.  Your Dazed rating decreases by -1 at the end of each of your turns.
+Until the end of your next turn, you can either take one action or one shift, and you do not create Hazards when creatures Shift to Move past you.  Your Dazed rating decreases by -1 at the end of each of your turns.
 
 ## Disguised
-### Variable
+#### Variable
 Your Disguised rating determines how well you have concealed your identity.  Actions taken to use Insight, Investigate, or Perceive your true identity reduce your Disgeised rating by Hits in their result set.
 
 ## Dying

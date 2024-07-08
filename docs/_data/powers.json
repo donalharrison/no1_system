@@ -1360,13 +1360,13 @@
         },
         {
             "name": "Contact Other Plane",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Increase the Entropy by +5 to reach out to the Cosm.  On 3+ Hits, you establish contact with someone or something.  You can ask X questions, where X is number of Hits in the reuslt set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 5,
+                    "effect": "Same as above, but decrease the Entropy by -2."
                 }
             ],
             "requires": null,
@@ -1376,45 +1376,48 @@
         },
         {
             "name": "Crippling Blight",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Touch one target you can see in your Current Zone.  They gain Vulnerable 1 and gain Fatigue X, where X is euqla to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Touch up to 2 targets you can see in your Current Zone.  They gain Vulnerable 1 and gain Fatigue X, where X is euqla to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Plaga"
             ]
         },
         {
             "name": "Cyclone",
-            "type": "",
+            "type": "Ability",
             "max_ranks": null,
-            "effect": "",
+            "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard 3.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone.  Up to X targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard X, where X is equal to Hits in the resul set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 2",
+                "Aether",
+                "Squall"
             ]
         },
         {
             "name": "Damping Pulse",
-            "type": "",
+            "type": "Ability",
             "max_ranks": null,
-            "effect": "",
+            "effect": "Up to 2 targets in your Current or an Adjacent Zone gain Fatigued 2.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to 3 targets in your Current or an Adjacent Zone gain Fatigued 2."
                 }
             ],
             "requires": null,
@@ -1424,141 +1427,146 @@
         },
         {
             "name": "Dark Blast",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": "One target in your Current or an Adjacent zone loses X Grit, where X is equal to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "One target in your Current or an Adjacent zone loses X + 2 Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Nox"
             ]
         },
         {
             "name": "Dazzling Lights",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Score 1+ Hits to have up to 3 targets in your Current Zone gain Dazed 1.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to 3 targets in your Current Zone gain Confused 2."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aether",
+                "Lux"
             ]
         },
         {
             "name": "Death Cloud",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 3+ Hits to have all creatures in your Current or an Adjacent Zone gain Wounded 1 and lose 3 Grit.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 6,
+                    "effect": "All creatures in your Current or an Adjacent Zone become Wounded 3 and lose X Grit, where X is equal to Hits in the result set."
                 }
             ],
-            "requires": null,
+            "requires": "Dark Blast 2",
             "keywords": [
-                ""
+                "Mori"
             ]
         },
         {
             "name": "Deathmark",
-            "type": "",
+            "type": "Ability",
             "max_ranks": null,
-            "effect": "",
+            "effect": "Score 1+ Hits to have one target in your Current Zone gain Vulnerable 2.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target in your Current Zone gains Vulnerable 2 at the beginning of each of your turns."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3"
             ]
         },
         {
             "name": "Detect Magic",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Gain Aura X to sense any presence any magical Power in your Current Zone, where X is equal to Hits in thes result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Gain Aura X to sense any presence  any magical Power in your Current Zone, where X is equal to Hits in thes result set.  Add +1d4 Bonus Hits to any Action you use to identify the nature or source of the Power."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aura"
             ]
         },
         {
             "name": "Detention Sphere",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Score 2+ Hits to make on target in your Current zone Aura 2.  While the Aura is active, they cannot be the target of any Actions and have Stunned 2 and Unconscious 1.  You may use a Shift on each of your turns to Move the Detention Sphere.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Same as above, except the Detention Sphere is Aura X. where x is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3",
+                "Aether",
+                "Lux",
+                "Ordi"
             ]
         },
         {
             "name": "Dimension Door",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": "Score 1+ Hits to allow one target in your Current Zone to move to any Zone up to 2 adjacencies away.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Score 1+ Hits to allow up to targets in your Current Zone to move to any Zone up to 2 adjacencies away."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Locus"
             ]
         },
         {
             "name": "Disintegrate",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Spend 5 Momentum to have one target in your Current or an Adjacent Zone takes X + 2 Hits, where X is equal to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 8,
+                    "effect": "Spend 5 Momentum to have one target in your Current or an Adjacent Zone loses all Grit.  If the target can gain the Dying status, they do."
                 }
             ],
-            "requires": null,
+            "requires": "Fireball 3",
             "keywords": [
-                ""
+                "Inferno"
             ]
         },
         {
             "name": "Dispel",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": "Score 2+ Hits to reduce the rating of one Aura you can sense in your Current Zone by 2.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Reduce the rating of one Aura you can sense in your Current Zone by X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -1568,66 +1576,69 @@
         },
         {
             "name": "Displacement Wave",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 2+ Hits to push up to 3 targets in your Current Zone into an Adjacent Zone.  They each become Prone.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Push up to X targets in your Current Zone into an Adjacent Zone, where X is equal to Hits in the result set.  They each become Prone."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Torrent"
             ]
         },
         {
             "name": "Doom Blade",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "Score 2+ Hits to have one target in your Curent Zone loses 4 Grit.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target in your Curent Zone loses X Grit, wher X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori"
             ]
         },
         {
             "name": "Ethereal Haze",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": "Score 2+ Hits to prevent any Hits to Defenses or Grit until the end of your next turn.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Score 2+ Hits to prevent any Hits to Defenses or Grit until the end of your next turn.  Increase the Timer by +1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Aether",
+                "Ordi",
+                "Vivus"
             ]
         },
         {
             "name": "Exsanguinate",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": "One target in your Current Zone loses X Grit and you regain 2 Grit, where X is equal to Hits in the result set.",
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target in your Current Zone loses X + 2 Grit and you regain X Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Sangui"
             ]
         },
         {
