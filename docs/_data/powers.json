@@ -1048,7 +1048,7 @@
             "name": "",
             "type": "",
             "max_ranks": null,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
                     "hits": null,
@@ -1066,7 +1066,7 @@
             "name": "",
             "type": "",
             "max_ranks": null,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
                     "hits": null,
@@ -1191,7 +1191,7 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Score 3+ Hits to deal 2 Hits to up to 3 targets in an Adjacent Zone."
+                    "effect": "Deal 2 Hits to up to 3 targets in an Adjacent Zone."
                 },
                 {
                     "hits": 5,
@@ -1249,7 +1249,7 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Deal X to one Target in your Current or an Adjacent Zone, X. . ."
+                    "effect": "Deal X to one Target in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
                 },
                 {
                     "hits": 5,
@@ -1463,11 +1463,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard 3."
+                    "effect": "Target your Current or an Adjacent Zone.  Up to 3 targets in are pushed to a different Zone adjacent to targetted Zone, and the targetted Zone gains Hazard 3."
                 },
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone.  Up to X targets in are pushed to a different Zone adjacent to Targetted Zone, and the Targetted Zone gains Hazard X, where X is equal to Hits in the resul set."
+                    "effect": "Target your Current or an Adjacent Zone.  Up to X targets in are pushed to a different Zone adjacent to targetted Zone, and the targetted Zone gains Hazard X, where X is equal to Hits in the resul set."
                 }
             ],
             "requires": null,
@@ -1966,7 +1966,7 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One taget in your Current Zone takes X Hits and gain Slowed 2, X. . ."
+                    "effect": "One taget in your Current Zone takes X Hits and gain Slowed 2, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -1978,7 +1978,7 @@
             "name": "Frost Breath",
             "type": "Ability",
             "max_ranks": 4,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
                     "hits": 1,
@@ -1990,7 +1990,7 @@
                 },
                 {
                     "hits": 1,
-                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed X, X. . .",
+                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed X, where X is equal to Hits in the result set.",
                 }
             ],
             "requires": "Frostbite 2",
@@ -2014,7 +2014,7 @@
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent Zone take X Hits, X. . .",
+                    "effect": "One target in your Current or an Adjacent Zone take X Hits, where X is equal to Hits in the result set.",
                 }
             ],
             "requires": null,
@@ -2030,7 +2030,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target [current] takes 3 Hits.
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.
                     <br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
@@ -2047,11 +2047,11 @@
             "threshold": [
                 {
                     "hits": 4,
-                    "effect": "Open an arcane gateway in your Current Zone to a location in a different world of the Cosm."
+                    "effect": "Open an arcane gateway in your Current Zone to a location in a different world of the Cosm.  You cannot choose the destination."
                 },
                 {
                     "hits": 7,
-                    "effect": "Open an arcane gateway in your Current Zone to a destination in a different world of the Cosm.  You may choose the destination."
+                    "effect": "Open an arcane gateway in your Current Zone to a destination in a different world of the Cosm.  You choose the destination."
                 }
             ],
             "requires": "Dimension Door 3",
@@ -2063,15 +2063,15 @@
             "name": "Geistblast",
             "type": "Ability",
             "max_ranks": 3,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target [current] takes 2 Hits and gains Afraid 2."
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraid 2."
                 },
                 {
                     "hits": 4,
-                    "effect": "One target [current] takes 2 Hits and gains Afraid X, X. . ."
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraid X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2087,11 +2087,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "One target [current] gains Restrained 2 and Slowed 4."
+                    "effect": "One target in your Current or an Adjacent Zone gains Restrained 2 and Slowed 4."
                 },
                 {
                     "hits": 5,
-                    "effect": "One target [current] gains Restrained 2, Slowed 4, and Vulnerable 2."
+                    "effect": "One target in your Current or an Adjacent Zone gains Restrained 2, Slowed 4, and Vulnerable 2."
                 }
             ],
             "requires": null,
@@ -2164,7 +2164,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current or an Adjacent Zone takes X Hits and gains Slowed 1, where X is equal to Hits in the result set.",
+                    "effect": "One target in your Current or an Adjacent Zone takes X Hits and gains Slowed 1, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 4,
                     "effect": "One target in your Current or an Adjacent Zone loses X + 2 Hits and gains Slowed 1, where X is equal to Hits in the result set."
                 }
@@ -2182,7 +2184,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Up to X dead target and Gear in your Current Zone are reduced to ashes, X. . ."
+                    "effect": "Up to X dead target and Gear in your Current Zone are reduced to ashes, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2198,7 +2200,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current or an Adjacent Zone becomes Provoked Ongoing.",
+                    "effect": "One target in your Current or an Adjacent Zone becomes Provoked Ongoing."
+                },
+                {
                     "hits": 3,
                     "effect": "One target in your Current or an Adjacent Zone becomes Provoked by another target in the same Zone Ongoing."
                 }
@@ -2218,9 +2222,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone becomes Invisible Ongoing.",
+                    "effect": "One target in your Current Zone becomes Invisible Ongoing."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to 2 targets in your Current Zone becomes Invisible Ongoing.",
+                    "effect": "Up to 2 targets in your Current Zone becomes Invisible Ongoing."
                 }
             ],
             "requires": null,
@@ -2236,20 +2242,21 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone takes X Hits, X. . ., then choose one (1):
+                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):
                     <ul>
                         <li>The target gains Restrained 3.</li>
                         <li>You pull the target into your Current Zone.</li>
                         <li>The target gain Afrai 2.</li>
-                    </ul>",
+                    </ul>"
+                },
+                {
                     "hits": 4,
-                    "effect": "One target in your Current Zone or and Adjacent takes X Hits, X. . ., then choose two (2):
+                    "effect": "One target in your Current Zone or and Adjacent takes X Hits, where X is equal to Hits in the result set., then choose two (2):
                     <ul>
                         <li>The target gains Restrained 3.</li>
                         <li>You pull the target into your Current Zone.</li>
                         <li>The target gain Afrai 2.</li>
-                    </ul>",
-                    
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -2270,14 +2277,16 @@
                         <li>The target gains Restrained 3.</li>
                         <li>You pull the target into your Current Zone.</li>
                         <li>The target gain Wounded 1.</li>
-                    </ul>",
+                    </ul>"
+                },
+                {
                     "hits": 4,
                     "effect": "One target in your Current Zone or and Adjacent takes 2 Hits, then choose two (2):
                     <ul>
                         <li>The target gains Restrained 3.</li>
                         <li>You pull the target into your Current Zone.</li>
                         <li>The target gain Wounded 1.</li>
-                    </ul>",
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -2293,9 +2302,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Increase the Entropy by +3 and one target [current] takes X +2 Hits, X. . .",
+                    "effect": "Increase the Entropy by +3 and one target in your Current or an Adjacent Zone takes X +2 Hits, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 4,
-                    "effect": "Increase the Entropy by +2 and one target [current] takes X +3 Hits, X. . ."
+                    "effect": "Increase the Entropy by +2 and one target in your Current or an Adjacent Zone takes X +3 Hits, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2311,9 +2322,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Up to 3 targets in up to 4 Linear Zones take X Hits, X. . .",
+                    "effect": "Up to 3 targets in up to 4 Linear Zones take X Hits, where X is equal to Hits in the result set."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to 3 targets in up to 4 Linear Zones take X Hits and gain Stunned 2, X. . ."
+                    "effect": "Up to 3 targets in up to 4 Linear Zones take X Hits and gain Stunned 2, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2329,9 +2342,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Conjure a Lightning Storm [current] Ongoing.  On each of your turns your can use a Shift to move the Lightning Storm one Adjacent Zone or have one target in the Lightning Storm's Current Zone take +2d4 Bonus Hits.",
+                    "effect": "Conjure a Lightning Storm in your Current or an Adjacent Zone Ongoing.  On each of your turns your can use a Shift to move the Lightning Storm one Adjacent Zone or have one target in the Lightning Storm's Current Zone take +2d4 Bonus Hits."
+                },
+                {
                     "hits": 3,
-                    "effect": "Conjure a Lightning Storm [current] Ongoing.  On each of your turns your can use a Shift to move the Lightning Storm one Adjacent Zone or have up to 2 targets in the Lightning Storm's Current Zone take +2d4 Bonus Hits."
+                    "effect": "Conjure a Lightning Storm in your Current or an Adjacent Zone Ongoing.  On each of your turns your can use a Shift to move the Lightning Storm one Adjacent Zone or have up to 2 targets in the Lightning Storm's Current Zone take +2d4 Bonus Hits."
                 }
             ],
             "requires": null,
@@ -2347,7 +2362,7 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Conjure a telekenetic Hand [current] to lift and carry up to X Gear, X. . .  The Hand can use one Shift on each of your turns and you may use a Shift on each of your turns to have the Hand take 1 Action."
+                    "effect": "Conjure a telekenetic Hand in your Current or an Adjacent Zone to lift and carry up to X Gear, where X is equal to Hits in the result set.  The Hand can use one Shift on each of your turns and you may use a Shift on each of your turns to have the Hand take 1 Action."
                 }
             ],
             "requires": null,
@@ -2363,7 +2378,7 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "You gain an Armor Defense X until you cast this spell again, X. . ."
+                    "effect": "You gain an Armor Defense X until you cast this spell again, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2379,9 +2394,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Create 3 magical darts that each deal 2 Hits.  You may target up to 3 targets [current].",
+                    "effect": "Create 3 magical darts that each deal 2 Hits.  You may target up to 3 targets in your Current or an Adjacent Zone."
+                },
+                {
                     "hits": 3,
-                    "effect": "Create X magical darts that each deal 2 Hits, X. . .  You may target up to X targets [current]."
+                    "effect": "Create X magical darts that each deal 2 Hits, where X is equal to Hits in the result set.  You may target up to X targets in your Current or an Adjacent Zone."
                 }
             ],
             "requires": null,
@@ -2397,9 +2414,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target [current] gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing.",
+                    "effect": "One target in your Current or an Adjacent Zone gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to 2 targets [current] gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing.",
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing.",
                 }
             ],
             "requires": null,
@@ -2418,7 +2437,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "You may contact one target you know personally who is on your current plane, sending a message of 15 words or less.  The target may reply.",
+                    "effect": "You may contact one target you know personally who is on your current plane, sending a message of 15 words or less.  The target may reply."
+                },
+                {
                     "hits": 3,
                     "effect": "You may contact one target you know personally who is on your current plane, sending X message of 15 words or less, X . . .  The target may reply to each message."
                 }
@@ -2437,9 +2458,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone gains Aura 2 to add +1d4 Bonus Hits to any Action using Exert, Grapple, Strike, or Martial Arts.",
+                    "effect": "One target in your Current Zone gains Aura 2 to add +1d4 Bonus Hits to any Action using Exert, Grapple, Strike, or Martial Arts."
+                },
+                {
                     "hits": 3,
-                    "effect": "One target in your Current Zone gains Aura X to add +1d4 Bonus Hits to any Action using Exert, Grapple, Strike, or Martial Arts, X. . ."
+                    "effect": "One target in your Current Zone gains Aura X to add +1d4 Bonus Hits to any Action using Exert, Grapple, Strike, or Martial Arts, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2456,9 +2479,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target [current] gains Confused 2.",
+                    "effect": "One target in your Current or an Adjacent Zone gains Confused 2."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to 2 target [current] gain Confused 2.",
+                    "effect": "Up to 2 target in your Current or an Adjacent Zone gain Confused 2."
                 }
             ],
             "requires": null,
@@ -2474,7 +2499,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Move to any Adjacent Zone up ignoring Hazards.",
+                    "effect": "Move to any Adjacent Zone up ignoring Hazards."
+                },
+                {
                     "hits": 4,
                     "effect": "Move to any Zone up to 2 adjacencies away ignoring Hazards."
                 }
@@ -2492,7 +2519,9 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Up to 3 target in your Current or an Adjacent Zone gain lose 1 Grit and gain Fatigued 1.",
+                    "effect": "Up to 3 target in your Current or an Adjacent Zone gain lose 1 Grit and gain Fatigued 1."
+                },
+                {
                     "hits": 4,
                     "effect": "All targets in your Current or an Adjacent Zone gain lose 1 Grit and gain Fatigued 1."
                 }
@@ -2510,9 +2539,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target [current] loses the Flying keyword until the beginning of your next turn.",
+                    "effect": "One target in your Current or an Adjacent Zone loses the Flying keyword until the beginning of your next turn."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to 2 targets [current] lose the Flying keyword until the beginning of your next turn."
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone lose the Flying keyword until the beginning of your next turn."
                 }
             ],
             "requires": null,
@@ -2528,21 +2559,23 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Select one target [current] and choose one (1):
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
                     <ul>
-                        <li>The target takes X Hits to their Nerve, X. . .</li>
+                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
                         <li>The target gains Dazed 2 and Confused 2.</li>
                         <li>You read the targets surface thoughts.</li>
                     </ul>
-                    ",
+                    "
+                },
+                {
                     "hits": 4,
-                    "effect": "Select one target [current] and choose two (2):
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
                     <ul>
-                        <li>The target takes X Hits to their Nerve, X. . .</li>
+                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
                         <li>The target gains Dazed 2 and Confused 2.</li>
                         <li>You read the targets surface thoughts.</li>
                     </ul>
-                    ",
+                    "
                 }
             ],
             "requires": null,
@@ -2558,9 +2591,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "One target [current] gains Restrained 2 at the start of each of its turns Ongoing.",
+                    "effect": "One target in your Current or an Adjacent Zone gains Restrained 2 at the start of each of its turns Ongoing."
+                },
+                {
                     "hits": 5,
-                    "effect": "Up to two targets [current] gain Restrained 2 at the start of each of its turns Ongoing."
+                    "effect": "Up to two targets in your Current or an Adjacent Zone gain Restrained 2 at the start of each of its turns Ongoing."
                 }
             ],
             "requires": null,
@@ -2576,7 +2611,9 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Spend X Momentum.  All targets in your Current Zone take 2 Hits and X targets gain Dazed 1.  All targets in an Adjacent Zone take 1 Hit and X - 1 targets gain Dazed 1.",
+                    "effect": "Spend X Momentum.  All targets in your Current Zone take 2 Hits and X targets gain Dazed 1.  All targets in an Adjacent Zone take 1 Hit and X - 1 targets gain Dazed 1."
+                },
+                {
                     "hits": 4,
                     "effect": "Spend X Momentum.  All targets in your Current Zone take 2 Hits and X + 2 targets gain Dazed 1.  All targets in an Adjacent Zone take 1 Hit and X targets gain Dazed 1."
                 }
@@ -2594,7 +2631,9 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone takes 2 Hits and gains Blind 1.",
+                    "effect": "One target in your Current Zone takes 2 Hits and gains Blind 1."
+                },
+                {
                     "hits": 4,
                     "effect": "Up to 2 targets in your Current Zone takes 2 Hits and gains Blind 1."
                 }
@@ -2630,9 +2669,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Up to 2 targets in your Current Zone become Prone.",
+                    "effect": "Up to 2 targets in your Current Zone become Prone."
+                },
+                {
                     "hits": 4,
-                    "effect": "Up to X targets [current] become Prone."
+                    "effect": "Up to X targets in your Current or an Adjacent Zone become Prone."
                 }
             ],
             "requires": "Seismic Strikes 1",
@@ -2648,7 +2689,7 @@
             "threshold": [
                 {
                     "hits": 4,
-                    "effect": "One target [current] becomes trapped in the Ina.  If you Maintain Focus for 4+ rounds, the target reappears in a random location across the Cosm.  Otherwise, they reappear in the Zone where they were before this effect occured."
+                    "effect": "One target in your Current or an Adjacent Zone becomes trapped in the Ina.  If you Maintain Focus for 4+ rounds, the target reappears in a random location across the Cosm.  Otherwise, they reappear in the Zone where they were before this effect occured."
                 }
             ],
             "requires": null,
@@ -2682,7 +2723,9 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Move to any Adjacent Zone up ignoring Hazards.",
+                    "effect": "Move to any Adjacent Zone ignoring Hazards."
+                },
+                {
                     "hits": 4,
                     "effect": "Move to any Zone up to 2 adjacencies away ignoring Hazards."
                 }
@@ -2694,125 +2737,150 @@
         },
         {
             "name": "Shard Volley",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Deal 2 Hits to up to 3 targets in an Adjacent Zone."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Deal 3 Hits to up to 4 targets in an Adjacent Zone."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tellus"
             ]
         },
         {
             "name": "Shield",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Trigger",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "When you suffer Hits from an effect you can see, gain an Armor Defnse X until the beginning of your next turn, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ordi"
             ]
         },
         {
             "name": "Shift Planes",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "Up to X +2 targets that you can see and allow you immediately Shift to a different world of the Cosm, where X is equal to Hits in the result set.  You cannot choose the destination world."
+                },
+                {
+                    "hits": 6,
+                    "effect": "Up to X +2 targets that you can see and allow you immediately Shift to a different world of the Cosm, where X is equal to Hits in the result set.  You choose the destination world."
                 }
             ],
-            "requires": null,
+            "requires": "Gate 2",
             "keywords": [
-                ""
+                "Locus"
             ]
         },
         {
             "name": "Silence",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to X targets in your Current Zone make no noise Ongoing, where X is equal to Hits in the result set.  "
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 3"
             ]
         },
         {
             "name": "Sleep",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Choose one target in your Current Zone.  If X is greater than their current Nerve, they gain Unconscious 2, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Choose one target in your Current Zone.  If X is greater than their current Nerve, they gain Unconscious 5, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mentis"
             ]
         },
         {
             "name": "Make the Time",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Spend 1 Momentum and increase the current Timer by 1."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Spend 1 Momentum and increase the current Timer by 2."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempor"
             ]
         },
         {
             "name": "Strangling Spores",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone take 1 Hit to Grit and gain Fatigued 1."
+                },
+                {
+                    "hits": 3,
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone take 3 Hits to Grit and gain Fatigued 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Phylla",
+                "Plaga"
             ]
         },
         {
             "name": "Stun Target",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Curent Zone gains Stunned 3."
+                },
+                {
+                    "hits": 5,
+                    "effect": "One target in your Curent Zone gains Stunned 5."
                 }
             ],
             "requires": null,
@@ -2822,157 +2890,147 @@
         },
         {
             "name": "Summon Spirit Animal",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "You may recruit a Beast of cost 1 or less from the Beast Minions table."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
             ]
         },
         {
             "name": "Sweltering Sunlight",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2."
+                },
+                {
+                    "hits": 5,
+                    "effect": "All targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Lux"
             ]
         },
         {
             "name": "Tainted Strikes",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 2,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone gains the following Aura 2:
+                    <h4 style='margin: 3px;'>Trigger &mdash </h4> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Mori",
+                "Nox",
+                "Plaga"
             ]
         },
         {
             "name": "Teleport",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "You and up to X willing targets in your Current Zone immediately transport to destination on this world, where X is equal to Hits in the result set.  If you are unfamiliar with the destination, you will arrive at a location close to, but not precisely at, the destination."
+                },
+                {
+                    "hits": 4,
+                    "effect": "You and up to X +3 willing targets in your Current Zone immediately transport to destination on this world, where X is equal to Hits in the result set.  If you are unfamiliar with the destination, you will arrive at a location close to, but not precisely at, the destination."
                 }
             ],
-            "requires": null,
+            "requires": "Dimension Door 1",
             "keywords": [
-                ""
+                "Locus"
             ]
         },
         {
             "name": "Thunder Clap",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "All targets in your Current Zone gain Dazed 2."
+                },
+                {
+                    "hits": 4,
+                    "effect": "All targets except you in your Current Zone gain Dazed 2."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tempest"
             ]
         },
         {
             "name": "Time Stop",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Choose 3 targets in your Current Zone.  Those targets gain 2 full rounds to act before the current Initative and Timer resume."
+                },
+                {
+                    "hits": 6,
+                    "effect": "Choose X targets in your Current Zone, where X is equal to Hits in the result set.  Those targets gain 2 full rounds to act before the current Initative and Timer resume."
                 }
             ],
-            "requires": null,
+            "requires": "Make the Time 3",
             "keywords": [
-                ""
+                "Tempor"
             ]
         },
         {
             "name": "Trumpet Blast",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone add +1d4 Bonus Hits to any action using Compsure, Endure, Exert, Focus, Grapple, Shoot, Strike, or Martial Arts on their next turn."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to x targets in your Current or an Adjacent Zone add +1d4 Bonus Hits to any action using Compsure, Endure, Exert, Focus, Grapple, Shoot, Strike, or Martial Arts on their next turn, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Bellor"
             ]
         },
         {
             "name": "Twincast",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Shift",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
-            ]
-        },
-        {
-            "name": "Veil of Somr",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
-            ]
-        },
-        {
-            "name": "Veil of Wintr",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Increase the Entropy by +1 Momentum to copy the effects of the next spell you cast this turn.  You may choose different targets for the copy."
                 }
             ],
             "requires": null,
@@ -2982,125 +3040,138 @@
         },
         {
             "name": "Vine Snare",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone gains Restrained 3."
+                },
+                {
+                    "hits": 4,
+                    "effect": "One target in your Current or an Adjacent Zone gains Restrained X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Phylla"
             ]
         },
         {
             "name": "Void Snare",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Trigger",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "When a target you can see moves into your Current Zone, they blink momentarily into the Ina, ending their turn."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Nihil"
             ]
         },
         {
-            "name": "Voidwalk",
-            "type": "",
+            "name": "Void Step",
+            "type": "Shift",
             "max_ranks": null,
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 0,
+                    "effect": "Increase the Entropy by +1 and Move to an Adjacent Zone ignoring Hazards."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Nihil"
             ]
         },
         {
             "name": "Volcanic Fallout",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Target your Current or an Adjacent Zone.  All targets in the targetted Zone take X Hits and the targetted Zone gains X Hazards, where X is equal to Hits in the result set."
                 }
             ],
-            "requires": null,
+            "requires": "Tellus 3",
             "keywords": [
-                ""
+                "Tellus"
             ]
         },
         {
             "name": "Volcanic Hammer",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits, becomes Prone, and gains Vulnerable 1."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Tellus"
             ]
         },
         {
             "name": "Waterknot",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone gain Restrained 4."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gain Restrained 4."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Torrent"
             ]
         },
         {
             "name": "Wildfire",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 4,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Increase the Entropy by +2 and target your Current or an Adjacent Zone.  The Targetted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Increase the Entropy by +3, icrease the Momentum by +2, and target your Current or an Adjacent Zone.  The Targetted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 2",
+                "Inferno"
             ]
         },
         {
             "name": "Wish",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 1,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 500,
+                    "effect": "Kleist commits Genocide"
                 }
             ],
             "requires": null,
@@ -3110,18 +3181,21 @@
         },
         {
             "name": "Withercrown",
-            "type": "",
-            "max_ranks": null,
-            "effect": "",
+            "type": "Ability",
+            "max_ranks": 3,
+            "effect": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone gains Fatigued 1 Ongoing."
                 }
             ],
             "requires": null,
             "keywords": [
-                ""
+                "Ongoing 2",
+                "Mori",
+                "Nihil",
+                "Plaga"
             ]
         }
     ],
@@ -3963,7 +4037,7 @@
             "name": "Drain Current",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4001,7 +4075,7 @@
             "name": "Stoke the Flames",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4069,7 +4143,7 @@
             "name": "Blazing Volley",
             "type": "Ability",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4086,7 +4160,7 @@
             "name": "Pyroclasm",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4103,7 +4177,7 @@
             "name": "Invoke the Dawn",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4120,7 +4194,7 @@
             "name": "Radiant Mending",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4137,7 +4211,7 @@
             "name": "Revitalizing Ray",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4154,7 +4228,7 @@
             "name": "Beaming Defiance",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4171,7 +4245,7 @@
             "name": "Sweltering Rays",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4188,7 +4262,7 @@
             "name": "Mind Rot",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4205,7 +4279,7 @@
             "name": "Tormenting Voice",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4222,7 +4296,7 @@
             "name": "Mind Spike",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4239,7 +4313,7 @@
             "name": "Psychic Spear",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4256,7 +4330,7 @@
             "name": "Invoke Death",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4273,7 +4347,7 @@
             "name": "Mortality Spear",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4290,7 +4364,7 @@
             "name": "Merciless Resolve",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4307,7 +4381,7 @@
             "name": "Alms of Vivus",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4324,7 +4398,7 @@
             "name": "Death's Touch",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4341,7 +4415,7 @@
             "name": "Culling Ritual",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4358,7 +4432,7 @@
             "name": "Invoke Despair",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4375,7 +4449,7 @@
             "name": "Negation Blast",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4392,7 +4466,7 @@
             "name": "Void Rift",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4409,7 +4483,7 @@
             "name": "Enter the Infinite",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4426,7 +4500,7 @@
             "name": "Dark Blast",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4443,7 +4517,7 @@
             "name": "Dark Ritual",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4460,7 +4534,7 @@
             "name": "Dread Fugue",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4477,7 +4551,7 @@
             "name": "Umbral Juke",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4494,7 +4568,7 @@
             "name": "Subtle Strike",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4511,7 +4585,7 @@
             "name": "Vengeance of Shadows",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4528,7 +4602,7 @@
             "name": "Eclipse",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4545,7 +4619,7 @@
             "name": "Spreading Darkness",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4562,7 +4636,7 @@
             "name": "Eyes of Night",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4579,7 +4653,7 @@
             "name": "Pain Bolt",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4596,7 +4670,7 @@
             "name": "Wrath of Frost",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4613,7 +4687,7 @@
             "name": "Freezing Surge",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4630,7 +4704,7 @@
             "name": "Forstbite",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4647,7 +4721,7 @@
             "name": "Glacial Spike",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4664,7 +4738,7 @@
             "name": "Invoke the Winds",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4681,7 +4755,7 @@
             "name": "Stride of the Clouds",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4698,7 +4772,7 @@
             "name": "Zephyr Strike",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4715,7 +4789,7 @@
             "name": "Whirlwind",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4732,7 +4806,7 @@
             "name": "Seismic Surge",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4749,7 +4823,7 @@
             "name": "Invoke Calamity",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4766,7 +4840,7 @@
             "name": "Return to Nature",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4783,7 +4857,7 @@
             "name": "Crystal Volley",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4800,7 +4874,7 @@
             "name": "Slagstorm",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4817,7 +4891,7 @@
             "name": "Thunderous Charge",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4834,7 +4908,7 @@
             "name": "Lightning Strike",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4851,7 +4925,7 @@
             "name": "Hydro Blast",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4868,7 +4942,7 @@
             "name": "Water Spout",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4885,7 +4959,7 @@
             "name": "Cascade",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4902,7 +4976,7 @@
             "name": "Riptide",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4919,7 +4993,7 @@
             "name": "Water Whip",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4936,7 +5010,7 @@
             "name": "Tangle Wave",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4953,7 +5027,7 @@
             "name": "Soothing Waters",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4970,7 +5044,7 @@
             "name": "Crashing Wave",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -4987,7 +5061,7 @@
             "name": "Undertow",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -5004,7 +5078,7 @@
             "name": "Revitalize",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
@@ -5021,7 +5095,7 @@
             "name": "Rush of Vitality",
             "type": "",
             "cost": null,
-            "effect": "",
+            "effect": null,
             "current": null,
             "threshold": [
                 {
