@@ -24,7 +24,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 <div class="mytabs">
     <input type="radio" id="tab_all" name="mytabs" checked="checked">
     <label for="tab_all" style="font-size:130%">All Skills</label>
-    {% assign eskills = "Inferno,Lux,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent",Vivus" | split: ',' %}
+    {% assign eskills = "Aether,Inferno,Lux,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent",Vivus" | split: ',' %}
     {% for eskill in eskills %}
         {% assign tabid = 'tab_' | append: eskill %}
         <input type="radio" id="{{ tabid }}" name="mytabs">
@@ -33,11 +33,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
     <div class="tab">
     {% for t in techs %}
         {% assign i = forloop.index | modulo: 2 %}
-        {% if i == 0 %}
-            <div style="background-color: #4b476650; margin: 10px; padding: 5px;">
-        {% else %}
-            <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-        {% endif %}
+        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
             <h3 style="margin-top: 5px;">{{t.name}}</h3>
             <h4 style="margin-top: 5px;">{{t.type}}</h4>
             <em>{{t.keywords | join: ", "}}</em>
