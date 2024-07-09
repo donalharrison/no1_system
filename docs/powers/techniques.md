@@ -50,7 +50,6 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
         {% endif %}
     {% endfor %}
     </div>
-{% endfor %}
 </div>
 
 
