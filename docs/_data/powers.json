@@ -3952,7 +3952,7 @@
             "name": "Aether Spike",
             "type": "Ability",
             "cost": 0,
-            "effect": ,
+            "effect": null,
             "current": 2,
             "threshold": [
                 {
