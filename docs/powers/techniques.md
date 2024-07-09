@@ -22,7 +22,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 {% assign techs = site.data.powers.techniques %}
 
 <div class="mytabs">
-    {% assign eskills = site.data.power.techniques | map: "skill" | uniq | sort % %}
+    {% assign eskills = site.data.powers.techniques | map: "skill" | uniq | sort % %}
     {% for eskill in eskills %}
         {% assign tabid = 'tab_' | append: eskill %}
         <input type="radio" id="{{ tabid }}" name="mytabs">
