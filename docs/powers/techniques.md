@@ -18,6 +18,8 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 
 
 # Technique Lists
+
+<section>
 {% assign eskills = "Aether,Inferno,Lux,Mori,Nihil,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent,Vivus" | split: "," %}
 {% for skill in eskills %}
     <div style="background-color: #1f1d2b50; margin: 6px; padding: 5px;">
@@ -53,6 +55,8 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
     </div>
     <div height=5px></div>
 {% endfor %}
+</section>
+
 <style>
  
 .mytabs {
