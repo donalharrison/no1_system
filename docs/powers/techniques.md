@@ -46,13 +46,14 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
             {% endif %}
             {% assign thresh = t.threshold %}
             {% for t in thresh %}
-                <p><strong>Threshold &mdash {{t.hits}}</strong>
+                <p><strong>Threshold &mdash; {{t.hits}}</strong>
                 <br>{{t.effect}}</p>
             {% endfor %}
         </details>
         </div>
     {% endfor %}
     </div>
+    <div class="tab">
     {% assign eskills = ["Inferno", "Lux", "Nox", "Plaga", "Rime", "Squall", "Tellus", "Tempest", "Torrent", "Vivus"] %}
     {% for eskill in eskills %}
         {% assign tabid = 'tab_' | append: eskill %}
@@ -77,7 +78,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
                             {% endif %}
                             {% assign thresh = t.threshold %}
                             {% for t in thresh %}
-                                <p><strong>Threshold &mdash {{t.hits}}</strong>
+                                <p><strong>Threshold &mdash; {{t.hits}}</strong>
                                 <br>{{t.effect}}</p>
                             {% endfor %}
                         </div>
@@ -87,6 +88,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
             {% endfor %}
         </div>
     {% endfor %}
+    </div>
 </div>
 
 
