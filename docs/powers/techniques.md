@@ -54,7 +54,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
     {% endfor %}
     </div>
     <div class="tab">
-    {% assign eskills = "Inferno,Lux,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent",Vivus" | splite: ',' %}
+    {% assign eskills = "Inferno,Lux,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent",Vivus" | split: ',' %}
     {% for eskill in eskills %}
         {% assign tabid = 'tab_' | append: eskill %}
         <input type="radio" id="{{ tabid }}" name="mytabs">
