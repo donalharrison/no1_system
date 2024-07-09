@@ -277,81 +277,81 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     </summary>
     <p>Gain +1 rating in the <em>Dangerous</em> Trait, then choose a Species.</p>
     <p><em><strong>Species:</strong></em>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong>
             <br><em>You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.</em>
             <p>Gain +1 Skill Rank in Perceive.  You gain the ability to *Fly* keyword.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Devilspawn &mdash; </strong>
             <p><em>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Dwarf &mdash; </strong>
             <p><em>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Caft, Endure, History, Insight, Grapple, or Strike.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Elf &mdash; </strong>
             <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em>
             <br><em>Dangerous Subspecies</em>:</p>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Sereg-ar <em>(Blood Elf)</em></strong>
                 <br><em>Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Cosmology, Sangui, Shoot, Stealth, Strike, Survival, Tumble, or Plaga.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Irun-ar <em>(Dune Elf)</em></strong>
                 <br><em>Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Endure, Inferno, Martial Arts, Shoot, Strike, Survival, or Resist.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Ithindi <em>(Grey Elf)</em></strong>
                 <br><em>Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, Intimidate, Shoot, Stealth, Strike, or Tactics.</em></p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Hravani <em>(Wild Elf)</em></strong>
                 <br><em>Hravani, known as Wild Elves, are fierce and unconquerable, attuned with the untamed spirits of the wilderness. They are brutal protectors of the habitats they call home and embrace the primal aspects of life.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, Intimidate, Shoot, Stealth, Strike, Survival, or Perceive.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Felinar <em>(Catfolk)</em> &mdash; </strong>
             <p><em>The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.
             <br>Dangerous Subspecies</em>:</p>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Leino</strong>
                 <br><em>Lion men and women, known for their wisdom and warrior spirit.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Endure, Insight, Intimidate, Lead, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Tigon</strong>
                 <br><em>Tiger warriors and hunters, fierce and savage in battle.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Human &mdash; </strong>
             <p><em>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.</em></p>
             <p>Gain +1 rating in one other Trait of your choice.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Jätti &mdash; </strong>
             <p><em>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Composure, Endure, Exert, Focus, Grapple, Strike, or Tellus.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Orc &mdash; </strong>
             <p><em>Your kind are fierce and resilient known for their strength, combat prowess, and tribal cultures. You value honor and bravery, often living in close-knit clans that emphasize warrior traditions and survival in harsh environments.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Destroy, Exert, Grapple, Navigate, Strike, Survival, or Tactics.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Quarry-Breed <em>(Half-orc)</em>&mdash; </strong>
             <p><em>Bred by the Elves to be hunted for sport, your people are feared for their brutal nature.  Other species will avoid and not understand you.  Elves will despise you.</em></p>
             <p>Gain +1 Skill Rank in Exert, Perceive, Strike, or Survival.  When you Strike a target in melee combat, add +1d4 Bonus Hits to the result set.</p>
@@ -365,103 +365,103 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     </summary>
     <p>Gain +1 rating in the <em>Deft</em> Trait.</p>
         <p><em><strong>Species:</strong></em>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Dragonkin &mdash; </strong>
             <p><em>Fierce scaled creatures created by the ancient dragon tyrants.  You will be met with suspicion and hostility for your ancestor’s allegiance.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Dwarf &mdash; </strong>
             <p><em>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Caft, Endure, History, Insight, Grapple, or Strike.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Elf &mdash; </strong>
             <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em>
             <br><em>Deft Subspecies</em>:</p>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Nhul-ar <em>(Dark Elf)</em></strong>
                 <br><em>Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Legerdemain, Mori, Nox, Shoot, Stealth, Strike, or Perceive.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Dwin-ar <em>(Frost Elf)</em></strong>
                 <br><em>The Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Insight, Mori, Rime, Shoot, Stealth, or Strike.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Vallinde <em>(High Elf)</em></strong>
                 <br><em>The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in  harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Composure, Cosmology, History, Insight, Intuit, Lead, Lux, Ordi, Persuade, Shoot, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Ranor <em>(Moon Elf)</em></strong>
                 <br><em>Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Vey-ar <em>(Sea Elf)</em></strong>
                 <br><em>Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, History, Navigate, Operate, Strike, Survival, Tactics, or Torrent.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
-                    <strong>Telun-ar <em>(Sky Elf)</em></strong>
-                <p>Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.
-                    <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
+                <strong>Telun-ar <em>(Sky Elf)</em></strong>
+                <br><em>Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</em>
+                <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Erynor <em>(Wood Elf)</em></strong>
                 <br><em>Erynor, the Wood Elves, are deeply attuned to the natural world. They live harmoniously within lush woodlands, where their keen senses and agility make them exceptional hunters and guardians of nature. Their bond with the wilderness is strong, and they revere the spirits of the forest.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Intimidate, Perceive, Phylla, Shoot, Stealth, Strike, Survival, Tellus, or Tumble.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Felinar <em>(Catfolk)</em> &mdash; </strong>
             <p><em>The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.</em>
             <br><em>Dangerous Subspecies</em>:</p>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                         <strong>Tigon</strong>
                         <br><em>Tiger warriors and hunters, fierce and savage in battle.</em>
                         <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                         <strong>Lynari</strong>
                         <br><em>A mix of puma, panther, jaguar, and leopard traits, agile and stealthy.</em>
                         <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Legerdemain, Martial Arts, Perceive, Shoot, Stealth, Strike, Throw, or Tumble.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Goblin &mdash; </strong>
             <p><em>Known for you ingenuity and resourcefulness, Goblins excel in tinkering and trade, and often more ilicit activities.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Craft, Deceive, Implements, Legerdemain, Shoot, or Stealth.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Gnome &mdash; </strong>
             <p><em>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Analyze, Cosmology, Craft, Implements, Legerdemain, Mentis, Research, or Shoot.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Half-elf &mdash; </strong>
             <p><em>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Current Events, Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Human &mdash; </strong>
             <p><em>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.</em></p>
             <p>Gain +1 rating in one other Trait of your choice.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Halfling &mdash; </strong>
             <p><em>You are stout hearted and jovial.  Most people do not take as seriously as you might deserve, and sometimes that works out in your favor.</em></p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Skiv <em>(Ratfolk)</em> &mdash; </strong>
             <p><em>You are cunning and resourceful, known for your ability to thrive in any environment.  Your kind make excellent spies, thieves, and survivalists.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Legerdemain, Luck, Perceive, Plaga, or Stealth.</p>
@@ -475,88 +475,88 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     </summary>
     <p>Gain +1 rating in the <em>Savvy</em> Trait.</p>
     <p><em><strong>Species:</strong></em>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Aviar <em>(Birdfolk)</em> &mdash; </strong>
             <p><em>You are known for your keen vision, agility, and aerial prowess. Your people serve as messengers, scouts, and aerial warriors.  Aviar communities are found in high places, such as mountains and tall trees, maintaining a strong connection to the sky and nature.</em></p>
             <p>Gain +1 Skill Rank in Perceive.  You gain the ability to *Fly*, which allows you to Shift to Move Out of Your Current Zone vertically.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Devilspawn &mdash; </strong>
             <p><em>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Dwarf &mdash; </strong>
             <p><em>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Caft, Endure, History, Insight, Grapple, or Strike.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Elf &mdash; </strong>
             <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em>
             <br><em>Savvy Subspecies</em>:</p>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Nhul-ar <em>(Dark Elf)</em></strong>
                 <br><em>Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Legerdemain, Mori, Nox, Shoot, Stealth, Strike, or Perceive.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Dwin-ar <em>(Frost Elf)</em></strong>
                 <br><em>Frost Elves, or Dwin-ar, are spies and arcanists, acting historically as assassins and infiltrators for the elven empire.  Not seen in great numbers since before the Corruptor’s war, the Dwin-ari forged their frozen realm of Kor behind the impenetrable Hoarfrost Veil.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Insight, Mori, Rime, Shoot, Stealth, or Strike.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Vallinde <em>(High Elf)</em></strong>
                 <br><em>The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Composure, Cosmology, History, Insight, Intuit, Lead, Lux, Ordi, Persuade, Shoot, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Ranor <em>(Moon Elf)</em></strong>
                 <br><em>Moon Elves, the Ranor, gain power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.
                     <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Oror <em>(Sun Elf)</em></strong>
                 <br><em>Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Cosmology, Deceive, Destroy, Inferno, Lux, Lead, Perceive, or Persuade.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Ehelnor <em>(Star Elf)</em></strong>
                 <br><em>Star Elves, the Ehelnor, possess an innate connection to the Cosm, using celestial energies to peer into the mysteries of distant stars. With a keen sense of destiny, they often serve as prophets, guiding their people with visions of the future.  They largely reside in the plane of Sideria and are rarely seen within the material plane of Aerdth.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Telun-ar <em>(Sky Elf)</em></strong>
                 <br><em>Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Goblin &mdash; </strong>
             <p><em>Known for you ingenuity and resourcefulness, Goblins excel in tinkering and trade, and often more ilicit activities.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Craft, Deceive, Implements, Legerdemain, Shoot, or Stealth.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Gnome &mdash; </strong>
             <p><em>A history of near extinction has nurtured a desire to live life to the fullest.  Your curiosity and daring nature often make other folk wary of your motives.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Analyze, Cosmology, Craft, Implements, Legerdemain, Mentis, Research, or Shoot.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Half-elf &mdash; </strong>
             <p><em>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Current Events, Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Human &mdash; </strong>
             <p><em>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.</em></p>
             <p>Gain +1 rating in one other Trait of your choice.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Serafaed &mdash; </strong>
             <p><em>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.</em></p>
             <p></p>
@@ -570,60 +570,60 @@ Your character's Heritage captures the heritable traits of the lineage and deter
     </summary>
     <p>Gain +1 rating in the <em>Steady</em> Trait.</p>
     <p><em><strong>Species:</strong></em>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Dwarf &mdash; </strong>
             <p><em>You seek the glory and fortune stolen from your forebearers.  Many will assume your motives are only for profit.  Humans will expect you are looking for a fight.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Caft, Endure, History, Insight, Grapple, or Strike.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Elf &mdash; </strong>
             <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em>
             <br><em>Steady Subspecies</em>:</p>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Vallinde <em>(High Elf)</em></strong>
                 <br><em>The Vallinde, also known as High Elves, are the noble and regal leaders of elven society. They excel in mastery of Dawns and Stars, harnessing the power of light and celestial energies. With a deep reverence for their ancient heritage, they hold the mantle of leadership and wisdom, guiding the other subraces in times of need.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Composure, Cosmology, History, Insight, Intuit, Lead, Lux, Ordi, Persuade, Shoot, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Miurdan <em>(Mountain  Elf)</em></strong>
                 <br><em>Mountain Elves, the Miurdan, have an affinity and influence over stone, soil, and metals. In their solitary mountain realms, they are adept builders and formidable warriors, forging great fortresses and using elemental powers to defend their territories.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in History, Insight, Lead, Ordi, Perceive, Research, Shoot, Strike, Survival, or Tellus.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Vey-ar <em>(Sea Elf)</em></strong>
                 <br><em>Sea Elves, the Vey-ar, hare gifted with the ability to breathe underwater and command the tides. They are skilled navigators and explorers of the vast oceans, though most of their number were lost searching for uncharted shores beyond the horizons of Aerdth.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, History, Navigate, Operate, Strike, Survival, Tactics, or Torrent.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Telun-ar <em>(Sky Elf)</em></strong>
                 <br><em>>Sky Elves, or Telun-ar, are agile and graceful beings, riding the winds and navigating the skies with ease. Their connection to the air makes them skilled aerial warriors and explorers of the boundless sky.  They are mostly extinct in the modern age, having died in the conquest of Kviol and the quest to extinguish the Flame of Affliction.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Insight, Operate, Ordi, Perceive, Shoot, Stealth, Strike, Squall, Survival, or Tempest.</p>
             </div>
             <div height=5px></div>
-            <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+            <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                 <strong>Erynor <em>(Wood Elf)</em></strong>
                 <br><em>Erynor, the Wood Elves, are deeply attuned to the natural world. They live harmoniously within lush woodlands, where their keen senses and agility make them exceptional hunters and guardians of nature. Their bond with the wilderness is strong, and they revere the spirits of the forest.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Intimidate, Perceive, Phylla, Shoot, Stealth, Strike, Survival, Tellus, or Tumble.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Felinar <em>(Catfolk)</em> &mdash; </strong>
             <p><em>The Felinar are a proud and diverse species of cat-like humanoids, known for their agility, strength, and keen senses. They are divided into various subspecies, each with distinct characteristics and cultural traits.</em>
             <br><em>Dangerous Subspecies</em>:</p>
-                <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+                <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Leino</strong>
                     <br><em>Lion men and women, known for their wisdom and warrior spirit.</em>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Human &mdash; </strong>
             <p><em>Your people are more versatile and adaptable than any other species.  Other folk look to you to combat the growing chaos, but the strength of the humans is faltering in this late age.</em></p>
             <p>Gain +1 rating in one other Trait of your choice.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Jätti &mdash; </strong>
             <p><em>Towering over most other humanoid races, you possess the immense strength and resilience of your giant ancestors, coupled with the adaptability and ingenuity of your human heritage.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Composure, Endure, Exert, Focus, Grapple, Strike, or Tellus.</p>
@@ -637,51 +637,51 @@ Your character's Heritage captures the heritable traits of the lineage and deter
 </summary>
     <p>Gain +1 rating in the <em>Uncanny</em> Trait.</p>
     <p><em><strong>Species:</strong></em>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Devilspawn &mdash; </strong>
             <p><em>Generations of persecution have left your people scattered and few.  Most people distrust your infernal heritage. Gnomes and dwarves might greet you with violence.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Deceive, Destroy, Inferno, Lead, Mori, or Persuade.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Elf &mdash; </strong>
             <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em>
             <br><em>Uncanny Subspecies</em>:</p>
-                <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+                <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Sereg-ar <em>(Blood Elf)</em></strong>
                     <br><em>Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</em>
                     <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Cosmology, Sangui, Shoot, Stealth, Strike, Survival, Tumble, or Plaga.</p>
                 </div>
                 <div height=5px></div>
-                <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+                <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Nhul-ar <em>(Dark Elf)</em></strong>
                     <br><em>Dark Elves, the Nhul-ar, dwell in the shadows under the surface world, embracing the enigmatic nature of darkness. Skilled infiltrators and stealthy assassins, they value secrecy and autonomy, often seeking to protect their kind from the world above.</em>
                     <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Deceive, Legerdemain, Mori, Nox, Shoot, Stealth, Strike, or Perceive.</p>
                 </div>
                 <div height=5px></div>
-                <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+                <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Ranor <em>(Moon Elf)</em></strong>
                     <br><em>Moon Elves, the Ranor, hold mastery over the Nights Form, gaining power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</em>
                     <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
                 </div>
                 <div height=5px></div>
-                <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+                <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Oror <em>(Sun Elf)</em></strong>
                     <br><em>Sun Elves, or Oror, are radiant beings adept at manipulating solar energies and have a profound connection to the light of Aedrth’s suns. Known for their intellectual pursuits and artistic finesse, they are keepers of ancient knowledge and custodians of their rich cultural heritage.</em>
                     <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Bellor, Cosmology, Deceive, Destroy, Inferno, Lux, Lead, Perceive, or Persuade.</p>
                 </div>
                 <div height=5px></div>
-                <div style='background-color: #211f2b50; margin: 10px; padding: 5px;'>
+                <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
                     <strong>Sieluni  <em>(Soul Elf)</em></strong>
                     <br><em>Soul Elves, or Sieluni, possess a deep connection to the spirits of the Cosm. They are dreamwalkers, able to traverse the realm of dreams and unlock hidden truths. They possess unique abilities to connect with the ethereal realm, often taking prolonged pilgrimages into the ghostly planes communing with the dead.  They serve as spiritual guides and are often healers, providing solace and wisdom to their kin.  Despite this powerful affinity, their connection to the spirit realms leaves them untrusted by most, even their elven kin.</em>
                     <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Compsure, Cosmology, History, Insight, Intuit, Luck, Mori, Nihil, Plaga, Tempor, or Vivus.</p>
             </div>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Half-elf &mdash; </strong>
             <p><em>You are the offspring of elves and humans, living in the margins of both societies.  You possess a unique blend of traits from both parent races, often inheriting the grace and longevity of elves combined with the resilience and versatility of humans.  Humans will assume you are an elf spy, while elves will think of you as a bastard.</em></p>
             <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Current Events, Focus, Perceive, Persuade, Shoot, Stealth, Strike, Tactics, or Tumble.</p>
         </div>
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <div style="background-color: #37344f50; margin: 10px; padding: 10px;">
             <strong>Serafaed &mdash; </strong>
             <p><em>You are born from the union of Seraf and humans, or through the divine blessings of celestial beings. You carry the ethereal beauty and grace of your celestial ancestry, coupled with the resilience and versatility of your mortal existence.</em></p>
             <p></p>
