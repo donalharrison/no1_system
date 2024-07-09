@@ -1289,11 +1289,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone becomes Afraid of you and gains Fatigued X, where x is equal to Hits in the result set."
+                    "effect": "One target in your Current Zone becomees Afraidd of you and gains Fatigued X, where x is equal to Hits in the result set."
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to two targets in your Current Zone become Afraid of you and gains Fatigued X, where x is equal to Hits in the result set."
+                    "effect": "Up to two targets in your Current Zone becomee Afraidd of you and gains Fatigued X, where x is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -1551,7 +1551,7 @@
                 },
                 {
                     "hits": 6,
-                    "effect": "All creatures in your Current or an Adjacent Zone become Wounded 3 and lose X Grit, where X is equal to Hits in the result set."
+                    "effect": "All creatures in your Current or an Adjacent Zone becomee Wounded 3 and lose X Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": "Dark Blast 2, Necrotic Fumes 1",
@@ -1690,11 +1690,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Move up to 3 targets in your Current Zone into an Adjacent Zone.  They each become Prone."
+                    "effect": "Move up to 3 targets in your Current Zone into an Adjacent Zone.  They each becomee Prone."
                 },
                 {
                     "hits": 4,
-                    "effect": "Push up to X targets in your Current Zone into an Adjacent Zone, where X is equal to Hits in the result set.  They each become Prone."
+                    "effect": "Push up to X targets in your Current Zone into an Adjacent Zone, where X is equal to Hits in the result set.  They each becomee Prone."
                 }
             ],
             "requires": null,
@@ -1924,11 +1924,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Target your Current or an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell."
+                    "effect": "Target your Current or an Adjacent Zone.  targetted Zone gains Hazard 1 and all targets in the targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell."
                 },
                 {
                     "hits": 3,
-                    "effect": "Target your Current and an Adjacent Zone.  Targetted Zone gains Hazard 1 and all targets in the Targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell.",
+                    "effect": "Target your Current and an Adjacent Zone.  targetted Zone gains Hazard 1 and all targets in the targetted Zone gain Confused 1 that the start of each of their turns while you Maintain Focus on this spell.",
                 }
             ],
             "requires": null,
@@ -2067,11 +2067,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraid 2."
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraidd 2."
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraid X, where X is equal to Hits in the result set."
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraidd X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -2200,11 +2200,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current or an Adjacent Zone becomes Provoked Ongoing."
+                    "effect": "One target in your Current or an Adjacent Zone becomees Provoked Ongoing."
                 },
                 {
                     "hits": 3,
-                    "effect": "One target in your Current or an Adjacent Zone becomes Provoked by another target in the same Zone Ongoing."
+                    "effect": "One target in your Current or an Adjacent Zone becomees Provoked by another target in the same Zone Ongoing."
                 }
             ],
             "requires": null,
@@ -2222,11 +2222,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone becomes Invisible Ongoing."
+                    "effect": "One target in your Current Zone becomees Invisible Ongoing."
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to 2 targets in your Current Zone becomes Invisible Ongoing."
+                    "effect": "Up to 2 targets in your Current Zone becomees Invisible Ongoing."
                 }
             ],
             "requires": null,
@@ -2242,20 +2242,20 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):
+                    "effect": "One target in your Current or and Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):
                     <ul>
                         <li>The target gains Restrained 3.</li>
                         <li>You pull the target into your Current Zone.</li>
-                        <li>The target gain Afrai 2.</li>
+                        <li>The target gain Afraid 2.</li>
                     </ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current Zone or and Adjacent takes X Hits, where X is equal to Hits in the result set., then choose two (2):
+                    "effect": "One target in your Current or and Adjacent Zone or and Adjacent takes X Hits, where X is equal to Hits in the result set., then choose two (2):
                     <ul>
                         <li>The target gains Restrained 3.</li>
                         <li>You pull the target into your Current Zone.</li>
-                        <li>The target gain Afrai 2.</li>
+                        <li>The target gain Afraid 2.</li>
                     </ul>"
                 }
             ],
@@ -2414,11 +2414,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing."
+                    "effect": "One target in your Current or an Adjacent Zone gains Afraidd 1 and Vulnerable 1 on each of their turns Ongoing."
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing.",
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraidd 1 and Vulnerable 1 on each of their turns Ongoing.",
                 }
             ],
             "requires": null,
@@ -2652,7 +2652,7 @@
                 {
                     "hits": 2,
                     "effect": "One target in your Current Zone gains the following Ongoing:
-                    <h4 style='margin: 3px;'>Trigger &mdash </h4> When you Strike or use your Martial Arts and score 3+ Hits, your target becomes Prone."
+                    <h4 style='margin: 3px;'>Trigger &mdash </h4> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
                 }
             ],
             "requires": null,
@@ -2669,11 +2669,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Up to 2 targets in your Current Zone become Prone."
+                    "effect": "Up to 2 targets in your Current Zone becomee Prone."
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to X targets in your Current or an Adjacent Zone become Prone."
+                    "effect": "Up to X targets in your Current or an Adjacent Zone becomee Prone."
                 }
             ],
             "requires": "Seismic Strikes 1",
@@ -2689,7 +2689,7 @@
             "threshold": [
                 {
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent Zone becomes trapped in the Ina.  If you Maintain Focus for 4+ rounds, the target reappears in a random location across the Cosm.  Otherwise, they reappear in the Zone where they were before this effect occured."
+                    "effect": "One target in your Current or an Adjacent Zone becomees trapped in the Ina.  If you Maintain Focus for 4+ rounds, the target reappears in a random location across the Cosm.  Otherwise, they reappear in the Zone where they were before this effect occured."
                 }
             ],
             "requires": null,
@@ -3114,7 +3114,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits, becomes Prone, and gains Vulnerable 1."
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits, becomees Prone, and gains Vulnerable 1."
                 }
             ],
             "requires": null,
@@ -3150,11 +3150,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Increase the Entropy by +2 and target your Current or an Adjacent Zone.  The Targetted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits."
+                    "effect": "Increase the Entropy by +2 and target your Current or an Adjacent Zone.  The targetted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits."
                 },
                 {
                     "hits": 5,
-                    "effect": "Increase the Entropy by +3, icrease the Momentum by +2, and target your Current or an Adjacent Zone.  The Targetted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits."
+                    "effect": "Increase the Entropy by +3, icrease the Momentum by +2, and target your Current or an Adjacent Zone.  The targetted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits."
                 }
             ],
             "requires": null,
@@ -4067,7 +4067,7 @@
             "type": "Ability",
             "skill": "Inferno",
             "cost": 3,
-            "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.",
+            "effect": null,
             "current": 5,
             "threshold": [
                 {
@@ -4141,7 +4141,7 @@
             "keywords": []
         },
         {
-            "name": "Blazing Volley",
+            "name": "Fiery Volley",
             "type": "Ability",
             "skill": "Inferno",
             "cost": 1,
@@ -4170,11 +4170,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Target your Current and an Adjacent Zone.  Deal 2 Hits to all targets in the Targetted Zone."
+                    "effect": "Target your Current and an Adjacent Zone.  Deal 2 Hits to all targets in the targetted Zone."
                 },
                 {
                     "hits": 5,
-                    "effect": "Target your Current and an Adjacent Zone.  Deal 4 Hits to all targets in the Targetted Zone."
+                    "effect": "Target your Current and an Adjacent Zone.  Deal 4 Hits to all targets in the targetted Zone."
                 }
             ],
             "requires": "Inferno 3",
@@ -4245,7 +4245,7 @@
             "keywords": []
         },
         {
-            "name": "Revitalizing Ray",
+            "name": "Energizing Ray",
             "type": "Ability",
             "skill": "Lux",
             "cost": 2,
@@ -4502,7 +4502,7 @@
                     "hits": 3,
                     "effect": "Target your Current or an Adjacent Zone, then choose one (1):
                                 <ul>
-                                    <li>All targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
+                                    <li>All targets in the targetted Zone gain Afraidd 2 and gain Confused 2.</li>
                                     <li>Increase the Entropy by +1 and you gain +3 Current.</li>
                                 </ul>"
                 },
@@ -4510,7 +4510,7 @@
                     "hits": 5,
                     "effect": "Target your Current or an Adjacent Zone, then choose one or both:
                                 <ul>
-                                    <li>All hostile targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
+                                    <li>All hostile targets in the targetted Zone gain Afraidd 2 and gain Confused 2.</li>
                                     <li>Increase the Entropy by +1 and you gain +3 Current.</li>
                                 </ul>"
                 }
@@ -4548,7 +4548,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "All targets in your Current or an Adjacent Zone become Prone and gain Vulnerable 1.  Increase the Entropy by +1."
+                    "effect": "All targets in your Current or an Adjacent Zone becomee Prone and gain Vulnerable 1.  Increase the Entropy by +1."
                 }
             ],
             "requires": null,
@@ -4587,7 +4587,7 @@
                     "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
                             <ul>
                                 <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                                <li>The target gains Afraid 2 and Wounded 1.</li>
+                                <li>The target gains Afraidd 2 and Wounded 1.</li>
                                 <li>You gain +3 Current.</li>
                             </ul>"
                 },
@@ -4596,7 +4596,7 @@
                     "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
                             <ul>
                                 <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                                <li>The target gains Afraid 2 and Wounded 1.</li>
+                                <li>The target gains Afraidd 2 and Wounded 1.</li>
                                 <li>You gain +3 Current.</li>
                             </ul>"
                 }
@@ -4784,7 +4784,7 @@
             "keywords": []
         },
         {
-            "name": "Seering Pain",
+            "name": "Searing Pain",
             "type": "Shift",
             "skill": "Plaga",
             "cost": 1,
@@ -4973,31 +4973,71 @@
         },
         {
             "name": "Glacial Spike",
-            "type": "",
+            "type": "Bility",
             "skill": "Rime",
-            "cost": null,
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or and Adjacent Zone takes X Hits and gains Slowed 1."
                 }
             ],
             "requires": null,
             "keywords": []
         },
         {
+            "name": "Invoke the Wintr",
+            "type": "Ability",
+            "skill": "Rime",
+            "cost": 3,
+            "effect": null,
+            "current": 5,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                                <ul>
+                                    <li>The targetted Zone gains Hazard 3.  All targets in the targetted Zone take 1 Hits and gain Slowed 1 Ongoing.</li>
+                                    <li>The targetted Zone gains Hazard 1.  All targets in the targetted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li>
+                                </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                                <ul>
+                                    <li>The targetted Zone gains Hazard 3.  All targets in the targetted Zone take 1 Hits and gain Slowed 1 Ongoing.</li>
+                                    <li>The targetted Zone gains Hazard 1.  All targets in the targetted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li>
+                                </ul>"
+                }
+            ],
+            "requires": null,
+            "keywords": ["Ongoing 4"]
+        },
+        {
             "name": "Invoke the Winds",
-            "type": "",
+            "type": "Ability",
             "skill": "Squall",
             "cost": null,
             "effect": null,
             "current": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                                <ul>
+                                    <li>All targets in the targetted Zone take become Prone and gain Dazed 2.</li>
+                                    <li>All targets in the targetted Zone are moved to an Adjacent Zone and you gain +4 Current.</li>
+                                </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                                <ul>
+                                    <li>All targets in the targetted Zone take become Prone and gain Dazed 2.</li>
+                                    <li>All targets in the targetted Zone are moved to an Adjacent Zone and you gain +4 Current.</li>
+                                </ul>"
                 }
             ],
             "requires": null,
@@ -5005,15 +5045,19 @@
         },
         {
             "name": "Stride of the Clouds",
-            "type": "",
+            "type": "Shift",
             "skill": "Squall",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or and Adjacent Zone gains the Fly keyword."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to 2 targets in your Current or and Adjacent Zone gain the Fly keyword."
                 }
             ],
             "requires": null,
@@ -5021,15 +5065,19 @@
         },
         {
             "name": "Zephyr Strike",
-            "type": "",
+            "type": "Shift",
             "skill": "Squall",
-            "cost": null,
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone take X Hits and is moved to an Adjacent Zone, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 3,
+                    "effect": "Divide X Hits among up to 3 targets in yoru Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,"
                 }
             ],
             "requires": null,
@@ -5037,31 +5085,35 @@
         },
         {
             "name": "Whirlwind",
-            "type": "",
+            "type": "Ability",
             "skill": "Squall",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or and Adjacent Zone loses the Fly keyword Ongoing."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to X targets in your Current or and Adjacent Zone loses the Fly keyword Ongoing, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
-            "keywords": []
+            "keywords": ["Ongoing 2"]
         },
         {
             "name": "Seismic Surge",
-            "type": "",
+            "type": "Ability",
             "skill": "Tellus",
-            "cost": null,
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Target your Current or an Adacent Zone.  The targetted Zone gains Hazard 2 and all targets in the Zone take 3 Hits."
                 }
             ],
             "requires": null,
@@ -5069,15 +5121,29 @@
         },
         {
             "name": "Invoke Calamity",
-            "type": "",
+            "type": "Ability",
             "skill": "Tellus",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 7,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                                <ul>
+                                    <li>Increase the Entropy by +2.  All targets in the targetted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li>
+                                    <li>Increase the Entropy by +3 and increase the Momentum by +3.
+                                    <br>All targets in the targetted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li>
+                                </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                                <ul>
+                                    <li>Increase the Entropy by +2.  All targets in the targetted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li>
+                                    <li>Increase the Entropy by +3 and increase the Momentum by +3.
+                                    <br>All targets in the targetted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li>
+                                </ul>"
                 }
             ],
             "requires": null,
@@ -5085,15 +5151,19 @@
         },
         {
             "name": "Return to Nature",
-            "type": "",
+            "type": "Ability",
             "skill": "Tellus",
-            "cost": null,
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone reduces one Status by -2."
+                },
+                {
+                    "hits": 3,
+                    "effect": "One target in your Current Zone reduces one Status by X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -5101,15 +5171,19 @@
         },
         {
             "name": "Crystal Volley",
-            "type": "",
+            "type": "Ability",
             "skill": "Tellus",
-            "cost": null,
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Deal 2 Hits to up to 3 targets in an Adjacent Zone."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Deal 2 Hits to up to 5 targets in an Adjacent Zone."
                 }
             ],
             "requires": null,
@@ -5117,15 +5191,20 @@
         },
         {
             "name": "Slagstorm",
-            "type": "",
+            "type": "Ability",
             "skill": "Tellus",
-            "cost": null,
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targetted Zone."
+                },
+                {
+                    "hits": 3,
+                    "effect": "Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targetted Zone.
+                    <br>You gain +2 Current."
                 }
             ],
             "requires": null,
@@ -5133,15 +5212,19 @@
         },
         {
             "name": "Thunderous Charge",
-            "type": "",
+            "type": "Shift",
             "skill": "Tempest",
-            "cost": null,
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes 1 Hits and becomes Prone, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 3,
+                    "effect": "Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes X Hits and becomes Prone, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -5149,31 +5232,97 @@
         },
         {
             "name": "Lightning Strike",
-            "type": "",
+            "type": "Ability",
             "skill": "Tempest",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or and Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": []
         },
         {
-            "name": "Hydro Blast",
-            "type": "",
-            "skill": "Torrent",
-            "cost": null,
+            "name": "Thunderous Bolt",
+            "type": "Ability",
+            "skill": "Tempest",
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or and Adjacent Zone takes 2 Hits and gains Stunned 2."
+                }
+            ],
+            "requires": null,
+            "keywords": []
+        },
+        {
+            "name": "Invoke the Storm",
+            "type": "Ability",
+            "skill": "Tellus",
+            "cost": 2,
+            "effect": null,
+            "current": 7,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                                <ul>
+                                    <li>Increase the Entropy by +1.  All targets in the targetted Zone take gain Stunned 1 Ongoing.</li>
+                                    <li>Increase the Entropy by +2 and increase the Momentum by +3.
+                                    <br>All targets in the targetted Zone take X Hits, where X is equal to Hits in the result set.</li>
+                                </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                                <ul>
+                                    <li>Increase the Entropy by +1.  All targets in the targetted Zone take gain Stunned 1 Ongoing.</li>
+                                    <li>Increase the Entropy by +2 and increase the Momentum by +3.
+                                    <br>All targets in the targetted Zone take X Hits, where X is equal to Hits in the result set.</li>
+                                </ul>"
+                }
+            ],
+            "requires": null,
+            "keywords": ["Ongoing 3"]
+        },
+        {
+            "name": "Hydro Blast",
+            "type": "Ability",
+            "skill": "Torrent",
+            "cost": 0,
+            "effect": null,
+            "current": 2,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "One target in your Current or and Adjacent Zone takes 2 Hits and gains Dazed 1."
+                },
+                {
+                    "hits": 3,
+                    "effect": "One target in your Current or and Adjacent Zone takes 2 Hits and gains Dazed 1.  You gain +1 Current."
+                }
+            ],
+            "requires": null,
+            "keywords": []
+        },
+        {
+            "name": "Current's Flow",
+            "type": "Ability",
+            "skill": "Torrent",
+            "cost": 0,
+            "effect": null,
+            "current": 2,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "You gain +2 Current."
                 }
             ],
             "requires": null,
@@ -5181,15 +5330,19 @@
         },
         {
             "name": "Water Spout",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or and Adjacent Zone takes 2 Hits and becomes Prone."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to 2 targets in your Current or and Adjacent Zone take 2 Hits and become Prone."
                 }
             ],
             "requires": null,
@@ -5197,15 +5350,15 @@
         },
         {
             "name": "Cascade",
-            "type": "",
+            "type": "Shift",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "If you score 3+ Hits on the next Technique you use this turn, you gain +2 Current."
                 }
             ],
             "requires": null,
@@ -5213,15 +5366,19 @@
         },
         {
             "name": "Riptide",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone gains Confused 2."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to 3 targets in your Current Zone gain Confused 2."
                 }
             ],
             "requires": null,
@@ -5231,13 +5388,18 @@
             "name": "Water Whip",
             "type": "",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or and Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):
+                    <ul>
+                        <li>The target gains Restrained 3.</li>
+                        <li>You pull the target into your Current Zone.</li>
+                        <li>You gain +2 Current.</li>
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -5245,15 +5407,15 @@
         },
         {
             "name": "Tangle Wave",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 4,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Target your Current or an Adjacent Zone.  All targets in the targetted Zone gain Restrained 2."
                 }
             ],
             "requires": null,
@@ -5261,15 +5423,27 @@
         },
         {
             "name": "Soothing Waters",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current Zone can choose one (1):
+                        <ul>
+                            <li>Regain X Grit, where X is equal to Hits in the result set.</li>
+                            <li>Reduce one Status by X, where X is equal to Hits in the result set.</li>
+                        </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to 3 targets in your Current Zone can choose one (1):
+                        <ul>
+                            <li>Regain X Grit, where X is equal to Hits in the result set.</li>
+                            <li>Reduce one Status by X, where X is equal to Hits in the result set.</li>
+                        </ul>"
                 }
             ],
             "requires": null,
@@ -5277,15 +5451,47 @@
         },
         {
             "name": "Crashing Wave",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "All targets except you in yoru Current Zone take 3 Hits and become Prone."
+                }
+            ],
+            "requires": null,
+            "keywords": []
+        },
+        {
+            "name": "One With Water",
+            "type": "Shift",
+            "skill": "Torrent",
+            "cost": 0,
+            "effect": null,
+            "current": 2,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "You gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, your can breathe underwater and ignore Hazards in underwater Zones."
+                }
+            ],
+            "requires": null,
+            "keywords": ["Aura"]
+        },
+        {
+            "name": "Be Like Water",
+            "type": "Ability",
+            "skill": "Torrent",
+            "cost": 2,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "Recover X to your Primary Defense, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -5293,15 +5499,19 @@
         },
         {
             "name": "Undertow",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in an Adjacent Zone is moved into your Current Zone."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to 3 targets in an Adjacent Zone are moved into your Current Zone."
                 }
             ],
             "requires": null,
@@ -5309,11 +5519,11 @@
         },
         {
             "name": "Revitalize",
-            "type": "",
+            "type": "Ability",
             "skill": "Vivus",
-            "cost": null,
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
                     "hits": 1,
@@ -5359,7 +5569,7 @@
             "name": "Revitalizing Ray",
             "type": "Ability",
             "skill": "Vivus",
-            "cost": 2,
+            "cost": 1,
             "effect": null,
             "current": 3,
             "threshold": [
@@ -5373,15 +5583,15 @@
         },
         {
             "name": "Rush of Vitality",
-            "type": "",
+            "type": "Ability",
             "skill": "Vivus",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in yoru Current Zone regains X Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
