@@ -42,6 +42,10 @@ When your Grit is 0, roll 1d4 to determine your Dying rating.  While your Dying 
 #### Variable
 Reduce Hits from any roll equal to Fatigue rating until your use Endure to Recover.  When you take the Recover Action, reduce your Fatigued rating by Hits and do not regain any Vigor.
 
+## Frozen
+#### Variable
+You gain Fatigued and Slowed equal to your Frozen rating.
+
 ## Grappled
 #### Variable
 While your Grappled rating is greater than 0, you can take no Shifts and Hits from any Actions you take to Strike, Shoot, or use Martial Arts are reduced by your Grappled rating.  You use your Exert, Grapple, or Tumble Skill to escape, reducing your Grappled rating by Hits in the results set.
@@ -62,9 +66,13 @@ While you are Provoked, reduce Hits in the result sets of any Actions you take a
 #### Variable
 While your Restrained rating is greater than 0, you can take no Shifts and Hits from any Actions you take to Strike, Shoot, or use Martial Arts are reduced by your Restrained rating.  You use your Exert or Tumble Skill to escape, reducing your Restrained rating by Hits in the results set.
 
+## Silenced
+#### Variable
+While your Silenced rating is above 0, you make no noise.  Your Silenced rating decreases by -1 at the end of each of your turns.
+
 ## Slowed
 #### Variable
-While yor Slowed rating is above 0, you mus use two (2) Shifts to Move and you cannot use Trigger Talents.   Your Slowed rating decreases by -1 at the end of each of your turns.
+While yor Slowed rating is above 0, you must use two (2) Shifts to Move and you cannot use Trigger Talents.   Your Slowed rating decreases by -1 at the end of each of your turns.
 
 ## Stunned
 #### Variable

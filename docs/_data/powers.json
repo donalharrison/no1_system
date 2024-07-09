@@ -3952,12 +3952,17 @@
             "name": "Aether Spike",
             "type": "Ability",
             "cost": 0,
-            "effect": "Send a bolt of cosmic energy at a taget, scoring 1 Hit.",
+            "effect": ,
             "current": 2,
             "threshold": [
                 {
+                    "hits": 1,
+                    "effect":"Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 1 Hit."
+                
+                }
+                {
                     "hits": 3,
-                    "effect": "Send a bolt of cosmic energy at a taget, scoring 2 Hits."
+                    "effect": "Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 2 Hits."
                 }
             ],
             "requires": null,
@@ -3969,7 +3974,7 @@
             "name": "Aether Gust",
             "type": "Ability",
             "cost": 4,
-            "effect": "Send a wave of energy outward, pushing a number of targets in your Current Zone equal to Hits in the results set to the Adjacent Zone closest to them.",
+            "effect":null,
             "current": 1,
             "threshold": [
                 {
@@ -3985,13 +3990,17 @@
         {
             "name": "Aether Tunnel",
             "type": "Ability",
-            "cost": 4,
-            "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  You and your allies can use the tunnel to Shift to the tunnel's endpoints without incurring Hazard.",
-            "current": 0,
+            "cost": 3,
+            "effect": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  Until the end of your next turn, characters can Shift to Move between the tunnel's endpoints without incurring Hazard."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  Until the end of your next turn, You and your allies Shift to Move between the tunnel's endpoints without incurring Hazard."
                 }
             ],
             "requires": null,
@@ -4003,9 +4012,13 @@
             "name": "Bring the Ending",
             "type": "Ability",
             "cost": 3,
-            "effect": "The current Timer expires.",
-            "current": 3,
+            "effect": null,
+            "current": 4,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "The current Timer expires."
+                },
                 {
                     "hits": 4,
                     "effect": "The current Timer expires.  The next Timer is set to 4."
@@ -4020,9 +4033,13 @@
             "name": "Essence Flux",
             "type": "Trigger",
             "cost": 2,
-            "effect": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.",
+            "effect": null,
             "current": 1,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effec": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set."
+                },
                 {
                     "hits": 4,
                     "effect": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.  Create 1 Advantage in the target ally's Current Zone."
@@ -4035,14 +4052,14 @@
         },
         {
             "name": "Drain Current",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Gain X Hits to your Current, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -4051,11 +4068,11 @@
             ]
         },
         {
-            "name": "Invoke Fire",
+            "name": "Invoke the Flame",
             "type": "Ability",
-            "cost": 4,
+            "cost": 3,
             "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.",
-            "current": 2,
+            "current": 5,
             "threshold": [
                 {
                     "hits": 3,
@@ -4071,33 +4088,17 @@
                 "Inferno"
             ]
         },
-        {
-            "name": "Stoke the Flames",
-            "type": "",
-            "cost": null,
-            "effect": null,
-            "current": null,
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                "Inferno"
-            ]
-        },
+
         {
             "name": "Kindle",
             "type": "Ability",
             "cost": 1,
-            "effect": "Deal X Hits to one target in your Current Zone, where X is equal to . . .",
+            "effect": null,
             "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Deal 1 + X Hits to one target in your Current Zone, where X is equal to the number of consecutive turns you have used this technique."
                 }
             ],
             "requires": null,
@@ -4109,12 +4110,16 @@
             "name": "Immolation",
             "type": "Ability",
             "cost": 1,
-            "effect": "One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits inin fire damage when they use Strike or Martial Arts.",
+            "effect": null,
             "current": 2,
             "threshold": [
                 {
+                    "hits": 2,
+                    "effect":"One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits in fire damage when they use Grapple, Strike or Martial Arts."
+                },
+                {
                     "hits": 4,
-                    "effect": "One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +3 Bonus Hits inin fire damage when they use Strike or Martial Arts."
+                    "effect": "One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +3 Bonus Hits inin fire damage when they use Grapple, Strike or Martial Arts."
                 }
             ],
             "requires": null,
@@ -4126,9 +4131,13 @@
             "name": "Rending Flames",
             "type": "Ability",
             "cost": 3,
-            "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 2 Hits to another target in the same Zone.",
+            "effect": null,
             "current": 2,
             "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 2 Hits to another target in the same Zone."
+                },
                 {
                     "hits": 5,
                     "effect": "Deal 5 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 3 Hits to another target in the same Zone."
@@ -4142,64 +4151,86 @@
         {
             "name": "Blazing Volley",
             "type": "Ability",
-            "cost": null,
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Deal 2 Hits to up to 3 targets in an Adjacent Zone."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Deal 3 Hits to up to 4 targets in an Adjacent Zone."
                 }
             ],
             "requires": null,
             "keywords": [
-                "Inferno"
+                "Inferno",
+                "Lux"
             ]
         },
         {
             "name": "Pyroclasm",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 4,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Target your Current and an Adjacent Zone.  Deal 2 Hits to all targets in the Targetted Zone."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Target your Current and an Adjacent Zone.  Deal 4 Hits to all targets in the Targetted Zone."
                 }
             ],
-            "requires": null,
+            "requires": "Inferno 3",
             "keywords": [
                 "Inferno"
             ]
         },
         {
             "name": "Invoke the Dawn",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 5,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                        <ul>
+                            <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
+                            <li>All allies in the targetted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li>
+                        </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                        <ul>
+                            <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
+                            <li>All allies in the targetted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li>
+                        </ul>"
                 }
             ],
             "requires": null,
             "keywords": [
-                "Lux"
+                "Lux",
+                "Vivus"
             ]
         },
         {
             "name": "Radiant Mending",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone recover 3 Hits to their Primary Defense and all their Gear repairs +1 rating."
                 }
             ],
             "requires": null,
@@ -4210,30 +4241,31 @@
         {
             "name": "Revitalizing Ray",
             "type": "",
-            "cost": null,
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone recovers X to their Primary Defense and reduces all Statuses by X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
             "keywords": [
-                "Lux"
+                "Lux",
+                "Vivus"
             ]
         },
         {
             "name": "Beaming Defiance",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "When you suffer Hits from a melee attack, reduce the Hits taken by X + 1, where X is equal to Hits in this Technique's result set, and the attacker gains Blind 1"
                 }
             ],
             "requires": null,
@@ -4243,31 +4275,39 @@
         },
         {
             "name": "Sweltering Rays",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2. Gain +2 Current."
                 }
             ],
-            "requires": null,
+            "requires": "Lux 2",
             "keywords": [
                 "Lux"
             ]
         },
         {
             "name": "Mind Rot",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone gains Confused 2."
+                },
+                {
+                    "hits": 4,
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Confused 1."
                 }
             ],
             "requires": null,
@@ -4277,14 +4317,14 @@
         },
         {
             "name": "Tormenting Voice",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone recover gains Dazed X and Confused X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -4294,14 +4334,14 @@
         },
         {
             "name": "Mind Spike",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone takes X Hits or gains Stunned 2, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -4310,15 +4350,29 @@
             ]
         },
         {
-            "name": "Psychic Spear",
-            "type": "",
-            "cost": null,
+            "name": "Psychic Lance",
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
+                    <ul>
+                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                        <li>The target gains Dazed 2 and Confused 2.</li>
+                        <li>You gain +4 Current.</li>
+                    </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
+                    <ul>
+                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                        <li>The target gains Dazed 2 and Confused 2.</li>
+                        <li>You gain +4 Current.</li>
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -4328,31 +4382,35 @@
         },
         {
             "name": "Invoke Death",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 4,
             "effect": null,
-            "current": null,
+            "current": 5,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Up to three targets in your Current or an Adjacent Zone lose X Grit, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Up to three targets in your Current or an Adjacent Zone lose X Grit, where X is equal to Hits in the result set.  You gain +3 Current."
                 }
             ],
-            "requires": null,
+            "requires": "Mori 2",
             "keywords": [
                 "Mori"
             ]
         },
         {
             "name": "Mortality Spear",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
                     "hits": null,
-                    "effect": ""
+                    "effect": "Spend 3 Grit, then 1 target in your Current or an Adjacent Zone loses X +3 Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -4362,14 +4420,14 @@
         },
         {
             "name": "Merciless Resolve",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Spend 2 Momentum.  You gain +4 Current."
                 }
             ],
             "requires": null,
@@ -4379,14 +4437,18 @@
         },
         {
             "name": "Alms of Vivus",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone loses X Grit and one other target in your Current Zone regains X Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -4396,14 +4458,18 @@
         },
         {
             "name": "Death's Touch",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone gains Wounded 1."
+                },
+                {
+                    "hits": 4,
+                    "effect": "One target in your Current or an Adjacent Zone gains Wounded 1.  You gain +2 Current."
                 }
             ],
             "requires": null,
@@ -4413,14 +4479,18 @@
         },
         {
             "name": "Culling Ritual",
-            "type": "",
-            "cost": null,
+            "type": "Trigger",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "When a target in your Current Zone dies, increase the Entropy +1 and one other target in your Current or an Adjacent Zone loses X +2 Grit, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 3,
+                    "effect": "When a target in your Current Zone dies, increase the Entropy +1 and one other target in your Current or an Adjacent Zone loses X +2 Grit.  You gain +2 Current."
                 }
             ],
             "requires": null,
@@ -4430,14 +4500,26 @@
         },
         {
             "name": "Invoke Despair",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 5,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                        <ul>
+                            <li>All targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
+                            <li>Increase the Entropy by +1 and you gain +3 Current.</li>
+                        </ul>"
+                },
+                {
+                    "hits": 5,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                        <ul>
+                            <li>All hostile targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
+                            <li>Increase the Entropy by +1 and you gain +3 Current.</li>
+                        </ul>"
                 }
             ],
             "requires": null,
@@ -4447,14 +4529,18 @@
         },
         {
             "name": "Negation Blast",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):
+                    <ul>
+                        <li>The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.</li>
+                        <li>The target loses all Auras and loses 2 Grit.</li>
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -4464,14 +4550,14 @@
         },
         {
             "name": "Void Rift",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "All targets in your Current or an Adjacent Zone become Prone and gain Vulnerable 1.  Increase the Entropy by +1."
                 }
             ],
             "requires": null,
@@ -4481,31 +4567,49 @@
         },
         {
             "name": "Enter the Infinite",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 5,
             "effect": null,
-            "current": null,
+            "current": 8,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Increase the Entropy +2 and immediately take X Actions, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 2,
+                    "effect": "Spend 5 Entropy and immediately take X Actions, X . . .  The Momentum equals 5."
                 }
             ],
-            "requires": null,
+            "requires": "Nihil 3",
             "keywords": [
                 "Nihil"
             ]
         },
         {
-            "name": "Dark Blast",
-            "type": "",
-            "cost": null,
+            "name": "Shadow Lance",
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
+                    <ul>
+                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                        <li>The target gains Afraid 2 and Wounded 1.</li>
+                        <li>You gain +3 Current.</li>
+                    </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
+                    <ul>
+                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                        <li>The target gains Afraid 2 and Wounded 1.</li>
+                        <li>You gain +3 Current.</li>
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -4515,31 +4619,31 @@
         },
         {
             "name": "Dark Ritual",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Increase the Entropy by +1."
                 }
             ],
             "requires": null,
             "keywords": [
-                "Grasp of Shadows"
+                "Nox"
             ]
         },
         {
             "name": "Dread Fugue",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone gains Vulnerable 2.  You gain +2 Current."
                 }
             ],
             "requires": null,
@@ -4549,14 +4653,14 @@
         },
         {
             "name": "Umbral Juke",
-            "type": "",
-            "cost": null,
+            "type": "Trigger",
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "When you suffer Hits from an effect you can see, you may increase the Entropy by +2. If you do, you immediately Shift to Move to an Adjacent Zone and suffer 0 Hits."
                 }
             ],
             "requires": null,
@@ -4566,14 +4670,26 @@
         },
         {
             "name": "Subtle Strike",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):
+                    <ul>
+                        <li>The target gains Fatigued 1.</li>
+                        <li>The target takes 2 Hits to Nerve.</li>
+                    </ul>"
+                },
+                {
+                    "hits": 3,
+                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one or both:
+                    <ul>
+                        <li>The target gains Fatigued 1.</li>
+                        <li>The target takes 2 Hits to Nerve.</li>
+                    </ul>"
                 }
             ],
             "requires": null,
@@ -4583,14 +4699,18 @@
         },
         {
             "name": "Vengeance of Shadows",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "Your Current or an Adjacent Zone gains Hazard 1."
+                },
+                {
+                    "hits": 4,
+                    "effect": "All targets in your Current or an Adjacent Zone gain Blind 2.  The targetted zone gains Hazard 1."
                 }
             ],
             "requires": null,
@@ -4600,48 +4720,51 @@
         },
         {
             "name": "Eclipse",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 4,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 4,
+                    "effect": "All targets in those Zones gain Blind 1 Ongoing.  You gain +X Current, where X is the number of targets Blinded this way."
                 }
             ],
-            "requires": null,
+            "requires": "Nox 2",
             "keywords": [
                 "Nox"
             ]
         },
         {
             "name": "Spreading Darkness",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "All light in your Current Zone are extinguished and all targets in your Current Zone gain Blind 1 Ongoing.
+                    <br><br>At the beginning of each of your turns while this Techniqe is Ongoing, copy its effect to all Adjacent Zones."
+
                 }
             ],
             "requires": null,
             "keywords": [
+                "Ongoing 3",
                 "Nox"
             ]
         },
         {
             "name": "Eyes of Night",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 0,
             "effect": null,
-            "current": null,
+            "current": 1,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "You can see in absolute darkness and are immune to the Blind status."
                 }
             ],
             "requires": null,
@@ -4651,14 +4774,179 @@
         },
         {
             "name": "Pain Bolt",
-            "type": "",
-            "cost": null,
+            "type": "Shift",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 2,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone takes 1 Hit to Grit and gains Wounded 1."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Ghost Pain",
+            "type": "Shift",
+            "cost": 0,
+            "effect": null,
+            "current": 2,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits to Grit."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Seering Pain",
+            "type": "Shift",
+            "cost": 1,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits and gains Vulnerable 1."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Crushing Pain",
+            "type": "Shift",
+            "cost": 2,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone takes 6 Hits and gains Fatigued 1.  Increase the Entropy by +1."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Painful Lesson",
+            "type": "Trigger",
+            "cost": 1,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "When you suffer Hits from a melee attack form a target you can see, you may deal X Hits to that target and have them gain Fatigued 1, where X is equal to Hits in the result set."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Extort Affliction",
+            "type": "Ability",
+            "cost": 1,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits to Grit.  If that target was Vulnerable, you gain +2 Current."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Hear Their Gasps",
+            "type": "Ability",
+            "cost": 2,
+            "effect": null,
+            "current": 4,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "All targets except you in your Current Zone gain Vulnerable 1.  You gain +X Current, wher eX is euqal to the number of targets that gained Vulnerable from this technique."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Consume Their Suffering",
+            "type": "Shift",
+            "cost": 1,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "If you score 3+ Hits on the next Technique you use this turn, gain +3 Current."
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Invoke Suffering",
+            "type": "Ability",
+            "cost": 3,
+            "effect": null,
+            "current": 5,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                        <ul>
+                            <li>All targets except for you in the targetted Zone gain Fatigued 1 and lose 2 Grit.</li>
+                            <li>Increase the Entropy by +1 and you gain +2 Current.</li>
+                        </ul>"
+                },
+                {
+                    "hits": 5,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                        <ul>
+                            <li>All targets except for you in the targetted Zone gain Fatigued 1 and lose 2 Grit.</li>
+                            <li>Increase the Entropy by +1 and you gain +2 Current.</li>
+                        </ul>"
+                }
+            ],
+            "requires": null,
+            "keywords": [
+                "Plaga"
+            ]
+        },
+        {
+            "name": "Choke the Life",
+            "type": "Ability",
+            "cost": 2,
+            "effect": null,
+            "current": 4,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone loses 3 Grit.  If the target dies, you gain +3 Current.  Otherwise, the target gains Vulnerable 2."
                 }
             ],
             "requires": null,
@@ -4668,14 +4956,14 @@
         },
         {
             "name": "Wrath of Frost",
-            "type": "",
-            "cost": null,
+            "type": "Ability",
+            "cost": 1,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 2,
+                    "effect": "One target in your Current Zone take 4 Hits and gains Frozen 1."
                 }
             ],
             "requires": null,
@@ -4684,15 +4972,15 @@
             ]
         },
         {
-            "name": "Freezing Surge",
-            "type": "",
-            "cost": null,
+            "name": "Cold Snap",
+            "type": "Ability",
+            "cost": 2,
             "effect": null,
-            "current": null,
+            "current": 3,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "All targets except you in your Current Zone gains Frozen 4."
                 }
             ],
             "requires": null,
@@ -4702,14 +4990,14 @@
         },
         {
             "name": "Forstbite",
-            "type": "",
-            "cost": null,
+            "type": "Trigger",
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 5,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 3,
+                    "effect": "When you suffer Hits from a melee attack form a target you can see, you may deal 2 Hits to that target and have them gain Frozen 2."
                 }
             ],
             "requires": null,
@@ -5082,8 +5370,12 @@
             "current": null,
             "threshold": [
                 {
-                    "hits": null,
-                    "effect": ""
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone recovers X +2 to their Primary Defense and regains X Grit, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": 4,
+                    "effect": "One target in your Current or an Adjacent Zone recovers X +2 to their Primary Defense and regains X Grit, where X is equal to Hits in the result set.  You gain +2 Current."
                 }
             ],
             "requires": null,
