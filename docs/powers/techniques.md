@@ -24,65 +24,38 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 <div class="mytabs">
     <input type="radio" id="tab_all" name="mytabs" checked="checked">
     <label for="tab_all" style="font-size:130%">All Skills</label>
-    {% assign eskills = "Aether,Inferno,Lux,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent",Vivus" | split: ',' %}
+    {% assign eskills = site.data.power.techniques | map: "trait" | uniq | sort % %}
     {% for eskill in eskills %}
         {% assign tabid = 'tab_' | append: eskill %}
         <input type="radio" id="{{ tabid }}" name="mytabs">
         <label for="{{ tabid }}" style="font-size:110%">{{ eskill }}</label>
     {% endfor %}
-    <div class="tab">
-    {% for t in techs %}
-        {% assign i = forloop.index | modulo: 2 %}
-        <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-            <h3 style="margin-top: 5px;">{{t.name}}</h3>
-            <h4 style="margin-top: 5px;">{{t.type}}</h4>
-            <em>{{t.keywords | join: ", "}}</em>
-            <details>
-                <summary></summary>
-                {% if t.requires %}
-                    <p><em>Requires: </em>{{t.requires}}</p>
-                {% endif %}
-                {% if t.effect %}
-                    <p><strong>Effect</strong>
-                    <br>{{t.effect}}</p>
-                {% endif %}
-                {% assign thresh = t.threshold %}
-                {% for t in thresh %}
-                    <p><strong>Threshold &mdash; {{t.hits}}</strong>
-                    <br>{{t.effect}}</p>
-                {% endfor %}
-            </details>
-        </div>
-    {% endfor %}
-    </div>
     {% for eskill in eskills %}
         <div class="tab">
         {% for t in site.data.powers.techniques %}
-            {% for tag in t.keywords %}
-                {% if tag == eskill %}
-                    <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-                        <h3 style="margin-top: 5px;">{{t.name}}</h3>
-                        <h4 style="margin-top: 5px;">{{t.type}}</h4>
-                        <em>{{t.keywords | join: ", "}}</em>
-                        <details>
-                        <summary></summary>
-                            {% if t.requires %}
-                                <p><em>Requires: </em>{{t.requires}}</p>
-                            {% endif %}
-                            {% if t.effect %}
-                                <p><strong>Effect</strong>
-                                <br>{{t.effect}}</p>
-                            {% endif %}
-                            {% assign thresh = t.threshold %}
-                            {% for t in thresh %}
-                                <p><strong>Threshold &mdash; {{t.hits}}</strong>
-                                <br>{{t.effect}}</p>
-                            {% endfor %}
-                        </details>
-                    </div>
-                    <div height=5px></div>
-                {% endif %}
-            {% endfor %}
+            {% if t.skill == eskill %}
+                <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+                    <h3 style="margin-top: 5px;">{{t.name}}</h3>
+                    <h4 style="margin-top: 5px;">{{t.type}}</h4>
+                    <em>{{t.keywords | join: ", "}}</em>
+                    <details>
+                    <summary></summary>
+                        {% if t.requires %}
+                            <p><em>Requires: </em>{{t.requires}}</p>
+                        {% endif %}
+                        {% if t.effect %}
+                            <p><strong>Effect</strong>
+                            <br>{{t.effect}}</p>
+                        {% endif %}
+                        {% assign thresh = t.threshold %}
+                        {% for t in thresh %}
+                            <p><strong>Threshold &mdash; {{t.hits}}</strong>
+                            <br>{{t.effect}}</p>
+                        {% endfor %}
+                    </details>
+                </div>
+                <div height=5px></div>
+            {% endif %}
         {% endfor %}
         </div>
     {% endfor %}

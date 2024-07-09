@@ -2184,7 +2184,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Up to X dead target and Gear in your Current Zone are reduced to ashes, where X is equal to Hits in the result set."
+                    "effect": "Up to X dead targets and Gear in your Current Zone are reduced to ashes, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -3951,14 +3951,14 @@
         {
             "name": "Aether Spike",
             "type": "Ability",
+            "skill": "Aether",
             "cost": 0,
             "effect": null,
             "current": 2,
             "threshold": [
                 {
                     "hits": 1,
-                    "effect":"Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 1 Hit."
-                
+                    "effect": "Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 1 Hit."
                 },
                 {
                     "hits": 3,
@@ -3966,15 +3966,14 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Aether"
-            ]
+            "keywords": []
         },
         {
             "name": "Aether Gust",
             "type": "Ability",
+            "skill": "Aether",
             "cost": 4,
-            "effect":null,
+            "effect": null,
             "current": 1,
             "threshold": [
                 {
@@ -3983,13 +3982,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Aether"
-            ]
+            "keywords": []
         },
         {
             "name": "Aether Tunnel",
             "type": "Ability",
+            "skill": "Aether",
             "cost": 3,
             "effect": null,
             "current": 2,
@@ -4005,12 +4003,13 @@
             ],
             "requires": null,
             "keywords": [
-                "Aether", "Ongoing 2"
+                "Ongoing 2"
             ]
         },
         {
             "name": "Bring the Ending",
             "type": "Ability",
+            "skill": "Aether",
             "cost": 3,
             "effect": null,
             "current": 4,
@@ -4025,13 +4024,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Aether"
-            ]
+            "keywords": []
         },
         {
             "name": "Essence Flux",
             "type": "Trigger",
+            "skill": "Aether",
             "cost": 2,
             "effect": null,
             "current": 1,
@@ -4046,13 +4044,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Aether"
-            ]
+            "keywords": []
         },
         {
             "name": "Drain Current",
             "type": "Ability",
+            "skill": "Aether",
             "cost": 2,
             "effect": null,
             "current": 1,
@@ -4063,13 +4060,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Aether"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke the Flame",
             "type": "Ability",
+            "skill": "Inferno",
             "cost": 3,
             "effect": "Deal 3 Hits to one target in your Current or Adjacent Zone.",
             "current": 5,
@@ -4084,14 +4080,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Inferno"
-            ]
+            "keywords": []
         },
-
         {
             "name": "Kindle",
             "type": "Ability",
+            "skill": "Inferno",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4102,20 +4096,19 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Inferno"
-            ]
+            "keywords": []
         },
         {
             "name": "Immolation",
             "type": "Ability",
+            "skill": "Inferno",
             "cost": 1,
             "effect": null,
             "current": 2,
             "threshold": [
                 {
                     "hits": 2,
-                    "effect":"One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits in fire damage when they use Grapple, Strike or Martial Arts."
+                    "effect": "One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits in fire damage when they use Grapple, Strike or Martial Arts."
                 },
                 {
                     "hits": 4,
@@ -4124,12 +4117,13 @@
             ],
             "requires": null,
             "keywords": [
-                "Inferno", "Aura"
+                "Aura"
             ]
         },
         {
             "name": "Rending Flames",
             "type": "Ability",
+            "skill": "Inferno",
             "cost": 3,
             "effect": null,
             "current": 2,
@@ -4144,13 +4138,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Inferno"
-            ]
+            "keywords": []
         },
         {
             "name": "Blazing Volley",
             "type": "Ability",
+            "skill": "Inferno",
             "cost": 1,
             "effect": null,
             "current": 2,
@@ -4165,14 +4158,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Inferno",
-                "Lux"
-            ]
+            "keywords": []
         },
         {
             "name": "Pyroclasm",
             "type": "Ability",
+            "skill": "Inferno",
             "cost": 4,
             "effect": null,
             "current": 3,
@@ -4187,13 +4178,12 @@
                 }
             ],
             "requires": "Inferno 3",
-            "keywords": [
-                "Inferno"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke the Dawn",
             "type": "Ability",
+            "skill": "Lux",
             "cost": 3,
             "effect": null,
             "current": 5,
@@ -4201,29 +4191,27 @@
                 {
                     "hits": 2,
                     "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                        <ul>
-                            <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
-                            <li>All allies in the targetted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li>
-                        </ul>"
+                                <ul>
+                                    <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
+                                    <li>All allies in the targetted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li>
+                                </ul>"
                 },
                 {
                     "hits": 4,
                     "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                        <ul>
-                            <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
-                            <li>All allies in the targetted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li>
-                        </ul>"
+                                <ul>
+                                    <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
+                                    <li>All allies in the targetted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li>
+                                </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Lux",
-                "Vivus"
-            ]
+            "keywords": []
         },
         {
             "name": "Radiant Mending",
             "type": "Ability",
+            "skill": "Lux",
             "cost": 2,
             "effect": null,
             "current": 1,
@@ -4234,13 +4222,32 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Lux"
-            ]
+            "keywords": []
+        },
+        {
+            "name": "Luminous Volley",
+            "type": "Ability",
+            "skill": "Lux",
+            "cost": 1,
+            "effect": null,
+            "current": 2,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "Deal 2 Hits to up to 3 targets in an Adjacent Zone."
+                },
+                {
+                    "hits": 5,
+                    "effect": "Deal 3 Hits to up to 4 targets in an Adjacent Zone."
+                }
+            ],
+            "requires": null,
+            "keywords": []
         },
         {
             "name": "Revitalizing Ray",
-            "type": "",
+            "type": "Ability",
+            "skill": "Lux",
             "cost": 2,
             "effect": null,
             "current": 3,
@@ -4251,14 +4258,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Lux",
-                "Vivus"
-            ]
+            "keywords": []
         },
         {
             "name": "Beaming Defiance",
             "type": "Shift",
+            "skill": "Lux",
             "cost": 3,
             "effect": null,
             "current": 1,
@@ -4269,13 +4274,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Lux"
-            ]
+            "keywords": []
         },
         {
             "name": "Sweltering Rays",
             "type": "Ability",
+            "skill": "Lux",
             "cost": 2,
             "effect": null,
             "current": 3,
@@ -4290,13 +4294,12 @@
                 }
             ],
             "requires": "Lux 2",
-            "keywords": [
-                "Lux"
-            ]
+            "keywords": []
         },
         {
             "name": "Mind Rot",
             "type": "Ability",
+            "skill": "Mentis",
             "cost": 3,
             "effect": null,
             "current": 2,
@@ -4311,13 +4314,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mentis"
-            ]
+            "keywords": []
         },
         {
             "name": "Tormenting Voice",
             "type": "Ability",
+            "skill": "Mentis",
             "cost": 2,
             "effect": null,
             "current": 3,
@@ -4328,13 +4330,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mentis"
-            ]
+            "keywords": []
         },
         {
             "name": "Mind Spike",
             "type": "Ability",
+            "skill": "Mentis",
             "cost": 0,
             "effect": null,
             "current": 2,
@@ -4345,13 +4346,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mentis"
-            ]
+            "keywords": []
         },
         {
             "name": "Psychic Lance",
             "type": "Ability",
+            "skill": "Mentis",
             "cost": 3,
             "effect": null,
             "current": 4,
@@ -4359,30 +4359,29 @@
                 {
                     "hits": 2,
                     "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
-                    <ul>
-                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                        <li>The target gains Dazed 2 and Confused 2.</li>
-                        <li>You gain +4 Current.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                                <li>The target gains Dazed 2 and Confused 2.</li>
+                                <li>You gain +4 Current.</li>
+                            </ul>"
                 },
                 {
                     "hits": 4,
                     "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
-                    <ul>
-                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                        <li>The target gains Dazed 2 and Confused 2.</li>
-                        <li>You gain +4 Current.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                                <li>The target gains Dazed 2 and Confused 2.</li>
+                                <li>You gain +4 Current.</li>
+                            </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mentis"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke Death",
             "type": "Ability",
+            "skill": "Mori",
             "cost": 4,
             "effect": null,
             "current": 5,
@@ -4397,13 +4396,12 @@
                 }
             ],
             "requires": "Mori 2",
-            "keywords": [
-                "Mori"
-            ]
+            "keywords": []
         },
         {
             "name": "Mortality Spear",
             "type": "Ability",
+            "skill": "Mori",
             "cost": 3,
             "effect": null,
             "current": 3,
@@ -4414,13 +4412,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mori"
-            ]
+            "keywords": []
         },
         {
             "name": "Merciless Resolve",
             "type": "Shift",
+            "skill": "Mori",
             "cost": 3,
             "effect": null,
             "current": 4,
@@ -4431,13 +4428,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mori"
-            ]
+            "keywords": []
         },
         {
             "name": "Alms of Vivus",
             "type": "Ability",
+            "skill": "Mori",
             "cost": 0,
             "effect": null,
             "current": 3,
@@ -4452,13 +4448,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mori"
-            ]
+            "keywords": []
         },
         {
             "name": "Death's Touch",
             "type": "Ability",
+            "skill": "Mori",
             "cost": 3,
             "effect": null,
             "current": 2,
@@ -4473,13 +4468,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mori"
-            ]
+            "keywords": []
         },
         {
             "name": "Culling Ritual",
             "type": "Trigger",
+            "skill": "Mori",
             "cost": 3,
             "effect": null,
             "current": 2,
@@ -4494,13 +4488,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Mori"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke Despair",
             "type": "Ability",
+            "skill": "Nihil",
             "cost": 3,
             "effect": null,
             "current": 5,
@@ -4508,28 +4501,27 @@
                 {
                     "hits": 3,
                     "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                        <ul>
-                            <li>All targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
-                            <li>Increase the Entropy by +1 and you gain +3 Current.</li>
-                        </ul>"
+                                <ul>
+                                    <li>All targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
+                                    <li>Increase the Entropy by +1 and you gain +3 Current.</li>
+                                </ul>"
                 },
                 {
                     "hits": 5,
                     "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                        <ul>
-                            <li>All hostile targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
-                            <li>Increase the Entropy by +1 and you gain +3 Current.</li>
-                        </ul>"
+                                <ul>
+                                    <li>All hostile targets in the targetted Zone gain Afraid 2 and gain Confused 2.</li>
+                                    <li>Increase the Entropy by +1 and you gain +3 Current.</li>
+                                </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nihil"
-            ]
+            "keywords": []
         },
         {
             "name": "Negation Blast",
             "type": "Ability",
+            "skill": "Nihil",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4537,20 +4529,19 @@
                 {
                     "hits": 2,
                     "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):
-                    <ul>
-                        <li>The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.</li>
-                        <li>The target loses all Auras and loses 2 Grit.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.</li>
+                                <li>The target loses all Auras and loses 2 Grit.</li>
+                            </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nihil"
-            ]
+            "keywords": []
         },
         {
             "name": "Void Rift",
             "type": "Ability",
+            "skill": "Nihil",
             "cost": 1,
             "effect": null,
             "current": 4,
@@ -4561,13 +4552,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nihil"
-            ]
+            "keywords": []
         },
         {
             "name": "Enter the Infinite",
             "type": "Shift",
+            "skill": "Nihil",
             "cost": 5,
             "effect": null,
             "current": 8,
@@ -4582,13 +4572,12 @@
                 }
             ],
             "requires": "Nihil 3",
-            "keywords": [
-                "Nihil"
-            ]
+            "keywords": []
         },
         {
             "name": "Shadow Lance",
             "type": "Ability",
+            "skill": "Nox",
             "cost": 2,
             "effect": null,
             "current": 2,
@@ -4596,30 +4585,29 @@
                 {
                     "hits": 2,
                     "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
-                    <ul>
-                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                        <li>The target gains Afraid 2 and Wounded 1.</li>
-                        <li>You gain +3 Current.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                                <li>The target gains Afraid 2 and Wounded 1.</li>
+                                <li>You gain +3 Current.</li>
+                            </ul>"
                 },
                 {
                     "hits": 4,
                     "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
-                    <ul>
-                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                        <li>The target gains Afraid 2 and Wounded 1.</li>
-                        <li>You gain +3 Current.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
+                                <li>The target gains Afraid 2 and Wounded 1.</li>
+                                <li>You gain +3 Current.</li>
+                            </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Dark Ritual",
             "type": "Shift",
+            "skill": "Nox",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4630,13 +4618,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Dread Fugue",
             "type": "Ability",
+            "skill": "Nox",
             "cost": 2,
             "effect": null,
             "current": 2,
@@ -4647,13 +4634,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Umbral Juke",
             "type": "Trigger",
+            "skill": "Nox",
             "cost": 1,
             "effect": null,
             "current": 2,
@@ -4664,13 +4650,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Subtle Strike",
             "type": "Shift",
+            "skill": "Nox",
             "cost": 2,
             "effect": null,
             "current": 1,
@@ -4678,28 +4663,27 @@
                 {
                     "hits": 1,
                     "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):
-                    <ul>
-                        <li>The target gains Fatigued 1.</li>
-                        <li>The target takes 2 Hits to Nerve.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target gains Fatigued 1.</li>
+                                <li>The target takes 2 Hits to Nerve.</li>
+                            </ul>"
                 },
                 {
                     "hits": 3,
                     "effect": "Select a target in your Current or an Adjacent Zone and then choose one or both:
-                    <ul>
-                        <li>The target gains Fatigued 1.</li>
-                        <li>The target takes 2 Hits to Nerve.</li>
-                    </ul>"
+                            <ul>
+                                <li>The target gains Fatigued 1.</li>
+                                <li>The target takes 2 Hits to Nerve.</li>
+                            </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Vengeance of Shadows",
             "type": "Ability",
+            "skill": "Nox",
             "cost": 3,
             "effect": null,
             "current": 4,
@@ -4714,13 +4698,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Eclipse",
             "type": "Ability",
+            "skill": "Nox",
             "cost": 3,
             "effect": null,
             "current": 4,
@@ -4731,13 +4714,12 @@
                 }
             ],
             "requires": "Nox 2",
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Spreading Darkness",
-            "type": "Ability",
+            "type": "Nox",
+            "skill": null,
             "cost": 2,
             "effect": null,
             "current": 3,
@@ -4745,19 +4727,18 @@
                 {
                     "hits": 3,
                     "effect": "All light in your Current Zone are extinguished and all targets in your Current Zone gain Blind 1 Ongoing.
-                    <br><br>At the beginning of each of your turns while this Techniqe is Ongoing, copy its effect to all Adjacent Zones."
-
+                            <br><br>At the beginning of each of your turns while this Techniqe is Ongoing, copy its effect to all Adjacent Zones."
                 }
             ],
             "requires": null,
             "keywords": [
-                "Ongoing 3",
-                "Nox"
+                "Ongoing 3"
             ]
         },
         {
             "name": "Eyes of Night",
             "type": "Shift",
+            "skill": "Nox",
             "cost": 0,
             "effect": null,
             "current": 1,
@@ -4768,13 +4749,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Nox"
-            ]
+            "keywords": []
         },
         {
             "name": "Pain Bolt",
             "type": "Shift",
+            "skill": "Plaga",
             "cost": 3,
             "effect": null,
             "current": 2,
@@ -4785,13 +4765,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Ghost Pain",
             "type": "Shift",
+            "skill": "Plaga",
             "cost": 0,
             "effect": null,
             "current": 2,
@@ -4802,13 +4781,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Seering Pain",
             "type": "Shift",
+            "skill": "Plaga",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4819,13 +4797,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Crushing Pain",
             "type": "Shift",
+            "skill": "Plaga",
             "cost": 2,
             "effect": null,
             "current": 3,
@@ -4836,13 +4813,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Painful Lesson",
             "type": "Trigger",
+            "skill": "Plaga",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4853,13 +4829,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Extort Affliction",
             "type": "Ability",
+            "skill": "Plaga",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4870,13 +4845,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Hear Their Gasps",
             "type": "Ability",
+            "skill": "Plaga",
             "cost": 2,
             "effect": null,
             "current": 4,
@@ -4887,13 +4861,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Consume Their Suffering",
             "type": "Shift",
+            "skill": "Plaga",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4904,13 +4877,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke Suffering",
             "type": "Ability",
+            "skill": "Plaga",
             "cost": 3,
             "effect": null,
             "current": 5,
@@ -4918,28 +4890,27 @@
                 {
                     "hits": 3,
                     "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                        <ul>
-                            <li>All targets except for you in the targetted Zone gain Fatigued 1 and lose 2 Grit.</li>
-                            <li>Increase the Entropy by +1 and you gain +2 Current.</li>
-                        </ul>"
+                                <ul>
+                                    <li>All targets except for you in the targetted Zone gain Fatigued 1 and lose 2 Grit.</li>
+                                    <li>Increase the Entropy by +1 and you gain +2 Current.</li>
+                                </ul>"
                 },
                 {
                     "hits": 5,
                     "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                        <ul>
-                            <li>All targets except for you in the targetted Zone gain Fatigued 1 and lose 2 Grit.</li>
-                            <li>Increase the Entropy by +1 and you gain +2 Current.</li>
-                        </ul>"
+                                <ul>
+                                    <li>All targets except for you in the targetted Zone gain Fatigued 1 and lose 2 Grit.</li>
+                                    <li>Increase the Entropy by +1 and you gain +2 Current.</li>
+                                </ul>"
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Choke the Life",
             "type": "Ability",
+            "skill": "Plaga",
             "cost": 2,
             "effect": null,
             "current": 4,
@@ -4950,13 +4921,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Plaga"
-            ]
+            "keywords": []
         },
         {
             "name": "Wrath of Frost",
             "type": "Ability",
+            "skill": "Rime",
             "cost": 1,
             "effect": null,
             "current": 3,
@@ -4967,13 +4937,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Rime"
-            ]
+            "keywords": []
         },
         {
             "name": "Cold Snap",
             "type": "Ability",
+            "skill": "Rime",
             "cost": 2,
             "effect": null,
             "current": 3,
@@ -4984,13 +4953,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Rime"
-            ]
+            "keywords": []
         },
         {
             "name": "Forstbite",
             "type": "Trigger",
+            "skill": "Rime",
             "cost": 3,
             "effect": null,
             "current": 5,
@@ -5001,13 +4969,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Rime"
-            ]
+            "keywords": []
         },
         {
             "name": "Glacial Spike",
             "type": "",
+            "skill": "Rime",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5018,13 +4985,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Rime"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke the Winds",
             "type": "",
+            "skill": "Squall",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5035,13 +5001,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Squall"
-            ]
+            "keywords": []
         },
         {
             "name": "Stride of the Clouds",
             "type": "",
+            "skill": "Squall",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5052,13 +5017,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Squall"
-            ]
+            "keywords": []
         },
         {
             "name": "Zephyr Strike",
             "type": "",
+            "skill": "Squall",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5069,13 +5033,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Squall"
-            ]
+            "keywords": []
         },
         {
             "name": "Whirlwind",
             "type": "",
+            "skill": "Squall",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5086,13 +5049,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Squall"
-            ]
+            "keywords": []
         },
         {
             "name": "Seismic Surge",
             "type": "",
+            "skill": "Tellus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5103,13 +5065,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tellus"
-            ]
+            "keywords": []
         },
         {
             "name": "Invoke Calamity",
             "type": "",
+            "skill": "Tellus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5120,13 +5081,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tellus"
-            ]
+            "keywords": []
         },
         {
             "name": "Return to Nature",
             "type": "",
+            "skill": "Tellus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5137,13 +5097,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tellus"
-            ]
+            "keywords": []
         },
         {
             "name": "Crystal Volley",
             "type": "",
+            "skill": "Tellus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5154,13 +5113,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tellus"
-            ]
+            "keywords": []
         },
         {
             "name": "Slagstorm",
             "type": "",
+            "skill": "Tellus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5171,13 +5129,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tellus"
-            ]
+            "keywords": []
         },
         {
             "name": "Thunderous Charge",
             "type": "",
+            "skill": "Tempest",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5188,13 +5145,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tempest"
-            ]
+            "keywords": []
         },
         {
             "name": "Lightning Strike",
             "type": "",
+            "skill": "Tempest",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5205,13 +5161,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Tempest"
-            ]
+            "keywords": []
         },
         {
             "name": "Hydro Blast",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5222,13 +5177,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Water Spout",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5239,13 +5193,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Cascade",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5256,13 +5209,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Riptide",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5273,13 +5225,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Water Whip",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5290,13 +5241,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Tangle Wave",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5307,13 +5257,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Soothing Waters",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5324,13 +5273,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Crashing Wave",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5341,13 +5289,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Undertow",
             "type": "",
+            "skill": "Torrent",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5358,13 +5305,12 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Torrent"
-            ]
+            "keywords": []
         },
         {
             "name": "Revitalize",
             "type": "",
+            "skill": "Vivus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5379,13 +5325,56 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Vivus"
-            ]
+            "keywords": []
+        },
+        {
+            "name": "Invoke the Dawn",
+            "type": "Ability",
+            "skill": "Vivus",
+            "cost": 3,
+            "effect": null,
+            "current": 5,
+            "threshold": [
+                {
+                    "hits": 2,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
+                                <ul>
+                                    <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
+                                    <li>All allies in the targetted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li>
+                                </ul>"
+                },
+                {
+                    "hits": 4,
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
+                                <ul>
+                                    <li>All hostile targets in the targetted Zone take 3 Hits and gain Dazed 2.</li>
+                                    <li>All allies in the targetted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li>
+                                </ul>"
+                }
+            ],
+            "requires": null,
+            "keywords": []
+        },
+        {
+            "name": "Revitalizing Ray",
+            "type": "Ability",
+            "skill": "Vivus",
+            "cost": 2,
+            "effect": null,
+            "current": 3,
+            "threshold": [
+                {
+                    "hits": 3,
+                    "effect": "One target in your Current or an Adjacent Zone recovers X to their Primary Defense and reduces all Statuses by X, where X is equal to Hits in the result set."
+                }
+            ],
+            "requires": null,
+            "keywords": []
         },
         {
             "name": "Rush of Vitality",
             "type": "",
+            "skill": "Vivus",
             "cost": null,
             "effect": null,
             "current": null,
@@ -5396,9 +5385,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                "Vivus"
-            ]
+            "keywords": []
         }
     ],
     "wards": [
