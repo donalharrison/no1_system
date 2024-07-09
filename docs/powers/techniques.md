@@ -19,7 +19,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 
 # Technique Lists
 <div>
-{% assign eskills = "Aether,Inferno,Lux,Mori,Nihil,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent,Vivus" | split "," %}
+{% assign eskills = "Aether,Inferno,Lux,Mori,Nihil,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent,Vivus" | split: "," %}
 <h2 style='margin: 5px'>Aether</h2>
 <details>
     <summary></summary>
