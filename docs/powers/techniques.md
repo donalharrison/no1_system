@@ -18,12 +18,11 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 
 
 # Technique Lists
-<div style="background-color: #4b476650; margin: 6px; padding: 5px;">
+<div style="background-color: #1f1d2b50; margin: 6px; padding: 5px;">
 {% assign eskills = "Aether,Inferno,Lux,Mori,Nihil,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent,Vivus" | split: "," %}
-    <p style='margin: 3px; font-weight:bold; font-size: 115%;'>Aether</h2>
+    <p style='margin: 3px; font-weight:bold; font-size: 115%;'>Aether</p>
     <details>
         <summary></summary>
-        <div>
         {% for t in site.data.powers.techniques %}
             {% if t.skill == "Aether" %}
                 <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
@@ -49,8 +48,8 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
                 <div height=5px></div>
             {% endif %}
         {% endfor %}
-        </div>
 </div>
+
 
 
 <style>
