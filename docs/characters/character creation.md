@@ -294,8 +294,8 @@ Your character's Heritage captures the heritable traits of the lineage and deter
         </div>
         <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
             <strong>Elf &mdash; </strong>
-            <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em></p>
-            <br><em>Dangerous Subspecies</em>:
+            <p><em>You travel across lands previously ruled by your race’s once great empire, now shattered by civil war.  You will often be denigrated as slaver and warmonger by other folk.</em>
+            <br><em>Dangerous Subspecies</em>:</p>
             <div style='background-color: #2d2a3b50;'>
                 <strong>Sereg-ar <em>(Blood Elf)</em></strong>
                 <br><em>Blood Elves, or Sereg-ar, commune with ancient spirits, practice forbidden blood rites, and are rumored to revel in savaging of other mortalkin.  They mostly dwell now in arcane fortresses deep in the jungles of Xos.</em>
@@ -304,13 +304,13 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             <div height=3px></div>
             <div style='background-color: #2d2a3b50;'>
                 <strong>Irun-ar <em>(Dune Elf)</em></strong>
-                <br><em>Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</em><>
+                <br><em>Dune Elves, the Irun-ar, possess an unmatched endurance and adaptability in harsh desert environments and use sand, wind and fire to their advantage.  Those Irun-ar still loyal to elven nobility serve Pharaoh Anok Sabé of Kemreit, who rules over the desert kingdom eternally.</em>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Endure, Inferno, Martial Arts, Shoot, Strike, Survival, or Resist.</p>
             </div>
             <div height=3px></div>
             <div style='background-color: #2d2a3b50;'>
                 <strong>Ithindi <em>(Grey Elf)</em></strong>
-                <br><em>Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</em</p>
+                <br><em>Grey Elves, the Ithindi, are unparalleled in combat among the elves.  They served as the elven empire’s right hand for generations and revel in the throes of martial conflict.  Disavowing the empire, the Ithindi serve as sellswords across Aerdth and often seek battle against other elves.</em></p>
                 <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Exert, Intimidate, Shoot, Stealth, Strike, or Tactics.</em></p>
             </div>
             <div height=3px></div>
