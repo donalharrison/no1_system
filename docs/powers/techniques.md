@@ -50,6 +50,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
                 <br>{{t.effect}}</p>
             {% endfor %}
         </details>
+        </div>
     {% endfor %}
     </div>
     {% assign eskills = ["Inferno", "Lux", "Nox", "Plaga", "Rime", "Squall", "Tellus", "Tempest", "Torrent", "Vivus"] %}
