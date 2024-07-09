@@ -18,45 +18,39 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
 
 
 # Technique Lists
-
-{% assign techs = site.data.powers.techniques %}
-
-<div class="mytabs">
-    {% assign eskills = site.data.powers.techniques | map: "skill" | uniq | sort % %}
-    {% for eskill in eskills %}
-        {% assign tabid = 'tab_' | append: eskill %}
-        <input type="radio" id="{{ tabid }}" name="mytabs">
-        <label for="{{ tabid }}" style="font-size:110%">{{ eskill }}</label>
+<div>
+{% assign eskills = "Aether,Inferno,Lux,Mori,Nihil,Nox,Plaga,Rime,Squall,Tellus,Tempest,Torrent,Vivus" | split "," %}
+<h2 style='margin: 5px'>Aether</h2>
+<details>
+    <summary></summary>
+    <div>
+    {% for t in site.data.powers.techniques %}
+        {% if t.skill == "Aether" %}
+            <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+                <h3 style="margin-top: 5px;">{{t.name}}</h3>
+                <h4 style="margin-top: 5px;">{{t.type}}</h4>
+                <em>{{t.keywords | join: ", "}}</em>
+                <details>
+                <summary></summary>
+                    {% if t.requires %}
+                        <p><em>Requires: </em>{{t.requires}}</p>
+                    {% endif %}
+                    {% if t.effect %}
+                        <p><strong>Effect</strong>
+                        <br>{{t.effect}}</p>
+                    {% endif %}
+                    {% assign thresh = t.threshold %}
+                    {% for t in thresh %}
+                        <p><strong>Threshold &mdash; {{t.hits}}</strong>
+                        <br>{{t.effect}}</p>
+                    {% endfor %}
+                </details>
+            </div>
+            <div height=5px></div>
+        {% endif %}
     {% endfor %}
-    {% for eskill in eskills %}
-        <div class="tab">
-        {% for t in site.data.powers.techniques %}
-            {% if t.skill == eskill %}
-                <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-                    <h3 style="margin-top: 5px;">{{t.name}}</h3>
-                    <h4 style="margin-top: 5px;">{{t.type}}</h4>
-                    <em>{{t.keywords | join: ", "}}</em>
-                    <details>
-                    <summary></summary>
-                        {% if t.requires %}
-                            <p><em>Requires: </em>{{t.requires}}</p>
-                        {% endif %}
-                        {% if t.effect %}
-                            <p><strong>Effect</strong>
-                            <br>{{t.effect}}</p>
-                        {% endif %}
-                        {% assign thresh = t.threshold %}
-                        {% for t in thresh %}
-                            <p><strong>Threshold &mdash; {{t.hits}}</strong>
-                            <br>{{t.effect}}</p>
-                        {% endfor %}
-                    </details>
-                </div>
-                <div height=5px></div>
-            {% endif %}
-        {% endfor %}
-        </div>
-    {% endfor %}
+    </div>
+{% endfor %}
 </div>
 
 
