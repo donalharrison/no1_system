@@ -61,23 +61,24 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
             {% for tag in t.keywords %}
                 {% if tag == eskill %}
                     <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-                    <h3 style="margin-top: 5px;">{{t.name}}</h3>
-                    <h4 style="margin-top: 5px;">{{t.type}}</h4>
-                    <em>{{t.keywords | join: ", "}}</em>
-                    <details>
+                        <h3 style="margin-top: 5px;">{{t.name}}</h3>
+                        <h4 style="margin-top: 5px;">{{t.type}}</h4>
+                        <em>{{t.keywords | join: ", "}}</em>
+                        <details>
                         <summary></summary>
-                        {% if t.requires %}
-                            <p><em>Requires: </em>{{t.requires}}</p>
-                        {% endif %}
-                        {% if t.effect %}
-                            <p><strong>Effect</strong>
-                            <br>{{t.effect}}</p>
-                        {% endif %}
-                        {% assign thresh = t.threshold %}
-                        {% for t in thresh %}
-                            <p><strong>Threshold &mdash; {{t.hits}}</strong>
-                            <br>{{t.effect}}</p>
-                        {% endfor %}
+                            {% if t.requires %}
+                                <p><em>Requires: </em>{{t.requires}}</p>
+                            {% endif %}
+                            {% if t.effect %}
+                                <p><strong>Effect</strong>
+                                <br>{{t.effect}}</p>
+                            {% endif %}
+                            {% assign thresh = t.threshold %}
+                            {% for t in thresh %}
+                                <p><strong>Threshold &mdash; {{t.hits}}</strong>
+                                <br>{{t.effect}}</p>
+                            {% endfor %}
+                        </details>
                     </div>
                     <div height=5px></div>
                 {% endif %}
