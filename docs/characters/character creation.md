@@ -513,9 +513,9 @@ Your character's Heritage captures the heritable traits of the lineage and deter
             </div>
             <div height=5px></div>
             <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
-                    <strong>Ranor <em>(Moon Elf)</em></strong>
-                <br><em>Moon Elves, the Ranor, gain power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.
-                    <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
+                <strong>Ranor <em>(Moon Elf)</em></strong>
+                <br><em>Moon Elves, the Ranor, gain power from hidden lore and mysteries of the encroaching night.  With an affinity for magic and mysticism, they are skilled enchanters and guardians of ancient moonlit secrets. Their elegant beauty and enchanting aura make them renowned diplomats and scholars.</em>
+                <p><strong>Choose one (1):</strong> Gain +1 Skill Rank in Aether, Bellor, Composure, Cosmology, Craft, Deceive, Insight, Lead, Lux, Research, Shoot, Strike, or Tactics.</p>
             </div>
             <div height=5px></div>
             <div style='background-color: #211f2b50; margin: 10px; padding: 10px;'>
