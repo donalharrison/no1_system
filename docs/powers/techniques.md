@@ -52,7 +52,7 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
         </details>
     </div>
     <div height=5px></div>
-
+{% endfor %}
 <style>
  
 .mytabs {
