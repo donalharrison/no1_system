@@ -40,6 +40,7 @@ The Arcana's effects depend on how many rank you have invested.
             <strong>Requires: </strong><em>{{ a.requires }}</em>
         </p>
     {% endif %}
+        p><strong>Threshold &mdash; {{a.hits}}</strong>
     {% for asp in a.aspects %}
         <div style="background-color: #4b476650; padding: 8px;">
         {{ asp.skill }}
