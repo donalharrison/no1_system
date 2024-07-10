@@ -16,15 +16,15 @@
                     "strain": 5,
                     "effects": [
                         {
-                            "rank": 0,
+                            "ranks": 0,
                             "effect": "Deal Hits to 1 target in your Current or an Adjacent Zone."
                         },
                         {
-                            "rank": 1,
+                            "ranks": 1,
                             "effect": "Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1."
                         },
                         {
-                            "rank": 4,
+                            "ranks": 4,
                             "effect": "Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2."
                         }
                     ]
@@ -35,15 +35,15 @@
                     "strain": 5,
                     "effects": [
                         {
-                            "rank": 0,
+                            "ranks": 0,
                             "effect": "Score 2+ Hits to have 1 target in your Current Zone gains Dazed."
                         },
                         {
-                            "rank": 1,
+                            "ranks": 1,
                             "effect": "Score 2+ Hits to have up to 2 targets in your Current Zone gain Dazed."
                         },
                         {
-                            "rank": 4,
+                            "ranks": 4,
                             "effect": "Score 2+ Hits to have up to Hits targets in your Current Zone gain Dazed."
                         }
                     ]
@@ -65,11 +65,11 @@
                     "strain": 3,
                     "effects": [
                         {
-                            "rank": 3,
+                            "ranks": 3,
                             "effect": "Deal Hits to 1 target's Grit, ignoring all Defenses."
                         },
                         {
-                            "rank": 7,
+                            "ranks": 7,
                             "effect": "Deal Hits to all target's Grit, ignoring all Defenses."
                         }
                     ]
@@ -80,7 +80,7 @@
                     "strain": 5,
                     "effects": [
                         {
-                            "rank": 5,
+                            "ranks": 5,
                             "effect": "When a target you can see in your Current Zone dies, restore Hits to your Grit."
                         }
                     ]
@@ -91,15 +91,15 @@
                     "strain": 1,
                     "effects": [
                         {
-                            "rank": 3,
+                            "ranks": 3,
                             "effect": "One target in your Current or an Adjacent Zone gains Fatigued 1."
                         },
                         {
-                            "rank": 5,
+                            "ranks": 5,
                             "effect": "One target in your Current or an Adjacent Zone gains Fatigued 2."
                         },
                         {
-                            "rank": 7,
+                            "ranks": 7,
                             "effect": "All targets in your Current or an Adjacent Zone gains Fatigued 2."
                         }
                     ]
@@ -121,11 +121,11 @@
                     "strain": 1,
                     "effects": [
                         {
-                            "rank": 2,
+                            "ranks": 2,
                             "effect": "One target in your Current or an Adjacent Zone loses 2 Grit and one target in your Current Zone reduces their Dying rating by -1."
                         },
                         {
-                            "rank": 5,
+                            "ranks": 5,
                             "effect": "One target in your Current or an Adjacent Zone loses X Grit and one target in your Current Zone reduces their Dying rating by -1, where X is equal to Hits in the result set."
                         }
                     ]
@@ -136,11 +136,11 @@
                     "strain": 1,
                     "effects": [
                         {
-                            "rank": 1,
+                            "ranks": 1,
                             "effect": "One target in your Current or an Adjacent Zone regains X Grit, where X is equal to Hits in the result set."
                         },
                         {
-                            "rank": 5,
+                            "ranks": 5,
                             "effect": "One target in your Current or an Adjacent Zone regains X Grit and one other target in your Current or an Adjacent Zone gains Wounded 1, where X is equal to Hits in the result set."
                         }
                     ]
@@ -250,7 +250,7 @@
                     "strain": 2,
                     "effects": [
                         {
-                            "hits": 1,
+                            "ranks": 1,
                             "effect": "When you make an Initiative Test using Tactics, add +1d4 Bonus Hits to the result set",
                         }
                     ]
