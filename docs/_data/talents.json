@@ -25,7 +25,7 @@
                 "Select two items from the list below to be your Virtues and two items to be your Taboos:
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
+                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
                 "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
@@ -631,7 +631,8 @@
             "replaces": null,
             "effect": [
                 "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                Your Concordance measures how closely you are aligned with your Divine Doctrine.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -851,7 +852,7 @@
                 "Select two items from the list below to be your Virtues and two items to be your Taboos:
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>",
+                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
                 "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
                 <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
@@ -865,7 +866,7 @@
             "replaces": null,
             "effect": [
             "Select 1 additional Effect Skill from the list below to add to your Domain:
-            <br>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus"
+            <br>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus"
             ]
         },
         {
@@ -4749,7 +4750,7 @@
                 "Select two items from the list below to be your Virtues and two items to be your Taboos:
                 <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>","Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
+                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>","Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
             ]
         },
         {
@@ -4772,7 +4773,7 @@
             "replaces": null,
             "effect": [
                 "Select 1 additional Effect Skills from the list below to add to your Domain:
-                <br><em>Inferno, Lux, Mori, Nox, Rime, Tempest, Vivus</em>"
+                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>"
             ]
         },
         {
