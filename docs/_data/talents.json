@@ -431,7 +431,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 while the Aura persist."
+                "Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists."
             ]
         },
         {

@@ -1063,22 +1063,1865 @@
     ],
     "rites": [
         {
-            "name": "",
-            "type": "",
-            "max_ranks": null,
-            "effect": null,
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
-            ]
+          "name": "of Aegis",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Armor Defense X +4, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Aegis",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Armor Defense X +4, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Affliction",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Fatigued 2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Affliction",
+          "skill": "Nox",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Fatigued 2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Binding",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Restrained X."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Binding",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Restrained X."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Blood",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] takes X Hits and gains Wounded 1, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Blood",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] takes X Hits and gains Wounded 1, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Censure",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] takes X Hits to Nerve and gains Vulnerable 2, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Censure",
+          "skill": "Tempest",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] takes X Hits to Nerve and gains Vulnerable 2, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Challenge",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You Initiate a Contest with one target in your Current Zone.  If you are victorious, gain +1 Renown and increase the Momentum by +3."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Challenge",
+          "skill": "Tempest",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You Initiate a Contest with one target in your Current Zone.  If you are victorious, gain +1 Renown and increase the Momentum by +3."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Cinders",
+          "skill": "Inferno",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "All targets in your Current Zone except you take X Hits, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Cleansing",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target [current] reduces one Status rating by X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Cleansing",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target [current] reduces one Status rating by X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Command",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Select one target in your Current Zone.  The target gains Provoked, then choose one (1): Charmed X, Prone, Afraid, "
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Command",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Select one target in your Current Zone.  The target gains Provoked, then choose one (1): Charmed X, Prone, Afraid, "
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Communion",
+          "skill": "Lux",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Communion",
+          "skill": "Ordi",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Communion",
+          "skill": "Vivus",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Condemnation",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Up to X targets in your Current Zone gain Vulnerable 2, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Condemnation",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Up to X targets in your Current Zone gain Vulnerable 2, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Darkness",
+          "skill": "Nox",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "You can see in total darkness as though you had a dim light source.  Reduce any Hits you suffer from Nox effects by -1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Dawns",
+          "skill": "Lux",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "You cannot gain the Blinded status.  Reduce any Hits you suffer from Lux effects by -1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Death's Bounty",
+          "skill": "Mori",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X, X. . .  If a target dies in your Current Zone while the Aura persists, choose one (1):  You regain +1 Grit, you reduce your Dying rating by -1."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Death's Embrace",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "You gain Aura X, X. . .  While the Aura persists, all hostile targets in your Current Zone lose 1 Grit at the beginning of each of your turns."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Death's Touch",
+          "skill": "Mori",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X, X. . .  While the Aura persists, add +1 Bonus Hits to Grit to any Action you take using Grapple, Martial Arts, Shoot, or Strike."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Deflection",
+          "skill": "Inferno",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Armor Defense X against any effect originating outside of your Current Zone, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Deflection",
+          "skill": "Rime",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Armor Defense X against any effect originating outside of your Current Zone, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Deflection",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Armor Defense X against any effect originating outside of your Current Zone, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Deflection",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Armor Defense X against any effect originating outside of your Current Zone, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Deflection",
+          "skill": "Nox",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Armor Defense X against any effect originating outside of your Current Zone, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Dismissal",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Reduce the rating of one Aura in your current zone by -X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Dismissal",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Reduce the rating of one Aura in your current zone by -X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Dusk",
+          "skill": "Nox",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "One target in your Current Zone gains Confused X and up to X targets in an Adjacent Zone gain Afraid 1, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Empathy",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Spend up to X Grit to have one target in your Current Zone regain X Grit, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Excoriation",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Stunned X."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Excoriation",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Stunned X."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Fire",
+          "skill": "Inferno",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "Reduce any Hits you suffer from fire or Inferno effects by -2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Flames",
+          "skill": "Inferno",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Your Current and all Adjacent Zones gain X Hazard, X. . .  This turn, and on each of your turns Ongoing, you may use a shift to deal 1d4 Bonus Hits to one target in any of the effected Zones."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 2"
+        },
+        {
+          "name": "of Flame's Tongue",
+          "skill": "Inferno",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X, X. .   .While the Aura persists, add +1d4 Bonus Hits to any Action you take using Grapple, Martial Arts, Shoot, or Strike."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Focus",
+          "skill": "Inferno",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Ordi",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Nox",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Mori",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Tempest",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Rime",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Focus",
+          "skill": "Vivus",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains +X Bonus Hits on their next Action, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Friendship",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Charmed X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Friendship",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Charmed X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Friendship",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Charmed X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Friendship",
+          "skill": "Inferno",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Charmed X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Frostfall",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Choose up to X targets [current], X. . .  Choose one (1):  All targets gain Frozen 1, all targets gain Restrained 2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Frost's Brand",
+          "skill": "Rime",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X, X. .   .While the Aura persists, add +1 Bonus Hits to any Action you take using Grapple, Martial Arts, Shoot, or Strike, and your target gain Frozen 1."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Inferno",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Ordi",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Nox",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Mori",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Tempest",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Guidance",
+          "skill": "Rime",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Create X+1 Advantages [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Havoc",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Increase the Entropy by X, then you and up to X other allies may immediately take one action.  X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Healing",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] regains 3 Grit and recovers X to their Primary Defense, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Hellfire",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Target your Current or an Adjacent Zone.  All targets except you in the targeted Zone take X Hits, and gain Fatigued 1 and Provoked, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Hellfire",
+          "skill": "Inferno",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Target your Current or an Adjacent Zone.  All targets except you in the targeted Zone take X Hits, and gain Fatigued 1 and Provoked, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Heroes",
+          "skill": "Ordi",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Until the end of your next turn, when any Action you or your allies take that scores 2+ Hits, increase the Momentum by +1.  Increase the Current Timer by +1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Heroes",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Until the end of your next turn, when any Action you or your allies take that scores 2+ Hits, increase the Momentum by +1.  Increase the Current Timer by +1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Heroes",
+          "skill": "Tempest",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Until the end of your next turn, when any Action you or your allies take that scores 2+ Hits, increase the Momentum by +1.  Increase the Current Timer by +1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Heroes",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Until the end of your next turn, when any Action you or your allies take that scores 2+ Hits, increase the Momentum by +1.  Increase the Current Timer by +1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Heroes",
+          "skill": "Vivus",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Until the end of your next turn, when any Action you or your allies take that scores 2+ Hits, increase the Momentum by +1.  Increase the Current Timer by +1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Hoarfrost",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target [current] gains Frozen X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Ice",
+          "skill": "Rime",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "Reduce any Hits you suffer from cold, ice, or Rime effects by -2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Lightning",
+          "skill": "Tempest",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] takes X and gains Stunned 1, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Martyrdom",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Spend up to X Grit to have all allies in your Current Zone regain X Grit, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Martyrdom",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Spend up to X Grit to have all allies in your Current Zone regain X Grit, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Mending",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Reduce the Wound rating of one target in your Current Zone by up to -X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Mending",
+          "skill": "Vivus",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Reduce the Wound rating of one target in your Current Zone by up to -X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Mending",
+          "skill": "Ordi",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Reduce the Wound rating of one target in your Current Zone by up to -X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Moons' Deceit",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Create a sphere of pallid in your Current Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following: move the sphere, Reveal any hidden target in the Sphere's zone using your Perceive, adding +1d4 Bonus Hits to the result set and removing the Invisible keyword from all targets in the Zone, Have one target in the Sphere's Zone gain the Invisible keyword."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 2"
+        },
+        {
+          "name": "of Night",
+          "skill": "Nox",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone gains Aura X to add +1d4 Bonus Hits to any Action using Stealth, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Order",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Decrease the Entropy by -2.  If the Current Timer is less than 3, increase it by 3.  The current turn ends and your team gains the Initiative."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Passage",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "You and up to X targets in your Current Zone can ignore Hazards while moving until the beginning of your next turn."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Passage",
+          "skill": "Nox",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "You and up to X targets in your Current Zone can ignore Hazards while moving until the beginning of your next turn."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Passage",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "You and up to X targets in your Current Zone can ignore Hazards while moving until the beginning of your next turn."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Radiance",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Create 3 spheres of luminous energy in your Current Zone. This turn, and on each of your turns Ongoing, you may use a Shift for either of the following: move spheres, Score 1d4 Bonus Hits to one target in the Sphere's Zone, Have one target in the Sphere's Zone recover 1d4 Bonus Hits to their Primary Defense."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 2"
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Inferno",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Nox",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Tempest",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Rapport",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send X 15 word messages to one target you are familiar with on this world.  The target may reply to each message."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Reaping",
+          "skill": "Mori",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone loses X Grit and you regain X Grit."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Recovery",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "All allies in your Current Zone can immediately use the Recover, adding +X to their result sets, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Release",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Reduce the rating of one Ongoing or Aura effect produced by a Power in your Current Zone by X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Relief",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target [current] reduces one Status rating by X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Renewal",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target in your Current Zone regains X Grit and reduces their Dying rating by -1, X. . .  You gain Vulnerable 2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Repair",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Restore X rating to Gear [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Repair",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "Restore X rating to Gear [current], X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Restoration",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone reduces their Dying or Wounded rating by -X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Retaliation",
+          "skill": "Bellor",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "All hostile targets in your Current and all Adjacent Zones that scored Hits against you or your allies on their last turn take X Hits, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Revitalization",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] recovers X to their Primary Defense and ends one Status effecting them."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Righteousness",
+          "skill": "Ordi",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "You Provoke all enemies [current].  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger: \"When you score 2+ Hits with an Action that effects one target, that target gains Stunned 1.\""
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Safety",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Prevent any Hits to Defenses or Grit Ongoing in your Current Zone."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 3"
+        },
+        {
+          "name": "of Safety",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Prevent any Hits to Defenses or Grit Ongoing in your Current Zone."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 3"
+        },
+        {
+          "name": "of Safety",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Prevent any Hits to Defenses or Grit Ongoing in your Current Zone."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 3"
+        },
+        {
+          "name": "of Searing Light",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] takes X Hits and gains Blind 2, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Seeing",
+          "skill": "Inferno",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X to add +1d4 Bonus Hits to any Action using Perceive, X. . .  You can see through Invisibility."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Seeing",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X to add +1d4 Bonus Hits to any Action using Perceive, X. . .  You can see through Invisibility."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Shadows",
+          "skill": "Nox",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gains Aura X to add +1d4 Bonus Hits to any Action using Stealth, X. . . "
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Shelter",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Prevent any Hits to Defenses or Grit to one target [current] until the end of your next turn."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Shelter",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Prevent any Hits to Defenses or Grit to one target [current] until the end of your next turn."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Shelter",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Prevent any Hits to Defenses or Grit to one target [current] until the end of your next turn."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Solidarity",
+          "skill": "Ordi",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Use the Recover Action.  All allies in your Current Zone recover X to the same Defense as you.  You and all allies in your Current Zone reduce all Statuses by -1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Somr",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger: \"When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.\""
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Somr",
+          "skill": "Inferno",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger: \"When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.\""
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Steel",
+          "skill": "Bellor",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "All Gear you equip gains +1 Gear rating. You add +1 Hits to any Action using Craft to repair Gear."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Stone",
+          "skill": "Ordi",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "You cannot gain the Wounded status.  Add +1 Bonus Hits to any Action using Endure."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Storm's Crash",
+          "skill": "Tempest",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You gain Aura X, X. .   .While the Aura persists, add +1 Bonus Hits to any Action you take using Grapple, Martial Arts, Shoot, or Strike, and your target gains Stunned 1."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Suns' Judgement",
+          "skill": "Lux",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Choose one (1): Create a sphere of golden light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere and have one target in the sphere's Current Zone adds +1d4 Bonus Hits to any Action using Analyze, Endure, Focus, Insight, or Lux.  Create a sphere of coppery red light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere and have one target in the sphere's Current Zone adds +1d4 Bonus Hits to any Action using Exert, Shoot, Strike, Tactics, or Lux.  Create a sphere of cold black light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere and have one target in the sphere's Current Zone take 1d4 Bonus Hits and gains Stunned X, where X is equal to the Bonus Hits from this Power.  "
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 2"
+        },
+        {
+          "name": "of the Ebon Field",
+          "skill": "Nox",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "Increase the Entropy by +2.  One target in your Current Zone is transported up to 2 Zones away from your Current Zone, and gains Dazed 1 and Fatigued 1"
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of the Storm",
+          "skill": "Tempest",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "Reduce any Hits you suffer from lightning, thunder, or Tempest effects by -2."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of the Stormcaller",
+          "skill": "Tempest",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Your Current and all Adjacent Zones gain Hazard, 1. . .  This turn, and on each of your turns Ongoing, you may use a shift to deal 1d4 Bonus Hits to one target in any of the effected Zones.  That target gains Dazed 2 and Fatigued 1."
+            }
+          ],
+          "requires": null,
+          "keywords": "Ongoing 2"
+        },
+        {
+          "name": "of the Tempest's Lash",
+          "skill": "Tempest",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target [current] takes X hits, X. . .  Choose 1"
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Thunder",
+          "skill": "Tempest",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "3",
+              "effect": "All targets [current] gain Stunned 1."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Inferno",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Ordi",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Nox",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Mori",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Lux",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Tempest",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Tidings",
+          "skill": "Rime",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "You send a 25 word message to one target you are familiar with on this world."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Vengeance",
+          "skill": "Bellor",
+          "type": "Trigger",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "When you suffer Hits from a target you can see, spend 1 Momentum and target gains Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists."
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Violence",
+          "skill": "Bellor",
+          "type": "Shift",
+          "threshold": [
+            {
+              "hits": "1",
+              "effect": "One target in your Current Zone add +1d4 Bonus Hits to their next Action using Grapple, Martial Arts, Shoot, or Strike."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Vitality",
+          "skill": "Vivus",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "You and one target [current] regain X hits to your Grit."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of War",
+          "skill": "Bellor",
+          "type": "Static",
+          "threshold": [
+            {
+              "hits": "0",
+              "effect": "You add +1d4 Bonus Hits to any Initiative test.  You gain an Armor Defense of +1 requiring no Gear."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
+        },
+        {
+          "name": "of Wintr",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "One target [current] gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger: \"When you score 2+ Hits with a combat Action that effects one target, that target gains Frozen 1.\""
+            }
+          ],
+          "requires": null,
+          "keywords": "Aura"
+        },
+        {
+          "name": "of Wintr's Fury",
+          "skill": "Rime",
+          "type": "Ability",
+          "threshold": [
+            {
+              "hits": "2",
+              "effect": "Target your Current or an Adjacent Zone.  All targets except you in the targeted Zone take X Hits, and gain Frozen X, X. . ."
+            }
+          ],
+          "requires": null,
+          "keywords": ""
         }
-    ],
+      ],
     "spells": [
         {
             "name": "Arc Lightning",
