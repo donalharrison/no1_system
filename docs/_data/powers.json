@@ -806,7 +806,7 @@
                                     <li>You gain +1 Renown.</li>
                                     <li>You gain +3 Wealth.</li>
                                 </ul>"
-                        }
+                        },
                         {
                             "ranks": 4,
                             "effect": "If you score 3+ Hits on your next Action, choose up to two (2):
