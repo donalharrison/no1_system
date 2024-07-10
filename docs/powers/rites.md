@@ -44,8 +44,8 @@ permalink: /characters/powers/rites/
                             {% endif %}
                             {% assign thresh = r.threshold %}
                             {% for t in thresh %}
-                                <p><strong>Threshold &mdash; {{r.hits}}</strong>
-                                <br>{{r.effect}}</p>
+                                <p><strong>Threshold &mdash; {{t.hits}}</strong>
+                                <br>{{t.effect}}</p>
                             {% endfor %}
                         </details>
                     </div>
