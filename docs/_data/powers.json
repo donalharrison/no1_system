@@ -3,7 +3,7 @@
         {
             "name": "The Prime Conflagration",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": 2,
             "requires": null,
             "keywords": [
                 "Inferno",
