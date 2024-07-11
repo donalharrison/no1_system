@@ -32,6 +32,7 @@ The Arcana's effects depend on how many rank you have invested.
         {% for i in (1..j) %}
             <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
         {% endfor %}
+        <strong>Threshold &mdash; {{a.threshold}}</strong>
         <details>
             <summary>
             </summary>
@@ -40,7 +41,6 @@ The Arcana's effects depend on how many rank you have invested.
                     <strong>Requires: </strong><em>{{ a.requires }}</em>
                 </p>
             {% endif %}
-            <strong>Threshold &mdash; {{a.threshold}}</strong>
             {% for asp in a.aspects %}
                 <div style="background-color: #4b476650; padding: 8px;">
                     {{ asp.skill }}
