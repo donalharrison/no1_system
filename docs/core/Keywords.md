@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 Ongoing
+
 Aura
 
 Auras cannot be interacted with except by specific powers and talents. They have timers
@@ -17,4 +18,9 @@ Skill Keywords
 Threshold
 
 Flying
+
+Invisible
+
+Truesight
+
 

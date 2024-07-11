@@ -54,6 +54,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Adventurous</strong>
 </summary>
 <p>You crave excitement and new experiences, always seeking out the next adventure. Your adventurous spirit makes you bold and courageous, but it can also lead you into risky situations or make you restless.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -61,6 +62,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Ambitious</strong>
 </summary>
 <p>You have a strong desire to succeed and achieve greatness. Your ambition drives you to constantly strive for improvement and excellence, but it can also lead to ruthless behavior or burnout.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -68,6 +70,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Brooding</strong>
 </summary>
 <p>You are introspective and often lost in thought, with a tendency to focus on the darker aspects of life. Your brooding nature gives you depth and insight, but it can also make you seem moody or pessimistic.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -75,6 +78,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Calm</strong>
 </summary>
 <p>You maintain a serene and composed demeanor, even in the face of adversity. Your calmness helps you think clearly and make rational decisions, earning you the trust and respect of others. However, your detachment can sometimes make you seem aloof or indifferent.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -82,6 +86,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Cheerful</strong>
 </summary>
 <p>You have an optimistic and sunny disposition, always looking for the bright side of any situation. Your cheerfulness lifts the spirits of those around you, but some might find your relentless positivity naive or unrealistic.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -89,6 +94,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Compassionate</strong>
 </summary>
 <p>You are deeply empathetic and caring, always seeking to help and support others. Your compassion makes you a beloved figure, but it can also lead you to neglect your own needs or be taken advantage of by others.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -96,6 +102,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 <strong>Confident</strong>
 </summary>
 <p>You have a strong belief in your abilities and judgments, always carrying yourself with assurance. Your confidence inspires others and helps you take decisive action, but it can also come off as arrogance.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -104,6 +111,7 @@ The character's personality at a high-level.  Temperament does not capture all o
 </summary>
 <p>You have a skeptical and distrustful view of the world, always questioning others' motives. Your cynicism makes you shrewd and hard to deceive, but it can also make you seem jaded or negative.
 Having seen the darker side of life, you no longer believe in the inherent goodness of people or institutions. Your cynicism makes you skeptical of others' motives and cautious in your actions. You rely on your sharp wit and keen perception to navigate through deceit and corruption.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -111,6 +119,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Determined</strong>
 </summary>
 <p>You are resolute and unwavering in your goals, never giving up until you achieve what you set out to do. Your determination is inspiring, but your single-mindedness can sometimes make you inflexible or stubborn.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -118,6 +127,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Driven</strong>
 </summary>
 <p>There is a particular goal or ambition that drives you relentlessly. Whether it's becoming the best at your craft, uncovering a great truth, or achieving power, this drive defines your actions. It gives you purpose and direction, but can also lead to obsession and burnout.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -125,6 +135,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Energetic</strong>
 </summary>
 <p>You are full of life and vitality, always ready to take action and tackle challenges head-on. Your enthusiasm and drive inspire those around you, but your high energy can sometimes come off as impulsive or overwhelming.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -132,6 +143,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Gentle</strong>
 </summary>
 <p>You are kind-hearted and mild-mannered, always treating others with kindness and respect. Your gentle nature makes you a calming presence, but it can also make you seem weak or easily taken advantage of.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -139,6 +151,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Haunted</strong>
 </summary>
 <p>You are haunted by a past mistake that led to the suffering or death of innocents. This ghost from your past drives you to seek redemption, striving to right the wrongs and protect the innocent at all costs, even if it means putting yourself in harm's way.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -146,6 +159,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Hot-Tempered</strong>
 </summary>
 <p>You are quick to anger and have a fiery personality. Your passion and intensity can be motivating and compelling, but your temper can lead to conflicts and rash decisions.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -153,6 +167,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Idealistic</strong>
 </summary>
 <p>You hold an unwavering belief in a set of ideals or a vision for a better world. This idealism drives you to make sacrifices and take risks to bring about positive change, but it can also make you inflexible or disappointed by reality. While some see you as a beacon of hope, others might view you as naive or impractical.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 </div>
@@ -163,6 +178,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Inquisitive</strong>
 </summary>
 <p>You are naturally curious and always seeking to learn more about the world around you. Your inquisitive nature drives you to explore and discover, but it can also make you nosy or distractible.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -170,6 +186,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Loyal</strong>
 </summary>
 <p>You are fiercely devoted to your friends, family, and causes. Your loyalty makes you a trusted ally and dependable companion, but it can also blind you to others' faults or make you inflexible.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -177,6 +194,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Mentor</strong>
 </summary>
 <p>You have a wealth of knowledge and experience, and you feel a strong duty to pass it on to others. This mentor role shapes your interactions, as you seek to guide and teach those around you. You are patient and wise, but can sometimes come across as overbearing or controlling.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -184,6 +202,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Outcast</strong>
 </summary>
 <p>For reasons beyond your control, you were cast out from your community or family. This experience has made you resilient and self-reliant, but also wary of forming close ties. You constantly seek to prove your worth and find a place where you truly belong.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -191,6 +210,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Paragon</strong>
 </summary>
 <p>You strive to live by a strict code of ethics or morality, seeking to be an exemplar of virtue. This pursuit of perfection influences your every decision and action. While others admire your integrity, they may also find you rigid or uncompromising.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -198,6 +218,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Pessimistic</strong>
 </summary>
 <p>You tend to expect the worst and prepare for negative outcomes. Your pessimism makes you cautious and prepared for adversity, but it can also dampen morale and make you seem defeatist.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -205,6 +226,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Playful</strong>
 </summary>
 <p>You have a lighthearted and mischievous nature, always looking for fun and humor in life. Your playful attitude makes you charming and entertaining, but some might find you frivolous or unreliable.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -212,6 +234,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Pragmatic</strong>
 </summary>
 <p>You have a practical and realistic approach to life, always looking for the most efficient solutions. Your pragmatism makes you reliable and effective, but it can also make you seem cold or unfeeling.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -219,6 +242,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Protector</strong>
 </summary>
 <p>You have a strong instinct to protect those who are weaker or in need. This protective nature often puts you in harm's way, as you are willing to sacrifice your own safety for the well-being of others. You are seen as a guardian and a champion by those you help.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -226,6 +250,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Reserved</strong>
 </summary>
 <p>You are quiet and introspective, preferring to observe and reflect rather than speak out. Your reserved nature makes you a good listener and thoughtful companion, but it can also make you seem distant or unapproachable.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -233,6 +258,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Ruthless</strong>
 </summary>
 <p>You hold fast to one basic rule: get the job done. You've been called cold, calculating, and brutal. Your reputation for ruthless efficiency makes your fellows wary of you. But when failure is not an option, leaders go to you first.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -240,6 +266,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Stoic</strong>
 </summary>
 <p>You possess a steady and unflappable nature, enduring hardships without complaint. Your stoic attitude makes you a reliable figure in crises, but it can also make you seem distant or emotionally unavailable.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -247,6 +274,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Vengeful</strong>
 </summary>
 <p>Someone or something wronged you deeply in the past, and now your life is driven by a desire for vengeance. This burning need for retribution influences your every decision, often leading you down dark and dangerous paths. You will not rest until justice, or your version of it, is served.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -254,6 +282,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Visionary</strong>
 </summary>
 <p>You have a unique and far-reaching vision that sets you apart from others. This vision drives you to pursue goals that others might find impossible or impractical. Your innovative thinking and determination can lead to great achievements, but also to isolation and misunderstanding.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 <details>
@@ -261,6 +290,7 @@ Having seen the darker side of life, you no longer believe in the inherent goodn
 <strong>Zealous</strong>
 </summary>
 <p>You are fiercely devoted to a particular cause, religion, or ideology. This zealotry drives your actions and decisions, often leading you to extremes that others might shy away from. Your passion can inspire and rally others, but it can also make you inflexible and intolerant of differing views.</p>
+<p>Gain +1 Milestone.</p>
 </details>
 
 </div>

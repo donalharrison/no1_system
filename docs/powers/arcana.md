@@ -12,11 +12,11 @@ The mysteries of the Cosm leave traces across all of existence.  Hidden and forg
 Some curious, and some say foolhardy, folk study these mysteries, known casually as Arcana.  Knowledge and comprehension of this mystical wisdom empowers these individuals to bend and shape reality to their will.
 
 ## Studying Arcana
-When you use an Ability that provides Arcana Ranks, you invest those in specific Arcana to increase their Rank and augmenting the Arcanum's effects.
+The Arcana's effect depend on how many Ranks you have invested.  When you use an Ability that provides Arcana Ranks, you invest those in Ranks specific Arcanum to increase its effects.
 
 ## Using Arcana
-Arcana have Aspects, each of which has an Effect Skill associated with ia.  When you invoke an Arcana, select which Aspect you wish to use and roll the associated Effect Skill.
-The Arcana's effects depend on how many rank you have invested.
+Arcana have Aspects, each of which has an associated Effect Skill.  When you invoke an Arcana, select which Aspect you wish to use and roll the associated Effect Skill.
+If you score a number of Hits euqal to or greater than the invoked Arcanum's Threshold, the effect occurs.
 
 
 # Arcana List
