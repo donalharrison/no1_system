@@ -1087,45 +1087,77 @@
             "aspects": [
                 {
                     "skill": "Aether",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] gains Charmed 2 and Dazed 1, X. . ."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "One target [current] gains Charmed X and Dazed 1, X. . ."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target [current] gains Charmed X and Dazed x, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Locus",
-                    "type": "",
-                    "strain": null,
+                    "type": "Shift",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "Select one target in an Adjacent from your Current Zone.  You switch places with the target, both ignoring Hazards from the movement."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "Select one target up to two Zones Adjacent from your Current Zone.  You switch places with the target, both ignoring Hazards from the movement."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Select one target upt to two Zones Adjacent from your Current Zone.  You switch places with the target, both ignoring Hazards from the movement.  The target gains Dazed 1."
                         }
                     ]
                 },
                 {
                     "skill": "Lux",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target in yoru Current Zone gains Blind 1 and Provoked 1."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "One target in yoru Current Zone gains Blind 1 and Provoked X, X. . ."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target in yoru Current Zone gains Blind 2 and Provoked X, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Nox",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] gains Confused 2 and Silenced 1."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "One target [current] gains Confused X and Silenced 2."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target [current] gains Confused X, Silenced X, and Vulnerable 1."
                         }
                     ]
                 }
@@ -1133,8 +1165,8 @@
         },
         {
             "name": "The Celestial Conflux",
-            "max_ranks": 4,
-            "threshold": null,
+            "max_ranks": 5,
+            "threshold": 2,
             "requires": null,
             "keywords": [
                 ""
@@ -1142,23 +1174,31 @@
             "aspects": [
                 {
                     "skill": "Aether",
-                    "type": "",
-                    "strain": null,
+                    "type": "Shift",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Up to X targets in your Current Zone gain Vulnerable 2, where X is equal to Hits in the result set."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "All targets in your Current Zone gain Vulnerable 2."
                         }
                     ]
                 },
                 {
                     "skill": "Lux",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Up to X targets in your Current Zone take 1 Hit, X. . .  Redduce your Strain by -2."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "Up to X targets in your Current Zone take 1 Hit, X. . .  Reduce your Strain by the number of targets with Vulnerable that suffered Hits from this effect."
                         }
                     ]
                 }
@@ -1167,7 +1207,7 @@
         {
             "name": "The Dreamer's Well",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": 2,
             "requires": null,
             "keywords": [
                 ""
@@ -1175,23 +1215,31 @@
             "aspects": [
                 {
                     "skill": "Aether",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 3,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "Increase the Entropy by +1 and gain a vision of one target of your choice, learning the target's current location."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Increase the Entropy by +1 and gain a vision of one target of your choice, learning the target's current location.  Reduce your Straing by X, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Mentis",
-                    "type": "",
+                    "type": "Ability",
                     "strain": null,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "Increase the Entropy by +2 and you may ask the BAMF one <em>'Yes or No'</em> question about the game fiction."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "You gain Fatigued 2 and the BAMF reveals one secret to you about the game fiction."
                         }
                     ]
                 }
@@ -1199,8 +1247,8 @@
         },
         {
             "name": "The Tempest Core",
-            "max_ranks": 4,
-            "threshold": null,
+            "max_ranks": 5,
+            "threshold": 3,
             "requires": null,
             "keywords": [
                 ""
@@ -1208,34 +1256,46 @@
             "aspects": [
                 {
                     "skill": "Squall",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Move one target in your Current Zone away from you one Adjacent Zone."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "Move up to X targets in your Current Zone away from you one Adjacent Zone, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Tempest",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] takes 2 Hits."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "One target [current] takes X Hits, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Torrent",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "Target your Current or an Adjacent Zone to gain Hazard 3.  All targets in the targeted Zone gain Fatigued 1 and take 1 Hit."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Target your Current and all Adjacent Zones to gain Hazard 3.  All targets in the targeted Zones gain Fatigued 1 and take 1 Hit.  Reduce your Strain by -1 for each target that takes Hits from this effect that is Fatigued."
                         }
                     ]
                 }
@@ -1243,7 +1303,7 @@
         },
         {
             "name": "The Luminous Shard",
-            "max_ranks": 4,
+            "max_ranks": 3,
             "threshold": null,
             "requires": null,
             "keywords": [
@@ -1252,23 +1312,31 @@
             "aspects": [
                 {
                     "skill": "Lux",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "Up to X targets [current] gain Blind 1."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "Up to X targets [current] gain Blind 1 and take X Hits, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Tellus",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] gains Restrained 2.  Reduce your strain by X if the target is Blind, X. . ."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "Up to X targets [current] gain Restrained 2.  Reduce your strain by -1 for each target who gains Restrained if they are Blind."
                         }
                     ]
                 }
@@ -1276,7 +1344,7 @@
         },
         {
             "name": "The Endless Ruin",
-            "max_ranks": 4,
+            "max_ranks": 6,
             "threshold": null,
             "requires": null,
             "keywords": [
@@ -1285,34 +1353,58 @@
             "aspects": [
                 {
                     "skill": "Bellor",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Increase the Entropy by +1.  You gain Aura 1.  While this Aura persists, you can ignore Hazards when the use a Shift to Move."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Increase the Entropy by +1.  You and up to X targets gain Aura 2, x. . .  While this Aura persists, affected targets ignore Hazards when the use a Shift to Move."
+                        },
+                        {
+                            "ranks": 6,
+                            "effect": "Increase the Entropy by +1.  You and up to X targets gain Aura X, X. . .  While this Aura persists, affected targets can ignore Hazards when the use a Shift to Move."
                         }
                     ]
                 },
                 {
                     "skill": "Destroy",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Your Current or an Adjacent Zone to gains Hazard 2."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Your Current and all Adjacent Zones to gain Hazard 2."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Your Current and all Adjacent Zones to gain Hazard 4."
                         }
                     ]
                 },
                 {
                     "skill": "Mori",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "One target [current] loses -X Grit, where X is euqal to the number of Hazards in the target's Current Zone.  Reduce your Strain by -1."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "All targets [current] lose -X Grit, where X is euqal to the number of Hazards in the target's Current Zone.  Reduce your Strain by -X."
+                        },
+                        {
+                            "ranks": 6,
+                            "effect": "All targets [current] loses -X Grit, where X is euqal to the number of Hazards in the target's Current Zone.  Reduce your Strain by -Y, where Y is equal to the total Grit the targets of this effect lose."
                         }
                     ]
                 }
@@ -1320,8 +1412,8 @@
         },
         {
             "name": "The Blood Hand",
-            "max_ranks": 4,
-            "threshold": null,
+            "max_ranks": 3,
+            "threshold": 3,
             "requires": null,
             "keywords": [
                 ""
@@ -1329,23 +1421,31 @@
             "aspects": [
                 {
                     "skill": "Inferno",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] takes X Hits, X. . .  If the target is Wounded, reduce your Strain by -2."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "One target [current] takes X Hits, X. . .  If the target is Wounded, reduce your Strain by -X."
                         }
                     ]
                 },
                 {
                     "skill": "Sangui",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target in your Current Zone gains Fatigued 1."
+                        },
+                        {
+                            "ranks": 1,
+                            "effect": "One target [current] gains Fatigued 1 and Wounded 1."
                         }
                     ]
                 }
@@ -1354,7 +1454,7 @@
         {
             "name": "The Bleeding Tome",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": 3,
             "requires": null,
             "keywords": [
                 ""
@@ -1362,34 +1462,58 @@
             "aspects": [
                 {
                     "skill": "Mori",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 3,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target in your Current Zone gains Fatigued 1 and loses 1 Grit.  Reduce your Strain by -1 if the target is Vulnerable."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "One target in your Current Zone gains Fatigued 1 and loses 3 Grit.  Reduce your Strain by -1 if the target is Vulnerable."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target in your Current Zone gains Fatigued 1 and loses X Grit, X. . .  Reduce your Strain by -3 if the target is Vulnerable."
                         }
                     ]
                 },
                 {
                     "skill": "Plaga",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target in your Current Zone gains Vulnerable 1."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "One target in your Current Zone gains Vulnerable 2."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "One target in your Current Zone gains Vulnerable 2.  Reduce the Entropy by -2."
                         }
                     ]
                 },
                 {
                     "skill": "Sangui",
-                    "type": "",
+                    "type": "Ability",
                     "strain": null,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target in your Current Zone takes 2 Hits.  You regain 2 Grit if the target is Fatigued."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "One target in your Current Zone takes X Hits, X. . .  You regain 2 Grit if the target is Fatigued."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target in your Current Zone takes X Hits, X. . .  You regain X Grit if the target is Fatigued."
                         }
                     ]
                 }
@@ -1397,8 +1521,8 @@
         },
         {
             "name": "The Hungering Tide",
-            "max_ranks": 4,
-            "threshold": null,
+            "max_ranks": 5,
+            "threshold": 3,
             "requires": null,
             "keywords": [
                 ""
@@ -1406,12 +1530,20 @@
             "aspects": [
                 {
                     "skill": "Destroy",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "One target [current] takes X Hits, X. . .  If the target is Dazed, your recover 2 to your Primary Defense."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target [current] takes X Hits, X. . .  If the target is Dazed, your recover X to your Primary Defense."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "All targets [current] takes X Hits, X. . .  If a target is Dazed, your recover X to your Primary Defense."
                         }
                     ]
                 },
@@ -1421,8 +1553,16 @@
                     "strain": null,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "All targets in your Current Zone become Prone."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "All targets in your Current Zone take become Prone and gain Dazed 1."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "All targets in your Current Zone take become Prone and gain Dazed X, X. . ."
                         }
                     ]
                 },
@@ -1432,8 +1572,16 @@
                     "strain": null,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Move one target in your Curent Zone away from you to an Adjacent Zone.  If the target is Prone, it loses X Grit, X. . ."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "Move all targets [current] up to one Adjacent Zone from their Current Zone.  If a target is Prone, it loses X Grit, X. . ."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "Move up to X targets [current] up to one Adjacent Zone from their Current Zone.  If the target is Prone, it loses X Grit, X. . .  If a target is Dazed, reduce your Strain by X."
                         }
                     ]
                 }
@@ -1442,7 +1590,7 @@
         {
             "name": "The Vihreän Astri",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": 2,
             "requires": null,
             "keywords": [
                 ""
@@ -1450,34 +1598,57 @@
             "aspects": [
                 {
                     "skill": "Lux",
-                    "type": "",
-                    "strain": null,
+                    "type": "Ability",
+                    "strain": 2,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] takes 1 Hits and gains Fatigued 1, X. . ."
+                        },
+                        {
+                            "ranks": 2,
+                            "effect": "One target [current] takes X Hits and gains Fatigued 1, X. . ."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target [current] takes X Hits and gains Fatigued X, X. . ."
                         }
                     ]
                 },
                 {
                     "skill": "Ordi",
-                    "type": "",
-                    "strain": null,
+                    "type": "Shift",
+                    "strain": 1,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 2,
+                            "effect": "Reduce your Strain by -1 for each target in your Zone that is Fatigued.
+                            <br>Reduce your Strain by -1 for each target in your Zone that is Charmed."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "Reduce your Strain by -1 for each target in your Zone that is Fatigued.
+                            <br>Reduce your Strain by -1 for each target in your Zone that is Charmed.
+                            <br>Move to an Adjacent Zone ignoring Hazards."
                         }
                     ]
                 },
                 {
                     "skill": "Plaga",
-                    "type": "",
+                    "type": "Ability",
                     "strain": null,
                     "effects": [
                         {
-                            "ranks": null,
-                            "effect": null
+                            "ranks": 1,
+                            "effect": "One target [current] loses 1 Grit and gains Charmed 2."
+                        },
+                        {
+                            "ranks": 3,
+                            "effect": "One target [current] loses 3 Grit and gains Charmed 2."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "One target [current] loses 3 Grit and gains Charmed X."
                         }
                     ]
                 }
@@ -1485,21 +1656,67 @@
         },
         {
             "name": "The Sequence",
-            "max_ranks": 4,
-            "threshold": null,
+            "max_ranks": 8,
+            "threshold": 3,
             "requires": null,
             "keywords": [
                 ""
             ],
             "aspects": [
                 {
-                    "skill": "",
-                    "type": "",
-                    "strain": null,
+                    "skill": "Tempor",
+                    "type": "Ability",
+                    "strain": 3,
                     "effects": [
                         {
-                            "hits": ,
-                            "effect": ,
+                            "ranks": 3,
+                            "effect": "Increase the current Timer by +1." 
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +1." 
+                        },
+                        {
+                            "ranks": 8,
+                            "effect": "Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +X, X. . ." 
+                        }
+                    ]
+                },
+                {
+                    "skill": "Locus",
+                    "type": "Shift",
+                    "strain": 3,
+                    "effects": [
+                        {
+                            "ranks": 3,
+                            "effect": "Move one target [current] to your Current Zone." 
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "Move one target [current] to any Zone Adjacent to your Current Zone." 
+                        },
+                        {
+                            "ranks": 8,
+                            "effect": "Move X targets [current] to any Zone Adjacent to your Current Zone." 
+                        }
+                    ]
+                },
+                {
+                    "skill": "Arithm",
+                    "type": "Ability",
+                    "strain": 6,
+                    "effects": [
+                        {
+                            "ranks": 3,
+                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 17, you gain +1 Milestone.  Otherwise, increase the Entropy by +10." 
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 16, you gain +1 Milestone.  Otherwise, increase the Entropy by +10."  
+                        },
+                        {
+                            "ranks": 8,
+                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 15, you gain +1 Milestone.  Otherwise, increase the Entropy by +10." 
                         }
                     ]
                 }
@@ -1507,21 +1724,67 @@
         }, 
         {
             "name": "The Recursion",
-            "max_ranks": 4,
-            "threshold": null,
+            "max_ranks": 8,
+            "threshold": 4,
             "requires": null,
             "keywords": [
                 ""
             ],
             "aspects": [
                 {
-                    "skill": "",
-                    "type": "",
-                    "strain": null,
+                    "skill": "Tempor",
+                    "type": "Ability",
+                    "strain": 5,
                     "effects": [
                         {
-                            "hits": ,
-                            "effect": ,
+                            "ranks": 2,
+                            "effect": "The current Timer ends."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "The current Timer ends.  If the Momentum is greater than the Entropy, reduce your Strain by -3."
+                        },
+                        {
+                            "ranks": 8,
+                            "effect": "The current Timer ends.  If the Momentum is greater than the Entropy, reduce your Strain by -X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "skill": "Vivus",
+                    "type": "Trigger",
+                    "strain": 5,
+                    "effects": [
+                        {
+                            "ranks": 3,
+                            "effect": "When the current Timer ends while its value is above 1, you regain +3 Grit."
+                        },
+                        {
+                            "ranks": 5,
+                            "effect": "When the current Timer ends while its value is above 1, you and up to X target in your Current Zone regain +3 Grit."
+                        },
+                        {
+                            "ranks": 7,
+                            "effect": "When the current Timer ends while its value is above 1, you and up to X target in your Current Zone regain +5 Grit."
+                        }
+                    ]
+                },
+                {
+                    "skill": "Destroy",
+                    "type": "Trigger",
+                    "strain": 0,
+                    "effects": [
+                        {
+                            "ranks": 1,
+                            "effect": "When the current Timer ends while its value is above 1, all targets in your Current Zone lose -3 Grit."
+                        },
+                        {
+                            "ranks": 4,
+                            "effect": "When the current Timer ends while its value is above 1, all targets in your Current Zone except for you lose -3 Grit."
+                        },
+                        {
+                            "ranks": 8,
+                            "effect": "When the current Timer ends while its value is above 1, all targets in your Current Zone except for you lose -5 Grit.  If a target dies from this effect, set a new Timer to 2 and immediately take an Action."
                         }
                     ]
                 }

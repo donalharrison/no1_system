@@ -5780,7 +5780,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px';>Portent</h4>",
-                "Analyze the remains of oen or more creatures, then roll 1d20 as X:
+                "Analyze the remains of one or more creatures, then roll 1d20 as X:
                 <ul>
                     <li>If X is less than , increase the Entropy by +3.</li>
                     <li>If X is greater than 8, increase the Momentum by +3.</li>
@@ -5842,7 +5842,7 @@
                     <li>You learn the current location of one target of your choosing.</li>
                     <li>The BAMF reveals one secret to you about the game fiction.</li>
                     <li>You may immediately use a different <em>Portent</em>.
-                    </ul>
+                </ul>
                 "
             ]
         },
