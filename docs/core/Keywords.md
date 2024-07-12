@@ -21,6 +21,14 @@ Flying
 
 Invisible
 
+Nightsight
+
+Aquatic
+
 Truesight
+
+Undead
+
+
 
 

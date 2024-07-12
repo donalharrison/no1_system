@@ -41,7 +41,7 @@ Ordi,Steady,2,"Governs order, peace, and the enforcement of law."
 Perceive,Steady,1,"The use of innate senses such as sight, smell, and hearing to notice and interpret details in the environment."
 Persuade,Savvy,1,The art of convincing others to agree or take action.
 Phylla,Savvy,2,"Governs plants, trees, and the natural growth of flora."
-Pilot,Deft,1,The skill of flying aircraft or operating other complex vehicles.
+Pilot,,1,The skill of flying aircraft or operating other complex vehicles.
 Plaga,Deft,2,"Encompasses affliction, poison, plagues, and the infliction of suffering."
 Research,Savvy,1,The ability to systematically investigate and gather information.
 Resist,Uncanny,2,"Fortifies defenses against various forms of harm, providing exceptional resilience and endurance."
