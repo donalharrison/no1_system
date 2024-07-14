@@ -53,7 +53,7 @@
         {
             "name": "The Flame of Affliction",
             "max_ranks": 7,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
@@ -150,7 +150,7 @@
         {
             "name": "The Great Tapestry",
             "max_ranks": 8,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
@@ -977,7 +977,7 @@
         {
             "name": "The Eternal Bloom",
             "max_ranks": 4,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
@@ -1045,7 +1045,7 @@
         {
             "name": "The Void's Embrace",
             "max_ranks": 4,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
@@ -1078,7 +1078,7 @@
         {
             "name": "The Whispering Stars",
             "max_ranks": 4,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
@@ -1303,7 +1303,7 @@
         {
             "name": "The Luminous Shard",
             "max_ranks": 3,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
@@ -1344,7 +1344,7 @@
         {
             "name": "The Endless Ruin",
             "max_ranks": 6,
-            "threshold": null
+            "threshold": null,
             "requires": null,
             "keywords": [
                 ""
