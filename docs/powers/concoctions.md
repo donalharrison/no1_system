@@ -47,7 +47,7 @@ Concoctions all hacve the Consummable keyword, allowing their effects to be acce
                             {% for i in (1..j) %}
                                 <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
                             {% endfor %}
-                            <p><strong>Doses &mdash;</strong>{{ c.doses }}</p>
+                            <p><strong>Doses &mdash;</strong>  {{ c.doses }}</p>
                             <p><strong>Effect &mdash;</strong>
                             <br>{{ c.effect }}</p>
                         </div>
