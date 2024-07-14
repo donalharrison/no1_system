@@ -32,7 +32,7 @@ If you score a number of Hits euqal to or greater than the invoked Arcanum's Thr
         {% for i in (1..j) %}
             <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
         {% endfor %}
-        <strong>Threshold &mdash; {{a.threshold}}</strong>
+        <p><strong>Threshold &mdash; {{a.threshold}}</strong></p>
         <details>
             <summary>
             </summary>
