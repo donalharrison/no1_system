@@ -53,7 +53,7 @@
         {
             "name": "The Flame of Affliction",
             "max_ranks": 7,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -150,7 +150,7 @@
         {
             "name": "The Great Tapestry",
             "max_ranks": 8,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -887,7 +887,7 @@
                             "ranks": 4,
                             "effect": "Up to X Targets in your Current or an Adjacent Zone gain Stunned 4, where X is equal to Hits in the result set."
                         }
-                ]
+                    ]
                 },
                 {
                     "skill": "Ordi",
@@ -977,7 +977,7 @@
         {
             "name": "The Eternal Bloom",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -991,8 +991,7 @@
                         {
                             "ranks": 1,
                             "effect": "One target in your Current or an Adjacent Zone gains Restrained X, where X is equal to Hits in the result set."
-                        }
-                        ,
+                        },
                         {
                             "ranks": 2,
                             "effect": "All targets in your Current or an Adjacent Zone gain Restrained 2."
@@ -1046,7 +1045,7 @@
         {
             "name": "The Void's Embrace",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -1079,7 +1078,7 @@
         {
             "name": "The Whispering Stars",
             "max_ranks": 4,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -1304,7 +1303,7 @@
         {
             "name": "The Luminous Shard",
             "max_ranks": 3,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -1345,7 +1344,7 @@
         {
             "name": "The Endless Ruin",
             "max_ranks": 6,
-            "threshold": null,
+            "threshold": null
             "requires": null,
             "keywords": [
                 ""
@@ -1670,15 +1669,15 @@
                     "effects": [
                         {
                             "ranks": 3,
-                            "effect": "Increase the current Timer by +1." 
+                            "effect": "Increase the current Timer by +1."
                         },
                         {
                             "ranks": 5,
-                            "effect": "Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +1." 
+                            "effect": "Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +1."
                         },
                         {
                             "ranks": 8,
-                            "effect": "Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +X, where X is equal to Hits in the result set." 
+                            "effect": "Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -1689,15 +1688,15 @@
                     "effects": [
                         {
                             "ranks": 3,
-                            "effect": "Move one target in your Current or an Adjacent Zone to your Current Zone." 
+                            "effect": "Move one target in your Current or an Adjacent Zone to your Current Zone."
                         },
                         {
                             "ranks": 5,
-                            "effect": "Move one target in your Current or an Adjacent Zone to any Zone Adjacent to your Current Zone." 
+                            "effect": "Move one target in your Current or an Adjacent Zone to any Zone Adjacent to your Current Zone."
                         },
                         {
                             "ranks": 8,
-                            "effect": "Move X targets in your Current or an Adjacent Zone to any Zone Adjacent to your Current Zone." 
+                            "effect": "Move X targets in your Current or an Adjacent Zone to any Zone Adjacent to your Current Zone."
                         }
                     ]
                 },
@@ -1708,20 +1707,20 @@
                     "effects": [
                         {
                             "ranks": 3,
-                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 17, you gain +1 Milestone.  Otherwise, increase the Entropy by +10." 
+                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 17, you gain +1 Milestone.  Otherwise, increase the Entropy by +10."
                         },
                         {
                             "ranks": 5,
-                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 16, you gain +1 Milestone.  Otherwise, increase the Entropy by +10."  
+                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 16, you gain +1 Milestone.  Otherwise, increase the Entropy by +10."
                         },
                         {
                             "ranks": 8,
-                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 15, you gain +1 Milestone.  Otherwise, increase the Entropy by +10." 
+                            "effect": "Roll 1d20 + Hits as X.  If X is greater than 15, you gain +1 Milestone.  Otherwise, increase the Entropy by +10."
                         }
                     ]
                 }
             ]
-        }, 
+        },
         {
             "name": "The Recursion",
             "max_ranks": 8,
@@ -1792,24 +1791,3659 @@
         }
     ],
     "concoctions": [
-        {}
+        {
+            "name": "Bear",
+            "type": "Elixir",
+            "ranks": "1",
+            "effect": "Gain +1d6 to your Vigor Defense.",
+            "doses": "2"
+        },
+        {
+            "name": "Bear",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Gain +1d6+2 to your Vigor Defense.",
+            "doses": "2"
+        },
+        {
+            "name": "Bear",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Gain +2d6 to your Vigor Defense.",
+            "doses": "2"
+        },
+        {
+            "name": "Crocodile",
+            "type": "Elixir",
+            "ranks": "1",
+            "effect": "Recover 1d4+1 Hits to your Primary Defense.",
+            "doses": "3"
+        },
+        {
+            "name": "Crocodile",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Recover 1d4+2 Hits to your Primary Defense.",
+            "doses": "3"
+        },
+        {
+            "name": "Crocodile",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Recover 2d4+4 Hits to your Primary Defense.",
+            "doses": "4"
+        },
+        {
+            "name": "Dove",
+            "type": "Elixir",
+            "ranks": "1",
+            "effect": "Gain +1d6 to your Nerve Defense.",
+            "doses": "2"
+        },
+        {
+            "name": "Dove",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Gain +1d6+2 to your Nerve Defense.",
+            "doses": "2"
+        },
+        {
+            "name": "Dove",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Gain +2d6 to your Nerve Defense.",
+            "doses": "2"
+        },
+        {
+            "name": "Phoenix",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Regain 1d4+1 Hits to your Grit.",
+            "doses": "2"
+        },
+        {
+            "name": "Phoenix",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Regain 1d4+1 Hits to your Grit.",
+            "doses": "5"
+        },
+        {
+            "name": "Phoenix",
+            "type": "Elixir",
+            "ranks": "4",
+            "effect": "Regain 2d4+1 Hits to your Grit.",
+            "doses": "2"
+        },
+        {
+            "name": "Scorpion",
+            "type": "Elixir",
+            "ranks": "1",
+            "effect": "Reduce one Status Rating by -1d4.",
+            "doses": "2"
+        },
+        {
+            "name": "Scorpion",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Reduce one Status Rating by -2d4.",
+            "doses": "2"
+        },
+        {
+            "name": "Scorpion",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Reduce one Status Rating by -3d4.",
+            "doses": "2"
+        },
+        {
+            "name": "Spider",
+            "type": "Elixir",
+            "ranks": "1",
+            "effect": "Reduce the effects of one (1) Poison by -1d4.",
+            "doses": "3"
+        },
+        {
+            "name": "Spider",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Reduce the effects of one (1) Poison by -1d4.",
+            "doses": "5"
+        },
+        {
+            "name": "Spider",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Reduce the effects of one (1) Poison by -2d4.",
+            "doses": "5"
+        },
+        {
+            "name": "Starfish",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "This turn and on each of your next 3 turns you regain +1 Grit.",
+            "doses": "1"
+        },
+        {
+            "name": "Starfish",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "This turn and on each of your next 3 turns you regain +2 Grit.",
+            "doses": "1"
+        },
+        {
+            "name": "Starfish",
+            "type": "Elixir",
+            "ranks": "4",
+            "effect": "This turn and on each of your next 3 turns you regain +3 Grit.",
+            "doses": "1"
+        },
+        {
+            "name": "Wyrm",
+            "type": "Elixir",
+            "ranks": "1",
+            "effect": "Choose one (1): Recover +1d4 Hits to your Primary Defense, Gain +2 Current, Gain +1 Concordance, Gain +1 Attunement, Reduce your Strain by -1d4+1",
+            "doses": "2"
+        },
+        {
+            "name": "Wyrm",
+            "type": "Elixir",
+            "ranks": "2",
+            "effect": "Choose one (1): Recover +1d6+1 Hits to your Primary Defense, Gain +3 Current, Gain +2 Concordance, Gain +2 Attunement, Reduce your Strain by -1d6+1",
+            "doses": "2"
+        },
+        {
+            "name": "Wyrm",
+            "type": "Elixir",
+            "ranks": "3",
+            "effect": "Choose one (1): Recover +2d6 Hits to your Primary Defense, Gain +4 Current, Gain +3 Concordance, Gain +3 Attunement, Reduce your Strain by 2d6+1",
+            "doses": "1"
+        },
+        {
+            "name": "Agonist's",
+            "type": "Oil",
+            "ranks": "1",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 2+ Hits against one target, the target gains Fatigued 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Agonist's",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 2+ Hits against one target, the target gains Fatigued 1.",
+            "doses": "3"
+        },
+        {
+            "name": "Agonist's",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Your next 3 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score +1d4 Hits against one target, the target gains Fatigued 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Brushfire",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Add +2 Bonus Hits to your next 2 Actions using Shoot or Strike. These bonus Hits cause fire damge.",
+            "doses": "3"
+        },
+        {
+            "name": "Brushfire",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Add +1d4 Bonus Hits to your next 2 Actions using Shoot or Strike. These bonus Hits cause fire damge.",
+            "doses": "1"
+        },
+        {
+            "name": "Brushfire",
+            "type": "Oil",
+            "ranks": "4",
+            "effect": "Add +1d4 Bonus Hits to your next 3 Actions using Shoot or Strike. These bonus Hits cause fire damge.",
+            "doses": "1"
+        },
+        {
+            "name": "Conductive",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Any target you score Hits against using Shoot or Strike gains Vulnerable 1 to any Hits from lightning or Tempest effects.",
+            "doses": "2"
+        },
+        {
+            "name": "Conductive",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Any target you score Hits against using Shoot or Strike gains Vulnerable 1 to any Hits from lightning or Tempest effects.",
+            "doses": "3"
+        },
+        {
+            "name": "Conductive",
+            "type": "Oil",
+            "ranks": "4",
+            "effect": "Any target you score Hits against using Shoot or Strike gains Vulnerable 2 to any Hits from lightning or Tempest effects.",
+            "doses": "2"
+        },
+        {
+            "name": "Executioner's",
+            "type": "Oil",
+            "ranks": "1",
+            "effect": "Add +1 Bonus Hits to your next 2 Actions using Strike.",
+            "doses": "3"
+        },
+        {
+            "name": "Executioner's",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Add +1d4 Bonus Hits to your next 2 Actions using Strike.",
+            "doses": "2"
+        },
+        {
+            "name": "Executioner's",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Add +1d4 Bonus Hits to your next 4 Actions using Strike.",
+            "doses": "2"
+        },
+        {
+            "name": "Glacier",
+            "type": "Oil",
+            "ranks": "1",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 2+ Hits against one target, the target gains Frozen 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Glacier",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 2+ Hits against one target, the target gains Frozen 3.",
+            "doses": "2"
+        },
+        {
+            "name": "Glacier",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you 1+ Hits against one target, the target gains Frozen 3.",
+            "doses": "2"
+        },
+        {
+            "name": "Holy",
+            "type": "Oil",
+            "ranks": "1",
+            "effect": "Add +1d4 Bonus Hits against any target with the Undead keyword on your next 3 Actions using Shoot or Strike.",
+            "doses": "3"
+        },
+        {
+            "name": "Holy",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Add +1d4 Bonus Hits against any target with the Undead keyword on your next 3 Actions using Shoot or Strike.",
+            "doses": "3"
+        },
+        {
+            "name": "Holy",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Add +1d4 Bonus Hits against any target with the Undead keyword on your next 5 Actions using Shoot or Strike.",
+            "doses": "1"
+        },
+        {
+            "name": "Rusting",
+            "type": "Oil",
+            "ranks": "1",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 3+ Hits against one target, reduce the Gear rating of your target's Armor by -2.",
+            "doses": "3"
+        },
+        {
+            "name": "Rusting",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 3+ Hits against one target, reduce the Gear rating of your target's Armor by -2.",
+            "doses": "4"
+        },
+        {
+            "name": "Rusting",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Your next 3 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 3+ Hits against one target, reduce the Gear rating of your target's Armor by -2.",
+            "doses": "2"
+        },
+        {
+            "name": "Stone's Eye",
+            "type": "Oil",
+            "ranks": "1",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 3+ Hits against one target, the target gains Blind 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Stone's Eye",
+            "type": "Oil",
+            "ranks": "2",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 3+ Hits against one target, the target gains Blind 2.",
+            "doses": "2"
+        },
+        {
+            "name": "Stone's Eye",
+            "type": "Oil",
+            "ranks": "3",
+            "effect": "Your next 2 Actions using Shoot or Strike gain the following Trigger: Trigger &mdash; When you score 2+ Hits against one target, the target gains Blind 2.",
+            "doses": "2"
+        },
+        {
+            "name": "Bloodletter's",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "This turn and on each of your next 3 turns you lose -1 Grit.",
+            "doses": "2"
+        },
+        {
+            "name": "Bloodletter's",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "This turn and on each of your next 3 turns you lose -1 Grit.",
+            "doses": "2"
+        },
+        {
+            "name": "Bloodletter's",
+            "type": "Poison",
+            "ranks": "4",
+            "effect": "This turn and on each of your next 3 turns you lose -3 Grit.",
+            "doses": "2"
+        },
+        {
+            "name": "Eclipsing",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You gain Blind 2.",
+            "doses": "1"
+        },
+        {
+            "name": "Eclipsing",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You gain Blind 3.",
+            "doses": "2"
+        },
+        {
+            "name": "Eclipsing",
+            "type": "Poison",
+            "ranks": "4",
+            "effect": "You gain Blind 4.",
+            "doses": "1"
+        },
+        {
+            "name": "Enerva",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You gain Fatigued 2.",
+            "doses": "1"
+        },
+        {
+            "name": "Enerva",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You gain Fatigued 2.",
+            "doses": "2"
+        },
+        {
+            "name": "Enerva",
+            "type": "Poison",
+            "ranks": "4",
+            "effect": "You gain Fatigued 3.",
+            "doses": "1"
+        },
+        {
+            "name": "Leper's",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You gain Fatigued 1 and Vulnerable 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Leper's",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You gain Fatigued 1 and Vulnerable 2.",
+            "doses": "2"
+        },
+        {
+            "name": "Leper's",
+            "type": "Poison",
+            "ranks": "4",
+            "effect": "You gain Fatigued 2 and Vulnerable 2.",
+            "doses": "1"
+        },
+        {
+            "name": "Madman's",
+            "type": "Poison",
+            "ranks": "1",
+            "effect": "You gain Dazed 1 and Confused 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Madman's",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You gain Dazed 2 and Confused 1.",
+            "doses": "2"
+        },
+        {
+            "name": "Madman's",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You gain Dazed 2 and Confused 2.",
+            "doses": "1"
+        },
+        {
+            "name": "Muter's",
+            "type": "Poison",
+            "ranks": "1",
+            "effect": "You gain Silent 3.",
+            "doses": "3"
+        },
+        {
+            "name": "Muter's",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You gain Silent 4.",
+            "doses": "2"
+        },
+        {
+            "name": "Muter's",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You gain Silent 5.",
+            "doses": "1"
+        },
+        {
+            "name": "Sleeper's",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You gain Unconscious 2.",
+            "doses": "2"
+        },
+        {
+            "name": "Sleeper's",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You gain Unconscious 3.",
+            "doses": "2"
+        },
+        {
+            "name": "Sleeper's",
+            "type": "Poison",
+            "ranks": "4",
+            "effect": "You gain Unconscious 5.",
+            "doses": "1"
+        },
+        {
+            "name": "Surgeon's",
+            "type": "Poison",
+            "ranks": "2",
+            "effect": "You become Prone, and gain Restrained 2 and Silent 2.",
+            "doses": "1"
+        },
+        {
+            "name": "Surgeon's",
+            "type": "Poison",
+            "ranks": "3",
+            "effect": "You become Prone, and gain Restrained 3 and Silent 2.",
+            "doses": "3"
+        },
+        {
+            "name": "Surgeon's",
+            "type": "Poison",
+            "ranks": "4",
+            "effect": "You become Prone, and gain Restrained 5 and Silent 3.",
+            "doses": "3"
+        },
+        {
+            "name": "Fox",
+            "type": "Potion",
+            "ranks": "1",
+            "effect": "Gain Aura 2. [aura], you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
+            "doses": "2"
+        },
+        {
+            "name": "Fox",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 3. [aura], you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
+            "doses": "2"
+        },
+        {
+            "name": "Fox",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 5. [aura], you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
+            "doses": "2"
+        },
+        {
+            "name": "Hare",
+            "type": "Potion",
+            "ranks": "1",
+            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. [aura], you gain an additional Shift on each of your turns. When this Aura ends, you gain Fatigued.",
+            "doses": "2"
+        },
+        {
+            "name": "Hare",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. [aura], you gain an additional Shift on each of your turns. When this Aura ends, you gain Fatigued.",
+            "doses": "4"
+        },
+        {
+            "name": "Hare",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. [aura], you gain an additional Shift on each of your turns. If you do not use a Shift on your turn, you gain 1 additional Aciton. When this Aura ends, you gain Fatigued.",
+            "doses": "1"
+        },
+        {
+            "name": "Hawk",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 3. [aura], you gain the Flying keyword.",
+            "doses": "1"
+        },
+        {
+            "name": "Hawk",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 3. [aura], you gain the Flying keyword.",
+            "doses": "2"
+        },
+        {
+            "name": "Hawk",
+            "type": "Potion",
+            "ranks": "4",
+            "effect": "Gain Aura 4. [aura], you gain the Flying keyword.",
+            "doses": "1"
+        },
+        {
+            "name": "Marlin",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 3. [aura], you gain the Aquatic keyword.",
+            "doses": "2"
+        },
+        {
+            "name": "Marlin",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 3. [aura], you gain the Aquatic keyword.",
+            "doses": ""
+        },
+        {
+            "name": "Marlin",
+            "type": "Potion",
+            "ranks": "4",
+            "effect": "Gain Aura 5. [aura], you gain the Aquatic keyword.",
+            "doses": "2"
+        },
+        {
+            "name": "Mouse",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 3. [aura], you gain the Invisible keyword.",
+            "doses": "1"
+        },
+        {
+            "name": "Mouse",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 3. [aura], you gain the Invisible keyword.",
+            "doses": "2"
+        },
+        {
+            "name": "Mouse",
+            "type": "Potion",
+            "ranks": "4",
+            "effect": "Gain Aura 4. [aura], you gain the Invisible keyword.",
+            "doses": "1"
+        },
+        {
+            "name": "Owl",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Choose one (1):",
+            "doses": "2"
+        },
+        {
+            "name": "Owl",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Choose one (1):",
+            "doses": "3"
+        },
+        {
+            "name": "Owl",
+            "type": "Potion",
+            "ranks": "4",
+            "effect": "Choose two (2):",
+            "doses": "2"
+        },
+        {
+            "name": "Ringtail",
+            "type": "Potion",
+            "ranks": "1",
+            "effect": "Gain Aura 3. [aura], you gain the Nightvision keyword.",
+            "doses": "3"
+        },
+        {
+            "name": "Ringtail",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 3. [aura], you gain the Nightvision keyword.",
+            "doses": "5"
+        },
+        {
+            "name": "Ringtail",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 5. [aura], you gain the Nightvision keyword.",
+            "doses": "3"
+        },
+        {
+            "name": "Snake",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 2. [aura], you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
+            "doses": "2"
+        },
+        {
+            "name": "Snake",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 2. [aura], you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
+            "doses": "3"
+        },
+        {
+            "name": "Snake",
+            "type": "Potion",
+            "ranks": "4",
+            "effect": "Gain Aura 3. [aura], you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
+            "doses": "2"
+        },
+        {
+            "name": "Titan",
+            "type": "Potion",
+            "ranks": "1",
+            "effect": "Gain Aura 2. [aura], +1 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
+            "doses": "2"
+        },
+        {
+            "name": "Titan",
+            "type": "Potion",
+            "ranks": "2",
+            "effect": "Gain Aura 2. [aura], +1 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
+            "doses": "4"
+        },
+        {
+            "name": "Titan",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 2. [aura], +1d4 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
+            "doses": "2"
+        },
+        {
+            "name": "Tortoise",
+            "type": "Potion",
+            "ranks": "3",
+            "effect": "Gain Aura 1. [aura], prevent all Hits to your Defenses and Grit.",
+            "doses": "1"
+        },
+        {
+            "name": "Tortoise",
+            "type": "Potion",
+            "ranks": "4",
+            "effect": "Gain Aura 2. [aura], prevent all Hits to your Defenses and Grit.",
+            "doses": "1"
+        },
+        {
+            "name": "Tortoise",
+            "type": "Potion",
+            "ranks": "5",
+            "effect": "Gain Aura 3. [aura], prevent all Hits to your Defenses and Grit.",
+            "doses": "1"
+        }
     ],
+    "epics": [
+        {
+            "name": "Lo, the Crimson Specters upon the Bloodshed Peaks",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "All targets [current] gain Afraid 3."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "All allies gain Vulnerable 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies use a Shift."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You or one ally [current] recover +3 to your Primary Defense."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies recover X to their Primary Defenses, where X is equal to the number of targets with Afraid in their Current Zone."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Battle Hymn",
+            "ongoing": "",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Create 2 Advantages in [current]."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": "",
+                            "effect": "Create 1 Advantage in each Ally's Current Zone."
+                        },
+                        {
+                            "hits": "",
+                            "effect": ""
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Binding War",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Up to X allies [current] can immediately Recover without using an Action."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "All allies gain Vulnerable 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One target ally [current] gains Vulnerable 2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Create 1 Hazard in each hostile target's Current Zone."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All Hostile in your Current and all Adjacent Zones gain Restrained 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The War that Sank the Stars",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Up to X target [current] gain Confused 2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "All allies take X Hits to their Nerve."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies regain up to +1 Grit for each target in their Current Zone with Confused."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Olyc & the Bear",
+            "ongoing": "Ongoing 1",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Select one (1) ally [current]. The targeted ally gains Aura 2. While the Aura persists, they gain +1d4 Bonus Hits to any action using Grapple and can re-roll one 1 in a reroll a 1 in one Dangerous Skill's result set each turn without spending a Dangerous Trait point."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The targeted ally gains Fatigued 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The targeted ally can immediately take an Action this turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The targeted ally gains Fatigued 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The targeted ally regains +X Grit, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Witch King's Treachery",
+            "ongoing": "Ongoing 3",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Select one (1) ally in your Current Zone. The targeted ally gains Aura 3. While the Aura persists, they gain +1d4 Bonus Hits to any action using Persuade or Deceive and can re-roll one 1 in a reroll a 1 in one Savvy Skill's result set each turn without spending a Savvy Trait point."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The target takes 2 Hits to their Nerve."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "The targeted ally reduces one Status by -X."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The targeted ally gain s Confused 2."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "The targeted ally regains recovers +X to their Primary Defense and reduces their Dying rating by -1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "To March the Sableveld",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "All allies gain Fatigued 1 and can take on additional Shift on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +4."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Increase the Entropy by +2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Create 1 Advantage in one ally's Current Zone."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Create 1 Advantage in each Ally's Current Zone."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Fire King's Daughter",
+            "ongoing": "Ongoing 3",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Select one (1) ally [current]. The targeted ally gains Vulnerable 2 to heat, fire, and Inferno effects."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The targeted ally takes Xd4 fire Hits, where X is equal to their current Vulnerable rating."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "The targetted ally gain one additional action on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The targeted ally gains Fatigued 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "You gain Hidden X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Winds of Coriss",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "One target immediately uses a Shift."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "One target immediately uses a Shift."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "All allies [current] immediately use a Shift."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "All targets that have taken additional Shifts from this Epic gain Restrained 3."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "One target that has taken an additional Shift from this Epic gains Restrained 2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Of Endless Sands & Wandering Gods",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Up to X target [current] gain Blind 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "One target reduces their Fatigued rating by -1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "Up to X targets reduce their Fatigued rating by -1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the current Timer by +1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "Increase the current Timer by +2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Sundered Lady",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "One target [current] regains +X Grit, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You lose -3 Grit."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One target [current] loses -X Grit, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You recover up to +2 to your Nerve."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Prevent all Hits to Defenses and Grit against one Target [current] until the beginning of your next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Durthane’s Folly",
+            "ongoing": "Ongoing 1",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action using Perceive or Investigate on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You lose -1 Wealth."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "You gain +2 Wealth to any loot you or your allies find this turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "threshold": null
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Sky Queen's Crusade",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "You gain +X Armor Defense."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You lose -2 Grit."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Select one target [current]. The target takes X Hits, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The target recovers +X to its Primary Defense."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "If the target is Dead or dies this turn, you gain +1 Renown."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Duke of Broley",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action using Stealth or Decieve their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +1."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action using Stealth or Decieve their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "No effect."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "You gain +1 Secrets."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Last King of Adhonia",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Select one target [current]. The target becomes Provoked."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You gain Fatigued 1."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "The target gains Charmed X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The target gains Vulnerable 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Death of Valor",
+            "ongoing": "Ongoing 1",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Select one target [current]. The target's becomes immune to Afraid and reduce one Status by -1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "No effect."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The target gains +1d4 Bonus Hits to their next Action using Strike."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +2."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The target gain Wounded 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Of Ismjir & His Endless Love",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Select one target [current]. The target gain Vulnerable 3."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce the targets Vulnerable rating by -1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The target takes X Hits to their Nerve, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The target recovers +2 to their Nerve."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One target [current] gains +1d4 Bonus Hits to one Action using Persuade on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Tempting of Lord Corso",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "One target [current] gains +1d4 Bonus Hits to one Action using Deceive on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Momentum by +1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "One target [current] gains +1d4 Bonus Hits to one action using Insight on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "One target [current] gains +1 Favors."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Grey Queen’s Challenge",
+            "ongoing": "Ongoing 1",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "You Initiate a Contest with one target [current]."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You gain Fatigued 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "You gain +1d4 Bonus Hits to your next Action in the Contest."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You gain Fatigued 1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "You gain +1d4 Bonus Hits to your next Action in the Contest."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": "Shift",
+                    "hits": 0,
+                    "effect": "The Contest conclude. You lose."
+                },
+                {
+                    "hits": 2,
+                    "effect": "The Contest concludes. If you are the Victor, you gain +1 Renown."
+                }
+            ]
+        },
+        {
+            "name": "The Doombreaker’s Oath",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "All targets with the Undead keyword [current] gain Dazed 4."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "All targets with the Undead keyword gain Provoked."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "All targets with the Undead keyword gain Afraid 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce the Momentum by -2."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All target with the Undead keyword [current] take X Hits, where X is equal to their Dazed rating."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "A Forge Among the Stars",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Restore X to Gear in your Current Zone, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce all Gear ratings in your Current Zone by -X, X. . ."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies in your Current Zone immediately use the Recover Action."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce the Momentum by -2."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "Increase the Momentum by +3."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Caremvohl the Splendorous",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Create X Advantages in your Current Zone, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "No effect."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Reduce the Entropy by -2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "One target immediately uses the Recover Action."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "Reduce one Status rating of all allies in your Current Zone."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "If Steel Could Talk",
+            "ongoing": "Ongoing 1",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Up to X allies [current] gain +1d4 Bonus Hits to one Action using Strike on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Lose up to -1 Secrets."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "Up to X allies [current] gain +1d4 Bonus Hits to one Action using Strike on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce the rating of one Gear you have equipped to 0."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One target [current] recovers X Hits to their Primary Defense, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Corruptor’s War",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Select one target [current]. The target becomes Provoked."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You gain Fatigued 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "The target gains Vulnerable 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The target regains +X Grit, X. . ."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "The target gains Restrained X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "If Stones Kept Secrets",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "All allies [current] gain +1d4 Bonus Hits to one Action using Compsure, Endure, or Focus on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You take 2 Hits to your Nerve."
+                        },
+                        {
+                            "hits": 1,
+                            "effect": "One target [current] gains +1d4 Bonus Hits to one action using History, Insight, Perceive, or Research on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Tybald Slays the Wolf",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Create X Hazards [current], X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Create 2 Hazards in your Current Zone."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One target [current] gains Fatigued 1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You gain Fatigued 1",
+                            "hits": 1,
+                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action on their next turn."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Dawn King's Gifting",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Reduce the Momentum by -2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Momenum by +1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Select one target [current]. The target gains Vulnerable 2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "The target regains +X and reduces all Statuses by -2."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Song of the Grieving Mother",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Select one target in your Current Zone. The target gains Charmed 3."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "The target becomes Provoked."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One ally in your Current Zone gains +1d4 Bonus Hits to one Action using Deceive agains the target."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +3",
+                            "hits": 2,
+                            "effect": "Increase the Entropy by +1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Journey of the First Gods",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "You and all allies in your Current Zone can take one additional Shift on your next turns."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Create 1 Hazard in each ally's Zone."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies in your Current Zone may use the Recover Action."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You and all allies in your Current Zone gain Restrained 1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "You and all allies in your Current Zone gain +1d4 Bonus Hits to one action using Stealth on your next turns."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Naasis Tricks the Night Sky",
+            "ongoing": "Ongoing 1",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "Increase the Entropy by +1."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +2."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One target [current] gains Hidden X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Momentum by +1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "Increase the Momentum by X and reduce the Entropy by -2, where X is equal to the total Hidden ratings of you and your allies."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Song of Seething",
+            "ongoing": "Ongoing 3",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "Until the beginning of your next turn, all allies [current] reduce one Status rating by -1 for every Action they take that Scores 1+ Hits."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You recover +2 Nerve."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "Until the beginning of your next turn, increase the Momentum by +1 for every Action you and your allies take that Scores 1+ Hits."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "No effect",
+                            "hits": 3,
+                            "effect": "Until the beginning of your next turn, you and your allies regain +1 Grit for every Action you take that Scores 1+ Hits."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Weavers’ Refrain",
+            "ongoing": "Ongoing 4",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 3,
+                            "effect": "All targets [current] gain Restrained 3."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +2."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "All targets [current] that are Restrained become Unconscious."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increas the Entropy by +3."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "All Unconscious targets [current] regain +X Grit, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Martyr's Can't Carouse",
+            "ongoing": "Ongoing 1",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 1,
+                            "effect": "All allies [current] recover +2 Hits ot their Primary Defense."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce the Momentum by -1."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies [current] regain +2 Grit."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Reduce the Momentum by -2."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "Increase the Momentum by X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Trumpet Blast",
+            "ongoing": "",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "All allies in your Current and all Adjacent Zones gain +2 Bonus Hits to their next Action."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "III",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Battle of Blackridge",
+            "ongoing": "Ongoing 2",
+            "keywords": "Ballad",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "All allies in your Current and all Adjacent Zones gain +2 Armor Defense."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "All allies in your Current and all Adjacent Zone take 2 Hits to their Armor."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "All allies in your Current and all Adjacent Zones may immediately use a Shift."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Ability",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Entropy by +2."
+                        },
+                        {
+                            "hits": 2,
+                            "effect": "One ally [current] gains Wounded 2. Increase the Momentum by +X, X. . ."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "The Gambit of Galimas",
+            "ongoing": "Ongoing 2",
+            "keywords": "Saga",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 2,
+                            "effect": "You Initiate a Contest with one target in your Current Zone."
+                        }
+                    ]
+                },
+                {
+                    "verse": "II",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "Increase the Momentum by +1."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "You gain +1d4 Bonus Hits to any action using Persuade or Intimidate in this turn of the Contest."
+                        }
+                    ]
+                },
+                {
+                    "verse": "III",
+                    "type": "Shift",
+                    "threshold": [
+                        {
+                            "hits": 0,
+                            "effect": "You gain Fatigued 2."
+                        },
+                        {
+                            "hits": 3,
+                            "effect": "If you are the Victor of this Contest, increase the Momentum by +3 and gain +1 Renown."
+                        }
+                    ]
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        },
+        {
+            "name": "Beware the Ashen Hunt",
+            "ongoing": "Ongoing 2",
+            "keywords": "",
+            "verses": [
+                {
+                    "verse": "I",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "II",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "III",
+                    "type": null,
+                    "threshold": null
+                },
+                {
+                    "verse": "IV",
+                    "type": null,
+                    "threshold": null
+                }
+            ]
+        }
+    ],
+    "gifts": [
+        {
+          "name": "Gift of Rejuvenation",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you us the Recover Action, you may spend 1 Succor to regain +X to Grit, X. . .",
+          "threshold": null,
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "A Talent for Trouble",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "A Talent for Trouble",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "A Talent for Trouble",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "A Flair for the Dramatic",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "A Flair for the Dramatic",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Unnaturally Persistent",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Unnaturally Persistent",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Implausible Cunning",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Implausible Cunning",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "A Flair for the Dramatic",
+          "rank": 1,
+          "type": "Trigger",
+          "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+          "threshold": null,
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Weirding Dart",
+          "rank": 1,
+          "type": "Ability",
+          "effect": "One target [current] takes X Hits, X. . .",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "One target [current] takes X hits, X. . ."
+            },
+            {
+              "hits": "",
+              "effect": ""
+            }
+          ],
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "Weirding Cut",
+          "rank": 1,
+          "type": "Ability",
+          "effect": "One target in your Current Zone takes X Hits, X. . .",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "One target [current] takes X hits, X. . ."
+            },
+            {
+              "hits": "",
+              "effect": ""
+            }
+          ],
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "Boon of Fire",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Inferno keyword.",
+          "threshold": null,
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Destruction",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Destroy keyword.",
+          "threshold": null,
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Violence",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Bellor keyword.",
+          "threshold": null,
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Cold",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Rime keyword.",
+          "threshold": null,
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Intuition",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Intuit keyword.",
+          "threshold": null,
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Order",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Ordi keyword.",
+          "threshold": null,
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Vivus",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Vivus keyword.",
+          "threshold": null,
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Death",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Mori keyword.",
+          "threshold": null,
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Nothingness",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Nihil keyword.",
+          "threshold": null,
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Boon of Aether",
+          "rank": 1,
+          "type": "Static",
+          "effect": "Your Gifts with the Weirding keyword gain the Aether keyword.",
+          "threshold": null,
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Mantle of Fire",
+          "rank": 2,
+          "type": "Static",
+          "effect": "Reduce any Hits you suffer from fire or Inferno effects by -2.",
+          "threshold": null,
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Mantle of Pain",
+          "rank": 2,
+          "type": "Static",
+          "effect": "",
+          "threshold": null,
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Mantle of Chaos",
+          "rank": 2,
+          "type": "Static",
+          "effect": "",
+          "threshold": null,
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Mantle of Frost",
+          "rank": 2,
+          "type": "Static",
+          "effect": "Reduce any Hits you suffer from cold, ice, or Rime effects by -2",
+          "threshold": null,
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Harbor of Wisdom",
+          "rank": 2,
+          "type": "Static",
+          "effect": "",
+          "threshold": null,
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Bastion of Order",
+          "rank": 2,
+          "type": "Static",
+          "effect": "If the Entropy increases by 2+, reduce the total Entropy increase by -1.",
+          "threshold": null,
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Friend of Life",
+          "rank": 2,
+          "type": "Static",
+          "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit.",
+          "threshold": null,
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Friend of Death",
+          "rank": 2,
+          "type": "Static",
+          "effect": "If your Dying rating increases by 2+, reduce the total Dying increase by -1.",
+          "threshold": null,
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Harbinger of Nothing",
+          "rank": 2,
+          "type": "Static",
+          "effect": "",
+          "threshold": null,
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Dweller of Stars",
+          "rank": 2,
+          "type": "Static",
+          "effect": "",
+          "threshold": null,
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Mark of the Weird",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "One target [current] gains Aura X, X. . ."
+            }
+          ],
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "Weirding Strike",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "One target in your Current Zone takes X Hits, X. . . If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits.",
+          "threshold": null,
+          "requires": "",
+          "keywords": ""
+        },
+        {
+          "name": "Weirding Blast",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": "",
+              "effect": "One target [current] takes X Hits, X. . ."
+            },
+            {
+              "hits": "",
+              "effect": ""
+            }
+          ],
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "Tongue of Flames",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Persuade or Intimidate one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Might of Ruination",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Exert yourself, Intimidate, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Show of Violence",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Exert yourself or Strike one target in your Current Zone, or use your Tactics, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Treachery of Ice",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Deceive one target in your Current Zone or Endure, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Erudition of Infinity",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Analyze, use your Insight, Navigate, or Perceive, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Air of Regency",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Lead your allies or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Bounty of Aegis",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Maintain your Compsure, Endure, or Focus, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Tribute of Death",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Intimidate, Shoot, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the results set.",
+          "threshold": null,
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Grant of Nullity",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Use Stealth or Deceive one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Grip of Brilliance",
+          "rank": 2,
+          "type": "Ability",
+          "effect": "Use Cosmology, Deceive or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+          "threshold": null,
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Whispers of Oga",
+          "rank": 3,
+          "type": "Static",
+          "effect": "Your uses of the Intimidate and Persuade Skills gain the Inferno keyword.",
+          "threshold": null,
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Tidings of the Endless Ruin",
+          "rank": 3,
+          "type": "Static",
+          "effect": "Your uses of the Intimidate and Strike Skills gain the Destroy keyword.",
+          "threshold": null,
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Marks of the Coming War",
+          "rank": 3,
+          "type": "Static",
+          "effect": "You uses of the Strike and Tactics Skills gain the Bellor keyword.",
+          "threshold": null,
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Breath of the Forgotten Cold",
+          "rank": 3,
+          "type": "Static",
+          "effect": "Your uses of the Deceive and Endure Skills gain the Rime keyword.",
+          "threshold": null,
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Lessons of the Cosm",
+          "rank": 3,
+          "type": "Static",
+          "effect": "Your uses of the Analyze, Insight, Navigate, and Perceive Skills gain the Intuit keyword.",
+          "threshold": null,
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Standard of the Shattered Peace",
+          "rank": 3,
+          "type": "Static",
+          "effect": "You uses of the Lead and Persaude Skills gain the Ordi keyword.",
+          "threshold": null,
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Glimpse of the Eternal Cycle",
+          "rank": 3,
+          "type": "Static",
+          "effect": "You uses of the Composure, Endure, and Focus Skill gain the Vivus keyword.",
+          "threshold": null,
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Perils of the Bleeding Tome",
+          "rank": 3,
+          "type": "Static",
+          "effect": "You uses of the Intimidate, Shoot, and Strike skill gain the Mori keyword.",
+          "threshold": null,
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Shroud of the Ina",
+          "rank": 3,
+          "type": "Static",
+          "effect": "Your uses of the Deceive and Stealth Skills gain the Nihil keyword.",
+          "threshold": null,
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Howls of the Dreamer's Well",
+          "rank": 3,
+          "type": "Static",
+          "effect": "Your uses of the Cosmology, Deceive, and Persuade Skills gain the Aether keyword.",
+          "threshold": null,
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Weirding Blast",
+          "rank": 3,
+          "type": "Ability",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": "",
+              "effect": "Either 2 or 3 targets [current] take 1 Hit."
+            },
+            {
+              "hits": 3,
+              "effect": "Divide X Hits among 2 or 3 targets [current], X. . ."
+            }
+          ],
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "Weirding Slash",
+          "rank": 3,
+          "type": "Ability",
+          "effect": "One target in your Current Zone takes X Hits, X. . . If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits and gains Vulnerable 1 to Power Effects.",
+          "threshold": null,
+          "requires": "",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Fire",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Fatigued 1.",
+          "threshold": null,
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Destruction",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Vulnerable 1.",
+          "threshold": null,
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Havoc",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 have the target gain Vulnerable 1.",
+          "threshold": null,
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Frost",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Frozen 1.",
+          "threshold": null,
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Wisdom",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 2 Momentum and read the target's surface thoughts.",
+          "threshold": null,
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Order",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword,increase the Momentum by +2.",
+          "threshold": null,
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Life",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and regain +1d4 to Grit.",
+          "threshold": null,
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of Death",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and have the target gain Wounded 1.",
+          "threshold": null,
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Gift of the Void",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 and the target gains Blind 2.",
+          "threshold": null,
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Git of the Stars",
+          "rank": 3,
+          "type": "Trigger",
+          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Dazed 2.",
+          "threshold": null,
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Weirding Cascade",
+          "rank": 4,
+          "type": "Ability",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Divide X Hits among up to X targets [current], X. . ."
+            },
+            {
+              "hits": "",
+              "effect": ""
+            }
+          ],
+          "requires": "",
+          "keywords": "Weirding"
+        },
+        {
+          "name": "Weirding Cleave",
+          "rank": 3,
+          "type": "Ability",
+          "effect": "One target in your Current Zone takes X Hits, X. . . If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits. If the target dies, you may immedately use this Abiltiy against another target in your Current Zone.",
+          "threshold": null,
+          "requires": "",
+          "keywords": ""
+        },
+        {
+          "name": "Break the Flames",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Inferno Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Vanquish the Foe",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Destroy Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Lead the Chaos",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Bellor Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Call the Ice",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Rime Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Speak the Truths",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Intuit Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Control the Chaos",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Ordi Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Purge the Life",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Vivus Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Bring the Death",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Mori Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Release the Infinite",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Nihil Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Shatter the Stars",
+          "rank": 3,
+          "type": "Shift",
+          "effect": "",
+          "threshold": [
+            {
+              "hits": 1,
+              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+            }
+          ],
+          "requires": "Aether Affinity",
+          "keywords": ""
+        },
+        {
+          "name": "Extend the Mark",
+          "rank": 4,
+          "type": "Static",
+          "effect": "Your Weirding Mark applies to up to 2 targets.",
+          "threshold": null,
+          "requires": "",
+          "keywords": ""
+        },
+        {
+          "name": "Gifted Allocation",
+          "rank": 4,
+          "type": "Trigger",
+          "effect": "When you use your Weirding Strikes, you may divide the Hits among up to 3 targets in your Current Zone.",
+          "threshold": null,
+          "requires": "",
+          "keywords": "Weirding"
+        }
+      ],
     "hexes": [
         {
-            "name": "",
-            "type": "",
-            "max_ranks": null,
-            "effect": null,
-            "threshold": [
-                {
-                    "hits": null,
-                    "effect": ""
-                }
-            ],
-            "requires": null,
-            "keywords": [
-                ""
-            ]
+            "name": "Blood Bonding",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] gains the following Trigger Ongoing: Trigger &mdash; when this target takes Hits from a melee effect, the target's attacker regains X to their Grit, X. . .",
+            "ongoing": "3",
+            "keywords": "Sangui"
+        },
+        {
+            "name": "Reaper's Mark",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains Vulnerable 1 Ongoing.",
+            "ongoing": "4",
+            "keywords": "Mori"
+        },
+        {
+            "name": "Spirit Barbs",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] gains the following Trigger Ongoing: Trigger &mdash; when this target dies while this Hex is Ongoing, the Hex's source recover +X to Primary Defense or regains +x Grit, X. . .",
+            "ongoing": "2",
+            "keywords": "Mori, Vivus"
+        },
+        {
+            "name": "Phantom Pain",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "Select 1 target [current].  This turn and on each of your turns Ongoing, the target takes 1 Hit to its Primary Defense.",
+            "ongoing": "1",
+            "keywords": "Mentis, Morit, Vivus"
+        },
+        {
+            "name": "Wrap in Flames",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "Select 1 target [current].  This turn and on each of your turns Ongoing, the target takes 2 Hits.",
+            "ongoing": "2",
+            "keywords": "Inferno"
+        },
+        {
+            "name": "Strength Bonus",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "Select one ally [current] to gain +1d4 Bonus Hits to their next Action using a Dangerous Skill.",
+            "ongoing": "",
+            "keywords": "Bellor, Ordi, Tempest, Vivus"
+        },
+        {
+            "name": "Wintr's Grasp",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target that is Frozen [current] gains Restrained X Ongoing, . . .",
+            "ongoing": "2",
+            "keywords": "Rime"
+        },
+        {
+            "name": "Rose's Allure",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains Charmed 1 Ongoing.",
+            "ongoing": "3",
+            "keywords": "Inferno, Mentis"
+        },
+        {
+            "name": "Cage of Hands",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] gains Restrained 2 Ongoing.",
+            "ongoing": "2",
+            "keywords": ""
+        },
+        {
+            "name": "Mirror Shard",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "3",
+            "effect": "Select one target [current].  Create a copy of that target in its Current Zone.  The target acts on your turn under your command and only has 5 Grit with 0 Defenses.",
+            "ongoing": "4",
+            "keywords": "Aether, Mentis, Nihil"
+        },
+        {
+            "name": "Lightning Rod",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gain Vulnerable 1 to lightning and Tempest effects Ongoing.",
+            "ongoing": "2",
+            "keywords": "Tempest"
+        },
+        {
+            "name": "Kindling",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gain Vulnerable 1 to fire and Inferno effects Ongoing.",
+            "ongoing": "2",
+            "keywords": "Inferno"
+        },
+        {
+            "name": "Hexfell",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] gains Vulnerable 1 to Power effects Ongoing.",
+            "ongoing": "3",
+            "keywords": ""
+        },
+        {
+            "name": "Cold Hearth",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "3",
+            "effect": "Target your Current or an Adjacent Zone.  The targeted Zone gains the following Trigger Ongoing:  Trigger &mdash; any target that starts their turn or shifts to Move in this zone gains Frozen 1.",
+            "ongoing": "3",
+            "keywords": "Rime"
+        },
+        {
+            "name": "Bone Chill",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] takes X Hits, X. . .  If the target is Frozen, it takes +1d4 Bonus Hits.",
+            "ongoing": "0",
+            "keywords": "Mori, Rime"
+        },
+        {
+            "name": "Mesmer's",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains Dazed 1 Ongoing.",
+            "ongoing": "2",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Mesmer's Torment",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "All targets [current] take 1 Hit.  If any target is Dazed, they take +1d4 Bonus Hits.",
+            "ongoing": "",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Glamour",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target in your Current Zone gains Disgused X, X. . .",
+            "ongoing": "2",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Stalker's",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target in your Current or an Adjacent Zone gains Hidden X, X. . .",
+            "ongoing": "2",
+            "keywords": "Nihil, Nox"
+        },
+        {
+            "name": "Cat's Eye",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains the Nightsight keyword Ongoing.",
+            "ongoing": "1",
+            "keywords": "Nox"
+        },
+        {
+            "name": "Gill Cut",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains the Aquatic keyword Ongoing.",
+            "ongoing": "1",
+            "keywords": "Torrent"
+        },
+        {
+            "name": "Batwing",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains the Fly keyword Ongoing.",
+            "ongoing": "2",
+            "keywords": "Nox, Squall"
+        },
+        {
+            "name": "Vampyr",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] reduces their Dying rating by -1.",
+            "ongoing": "",
+            "keywords": "Sangui, Mori"
+        },
+        {
+            "name": "Muzzler's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] gains the Silenced 1 Ongoing.",
+            "ongoing": "1",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Descenter's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "Select 1 target [current].  If the target is Silenced, the target gains the Blind 1 Ongoing.",
+            "ongoing": "2",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Beggar's Sleep",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "Select 1 target [current].  If the target is Blinded, the target gains the Unconscious 1.",
+            "ongoing": "",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Challenger's",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains Provoked Ongoing.",
+            "ongoing": "2",
+            "keywords": "Bellor, Inferno"
+        },
+        {
+            "name": "Taunter's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target [current] takes 2 Hits.  If the target is Provoked, the target takes +1d4 Bonus Hits.",
+            "ongoing": "",
+            "keywords": "Bellor, Inferno"
+        },
+        {
+            "name": "Bilker's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "Persaude or Deceive one target in your Current Zone.  If the target is Charmed, add +1d4 Bonus Hits to the result set.",
+            "ongoing": "",
+            "keywords": "Nihil, Nox, Rime"
+        },
+        {
+            "name": "Brother's End",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "Persuade one target with Confused [current].  On 3+ Hits, the target attacks on of its allies in its Current Zone.",
+            "ongoing": "",
+            "keywords": "Mentis, Nox, Nihil, Rime"
+        },
+        {
+            "name": "Spirit's Grasp",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "3",
+            "effect": "Select 1 target [current].  If the target is Afraid, it gains Restrained 3.",
+            "ongoing": "",
+            "keywords": "Mori, Vivus"
+        },
+        {
+            "name": "Fiend's Face",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "3",
+            "effect": "All targets [current] gain Afraid 1 Ongoing.",
+            "ongoing": "",
+            "keywords": "Bellor, Nihil"
+        },
+        {
+            "name": "Warding",
+            "type": "Shift",
+            "threshold": "",
+            "hits": "1",
+            "effect": "You gain Armor Defense X, X. . .",
+            "ongoing": "",
+            "keywords": "Ordi"
+        },
+        {
+            "name": "Confounder's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "All targets [current] gain Confused 1 Ongoing.",
+            "ongoing": "3",
+            "keywords": "Mentis"
+        },
+        {
+            "name": "Trickster's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target that is Charmed [current] gains Dazed 1 Ongoing.",
+            "ongoing": "1",
+            "keywords": "Nox, Nihil, Rime"
+        },
+        {
+            "name": "Blighter's",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "2",
+            "effect": "One target that is Fatigued [current] gains Vulnerable 1 Ongoing.",
+            "ongoing": "2",
+            "keywords": "Mori, Nihil, Vivus"
+        },
+        {
+            "name": "Withering",
+            "type": "Ability",
+            "threshold": "",
+            "hits": "1",
+            "effect": "One target [current] gains Fatigued 1 Ongoing.",
+            "ongoing": "2",
+            "keywords": "Mori"
         }
     ],
     "rites": [
