@@ -2299,105 +2299,105 @@
             "name": "Fox",
             "type": "Potion",
             "ranks": "1",
-            "effect": "Gain Aura 2. [aura], you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
+            "effect": "Gain Aura 2. While this Aura persists, you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
             "doses": "2"
         },
         {
             "name": "Fox",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 3. [aura], you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
+            "effect": "Gain Aura 3. While this Aura persists, you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
             "doses": "2"
         },
         {
             "name": "Fox",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 5. [aura], you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
+            "effect": "Gain Aura 5. While this Aura persists, you add +1d4 Bonus Hits the the result set of any Action using Analyze, Cosmology, History, Investigate, Nature, Perceive, Research, Skrimisiology, or Theology.",
             "doses": "2"
         },
         {
             "name": "Hare",
             "type": "Potion",
             "ranks": "1",
-            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. [aura], you gain an additional Shift on each of your turns. When this Aura ends, you gain Fatigued.",
+            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. While this Aura persists, you gain an additional Shift on each of your turns. When this Aura ends, you gain Fatigued.",
             "doses": "2"
         },
         {
             "name": "Hare",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. [aura], you gain an additional Shift on each of your turns. When this Aura ends, you gain Fatigued.",
+            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. While this Aura persists, you gain an additional Shift on each of your turns. When this Aura ends, you gain Fatigued.",
             "doses": "4"
         },
         {
             "name": "Hare",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. [aura], you gain an additional Shift on each of your turns. If you do not use a Shift on your turn, you gain 1 additional Aciton. When this Aura ends, you gain Fatigued.",
+            "effect": "Gain +4 to your Reflexes Defense and gain Aura 2. While this Aura persists, you gain an additional Shift on each of your turns. If you do not use a Shift on your turn, you gain 1 additional Aciton. When this Aura ends, you gain Fatigued.",
             "doses": "1"
         },
         {
             "name": "Hawk",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 3. [aura], you gain the Flying keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Flying keyword.",
             "doses": "1"
         },
         {
             "name": "Hawk",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 3. [aura], you gain the Flying keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Flying keyword.",
             "doses": "2"
         },
         {
             "name": "Hawk",
             "type": "Potion",
             "ranks": "4",
-            "effect": "Gain Aura 4. [aura], you gain the Flying keyword.",
+            "effect": "Gain Aura 4. While this Aura persists, you gain the Flying keyword.",
             "doses": "1"
         },
         {
             "name": "Marlin",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 3. [aura], you gain the Aquatic keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Aquatic keyword.",
             "doses": "2"
         },
         {
             "name": "Marlin",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 3. [aura], you gain the Aquatic keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Aquatic keyword.",
             "doses": ""
         },
         {
             "name": "Marlin",
             "type": "Potion",
             "ranks": "4",
-            "effect": "Gain Aura 5. [aura], you gain the Aquatic keyword.",
+            "effect": "Gain Aura 5. While this Aura persists, you gain the Aquatic keyword.",
             "doses": "2"
         },
         {
             "name": "Mouse",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 3. [aura], you gain the Invisible keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Invisible keyword.",
             "doses": "1"
         },
         {
             "name": "Mouse",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 3. [aura], you gain the Invisible keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Invisible keyword.",
             "doses": "2"
         },
         {
             "name": "Mouse",
             "type": "Potion",
             "ranks": "4",
-            "effect": "Gain Aura 4. [aura], you gain the Invisible keyword.",
+            "effect": "Gain Aura 4. While this Aura persists, you gain the Invisible keyword.",
             "doses": "1"
         },
         {
@@ -2425,84 +2425,84 @@
             "name": "Ringtail",
             "type": "Potion",
             "ranks": "1",
-            "effect": "Gain Aura 3. [aura], you gain the Nightvision keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Nightvision keyword.",
             "doses": "3"
         },
         {
             "name": "Ringtail",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 3. [aura], you gain the Nightvision keyword.",
+            "effect": "Gain Aura 3. While this Aura persists, you gain the Nightvision keyword.",
             "doses": "5"
         },
         {
             "name": "Ringtail",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 5. [aura], you gain the Nightvision keyword.",
+            "effect": "Gain Aura 5. While this Aura persists, you gain the Nightvision keyword.",
             "doses": "3"
         },
         {
             "name": "Snake",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 2. [aura], you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
+            "effect": "Gain Aura 2. While this Aura persists, you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
             "doses": "2"
         },
         {
             "name": "Snake",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 2. [aura], you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
+            "effect": "Gain Aura 2. While this Aura persists, you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
             "doses": "3"
         },
         {
             "name": "Snake",
             "type": "Potion",
             "ranks": "4",
-            "effect": "Gain Aura 3. [aura], you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
+            "effect": "Gain Aura 3. While this Aura persists, you cannot gain the Fatigued Status and are immune to the effects of Poisons.",
             "doses": "2"
         },
         {
             "name": "Titan",
             "type": "Potion",
             "ranks": "1",
-            "effect": "Gain Aura 2. [aura], +1 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
+            "effect": "Gain Aura 2. While this Aura persists, +1 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
             "doses": "2"
         },
         {
             "name": "Titan",
             "type": "Potion",
             "ranks": "2",
-            "effect": "Gain Aura 2. [aura], +1 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
+            "effect": "Gain Aura 2. While this Aura persists, +1 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
             "doses": "4"
         },
         {
             "name": "Titan",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 2. [aura], +1d4 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
+            "effect": "Gain Aura 2. While this Aura persists, +1d4 Bonus Hits to Exert, Grapple, Martial Arts, Strike, or Throw.",
             "doses": "2"
         },
         {
             "name": "Tortoise",
             "type": "Potion",
             "ranks": "3",
-            "effect": "Gain Aura 1. [aura], prevent all Hits to your Defenses and Grit.",
+            "effect": "Gain Aura 1. While this Aura persists, prevent all Hits to your Defenses and Grit.",
             "doses": "1"
         },
         {
             "name": "Tortoise",
             "type": "Potion",
             "ranks": "4",
-            "effect": "Gain Aura 2. [aura], prevent all Hits to your Defenses and Grit.",
+            "effect": "Gain Aura 2. While this Aura persists, prevent all Hits to your Defenses and Grit.",
             "doses": "1"
         },
         {
             "name": "Tortoise",
             "type": "Potion",
             "ranks": "5",
-            "effect": "Gain Aura 3. [aura], prevent all Hits to your Defenses and Grit.",
+            "effect": "Gain Aura 3. While this Aura persists, prevent all Hits to your Defenses and Grit.",
             "doses": "1"
         }
     ],
@@ -2518,7 +2518,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "All targets [current] gain Afraid 3."
+                            "effect": "All targets in your Current or an Adjacent Zone gain Afraid 3."
                         }
                     ]
                 },
@@ -2542,7 +2542,7 @@
                     "threshold": [
                         {
                             "hits": 0,
-                            "effect": "You or one ally [current] recover +3 to your Primary Defense."
+                            "effect": "You or one ally in your Current or an Adjacent Zone recover +3 to your Primary Defense."
                         },
                         {
                             "hits": 2,
@@ -2568,7 +2568,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "Create 2 Advantages in [current]."
+                            "effect": "Create 2 Advantages in in your Current or an Adjacent Zone."
                         }
                     ]
                 },
@@ -2609,7 +2609,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "Up to X allies [current] can immediately Recover without using an Action."
+                            "effect": "Up to X allies in your Current or an Adjacent Zone can immediately Recover without using an Action."
                         }
                     ]
                 },
@@ -2623,7 +2623,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One target ally [current] gains Vulnerable 2."
+                            "effect": "One target ally in your Current or an Adjacent Zone gains Vulnerable 2."
                         }
                     ]
                 },
@@ -2659,7 +2659,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "Up to X target [current] gain Confused 2."
+                            "effect": "Up to X target in your Current or an Adjacent Zone gain Confused 2."
                         }
                     ]
                 },
@@ -2699,7 +2699,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "Select one (1) ally [current]. The targeted ally gains Aura 2. While the Aura persists, they gain +1d4 Bonus Hits to any action using Grapple and can re-roll one 1 in a reroll a 1 in one Dangerous Skill's result set each turn without spending a Dangerous Trait point."
+                            "effect": "Select one (1) ally in your Current or an Adjacent Zone. The targeted ally gains Aura 2. While the Aura persists, they gain +1d4 Bonus Hits to any action using Grapple and can re-roll one 1 in a reroll a 1 in one Dangerous Skill's result set each turn without spending a Dangerous Trait point."
                         }
                     ]
                 },
@@ -2727,7 +2727,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "The targeted ally regains +X Grit, X. . ."
+                            "effect": "The targeted ally regains +X Grit, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -2846,7 +2846,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "Select one (1) ally [current]. The targeted ally gains Vulnerable 2 to heat, fire, and Inferno effects."
+                            "effect": "Select one (1) ally in your Current or an Adjacent Zone. The targeted ally gains Vulnerable 2 to heat, fire, and Inferno effects."
                         }
                     ]
                 },
@@ -2874,7 +2874,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "You gain Hidden X, X. . ."
+                            "effect": "You gain Hidden X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -2909,7 +2909,7 @@
                         },
                         {
                             "hits": 3,
-                            "effect": "All allies [current] immediately use a Shift."
+                            "effect": "All allies in your Current or an Adjacent Zone immediately use a Shift."
                         }
                     ]
                 },
@@ -2944,7 +2944,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Up to X target [current] gain Blind 1."
+                            "effect": "Up to X target in your Current or an Adjacent Zone gain Blind 1."
                         }
                     ]
                 },
@@ -2993,7 +2993,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "One target [current] regains +X Grit, X. . ."
+                            "effect": "One target in your Current or an Adjacent Zone regains +X Grit, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3007,7 +3007,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One target [current] loses -X Grit, X. . ."
+                            "effect": "One target in your Current or an Adjacent Zone loses -X Grit, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3021,7 +3021,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "Prevent all Hits to Defenses and Grit against one Target [current] until the beginning of your next turn."
+                            "effect": "Prevent all Hits to Defenses and Grit against one Target in your Current or an Adjacent Zone until the beginning of your next turn."
                         }
                     ]
                 },
@@ -3042,7 +3042,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action using Perceive or Investigate on their next turn."
+                            "effect": "One ally in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action using Perceive or Investigate on their next turn."
                         }
                     ]
                 },
@@ -3096,7 +3096,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "Select one target [current]. The target takes X Hits, X. . ."
+                            "effect": "Select one target in your Current or an Adjacent Zone. The target takes X Hits, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3132,7 +3132,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action using Stealth or Decieve their next turn."
+                            "effect": "One ally in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action using Stealth or Decieve their next turn."
                         }
                     ]
                 },
@@ -3146,7 +3146,7 @@
                         },
                         {
                             "hits": 1,
-                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action using Stealth or Decieve their next turn."
+                            "effect": "One ally in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action using Stealth or Decieve their next turn."
                         }
                     ]
                 },
@@ -3182,7 +3182,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Select one target [current]. The target becomes Provoked."
+                            "effect": "Select one target in your Current or an Adjacent Zone. The target becomes Provoked."
                         }
                     ]
                 },
@@ -3196,7 +3196,7 @@
                         },
                         {
                             "hits": 1,
-                            "effect": "The target gains Charmed X, X. . ."
+                            "effect": "The target gains Charmed X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3232,7 +3232,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Select one target [current]. The target's becomes immune to Afraid and reduce one Status by -1."
+                            "effect": "Select one target in your Current or an Adjacent Zone. The target's becomes immune to Afraid and reduce one Status by -1."
                         }
                     ]
                 },
@@ -3282,7 +3282,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Select one target [current]. The target gain Vulnerable 3."
+                            "effect": "Select one target in your Current or an Adjacent Zone. The target gain Vulnerable 3."
                         }
                     ]
                 },
@@ -3296,7 +3296,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "The target takes X Hits to their Nerve, X. . ."
+                            "effect": "The target takes X Hits to their Nerve, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3310,7 +3310,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One target [current] gains +1d4 Bonus Hits to one Action using Persuade on their next turn."
+                            "effect": "One target in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action using Persuade on their next turn."
                         }
                     ]
                 },
@@ -3332,7 +3332,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "One target [current] gains +1d4 Bonus Hits to one Action using Deceive on their next turn."
+                            "effect": "One target in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action using Deceive on their next turn."
                         }
                     ]
                 },
@@ -3346,7 +3346,7 @@
                         },
                         {
                             "hits": 3,
-                            "effect": "One target [current] gains +1d4 Bonus Hits to one action using Insight on their next turn."
+                            "effect": "One target in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one action using Insight on their next turn."
                         }
                     ]
                 },
@@ -3360,7 +3360,7 @@
                         },
                         {
                             "hits": 3,
-                            "effect": "One target [current] gains +1 Favors."
+                            "effect": "One target in your Current or an Adjacent Zone gains +1 Favors."
                         }
                     ]
                 },
@@ -3382,7 +3382,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "You Initiate a Contest with one target [current]."
+                            "effect": "You Initiate a Contest with one target in your Current or an Adjacent Zone."
                         }
                     ]
                 },
@@ -3437,7 +3437,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "All targets with the Undead keyword [current] gain Dazed 4."
+                            "effect": "All targets with the Undead keyword in your Current or an Adjacent Zone gain Dazed 4."
                         }
                     ]
                 },
@@ -3465,7 +3465,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "All target with the Undead keyword [current] take X Hits, where X is equal to their Dazed rating."
+                            "effect": "All target with the Undead keyword in your Current or an Adjacent Zone take X Hits, where X is equal to their Dazed rating."
                         }
                     ]
                 },
@@ -3487,7 +3487,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Restore X to Gear in your Current Zone, X. . ."
+                            "effect": "Restore X to Gear in your Current Zone, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3497,7 +3497,7 @@
                     "threshold": [
                         {
                             "hits": 0,
-                            "effect": "Reduce all Gear ratings in your Current Zone by -X, X. . ."
+                            "effect": "Reduce all Gear ratings in your Current Zone by -X, where X is equal to Hits in the result set."
                         },
                         {
                             "hits": 2,
@@ -3537,7 +3537,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Create X Advantages in your Current Zone, X. . ."
+                            "effect": "Create X Advantages in your Current Zone, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3587,7 +3587,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Up to X allies [current] gain +1d4 Bonus Hits to one Action using Strike on their next turn."
+                            "effect": "Up to X allies in your Current or an Adjacent Zone gain +1d4 Bonus Hits to one Action using Strike on their next turn."
                         }
                     ]
                 },
@@ -3601,7 +3601,7 @@
                         },
                         {
                             "hits": 1,
-                            "effect": "Up to X allies [current] gain +1d4 Bonus Hits to one Action using Strike on their next turn."
+                            "effect": "Up to X allies in your Current or an Adjacent Zone gain +1d4 Bonus Hits to one Action using Strike on their next turn."
                         }
                     ]
                 },
@@ -3615,7 +3615,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One target [current] recovers X Hits to their Primary Defense, X. . ."
+                            "effect": "One target in your Current or an Adjacent Zone recovers X Hits to their Primary Defense, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3637,7 +3637,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Select one target [current]. The target becomes Provoked."
+                            "effect": "Select one target in your Current or an Adjacent Zone. The target becomes Provoked."
                         }
                     ]
                 },
@@ -3661,11 +3661,11 @@
                     "threshold": [
                         {
                             "hits": 0,
-                            "effect": "The target regains +X Grit, X. . ."
+                            "effect": "The target regains +X Grit, where X is equal to Hits in the result set."
                         },
                         {
                             "hits": 3,
-                            "effect": "The target gains Restrained X, X. . ."
+                            "effect": "The target gains Restrained X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3687,7 +3687,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "All allies [current] gain +1d4 Bonus Hits to one Action using Compsure, Endure, or Focus on their next turn."
+                            "effect": "All allies in your Current or an Adjacent Zone gain +1d4 Bonus Hits to one Action using Compsure, Endure, or Focus on their next turn."
                         }
                     ]
                 },
@@ -3701,7 +3701,7 @@
                         },
                         {
                             "hits": 1,
-                            "effect": "One target [current] gains +1d4 Bonus Hits to one action using History, Insight, Perceive, or Research on their next turn."
+                            "effect": "One target in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one action using History, Insight, Perceive, or Research on their next turn."
                         }
                     ]
                 },
@@ -3728,7 +3728,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "Create X Hazards [current], X. . ."
+                            "effect": "Create X Hazards in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3742,7 +3742,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One target [current] gains Fatigued 1."
+                            "effect": "One target in your Current or an Adjacent Zone gains Fatigued 1."
                         }
                     ]
                 },
@@ -3754,7 +3754,7 @@
                             "hits": 0,
                             "effect": "You gain Fatigued 1",
                             "hits": 1,
-                            "effect": "One ally [current] gains +1d4 Bonus Hits to one Action on their next turn."
+                            "effect": "One ally in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action on their next turn."
                         }
                     ]
                 },
@@ -3790,7 +3790,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "Select one target [current]. The target gains Vulnerable 2."
+                            "effect": "Select one target in your Current or an Adjacent Zone. The target gains Vulnerable 2."
                         }
                     ]
                 },
@@ -3938,7 +3938,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One target [current] gains Hidden X, X. . ."
+                            "effect": "One target in your Current or an Adjacent Zone gains Hidden X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -3974,7 +3974,7 @@
                     "threshold": [
                         {
                             "hits": 2,
-                            "effect": "Until the beginning of your next turn, all allies [current] reduce one Status rating by -1 for every Action they take that Scores 1+ Hits."
+                            "effect": "Until the beginning of your next turn, all allies in your Current or an Adjacent Zone reduce one Status rating by -1 for every Action they take that Scores 1+ Hits."
                         }
                     ]
                 },
@@ -4022,7 +4022,7 @@
                     "threshold": [
                         {
                             "hits": 3,
-                            "effect": "All targets [current] gain Restrained 3."
+                            "effect": "All targets in your Current or an Adjacent Zone gain Restrained 3."
                         }
                     ]
                 },
@@ -4036,7 +4036,7 @@
                         },
                         {
                             "hits": 3,
-                            "effect": "All targets [current] that are Restrained become Unconscious."
+                            "effect": "All targets in your Current or an Adjacent Zone that are Restrained become Unconscious."
                         }
                     ]
                 },
@@ -4050,7 +4050,7 @@
                         },
                         {
                             "hits": 3,
-                            "effect": "All Unconscious targets [current] regain +X Grit, X. . ."
+                            "effect": "All Unconscious targets in your Current or an Adjacent Zone regain +X Grit, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -4072,7 +4072,7 @@
                     "threshold": [
                         {
                             "hits": 1,
-                            "effect": "All allies [current] recover +2 Hits ot their Primary Defense."
+                            "effect": "All allies in your Current or an Adjacent Zone recover +2 Hits ot their Primary Defense."
                         }
                     ]
                 },
@@ -4086,7 +4086,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "All allies [current] regain +2 Grit."
+                            "effect": "All allies in your Current or an Adjacent Zone regain +2 Grit."
                         }
                     ]
                 },
@@ -4100,7 +4100,7 @@
                         },
                         {
                             "hits": 3,
-                            "effect": "Increase the Momentum by X, X. . ."
+                            "effect": "Increase the Momentum by X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -4182,7 +4182,7 @@
                         },
                         {
                             "hits": 2,
-                            "effect": "One ally [current] gains Wounded 2. Increase the Momentum by +X, X. . ."
+                            "effect": "One ally in your Current or an Adjacent Zone gains Wounded 2. Increase the Momentum by +X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -4276,7 +4276,7 @@
           "name": "Gift of Rejuvenation",
           "rank": 1,
           "type": "Trigger",
-          "effect": "When you us the Recover Action, you may spend 1 Succor to regain +X to Grit, X. . .",
+          "effect": "When you us the Recover Action, you may spend 1 Succor to regain +X to Grit, where X is equal to Hits in the result set.",
           "threshold": null,
           "requires": "",
           "keywords": "Weirding"
@@ -4375,11 +4375,11 @@
           "name": "Weirding Dart",
           "rank": 1,
           "type": "Ability",
-          "effect": "One target [current] takes X Hits, X. . .",
+          "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
           "threshold": [
             {
               "hits": 1,
-              "effect": "One target [current] takes X hits, X. . ."
+              "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set."
             },
             {
               "hits": "",
@@ -4393,11 +4393,11 @@
           "name": "Weirding Cut",
           "rank": 1,
           "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, X. . .",
+          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
           "threshold": [
             {
               "hits": 1,
-              "effect": "One target [current] takes X hits, X. . ."
+              "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set."
             },
             {
               "hits": "",
@@ -4595,7 +4595,7 @@
           "threshold": [
             {
               "hits": 1,
-              "effect": "One target [current] gains Aura X, X. . ."
+              "effect": "One target in your Current or an Adjacent Zone gains Aura X, where X is equal to Hits in the result set."
             }
           ],
           "requires": "",
@@ -4605,7 +4605,7 @@
           "name": "Weirding Strike",
           "rank": 2,
           "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, X. . . If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits.",
+          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits.",
           "threshold": null,
           "requires": "",
           "keywords": ""
@@ -4618,7 +4618,7 @@
           "threshold": [
             {
               "hits": "",
-              "effect": "One target [current] takes X Hits, X. . ."
+              "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
             },
             {
               "hits": "",
@@ -4816,11 +4816,11 @@
           "threshold": [
             {
               "hits": "",
-              "effect": "Either 2 or 3 targets [current] take 1 Hit."
+              "effect": "Either 2 or 3 targets in your Current or an Adjacent Zone take 1 Hit."
             },
             {
               "hits": 3,
-              "effect": "Divide X Hits among 2 or 3 targets [current], X. . ."
+              "effect": "Divide X Hits among 2 or 3 targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
             }
           ],
           "requires": "",
@@ -4830,7 +4830,7 @@
           "name": "Weirding Slash",
           "rank": 3,
           "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, X. . . If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits and gains Vulnerable 1 to Power Effects.",
+          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits and gains Vulnerable 1 to Power Effects.",
           "threshold": null,
           "requires": "",
           "keywords": ""
@@ -4933,7 +4933,7 @@
           "threshold": [
             {
               "hits": 1,
-              "effect": "Divide X Hits among up to X targets [current], X. . ."
+              "effect": "Divide X Hits among up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
             },
             {
               "hits": "",
@@ -4947,7 +4947,7 @@
           "name": "Weirding Cleave",
           "rank": 3,
           "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, X. . . If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits. If the target dies, you may immedately use this Abiltiy against another target in your Current Zone.",
+          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits. If the target dies, you may immedately use this Abiltiy against another target in your Current Zone.",
           "threshold": null,
           "requires": "",
           "keywords": ""
@@ -5117,7 +5117,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] gains the following Trigger Ongoing: Trigger &mdash; when this target takes Hits from a melee effect, the target's attacker regains X to their Grit, X. . .",
+            "effect": "One target in your Current or an Adjacent Zone gains the following Trigger Ongoing: Trigger &mdash; when this target takes Hits from a melee effect, the target's attacker regains X to their Grit, where X is equal to Hits in the result set.",
             "ongoing": "3",
             "keywords": "Sangui"
         },
@@ -5126,7 +5126,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains Vulnerable 1 Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Vulnerable 1 Ongoing.",
             "ongoing": "4",
             "keywords": "Mori"
         },
@@ -5135,7 +5135,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] gains the following Trigger Ongoing: Trigger &mdash; when this target dies while this Hex is Ongoing, the Hex's source recover +X to Primary Defense or regains +x Grit, X. . .",
+            "effect": "One target in your Current or an Adjacent Zone gains the following Trigger Ongoing: Trigger &mdash; when this target dies while this Hex is Ongoing, the Hex's source recover +X to Primary Defense or regains +x Grit, where X is equal to Hits in the result set.",
             "ongoing": "2",
             "keywords": "Mori, Vivus"
         },
@@ -5144,7 +5144,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "Select 1 target [current].  This turn and on each of your turns Ongoing, the target takes 1 Hit to its Primary Defense.",
+            "effect": "Select 1 target in your Current or an Adjacent Zone.  This turn and on each of your turns Ongoing, the target takes 1 Hit to its Primary Defense.",
             "ongoing": "1",
             "keywords": "Mentis, Morit, Vivus"
         },
@@ -5153,7 +5153,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "Select 1 target [current].  This turn and on each of your turns Ongoing, the target takes 2 Hits.",
+            "effect": "Select 1 target in your Current or an Adjacent Zone.  This turn and on each of your turns Ongoing, the target takes 2 Hits.",
             "ongoing": "2",
             "keywords": "Inferno"
         },
@@ -5162,7 +5162,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "Select one ally [current] to gain +1d4 Bonus Hits to their next Action using a Dangerous Skill.",
+            "effect": "Select one ally in your Current or an Adjacent Zone to gain +1d4 Bonus Hits to their next Action using a Dangerous Skill.",
             "ongoing": "",
             "keywords": "Bellor, Ordi, Tempest, Vivus"
         },
@@ -5171,7 +5171,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "One target that is Frozen [current] gains Restrained X Ongoing, . . .",
+            "effect": "One target that is Frozen in your Current or an Adjacent Zone gains Restrained X Ongoing, . . .",
             "ongoing": "2",
             "keywords": "Rime"
         },
@@ -5180,7 +5180,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains Charmed 1 Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Charmed 1 Ongoing.",
             "ongoing": "3",
             "keywords": "Inferno, Mentis"
         },
@@ -5189,7 +5189,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] gains Restrained 2 Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Restrained 2 Ongoing.",
             "ongoing": "2",
             "keywords": ""
         },
@@ -5198,7 +5198,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "3",
-            "effect": "Select one target [current].  Create a copy of that target in its Current Zone.  The target acts on your turn under your command and only has 5 Grit with 0 Defenses.",
+            "effect": "Select one target in your Current or an Adjacent Zone.  Create a copy of that target in its Current Zone.  The target acts on your turn under your command and only has 5 Grit with 0 Defenses.",
             "ongoing": "4",
             "keywords": "Aether, Mentis, Nihil"
         },
@@ -5207,7 +5207,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gain Vulnerable 1 to lightning and Tempest effects Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gain Vulnerable 1 to lightning and Tempest effects Ongoing.",
             "ongoing": "2",
             "keywords": "Tempest"
         },
@@ -5216,7 +5216,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gain Vulnerable 1 to fire and Inferno effects Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gain Vulnerable 1 to fire and Inferno effects Ongoing.",
             "ongoing": "2",
             "keywords": "Inferno"
         },
@@ -5225,7 +5225,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] gains Vulnerable 1 to Power effects Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Vulnerable 1 to Power effects Ongoing.",
             "ongoing": "3",
             "keywords": ""
         },
@@ -5243,7 +5243,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] takes X Hits, X. . .  If the target is Frozen, it takes +1d4 Bonus Hits.",
+            "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If the target is Frozen, it takes +1d4 Bonus Hits.",
             "ongoing": "0",
             "keywords": "Mori, Rime"
         },
@@ -5252,7 +5252,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains Dazed 1 Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Dazed 1 Ongoing.",
             "ongoing": "2",
             "keywords": "Mentis"
         },
@@ -5261,7 +5261,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "All targets [current] take 1 Hit.  If any target is Dazed, they take +1d4 Bonus Hits.",
+            "effect": "All targets in your Current or an Adjacent Zone take 1 Hit.  If any target is Dazed, they take +1d4 Bonus Hits.",
             "ongoing": "",
             "keywords": "Mentis"
         },
@@ -5270,7 +5270,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target in your Current Zone gains Disgused X, X. . .",
+            "effect": "One target in your Current Zone gains Disgused X, where X is equal to Hits in the result set.",
             "ongoing": "2",
             "keywords": "Mentis"
         },
@@ -5279,7 +5279,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target in your Current or an Adjacent Zone gains Hidden X, X. . .",
+            "effect": "One target in your Current or an Adjacent Zone gains Hidden X, where X is equal to Hits in the result set.",
             "ongoing": "2",
             "keywords": "Nihil, Nox"
         },
@@ -5288,7 +5288,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains the Nightsight keyword Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains the Nightsight keyword Ongoing.",
             "ongoing": "1",
             "keywords": "Nox"
         },
@@ -5297,7 +5297,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains the Aquatic keyword Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains the Aquatic keyword Ongoing.",
             "ongoing": "1",
             "keywords": "Torrent"
         },
@@ -5306,7 +5306,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains the Fly keyword Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains the Fly keyword Ongoing.",
             "ongoing": "2",
             "keywords": "Nox, Squall"
         },
@@ -5315,7 +5315,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] reduces their Dying rating by -1.",
+            "effect": "One target in your Current or an Adjacent Zone reduces their Dying rating by -1.",
             "ongoing": "",
             "keywords": "Sangui, Mori"
         },
@@ -5324,7 +5324,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] gains the Silenced 1 Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains the Silenced 1 Ongoing.",
             "ongoing": "1",
             "keywords": "Mentis"
         },
@@ -5333,7 +5333,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "Select 1 target [current].  If the target is Silenced, the target gains the Blind 1 Ongoing.",
+            "effect": "Select 1 target in your Current or an Adjacent Zone.  If the target is Silenced, the target gains the Blind 1 Ongoing.",
             "ongoing": "2",
             "keywords": "Mentis"
         },
@@ -5342,7 +5342,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "Select 1 target [current].  If the target is Blinded, the target gains the Unconscious 1.",
+            "effect": "Select 1 target in your Current or an Adjacent Zone.  If the target is Blinded, the target gains the Unconscious 1.",
             "ongoing": "",
             "keywords": "Mentis"
         },
@@ -5351,7 +5351,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains Provoked Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Provoked Ongoing.",
             "ongoing": "2",
             "keywords": "Bellor, Inferno"
         },
@@ -5360,7 +5360,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target [current] takes 2 Hits.  If the target is Provoked, the target takes +1d4 Bonus Hits.",
+            "effect": "One target in your Current or an Adjacent Zone takes 2 Hits.  If the target is Provoked, the target takes +1d4 Bonus Hits.",
             "ongoing": "",
             "keywords": "Bellor, Inferno"
         },
@@ -5378,7 +5378,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "Persuade one target with Confused [current].  On 3+ Hits, the target attacks on of its allies in its Current Zone.",
+            "effect": "Persuade one target with Confused in your Current or an Adjacent Zone.  On 3+ Hits, the target attacks on of its allies in its Current Zone.",
             "ongoing": "",
             "keywords": "Mentis, Nox, Nihil, Rime"
         },
@@ -5387,7 +5387,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "3",
-            "effect": "Select 1 target [current].  If the target is Afraid, it gains Restrained 3.",
+            "effect": "Select 1 target in your Current or an Adjacent Zone.  If the target is Afraid, it gains Restrained 3.",
             "ongoing": "",
             "keywords": "Mori, Vivus"
         },
@@ -5396,7 +5396,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "3",
-            "effect": "All targets [current] gain Afraid 1 Ongoing.",
+            "effect": "All targets in your Current or an Adjacent Zone gain Afraid 1 Ongoing.",
             "ongoing": "",
             "keywords": "Bellor, Nihil"
         },
@@ -5405,7 +5405,7 @@
             "type": "Shift",
             "threshold": "",
             "hits": "1",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "ongoing": "",
             "keywords": "Ordi"
         },
@@ -5414,7 +5414,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "All targets [current] gain Confused 1 Ongoing.",
+            "effect": "All targets in your Current or an Adjacent Zone gain Confused 1 Ongoing.",
             "ongoing": "3",
             "keywords": "Mentis"
         },
@@ -5423,7 +5423,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "One target that is Charmed [current] gains Dazed 1 Ongoing.",
+            "effect": "One target that is Charmed in your Current or an Adjacent Zone gains Dazed 1 Ongoing.",
             "ongoing": "1",
             "keywords": "Nox, Nihil, Rime"
         },
@@ -5432,7 +5432,7 @@
             "type": "Ability",
             "threshold": "",
             "hits": "2",
-            "effect": "One target that is Fatigued [current] gains Vulnerable 1 Ongoing.",
+            "effect": "One target that is Fatigued in your Current or an Adjacent Zone gains Vulnerable 1 Ongoing.",
             "ongoing": "2",
             "keywords": "Mori, Nihil, Vivus"
         },
@@ -5441,10 +5441,854 @@
             "type": "Ability",
             "threshold": "",
             "hits": "1",
-            "effect": "One target [current] gains Fatigued 1 Ongoing.",
+            "effect": "One target in your Current or an Adjacent Zone gains Fatigued 1 Ongoing.",
             "ongoing": "2",
             "keywords": "Mori"
         }
+    ],
+    "marevels": [
+        [
+            {
+              "name": "Essence Barrier",
+              "rank": 1,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 2,
+                  "effect__1": "Your Current Zone gains Hazard 2 Ongoing. It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Ray of Essence",
+              "rank": 1,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 2,
+                  "effect__1": "Select one target in your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>The target takes 1d4 Bonus Hits.</li>\n<li>Increase one of the target's Statuses one Status by +1.</li>\n<li>Decrease one of the target's Statuses one Status by -1.</li>\n</ul>"
+                }
+              ],
+              "requires": "",
+              "keywords": "Ongoing 1"
+            },
+            {
+              "name": "Essence Strike",
+              "rank": 1,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 1,
+                  "effect__1": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Blast",
+              "rank": 2,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 2,
+                  "effect__1": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Burst",
+              "rank": 4,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 3,
+                  "effect__1": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Rift",
+              "rank": 2,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Storm",
+              "rank": 3,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Target your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>Move the Storm one Adjacent Zone.</li>\n<li>One ally in the Storm's Zone may immediately use the Recover Action</li>\n<li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li>\n</ul>"
+                }
+              ],
+              "requires": "",
+              "keywords": "Ongoing 3"
+            },
+            {
+              "name": "Essence Surge",
+              "rank": 1,
+              "type": "Shift",
+              "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Veil",
+              "rank": 1,
+              "type": "Shift",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "You gain Aura X."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Volley",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Up to X targets in an Adjacent Zone take 2 Hits."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Wave",
+              "rank": 3,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Spend 1 Attunement. Target your Current or and Adjacent Zone. Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Warding Essence",
+              "rank": 1,
+              "type": "Shift",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 1,
+                  "effect__1": "You gain Armor Defense X, where X is equal to Hits in the result set."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Nova",
+              "rank": 3,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "All targets in your Current and all Adjacent Zones take 3 Hits."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Binding Essence",
+              "rank": 2,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Spend 1 Attunement. Choose one (1):\n<ul>\n<li>One target gains Restrained X.</li>\n<li>Up to X targets gain Restrained 1.</li> \n</ul>"
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Essence Barrage",
+              "rank": 2,
+              "type": "Ability",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": 1,
+                  "effect__1": "Spend 1 Attunement. Up to X targets in an Adjacent Zone take 3 Hits."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Aether",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Action in a Zonecontaining a Hazard created by one of your Marvels may reduce on Status rating by -1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Bellor",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When a target scores 4+ Hits against another single target wihile they are both in this Zone, the acting target immediately takes another Action.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Inferno",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 1 or fewer Hits against one target wihile they are both in this Zone, the target takes +1d4 Bonus Hits.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Lux",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels can end the Blind Status.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Mori",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hostile targets that take any attack Action while in a Zone containing a Hazard created by oen of your Marvels gain Vulnerable 1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Nihil",
+              "rank": 2,
+              "type": "Static",
+              "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels can increase the Entropy by +2 and end any one Status or Aura.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Nox",
+              "rank": 2,
+              "type": "Static",
+              "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels gain the Nightsight keyword.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Ordi",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Any action taken by targets in a Zone containing a Hazard created by one of your Marvesl that would increase the Momentum increases the Momentum by an additional +1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Phylla",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Restratined 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Rime",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Frozen 1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Squall",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hostile targets that shift into or out of a Zone containing a Hazard created by one of your Marvels lose the Flying keyword until their next turn. Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target wihile they are both in this Zone, the target is Moved to an Adjacent Zone.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Tellus",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels gain Armor Bonus +3.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Tempest",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target while they are both in this Zone, the target gains Stunned 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Torrent",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against another single target wihile they are both in this Zone, the target becomes Prone.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Vivus",
+              "rank": 2,
+              "type": "Static",
+              "effect": "Allies who use the Recover Action while in a Zone containing a Hazard created by one of your Marvels regian +1d4 Bonus Hits to Grit.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Aether",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Aether."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Bellor",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gain Dazed 1. The target gains Charmed 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Bellor."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Inferno",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Increase the Entropy by +1 and the target gains Provoked and Vulnerable 1. The target gain Armor Defense 3 against fire and Inferno effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Inferno."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Lux",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Fatigued 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Lux."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Mori",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1. The target recovers +X to their Primary Defense, where X is equal to Hits in the result set.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Mori."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Nihil",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes X Hits, where X is equal to Hits in the result set. Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nihil."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Nox",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>All light in the target's Current Zone is extinguished. The target gains the Nightsight keyword Ongoing.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nox."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Ordi",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d4 Bonus hits. If the targets dies, increase the Momentum by +1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Ordi."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Phylla",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Restrained 1. The target gain Vulnerable 1 to Poisons and Phylla effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Phylla."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Rime",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Frozen 1. The target takes 1d6 Bonus Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Rime."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Squall",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>You move the target up to 1 Zone Adjacent to its Current Zone. Spend 2 Momentum and the target becomes Prone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Squall."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Tellus",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target becomes Prone. The target can Move to Shift ignoring Hazards.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tellus."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Tempest",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Armor Defense 3 again lightning and Tempest effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tempest."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Torrent",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains the Aquatic keyword Ongoing. Spend 1 Momentum and increase the Entropy by +1, and the target becomes Prone and your may Move the target up to one Zone Adjacent to its Current Zone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Torrent."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Vivus",
+              "rank": 2,
+              "type": "Static",
+              "effect": "",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum or increase the Entropy by +2, then the target gains Wounded 1. The target regains 1d4 Bonus Hits to their Grit.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Vivus."
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Aether",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Bellor",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Inferno",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Lux",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Mori",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Nihil",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Nox",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover gain th. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Ordi",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Phylla",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Rime",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Squall",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Tellus",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Tempest",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Torrent",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            },
+            {
+              "name": "Vivus",
+              "rank": 2,
+              "type": "Shift",
+              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+              "threshold": [
+                {
+                  "hits": "",
+                  "effect": ""
+                }
+              ],
+              "requires": "",
+              "keywords": ""
+            }
+          ]
     ],
     "rites": [
         {
