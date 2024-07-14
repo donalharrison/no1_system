@@ -2054,7 +2054,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You gain an addition +2 rating from any Armor you equip."
+                "You gain an additional +2 rating from any Armor you equip."
             ]
         },
         {
@@ -2077,6 +2077,83 @@
             "replaces": null,
             "effect": [
                 "You gain an addition +4 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Unshakable Defense",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Focused Defense",
+            "replaces": null,
+            "effect": [
+                "When you Focus to defend yourself in combat, ad +1d4 Bonus Hits to your Primary Defense."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Line of Fire",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Stay Close to Me",
+            "replaces": null,
+            "effect": [
+                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Guardian Rank.",
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "I can take it",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you take more than 1 Hit from an effect, reduce the total Hits by -1."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Shake it off",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, regain +2 Defenses."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Armor Expert",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an additional +4 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Endure (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 3 (d10)."
             ]
         },
         {
@@ -3504,7 +3581,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You gain an addition +2 rating from any Armor you equip."
+                "You gain an additional +2 rating from any Armor you equip."
             ]
         },
         {
@@ -6799,7 +6876,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You gain an addition +2 rating from any Armor you equip."
+                "You gain an additional +2 rating from any Armor you equip."
             ]
         },
         {
@@ -6965,7 +7042,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you take more than 1 Hit from an effect, reduce the total Hits by 1."
+                "When you take more than 1 Hit from an effect, reduce the total Hits by -1."
             ]
         },
         {
