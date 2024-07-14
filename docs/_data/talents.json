@@ -1036,8 +1036,8 @@
             "effect": [
                 "Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.",
                 "While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.",
-                "If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1."
-                "If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.",
+                "If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.",
+                "If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2."
             ]
         },
         {
