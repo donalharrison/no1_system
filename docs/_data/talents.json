@@ -1034,9 +1034,10 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to Exert yourslef and enter a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women.  You gain a Rage Aura equal to Hits +1 in the result set.",
-                "While you are in a Rage, add +1 Bonus Hits to any results set using Strike, Martial Arts, Grapple, or Throw.",
-                "When your Rage Aura equals 0, you gain Fatigued 2 and Confused, and the Entropy increases by +2."
+                "Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.",
+                "While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.",
+                "If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1."
+                "If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.",
             ]
         },
         {
@@ -1047,7 +1048,34 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you are in a Rage and score Hits in melee combat, increase your Rage Aura by +1."
+                "When you are in a Rage and score 4+ Hits in melee combat, increase your Rage Aura by +2."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Undying Rage",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Rage",
+            "replaces": null,
+            "effect": [
+                "When you are in a Rage and use the Recover Acation, you may regain +3 to your Grit and decrease your Dying rating by -1."
+            ]
+        },
+        {
+            "tree": "Berserker",
+            "name": "Berkserker's Fury",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Rage",
+            "replaces": null,
+            "effect": [
+                "Decrease your Rage Aura by -2 and choose one (1):
+                <ul>
+                    <li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li>
+                    <li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li>
+                    <li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li>
+                </ul>"
             ]
         },
         {
@@ -1064,12 +1092,12 @@
         {
             "tree": "Berserker",
             "name": "Vicious Rage",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "3",
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "While you are in a Rage, add +2 Bonus Hits to any results set using Strike, Martial Arts, Grapple, or Throw (instead of +1)."
+                "When  you are in a Rage and score 5+ Hits using Grapple, Martial Arts, Strike, or Throw, you may reduce your Rage Aura by -1 and your target gian Vulnerable 1."
             ]
         },
         {
@@ -1086,12 +1114,12 @@
         {
             "tree": "Berserker",
             "name": "Bloodlust",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "3",
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you are in a Rage and suffer Hits from a melee attack, increase you Rage Aura by +1."
+                "When you are in a Rage and suffer 2+ Hits from a melee attack, increase you Rage Aura by +1."
             ]
         },
         {
@@ -2103,6 +2131,17 @@
         },
         {
             "tree": "Guardian",
+            "name": "Focus (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d12)."
+            ]
+        },
+        {
+            "tree": "Guardian",
             "name": "Line of Fire",
             "type": "Trigger",
             "rank": "2",
@@ -2116,7 +2155,7 @@
             "tree": "Guardian",
             "name": "I can take it",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2154,6 +2193,17 @@
             "replaces": null,
             "effect": [
                 "Increase your Endure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Endure (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 3 (d12)."
             ]
         },
         {
