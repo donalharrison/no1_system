@@ -29,6 +29,8 @@ Truesight
 
 Undead
 
+Subtle
+
 
 ## Gear Keywords
 Sword

@@ -3509,11 +3509,144 @@
             "tree": "Mage",
             "name": "Grasp the arcane",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
+            "requires": "Study Spells",
+            "replaces": null,
+            "effect": [
+                "Whe nyou Study Spells, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Research (3)",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Research Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Magical Affinity",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
+                <br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Subtle Spell",
+            "type": "Static",
+            "rank": 2,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one (1) Spell you have 2+ Ranks in.  The Spell gains the Subtle keyword."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Research (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Research Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Subtle Spell",
+            "type": "Static",
+            "rank": 3,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one (1) Spell you have 2+ Ranks in.  The Spell gains the Subtle keyword."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Analyze (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Analyze Rank to 2 (d6)."
+            ]
+        },
+        {
+            "tree": "Mage",
+            "name": "Analyze (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Analyze Rank to 3 (d8)."
             ]
         },
         {
@@ -3587,6 +3720,17 @@
         },
         {
             "tree": "Magic-User",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Affinity Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Magic-User",
             "name": "Affinity (2)",
             "type": "Static",
             "rank": "3",
@@ -3610,13 +3754,13 @@
         },
         {
             "tree": "Magic-User",
-            "name": "",
-            "type": "",
+            "name": "Subtle Spell",
+            "type": "Static",
             "rank": 3,
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Choose one (1) Spell you have 2+ Ranks in.  The Spell gains the Subtle keyword."
             ]
         },
         {
