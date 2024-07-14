@@ -1458,6 +1458,39 @@
         },
         {
             "tree": "Channeler",
+            "name": "Composure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Channeler",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Channeler",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Channeler",
             "name": "Affinity (2)",
             "type": "Static",
             "rank": "3",
@@ -2221,9 +2254,9 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade, Endure, or maintain your Composure to contact your the Patrons of the Hellplanes and gain Hits in Gifts rating which determines the highest rank of Gifts you can use.",
-                "If a Gift you use has a 1 in the result set, reduce your Gifts rating by -1.",
-                "If your Gifts rating equals 0 or less, increase the Entropy by +4 and gain +1 Debts.",
+                "Persuade, Endure, or maintain your Composure to contact your the Patrons of the Hellplanes and gain Hits in Succor which determines the highest rank of Gifts you can use.",
+                "If a Gift you use has a 1 in the result set, reduce your Succor by -1.",
+                "If your Succor equals 0 or less, increase the Entropy by +4 and gain +1 Debts.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Savvy Actions (minimum 1 Action) and the Entropy increases by +1."
             ]
         },
@@ -2231,12 +2264,12 @@
             "tree": "Diabolist",
             "name": "Diabolic Gifts",
             "type": "Static",
-            "rank": "2",
+            "rank": "1",
             "requires": "Receive Gifts",
             "replaces": null,
             "effect": [
-                "You discover your Patron dweall in the Hellplanes.",
-                "Increase your Deceive or Persuade  Rank to 1 (d6), 2 (d8), or 3 (d10)."
+                "You discover your Patron dwell in the Hellplanes.  Add +2 Bonus hits to the result sets of Actions using the Receive Gifts Ability.",
+                "Increase your Deceive or Persuade Rank to 1 (d6), 2 (d8), or 3 (d10)."
             ]
         },
         {
@@ -2698,12 +2731,115 @@
         {
             "tree": "Elementalist",
             "name": "Shape the elements",
-            "type": "Ability",
-            "rank": null,
+            "type": "Shift",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Spend 2 Meomentum and gain +2 Current."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Elemental Recovery",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Current and choose one (1):
+                <ul>
+                    <li>Reduce one of your Statuses by -X.</li>
+                    <li>Recover +X to your Primary Defense.</li>
+                </ul>"
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Composure (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Endure (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Affinity (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Elementalist",
+            "name": "Uncanny Trait Increase",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -7632,9 +7768,9 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade, Endure, or maintain your Composure to contact your Patron and gain Hits in Gifts rating which determines the highest rank of Gifts you can use.",
-                "If a Gift you use has a 1 in the result set, reduce your Gifts rating by -1.",
-                "If your Gifts rating equals 0 or less, increase the Entropy by +4 and gain +1 Debts.",
+                "Persuade, Endure, or maintain your Composure to contact your Patron and gain Hits in Succor which determines the highest rank of Gifts you can use.",
+                "If a Gift you use has a 1 in the result set, reduce your Succor by -1.",
+                "If your Succor equals 0 or less, increase the Entropy by +4 and gain +1 Debts.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Uncanny Actions (minimum 1 Action)."
             ]
         },
@@ -7658,7 +7794,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend 4 Momentum to convince your Patron to restore your Gifts.  Regain +2 Gifts rating and increase the Entropy by +2."
+                "Spend 4 Momentum to convince your Patron to restore your Gifts.  Regain +2 Succor and increase the Entropy by +2."
             ]
         },
         {
@@ -7752,13 +7888,135 @@
         },
         {
             "tree": "Thrall",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Enthralling Gifts",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Receive Gifts",
+            "replaces": null,
+            "effect": [
+                "Your Patron grants you irresistable talents.  Add +2 Bonus hits to the result sets of Actions using the Receive Gifts Ability.",
+                "Increase your Isnight or Persuade Rank to 1 (d6), 2 (d8), or 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase you Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Persuade (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Composure (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Persuade (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Composure (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Composure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Thrall",
+            "name": "Affinity (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 4 (d12)."
             ]
         },
         {
