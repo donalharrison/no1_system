@@ -29,26 +29,28 @@ Concoctions all hacve the Consummable keyword, allowing their effects to be acce
 
 <section>
 {% for c_type in c_uni %}
-    <h2 style="margin:8px">{{ c_type }}</h2>
+    <h2 style="margin:8px">{{ c_type }}s</h2>
     {% assign concs = site.data.powers.concoctions | where: "type", c_type %}
     {% assign c_nms = site.data.powers.concoctions | where: "type", c_type | map: "name" | uniq | sort %}
     {% for c_nm in c_nms %}
         <div style="background-color: #37344f50; padding: 10px">
-            <h3 style="margin:5px">{{ c.name }}</h3>
-            <h4 style="margin:5px">{{ c.type }}</h4>
+            <h3 style="margin:5px">{{ c_nm }}</h3>
+            <h4 style="margin:5px">{{ c_type }}</h4>
             <details>
                 <summary>
                 </summary>
                 {% for c in concs %}
                     {% if c.name == c_nm %}
-                        {% assign j = c.ranks %}
-                        <strong>Ranks &mdash; </strong>
-                        {% for i in (1..j) %}
-                            <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
-                        {% endfor %}
-                        <strong>Doses &mdash;</strong>
-                        <strong>Effect &mdash;</strong>
-                        <p>{{ c.effect }}</p>
+                        <div style="background-color: #4b476650; padding: 10px">
+                            {% assign j = c.ranks %}
+                            <strong>Ranks</strong><br>
+                            {% for i in (1..j) %}
+                                <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
+                            {% endfor %}
+                            <p><strong>Doses &mdash;</strong>{{ c.doses }}</p>
+                            <p><strong>Effect &mdash;</strong>
+                            <br>{{ c.effect }}</p>
+                        </div>
                         <div style="height:8px;"></div>
                     {% endif %}
                 {% endfor %}
