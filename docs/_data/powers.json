@@ -2509,8 +2509,10 @@
     "epics": [
         {
             "name": "Lo, the Crimson Specters upon the Bloodshed Peaks",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2600,8 +2602,10 @@
         },
         {
             "name": "The Binding War",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2650,8 +2654,10 @@
         },
         {
             "name": "The War that Sank the Stars",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2690,8 +2696,10 @@
         },
         {
             "name": "Olyc & the Bear",
-            "ongoing": "Ongoing 1",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2739,8 +2747,10 @@
         },
         {
             "name": "The Witch King's Treachery",
-            "ongoing": "Ongoing 3",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2837,8 +2847,10 @@
         },
         {
             "name": "The Fire King's Daughter",
-            "ongoing": "Ongoing 3",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 3",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2886,8 +2898,10 @@
         },
         {
             "name": "The Winds of Coriss",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2935,8 +2949,10 @@
         },
         {
             "name": "Of Endless Sands & Wandering Gods",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -2984,8 +3000,10 @@
         },
         {
             "name": "The Sundered Lady",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3073,8 +3091,10 @@
         },
         {
             "name": "The Sky Queen's Crusade",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3173,8 +3193,10 @@
         },
         {
             "name": "The Last King of Adhonia",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3223,8 +3245,10 @@
         },
         {
             "name": "The Death of Valor",
-            "ongoing": "Ongoing 1",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3273,8 +3297,10 @@
         },
         {
             "name": "Of Ismjir & His Endless Love",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3323,8 +3349,10 @@
         },
         {
             "name": "The Tempting of Lord Corso",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3373,8 +3401,10 @@
         },
         {
             "name": "The Grey Queen’s Challenge",
-            "ongoing": "Ongoing 1",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3528,8 +3558,10 @@
         },
         {
             "name": "Caremvohl the Splendorous",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3628,8 +3660,10 @@
         },
         {
             "name": "The Corruptor’s War",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3719,8 +3753,10 @@
         },
         {
             "name": "Tybald Slays the Wolf",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3817,8 +3853,10 @@
         },
         {
             "name": "Song of the Grieving Mother",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3865,8 +3903,10 @@
         },
         {
             "name": "Journey of the First Gods",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -3965,8 +4005,10 @@
         },
         {
             "name": "Song of Seething",
-            "ongoing": "Ongoing 3",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 3",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -4013,8 +4055,10 @@
         },
         {
             "name": "The Weavers’ Refrain",
-            "ongoing": "Ongoing 4",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -4145,8 +4189,10 @@
         },
         {
             "name": "The Battle of Blackridge",
-            "ongoing": "Ongoing 2",
-            "keywords": "Ballad",
+            "keywords": [
+                "Ongoing 2",
+                "Ballad"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -4195,8 +4241,10 @@
         },
         {
             "name": "The Gambit of Galimas",
-            "ongoing": "Ongoing 2",
-            "keywords": "Saga",
+            "keywords": [
+                "Ongoing 1",
+                "Saga"
+            ],
             "verses": [
                 {
                     "verse": "I",
@@ -4273,844 +4321,844 @@
     ],
     "gifts": [
         {
-          "name": "Gift of Rejuvenation",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you us the Recover Action, you may spend 1 Succor to regain +X to Grit, where X is equal to Hits in the result set.",
-          "threshold": null,
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "A Talent for Trouble",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "A Talent for Trouble",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "A Talent for Trouble",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "A Flair for the Dramatic",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "A Flair for the Dramatic",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Unnaturally Persistent",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Unnaturally Persistent",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Implausible Cunning",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Implausible Cunning",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "A Flair for the Dramatic",
-          "rank": 1,
-          "type": "Trigger",
-          "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
-          "threshold": null,
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Weirding Dart",
-          "rank": 1,
-          "type": "Ability",
-          "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set."
-            },
-            {
-              "hits": "",
-              "effect": ""
-            }
-          ],
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "Weirding Cut",
-          "rank": 1,
-          "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set."
-            },
-            {
-              "hits": "",
-              "effect": ""
-            }
-          ],
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "Boon of Fire",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Inferno keyword.",
-          "threshold": null,
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Destruction",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Destroy keyword.",
-          "threshold": null,
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Violence",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Bellor keyword.",
-          "threshold": null,
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Cold",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Rime keyword.",
-          "threshold": null,
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Intuition",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Intuit keyword.",
-          "threshold": null,
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Order",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Ordi keyword.",
-          "threshold": null,
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Vivus",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Vivus keyword.",
-          "threshold": null,
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Death",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Mori keyword.",
-          "threshold": null,
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Nothingness",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Nihil keyword.",
-          "threshold": null,
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Boon of Aether",
-          "rank": 1,
-          "type": "Static",
-          "effect": "Your Gifts with the Weirding keyword gain the Aether keyword.",
-          "threshold": null,
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Mantle of Fire",
-          "rank": 2,
-          "type": "Static",
-          "effect": "Reduce any Hits you suffer from fire or Inferno effects by -2.",
-          "threshold": null,
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Mantle of Pain",
-          "rank": 2,
-          "type": "Static",
-          "effect": "",
-          "threshold": null,
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Mantle of Chaos",
-          "rank": 2,
-          "type": "Static",
-          "effect": "",
-          "threshold": null,
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Mantle of Frost",
-          "rank": 2,
-          "type": "Static",
-          "effect": "Reduce any Hits you suffer from cold, ice, or Rime effects by -2",
-          "threshold": null,
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Harbor of Wisdom",
-          "rank": 2,
-          "type": "Static",
-          "effect": "",
-          "threshold": null,
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Bastion of Order",
-          "rank": 2,
-          "type": "Static",
-          "effect": "If the Entropy increases by 2+, reduce the total Entropy increase by -1.",
-          "threshold": null,
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Friend of Life",
-          "rank": 2,
-          "type": "Static",
-          "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit.",
-          "threshold": null,
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Friend of Death",
-          "rank": 2,
-          "type": "Static",
-          "effect": "If your Dying rating increases by 2+, reduce the total Dying increase by -1.",
-          "threshold": null,
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Harbinger of Nothing",
-          "rank": 2,
-          "type": "Static",
-          "effect": "",
-          "threshold": null,
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Dweller of Stars",
-          "rank": 2,
-          "type": "Static",
-          "effect": "",
-          "threshold": null,
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Mark of the Weird",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "One target in your Current or an Adjacent Zone gains Aura X, where X is equal to Hits in the result set."
-            }
-          ],
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "Weirding Strike",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits.",
-          "threshold": null,
-          "requires": "",
-          "keywords": ""
-        },
-        {
-          "name": "Weirding Blast",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": "",
-              "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
-            },
-            {
-              "hits": "",
-              "effect": ""
-            }
-          ],
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "Tongue of Flames",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Persuade or Intimidate one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Might of Ruination",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Exert yourself, Intimidate, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Show of Violence",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Exert yourself or Strike one target in your Current Zone, or use your Tactics, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Treachery of Ice",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Deceive one target in your Current Zone or Endure, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Erudition of Infinity",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Analyze, use your Insight, Navigate, or Perceive, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Air of Regency",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Lead your allies or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Bounty of Aegis",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Maintain your Compsure, Endure, or Focus, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Tribute of Death",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Intimidate, Shoot, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the results set.",
-          "threshold": null,
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Grant of Nullity",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Use Stealth or Deceive one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Grip of Brilliance",
-          "rank": 2,
-          "type": "Ability",
-          "effect": "Use Cosmology, Deceive or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
-          "threshold": null,
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Whispers of Oga",
-          "rank": 3,
-          "type": "Static",
-          "effect": "Your uses of the Intimidate and Persuade Skills gain the Inferno keyword.",
-          "threshold": null,
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Tidings of the Endless Ruin",
-          "rank": 3,
-          "type": "Static",
-          "effect": "Your uses of the Intimidate and Strike Skills gain the Destroy keyword.",
-          "threshold": null,
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Marks of the Coming War",
-          "rank": 3,
-          "type": "Static",
-          "effect": "You uses of the Strike and Tactics Skills gain the Bellor keyword.",
-          "threshold": null,
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Breath of the Forgotten Cold",
-          "rank": 3,
-          "type": "Static",
-          "effect": "Your uses of the Deceive and Endure Skills gain the Rime keyword.",
-          "threshold": null,
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Lessons of the Cosm",
-          "rank": 3,
-          "type": "Static",
-          "effect": "Your uses of the Analyze, Insight, Navigate, and Perceive Skills gain the Intuit keyword.",
-          "threshold": null,
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Standard of the Shattered Peace",
-          "rank": 3,
-          "type": "Static",
-          "effect": "You uses of the Lead and Persaude Skills gain the Ordi keyword.",
-          "threshold": null,
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Glimpse of the Eternal Cycle",
-          "rank": 3,
-          "type": "Static",
-          "effect": "You uses of the Composure, Endure, and Focus Skill gain the Vivus keyword.",
-          "threshold": null,
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Perils of the Bleeding Tome",
-          "rank": 3,
-          "type": "Static",
-          "effect": "You uses of the Intimidate, Shoot, and Strike skill gain the Mori keyword.",
-          "threshold": null,
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Shroud of the Ina",
-          "rank": 3,
-          "type": "Static",
-          "effect": "Your uses of the Deceive and Stealth Skills gain the Nihil keyword.",
-          "threshold": null,
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Howls of the Dreamer's Well",
-          "rank": 3,
-          "type": "Static",
-          "effect": "Your uses of the Cosmology, Deceive, and Persuade Skills gain the Aether keyword.",
-          "threshold": null,
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Weirding Blast",
-          "rank": 3,
-          "type": "Ability",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": "",
-              "effect": "Either 2 or 3 targets in your Current or an Adjacent Zone take 1 Hit."
-            },
-            {
-              "hits": 3,
-              "effect": "Divide X Hits among 2 or 3 targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
-            }
-          ],
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "Weirding Slash",
-          "rank": 3,
-          "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits and gains Vulnerable 1 to Power Effects.",
-          "threshold": null,
-          "requires": "",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Fire",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Fatigued 1.",
-          "threshold": null,
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Destruction",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Vulnerable 1.",
-          "threshold": null,
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Havoc",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 have the target gain Vulnerable 1.",
-          "threshold": null,
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Frost",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Frozen 1.",
-          "threshold": null,
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Wisdom",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 2 Momentum and read the target's surface thoughts.",
-          "threshold": null,
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Order",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword,increase the Momentum by +2.",
-          "threshold": null,
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Life",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and regain +1d4 to Grit.",
-          "threshold": null,
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of Death",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and have the target gain Wounded 1.",
-          "threshold": null,
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Gift of the Void",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 and the target gains Blind 2.",
-          "threshold": null,
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Git of the Stars",
-          "rank": 3,
-          "type": "Trigger",
-          "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Dazed 2.",
-          "threshold": null,
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Weirding Cascade",
-          "rank": 4,
-          "type": "Ability",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Divide X Hits among up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
-            },
-            {
-              "hits": "",
-              "effect": ""
-            }
-          ],
-          "requires": "",
-          "keywords": "Weirding"
-        },
-        {
-          "name": "Weirding Cleave",
-          "rank": 3,
-          "type": "Ability",
-          "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits. If the target dies, you may immedately use this Abiltiy against another target in your Current Zone.",
-          "threshold": null,
-          "requires": "",
-          "keywords": ""
-        },
-        {
-          "name": "Break the Flames",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Inferno Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Vanquish the Foe",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Destroy Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Lead the Chaos",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Bellor Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Call the Ice",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Rime Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Speak the Truths",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Intuit Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Control the Chaos",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Ordi Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Purge the Life",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Vivus Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Bring the Death",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Mori Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Release the Infinite",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Nihil Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Shatter the Stars",
-          "rank": 3,
-          "type": "Shift",
-          "effect": "",
-          "threshold": [
-            {
-              "hits": 1,
-              "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
-            }
-          ],
-          "requires": "Aether Affinity",
-          "keywords": ""
-        },
-        {
-          "name": "Extend the Mark",
-          "rank": 4,
-          "type": "Static",
-          "effect": "Your Weirding Mark applies to up to 2 targets.",
-          "threshold": null,
-          "requires": "",
-          "keywords": ""
-        },
-        {
-          "name": "Gifted Allocation",
-          "rank": 4,
-          "type": "Trigger",
-          "effect": "When you use your Weirding Strikes, you may divide the Hits among up to 3 targets in your Current Zone.",
-          "threshold": null,
-          "requires": "",
-          "keywords": "Weirding"
+            "name": "Gift of Rejuvenation",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you us the Recover Action, you may spend 1 Succor to regain +X to Grit, where X is equal to Hits in the result set.",
+            "threshold": null,
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "A Talent for Trouble",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "A Talent for Trouble",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "A Talent for Trouble",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "A Flair for the Dramatic",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "A Flair for the Dramatic",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Unnaturally Persistent",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Unnaturally Persistent",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Implausible Cunning",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Implausible Cunning",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "A Flair for the Dramatic",
+            "rank": 1,
+            "type": "Trigger",
+            "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
+            "threshold": null,
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Weirding Dart",
+            "rank": 1,
+            "type": "Ability",
+            "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": "",
+                    "effect": ""
+                }
+            ],
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "Weirding Cut",
+            "rank": 1,
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": "",
+                    "effect": ""
+                }
+            ],
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "Boon of Fire",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Inferno keyword.",
+            "threshold": null,
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Destruction",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Destroy keyword.",
+            "threshold": null,
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Violence",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Bellor keyword.",
+            "threshold": null,
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Cold",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Rime keyword.",
+            "threshold": null,
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Intuition",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Intuit keyword.",
+            "threshold": null,
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Order",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Ordi keyword.",
+            "threshold": null,
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Vivus",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Vivus keyword.",
+            "threshold": null,
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Death",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Mori keyword.",
+            "threshold": null,
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Nothingness",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Nihil keyword.",
+            "threshold": null,
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Boon of Aether",
+            "rank": 1,
+            "type": "Static",
+            "effect": "Your Gifts with the Weirding keyword gain the Aether keyword.",
+            "threshold": null,
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Mantle of Fire",
+            "rank": 2,
+            "type": "Static",
+            "effect": "Reduce any Hits you suffer from fire or Inferno effects by -2.",
+            "threshold": null,
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Mantle of Pain",
+            "rank": 2,
+            "type": "Static",
+            "effect": "",
+            "threshold": null,
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Mantle of Chaos",
+            "rank": 2,
+            "type": "Static",
+            "effect": "",
+            "threshold": null,
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Mantle of Frost",
+            "rank": 2,
+            "type": "Static",
+            "effect": "Reduce any Hits you suffer from cold, ice, or Rime effects by -2",
+            "threshold": null,
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Harbor of Wisdom",
+            "rank": 2,
+            "type": "Static",
+            "effect": "",
+            "threshold": null,
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Bastion of Order",
+            "rank": 2,
+            "type": "Static",
+            "effect": "If the Entropy increases by 2+, reduce the total Entropy increase by -1.",
+            "threshold": null,
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Friend of Life",
+            "rank": 2,
+            "type": "Static",
+            "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit.",
+            "threshold": null,
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Friend of Death",
+            "rank": 2,
+            "type": "Static",
+            "effect": "If your Dying rating increases by 2+, reduce the total Dying increase by -1.",
+            "threshold": null,
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Harbinger of Nothing",
+            "rank": 2,
+            "type": "Static",
+            "effect": "",
+            "threshold": null,
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Dweller of Stars",
+            "rank": 2,
+            "type": "Static",
+            "effect": "",
+            "threshold": null,
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Mark of the Weird",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X, where X is equal to Hits in the result set."
+                }
+            ],
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "Weirding Strike",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits.",
+            "threshold": null,
+            "requires": "",
+            "keywords": ""
+        },
+        {
+            "name": "Weirding Blast",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": "",
+                    "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": "",
+                    "effect": ""
+                }
+            ],
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "Tongue of Flames",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Persuade or Intimidate one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Might of Ruination",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Exert yourself, Intimidate, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Show of Violence",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Exert yourself or Strike one target in your Current Zone, or use your Tactics, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Treachery of Ice",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Deceive one target in your Current Zone or Endure, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Erudition of Infinity",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Analyze, use your Insight, Navigate, or Perceive, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Air of Regency",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Lead your allies or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Bounty of Aegis",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Maintain your Compsure, Endure, or Focus, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Tribute of Death",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Intimidate, Shoot, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the results set.",
+            "threshold": null,
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Grant of Nullity",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Use Stealth or Deceive one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Grip of Brilliance",
+            "rank": 2,
+            "type": "Ability",
+            "effect": "Use Cosmology, Deceive or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
+            "threshold": null,
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Whispers of Oga",
+            "rank": 3,
+            "type": "Static",
+            "effect": "Your uses of the Intimidate and Persuade Skills gain the Inferno keyword.",
+            "threshold": null,
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Tidings of the Endless Ruin",
+            "rank": 3,
+            "type": "Static",
+            "effect": "Your uses of the Intimidate and Strike Skills gain the Destroy keyword.",
+            "threshold": null,
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Marks of the Coming War",
+            "rank": 3,
+            "type": "Static",
+            "effect": "You uses of the Strike and Tactics Skills gain the Bellor keyword.",
+            "threshold": null,
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Breath of the Forgotten Cold",
+            "rank": 3,
+            "type": "Static",
+            "effect": "Your uses of the Deceive and Endure Skills gain the Rime keyword.",
+            "threshold": null,
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Lessons of the Cosm",
+            "rank": 3,
+            "type": "Static",
+            "effect": "Your uses of the Analyze, Insight, Navigate, and Perceive Skills gain the Intuit keyword.",
+            "threshold": null,
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Standard of the Shattered Peace",
+            "rank": 3,
+            "type": "Static",
+            "effect": "You uses of the Lead and Persaude Skills gain the Ordi keyword.",
+            "threshold": null,
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Glimpse of the Eternal Cycle",
+            "rank": 3,
+            "type": "Static",
+            "effect": "You uses of the Composure, Endure, and Focus Skill gain the Vivus keyword.",
+            "threshold": null,
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Perils of the Bleeding Tome",
+            "rank": 3,
+            "type": "Static",
+            "effect": "You uses of the Intimidate, Shoot, and Strike skill gain the Mori keyword.",
+            "threshold": null,
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Shroud of the Ina",
+            "rank": 3,
+            "type": "Static",
+            "effect": "Your uses of the Deceive and Stealth Skills gain the Nihil keyword.",
+            "threshold": null,
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Howls of the Dreamer's Well",
+            "rank": 3,
+            "type": "Static",
+            "effect": "Your uses of the Cosmology, Deceive, and Persuade Skills gain the Aether keyword.",
+            "threshold": null,
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Weirding Blast",
+            "rank": 3,
+            "type": "Ability",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": "",
+                    "effect": "Either 2 or 3 targets in your Current or an Adjacent Zone take 1 Hit."
+                },
+                {
+                    "hits": 3,
+                    "effect": "Divide X Hits among 2 or 3 targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
+                }
+            ],
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "Weirding Slash",
+            "rank": 3,
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits and gains Vulnerable 1 to Power Effects.",
+            "threshold": null,
+            "requires": "",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Fire",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Fatigued 1.",
+            "threshold": null,
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Destruction",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Vulnerable 1.",
+            "threshold": null,
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Havoc",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 have the target gain Vulnerable 1.",
+            "threshold": null,
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Frost",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Frozen 1.",
+            "threshold": null,
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Wisdom",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 2 Momentum and read the target's surface thoughts.",
+            "threshold": null,
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Order",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword,increase the Momentum by +2.",
+            "threshold": null,
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Life",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and regain +1d4 to Grit.",
+            "threshold": null,
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of Death",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and have the target gain Wounded 1.",
+            "threshold": null,
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Gift of the Void",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 and the target gains Blind 2.",
+            "threshold": null,
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Git of the Stars",
+            "rank": 3,
+            "type": "Trigger",
+            "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Dazed 2.",
+            "threshold": null,
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Weirding Cascade",
+            "rank": 4,
+            "type": "Ability",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Divide X Hits among up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set."
+                },
+                {
+                    "hits": "",
+                    "effect": ""
+                }
+            ],
+            "requires": "",
+            "keywords": "Weirding"
+        },
+        {
+            "name": "Weirding Cleave",
+            "rank": 3,
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits. If the target dies, you may immedately use this Abiltiy against another target in your Current Zone.",
+            "threshold": null,
+            "requires": "",
+            "keywords": ""
+        },
+        {
+            "name": "Break the Flames",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Inferno Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Vanquish the Foe",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Destroy Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Lead the Chaos",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Bellor Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Call the Ice",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Rime Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Speak the Truths",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Intuit Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Control the Chaos",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Ordi Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Purge the Life",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Vivus Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Bring the Death",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Mori Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Release the Infinite",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Nihil Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Shatter the Stars",
+            "rank": 3,
+            "type": "Shift",
+            "effect": "",
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Spend 1 Succor and end a Weirding Aura currently active one target. The target takes X Hits."
+                }
+            ],
+            "requires": "Aether Affinity",
+            "keywords": ""
+        },
+        {
+            "name": "Extend the Mark",
+            "rank": 4,
+            "type": "Static",
+            "effect": "Your Weirding Mark applies to up to 2 targets.",
+            "threshold": null,
+            "requires": "",
+            "keywords": ""
+        },
+        {
+            "name": "Gifted Allocation",
+            "rank": 4,
+            "type": "Trigger",
+            "effect": "When you use your Weirding Strikes, you may divide the Hits among up to 3 targets in your Current Zone.",
+            "threshold": null,
+            "requires": "",
+            "keywords": "Weirding"
         }
-      ],
+    ],
     "hexes": [
         {
             "name": "Blood Bonding",
@@ -5449,846 +5497,846 @@
     "marevels": [
         [
             {
-              "name": "Essence Barrier",
-              "rank": 1,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 2,
-                  "effect__1": "Your Current Zone gains Hazard 2 Ongoing. It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Barrier",
+                "rank": 1,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 2,
+                        "effect__1": "Your Current Zone gains Hazard 2 Ongoing. It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Ray of Essence",
-              "rank": 1,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 2,
-                  "effect__1": "Select one target in your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>The target takes 1d4 Bonus Hits.</li>\n<li>Increase one of the target's Statuses one Status by +1.</li>\n<li>Decrease one of the target's Statuses one Status by -1.</li>\n</ul>"
-                }
-              ],
-              "requires": "",
-              "keywords": "Ongoing 1"
+                "name": "Ray of Essence",
+                "rank": 1,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 2,
+                        "effect__1": "Select one target in your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>The target takes 1d4 Bonus Hits.</li>\n<li>Increase one of the target's Statuses one Status by +1.</li>\n<li>Decrease one of the target's Statuses one Status by -1.</li>\n</ul>"
+                    }
+                ],
+                "requires": "",
+                "keywords": "Ongoing 1"
             },
             {
-              "name": "Essence Strike",
-              "rank": 1,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 1,
-                  "effect__1": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Strike",
+                "rank": 1,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 1,
+                        "effect__1": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Blast",
-              "rank": 2,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 2,
-                  "effect__1": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Blast",
+                "rank": 2,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 2,
+                        "effect__1": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Burst",
-              "rank": 4,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 3,
-                  "effect__1": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Burst",
+                "rank": 4,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 3,
+                        "effect__1": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Rift",
-              "rank": 2,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Rift",
+                "rank": 2,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Storm",
-              "rank": 3,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Target your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>Move the Storm one Adjacent Zone.</li>\n<li>One ally in the Storm's Zone may immediately use the Recover Action</li>\n<li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li>\n</ul>"
-                }
-              ],
-              "requires": "",
-              "keywords": "Ongoing 3"
+                "name": "Essence Storm",
+                "rank": 3,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Target your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>Move the Storm one Adjacent Zone.</li>\n<li>One ally in the Storm's Zone may immediately use the Recover Action</li>\n<li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li>\n</ul>"
+                    }
+                ],
+                "requires": "",
+                "keywords": "Ongoing 3"
             },
             {
-              "name": "Essence Surge",
-              "rank": 1,
-              "type": "Shift",
-              "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Surge",
+                "rank": 1,
+                "type": "Shift",
+                "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Veil",
-              "rank": 1,
-              "type": "Shift",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "You gain Aura X."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Veil",
+                "rank": 1,
+                "type": "Shift",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "You gain Aura X."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Volley",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Up to X targets in an Adjacent Zone take 2 Hits."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Volley",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Up to X targets in an Adjacent Zone take 2 Hits."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Wave",
-              "rank": 3,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Spend 1 Attunement. Target your Current or and Adjacent Zone. Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Wave",
+                "rank": 3,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Spend 1 Attunement. Target your Current or and Adjacent Zone. Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Warding Essence",
-              "rank": 1,
-              "type": "Shift",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 1,
-                  "effect__1": "You gain Armor Defense X, where X is equal to Hits in the result set."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Warding Essence",
+                "rank": 1,
+                "type": "Shift",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 1,
+                        "effect__1": "You gain Armor Defense X, where X is equal to Hits in the result set."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Nova",
-              "rank": 3,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "All targets in your Current and all Adjacent Zones take 3 Hits."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Nova",
+                "rank": 3,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "All targets in your Current and all Adjacent Zones take 3 Hits."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Binding Essence",
-              "rank": 2,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Spend 1 Attunement. Choose one (1):\n<ul>\n<li>One target gains Restrained X.</li>\n<li>Up to X targets gain Restrained 1.</li> \n</ul>"
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Binding Essence",
+                "rank": 2,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Spend 1 Attunement. Choose one (1):\n<ul>\n<li>One target gains Restrained X.</li>\n<li>Up to X targets gain Restrained 1.</li> \n</ul>"
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Essence Barrage",
-              "rank": 2,
-              "type": "Ability",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": 1,
-                  "effect__1": "Spend 1 Attunement. Up to X targets in an Adjacent Zone take 3 Hits."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Essence Barrage",
+                "rank": 2,
+                "type": "Ability",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": 1,
+                        "effect__1": "Spend 1 Attunement. Up to X targets in an Adjacent Zone take 3 Hits."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Aether",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Action in a Zonecontaining a Hazard created by one of your Marvels may reduce on Status rating by -1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Aether",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Action in a Zonecontaining a Hazard created by one of your Marvels may reduce on Status rating by -1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Bellor",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When a target scores 4+ Hits against another single target wihile they are both in this Zone, the acting target immediately takes another Action.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Bellor",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When a target scores 4+ Hits against another single target wihile they are both in this Zone, the acting target immediately takes another Action.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Inferno",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 1 or fewer Hits against one target wihile they are both in this Zone, the target takes +1d4 Bonus Hits.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Inferno",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 1 or fewer Hits against one target wihile they are both in this Zone, the target takes +1d4 Bonus Hits.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Lux",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels can end the Blind Status.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Lux",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels can end the Blind Status.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Mori",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hostile targets that take any attack Action while in a Zone containing a Hazard created by oen of your Marvels gain Vulnerable 1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Mori",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hostile targets that take any attack Action while in a Zone containing a Hazard created by oen of your Marvels gain Vulnerable 1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Nihil",
-              "rank": 2,
-              "type": "Static",
-              "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels can increase the Entropy by +2 and end any one Status or Aura.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Nihil",
+                "rank": 2,
+                "type": "Static",
+                "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels can increase the Entropy by +2 and end any one Status or Aura.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Nox",
-              "rank": 2,
-              "type": "Static",
-              "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels gain the Nightsight keyword.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Nox",
+                "rank": 2,
+                "type": "Static",
+                "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels gain the Nightsight keyword.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Ordi",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Any action taken by targets in a Zone containing a Hazard created by one of your Marvesl that would increase the Momentum increases the Momentum by an additional +1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Ordi",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Any action taken by targets in a Zone containing a Hazard created by one of your Marvesl that would increase the Momentum increases the Momentum by an additional +1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Phylla",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Restratined 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Phylla",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Restratined 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Rime",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Frozen 1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Rime",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Frozen 1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Squall",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hostile targets that shift into or out of a Zone containing a Hazard created by one of your Marvels lose the Flying keyword until their next turn. Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target wihile they are both in this Zone, the target is Moved to an Adjacent Zone.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Squall",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hostile targets that shift into or out of a Zone containing a Hazard created by one of your Marvels lose the Flying keyword until their next turn. Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target wihile they are both in this Zone, the target is Moved to an Adjacent Zone.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Tellus",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels gain Armor Bonus +3.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Tellus",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels gain Armor Bonus +3.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Tempest",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target while they are both in this Zone, the target gains Stunned 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Tempest",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target while they are both in this Zone, the target gains Stunned 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Torrent",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against another single target wihile they are both in this Zone, the target becomes Prone.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Torrent",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against another single target wihile they are both in this Zone, the target becomes Prone.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Vivus",
-              "rank": 2,
-              "type": "Static",
-              "effect": "Allies who use the Recover Action while in a Zone containing a Hazard created by one of your Marvels regian +1d4 Bonus Hits to Grit.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Vivus",
+                "rank": 2,
+                "type": "Static",
+                "effect": "Allies who use the Recover Action while in a Zone containing a Hazard created by one of your Marvels regian +1d4 Bonus Hits to Grit.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Aether",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Aether."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Aether",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Aether."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Bellor",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gain Dazed 1. The target gains Charmed 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Bellor."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Bellor",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gain Dazed 1. The target gains Charmed 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Bellor."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Inferno",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Increase the Entropy by +1 and the target gains Provoked and Vulnerable 1. The target gain Armor Defense 3 against fire and Inferno effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Inferno."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Inferno",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>Increase the Entropy by +1 and the target gains Provoked and Vulnerable 1. The target gain Armor Defense 3 against fire and Inferno effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Inferno."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Lux",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Fatigued 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Lux."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Lux",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Fatigued 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Lux."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Mori",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1. The target recovers +X to their Primary Defense, where X is equal to Hits in the result set.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Mori."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Mori",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1. The target recovers +X to their Primary Defense, where X is equal to Hits in the result set.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Mori."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Nihil",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes X Hits, where X is equal to Hits in the result set. Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nihil."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Nihil",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes X Hits, where X is equal to Hits in the result set. Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nihil."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Nox",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>All light in the target's Current Zone is extinguished. The target gains the Nightsight keyword Ongoing.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nox."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Nox",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>All light in the target's Current Zone is extinguished. The target gains the Nightsight keyword Ongoing.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nox."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Ordi",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d4 Bonus hits. If the targets dies, increase the Momentum by +1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Ordi."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Ordi",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d4 Bonus hits. If the targets dies, increase the Momentum by +1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Ordi."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Phylla",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Restrained 1. The target gain Vulnerable 1 to Poisons and Phylla effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Phylla."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Phylla",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Restrained 1. The target gain Vulnerable 1 to Poisons and Phylla effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Phylla."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Rime",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Frozen 1. The target takes 1d6 Bonus Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Rime."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Rime",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Frozen 1. The target takes 1d6 Bonus Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Rime."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Squall",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>You move the target up to 1 Zone Adjacent to its Current Zone. Spend 2 Momentum and the target becomes Prone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Squall."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Squall",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>You move the target up to 1 Zone Adjacent to its Current Zone. Spend 2 Momentum and the target becomes Prone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Squall."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Tellus",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target becomes Prone. The target can Move to Shift ignoring Hazards.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tellus."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Tellus",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target becomes Prone. The target can Move to Shift ignoring Hazards.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tellus."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Tempest",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Armor Defense 3 again lightning and Tempest effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tempest."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Tempest",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Armor Defense 3 again lightning and Tempest effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tempest."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Torrent",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains the Aquatic keyword Ongoing. Spend 1 Momentum and increase the Entropy by +1, and the target becomes Prone and your may Move the target up to one Zone Adjacent to its Current Zone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Torrent."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Torrent",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains the Aquatic keyword Ongoing. Spend 1 Momentum and increase the Entropy by +1, and the target becomes Prone and your may Move the target up to one Zone Adjacent to its Current Zone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Torrent."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Vivus",
-              "rank": 2,
-              "type": "Static",
-              "effect": "",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum or increase the Entropy by +2, then the target gains Wounded 1. The target regains 1d4 Bonus Hits to their Grit.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Vivus."
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Vivus",
+                "rank": 2,
+                "type": "Static",
+                "effect": "",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum or increase the Entropy by +2, then the target gains Wounded 1. The target regains 1d4 Bonus Hits to their Grit.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Vivus."
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Aether",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Aether",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Bellor",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Bellor",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Inferno",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Inferno",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Lux",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Lux",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Mori",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Mori",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Nihil",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Nihil",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Nox",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover gain th. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Nox",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover gain th. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Ordi",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Ordi",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Phylla",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Phylla",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Rime",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Rime",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Squall",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Squall",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Tellus",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Tellus",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Tempest",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Tempest",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Torrent",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Torrent",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             },
             {
-              "name": "Vivus",
-              "rank": 2,
-              "type": "Shift",
-              "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-              "threshold": [
-                {
-                  "hits": "",
-                  "effect": ""
-                }
-              ],
-              "requires": "",
-              "keywords": ""
+                "name": "Vivus",
+                "rank": 2,
+                "type": "Shift",
+                "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+                "threshold": [
+                    {
+                        "hits": "",
+                        "effect": ""
+                    }
+                ],
+                "requires": "",
+                "keywords": ""
             }
-          ]
+        ]
     ],
     "rites": [
         {

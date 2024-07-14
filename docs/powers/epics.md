@@ -20,11 +20,7 @@ Epics have multiple verses, each of which produce different effects.  Each verse
 {% for a in epics %}
     <div style="background-color: #37344f50; padding: 10px">
         <h3 style="margin:5px">{{ a.name }}</h3>
-        <h4 style="margin:5px">Max Ranks</h4>
-        {% assign j = a.max_ranks %}
-        {% for i in (1..j) %}
-            <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
-        {% endfor %}
+        <em>{{a.keywords | join: ", "}}</em>
         <p><strong>Threshold &mdash; {{a.threshold}}</strong></p>
         <details>
             <summary>
