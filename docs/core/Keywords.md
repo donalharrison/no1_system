@@ -30,5 +30,14 @@ Truesight
 Undead
 
 
+## Gear Keywords
+Sword
+Axe
+Bow
+Polearm
+Armor
+Consummable
+
+
 
 

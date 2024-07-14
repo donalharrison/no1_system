@@ -14,14 +14,14 @@ name,skill,type,rank,prereqs,description
 ,Destroy,,,,
 ,Destroy,,,,
 ,Destroy,,,,
-Unbridled,Inferno,Trigger,2,,"When you score 4+ Hits on an Inferno roll, all targets in the targetted Zone suffer the Hits."
+Unbridled,Inferno,Trigger,3,,"When you score 4+ Hits on an Inferno roll, all targets in the targetted Zone suffer the Hits."
 Inextinguishable,Inferno,Trigger,1,,"When you make an Inferno roll and score 0 Hits, add +2 Hits to the result."
 Raging,Inferno,Trigger,,,
 Singing,Inferno,Static,2,,Your Inferno rolls score +1 Bonus Hits.
-Igniting,Inferno,Trigger,1,,"When you score 4+ Hits on an Inferno roll, you create 1 Hazard in the targetted Zone until the flames are extinguished."
-Parching,Inferno,Trigger,,,"When you score 3+ Hits on an Inferno roll, your target gains Fatigued 1."
-Scorching,Inferno,Static,3,,Your Inferno rolls score +1 Bonus Hits.
-,Inferno,,,,
+Igniting,Inferno,Trigger,1,,"When you score 4+ Hits on an Inferno roll, you create a Fire Hazard 1 in the targetted Zone until the flames are extinguished."
+Parching,Inferno,Trigger,2,,"When you score 4+ Hits on an Inferno roll, your target gains Fatigued 1."
+Scorching,Inferno,Static,4,,Your Inferno rolls score +1 Bonus Hits.
+Alluring,Inferno,,,,"When you score 4+ Hits on an Inferno roll, you may have the target gains Charmed 1."
 ,Intuit,,,,
 ,Intuit,,,,
 ,Intuit,,,,
@@ -32,12 +32,12 @@ Scorching,Inferno,Static,3,,Your Inferno rolls score +1 Bonus Hits.
 ,Luck,,,,
 ,Luck,,,,
 ,Luck,,,,
-Blinding,Lux,Trigger,2,,"When you score 3+ Hits on a Lux roll, your target gains Blind."
-Illuminating,Lux,Trigger,,,"When you use a Lux power on an ally, your ally loses Blind."
+Blinding,Lux,Trigger,2,,"When you score 5+ Hits on a Lux roll, your target gains Blind."
+Illuminating,Lux,Trigger,,,"When you score 3+ Hits on a Lux roll, one target in your Current Zone loses Blind."
 ,Lux,,,,
 ,Lux,,,,
 ,Lux,,,,
-,Mentis,,,,"When you score 3+ Hits on a Mentis roll, your target gains Consued."
+,Mentis,,,,"When you score 4+ Hits on a Mentis roll, your target gains Confused."
 ,Mentis,,,,
 ,Mentis,,,,
 ,Mentis,,,,
@@ -52,7 +52,7 @@ Illuminating,Lux,Trigger,,,"When you use a Lux power on an ally, your ally loses
 ,Nihil,,,,
 ,Nihil,,,,
 ,Nihil,,,,
-Enshrouding,Nox,,,,"When you score 3+ Hits on a Nox roll, gain Hidden 2."
+Enshrouding,Nox,,,,"When you score 4+ Hits on a Nox roll, gain Hidden 2."
 ,Nox,,,,"When you make an Nox roll and score 0 Hits, add +2 Hits to the result."
 ,Nox,,,,
 ,Nox,,,,
@@ -63,8 +63,8 @@ Enshrouding,Nox,,,,"When you score 3+ Hits on a Nox roll, gain Hidden 2."
 ,Resist,,,,
 ,Resist,,,,
 ,Rime,Trigger,,,"When you make an Rime roll and score 0 Hits, add +2 Hits to the result."
-,Rime,Trigger,,,"When you score 3+ Hits on an Rime roll, you create 1 Hazard in the targetted Zone until the flames are extinguished."
-,Rime,,,,
+,Rime,Trigger,,,"When you score 4+ Hits on an Rime roll, you create Ice Hazard 1 in the targetted Zone."
+,Rime,,,,"When you make a Rime roll and score 0 Hits, add +2 Hits to the result."
 ,Rime,,,,
 ,Rime,,,,
 ,Squall,,,,

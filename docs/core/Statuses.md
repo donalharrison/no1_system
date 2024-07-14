@@ -26,6 +26,10 @@ While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.
 #### Fixed
 While Confused, add 2 Hazard to your rolls and you do not create Hazards when creatures Shift to Move past you.  Your Confused rating decreases by -1 at the end of each of your turns.
 
+## Darkened
+### Fixed 
+All light in a Darkened Zone is extinguised.  All targets in a Darkened Zone that do you have the Nightsight or Truesight keyword gain Blind 1 Ongoing.  Increase the Hidden Rating of all targets in a Darkened Zone by +2 aslong as they remain in a Darkened Zone; targets wit the Nightsight or Truesight keywords who attempt to Perceive a target Hidden in a Darkened Zone ignore this bonus.
+
 ## Dazed
 #### Fixed
 Until the end of your next turn, you can either take one action or one shift, and you do not create Hazards when creatures Shift to Move past you.  Your Dazed rating decreases by -1 at the end of each of your turns.
