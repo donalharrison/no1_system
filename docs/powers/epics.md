@@ -14,7 +14,7 @@ Epics have multiple verses, each of which produce different effects.  Each verse
 
 # Epics List
 
-{% assign epics = site.data.powers.arcana %}
+{% assign epics = site.data.powers.epics %}
 
 <section>
 {% for a in epics %}
