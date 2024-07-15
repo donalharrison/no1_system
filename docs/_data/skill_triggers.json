@@ -1,0 +1,172 @@
+{
+    "skill_triggers": [
+        {
+            "skill": "Inferno",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Destroy",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Intuit",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Luck",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Tempor",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Resist",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Vivus",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Forma",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Ordi",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Tellus",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Locus",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Lux",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Nox",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Aether",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Nihil",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Bellor",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Rime",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Sangui",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Tempest",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Mori",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Torrent",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Craft",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Arithm",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Mentis",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Phylla",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Medicine",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Plaga",
+            "name": null,
+            "effect": null,
+            "requires": null
+        },
+        {
+            "skill": "Squall",
+            "name": null,
+            "effect": null,
+            "requires": null
+        }
+    ]
+}

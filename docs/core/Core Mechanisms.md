@@ -22,7 +22,9 @@ If there is a 1 in the result set, you risk allowing the enemy to seize the Init
 - If the final result still contains any 1s, total your Hits and the enemy seizes the Initiative.  Increase the Entropy +1.
 
 ### Challenge: Result Sets, Hits, & 1s
-The Challenge has a large impact on each result set, its probability of 1s, and the total Hits the players can score in any given roll.  Whe nthe Challenge is low, players roll fewer dice and thus only have the potential to score a few Hits.  As the Challenge increases, the players can score more and more Hits, but also have more opportunties to roll 1s in their result set.  Moreover, high Challenge scenarios create interactions where a Character may accomplish a daring feat (e.g., scoring 6+ Hits in the result set) but creates an opening for the enemies to retaliate (i.e., the final result set contains a 1 & the enemy team seizes the Initiative).  This relationship creates a risk-reward tradeoff in every Action the players take, allowing the Core Roll Mechanic to contribute to the tension of the game fiction.
+The Challenge has a large impact on each result set, its probability of 1s, and the total Hits the players can score in any given roll.  Whe nthe Challenge is low, players roll fewer dice and thus only have the potential to score a few Hits.  As the Challenge increases, the players can score more and more Hits, but also have more opportunties to roll 1s in their result set.  
+
+Moreover, high Challenge scenarios create interactions where a Character may accomplish a daring feat (e.g., scoring 6+ Hits in the result set) but creates an opening for the enemies to retaliate (i.e., the final result set contains a 1 & the enemy team seizes the Initiative).  This relationship creates a risk-reward tradeoff in every Action the players take, allowing the Core Roll Mechanic to contribute to the tension of the game fiction.
 
 ## Entropy
 Entropy is a measure of how frantic and chaotic the fiction is becoming.  Low Entropy represents a fictional arc where things are going the characters' way, while high Entropy reflects an arc where things are out of the characters' control.
@@ -50,7 +52,7 @@ Momentum increases +1 each time a roll's final result set contains no 1s and the
     </p>
 
 
-### Avoiding Hazards -- Defy Danger
-Players can use the *Defy Danger* Shift to avoid Hazards.  The total Hits in a Defy Danger result set reduces the number of Hazard dice added to any roll.  See the ***Shifts*** section for more information.
+<h3>Avoiding Hazards &mdash; Defy Danger </h3>
+Players can use the <em>Defy Danger</em> Shift to avoid Hazards.  The total Hits in a Defy Danger result set reduces the number of Hazard dice added to any roll.  See the <a href='/no1_system/core/shift/'>Shifts</a> section for more information.
 
 </div>

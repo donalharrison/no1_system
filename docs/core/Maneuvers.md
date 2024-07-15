@@ -4,7 +4,7 @@ title: Maneuvers
 permalink: /core/maneuvers/
 parent: Gameplay
 grand_parent: Core System
-nav_order: 3
+nav_order: 4
 ---
 
 ## Interacting with Challenge, Entropy, & Momentum
