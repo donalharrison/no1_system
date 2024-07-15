@@ -16,9 +16,7 @@ permalink: /characters/powers/rites/
 ## Using Rites
 
 
-
-
-# Technique Lists
+# Rites Lists
 
 <section>
 {% assign eskills = "Bellor,Inferno,Lux,Mori,Nox,Orbi,Rime,Tempest,Vivus" | split: "," %}

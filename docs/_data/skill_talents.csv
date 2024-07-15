@@ -1,94 +1,225 @@
-name,skill,type,rank,prereqs,description
-,Aether,,,,
-,Aether,,,,
-,Aether,,,,
-,Aether,,,,
-,Aether,,,,
-,Arithm,,,,
-,Arithm,,,,
-,Arithm,,,,
-,Arithm,,,,
-,Arithm,,,,
-,Destroy,,,,
-,Destroy,,,,
-,Destroy,,,,
-,Destroy,,,,
-,Destroy,,,,
-Unbridled,Inferno,Trigger,3,,"When you score 4+ Hits on an Inferno roll, all targets in the targetted Zone suffer the Hits."
-Inextinguishable,Inferno,Trigger,1,,"When you make an Inferno roll and score 0 Hits, add +2 Hits to the result."
-Raging,Inferno,Trigger,,,
-Singing,Inferno,Static,2,,Your Inferno rolls score +1 Bonus Hits.
-Igniting,Inferno,Trigger,1,,"When you score 4+ Hits on an Inferno roll, you create a Fire Hazard 1 in the targetted Zone until the flames are extinguished."
-Parching,Inferno,Trigger,2,,"When you score 4+ Hits on an Inferno roll, your target gains Fatigued 1."
-Scorching,Inferno,Static,4,,Your Inferno rolls score +1 Bonus Hits.
-Alluring,Inferno,,,,"When you score 4+ Hits on an Inferno roll, you may have the target gains Charmed 1."
-,Intuit,,,,
-,Intuit,,,,
-,Intuit,,,,
-,Intuit,,,,
-,Intuit,,,,
-,Luck,,,,
-,Luck,,,,
-,Luck,,,,
-,Luck,,,,
-,Luck,,,,
-Blinding,Lux,Trigger,2,,"When you score 5+ Hits on a Lux roll, your target gains Blind."
-Illuminating,Lux,Trigger,,,"When you score 3+ Hits on a Lux roll, one target in your Current Zone loses Blind."
-,Lux,,,,
-,Lux,,,,
-,Lux,,,,
-,Mentis,,,,"When you score 4+ Hits on a Mentis roll, your target gains Confused."
-,Mentis,,,,
-,Mentis,,,,
-,Mentis,,,,
-,Mentis,,,,
-,Mori,,,,
-,Mori,,,,
-,Mori,,,,
-,Mori,,,,
-,Mori,,,,
-,Nihil,,,,
-,Nihil,,,,
-,Nihil,,,,
-,Nihil,,,,
-,Nihil,,,,
-Enshrouding,Nox,,,,"When you score 4+ Hits on a Nox roll, gain Hidden 2."
-,Nox,,,,"When you make an Nox roll and score 0 Hits, add +2 Hits to the result."
-,Nox,,,,
-,Nox,,,,
-,Nox,,,,
-,Resist,Trigger,,,"When you use the Recover Action and score 0 Hits, add +2 Hits to the result."
-,Resist,,,,
-,Resist,,,,
-,Resist,,,,
-,Resist,,,,
-,Rime,Trigger,,,"When you make an Rime roll and score 0 Hits, add +2 Hits to the result."
-,Rime,Trigger,,,"When you score 4+ Hits on an Rime roll, you create Ice Hazard 1 in the targetted Zone."
-,Rime,,,,"When you make a Rime roll and score 0 Hits, add +2 Hits to the result."
-,Rime,,,,
-,Rime,,,,
-,Squall,,,,
-,Squall,,,,
-,Squall,,,,
-,Squall,,,,
-,Squall,,,,
-,Tellus,,,,
-,Tellus,,,,
-,Tellus,,,,
-,Tellus,,,,
-,Tellus,,,,
-,Tempest,,,,
-,Tempest,,,,
-,Tempest,,,,
-,Tempest,,,,
-,Tempest,,,,
-,Torrent,,,,
-,Torrent,,,,
-,Torrent,,,,
-,Torrent,,,,
-,Torrent,,,,
-,Vivus,,,,
-,Vivus,,,,
-,Vivus,,,,
-,Vivus,,,,
-,Vivus,,,,
+name,skill,type,rank,effect
+,Aether,Trigger,2,"When you us an Aether effect and score 0 Hits, add +2 Hits to the result."
+,Aether,Trigger,4,"When you use an Aether effect, score +1 Bonus Hits."
+,Aether,Trigger,,"When you score 3+ Hits with an Aether effect, you may have the target gain Dazed 1."
+,Aether,Trigger,,"When you score 4+ Hits with an Aether effect, you may remove 1 Hazard in the effect's Zone."
+,Aether,Trigger,,"When you use the Recover Action and score 4+ Hits, you may reduce one Status by -1."
+,Aether,Trigger,,"When you score 3+ Hits with a Aether effect, you may have the effect's Zone lose Darkened until your next turn."
+,Aether,Trigger,,"When you score 3+ Hits with an Inferno effect, you may have the target gain Charmed 1."
+,Aether,Trigger,,
+,Arithm,Trigger,2,"When you us an Arithm effect and score 0 Hits, add +2 Hits to the result."
+,Arithm,Trigger,4,"When you use an Arithm effect, score +1 Bonus Hits."
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Arithm,Trigger,,
+,Bellor,Trigger,,"When you score 0 Hits with a Bellor effect, add +2 Hits to the result."
+,Bellor,Trigger,,"When you score 4+ Hits wit ha Bellor effect while the Entropy is 10+, add +1d4 Bonus Hits to the result set."
+,Bellor,Trigger,,
+,Bellor,Trigger,,
+,Bellor,Trigger,,
+,Bellor,Trigger,,
+,Craft,Trigger,,"When you Craft an Epic and score 0 Hits, add +2 Hits to the result set."
+,Craft,Trigger,,"When you Craft an Epic and score 5+ Hits, you may use your Shift this turn to activate the next Verse of the Epic as a Trigger."
+,Craft,Trigger,,"When you Craft to restore Gear ratings and score 0 Hits, add +2 Hits to the result set."
+,Craft,Trigger,,"When you Craft an Epic with the Ballad keyword, add +1 Bonus Hit to the result set."
+,Craft,Trigger,,"When you Craft an Epic with the Saga keyword, add +1 Bonus Hit to the result set."
+,Craft,Trigger,,"When you Craft to restore Gear ratings, score +1 Bonus Hits."
+,,,,"When you Craft to create Concoctions and score 0 Hits, add +2 Hits to the result set."
+,Craft,Trigger,,"When you Craft to create Concoctions,  score +1 Bonus Hits."
+,Craft,Trigger,,"When you Craft to create Concoctions and score 3+, reduce the number of turns required by -2."
+,Craft,Trigger,,
+,Destroy,Trigger,2,"When you us a Destroy effect and score 0 Hits, add +2 Hits to the result."
+,Destroy,Trigger,4,"When you use a Destroy effect, score +1 Bonus Hits."
+,Destroy,Trigger,,"When you score 4+ Hits with a Destroy effect, your target gains Vulnerable 1."
+,Destroy,Trigger,,"When you score 4+ Hits with a Destroy effect, your target gains Wounded 1."
+,Destroy,Trigger,,"When you score 4+ Hits with a Destroy effect that has a single target, you may score +1 Bonus Hits against a different target in the effect's Zone."
+,Destroy,Trigger,,
+,Destroy,Trigger,,
+,Forma,Trigger,,
+,Forma,Trigger,,
+,Forma,Trigger,,
+,Forma,Trigger,,
+,Forma,Trigger,,
+,Forma,Trigger,,
+Igniting,Inferno,Trigger,1,"When you score 4+ Hits with an Inferno effect, you create a Fire Hazard 1 in the targetted Zone until the flames are extinguished."
+Alluring,Inferno,Trigger,1,"When you score 3+ Hits with an Inferno effect, you may have the target gain Charmed 1."
+Inextinguishable,Inferno,Trigger,2,"When you us an Inferno effect and score 0 Hits, add +2 Hits to the result."
+Cleansing,Inferno,Trigger,2,"When you score 4+ Hits with an Inferno effect, you may have reduce one Status of a target in the same zone as the effect by -1."
+Parching,Inferno,Trigger,2,"When you score 4+ Hits with an Inferno effect, your target gains Fatigued 1."
+Unbridled,Inferno,Trigger,3,"When you score 4+ Hits with an Inferno effect, all targets in the targetted Zone suffer the Hits."
+Scorching,Inferno,Trigger,3,"When you score 4+ Hits with an Inferno effect, your target gains Vulnerable 1."
+Raging,Inferno,Trigger,4,"When you use an Inferno effect, score +1 Bonus Hits."
+,Intuit,Trigger,2,"When you us an Intuit effect and score 0 Hits, add +2 Hits to the result."
+,Intuit,Trigger,4,"When you use an Intuit effect, score +1 Bonus Hits."
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Intuit,Trigger,,
+,Locus,Trigger,,
+,Locus,Trigger,,
+,Locus,Trigger,,
+,Locus,Trigger,,
+,Locus,Trigger,,
+,Locus,Trigger,,
+,Luck,Trigger,2,"When you us a Luck effect and score 0 Hits, add +2 Hits to the result."
+,Luck,Trigger,4,"When you use a Luck effect, score +1 Bonus Hits."
+,Luck,Trigger,,
+,Luck,Trigger,,
+,Luck,Trigger,,
+,Luck,Trigger,,
+,Luck,Trigger,,
+,Luck,Trigger,,
+,Luck,Trigger,,
+,Luck,Trigger,,
+Illuminating,Lux,Trigger,1,"When you score 3+ Hits with a Lux effect, one target in your Current Zone loses Blind."
+,Lux,Trigger,2,"When you us a Lux effect and score 0 Hits, add +2 Hits to the result."
+Blinding,Lux,Trigger,3,"When you score 4+ Hits with a Lux effect, your target gains Blind."
+,Lux,Trigger,4,"When you use a Lux effect, score +1 Bonus Hits."
+Revealing,Lux,Trigger,,"When you score 4+ Hits with a Lux effect, you may have the all target's in the effect's Zone lose the Invisible keyword."
+,Lux,Trigger,,"When you score 4+ Hits with a Lux effect, you may reduce the Hidden ratings of all targets in the effect's Zone by 4."
+,Lux,Trigger,,
+,Lux,Trigger,,
+,Medicine,Trigger,,"When you score 2+ Hits with a Medicine effect that reduces one target's Status, reduce that Status by an additional -1."
+,Medicine,Trigger,,
+,Medicine,Trigger,,
+,Medicine,Trigger,,
+,Medicine,Trigger,,
+,Medicine,Trigger,,
+,Mentis,Trigger,2,"When you us a Mentis effect and score 0 Hits, add +2 Hits to the result."
+,Mentis,Trigger,4,"When you use a Mentis effect, score +1 Bonus Hits."
+,Mentis,Trigger,,"When you score 4+ Hits with a Mentis effect, your target gains Confused 1."
+,Mentis,Trigger,,
+,Mentis,Trigger,,
+,Mentis,Trigger,,
+,Mentis,Trigger,,
+,Mentis,Trigger,,
+,Mori,Trigger,2,"When you us a Mori effect and score 0 Hits, add +2 Hits to the result."
+,Mori,Trigger,4,"When you use a Mori effect, score +1 Bonus Hits."
+,Mori,Trigger,,"When you score 5+ Hits with a Mori effect, you may reduce your Dying rating by -1."
+,Mori,Trigger,,"When you score 4+ Hits with a Mori effect, your target gains Wounded 1."
+,Mori,Trigger,,"When you score 4+ Hits with a Mori effect, your target gains Vulnerable 1."
+,Mori,Trigger,,"When you score 3+ Hits with a Lux effect, you may have the effect's Zone lose Darkened until your next turn."
+,Mori,Trigger,,
+,Mori,Trigger,,
+,Mori,Trigger,,
+,Mori,Trigger,,
+,Nihil,Trigger,2,"When you us a Nihil effect and score 0 Hits, add +2 Hits to the result."
+,Nihil,Trigger,4,"When you use a Nihil effect, score +1 Bonus Hits."
+,Nihil,Trigger,,"When you score 4+ Hits with a Nihil effect, your target gains Confused 1."
+,Nihil,Trigger,,"When you score 3+ Hits with a Nihil effect, your target gains Afraid 2."
+,Nihil,Trigger,,"When you score 4+ Hits with a Nihil effect, your target gains Blind 1."
+,Nihil,Trigger,,
+,Nihil,Trigger,,
+,Nihil,Trigger,,
+,Nihil,Trigger,,
+,Nihil,Trigger,,
+,Nox,Trigger,2,"When you use a Nox effect and score 0 Hits, add +2 Hits to the result."
+,Nox,Trigger,4,"When you use a Nox effect, score +1 Bonus Hits."
+Enshrouding,Nox,Trigger,,"When you score 4+ Hits with a Nox effect, you may gain Hidden 2."
+,Nox,Trigger,,"When you score 4+ Hits with a Nox effect, you may have the effect's Zone gain Darkened 1."
+,Nox,Trigger,,"When you score 4+ Hits on a Nox effect, you may have one target in the effect's Zone gain Aura 3.  While the Aura persists, the target gains the Nightsight keyword."
+,Nox,Trigger,,"When you score 4+ Hits with a Nox effect, your target gains Blind 1."
+,Nox,Trigger,,"When you score 4+ Hits with a Nox effect, your target gains Afraid 1."
+,Nox,Trigger,,
+,Ordi,Trigger,,
+,Ordi,Trigger,,
+,Ordi,Trigger,,
+,Ordi,Trigger,,
+,Ordi,Trigger,,
+,Ordi,Trigger,,
+,Phylla,Trigger,,
+,Phylla,Trigger,,
+,Phylla,Trigger,,
+,Phylla,Trigger,,
+,Phylla,Trigger,,
+,Phylla,Trigger,,
+,Plaga,Trigger,,
+,Plaga,Trigger,,
+,Plaga,Trigger,,
+,Plaga,Trigger,,
+,Plaga,Trigger,,
+,Plaga,Trigger,,
+,Resist,Trigger,2,"When you us a Resist effect and score 0 Hits, add +2 Hits to the result."
+,Resist,Trigger,4,"When you use a Resist effect, score +1 Bonus Hits."
+,Resist,Trigger,,"When you use the Recover Action and score 0 Hits, add +2 Hits to the result."
+,Resist,Trigger,,"When you use the Recover Action and score 3+ Hits, you regain +2 Grit."
+,Resist,Trigger,,"When you take an Action that reduces one of your Statuses, reduce that Status by -1."
+,Resist,Trigger,,"When you use the Recover Action and score 4+ Hits, you may reduce one Status by -1."
+,Resist,Trigger,,
+,Resist,Trigger,,
+,Resist,Trigger,,
+,Rime,Trigger,2,"When you use a Rime effect and score 0 Hits, add +2 Hits to the result."
+,Rime,Trigger,4,"When you use a Rime effect, score +1 Bonus Hits."
+,Rime,Trigger,,"When you score 4+ Hits with a Rime effect, you create Ice Hazard 1 in the targetted Zone."
+,Rime,Trigger,,"When you score 4+ Hits with a Rime effect with a single target, you may have the target gain Frozen 1."
+,Rime,Trigger,,"When you score 4+ Hits with a Rime effect, you may have the target gain Frozen 1."
+,Rime,Trigger,,"When you score 4+ Hits with a Rime effect against a target with Frozen, you may have the target gain Restrained 3."
+,Sangui,Trigger,,"When you score 4+ Hits with an Sangui effect, your target gains Fatigued 1."
+,Sangui,Trigger,,"When you score 4+ Hits with an Sangui effect, your target gains Vulnerable 1."
+,Sangui,Trigger,,"When you score 4+ Hits with an Sangui effect against a target in your Current Zone, you may regain +1 Grit."
+,Sangui,Trigger,,"When you score 4+ Hits with an Sangui effect, you may reduce the  Wound rating of one target in the effect's Zone by -1."
+,Sangui,Trigger,,
+,Sangui,Trigger,,
+,Squall,Trigger,2,"When you us a Squall effect and score 0 Hits, add +2 Hits to the result."
+,Squall,Trigger,4,"When you use a Squall effect, score +1 Bonus Hits."
+,Squall,Trigger,,"When you score 4+ Hits with a Squall effect, you may move one target in the effect's Zone to an Adjacent Zone."
+,Squall,Trigger,,"When you use a Squall effect and score 4+ Hits, you may have one target in the effect's gain Aura 2.  While the Aura persists, the target gains the Flying keyword."
+,Squall,Trigger,,"When you score 3+ Hits with a Squall effect with a single target, you may have the target become Prone."
+,Squall,Trigger,,"When you score 4+ Hits with a Squall, you may remove 1 Hazard in the effect's Zone."
+,Squall,Trigger,,"When you score 4+ Hits with a Squall, you may have one target in the effect's Zone lose the Flying keyword until your next turn."
+,Squall,Trigger,,
+,Squall,Trigger,,
+,Squall,Trigger,,
+,Tellus,Trigger,2,"When you us a Tellus effect and score 0 Hits, add +2 Hits to the result."
+,Tellus,Trigger,4,"When you use a Tellus effect, score +1 Bonus Hits."
+,Tellus,Trigger,,"When you score 4+ Hits with a Tellus effect, you create Earthen Hazard 1 in the targetted Zone."
+,Tellus,Trigger,,"When you score 4+ Hits with a Tellus effect, you may remove 1 Hazard in the effect's Zone."
+,Tellus,Trigger,,"When you score 4+ Hits with a Tellus effect, you gain Armor Defense +2."
+,Tellus,Trigger,,
+,Tellus,Trigger,,
+,Tellus,Trigger,,
+,Tellus,Trigger,,
+,Tellus,Trigger,,
+,Tempest,Trigger,2,"When you us a Tempest effect and score 0 Hits, add +2 Hits to the result."
+,Tempest,Trigger,4,"When you use a Tempest effect, score +1 Bonus Hits."
+,Tempest,Trigger,,"When you score 4+ Hits with a Tempest effect, you may move the target gain Stunned 1."
+,Tempest,Trigger,,"When you score 4+ Hits with a Rime effect, you create Lightning Hazard 1 in the targetted Zone."
+,Tempest,Trigger,,"When you score 4+ Hits with a Tempest effect, you may move the target gain Dazed 1."
+,Tempest,Trigger,,
+,Tempest,Trigger,,
+,Tempest,Trigger,,
+,Tempest,Trigger,,
+,Tempest,Trigger,,
+,Tempor,Trigger,,"When you score 4+ Hits with a Tempor effect, your may increase the current Timer by +1."
+,Tempor,Trigger,,"When you score 4+ Hits with a Tempor effect, your may decrease the current Timer by -1."
+,Tempor,Trigger,,
+,Tempor,Trigger,,
+,Tempor,Trigger,,
+,Tempor,Trigger,,
+,Torrent,Trigger,2,"When you us a Torrent effect and score 0 Hits, add +2 Hits to the result."
+,Torrent,Trigger,4,"When you use a Torrent, score +1 Bonus Hits."
+,Torrent,Trigger,,"When you use a Torrent effect and score 4+ Hits, you may have one target in the effect's Zone gain Aura 3.  While the Aura persists, the target gains the Aquatic keyword."
+,Torrent,Trigger,,"When you score 2+ Hits with a Torrent effect, you may remove all Fire Hazards in the effect's Zone."
+,Torrent,Trigger,,
+,Torrent,Trigger,,
+,Torrent,Trigger,,
+,Torrent,Trigger,,
+,Torrent,Trigger,,
+,Torrent,Trigger,,
+,Vivus,Trigger,2,"When you us a Vivus effect and score 0 Hits, add +2 Hits to the result."
+,Vivus,Trigger,4,"When you use a Vivus effect, score +1 Bonus Hits."
+,Vivus,Trigger,,"When you use the Recover Action and score 0 Hits, add +2 Hits to the result."
+,Vivus,Trigger,,"When you use the Recover Action and score 3+ Hits, you regain +2 Grit."
+,Vivus,Trigger,,"When you use the Recover Action, you regain +1 Grit."
+,Vivus,Trigger,,"When you use a Vivus effect that recovers Hits to Defenses, the target regains +1 Grit."
+,Vivus,Trigger,,"When you use a Vivus effect that regains Grit, the target may reduce one Status by -1."
+,Vivus,Trigger,,

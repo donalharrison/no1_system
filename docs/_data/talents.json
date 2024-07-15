@@ -4356,7 +4356,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Score 3+ Hits with your Medicine to restore 1 Grit to one target in your Current Zone by X."
+                "Score 2+ Hits with your Medicine to have one target in your Current Zone regain +X Grit, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -4455,7 +4455,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You can use Medicine as Shift instead of an Action."
+                "You can use Abilities that use Medicine as Shifts instead of an Actions."
             ]
         },
         {

@@ -8,3 +8,80 @@ parent: Skills
 nav_order: 1
 ---
 
+{: .note}
+Original design by Keithen "Barph" Petty.
+
+# Skill Triggers
+Skill triggers are special Triggered Talents that alter the results of any Actions or Shifts with which the Effect Skill is applied.  Characters acquire one Skill Trigger for every rank they have in the Effect Skill.  When the condition(s) of the Skill Trigger is met, the effects happens immediately following the resolution of the the triggering effect.
+
+
+{% assign eskills = site.data.skill_triggers | map: "skill" | uniq | sort %}
+
+<section>
+{% for skill in eskills %}
+    <div style="background-color: #4b476650; margin: 6px; padding: 5px;">
+        <p style='margin: 3px; font-weight:bold; font-size: 115%;'>{{skill}}</p>
+        <details>
+            <summary></summary>
+            {% for t in site.data.powers.skill_triggers %}
+                {% if t.skill == {{skill}} %}
+                    <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+                        <h3 style="margin-top: 5px;">{{t.name}}</h3>
+                        <h4 style="margin-top: 5px;">{{t.type}}</h4>
+                        {% assign j = s.max_ranks %}
+                        <h4 style="margin-top: 5px;">Ranks</h4>
+                        {% for i in (1..j) %}
+                            <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
+                        {% endfor %}
+                        <details>
+                        <summary></summary>
+                            {% if t.effect %}
+                                <p><strong>Effect</strong>
+                                <br>{{t.effect}}</p>
+                            {% endif %}
+                        </details>
+                    </div>
+                    <div height=5px></div>
+                {% endif %}
+            {% endfor %}
+        </details>
+    </div>
+    <div height=5px></div>
+{% endfor %}
+</section>
+
+<style>
+ 
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    padding: 25px;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 0px;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #444985;
+}
+</style>
