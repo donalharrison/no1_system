@@ -27,24 +27,22 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
             <summary></summary>
             {% assign triggers = site.data.skill_triggers.skill_triggers | where: "skill", skill }
             {% for t in triggers %}
-                {% if t.skill == {{skill}} %}
-                    <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-                        <h3 style="margin-top: 5px;">{{t.name}}</h3>
-                        <h4 style="margin-top: 5px;">{{t.type}}</h4>
-                        {% if t.ranks %}
-                            {% assign j = t.ranks %}
-                            <h4 style="margin-top: 5px;">Ranks</h4>
-                            {% for i in (1..j) %}
-                                <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
-                            {% endfor %}
-                        {% endif %}
-                        {% if t.effect %}
-                            <p><strong>Effect</strong>
-                            <br>{{t.effect}}</p>
-                        {% endif %}
-                    </div>
-                    <div height=5px></div>
-                {% endif %}
+                <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+                    <h3 style="margin-top: 5px;">{{t.name}}</h3>
+                    <h4 style="margin-top: 5px;">{{t.type}}</h4>
+                    {% if t.ranks %}
+                        {% assign j = t.ranks %}
+                        <h4 style="margin-top: 5px;">Ranks</h4>
+                        {% for i in (1..j) %}
+                            <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
+                        {% endfor %}
+                    {% endif %}
+                    {% if t.effect %}
+                        <p><strong>Effect</strong>
+                        <br>{{t.effect}}</p>
+                    {% endif %}
+                </div>
+                <div height=5px></div>
             {% endfor %}
         </details>
     </div>
