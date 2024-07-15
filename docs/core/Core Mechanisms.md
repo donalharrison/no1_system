@@ -41,8 +41,8 @@ Momentum increases +1 each time a roll's final result set contains no 1s and the
 ## Hazard
 
 <p style="display:inline-block;">
-    <img src="/no1_system/assets/img/d_hazard.png" alt="Hazard d4" width="250" height="250">
     A crumbling bridge, a raging fire, an ogre blinded by rage.  All of these create peril for the characters to navigate and overcome.  A fictional aspect of the scene that poses a specific threat or danger to the characters is called a Hazard.
+    <img src="/no1_system/assets/img/d_hazard.png" alt="Hazard d4" width="200" height="200">
     <br>
     <br>When a character takes an Action or Shift while inside a Zone containing a Hazard, they add 1d4 to their next roll (referred to as a Hazard die) and add the result to the result set as normal.  This means Hazards create opportunities for the enemy to seize the Initiative and increase the Entropy if the Hazard die results in a 1, as well as potentially adding Hits to the result set on a roll of 4, rewarding the character's daring heroics.
     <br>
