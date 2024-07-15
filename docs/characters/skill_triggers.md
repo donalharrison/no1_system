@@ -30,17 +30,13 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
                 <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
                     <h3 style="margin-top: 5px;">{{t.name}}</h3>
                     <h4 style="margin-top: 5px;">{{t.type}}</h4>
-                    {% if t.ranks %}
-                        {% assign j = t.ranks %}
+                    {% assign j = t.ranks %}
                         <h4 style="margin-top: 5px;">Ranks</h4>
-                        {% for i in (1..j) %}
-                            <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
-                        {% endfor %}
-                    {% endif %}
-                    {% if t.effect %}
-                        <p><strong>Effect</strong>
-                        <br>{{t.effect}}</p>
-                    {% endif %}
+                    {% for i in (1..j) %}
+                        <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
+                    {% endfor %}
+                    <p><strong>Effect</strong>
+                    <br>{{t.effect}}</p>
                 </div>
                 <div height=5px></div>
             {% endfor %}
