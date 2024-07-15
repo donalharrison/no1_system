@@ -20,6 +20,7 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
 {{eskills}},
 
 <hr>
+<section>
 {% assign tskills = site.data.skill_triggers.skill_triggers | map: "skill" | uniq | sort %}
 {% for e in eskills %}
     {% for t in tskills %}
@@ -28,6 +29,8 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
         {% endif %}
     {% endfor %}
 {% endfor %}
+</section>
+
 <section>
 
 {% for eskill in eskills %}
@@ -35,10 +38,12 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
         <h3>{{ eskill }}</h3>
         {% assign talents = site.data.skill_triggers.skill_triggers %}
         {% for t in talents %}
+            {% if t == eskills %}
                 <div style="background-color: #4b476650; padding: 10px">
                     <br>{{ t.skill }}
                 </div>
                 <div height=3px></div>
+            {% endif %}
         {% endfor %}
     </div>
     <div height=5px></div>
