@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Skills Trigger"
+title: "Skill Triggers"
 permalink: /characters/skills/skill_triggers
 id: characters-skills-triggers
 grand_parent: Characters
@@ -15,7 +15,7 @@ Original design by Keithen "Barph" Petty.
 Skill triggers are special Triggered Talents that alter the results of any Actions or Shifts with which the Effect Skill is applied.  Characters acquire one Skill Trigger for every rank they have in the Effect Skill.  When the condition(s) of the Skill Trigger is met, the effects happens immediately following the resolution of the the triggering effect.
 
 
-{% assign eskills = site.data.skill_triggers | map: "skill" | uniq | sort %}
+{% assign eskills = site.data.skill_triggers.skill_triggers | map: "skill" | uniq | sort %}
 
 <section>
 {% for skill in eskills %}
