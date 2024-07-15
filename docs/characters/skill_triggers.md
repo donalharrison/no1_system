@@ -24,7 +24,14 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
 {% for eskill in eskills %}
     <div style="background-color: #37344f50; padding: 10px">
         <h3>{{ eskill }}</h3>
+        {% assign talents = site.data.skill_triggers.skill_triggers | where: "skill", eskill | sort %}
+        {% for t in talents}
+            <div>
+                {{ t }}
+            </div>
+        {% endfor %}
     </div>
+    <div height=5px></div>
 {% endfor %}
 
 </section>
