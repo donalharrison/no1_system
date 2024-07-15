@@ -20,27 +20,14 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
 {{eskills}}
 
 <section>
-{% for skill in eskills %}
-    <div style="background-color: #4b476650; margin: 6px; padding: 5px;">
-        <p style='margin: 3px; font-weight:bold; font-size: 115%;'>{{skill}}</p>
-        <details>
-            <summary></summary>
-            {% assign triggers = site.data.skill_triggers.skill_triggers | where: "skill", skill }
-            {% for t in triggers %}
-                <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
-                    <h3 style="margin-top: 5px;">{{t.name}}</h3>
-                    <h4 style="margin-top: 5px;">{{t.type}}</h4>
-                    {% assign j = t.ranks %}
-                        <h4 style="margin-top: 5px;">Ranks</h4>
-                    {% for i in (1..j) %}
-                        <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
-                    {% endfor %}
-                    <p><strong>Effect</strong>
-                    <br>{{t.effect}}</p>
-                </div>
-                <div height=5px></div>
-            {% endfor %}
-        </details>
+{% assign triggers = site.data.skill_triggers.skill_triggers | where: "skill", skill }
+{% for t in triggers %}
+    <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
+        <h3 style="margin-top: 5px;">{{t.name}}</h3>
+        <h4 style="margin-top: 5px;">{{t.type}}</h4>
+        <h4 style="margin-top: 5px;">Ranks &mdash; {{t.ranks}}</h4>
+        <p><strong>Effect</strong>
+        <br>{{t.effect}}</p>
     </div>
     <div height=5px></div>
 {% endfor %}
