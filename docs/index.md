@@ -3,6 +3,7 @@ layout: page
 name: No1s RPG System
 title: No1s RPG System
 id: characters-training
+nav_order: 1
 nav_exclude: false
 ---
 

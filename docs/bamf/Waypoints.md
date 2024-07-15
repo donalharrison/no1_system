@@ -2,7 +2,7 @@
 layout: default
 title: BAMF Waypoints
 parent: BAMF
-nav_exclude: false
+nav_exclude: true
 ---
 
 {: .note}

@@ -7,10 +7,10 @@ nav_order: 1
 ---
 
 # System Principles
-The No1s System is . . .
-* The game fiction is dramatic; Drama = Tension + Resolution
-* Cinematics are superior simulation
-* The camera is always rolling, you're always in rounds
+The No1s System is built on three principles that inform its design and gameplay.
+* Great stories have drama, and drama is the product of tension and resolution
+* The story is alive and always evolving, the camera is always rolling -- you're always in rounds.
+* Cinematics are favorable simulation, so the *mechanics* should support the players in taking daring action, facing insurmountable odds, and accomplishing the impossible.
 
 
 # Game Fiction Structural Overview

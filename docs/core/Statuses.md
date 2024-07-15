@@ -27,8 +27,8 @@ While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.
 While Confused, add 2 Hazard to your rolls and you do not create Hazards when creatures Shift to Move past you.  Your Confused rating decreases by -1 at the end of each of your turns.
 
 ## Darkened
-### Fixed 
-All light in a Darkened Zone is extinguised.  All targets in a Darkened Zone that do you have the Nightsight or Truesight keyword gain Blind 1 Ongoing.  Increase the Hidden Rating of all targets in a Darkened Zone by +2 aslong as they remain in a Darkened Zone; targets wit the Nightsight or Truesight keywords who attempt to Perceive a target Hidden in a Darkened Zone ignore this bonus.
+### Fixed
+All light in a Darkened Zone is extinguised.  All targets in a Darkened Zone that do you have the Nightsight or Truesight keyword gain Blind 1 Ongoing.  Increase the Hidden Rating of all targets in a Darkened Zone by +2 as long as they remain in a Darkened Zone; targets wit the Nightsight or Truesight keywords who attempt to Perceive a target Hidden in a Darkened Zone ignore this bonus.
 
 ## Dazed
 #### Fixed
@@ -64,7 +64,7 @@ While Prone, you have Vulnerable 2 to any melee attack made against you and you 
 
 ## Provoked
 #### Fixed
-While you are Provoked, reduce Hits in the result sets of any Actions you take aginast targets other than the provoking target.
+While you are Provoked, reduce Hits in the result sets of any Actions you take aginast targets other than the provoking target.  You can tka the Recover ACtion on your turn using Composure, recovering your Nerve Defense and removing the Provoked status.
 
 ## Restrained
 #### Variable
