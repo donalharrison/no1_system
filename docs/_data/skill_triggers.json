@@ -19,43 +19,43 @@
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 3+ Hits with an Aether effect, you may have the target gain Dazed 1."
             },
             {
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with an Aether effect, you may remove 1 Hazard in the effect's Zone."
             },
             {
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you use the Recover Action and score 4+ Hits, you may reduce one Status by -1."
             },
             {
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 3+ Hits with a Aether effect, you may have the effect's Zone lose Darkened until your next turn."
             },
             {
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 3+ Hits with an Inferno effect, you may have the target gain Charmed 1."
             },
             {
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
@@ -75,169 +75,169 @@
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 0 Hits with a Bellor effect, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits wit ha Bellor effect while the Entropy is 10+, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft an Epic and score 0 Hits, add +2 Hits to the result set."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft an Epic and score 5+ Hits, you may use your Shift this turn to activate the next Verse of the Epic as a Trigger."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft to restore Gear ratings and score 0 Hits, add +2 Hits to the result set."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft an Epic with the Ballad keyword, add +1 Bonus Hit to the result set."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft an Epic with the Saga keyword, add +1 Bonus Hit to the result set."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft to restore Gear ratings, score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "",
               "type": "",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft to create Concoctions and score 0 Hits, add +2 Hits to the result set."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft to create Concoctions,  score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you Craft to create Concoctions and score 3+, reduce the number of turns required by -2."
             },
             {
               "name": "",
               "skill": "Craft",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
@@ -257,78 +257,78 @@
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Destroy effect, your target gains Vulnerable 1."
             },
             {
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Destroy effect, your target gains Wounded 1."
             },
             {
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Destroy effect that has a single target, you may score +1 Bonus Hits against a different target in the effect's Zone."
             },
             {
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Forma",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Forma",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Forma",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Forma",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Forma",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Forma",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "Igniting",
@@ -404,99 +404,99 @@
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
@@ -516,57 +516,57 @@
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "Illuminating",
@@ -600,71 +600,71 @@
               "name": "Revealing",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Lux effect, you may have the all target's in the effect's Zone lose the Invisible keyword."
             },
             {
               "name": "",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Lux effect, you may reduce the Hidden ratings of all targets in the effect's Zone by 4."
             },
             {
               "name": "",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 2+ Hits with a Medicine effect that reduces one target's Status, reduce that Status by an additional -1."
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
@@ -684,43 +684,43 @@
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Mentis effect, your target gains Confused 1."
             },
             {
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
@@ -740,57 +740,57 @@
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 5+ Hits with a Mori effect, you may reduce your Dying rating by -1."
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Mori effect, your target gains Wounded 1."
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Mori effect, your target gains Vulnerable 1."
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 3+ Hits with a Lux effect, you may have the effect's Zone lose Darkened until your next turn."
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
@@ -810,57 +810,57 @@
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Nihil effect, your target gains Confused 1."
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 3+ Hits with a Nihil effect, your target gains Afraid 2."
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
+              "rank": null,
               "effect": "When you score 4+ Hits with a Nihil effect, your target gains Blind 1."
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "",
-              "effect": ""
+              "rank": null,
+              "effect": null
             },
             {
               "name": "",
