@@ -38,13 +38,10 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
                                 <img style="width: 10px" src="/no1_system/assets/img/plain-circle.png">
                             {% endfor %}
                         {% endif %}
-                        <details>
-                        <summary></summary>
-                            {% if t.effect %}
-                                <p><strong>Effect</strong>
-                                <br>{{t.effect}}</p>
-                            {% endif %}
-                        </details>
+                        {% if t.effect %}
+                            <p><strong>Effect</strong>
+                            <br>{{t.effect}}</p>
+                        {% endif %}
                     </div>
                     <div height=5px></div>
                 {% endif %}

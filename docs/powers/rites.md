@@ -26,7 +26,7 @@ permalink: /characters/powers/rites/
         <details>
             <summary></summary>
             {% for r in site.data.powers.rites %}
-                {% if r.skill == {{skill}} %}
+                {% if r.skill == skill %}
                     <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
                         <h3 style="margin-top: 5px;">{{r.name}}</h3>
                         <h4 style="margin-top: 5px;">{{r.type}}</h4>
