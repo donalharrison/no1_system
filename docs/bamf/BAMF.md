@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BAMF
-has_children: true
+has_children: False
 nav_order: 4
 ---
 
