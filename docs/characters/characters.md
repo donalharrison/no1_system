@@ -4,7 +4,7 @@ title: Characters
 name: Characters
 has_children: true
 permalink: /characters/
-nav_order: 2
+nav_order: 3
 ---
 
 Player & Charater Principles
