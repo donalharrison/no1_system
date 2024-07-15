@@ -251,7 +251,7 @@
                     "effects": [
                         {
                             "ranks": 1,
-                            "effect": "When you make an Initiative Test using Tactics, add +1d4 Bonus Hits to the result set",
+                            "effect": "When you make an Initiative Test using Tactics, add +1d4 Bonus Hits to the result set"
                         }
                     ]
                 },
@@ -303,7 +303,7 @@
                     "effects": [
                         {
                             "ranks": 1,
-                            "effect": "Increase the current Timer by +1.",
+                            "effect": "Increase the current Timer by +1."
                         },
                         {
                             "ranks": 3,
@@ -318,7 +318,7 @@
                     "effects": [
                         {
                             "ranks": 1,
-                            "effect": "You move to any Adjacent Zone ignoring Hazards.",
+                            "effect": "You move to any Adjacent Zone ignoring Hazards."
                         },
                         {
                             "ranks": 3,
@@ -800,21 +800,11 @@
                     "effects": [
                         {
                             "ranks": 1,
-                            "effect": "If you score 3+ Hits on your next Action, choose one (1):
-                                <ul>
-                                    <li>Increase the Momentum by +3.</li>
-                                    <li>You gain +1 Renown.</li>
-                                    <li>You gain +3 Wealth.</li>
-                                </ul>"
+                            "effect": "If you score 3+ Hits on your next Action, choose one (1):<ul><li>Increase the Momentum by +3.</li><li>You gain +1 Renown.</li><li>You gain +3 Wealth.</li></ul>"
                         },
                         {
                             "ranks": 4,
-                            "effect": "If you score 3+ Hits on your next Action, choose up to two (2):
-                                <ul>
-                                    <li>Increase the Momentum by +3.</li>
-                                    <li>You gain +1 Renown.</li>
-                                    <li>You gain +3 Wealth.</li>
-                                </ul>"
+                            "effect": "If you score 3+ Hits on your next Action, choose up to two (2):<ul><li>Increase the Momentum by +3.</li><li>You gain +1 Renown.</li><li>You gain +3 Wealth.</li></ul>"
                         }
                     ]
                 },

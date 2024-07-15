@@ -8,8 +8,8 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.",
+                "Your Concordance measures how closely you are aligned with your Divine Doctrine.","You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -20,14 +20,10 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
-                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
-                "Select two items from the list below to be your Virtues and two items to be your Taboos:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
-                "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
-                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
+                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.<br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
+                "Select 2 Effect Skills from the list below to be your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
         },
         {
@@ -82,8 +78,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You have an innate ability that deviates from the normal.", "When you gain this Talent, choose one of the following Effect Skill to be your Aberration:
-                <br><em>Destroy, Intuit, Luck, Resist</em>"
+                "You have an innate ability that deviates from the normal.",
+                "When you gain this Talent, choose one of the following Effect Skill to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>"
             ]
         },
         {
@@ -154,41 +150,7 @@
                 "Your pursuit of Arcana expose you to <strong>Strain</strong>.",
                 "When you roll one of your Affinity to invoke and Arcana, you gain Strain according to the result as soon as the Arcana effects resolve.",
                 "Strain accumulates over the course of your adventures, only reducing by 1d6 at the conclusion of a Waypoint.",
-                "You suffer the effects of Strain according to the <em>Straing Effects Table</em> table below.  Strain Effects are cumulative:<br>
-                <table style='width: 50%;'>
-                    <thead>
-                        <th>Strain</th>
-                        <th>Effect</th>
-                    </thead>
-                    <tr>
-                        <td>0-4</td>
-                        <td>No effect</td>
-                    </tr>
-                    <tr>
-                        <td>5-9</td>
-                        <td>Fatigued 1</td>
-                    </tr>
-                    <tr>
-                        <td>10-14</td>
-                        <td>Confused</td>
-                    </tr>
-                    <tr>
-                        <td>15-19</td>
-                        <td>Fatigued 2</td>
-                    </tr>
-                    <tr>
-                        <td>20-24</td>
-                        <td>Vulnerable 3</td>
-                    </tr>
-                    <tr>
-                        <td>25-29</td>
-                        <td>Stunned 4</td>
-                    </tr>
-                    <tr>
-                        <td>30+</td>
-                        <td>Dead</td>
-                    </tr>
-                </table>"
+                "You suffer the effects of Strain according to the <em>Straing Effects Table</em> table below.  Strain Effects are cumulative:<br><table style='width: 50%;'><thead><th>Strain</th><th>Effect</th></thead><tr><td>0-4</td><td>No effect</td></tr><tr><td>5-9</td><td>Fatigued 1</td></tr><tr><td>10-14</td><td>Confused</td></tr><tr><td>15-19</td><td>Fatigued 2</td></tr><tr><td>20-24</td><td>Vulnerable 3</td></tr><tr><td>25-29</td><td>Stunned 4</td></tr><tr><td>30+</td><td>Dead</td></tr></table>"
             ]
         },
         {
@@ -453,8 +415,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you make an Initiative Test in an Ambush, you may spend Momentum to increase Hits scored by X, where X is the number of Momentum spent.
-                <br>If your team's total Initiative is 6+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
+                "When you make an Initiative Test in an Ambush, you may spend Momentum to increase Hits scored by X, where X is the number of Momentum spent.<br>If your team's total Initiative is 6+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
             ]
         },
         {
@@ -630,8 +591,8 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                Your Concordance measures how closely you are aligned with your Divine Doctrine.",
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.",
+                "Your Concordance measures how closely you are aligned with your Divine Doctrine.",
                 "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
@@ -643,12 +604,7 @@
             "requires": "Leadd 2",
             "replaces": null,
             "effect": [
-                "Lead all allies in your Current Zone, allowing a number of them equal to the Hits in the result set to immediately do 1 of the following:
-                    <ul>
-                        <li>Recover</li>
-                        <li>Reduce one Variable Status by -1</li>
-                        <li>Add +1 Bonus Hits to their next result set</li>
-                    </ul>"
+                "Lead all allies in your Current Zone, allowing a number of them equal to the Hits in the result set to immediately do 1 of the following:<ul><li>Recover</li><li>Reduce one Variable Status by -1</li><li>Add +1 Bonus Hits to their next result set</li></ul>"
             ]
         },
         {
@@ -847,14 +803,10 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
-                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
-                "Select two items from the list below to be your Virtues and two items to be your Taboos:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
-                "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
-                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
+                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.<br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
+                "Select 2 Effect Skills from the list below to be your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
         },
         {
@@ -865,8 +817,7 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-            "Select 1 additional Effect Skill from the list below to add to your Domain:
-            <br>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus"
+            "Select 1 additional Effect Skill from the list below to add to your Domain:<br>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus"
             ]
         },
         {
@@ -932,9 +883,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Focus to gain an Aura X, where X is the number of Hits in the result set.
-                <br>While the Aura persists, all Allies in your Current Zone regain Grit equal to your Heretic rank at the beginning of your turn.
-                <br>All hostile targets in your Current Zone gain Fatigued 1."
+                "Focus to gain an Aura X, where X is the number of Hits in the result set.<br>While the Aura persists, all Allies in your Current Zone regain Grit equal to your Heretic rank at the beginning of your turn.<br>All hostile targets in your Current Zone gain Fatigued 1."
             ]
         },
         {
@@ -978,8 +927,7 @@
             "requires": "Divine Defiance",
             "replaces": null,
             "effect": [
-                "When a target you can see uses a Power, you can spend 1 Concordance to use one Effect Skill in your Domain.  If you score more Hits than the hostile Power's Hits, the Power does not take effect.
-                <br>Then, you and the hostile target are engaged in a Contest."
+                "When a target you can see uses a Power, you can spend 1 Concordance to use one Effect Skill in your Domain.  If you score more Hits than the hostile Power's Hits, the Power does not take effect.<br>Then, you and the hostile target are engaged in a Contest."
             ]
         },
         {
@@ -1070,12 +1018,7 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "Decrease your Rage Aura by -2 and choose one (1):
-                <ul>
-                    <li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li>
-                    <li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li>
-                    <li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li>
-                </ul>"
+                "Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>"
             ]
         },
         {
@@ -1387,11 +1330,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Exert yourself when you are below your maximum Grit, then choose 1:
-                <ul>
-                    <li>Regain Hits to your Primary Defense.</li>
-                    <li>Increase the current Timer by 1.</li>
-                </ul>"
+                "Exert yourself when you are below your maximum Grit, then choose 1:<ul><li>Regain Hits to your Primary Defense.</li><li>Increase the current Timer by 1.</li></ul>"
             ]
         },
         {
@@ -1458,8 +1397,7 @@
             "replaces": null,
             "effect": [
                 "Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.",
-                "When you gain this Talent, select 2 Power Skills from the list below to be your Affinities:
-                <br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>","At the beginning of each Waypoint, your Current is 0."
+                "When you gain this Talent, select 2 Power Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>","At the beginning of each Waypoint, your Current is 0."
             ]
         },
         {
@@ -1562,8 +1500,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
+                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
             ]
         },
         {
@@ -1860,8 +1797,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-            "You are an expert at arranging advantageous deals and alliances, leveraging your noble prowess to gain favors and resources.
-            <br> At the beginning of a Waypoint when you are in a city, you may spend 2 Momentum to gain 1 Favor and 1 Wealth."
+            "You are an expert at arranging advantageous deals and alliances, leveraging your noble prowess to gain favors and resources.<br> At the beginning of a Waypoint when you are in a city, you may spend 2 Momentum to gain 1 Favor and 1 Wealth."
             ]
         },
         {
@@ -1971,8 +1907,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-            "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.
-            <br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+            "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -2060,7 +1995,7 @@
             "requires": "Stay Close to Me",
             "replaces": null,
             "effect": [
-                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Defender Rank.",
+                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Defender Rank."
             ]
         },
         {
@@ -2148,7 +2083,7 @@
             "requires": "Stay Close to Me",
             "replaces": null,
             "effect": [
-                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Guardian Rank.",
+                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Guardian Rank."
             ]
         },
         {
@@ -2336,8 +2271,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.
-                <br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+                "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -2408,8 +2342,7 @@
             "replaces": null,
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
-                "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Hexes with Skill Talents:
-                <br><em>Aether, Inferno, Mori, Nox, Plaga, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +3."
+                "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Hexes with Skill Talents:<br><em>Aether, Inferno, Mori, Nox, Plaga, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +3."
             ]
         },
         {
@@ -2575,11 +2508,7 @@
             "replaces": null,
             "effect": [
                 "Once per Waypoint, you may attempt to avert a Combat encounter with sentient creatures by entering into negotiations.",
-                "On the turn of the first round of a Combat before the first attack is made, Persuade your enemies.
-                <ul>
-                    <li><strong>If Hits + Savvy > Challenge:</strong> Set the Momentum to 0 & your enemies pause to hear your offer.</li>
-                    <li><strong>If Hits + Savvy <= Challenge:</strong> Your team loses the Intiative & a number of enemies equal to Hits are Provoked by you.</li>
-                </ul>"
+                "On the turn of the first round of a Combat before the first attack is made, Persuade your enemies.<ul><li><strong>If Hits + Savvy > Challenge:</strong> Set the Momentum to 0 & your enemies pause to hear your offer.</li><li><strong>If Hits + Savvy <= Challenge:</strong> Your team loses the Intiative & a number of enemies equal to Hits are Provoked by you.</li></ul>"
             ]
         },
         {
@@ -2639,8 +2568,7 @@
             "replaces": null,
             "effect": [
                 "You possess an innate bond with nature and the natural world.",
-                "When you gain this Talent, you gain the following two Effect Skills as your <em>Affinity</em> allowing you to further empower your Marvels and Effect Triggers:
-                <br><em>Phylla, Tellus</em>",
+                "When you gain this Talent, you gain the following two Effect Skills as your <em>Affinity</em> allowing you to further empower your Marvels and Effect Triggers:<br><em>Phylla, Tellus</em>"
             ]
         },
         {
@@ -2651,8 +2579,7 @@
             "requires": "Nature's Bond",
             "replaces": null,
             "effect": [
-                "Select 2 additional Effect Skills from the list below to add to your Afinity:
-                <br><em>Plaga, Rime, Squall, Torrent</em>"
+                "Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em>"
             ]
         },
         {
@@ -2663,8 +2590,7 @@
             "requires": "Nature's Bond",
             "replaces": null,
             "effect": [
-                "Select 2 additional Effect Skills from the list below to add to your Afinity:
-                <br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>"
+                "Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>"
             ]
         },
         {
@@ -2874,11 +2800,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend X Current and choose one (1):
-                <ul>
-                    <li>Reduce one of your Statuses by -X.</li>
-                    <li>Recover +X to your Primary Defense.</li>
-                </ul>"
+                "Spend X Current and choose one (1):<ul><li>Reduce one of your Statuses by -X.</li><li>Recover +X to your Primary Defense.</li></ul>"
             ]
         },
         {
@@ -3484,8 +3406,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-            "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.
-            <br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+            "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -3585,9 +3506,7 @@
             "replaces": null,
             "effect": [
                 "Your elevated status requires that you show bravery, strength, and conviction in all your affairs.",
-                "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash braving danger and facing fear or defeat without hesitation.
-                <br>Select two other Virtue from the list below:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>","You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.","Whenever you act against your Virtues, reduce your Dedication by -1. If your Dedication is 0 or less, increase the Entropy by +5."
+                "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash braving danger and facing fear or defeat without hesitation.<br>Select two other Virtue from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>","You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.","Whenever you act against your Virtues, reduce your Dedication by -1. If your Dedication is 0 or less, increase the Entropy by +5."
             ]
         },
         {
@@ -3798,8 +3717,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
             ]
         },
         {
@@ -3977,8 +3895,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
             ]
         },
         {
@@ -4011,8 +3928,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
             ]
         },
         {
@@ -4468,8 +4384,7 @@
             "effect": [
                 "Your are on a Quest of great importance.  Write a new Target with the <em>Quest</em> keyword to represent this undertaking.  Work with the BAMF to structure this Target.  You may only have one Quest of this type active at a time.",
                 "Your Quest grants you Conviction, allowing you to access powers to be used in pursuit of your Quest.  When you gain this Talent, your Conviction equals 5.",
-                "As you set out on a Quest, select one Effect Skill from the list below to be your Boon, and gain +1 Skill Rank in the chosen Skill:
-                <br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>","Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.","If you fail to complete your Quest, lose 1 Renown and increase the Entropy by +5.","If you have no Quest, your Conviction is 0.  You may write a new Target with the Quest keyword at the beginning of the each Waypoint."
+                "As you set out on a Quest, select one Effect Skill from the list below to be your Boon, and gain +1 Skill Rank in the chosen Skill:<br><em>Bellor, Destroy, Inferno, Lux, Mori, Nox, Ordi, Vivus</em>","Each time you gain 1+ Milestones from a part of your Quest, your Conviction increases by +5.","If you fail to complete your Quest, lose 1 Renown and increase the Entropy by +5.","If you have no Quest, your Conviction is 0.  You may write a new Target with the Quest keyword at the beginning of the each Waypoint."
             ]
         },
         {
@@ -4568,11 +4483,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "If you succesfully complete every part of a Quest, you may immediately spend 5 Momentum to roll 1d20:
-                <ul>
-                    <li>If you roll 12+, increase the Momentum by +3.  You and all allies gain +1 Milestone, and you gain +2 Renown.</li>
-                    <li>If you roll 11 or less, increase the Entropy by +5 and gain +2 Enemies.</li>
-                </ul>"
+                "If you succesfully complete every part of a Quest, you may immediately spend 5 Momentum to roll 1d20:<ul><li>If you roll 12+, increase the Momentum by +3.  You and all allies gain +1 Milestone, and you gain +2 Renown.</li><li>If you roll 11 or less, increase the Entropy by +5 and gain +2 Enemies.</li></ul>"
             ]
         },
         {
@@ -5127,10 +5038,7 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.
-                <br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
-                "If the result set of one of your Rites contains a 1, reduce your Concordance by 1.
-                <br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.","You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.","If the result set of one of your Rites contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.","You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
         },
         {
@@ -5152,12 +5060,9 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.
-                <br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
-                "Select two items from the list below to be your Virtues and two items to be your Taboos:
-                <br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
-                "Select 2 Effect Skills from the list below to be your Domain:
-                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>","Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
+                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.<br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
+                "Select 2 Effect Skills from the list below to be your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>","Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
             ]
         },
         {
@@ -5179,8 +5084,7 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Select 1 additional Effect Skills from the list below to add to your Domain:
-                <br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>"
+                "Select 1 additional Effect Skills from the list below to add to your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>"
             ]
         },
         {
@@ -5261,8 +5165,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
+                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>","Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels."
             ]
         },
         {
@@ -5658,7 +5561,7 @@
         {
             "tree": "Ranger",
             "name": "Quarry Master",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "3",
             "requires": "Warden's Mark",
             "replaces": null,
@@ -5674,7 +5577,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are accomplished at engaging multiple foes by yourself.  If you engage your enemies without any allies in your Current Zone, add +1d4 Bonus Hits to your result sets."
+                "You do not lose your Hidden rating when you Shoot a target while Hidden."
             ]
         },
         {
@@ -5795,8 +5698,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Skills from the list below to gain as your Academic Dsicipline:
-                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+                "Choose one of the Skills from the list below to gain as your Academic Dsicipline:<br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -5830,8 +5732,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose a new Skill from the list below to gain as your Academic Dsicipline:
-                <br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
+                "Choose a new Skill from the list below to gain as your Academic Dsicipline:<br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>","When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -6242,13 +6143,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px';>Portent</h4>",
-                "Analyze the remains of one or more creatures, then roll 1d20 as X:
-                <ul>
-                    <li>If X is less than , increase the Entropy by +3.</li>
-                    <li>If X is greater than 8, increase the Momentum by +3.</li>
-                    <li>If X is greater than 15, increase the Momentum by +3 and take on additional Action this turn.</li>
-                </ul>
-                "
+                "Analyze the remains of one or more creatures, then roll 1d20 as X:<ul><li>If X is less than , increase the Entropy by +3.</li><li>If X is greater than 8, increase the Momentum by +3.</li><li>If X is greater than 15, increase the Momentum by +3 and take on additional Action this turn.</li></ul>"
             ]
         },
         {
@@ -6283,11 +6178,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px';>Portent</h4>",
-                "Roll 2d4 to gain X, then choose one:
-                <ul>
-                    <li>Spend 4 Momentum to allow one ally in your Current or Adjacent Zone to add +X Bonus Hits to their next result set.</li>
-                    <li>Increase the Entropy by +2 to reduce Hits in the next result set of one target Current or Adjacent Zone by -X.</li>
-                </ul>"
+                "Roll 2d4 to gain X, then choose one:<ul><li>Spend 4 Momentum to allow one ally in your Current or Adjacent Zone to add +X Bonus Hits to their next result set.</li><li>Increase the Entropy by +2 to reduce Hits in the next result set of one target Current or Adjacent Zone by -X.</li></ul>"
             ]
         },
         {
@@ -6299,13 +6190,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px';>Portent</h4>",
-                "Percieve to observe the movements of the Cosm.  On 2+ Hits, gain Blind 2 and choose 1:
-                <ul>
-                    <li>You learn the current location of one target of your choosing.</li>
-                    <li>The BAMF reveals one secret to you about the game fiction.</li>
-                    <li>You may immediately use a different <em>Portent</em>.
-                </ul>
-                "
+                "Percieve to observe the movements of the Cosm.  On 2+ Hits, gain Blind 2 and choose 1:<ul><li>You learn the current location of one target of your choosing.</li><li>The BAMF reveals one secret to you about the game fiction.</li><li>You may immediately use a different <em>Portent</em>.</ul>"
             ]
         },
         {
@@ -6399,8 +6284,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.
-                <br><em></em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em></em>"
             ]
         },
         {
@@ -6477,8 +6361,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.
-                <br><em></em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em></em>"
             ]
         },
         {
@@ -6570,8 +6453,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.
-                <br><em></em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em></em>"
             ]
         },
         {
@@ -6659,8 +6541,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.
-                <br><em></em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em></em>"
             ]
         },
         {
@@ -6705,11 +6586,7 @@
             "replaces": null,
             "effect": [
                 "You can Craft to recite an Epic.",
-                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:
-                <ul>
-                    <li>Lose 1 Renown</li>
-                    <li>Decrease the Momentum by -2</li>
-                </ul>"
+                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:<ul><li>Lose 1 Renown</li><li>Decrease the Momentum by -2</li></ul>"
             ]
         },
         {
@@ -6931,13 +6808,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Aim and Shoot your target for 6+ Hits, Spend 3 Momentum and the BAMF decides one of the following:
-                <ul>
-                    <li>Your target dies instantly.</li>
-                    <li>Your target gains Stunned 5.</li>
-                    <li>Your target gains Vulnerable 3.</li>
-                </ul>
-                "
+                "When you Aim and Shoot your target for 6+ Hits, Spend 3 Momentum and the BAMF decides one of the following:<ul><li>Your target dies instantly.</li><li>Your target gains Stunned 5.</li><li>Your target gains Vulnerable 3.</li></ul>"
             ]
         },
         {
@@ -7740,8 +7611,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you make an Initiative Test in an Ambush, add +2d4 Bonus Hits to the result set.
-                <br>If your team's total Initiative is 8+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
+                "When you make an Initiative Test in an Ambush, add +2d4 Bonus Hits to the result set.<br>If your team's total Initiative is 8+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
             ]
         },
         {
@@ -7964,8 +7834,7 @@
             "requires": "Receive Gifts",
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.
-                <br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>"
             ]
         },
         {
@@ -8064,8 +7933,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.
-                <br><em></em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em></em>"
             ]
         },
         {
@@ -8232,11 +8100,7 @@
             "replaces": null,
             "effect": [
                 "You can Craft to recite an Epic.",
-                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:
-                <ul>
-                    <li>Lose 1 Renown</li>
-                    <li>Decrease the Momentum by -2</li>
-                </ul>"
+                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:<ul><li>Lose 1 Renown</li><li>Decrease the Momentum by -2</li></ul>"
             ]
         },
         {
@@ -8325,11 +8189,7 @@
             "replaces": null,
             "effect": [
                 "You can Craft to recite an Epic.",
-                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:
-                <ul>
-                    <li>Lose 1 Renown</li>
-                    <li>Decrease the Momentum by -2</li>
-                </ul>"
+                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:<ul><li>Lose 1 Renown</li><li>Decrease the Momentum by -2</li></ul>"
             ]
         },
         {
@@ -8495,8 +8355,7 @@
             "replaces": null,
             "effect": [
                 "You gain the ability to cast Hexes on your enemies.",
-                "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:
-                <br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
+                "When you gain this Talent, select 2 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Mori, Nox, Plaga, Phylla, Rime, Sangui, Tempest</em>","When you lose focus on your Ongoing Hexes, increase the Entropy by +5."
             ]
         },
         {
@@ -9093,11 +8952,7 @@
             "replaces": null,
             "effect": [
                 "You can Craft to recite an Epic.",
-                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:
-                <ul>
-                    <li>Lose 1 Renown</li>
-                    <li>Decrease the Momentum by -2</li>
-                </ul>"
+                "If you lose focus on an Ongoing Epic before completing its final verse, choose one:<ul><li>Lose 1 Renown</li><li>Decrease the Momentum by -2</li></ul>"
             ]
         },
         {
