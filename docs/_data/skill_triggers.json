@@ -5,14 +5,14 @@
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us an Aether effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use an Aether effect, score +1 Bonus Hits."
             },
             {
@@ -61,14 +61,14 @@
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us an Arithm effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use an Arithm effect, score +1 Bonus Hits."
             },
             {
@@ -243,14 +243,14 @@
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us a Destroy effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Destroy effect, score +1 Bonus Hits."
             },
             {
@@ -334,70 +334,70 @@
               "name": "Igniting",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "1",
+              "rank": 1,
               "effect": "When you score 4+ Hits with an Inferno effect, you create a Fire Hazard 1 in the targetted Zone until the flames are extinguished."
             },
             {
               "name": "Alluring",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "1",
+              "rank": 1,
               "effect": "When you score 3+ Hits with an Inferno effect, you may have the target gain Charmed 1."
             },
             {
               "name": "Inextinguishable",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us an Inferno effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "Cleansing",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you score 4+ Hits with an Inferno effect, you may have reduce one Status of a target in the same zone as the effect by -1."
             },
             {
               "name": "Parching",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you score 4+ Hits with an Inferno effect, your target gains Fatigued 1."
             },
             {
               "name": "Unbridled",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "3",
+              "rank": 3,
               "effect": "When you score 4+ Hits with an Inferno effect, all targets in the targetted Zone suffer the Hits."
             },
             {
               "name": "Scorching",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "3",
+              "rank": 3,
               "effect": "When you score 4+ Hits with an Inferno effect, your target gains Vulnerable 1."
             },
             {
               "name": "Raging",
               "skill": "Inferno",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use an Inferno effect, score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us an Intuit effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use an Intuit effect, score +1 Bonus Hits."
             },
             {
@@ -502,14 +502,14 @@
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us a Luck effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Luck effect, score +1 Bonus Hits."
             },
             {
@@ -572,28 +572,28 @@
               "name": "Illuminating",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "1",
+              "rank": 1,
               "effect": "When you score 3+ Hits with a Lux effect, one target in your Current Zone loses Blind."
             },
             {
               "name": "",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us a Lux effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "Blinding",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "3",
+              "rank": 3,
               "effect": "When you score 4+ Hits with a Lux effect, your target gains Blind."
             },
             {
               "name": "",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Lux effect, score +1 Bonus Hits."
             },
             {
@@ -670,14 +670,14 @@
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us a Mentis effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Mentis",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Mentis effect, score +1 Bonus Hits."
             },
             {
@@ -726,14 +726,14 @@
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us a Mori effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Mori effect, score +1 Bonus Hits."
             },
             {
@@ -796,14 +796,14 @@
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you us a Nihil effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Nihil",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Nihil effect, score +1 Bonus Hits."
             },
             {
@@ -866,21 +866,21 @@
               "name": "",
               "skill": "Nox",
               "type": "Trigger",
-              "rank": "2",
+              "rank": 2,
               "effect": "When you use a Nox effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Nox",
               "type": "Trigger",
-              "rank": "4",
+              "rank": 4,
               "effect": "When you use a Nox effect, score +1 Bonus Hits."
             },
             {
               "name": "Enshrouding",
               "skill": "Nox",
               "type": "Trigger",
-              "rank": "3",
+              "rank": 3,
               "effect": "When you score 4+ Hits with a Nox effect, you may gain Hidden 2."
             }
           ]
