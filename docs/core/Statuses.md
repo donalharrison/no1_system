@@ -4,7 +4,7 @@ title: Statuses
 permalink: /core/statuses/
 parent: Gameplay
 grand_parent: Core System
-nav_order: 5
+nav_order: 6
 ---
 
 

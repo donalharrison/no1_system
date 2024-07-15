@@ -4,7 +4,7 @@ title: Keywords
 permalink: /core/keywords/
 parent: Gameplay
 grand_parent: Core System
-nav_order: 6
+nav_order: 7
 ---
 
 ## Ongoing
