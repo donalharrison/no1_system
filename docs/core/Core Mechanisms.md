@@ -17,7 +17,7 @@ Roll a number of dice equal Challenge (plus any applicable modifiers) to generat
 
 If there is a 1 in the result set, you risk allowing the enemy to seize the Initiative.
 
-- If you have any unspent ranks in your focused Trait, you may choose to reroll any 1 in the result set.
+- If you have any unspent ranks in the Trait associated with the Skill you rolled, you may choose to reroll any 1 in the result set.
 - If the rerolled result set contains no 1s, total your Hits and your team maintains the Initiative.  Increase the Momentum +1.
 - If the final result still contains any 1s, total your Hits and the enemy seizes the Initiative.  Increase the Entropy +1.
 

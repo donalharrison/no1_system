@@ -756,7 +756,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Famous</strong>
 </summary>
 <p>Your deeds and exploits are known far and wide. Whether through heroism, remarkable achievements, or simply being in the right place at the right time, your name is recognized by many. This fame can open doors and attract admirers, but it also brings scrutiny and high expectations.</p>
-<p>Gain Enemies 1, Renown 2 & Wealth 3.</p>
+<p>Gain Enemies +1, Renown +2 & Wealth +3.</p>
 </details>
 
 <details>
@@ -764,7 +764,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Feared</strong>
 </summary>
 <p>Your reputation strikes fear into the hearts of many. Whether through displays of power, brutal efficiency, or merciless actions, you command respect through intimidation. This fear can keep adversaries at bay, but it might also isolate you from potential allies.</p>
-<p>Gain Enemies 2, Wealth 2 & Renown 2.</p>
+<p>Gain Enemies +2, Wealth +2 & Renown +2.</p>
 </details>
 
 <details>
@@ -772,7 +772,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Honorable</strong>
 </summary>
 <p>You are known for your unwavering principles and honorable conduct. People trust and respect you for your integrity and ethical behavior. This honorable reputation can help you build strong alliances and gain respect, but it also means you must consistently uphold your values.</p>
-<p>Gain Enemies 1, Wealth 1 & Renown 2.</p>
+<p>Gain Enemies +1, Wealth +1 & Renown +2.</p>
 </details>
 
 <details>
@@ -780,7 +780,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Incognito</strong>
 </summary>
 <p>You actively maintain a hidden identity, concealing your true nature or past. This secretive approach lets you operate under the radar, gather information unnoticed, and protect yourself from those who might seek you out.</p>
-<p>Gain Enemies 1 & Favors 3.</p>
+<p>Gain Enemies +1 & Favors +3.</p>
 </details>
 
 </div>
@@ -807,7 +807,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Notorious</strong>
 </summary>
 <p>You are infamous for actions that have drawn significant attention, often for the wrong reasons. Whether due to criminal activities, ruthless behavior, or controversial decisions, your reputation precedes you, making people wary and authorities vigilant.</p>
-<p>Gain Enemies 2 & Wealth 2.</p>
+<p>Gain Enemies +2 & Wealth +2.</p>
 </details>
 
 <details>
@@ -815,7 +815,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Outlaw</strong>
 </summary>
 <p>You are recognized as a rebel or outlaw, living outside the bounds of conventional law and order. This reputation makes you a target for law enforcement but also a hero to those who resist authority. Your status as an outlaw can provide you with a network of fellow rebels and sympathizers.</p>
-<p>Gain Enemies 3, Favors 2, & Renown 2.</p>
+<p>Gain Enemies +3, Favors +2, & Renown +2.</p>
 </details>
 
 <details>
@@ -839,7 +839,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Scandalous</strong>
 </summary>
 <p>Your name is synonymous with scandal and controversy. Whether through personal indiscretions, public failures, or shocking actions, your reputation has been marred by gossip and scandal. This notoriety can make social interactions challenging, but it can also make you a topic of interest.</p>
-<p>Gain Enemies 2 & Wealth 2.</p>
+<p>Gain Enemies +2 & Wealth +2.</p>
 </details>
 
 </div>
@@ -1029,7 +1029,8 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Academic Study</strong>
 </summary>
 <p>You spent years immersed in academic pursuits, studying various fields of knowledge and honing your intellect. This experience has made you well-educated and analytical, but it can also make you somewhat detached from the practical realities of life.</p>
-<p>Gain +1 Milestone.</p>
+<p>Gain +1 Milestone and increase your Skill rank in one of the following by +1:.
+<br><em>Cosmology, Linguistics, Nature, Skrimisiology, Theology</em></p>
 </details>
 
 <details>
@@ -1037,7 +1038,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Apprenticeship</strong>
 </summary>
 <p>You spent years as an apprentice, learning a trade or craft from a master. This experience has given you a strong foundation in a specific skill and a mentor you can rely on, but it also means you might be expected to take over the business or uphold a legacy.</p>
-<p>Gain +1 Milestone and Mentor 1.</p>
+<p>Gain +1 Milestone and either Enemies +1 and Wealth +1 or Favors +2 and Renown +1.</p>
 </details>
 
 <details>
@@ -1129,6 +1130,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Lost Love</strong>
 </summary>
 <p>You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.</p>
+<p>Gain +1 Milestone, +1 Enemies, and increase your Insight Rank by +13</p>
 </details>
 
 <details>
@@ -1208,6 +1210,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Politico</strong>
 </summary>
 <p>You served as a public official or advisor, navigating the complex and often treacherous world of politics. This experience has honed your skills in diplomacy, persuasion, and strategy. You are adept at reading people, managing alliances, and leveraging power dynamics to achieve your goals.</p>
+<p>Gain +1 Milestone, +1 Wealth, and increase your Craft Rank by +1.</p>
 </details>
 
 <details>
@@ -1215,6 +1218,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Religious Service</strong>
 </summary>
 <p>You served in a religious order, dedicating your life to spiritual practices, rituals, and helping others. This experience has given you a deep sense of faith and moral guidance, but it can also mean you've encountered fanaticism or internal conflicts within the order.</p>
+<p>Gain +1 Milestone.  Increase your Theology Rank by +1 and gain +2 Favors or +1 Renown.</p>
 </details>
 
 <details>
@@ -1222,6 +1226,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Shadowed Past</strong>
 </summary>
 <p>You have a mysterious or criminal past that you keep hidden from most people. This shadowed history has taught you valuable skills and lessons, but it also haunts you, as you fear the day it might catch up with you. You are constantly looking over your shoulder, ready to confront your past if necessary.</p>
+<p>Gain +1 Milestone.  Increase your Deceive Rank by +1 and gain Enemies +1.</p>
 </details>
 
 <details>
@@ -1229,6 +1234,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Ship Crew</strong>
 </summary>
 <p>You served as a member of a ship's crew, whether on a merchant vessel, pirate ship, or navy. This experience has given you knowledge of seamanship, navigation, and life at sea, but it also means you might have faced shipwrecks, mutinies, or naval battles.</p>
+<p>Gain +1 Milestone.  Increase your Operate and Navigate Ranks by +1.</p>
 </details>
 
 <details>
@@ -1236,6 +1242,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Survivor</strong>
 </summary>
 <p>You survived a catastrophic event that few others did, such as a plague, a massacre, or a natural disaster. This experience has made you resilient and resourceful, but it also means you carry the weight of trauma and loss.</p>
+<p>Gain +1 Milestone.  Increase your Survival Rank by +1.</p>
 </details>
 
 <details>
@@ -1243,6 +1250,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Tragedy</strong>
 </summary>
 <p>You experienced a significant personal tragedy, such as the loss of loved ones, a natural disaster, or a cataclysmic event. This experience has forged your resilience and shaped your motivations, driving you to overcome the pain of your past and protect what little you have left.</p>
+<p>Gain +1 Milestone.  Increase your Composure, Endure, or Insight Rank by +1 and gain +1 Enemies.</p>
 </details>
 
 <details>
@@ -1250,6 +1258,17 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>War</strong>
 </summary>
 <p>You lived through a major conflict, either as a soldier, civilian, or resistance fighter. This experience has shaped your views on violence and survival, leaving you with scars both physical and psychological, as well as a deep understanding of the horrors of war.</p>
+<p>Gain +1 Milestone.  Increase your Endure, Shoot, or Strike Rank by +1 and gain +1 Renown.</p>
+</details>
+
+<details>
+<summary>
+<strong>Nemesis</strong>
+</summary>
+<p>You have a powerful enemy that will hunt to the ends of this world, or the next.  You Nemesis is always close behind you and will become a significant part of your adventure.
+<br><em>You must have permission from the BAMF to choose this Experience.  You will collaborate with th eBAMF on your ides about this Nemesis, working to determine if it fits into the game fiction.</em>
+</p>
+<p>Gain +2 Milestones and Enemies +4.</p>
 </details>
 
 </div>
