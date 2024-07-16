@@ -44,7 +44,7 @@ Action Skills are a crucial subset of Skills in the game that allow players to p
 ## Effect Skills 
 Effect Skills are a distinct set of Skills that require the use of a separate Action to be activated. These Skills represent specialized abilities or techniques that characters can use to produce specific effects or outcomes within the game.
 
-Effect Skills come with the added benefit of [Skill Triggers](/no1_system/core/skills/skill_triggers/) which alter the results of any Actions for which the Skill is applied.  Characters acquire one Skill Trigger for every rank they have in the Effect Skill.
+Effect Skills come with the added benefit of [Skill Triggers](/no1_system/characters/skills/skill_triggers/) which alter the results of any Actions for which the Skill is applied.  Characters acquire one Skill Trigger for every rank they have in the Effect Skill.
 
 ## Skills Lists
 
