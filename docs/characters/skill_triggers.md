@@ -38,7 +38,7 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
         <h3>{{ eskill }}</h3>
         {% for t in skill_trigs %}
                 <div style="background-color: #4b476650; padding: 10px">
-                    {{ t.skill }}
+                    {{ t }}
                 </div>
                 <div height=3px></div>
         {% endfor %}
