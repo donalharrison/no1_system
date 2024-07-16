@@ -1,0 +1,745 @@
+<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab" value="character" />
+<div>
+  <button type="action" name="act_character">Character</button>
+  <button type="action" name="act_talents">Talents</button>
+  <button type="action" name="act_background">Background</button>
+  <button type="action" name="act_journal">Journal</button>
+</div>
+
+
+
+<div class="sheet-character">
+  <h2>Character</h2>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="grid-item">logo</div>
+      <div>
+        <div class="grid-item">NAME: <input name="attr_name" type="text" /></div>
+        <div class="grid-item">SPECIES: <input class="width-170" name="attr_species" type="text" /></div>
+      </div>
+    </div>
+    
+  <div class="grid-item roller">
+  <table>
+    <tbody>
+      <tr>
+        <th>Challenge</th>
+        <th>1d</th>
+        <th>2d</th>
+        <th>3d</th>
+        <th>4d</th>
+        <th>5d</th>
+        <th>6d</th>
+        <th>7d</th>
+        <th>8d</th>
+      </tr>
+      <tr>
+        <td>d4</td>
+        <td><button name="roll_1d4" type="roll" value="/roll 1d4>3"></button></td>
+        <td><button name="roll_2d4" type="roll" value="/roll 2d4>3"></button></td>
+        <td><button name="roll_3d4" type="roll" value="/roll 3d4>3"></button></td>
+        <td><button name="roll_4d4" type="roll" value="/roll 4d4>3"></button></td>
+        <td><button name="roll_5d4" type="roll" value="/roll 5d4>3"></button></td>
+        <td><button name="roll_6d4" type="roll" value="/roll 6d4>3"></button></td>
+        <td><button name="roll_7d4" type="roll" value="/roll 7d4>3"></button></td>
+        <td><button name="roll_8d4" type="roll" value="/roll 8d4>3"></button></td>
+      </tr>
+      <tr>
+        <td>d6</td>
+        <td><button name="roll_1d6" type="roll" value="/roll 1d6>3"></button></td>
+        <td><button name="roll_2d6" type="roll" value="/roll 2d6>3"></button></td>
+        <td><button name="roll_3d6" type="roll" value="/roll 3d6>3"></button></td>
+        <td><button name="roll_4d6" type="roll" value="/roll 4d6>3"></button></td>
+        <td><button name="roll_5d6" type="roll" value="/roll 5d6>3"></button></td>
+        <td><button name="roll_6d6" type="roll" value="/roll 5d6>3"></button></td>
+        <td><button name="roll_7d6" type="roll" value="/roll 7d6>3"></button></td>
+        <td><button name="roll_8d6" type="roll" value="/roll 8d6>3"></button></td>
+      </tr>
+      <tr>
+        <td>d8</td>
+        <td><button name="roll_1d8" type="roll" value="/roll 1d8>3"></button></td>
+        <td><button name="roll_2d8" type="roll" value="/roll 2d8>3"></button></td>
+        <td><button name="roll_3d8" type="roll" value="/roll 3d8>3"></button></td>
+        <td><button name="roll_4d8" type="roll" value="/roll 4d8>3"></button></td>
+        <td><button name="roll_5d8" type="roll" value="/roll 5d8>3"></button></td>
+        <td><button name="roll_6d8" type="roll" value="/roll 6d8>3"></button></td>
+        <td><button name="roll_7d8" type="roll" value="/roll 7d8>3"></button></td>
+        <td><button name="roll_8d8" type="roll" value="/roll 8d8>3"></button></td>
+      </tr>
+      <tr>
+        <td>d10</td>
+        <td><button name="roll_1d10" type="roll" value="/roll 1d10>3"></button></td>
+        <td><button name="roll_2d10" type="roll" value="/roll 2d10>3"></button></td>
+        <td><button name="roll_3d10" type="roll" value="/roll 3d10>3"></button></td>
+        <td><button name="roll_4d10" type="roll" value="/roll 4d10>3"></button></td>
+        <td><button name="roll_5d10" type="roll" value="/roll 5d10>3"></button></td>
+        <td><button name="roll_6d10" type="roll" value="/roll 6d10>3"></button></td>
+        <td><button name="roll_7d10" type="roll" value="/roll 7d10>3"></button></td>
+        <td><button name="roll_8d10" type="roll" value="/roll 8d10>3"></button></td>
+      </tr>
+      <tr>
+        <td>d12</td>
+        <td><button name="roll_1d12" type="roll" value="/roll 1d12>3"></button></td>
+        <td><button name="roll_2d12" type="roll" value="/roll 2d12>3"></button></td>
+        <td><button name="roll_3d12" type="roll" value="/roll 3d12>3"></button></td>
+        <td><button name="roll_4d12" type="roll" value="/roll 4d12>3"></button></td>
+        <td><button name="roll_5d12" type="roll" value="/roll 5d12>3"></button></td>
+        <td><button name="roll_6d12" type="roll" value="/roll 6d12>3"></button></td>
+        <td><button name="roll_7d12" type="roll" value="/roll 7d12>3"></button></td>
+        <td><button name="roll_8d12" type="roll" value="/roll 8d12>3"></button></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+    
+    <div class="grid-item trait">
+      <div class="grid-item trait-1">
+        <div class="trait-header">Dangerous  <input type="number" name="attr_trait_dangerous" step="1" value="0" min="0" max="20" /></div>
+        <input class="trait-input" type="text" name="attr_traitdangerous" value="0">
+        <div>
+          <table class="skill-list">
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Exert
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{exert}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Exert:</button></td>
+              <td><input type="checkbox" name="attr_exert" value="4"><span class="checkmark" checked></span></td>
+              <td><input type="checkbox" name="attr_exert" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_exert" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_exert" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_exert" value="12"><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Grapple
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{grapple}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Grapple:</button></td>
+              <td><input type="checkbox" name="attr_grapple" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_grapple" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_grapple" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_grapple" value="12"><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Intimidate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{intimidate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Intimidate:</button></td>
+              <td><input type="checkbox" name="attr_intimidate" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_intimidate" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_intimidate" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_intimidate" value="12"><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Martial Arts
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{martial arts}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Martial Arts:</button></td>
+              <td><input type="checkbox" name="attr_martial arts" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_martial arts" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_martial arts" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_martial arts" value="12"><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Shoot
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{shoot}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Shoot:</button></td>
+              <td><input type="checkbox" name="attr_shoot" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_shoot" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_shoot" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_shoot" value="12"><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Strike
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{strike}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Strike:</button></td>
+              <td><input type="checkbox" name="attr_strike" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_strike" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_strike" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_strike" value="12"><span class="checkmark"></span></td>
+            </tr>
+            <tr>
+              <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Throw
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{throw}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Throw:</button></td>
+              <td><input type="checkbox" name="attr_throw" value="6"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_throw" value="8"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_throw" value="10"><span class="checkmark"></span></td>
+              <td><input type="checkbox" name="attr_throw" value="12"><span class="checkmark"></span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="grid-item trait-2">
+        <div class="trait-header">Deft</div>
+        <input class="trait-input" type="text" name="attr_traitdeft" value="0">
+        <table class="skill-list">
+          <tr>
+            <td>
+              <button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Implements
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{implements}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Implements:</button></td>
+            <td><input type="checkbox" name="attr_implements" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_implements" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_implements" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_implements" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Insight
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{insight}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Insight:</button></td>
+            <td><input type="checkbox" name="attr_insight" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_insight" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_insight" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_insight" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Legerdemain
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{legerdemain}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Legerdemain:</button></td>
+            <td><input type="checkbox" name="attr_legerdemain" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_legerdemain" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_legerdemain" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_legerdemain" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Operate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{operate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Operate:</button></td>
+            <td><input type="checkbox" name="attr_operate" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_operate" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_operate" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_operate" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Pilot
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{pilot}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Pilot:</button></td>
+            <td><input type="checkbox" name="attr_pilot" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_pilot" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_pilot" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_pilot" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Stealth
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{stealth}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Stealth:</button></td>
+            <td><input type="checkbox" name="attr_stealth" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_stealth" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_stealth" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_stealth" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Tactics
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{tactics}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Tactics:</button></td>
+            <td><input type="checkbox" name="attr_tactics" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_tactics" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_tactics" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_tactics" value="12"><span class="checkmark"></span></td>
+          </tr>
+          <tr>
+            <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Tumble
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{tumble}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Tumble:</button></td>
+            <td><input type="checkbox" name="attr_tumble" value="6"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_tumble" value="8"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_tumble" value="10"><span class="checkmark"></span></td>
+            <td><input type="checkbox" name="attr_tumble" value="12"><span class="checkmark"></span></td>
+          </tr>
+        </table>
+      </div>
+    <div class="grid-item trait-3">
+        <div class="trait-header">Savvy</div>
+        <input class="trait-input" type="text" name="attr_traitsavvy" value="0">
+      <table class="skill-list">
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Computers
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{computers}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Computers:</button></td>
+          <td><input type="checkbox" name="attr_computers" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_computers" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_computers" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_computers" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Craft
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{craft}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Craft:</button></td>
+          <td><input type="checkbox" name="attr_craft" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_craft" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_craft" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_craft" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Current Events
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{current events}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Current Events:</button></td>
+          <td><input type="checkbox" name="attr_current events" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_current events" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_current events" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_current events" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Deceive
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{deceive}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Deceive:</button></td>
+          <td><input type="checkbox" name="attr_deceive" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_deceive" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_deceive" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_deceive" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Linguistics
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{linguistics}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Linguistics:</button></td>
+          <td><input type="checkbox" name="attr_linguistics" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_linguistics" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_linguistics" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_linguistics" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Navigate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{navigate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Navigate:</button></td>
+          <td><input type="checkbox" name="attr_navigate" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_navigate" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_navigate" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_navigate" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Persuade
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{persuade}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Persuade:</button></td>
+          <td><input type="checkbox" name="attr_persuade" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_persuade" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_persuade" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_persuade" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Research
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{research}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Research:</button></td>
+          <td><input type="checkbox" name="attr_research" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_research" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_research" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_research" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Science
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{science}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Science:</button></td>
+          <td><input type="checkbox" name="attr_science" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_science" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_science" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_science" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Streetwise
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{streetwise}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Streetwise:</button></td>
+          <td><input type="checkbox" name="attr_streetwise" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_streetwise" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_streetwise" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_streetwise" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Survival
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{survival}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Survival:</button></td>
+          <td><input type="checkbox" name="attr_survival" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_survival" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_survival" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_survival" value="12"><span class="checkmark"></span></td>
+        </tr>
+        </table>
+     </div>
+    <div class="grid-item trait-4">
+    <div class="trait-header">Steady</div>
+    <input class="trait-input" type="text" name="attr_traitsteady" value="0">
+    <table class="skill-list">
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Commune
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{commune}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Commune:</button></td>
+          <td><input type="checkbox" name="attr_commune" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_commune" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_commune" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_commune" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Composure
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{composure}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Composure:</button></td>
+          <td><input type="checkbox" name="attr_composure" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_composure" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_composure" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_composure" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Endure
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{endure}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Endure:</button></td>
+          <td><input type="checkbox" name="attr_endure" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_endure" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_endure" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_endure" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Focus
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{focus}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Focus:</button></td>
+          <td><input type="checkbox" name="attr_focus" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_focus" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_focus" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_focus" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Investigate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{investigate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Investigate:</button></td>
+          <td><input type="checkbox" name="attr_investigate" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_investigate" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_investigate" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_investigate" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Lead
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{lead}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Lead:</button></td>
+          <td><input type="checkbox" name="attr_lead" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_lead" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_lead" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_lead" value="12"><span class="checkmark"></span></td>
+        </tr>
+        <tr>
+          <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Perceive
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{perceive}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Perceive:</button></td>
+          <td><input type="checkbox" name="attr_perceive" value="6"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_perceive" value="8"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_perceive" value="10"><span class="checkmark"></span></td>
+          <td><input type="checkbox" name="attr_perceive" value="12"><span class="checkmark"></span></td>
+        </tr>
+      </table>
+    </div>
+  <div class="grid-item trait-5">
+    <div class="trait-header">Uncanny</div>
+    <input class="trait-input" type="text" name="attr_traituncanny" value="0">
+    <table class="skill-list">
+      <tr>
+        <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Intuit
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{intuit}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Intuit:</button></td>
+        <td><input type="checkbox" name="attr_intuit" value="6"><span class="checkmark"></span></td>
+        <td><input type="checkbox" name="attr_intuit" value="8"><span class="checkmark"></span></td>
+        <td><input type="checkbox" name="attr_intuit" value="10"><span class="checkmark"></span></td>
+        <td><input type="checkbox" name="attr_intuit" value="12"><span class="checkmark"></span></td>
+      </tr>
+      <tr>
+        <td><button class="txt-btn" type="roll" value="!power {{
+--name|@{name} - Luck
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{luck}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Luck:</button></td>
+        <td><input type="checkbox" name="attr_luck" value="6"><span class="checkmark"></span></td>
+        <td><input type="checkbox" name="attr_luck" value="8"><span class="checkmark"></span></td>
+        <td><input type="checkbox" name="attr_luck" value="10"><span class="checkmark"></span></td>
+        <td><input type="checkbox" name="attr_luck" value="12"><span class="checkmark"></span></td>
+      </tr>
+    </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sheet-talents">
+    <div height=10px></div>
+    <input type="hidden" class="subsheet-tabstoggle" name="attr_sheetSubTab" value="abilities" />
+    <div>
+      <button type="action" name="act_abilities">Abilities</button>
+      <button type="action" name="act_shifts">Shifts</button>
+      <button type="action" name="act_static">Static</button>
+      <button type="action" name="act_triggers">Triggers</button>
+    </div>
+    
+    
+    <input type="checkbox">Ranger
+    
+    <div class="sheet-talents-abilities">
+        <h3>Talents</h3>
+        <div class="grid-item talent">
+            <div class="grid-item talent-1">
+                <div>Abilities</div>
+              <fieldset class="repeating_abilities">
+                <select name="attr_talentabilityname">
+                  <option value=""></option>
+                  <option value="aim">Aim</option>
+                  <option value="browbeat">Browbeat</option>
+                  <option value="charge">Charge</option>
+                  <option value="combat_training">Combat Training</option>
+                  <option value="defensive_stance">Defensive Stance</option>
+                </select>
+                <textarea name="attr_abilitydescr" readonly></textarea>
+              </fieldset>
+            </div>
+            <div class="grid-item talent-2">
+                <div>Triggers</div>
+              <fieldset class="repeating_trigger">
+                <select name="attr_talenttriggername">
+                  <option value=""></option>
+                  <option value="aim">Aim</option>
+                  <option value="browbeat">Browbeat</option>
+                  <option value="charge">Charge</option>
+                  <option value="combat_training">Combat Training</option>
+                  <option value="defensive_stance">Defensive Stance</option>
+                </select>
+                <textarea name="attr_triggerdescr" readonly></textarea>
+              </fieldset>
+            </div>
+            <div class="grid-item talent-3">
+                <div>Momentum</div>
+                <div class="talent">
+                    <div class="grid-item talent-1">
+                      <div>Exploits</div>
+                      <fieldset class="repeating_exploit">
+                        <select name="attr_talentexploitname">
+                          <option value=""></option>
+                          <option value="aim">Aim</option>
+                          <option value="browbeat">Browbeat</option>
+                          <option value="charge">Charge</option>
+                          <option value="combat_training">Combat Training</option>
+                          <option value="defensive_stance">Defensive Stance</option>
+                        </select>
+                        <textarea name="attr_exploitdescr" readonly></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="grid-item talent-2">
+                        <div>Stunts</div>
+                          <fieldset class="repeating_exploit">
+                            <select name="attr_talentexploitname">
+                              <option value=""></option>
+                              <option value="aim">Aim</option>
+                              <option value="browbeat">Browbeat</option>
+                              <option value="charge">Charge</option>
+                              <option value="combat_training">Combat Training</option>
+                              <option value="defensive_stance">Defensive Stance</option>
+                            </select>
+                            <textarea name="attr_exploitdescr" readonly></textarea>
+                          </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="sheet-talents-shifts">
+        <p>Shifts appear here.</p>
+    </div>
+    
+    <div class="sheet-talents-static">
+        <p>Static appear here.</p>
+    </div>
+    
+    <div class="sheet-talents-triggers">
+        <p>Triggers appear here.</p>
+    </div>
+</div>
+
+
+</div>
+
+<div class="sheet-background">
+  <h2>Background</h2>
+  <span>Background Tree</span>
+</div>
+
+<div class="sheet-journal">
+  <h2>Journal/Notes</h2>
+  <span>Track Contacts, Renown, & Notes here</span>
+</div>
+
+
+<script type="text/worker">
+  const buttonlist = ["character","background","journal", "talents"];
+    buttonlist.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetTab: button
+            });
+        });
+    });
+    
+  const buttonlist1 = ["abilities","shifts","static","triggers"];
+    buttonlist1.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetSubTab: button
+            });
+        });
+    });
+
+    on("remove:repeating_abilities", function(eventInfo) {
+     //Fired whenever a row is removed from repeating_inventory
+     // eventInfo.sourceAttribute is the full name (including ID) of the first attribute that triggered the event (you can use this to determined the ID of the row that was deleted)
+    });
+    
+     on("sheet:opened change:repeating_abilities:talentabilityname", function() {
+        getAttrs(["repeating_abilities_talentabilityname", "repeating_abilities_abilitydescr", "repeating_abilities_talentabilityroll"], function(value) {
+            if (value.repeating_abilities_talentabilityname === "aim") {
+    		    setAttrs({repeating_abilities_abilitydescr: "Use a Shift to aim carefully, then immediately Shoot your target at -1d Challenge.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."});
+    	    }
+    	    else if (value.repeating_abilities_talentabilityname === "browbeat") {
+        		setAttrs({repeating_abilities_abilitydescr: "Intimidate your target outside of combat, adding +2 Hits to the result set."});
+    	    }
+          else if (value.repeating_abilities_talentabilityname === "charge") {
+        		setAttrs({repeating_abilities_abilitydescr: "Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."});
+    	    }
+          else if (value.repeating_abilities_talentabilityname === "combat_training") {
+        		setAttrs({repeating_abilities_abilitydescr: "You may Strike or Shoot at a target and use a Shift to use a non-combat skill.  Roll +2d Challenge.  Divide the Hits between the the two skills."});
+    	    }
+          else if (value.repeating_abilities_talentabilityname === "defensive_stance") {
+        		setAttrs({repeating_abilities_abilitydescr: "Focus on defending yourself in combat, adding +Hits to your Vigor."});
+    	    }
+          else {
+                setAttrs({repeating_abilities_abilitydescr: "Get rekt, n00b."});
+            }
+        });
+    });
+ 
+</script>
