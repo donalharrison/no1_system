@@ -29,7 +29,6 @@ Skill triggers are special Triggered Talents that alter the results of any Actio
     {% else %}
         <div class="row" style="background-color: #37344f50; margin: 10px; padding: 5px;">
     {% endif %}
-    <div style="background-color: #37344f50; padding: 10px">
         <h2 style="margin:5px">{{ eskill }}</h2>
         <details>
             <summary></summary>
