@@ -1,6 +1,5 @@
 {
     "skill_triggers": [
-        [
             {
               "name": "",
               "skill": "Aether",
@@ -884,5 +883,4 @@
               "effect": "When you score 4+ Hits with a Nox effect, you may gain Hidden 2."
             }
           ]
-    ]
 }
