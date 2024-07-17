@@ -1,0 +1,184 @@
+<div class="sheet-banner">
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="grid-item">logo</div>
+            <div>
+                <div class="grid-item">Name: <input name="attr_name" type="text" /></div>
+                <div class="grid-item">Species: <input class="width-170" name="attr_species" type="text" /></div>
+                <div class="grid-item">Grit<input type="number" name="attr_grit" step="1" value="0"min="0" max="20" /></div>
+                <div class="grid-item">Nerve<input type="number" name="attr_nerve" step="1" value="0"min="0" max="20" /></div>
+                <div class="grid-item">Reflexes<input type="number" name="attr_reflexes" step="1" value="0"min="0" max="20" /></div>
+                <div class="grid-item">Vigor<input type="number" name="attr_vigor" step="1" value="0"min="0" max="20" /></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab" value="character" />
+<div>
+    <button type="action" name="act_character">Character</button>
+    <button type="action" name="act_shifts">Shifts</button>
+    <button type="action" name="act_actions">Actions</button>
+    <button type="action" name="act_triggers">Triggers</button>
+    <button type="action" name="act_powers">Powers</button>
+    <button type="action" name="act_journal">Journal</button>
+</div>
+
+
+
+<div class="sheet-character">
+    <h2>Character</h2>
+    <div height=10px></div>
+    <input type="hidden" class="subsheet-tabstoggle" name="attr_sheetCharacterSubTab" value="traits" />
+    <div>
+        <button type="action" name="act_traits">Traits</button>
+        <button type="action" name="act_skills">Skills</button>
+        <button type="action" name="act_static">Static</button>
+        <button type="action" name="act_training">Training</button>
+    </div>
+    <div height=10px></div>
+
+    <div class="sheet-character-traits">
+        <p>Traits appear here.</p>
+    </div>
+    <div class="sheet-character-skills">
+        <p>Skills appear here.</p>
+    </div>
+    <div class="sheet-character-static">
+        <p>Static appear here.</p>
+    </div>
+    <div class="sheet-character-training">
+        <p>Trainings appear here.</p>
+        <p>Ranger
+            <input class="sheet-training-ranks" type="number" name="attr_training_ranger_rank" step="1" value="0"
+                min="0" max="20" />
+        </p>
+        <div class="sheet-training-talents">
+            Ranger Talents
+        </div>
+    </div>
+</div>
+
+
+
+<div class="sheet-shifts">
+    <div height=10px></div>
+    <div>
+        <p>Basic Shifts
+            <br>Move
+            <br>Use your equipment
+            <br>Defy danger<button>Hide!</button><button>Parkour!</button><button>Prove your Mettle!</button>
+            <br>Create an Advantage<button>Roll query for skill!</button>
+            <br>Use an Advantage
+            <br>Initiate a Contest
+            <br>Wait for it. . .
+        </p>
+    </div>
+    <div>
+        Talent Shifts
+        <input type="hidden" class="sheet-training-ranks" type="number" name="attr_training_ranger_rank" step="1"
+        value="0" min="0" max="20" />
+        <div class="sheet-training-talents">
+            Ranger Talents
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="sheet-actions">
+    <h2>Actions</h2>
+    <span>Need Actions subtabs</span>
+    <input type="hidden" class="subsheet-tabstoggle" name="attr_sheetActionsSubTab" value="abilities" />
+    <div>
+        <button type="action" name="act_skills">Use your Skills</button>
+        <button type="action" name="act_abilities">Use an Ability</button>
+        <button type="action" name="act_shifts">Use a Shift</button>
+        <button type="action" name="act_recover">Recover</button>
+        <button type="action" name="act_maneuvers">Use a Maneuver</button>
+    </div>
+    <div class="sheet-actions-abilities">
+        <p>Abilities appear here.</p>
+        <input type="hidden" class="sheet-training-ranks" type="number" name="attr_training_ranger_rank" step="1"
+        value="0" min="0" max="20" />
+        <div class="sheet-training-talents">
+            Ranger Talents
+        </div>
+    </div>
+    <div class="sheet-actions-recover">
+        <p>Recover your defenses</p>
+        <button>Compsure for Nerve</button>
+        <button>Endure for Vigor</button>
+        <button>Focus for Reflexes</button>
+    </div>
+    <div class="sheet-actions-maneuvers">
+        <p>Maneuvers appear here.</p>
+    </div>
+</div>
+
+<div class="sheet-triggers">
+    <h2>Triggers</h2>
+    <span>Triggers go here.</span>
+</div>
+
+<div class="sheet-powers">
+    <h2>Actions</h2>
+    <span>Need Powers subtabs</span>
+</div>
+
+<div class="sheet-journal">
+    <h2>Journal/Notes</h2>
+    <span>Track Contacts, Renown, & Notes here</span>
+</div>
+
+
+<script type="text/worker">
+  const buttonlist = ["character","shifts","actions", "triggers", "powers", "journal"];
+    buttonlist.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetTab: button
+            });
+        });
+    });
+  
+  const buttonlist1 = ["traits","skills","static","training"];
+    buttonlist1.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetCharacterSubTab: button
+            });
+        });
+    });
+    
+  const buttonlist2 = ["skills","abilities","shifts","recover","maneuvers"];
+    buttonlist2.forEach(button => {
+        on(`clicked:${button}`, function() {
+            if (button == "skills")
+                {
+                    setAttrs({
+                        sheetTab: "character"
+                    });
+                    setAttrs({
+                        sheetCharacterSubTab: button
+                    });
+                }
+            else if (button == "shifts") {
+                    setAttrs({
+                        sheetTab: button
+                    });
+                }
+            else {
+                setAttrs({
+                    sheetActionsSubTab: button
+                    });
+                }
+        });
+    });
+
+  on('change:training_ranger_rank', function() {
+          setAttrs({ training_ranger_rank: value });
+        });
+
+</script>
