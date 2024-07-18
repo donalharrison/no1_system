@@ -5,17 +5,17 @@
 .sheet-triggers,
 .sheet-powers,
 .sheet-journal {
-    display: none;
+  display: none;
 }
 
 /* show the selected tab */
-.charsheet .sheet-tabstoggle[value="character"] ~ div.sheet-character,
-.charsheet .sheet-tabstoggle[value="shifts"] ~ div.sheet-shifts,
-.charsheet .sheet-tabstoggle[value="actions"] ~ div.sheet-actions,
-.charsheet .sheet-tabstoggle[value="triggers"] ~ div.sheet-triggers,
-.charsheet .sheet-tabstoggle[value="powers"] ~ div.sheet-powers,
-.charsheet .sheet-tabstoggle[value="journal"] ~ div.sheet-journal {
-    display: block;
+.charsheet .sheet-tabstoggle[value="character"]~div.sheet-character,
+.charsheet .sheet-tabstoggle[value="shifts"]~div.sheet-shifts,
+.charsheet .sheet-tabstoggle[value="actions"]~div.sheet-actions,
+.charsheet .sheet-tabstoggle[value="triggers"]~div.sheet-triggers,
+.charsheet .sheet-tabstoggle[value="powers"]~div.sheet-powers,
+.charsheet .sheet-tabstoggle[value="journal"]~div.sheet-journal {
+  display: block;
 }
 
 .sheet-character-traits,
@@ -25,27 +25,26 @@
 .sheet-actions-abilities,
 .sheet-actions-recover,
 .sheet-actions-maneuvers {
-    display: none;
+  display: none;
 }
 
-.charsheet .subsheet-tabstoggle[value="traits"] ~ div.sheet-character-traits,
-.charsheet .subsheet-tabstoggle[value="skills"] ~ div.sheet-character-skills,
-.charsheet .subsheet-tabstoggle[value="static"] ~ div.sheet-character-static,
-.charsheet .subsheet-tabstoggle[value="training"] ~ div.sheet-character-training,
-.charsheet .subsheet-tabstoggle[value="abilities"] ~ div.sheet-actions-abilities,
-.charsheet .subsheet-tabstoggle[value="recover"] ~ div.sheet-actions-recover,
-.charsheet .subsheet-tabstoggle[value="maneuvers"] ~ div.sheet-actions-maneuvers {
-    display: block;
+.charsheet .subsheet-tabstoggle[value="traits"]~div.sheet-character-traits,
+.charsheet .subsheet-tabstoggle[value="skills"]~div.sheet-character-skills,
+.charsheet .subsheet-tabstoggle[value="static"]~div.sheet-character-static,
+.charsheet .subsheet-tabstoggle[value="training"]~div.sheet-character-training,
+.charsheet .subsheet-tabstoggle[value="abilities"]~div.sheet-actions-abilities,
+.charsheet .subsheet-tabstoggle[value="recover"]~div.sheet-actions-recover,
+.charsheet .subsheet-tabstoggle[value="maneuvers"]~div.sheet-actions-maneuvers {
+  display: block;
 }
 
 .charsheet .sheet-training-ranks[value="0"] ~ .sheet-training-talents {
-    display: none;
+  display: none;
 }
+
 .charsheet .sheet-training-ranks ~ .sheet-training-talents {
-    display: block;
+  display: block;
 }
-
-
 
 .skill-list {
   display: inline-block;
@@ -53,11 +52,11 @@
   font-size: 10px;
 }
 
-.charsheet button[type="roll"].txt-btn:before{
+.charsheet button[type="roll"].txt-btn:before {
   content: ' ';
 }
 
-.charsheet button[type="roll"].txt-btn{
+.charsheet button[type="roll"].txt-btn {
   height: 14;
   border-style: none;
   background-color: transparent;
@@ -68,33 +67,132 @@
 }
 
 .trait-header {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .trait-input {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
-.charsheet button[type="roll"].txt-btn:hover{
-    background-color: #d9d9d9;
-    border-radius: 3px;
+.charsheet button[type="roll"].txt-btn:hover {
+  background-color: #d9d9d9;
+  border-radius: 3px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+  background-color: #2196f3;
   padding: 5px;
   width: 850;
+  grid-template-columns: auto;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 8px;
+  padding: 1px;
   text-align: center;
+}
+
+.grid-banner-wrapper {
+  display: grid;
+  background-color: #2196d1;
+  padding: 2px;
+  width: 850;
+  grid-template-columns: repeat(12, [col] auto);
+  grid-template-rows: auto auto auto auto;
+}
+
+.grid-banner {
+  display: grid;
+  background-color: #2196f3;
+  padding: 1px;
+  width: 850;
+}
+
+.grid-banner-logo {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 4;
+}
+
+.grid-banner-name {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr 4fr;
+}
+
+.grid-banner-init {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.grid-banner-bhits {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.grid-banner-hazards {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.grid-banner-grit {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+}  
+
+.grid-banner-deflabel {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.grid-banner-defenses {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-banner-traitlabel {
+  grid-column-start: 7;
+  grid-column-end: span 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.grid-banner-traits {
+  grid-column-start: 7;
+  grid-column-end: span 4;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-banner-rerolls {
+  grid-column-start: 5;
+  grid-column-end: span 7;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .demos {
