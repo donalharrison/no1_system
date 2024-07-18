@@ -47,9 +47,14 @@
 }
 
 .skill-list {
-  display: inline-block;
+  /*display: inline-block;*/
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
+  width: 300;
+}
+
+.skill-button {
+  margin-right: 10px;
 }
 
 .charsheet button[type="roll"].txt-btn:before {
@@ -155,7 +160,7 @@
   grid-column-end: span 1;
   grid-row-start: 4;
   grid-row-end: span 1;
-}  
+}
 
 .grid-banner-deflabel {
   grid-column-start: 5;
@@ -194,6 +199,161 @@
   grid-row-end: span 1;
   grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
 }
+
+.grid-sheet-character {
+  display: grid;
+  background-color: #2196f3;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(3, [col] auto);
+}
+
+.grid-character-traits {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 10;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.grid-character-trait-label {
+  background-color: rgba(255, 255, 200, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-trait-item {
+  background-color: rgba(255, 255, 200, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 10;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.grid-character-grit {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 4;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.grid-character-grit-label {
+  background-color: rgba(200, 200, 200, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-defenses {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 6;
+  grid-row-end: span 8;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.grid-character-defense-label {
+  background-color: rgba(255, 200, 200, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 6;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-defense-item {
+  background-color: rgba(255, 200, 200, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 6;
+  grid-row-end: span 10;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.grid-character-skill {
+  display: grid;
+  background-color: #2196f3;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(7, [col] auto);
+}
+
+.grid-character-skills-trait-label {
+  background-color: rgba(100, 100, 100, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 7;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-skills-type-label {
+  background-color: rgba(100, 100, 100, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 7;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-skill-item {
+  background-color: rgba(150, 150, 125, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: right;
+  /*
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 6;
+  grid-row-end: span 10;
+  grid-template-columns: 3fr 1fr 1fr;
+  */
+}
+
+.grid-character-skill-col1 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 10;
+  grid-template-columns: 2fr 3fr 1fr 1fr;
+}
+
+.grid-character-skill-col2 {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 10;
+  grid-template-columns: 2fr 3fr 1fr 1fr;
+}
+
 
 .demos {
   grid-column: 1 / span 1;
