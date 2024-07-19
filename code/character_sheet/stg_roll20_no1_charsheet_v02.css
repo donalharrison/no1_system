@@ -49,8 +49,8 @@
 .skill-list {
   /*display: inline-block;*/
   text-align: left;
-  font-size: 12px;
-  width: 300;
+  font-size: 16px;
+  width: 500px;
 }
 
 .skill-button {
@@ -354,6 +354,32 @@
   grid-template-columns: 2fr 3fr 1fr 1fr;
 }
 
+.grid-character-training {
+  display: grid;
+  background-color: #2196f3;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(3, [col] auto);
+}
+
+.grid-character-training-label {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  
+}
+
+.grid-character-training-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1px;
+  text-align: center;
+}
 
 .demos {
   grid-column: 1 / span 1;

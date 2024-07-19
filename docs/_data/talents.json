@@ -5638,23 +5638,23 @@
         {
             "tree": "Reaver",
             "name": "Vicious Whirlwind",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "3",
-            "requires": null,
-            "replaces": "Whirlwind Strike",
+            "requires": "Whirlwind Strike",
+            "replaces": null,
             "effect": [
-                "Strike at all hostile Targets in your Current Zone.  Deal 2 Hits to a number of targets equal to Hits in the result set."
+                "When you Strike at all hostile Targets in your Current Zone.  Deal +1 Bonus Hits to a number of targets equal to Hits in the result set."
             ]
         },
         {
             "tree": "Reaver",
             "name": "Vicious Rending",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "3",
-            "requires": null,
-            "replaces": "Rending Strike",
+            "requires": "Rending Strike",
+            "replaces": null,
             "effect": [
-                "Strike your target, delaing +2 Bonus Hits directly to their Grit."
+                "When you Strike your target, deal +1 Bonus Hits directly to their Grit."
             ]
         },
         {
