@@ -381,6 +381,19 @@
   text-align: center;
 }
 
+.grid-shifts {
+  display: grid;
+  background-color: #2196f3;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(3, [col] auto);
+}
+
+.grid-shifts-label {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+
 .demos {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
