@@ -1,0 +1,2043 @@
+<div class="grid-banner-wrapper">
+    <div class="grid-banner grid-banner-logo">
+        <div class="grid-item">
+            <img src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/perspective-dice-one.png?raw=True"
+                alt="No1 Logo" , width="250" , height="250">
+        </div>
+    </div>
+    <div class="grid-banner">
+        <div class="grid-banner grid-banner-name">
+            <div class="grid-item">Name: </div>
+            <div class="grid-item"><input name="attr_name" type="text" width=10 />
+            </div>
+        </div>
+        <div class="grid-banner grid-banner-init">
+            <div class="grid-item">Intiative</div>
+            <div class="grid-item"><button name="init_test_comp" type="roll" value="">Composure</button></div>
+            <div class="grid-item"><button name="init_test_tac" type="roll" value="">Tactics</button></div>
+        </div>
+        <div class="grid-banner grid-banner-bhits">
+            <div class="grid-item">Bonus Hits</div>
+            <div class="grid-item">1:<button name="roll_1d4" type="roll" value="/roll 1d4"></button></div>
+            <div class="grid-item">2:<button name="roll_2d4" type="roll" value="/roll 2d4"></button></div>
+            <div class="grid-item">3:<button name="roll_3d4" type="roll" value="/roll 3d4"></button></div>
+        </div>
+        <div class="grid-banner grid-banner-hazards">
+            <div class="grid-item">Hazards</div>
+            <div class="grid-item">1:<button name="roll_1dH" type="roll" value="/roll 1d4>3"></button></div>
+            <div class="grid-item">2:<button name="roll_2dH" type="roll" value="/roll 2d4>3"></button></div>
+            <div class="grid-item">3:<button name="roll_3dH" type="roll" value="/roll 3d4>3"></button></div>
+        </div>
+    </div>
+    <div class="grid-banner">
+        <div class="grid-banner grid-banner-deflabel">
+            <div class="grid-item">Defenses
+                <div class="grid-banner grid-banner-defenses">
+                    <div class="grid-item">Nerve: </div>
+                    <div class="grid-item">Refelxes: </div>
+                    <div class="grid-item">Vigor: </div>
+                    <div class="grid-item"><input type="number" name="attr_def_nerve" step="1" value="0" min="0"
+                            max="20" /></div>
+                    <div class="grid-item"><input type="number" name="attr_def_reflexes" step="1" value="0" min="0"
+                            max="20" /></div>
+                    <div class="grid-item"><input type="number" name="attr_def_vigor" step="1" value="0" min="0"
+                            max="20" /></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-banner grid-banner-grit">
+            <div class="grid-item">Grit:</div>
+            <div class="grid-item"><input type="number" name="attr_grit" step="1" value="0" min="0" max="20" /></div>
+        </div>
+    </div>
+    <div class="grid-banner">
+        <div class="grid-banner grid-banner-traitlabel">
+            <div class="grid-item">Current Trait Points
+                <div class="grid-banner grid-banner-traits">
+                    <div class="grid-item">Dangerous</div>
+                    <div class="grid-item">Deft</div>
+                    <div class="grid-item">Savvy</div>
+                    <div class="grid-item">Steady</div>
+                    <div class="grid-item">Uncanny</div>
+                    <div class="grid-item">
+                        <input type="number" name="attr_trait_dangerous" step="1" value="0" min="0" max="20" />
+                    </div>
+                    <div class="grid-item">
+                        <input type="number" name="attr_trait_deft" step="1" value="0" min="0" max="20" />
+                    </div>
+                    <div class="grid-item">
+                        <input type="number" name="attr_trait_savvy" step="1" value="0" min="0" max="20" />
+                    </div>
+                    <div class="grid-item">
+                        <input type="number" name="attr_trait_steady" step="1" value="0" min="0" max="20" />
+                    </div>
+                    <div class="grid-item">
+                        <input type="number" name="attr_trait_uncanny" step="1" value="0" min="0" max="20" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-banner grid-banner-rerolls">
+            <div class="grid-item">Reroll</div>
+            <div class="grid-item"><button name="roll_1d4" type="roll" value="/roll 1d4>3"></button></div>
+            <div class="grid-item"><button name="roll_1d6" type="roll" value="/roll 1d6>3"></button></div>
+            <div class="grid-item"><button name="roll_1d8" type="roll" value="/roll 1d8>3"></button></div>
+            <div class="grid-item"><button name="roll_1d10" type="roll" value="/roll 1d10>3"></button></div>
+            <div class="grid-item"><button name="roll_1d12" type="roll" value="/roll 1d12>3"></button></div>
+        </div>
+    </div>
+</div>
+
+
+<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab" value="character" />
+<div>
+    <button type="action" name="act_character">Character</button>
+    <button type="action" name="act_shifts">Shifts</button>
+    <button type="action" name="act_actions">Actions</button>
+    <button type="action" name="act_triggers">Triggers</button>
+    <button type="action" name="act_powers">Powers</button>
+    <button type="action" name="act_journal">Journal</button>
+</div>
+
+
+
+<div class="sheet-character">
+    <h2>Character</h2>
+    <div height=10px></div>
+    <input type="hidden" class="subsheet-tabstoggle" name="attr_sheetCharacterSubTab" value="traits" />
+    <div>
+        <button type="action" name="act_traits">Traits</button>
+        <button type="action" name="act_skills">Skills</button>
+        <button type="action" name="act_static">Static</button>
+        <button type="action" name="act_training">Training</button>
+    </div>
+    <div height=10px></div>
+
+    <div class="sheet-character-traits">
+        <div class="grid-sheet-character">
+            <div class="grid-sheet-character">
+                <div class="grid-character-traits">
+                    <div class="grid-character-trait-label">
+                        Traits
+                    </div>
+                    <div class="grid-character-trait-item">
+                        <div class="trait-header">Dangerous
+                            <input class="trait-input" type="number" name="attr_trait_max_dangerous" step="1" value="0"
+                                min="0" max="20" />
+                            <input class="trait-input" type="text" name="attr_trait_dangerous" value="0" />
+                        </div>
+                    </div>
+                    <div class="grid-character-trait-item">
+                        <div class="trait-header">Deft
+                            <input class="trait-input" type="number" name="attr_trait_max_deft" step="1" value="0"
+                                min="0" max="20" />
+                            <input class="trait-input" type="text" name="attr_trait_deft" value="0" />
+                        </div>
+                    </div>
+                    <div class="grid-character-trait-item">
+                        <div class="trait-header">Savvy
+                            <input class="trait-input" type="number" name="attr_trait_max_savvy" step="1" value="0"
+                                min="0" max="20" />
+                            <input class="trait-input" type="text" name="attr_trait_savvy" value="0" />
+                        </div>
+                    </div>
+                    <div class="grid-character-trait-item">
+                        <div class="trait-header">Steady
+                            <input class="trait-input" type="number" name="attr_trait_max_steady" step="1" value="0"
+                                min="0" max="20" />
+                            <input class="trait-input" type="text" name="attr_trait_steady" value="0" />
+                        </div>
+                    </div>
+                    <div class="grid-character-trait-item">
+                        <div class="trait-header">Uncanny
+                            <input class="trait-input" type="number" name="attr_trait_max_uncanny" step="1" value="0"
+                                min="0" max="20" />
+                            <input class="trait-input" type="text" name="attr_trait_uncanny" value="0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-sheet-character">
+                <div class="grid-character-grit">
+                    <div class="grid-character-grit-label">
+                        Grit
+                    </div>
+                    <div class="grid-item"><input class="trait-input" type="number" name="attr_def_max_grit" step="1"
+                            value="0" min="0" max="20" />
+                        <input class="trait-input" type="number" name="attr_def_grit" step="1" value="0" min="0"
+                            max="20" />
+                    </div>
+                </div>
+                <div class="grid-character-defenses">
+                    <div class="grid-character-defense-label">
+                        Defenses
+                    </div>
+                    <div class="grid-character-defense-item">Primary Defense: </div>
+                    <div class="grid-character-defense-item">Nerve
+                        <input class="trait-input" type="number" name="attr_def_max_nerve" step="1" value="0" min="0"
+                            max="20" />
+                        <input class="trait-input" type="text" name="attr_def_nerve" value="0" />
+                    </div>
+                    <div class="grid-character-defense-item">Reflexes
+                        <input class="trait-input" type="number" name="attr_def_max_reflexes" step="1" value="0" min="0"
+                            max="20" />
+                        <input class="trait-input" type="text" name="attr_def_reflexes" value="0" />
+                    </div>
+                    <div class="grid-character-defense-item">Vigor
+                        <input class="trait-input" type="number" name="attr_def_max_vigor" step="1" value="0" min="0"
+                            max="20" />
+                        <input class="trait-input" type="text" name="attr_def_vigor" value="0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sheet-character-skills">
+        <div class="grid-character-skill">
+            <div class="grid-character-skills-trait-label">
+                Dangerous
+                <div class="grid-character-skills-type-label">
+                    Action Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Exert
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_exert}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Exert</button>
+                                <input type="radio" name="attr_skill_exert" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_exert" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_exert" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_exert" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_exert" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Grapple
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_grapple}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Grapple</button>
+                                <input type="radio" name="attr_skill_grapple" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_grapple" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_grapple" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_grapple" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_grapple" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Intimidate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{intimidate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Intimidate</button>
+                                <input type="radio" name="attr_intimidate" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_intimidate" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_intimidate" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_intimidate" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_intimidate" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Martial Arts
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Martial Arts</button>
+                                <input type="radio" name="attr_skill_martial_arts" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_martial_arts" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_martial_arts" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_martial_arts" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_martial_arts" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Shoot
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_shoot}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Shoot</button>
+                                <input type="radio" name="attr_skill_shoot" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_shoot" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_shoot" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_shoot" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_shoot" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Strike
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Strike</button>
+                                <input type="radio" name="attr_skill_strike" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_strike" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_strike" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_strike" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_strike" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Throw
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_throw}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Throw</button>
+                                <input type="radio" name="attr_skill_throw" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_throw" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_throw" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_throw" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_throw" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-character-skills-type-label">
+                    Effect Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Bellor
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_bellor}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Bellor</button>
+                                <input type="radio" name="attr_skill_bellor" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_bellor" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_bellor" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_bellor" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_bellor" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Inferno
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_inferno}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Inferno</button>
+                                <input type="radio" name="attr_skill_inferno" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_inferno" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_inferno" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_inferno" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_inferno" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Sangui
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_sangui}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Sangui</button>
+                                <input type="radio" name="attr_skill_sangui" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_sangui" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_sangui" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_sangui" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_sangui" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Tempest
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_tempest}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Tempest</button>
+                                <input type="radio" name="attr_skill_tempest" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_tempest" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tempest" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tempest" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tempest" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-character-skill">
+            <div class="grid-character-skills-trait-label">
+                Deft
+                <div class="grid-character-skills-type-label">
+                    Action Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Implements
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Implements</button>
+                                <input type="radio" name="attr_skill_implements" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_implements" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_implements" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_implements" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_implements" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Insight
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Insight</button>
+                                <input type="radio" name="attr_skill_insight" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_insight" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_insight" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_insight" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_insight" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Legerdemain
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{legerdemain}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Legerdemain</button>
+                                <input type="radio" name="attr_legerdemain" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_legerdemain" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_legerdemain" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_legerdemain" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_legerdemain" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Operate
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_operate}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Operate</button>
+                                <input type="radio" name="attr_skill_operate" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_operate" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_operate" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_operate" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_operate" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Stealth
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_stealth}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Stealth</button>
+                                <input type="radio" name="attr_skill_stealth" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_stealth" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_stealth" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_stealth" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_stealth" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Tactics
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_tactics}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Tactics</button>
+                                <input type="radio" name="attr_skill_tactics" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_tactics" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tactics" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tactics" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tactics" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Tumble
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_tumble}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Tumble</button>
+                                <input type="radio" name="attr_skill_tumble" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tumble" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tumble" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tumble" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tumble" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-character-skills-type-label">
+                    Effect Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Craft
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_craft}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Craft</button>
+                                <input type="radio" name="attr_skill_craft" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_craft" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_craft" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_craft" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_craft" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Mori
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_mori}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Mori</button>
+                                <input type="radio" name="attr_skill_mori" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_mori" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_mori" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_mori" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_mori" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Nox
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_nox}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Nox</button>
+                                <input type="radio" name="attr_skill_nox" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nox" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nox" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nox" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nox" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Plaga
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_plaga}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Plaga</button>
+                                <input type="radio" name="attr_skill_plaga" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_plaga" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_plaga" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_plaga" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_plaga" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Squall
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_squall}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Squall</button>
+                                <input type="radio" name="attr_skill_squall" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_squall" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_squall" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_squall" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_squall" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-character-skill">
+            <div class="grid-character-skills-trait-label">
+                Savvy
+                <div class="grid-character-skills-type-label">
+                    Action Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Analyze
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_analyze}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Analyze</button>
+                                <input type="radio" name="attr_skill_analyze" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_analyze" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_analyze" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_analyze" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_analyze" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Cosmology
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_cosmology}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Cosmology</button>
+                                <input type="radio" name="attr_skill_cosmology" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_cosmology" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_cosmology" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_cosmology" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_cosmology" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Current Events
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{current_events}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Current Events</button>
+                                <input type="radio" name="attr_current_events" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_current_events" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_current_events" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_current_events" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_current_events" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Deceive
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Deceive</button>
+                                <input type="radio" name="attr_skill_deceive" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_deceive" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_deceive" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_deceive" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_deceive" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - History
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_history}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">History</button>
+                                <input type="radio" name="attr_skill_history" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_history" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_history" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_history" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_history" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Linguistics
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_linguistics}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Linguistics</button>
+                                <input type="radio" name="attr_skill_linguistics" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_linguistics" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_linguistics" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_linguistics" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_linguistics" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Nature
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_nature}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Nature</button>
+                                <input type="radio" name="attr_skill_nature" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nature" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nature" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nature" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nature" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Navigate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_navigate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Navigate</button>
+                                <input type="radio" name="attr_skill_navigate" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_navigate" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_navigate" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_navigate" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_navigate" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Persuade
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Persuade</button>
+                                <input type="radio" name="attr_skill_persuade" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_persuade" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_persuade" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_persuade" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_persuade" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Research
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_research}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Research</button>
+                                <input type="radio" name="attr_skill_research" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_research" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_research" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_research" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_research" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Skrimisiology
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_skrimisiology}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Skrimisiology</button>
+                                <input type="radio" name="attr_skill_skrimisiology" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_skrimisiology" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_skrimisiology" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_skrimisiology" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_skrimisiology" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Streetwise
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_streetwise}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Streetwise</button>
+                                <input type="radio" name="attr_skill_streetwise" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_streetwise" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_streetwise" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_streetwise" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_streetwise" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Survival
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_survival}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Survival</button>
+                                <input type="radio" name="attr_skill_survival" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_survival" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_survival" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_survival" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_survival" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Theology
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_theology}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Theology</button>
+                                <input type="radio" name="attr_skill_theology" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_theology" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_theology" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_theology" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_theology" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-character-skills-type-label">
+                    Effect Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Arithm
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_arithm}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Arithm</button>
+                                <input type="radio" name="attr_skill_arithm" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_arithm" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_arithm" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_arithm" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_arithm" value="12"><span class="checkmark"></span>
+                            </div>
+
+                            <div class="grid-character-skill-col2">
+                                <div class="grid-character-skill-item">
+                                    <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Medicine
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Medicine</button>
+                                    <input type="radio" name="attr_skill_medicine" value="4" checked hidden><span
+                                        class="checkmark" checked></span>
+                                    <input type="radio" name="attr_skill_medicine" value="6"><span
+                                        class="checkmark"></span>
+                                    <input type="radio" name="attr_skill_medicine" value="8"><span
+                                        class="checkmark"></span>
+                                    <input type="radio" name="attr_skill_medicine" value="10"><span
+                                        class="checkmark"></span>
+                                    <input type="radio" name="attr_skill_medicine" value="12"><span
+                                        class="checkmark"></span>
+                                </div>
+                                <div class="grid-character-skill-item">
+                                    <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Mentis
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_mentis}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Mentis</button>
+                                    <input type="radio" name="attr_skill_mentis" value="4" checked hidden><span
+                                        class="checkmark" checked></span>
+                                    <input type="radio" name="attr_skill_mentis" value="6"><span
+                                        class="checkmark"></span>
+                                    <input type="radio" name="attr_skill_mentis" value="8"><span
+                                        class="checkmark"></span>
+                                    <input type="radio" name="attr_skill_mentis" value="10"><span
+                                        class="checkmark"></span>
+                                    <input type="radio" name="attr_skill_mentis" value="12"><span
+                                        class="checkmark"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Phylla
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_phylla}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Phylla</button>
+                                <input type="radio" name="attr_skill_phylla" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_phylla" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_phylla" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_phylla" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_phylla" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Rime
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_rime}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Rime</button>
+                                <input type="radio" name="attr_skill_rime" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_rime" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_rime" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_rime" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_rime" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Torrent
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_torrent}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Torrent</button>
+                                <input type="radio" name="attr_skill_torrent" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_torrent" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_torrent" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_torrent" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_torrent" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-character-skill">
+            <div class="grid-character-skills-trait-label">
+                Steady
+                <div class="grid-character-skills-type-label">
+                    Action Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Composure
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_composure}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Composure</button>
+                                <input type="radio" name="attr_skill_composure" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_composure" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_composure" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_composure" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_composure" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Endure
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_endure}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Endure</button>
+                                <input type="radio" name="attr_skill_endure" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_endure" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_endure" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_endure" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_endure" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Focus
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{focus}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Focus</button>
+                                <input type="radio" name="attr_focus" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_focus" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_focus" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_focus" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_focus" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Investigate
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_investigate}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Investigate</button>
+                                <input type="radio" name="attr_skill_investigate" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_investigate" value="6"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_investigate" value="8"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_investigate" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_investigate" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Lead
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Lead</button>
+                                <input type="radio" name="attr_skill_lead" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lead" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lead" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lead" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lead" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Perceive
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_perceive}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Perceive</button>
+                                <input type="radio" name="attr_skill_perceive" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_perceive" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_perceive" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_perceive" value="10"><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_perceive" value="12"><span
+                                    class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-character-skills-type-label">
+                    Effect Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Forma
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_forma}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Forma</button>
+                                <input type="radio" name="attr_skill_forma" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_forma" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_forma" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_forma" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_forma" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Locus
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_locus}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Locus</button>
+                                <input type="radio" name="attr_skill_locus" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_locus" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_locus" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_locus" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_locus" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Lux
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_lux}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Lux</button>
+                                <input type="radio" name="attr_skill_lux" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lux" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lux" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lux" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_lux" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Ordi
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_ordi}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Ordi</button>
+                                <input type="radio" name="attr_skill_ordi" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_ordi" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_ordi" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_ordi" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_ordi" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Tellus
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_tellus}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Tellus</button>
+                                <input type="radio" name="attr_skill_tellus" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tellus" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tellus" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tellus" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_tellus" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-character-skill">
+            <div class="grid-character-skills-trait-label">
+                Uncanny
+                <div class="grid-character-skills-type-label">
+                    Effect Skills
+                    <div class="grid-character-skill">
+                        <div class="grid-character-skill-col1">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Aether
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_aether}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Aether</button>
+                                <input type="radio" name="attr_skill_aether" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_aether" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_aether" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_aether" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_aether" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Destroy
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_destroy}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Destroy</button>
+                                <input type="radio" name="attr_skill_destroy" value="4" checked hidden><span
+                                    class="checkmark" checked></span>
+                                <input type="radio" name="attr_skill_destroy" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_destroy" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_destroy" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_destroy" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Intuit
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_intuit}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Intuit</button>
+                                <input type="radio" name="attr_skill_intuit" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_intuit" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_intuit" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_intuit" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_intuit" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+--name|@{name} - Luck
+--Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_luck}>4]]
+--Hits|[^skill.ss]
+--1s|[^skill.ones]
+--format|skillcheck
+}}">Luck</button>
+                                <input type="radio" name="attr_skill_luck" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_luck" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_luck" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_luck" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_luck" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="grid-character-skill-col2">
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Nihil
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_nihil}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Nihil</button>
+                                <input type="radio" name="attr_skill_nihil" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nihil" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nihil" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nihil" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_nihil" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Resist
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_resist}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Resist</button>
+                                <input type="radio" name="attr_skill_resist" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Resist
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_resist}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Resist</button>
+                                <input type="radio" name="attr_skill_resist" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_resist" value="12"><span class="checkmark"></span>
+                            </div>
+                            <div class="grid-character-skill-item">
+                                <button class="skill-button" type="roll" value="!power {{
+  --name|@{name} - Vivus
+  --Result Set| [[ [$skill|XPND] @{BAMF|challenge}d@{skill_vivus}>4]]
+  --Hits|[^skill.ss]
+  --1s|[^skill.ones]
+  --format|skillcheck
+  }}">Vivus</button>
+                                <input type="radio" name="attr_skill_vivus" value="4" checked hidden><span
+                                    class="checkmark"></span>
+                                <input type="radio" name="attr_skill_vivus" value="6"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_vivus" value="8"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_vivus" value="10"><span class="checkmark"></span>
+                                <input type="radio" name="attr_skill_vivus" value="12"><span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sheet-character-static">
+        <p>Static appear here.</p>
+    </div>
+
+    <div class="sheet-character-training">
+        <div class="grid-character-training">
+            <div class="grid-character-training-label">
+                Basics
+            </div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/aberrant.png"
+                    alt="Aberrant Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Aberrant <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_aberrant" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/acolyte.png"
+                    alt="Acolyte Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Acolyte <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_acolyte" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/alchemist.png"
+                    alt="Alchemist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Alchemist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_alchemist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/brute.png"
+                    alt="Brute Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Brute <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_brute" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/channeler.png"
+                    alt="Channeler Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Channeler <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_channeler" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/conduit.png"
+                    alt="Conduit Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Conduit <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_conduit" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/defender.png"
+                    alt="Defender Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Defender <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_defender" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/diplomat.png"
+                    alt="Diplomat Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Diplomat <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_diplomat" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/druid.png"
+                    alt="Druid Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Druid <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_druid" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/healer.png"
+                    alt="Healer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Healer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_healer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/magic-user.png"
+                    alt="Magic-User Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Magic-User <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_magic-user" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/marksman.png"
+                    alt="Marksman Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Marksman <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_marksman" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/martial_artist.png"
+                    alt="Martial Artist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Martial Artist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_martial artist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/mystic.png"
+                    alt="Mystic Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Mystic <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_mystic" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/overseer.png"
+                    alt="Overseer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Overseer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_overseer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/petitioner.png"
+                    alt="Petitioner Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Petitioner <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_petitioner" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/psion.png"
+                    alt="Psion Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Psion <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_psion" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/scholar.png"
+                    alt="Scholar Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Scholar <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_scholar" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/scoundrel.png"
+                    alt="Scoundrel Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Scoundrel <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_scoundrel" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/scout.png"
+                    alt="Scout Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Scout <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_scout" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/scrapper.png"
+                    alt="Scrapper Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Scrapper <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_scrapper" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/seer.png"
+                    alt="Seer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Seer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_seer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/shaman.png"
+                    alt="Shaman Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Shaman <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_shaman" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/shugenja.png"
+                    alt="Shugenja Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Shugenja <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_shugenja" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/soldier.png"
+                    alt="Soldier Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Soldier <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_soldier" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/tactician.png"
+                    alt="Tactician Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Tactician <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_tactician" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/tank.png"
+                    alt="Tank Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Tank <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_tank" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/thief.png"
+                    alt="Thief Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Thief <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_thief" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/troubadour.png"
+                    alt="Troubadour Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Troubadour <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_troubadour" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/witch.png"
+                    alt="Witch Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Witch <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_witch" step="1" value="0" min="0" max="20" /></span></div>
+        </div>
+        <div class="grid-character-training">
+            <div class="grid-character-training-label">
+                Specializations
+            </div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/adept.png"
+                    alt="Adept Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Adept <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_adept" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/assassin.png"
+                    alt="Assassin Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Assassin <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_assassin" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/athlete.png"
+                    alt="Athlete Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Athlete <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_athlete" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/balladeer.png"
+                    alt="Balladeer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Balladeer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_balladeer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/beastmaster.png"
+                    alt="Beastmaster Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Beastmaster <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_beastmaster" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/berserker.png"
+                    alt="Berserker Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Berserker <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_berserker" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/black_belt.png"
+                    alt="Black Belt Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Black Belt <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_black belt" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/bounty_hunter.png"
+                    alt="Bounty Hunter Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Bounty Hunter <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_bounty hunter" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/corsair.png"
+                    alt="Corsair Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Corsair <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_corsair" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/courtier.png"
+                    alt="Courtier Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Courtier <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_courtier" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/detective.png"
+                    alt="Detective Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Detective <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_detective" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/diabolist.png"
+                    alt="Diabolist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Diabolist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_diabolist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/duelist.png"
+                    alt="Duelist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Duelist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_duelist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/elementalist.png"
+                    alt="Elementalist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Elementalist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_elementalist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/engineer.png"
+                    alt="Engineer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Engineer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_engineer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/guardian.png"
+                    alt="Guardian Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Guardian <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_guardian" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/heretic.png"
+                    alt="Heretic Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Heretic <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_heretic" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/hunter.png"
+                    alt="Hunter Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Hunter <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_hunter" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/infiltrator.png"
+                    alt="Infiltrator Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Infiltrator <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_infiltrator" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/knight.png"
+                    alt="Knight Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Knight <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_knight" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/mage.png"
+                    alt="Mage Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Mage <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_mage" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/mage_hunter.png"
+                    alt="Mage Hunter Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Mage Hunter <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_mage hunter" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/medic.png"
+                    alt="Medic Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Medic <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_medic" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/mesmer.png"
+                    alt="Mesmer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Mesmer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_mesmer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/necromancer.png"
+                    alt="Necromancer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Necromancer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_necromancer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/nexus.png"
+                    alt="Nexus Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Nexus <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_nexus" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/operator.png"
+                    alt="Operator Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Operator <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_operator" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/priest.png"
+                    alt="Priest Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Priest <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_priest" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/pugilist.png"
+                    alt="Pugilist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Pugilist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_pugilist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/ranger.png"
+                    alt="Ranger Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Ranger <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_ranger" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/reaver.png"
+                    alt="Reaver Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Reaver <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_reaver" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/rhapsodist.png"
+                    alt="Rhapsodist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Rhapsodist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_rhapsodist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/samurai.png"
+                    alt="Samurai Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Samurai <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_samurai" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/shinobi.png"
+                    alt="Shinobi Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Shinobi <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_shinobi" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/skald.png"
+                    alt="Skald Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Skald <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_skald" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/slayer.png"
+                    alt="Slayer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Slayer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_slayer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/sniper.png"
+                    alt="Sniper Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Sniper <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_sniper" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/spy.png"
+                    alt="Spy Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Spy <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_spy" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/swashbuckler.png"
+                    alt="Swashbuckler Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Swashbuckler <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_swashbuckler" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/templar.png"
+                    alt="Templar Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Templar <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_templar" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/thrall.png"
+                    alt="Thrall Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Thrall <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_thrall" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/weapon_master.png"
+                    alt="Weapon Master Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Weapon Master <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_weapon master" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/wrestler.png"
+                    alt="Wrestler Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Wrestler <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_wrestler" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/pilot.png"
+                    alt="Pilot Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Pilot <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_pilot" step="1" value="0" min="0" max="20" /></span></div>
+
+        </div>
+        <div class="grid-character-training">
+            <div class="grid-character-training-label">
+                Disciplines
+            </div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/advocate.png"
+                    alt="Advocate Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Advocate <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_advocate" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/archmage.png"
+                    alt="Archmage Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Archmage <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_archmage" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/bard.png"
+                    alt="Bard Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Bard <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_bard" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/bastion.png"
+                    alt="Bastion Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Bastion <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_bastion" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/blackguard.png"
+                    alt="Blackguard Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Blackguard <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_blackguard" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/blade_weaver.png"
+                    alt="Blade Weaver Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Blade Weaver <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_blade weaver" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/cabalist.png"
+                    alt="Cabalist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Cabalist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_cabalist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/confessor.png"
+                    alt="Confessor Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Confessor <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_confessor" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/darksworn.png"
+                    alt="Darksworn Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Darksworn <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_darksworn" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/dissident.png"
+                    alt="Dissident Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Dissident <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_dissident" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/dragoon.png"
+                    alt="Dragoon Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Dragoon <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_dragoon" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/fury.png"
+                    alt="Fury Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Fury <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_fury" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/grandmaster.png"
+                    alt="Grandmaster Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Grandmaster <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_grandmaster" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/juggernaut.png"
+                    alt="Juggernaut Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Juggernaut <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_juggernaut" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/justiciar.png"
+                    alt="Justiciar Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Justiciar <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_justiciar" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/lich.png"
+                    alt="Lich Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Lich <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_lich" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/mageknight.png"
+                    alt="Mageknight Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Mageknight <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_mageknight" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/paragon.png"
+                    alt="Paragon Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Paragon <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_paragon" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/probabilist.png"
+                    alt="Probabilist Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Probabilist <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_probabilist" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/raindancer.png"
+                    alt="Raindancer Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Raindancer <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_raindancer" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/shadow.png"
+                    alt="Shadow Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Shadow <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_shadow" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/shifter.png"
+                    alt="Shifter Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Shifter <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_shifter" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/shock_trooper.png"
+                    alt="Shock Trooper Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Shock Trooper <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_shock trooper" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/spellreaver.png"
+                    alt="Spellreaver Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Spellreaver <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_spellreaver" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/summoner.png"
+                    alt="Summoner Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Summoner <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_summoner" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/transmuter.png"
+                    alt="Transmuter Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Transmuter <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_transmuter" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/traveler.png"
+                    alt="Traveler Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Traveler <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_traveler" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/vanguard.png"
+                    alt="Vanguard Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Vanguard <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_vanguard" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/warden.png"
+                    alt="Warden Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Warden <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_warden" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/warlord.png"
+                    alt="Warlord Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Warlord <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_warlord" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/zealot.png"
+                    alt="Zealot Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Zealot <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_zealot" step="1" value="0" min="0" max="20" /></span></div>
+            <div class="grid-character-training-item"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/zenith.png"
+                    alt="Zenith Icon" width="50px" height="50px" style="vertical-align: middle;"><span
+                    style="vertical-align: middle;">Zenith <input class="sheet-training-ranks" type="number"
+                        name="attr_training_rank_zenith" step="1" value="0" min="0" max="20" /></span></div>
+        </div>
+    </div>
+
+    <div class="sheet-training-talents">
+    </div>
+</div>
+</div>
+
+<div class="sheet-shifts">
+    <div class="grid-shifts">
+        <div class="grid-shifts-label">
+            Basic Shifts
+        </div>
+        <div class="grid-item">
+            Move
+            <div class="grid-item" style="font-size:10pt">
+                To an Adjacent Zone
+            </div>
+            <div class="grid-item" style="font-size:10pt">
+                Within your Current Zone
+            </div>
+        </div>
+        <div class="grid-item">
+            Defy danger
+            <div class="grid-item">
+                <button>Hide!</button>
+            </div>
+            <div class="grid-item">
+                <button>Parkour!</button>
+            </div>
+            <div class="grid-item">
+                <button>Prove your Mettle!</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            Use your equipment
+            <div class="grid-item" style="font-size:10pt">
+                Reload / Restring / Unjam a weapon
+            </div>
+            <div class="grid-item" style="font-size:10pt">
+                Draw / Change a weapon
+            </div>
+            <div class="grid-item" style="font-size:10pt">
+                Use a consumable item
+            </div>
+        </div>
+        <div class="grid-item">
+            Create an Advantage
+            <div class="grid-item">
+                <span style="font-size:10pt">Describe a way to use a Skill quickly to aid in your allies efforts.<br>
+                    <br>Roll up to Challenge to create a number of Advantages in the Current Zone equal to the total
+                    Hits in the result set.</span>
+            </div>
+            <div class="grid-item">
+                <button>Roll query for skill!</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            Use an Advantage
+            <div class="grid-item" style="font-size:10pt">Bonus Hits: Add +1d4 Bonus Hits to any roll.</div>
+            <div class="grid-item" style="font-size:10pt">Trigger a talent: Automatically use a Trigger Talent.</div>
+            <div class="grid-item" style="font-size:10pt">Ignore a Hazard: Remove 1 Hazard die from your next roll.
+            </div>
+            <div class="grid-item" style="font-size:10pt">Re-roll a 1: Re-roll a single die in a result set that landed
+                on 1.</div>
+            <div class="grid-item" style="font-size:10pt"> Calm the chaos: Reduce the current Entropy by 1.</div>
+        </div>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                Initiate a Contest
+                <div class="grid-item" style="font-size:10pt">You issue a challenge to a single enemy to engage you one
+                    on one. If they take up your Challenge, you enter into a <a
+                        href="https://donalharrison.github.io/no1_system/core/gameplay/contests/">Contest</a>.</div>
+            </div>
+            <div class="grid-item">
+                Wait for it. . .
+                <div class="grid-item" style="font-size:10pt">Prepare an Action until a certain condition is met, such
+                    as when an enemy enters their current Zone or an ally lights the wagon on fire. The player declares
+                    the Action and associated condition, then waits to make the roll to attempt the Action.</div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <div height=50px, style="background-color: #000000">
+    </div>
+    <div class="grid-shifts">
+        <div class="grid-shifts-label">
+            Talent Shifts
+        </div>
+        <div class="grid-item">
+            <input hidden class="sheet-training-ranks" type="number" name="attr_training_rank_ranger" step="1" value="0"
+                min="0" max="20" />
+            <div class="sheet-training-talents">
+                Ranger Talents
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="sheet-actions">
+    <h2>Actions</h2>
+    <span>Need Actions subtabs</span>
+    <input type="hidden" class="subsheet-tabstoggle" name="attr_sheetActionsSubTab" value="abilities" />
+    <div>
+        <button type="action" name="act_skills">Use your Skills</button>
+        <button type="action" name="act_abilities">Use an Ability</button>
+        <button type="action" name="act_shifts">Use a Shift</button>
+        <button type="action" name="act_recover">Recover</button>
+        <button type="action" name="act_maneuvers">Use a Maneuver</button>
+    </div>
+    <div class="sheet-actions-abilities">
+        <p>Abilities appear here.</p>
+        <input type="hidden" class="sheet-training-ranks" type="number" name="attr_training_rank_ranger" step="1"
+            value="0" min="0" max="20" />
+        <div class="sheet-training-talents">
+            Ranger Talents
+        </div>
+    </div>
+    <div class="sheet-actions-recover">
+        <p>Recover your defenses</p>
+        <button>Compsure for Nerve</button>
+        <button>Endure for Vigor</button>
+        <button>Focus for Reflexes</button>
+    </div>
+    <div class="sheet-actions-maneuvers">
+        <p>Maneuvers appear here.</p>
+    </div>
+</div>
+
+<div class="sheet-triggers">
+    <h2>Triggers</h2>
+    <span>Triggers go here.</span>
+</div>
+
+<div class="sheet-powers">
+    <h2>Actions</h2>
+    <span>Need Powers subtabs</span>
+</div>
+
+<div class="sheet-journal">
+    <h2>Journal/Notes</h2>
+    <span>Track Contacts, Renown, & Notes here</span>
+</div>
+
+
+<script type="text/worker">
+  const buttonlist = ["character","shifts","actions", "triggers", "powers", "journal"];
+    buttonlist.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetTab: button
+            });
+        });
+    });
+  
+  const buttonlist1 = ["traits","skills","static","training"];
+    buttonlist1.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetCharacterSubTab: button
+            });
+        });
+    });
+    
+  const buttonlist2 = ["skills","abilities","shifts","recover","maneuvers"];
+    buttonlist2.forEach(button => {
+        on(`clicked:${button}`, function() {
+            if (button == "skills")
+                {
+                    setAttrs({
+                        sheetTab: "character"
+                    });
+                    setAttrs({
+                        sheetCharacterSubTab: button
+                    });
+                }
+            else if (button == "shifts") {
+                    setAttrs({
+                        sheetTab: button
+                    });
+                }
+            else {
+                setAttrs({
+                    sheetActionsSubTab: button
+                    });
+                }
+        });
+    });
+
+  on('change:training_ranger_rank', function() {
+          setAttrs({ training_ranger_rank: value });
+        });
+
+</script>
