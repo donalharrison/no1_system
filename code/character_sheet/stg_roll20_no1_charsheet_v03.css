@@ -38,6 +38,7 @@
   display: block;
 }
 
+/*.charsheet .sheet-character*/
 .charsheet .sheet-training-ranks[value="0"] ~ .sheet-training-talents {
   display: none;
 }
@@ -45,6 +46,13 @@
 .charsheet .sheet-training-ranks ~ .sheet-training-talents {
   display: block;
 }
+
+input[type=checkbox]:not(:checked)~ .talent-rollbox {
+	display: none;
+	}
+input[type=checkbox]:checked~ .talent-rollbox {
+	display: block;
+	}
 
 .skill-list {
   /*display: inline-block;*/

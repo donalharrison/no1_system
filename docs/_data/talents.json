@@ -3192,12 +3192,12 @@
         {
             "tree": "Hunter",
             "name": "Aim",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+                "Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn."
             ]
         },
         {
@@ -3956,12 +3956,12 @@
         {
             "tree": "Marksman",
             "name": "Aim",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+                "Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn."
             ]
         },
         {
@@ -4083,7 +4083,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Shoot your target at Hazard 3."
+                "Shoot your target at Hazard 1.  Add +1d4 Bonus Hits to the result set."
             ]
         },
         {
@@ -6836,12 +6836,12 @@
         {
             "tree": "Soldier",
             "name": "Aim",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to aim carefully, then immediately Shoot your target.  Add +1d4 bonus Hits to the result set (bonus Hits do not count 1s against Initiative)."
+                "Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn."
             ]
         },
         {
