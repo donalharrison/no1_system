@@ -24,9 +24,27 @@
         </div>
         <div class="grid-banner grid-banner-hazards">
             <div class="grid-item">Hazards</div>
-            <div class="grid-item">1:<button name="roll_1dH" type="roll" value="/roll 1d4>4"></button></div>
-            <div class="grid-item">2:<button name="roll_2dH" type="roll" value="/roll 2d4>4"></button></div>
-            <div class="grid-item">3:<button name="roll_3dH" type="roll" value="/roll 3d4>4"></button></div>
+            <div class="grid-item">1:<button name="roll_1dH" type="roll" value="!power {{
+                --name|@{name} - Hazard Roll
+                --Result Set|[[ [$hazard|XPND] 1d4>4]]
+                --Hits|[^hazard.ss]
+                --1s|[^hazard.ones]
+                --format|hazardcheck
+                }}"></button></div>
+            <div class="grid-item">2:<button name="roll_2dH" type="roll" value="!power {{
+                --name|@{name} - Hazard Roll
+                --Result Set|[[ [$hazard|XPND] 2d4>4]]
+                --Hits|[^hazard.ss]
+                --1s|[^hazard.ones]
+                --format|hazardcheck
+                }}"></button></div>
+            <div class="grid-item">3:<button name="roll_3dH" type="roll" value="!power {{
+                --name|@{name} - Hazard Roll
+                --Result Set|[[ [$hazard|XPND] 3d4>4]]
+                --Hits|[^hazard.ss]
+                --1s|[^hazard.ones]
+                --format|hazardcheck
+                }}"></button></div>
         </div>
     </div>
     <div class="grid-banner">
@@ -1925,12 +1943,13 @@
         </div>
     </div>
     <div class="grid-container-talents">
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_assassin" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Marked for Death<br><span
-                        style="font-size:10pt;">Assassin</span></label>
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_assassin" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Assassin</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Marked for Death<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result
                         set. Your target is Vulnerable 1 to any Action you take against it while the Aura persists.</p>
@@ -1946,79 +1965,99 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_conduit" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Attuning Conflux<br><span style="font-size:10pt;">Conduit</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_conduit" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Conduit</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Attuning Conflux<br><span
+                        style="font-size:8pt;">Rank 3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend X Hits from the result set of the next Marvel you use this turn to increase your Attunement
-                        by X.</p>
+                        by
+                        X.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Attuning Conflux
-            --Effect|Spend X Hits from the result set of the next Marvel you use this turn to increase your Attunement by X.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Attuning Conflux
+                --Effect|Spend X Hits from the result set of the next Marvel you use this turn to increase your Attunement by X.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_defender" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Stay Close to Me<br><span
-                        style="font-size:10pt;">Defender</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_defender" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Defender</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Stay Close to Me<br><span
+                        style="font-size:8pt;">Rank 1</span></label>
                 <div class="talent-rollbox">
                     <p>Use a Shift to protect 1 ally in your Current Zone.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Stay Close to Me
-            --Effect|Use a Shift to protect 1 ally in your Current Zone.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Stay Close to Me
+                --Effect|Use a Shift to protect 1 ally in your Current Zone.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_druid" step="1" value="0" min="0"
-                max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Nature's Wrath<br><span style="font-size:10pt;">Druid</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_druid" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Druid</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Nature's Wrath<br><span
+                        style="font-size:8pt;">Rank
+                        3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend X Attunement and spend an Action to use two Marvels. You can add +X bonus Hits to either
                         Marvel's result set.<br>Your Attunement decreases to 0.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Nature's Wrath
-            --Effect|Spend X Attunement and spend an Action to use two Marvels.  You can add +X bonus Hits to either Marvel's result set.<br>Your Attunement decreases to 0.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Nature's Wrath
+                --Effect|Spend X Attunement and spend an Action to use two Marvels.  You can add +X bonus Hits to either Marvel's result set.<br>Your Attunement decreases to 0.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_elementalist" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Shape the elements<br><span
-                        style="font-size:10pt;">Elementalist</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_elementalist" step="1" value="0"
+            min="0" max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Elementalist</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Shape the elements<br><span
+                        style="font-size:8pt;">Rank 1</span></label>
                 <div class="talent-rollbox">
                     <p>Spend 2 Meomentum and gain +2 Current.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Shape the elements
-            --Effect|Spend 2 Meomentum and gain +2 Current.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Shape the elements
+                --Effect|Spend 2 Meomentum and gain +2 Current.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_hunter" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Aim<br><span style="font-size:10pt;">Hunter</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_hunter" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Hunter</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Aim<br><span style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Use a Shift to aim carefully. Add +1d4 Bonus Hits to your next Shoot result set this turn.</p>
                     <button class="skill-button" type="roll" value="!power {{
@@ -2032,16 +2071,13 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_hunter" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Predator’s Instinct<br><span
-                        style="font-size:10pt;">Hunter</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Predator’s Instinct<br><span
+                        style="font-size:8pt;">Rank 3</span></label>
                 <div class="talent-rollbox">
                     <p>Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt
-                        or Initiative Test.</p>
+                        or
+                        Initiative Test.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Predator’s Instinct
             --Effect|Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt or Initiative Test.
@@ -2063,45 +2099,51 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_knight" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Dedicated Exemplar<br><span
-                        style="font-size:10pt;">Knight</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_knight" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Knight</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Dedicated Exemplar<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Spend X Dedication to add X Hits to your next roll.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Dedicated Exemplar
-            --Effect|Spend X Dedication to add X Hits to your next roll.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Dedicated Exemplar
+                --Effect|Spend X Dedication to add X Hits to your next roll.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_knight" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Momentous Act<br><span style="font-size:10pt;">Knight</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Momentous Act<br><span
+                        style="font-size:8pt;">Rank
+                        3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend 2 Momentum, then take an Action. If there are no 1s in the result set, increase the
-                        Momentum by +5.</p>
+                        Momentum by
+                        +5.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Momentous Act
-            --Effect|Spend 2 Momentum, then take an Action.  If there are no 1s in the result set, increase the Momentum by +5.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Momentous Act
+                --Effect|Spend 2 Momentum, then take an Action.  If there are no 1s in the result set, increase the Momentum by +5.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_marksman" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Aim<br><span style="font-size:10pt;">Marksman</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_marksman" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Marksman</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Aim<br><span style="font-size:8pt;">Rank
+                        1</span></label>
                 <div class="talent-rollbox">
                     <p>Use a Shift to aim carefully. Add +1d4 Bonus Hits to your next Shoot result set this turn.</p>
                     <button class="skill-button" type="roll" value="!power {{
@@ -2115,16 +2157,15 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_marksman" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Patient Shot<br><span style="font-size:10pt;">Marksman</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Patient Shot<br><span
+                        style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Use a Shift to Wait For It with the condition that an ally scores 1+ Hits against your target in
                         melee combat. When the the condition is met, Shoot your target dealing Hits directly to their
-                        Grit.</p>
+                        Grit.
+                    </p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Patient Shot
             --Effect|Use a Shift to Wait For It with the condition that an ally scores 1+ Hits against your target in melee combat.  When the the condition is met, Shoot your target dealing Hits directly to their Grit.
@@ -2137,32 +2178,39 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_martial artist" step="1"
-                value="0" min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Float like a butterfly. . .<br><span style="font-size:10pt;">Martial
-                        Artist</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_martial artist" step="1" value="0"
+            min="0" max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Martial Artist</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Float like a butterfly. . .<br><span
+                        style="font-size:8pt;">Rank 1</span></label>
                 <div class="talent-rollbox">
                     <p>Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Float like a butterfly. . .
-            --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Float like a butterfly. . .
+                --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_templar" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Strike with Conviction<br><span
-                        style="font-size:10pt;">Templar</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_templar" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Templar</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Strike with Conviction<br><span
+                        style="font-size:8pt;">Rank 1</span></label>
                 <div class="talent-rollbox">
                     <p>Spend 2 Conviction. The next time you Strike, Shoot, or use Martial Arts against a target this
-                        turn, automatically us one Effect Trigger from you Boon.</p>
+                        turn,
+                        automatically us one Effect Trigger from you Boon.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Strike with Conviction
             --Effect|Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon.
@@ -2192,34 +2240,34 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_templar" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Relentless Conviction<br><span
-                        style="font-size:10pt;">Templar</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Relentless Conviction<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Increase the Entropy by +2 to regain +3 Conviction</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Relentless Conviction
-            --Effect|Increase the Entropy by +2 to regain +3 Conviction
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Relentless Conviction
+                --Effect|Increase the Entropy by +2 to regain +3 Conviction
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_overseer" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Coordinated Strike<br><span
-                        style="font-size:10pt;">Overseer</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_overseer" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Overseer</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Coordinated Strike<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Lead your Minions to launch a coordinated melee against a single target in your Current or an
                         Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in
-                        the target's Current Zone.</p>
+                        the
+                        target's Current Zone.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Coordinated Strike
             --Effect|Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone.
@@ -2231,17 +2279,15 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_overseer" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Coordinated Volley<br><span
-                        style="font-size:10pt;">Overseer</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Coordinated Volley<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Lead your Minions to launch a coordinated ranged attack against a single target in your Current
-                        or an Adjacent Zone, dealing X Hits the the target, where X is the sum of your Minons' Ranged
-                        stat in the target's Current Zone.</p>
+                        or an
+                        Adjacent Zone, dealing X Hits the the target, where X is the sum of your Minons' Ranged stat in
+                        the
+                        target's Current Zone.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Coordinated Volley
             --Effect|Lead your Minions to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the sum of your Minons' Ranged stat in the target's Current Zone.
@@ -2254,17 +2300,23 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_necromancer" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Rip and Tear!<br><span
-                        style="font-size:10pt;">Necromancer</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_necromancer" step="1" value="0"
+            min="0" max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Necromancer</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Rip and Tear!<br><span
+                        style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Lead your Minions to launch a coordinated melee against a single target in your Current or an
                         Adjacent Zone, dealing X Hits to the target, where X is the + sum of your Minions' Melee stat in
-                        the target's Current Zone.<br>If the target dies, one other target in the same Zone becomes
-                        Afraid of your Minions.</p>
+                        the
+                        target's Current Zone.<br>If the target dies, one other target in the same Zone becomes Afraid
+                        of
+                        your Minions.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Rip and Tear!
             --Effect|Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the + sum of your Minions' Melee stat in the target's Current Zone.<br>If the target dies, one other target in the same Zone becomes Afraid of your Minions.
@@ -2276,17 +2328,16 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_necromancer" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Death's Reach<br><span
-                        style="font-size:10pt;">Necromancer</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Death's Reach<br><span
+                        style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Lead your Haunts to launch a coordinated ranged attack against a single target in your Current or
-                        an Adjacent Zone, dealing X Hits the the target, where X is the Hits in the result set + sum of
-                        your Haunts Ranged stat in the target's Current Zone.</p>
+                        an
+                        Adjacent Zone, dealing X Hits the the target, where X is the Hits in the result set + sum of
+                        your
+                        Haunts Ranged stat in the target's Current Zone.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Death's Reach
             --Effect|Lead your Haunts to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the Hits in the result set + sum of your Haunts Ranged stat in the target's Current Zone.
@@ -2299,15 +2350,21 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_beastmaster" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Pack Tactics<br><span style="font-size:10pt;">Beastmaster</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_beastmaster" step="1" value="0"
+            min="0" max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Beastmaster</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Pack Tactics<br><span
+                        style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Lead your Minions to launch a coordinated melee against a single target in your Current or an
                         Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in
-                        the target's Current Zone.</p>
+                        the
+                        target's Current Zone.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Pack Tactics
             --Effect|Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone.
@@ -2320,44 +2377,56 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_nexus" step="1" value="0" min="0"
-                max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Momentous Marvel<br><span style="font-size:10pt;">Nexus</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_nexus" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Nexus</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Momentous Marvel<br><span
+                        style="font-size:8pt;">Rank 3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend 4 Momentum and immediately use one of your Marvels without spending an Action.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Momentous Marvel
-            --Effect|Spend 4 Momentum and immediately use one of your Marvels without spending an Action.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Momentous Marvel
+                --Effect|Spend 4 Momentum and immediately use one of your Marvels without spending an Action.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_pugilist" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Float like a butterfly. . .<br><span
-                        style="font-size:10pt;">Pugilist</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_pugilist" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Pugilist</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Float like a butterfly. . .<br><span
+                        style="font-size:8pt;">Rank 1</span></label>
                 <div class="talent-rollbox">
                     <p>Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Float like a butterfly. . .
-            --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Float like a butterfly. . .
+                --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_ranger" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Warden's Mark<br><span style="font-size:10pt;">Ranger</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_ranger" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Ranger</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Warden's Mark<br><span
+                        style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result
                         set. Your target is Vulnerable 1 to any Action you take against it while the Aura persists.</p>
@@ -2373,78 +2442,100 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scrapper" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Float like a butterfly. . .<br><span
-                        style="font-size:10pt;">Scrapper</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scrapper" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Scrapper</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Float like a butterfly. . .<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Float like a butterfly. . .
-            --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Float like a butterfly. . .
+                --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_seer" step="1" value="0" min="0"
-                max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Dig Through Time<br><span style="font-size:10pt;">Seer</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_seer" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Seer</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Dig Through Time<br><span
+                        style="font-size:8pt;">Rank 3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend X Momentum to add X Bonus Hits to the next Portent you use this turn.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Dig Through Time
-            --Effect|Spend X Momentum to add X Bonus Hits to the next Portent you use this turn.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Dig Through Time
+                --Effect|Spend X Momentum to add X Bonus Hits to the next Portent you use this turn.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shaman" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Humble Offering<br><span style="font-size:10pt;">Shaman</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shaman" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Shaman</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Humble Offering<br><span
+                        style="font-size:8pt;">Rank
+                        3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in
-                        that Spirit by +1.</p>
+                        that
+                        Spirit by +1.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Humble Offering
-            --Effect|Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Humble Offering
+                --Effect|Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shugenja" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Shugen-do<br><span style="font-size:10pt;">Shugenja</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shugenja" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Shugenja</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Shugen-do<br><span style="font-size:8pt;">Rank
+                        3</span></label>
                 <div class="talent-rollbox">
                     <p>Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in
-                        that Spirit by +1.</p>
+                        that
+                        Spirit by +1.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Shugen-do
-            --Effect|Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Shugen-do
+                --Effect|Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_soldier" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Aim<br><span style="font-size:10pt;">Soldier</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_soldier" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Soldier</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Aim<br><span style="font-size:8pt;">Rank
+                        2</span></label>
                 <div class="talent-rollbox">
                     <p>Use a Shift to aim carefully. Add +1d4 Bonus Hits to your next Shoot result set this turn.</p>
                     <button class="skill-button" type="roll" value="!power {{
@@ -2458,15 +2549,13 @@
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_soldier" step="1" value="0"
-                min="0" max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Flanking<br><span style="font-size:10pt;">Soldier</span></label>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Flanking<br><span style="font-size:8pt;">Rank
+                        3</span></label>
                 <div class="talent-rollbox">
                     <p>Use your Tactics to position yourself and an ally in your current Zone advantageously, choosing
-                        one target in your current Zone to gain a Vulnerable rating equal to Hits.</p>
+                        one
+                        target in your current Zone to gain a Vulnerable rating equal to Hits.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Flanking
             --Effect|Use your Tactics to position yourself and an ally in your current Zone advantageously, choosing one target in your current Zone to gain a Vulnerable rating equal to Hits.
@@ -2479,30 +2568,39 @@
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_tank" step="1" value="0" min="0"
-                max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Walk it off<br><span style="font-size:10pt;">Tank</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_tank" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Tank</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Walk it off<br><span style="font-size:8pt;">Rank
+                        3</span></label>
                 <div class="talent-rollbox">
                     <p>Use the Recover action.</p>
                     <button class="skill-button" type="roll" value="!power {{
-            --name|@{Name} - Walk it off
-            --Effect|Use the Recover action.
-            --format|shiftcheck
-            }}">
+                --name|@{Name} - Walk it off
+                --Effect|Use the Recover action.
+                --format|shiftcheck
+                }}">
                     </button>
                 </div>
             </div>
         </div>
-        <div class="grid-item-talents">
-            <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scout" step="1" value="0" min="0"
-                max="20" />
-            <div class="sheet-training-talents">
-                <input type="checkbox" /><label>Pathfinder's Mark<br><span style="font-size:10pt;">Scout</span></label>
+    </div>
+    <div class="grid-container-talents">
+        <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scout" step="1" value="0" min="0"
+            max="20" />
+        <div class="sheet-training-talents">
+            <h4 class="grid-talents-label" style="margin-bottom:4px;">Scout</h4>
+            <div class="grid-item-talents">
+                <input type="checkbox" /><label style="font-size:12pt;">Pathfinder's Mark<br><span
+                        style="font-size:8pt;">Rank 2</span></label>
                 <div class="talent-rollbox">
                     <p>Use your Survival skill to Create an Advantage while scouting ahead of your allies, adding +1d4
-                        Bonus Hits to the result set.</p>
+                        Bonus
+                        Hits to the result set.</p>
                     <button class="skill-button" type="roll" value="!power {{
             --name|@{name} - Pathfinder's Mark
             --Effect|Use your Survival skill to Create an Advantage while scouting ahead of your allies, adding +1d4 Bonus Hits to the result set.
