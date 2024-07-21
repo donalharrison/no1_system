@@ -5670,7 +5670,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -5684,7 +5684,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "One target in your Current Zone takes X Hits, X. . ."
+                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -5694,7 +5694,7 @@
             "rank": "2",
             "skill": "Aether",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5707,7 +5707,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -5753,7 +5753,7 @@
             "rank": "2",
             "skill": "Aether",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -5762,7 +5762,7 @@
             "rank": "3",
             "skill": "Aether",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5771,7 +5771,7 @@
             "rank": "1",
             "skill": "Aether",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5780,7 +5780,7 @@
             "rank": "3",
             "skill": "Aether",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits, X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5825,7 +5825,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -5839,7 +5839,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "One target in your Current Zone takes X Hits, X. . ."
+                    "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -5849,7 +5849,7 @@
             "rank": "2",
             "skill": "Bellor",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5862,7 +5862,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -5918,7 +5918,7 @@
             "rank": "2",
             "skill": "Bellor",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -5927,7 +5927,7 @@
             "rank": "3",
             "skill": "Bellor",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5936,7 +5936,7 @@
             "rank": "1",
             "skill": "Bellor",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5945,7 +5945,7 @@
             "rank": "3",
             "skill": "Bellor",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5990,7 +5990,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6000,7 +6000,7 @@
             "rank": "1",
             "skill": "Inferno",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6009,7 +6009,7 @@
             "rank": "2",
             "skill": "Inferno",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6022,7 +6022,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -6078,7 +6078,7 @@
             "rank": "2",
             "skill": "Inferno",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -6087,7 +6087,7 @@
             "rank": "3",
             "skill": "Inferno",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6096,7 +6096,7 @@
             "rank": "1",
             "skill": "Inferno",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6105,7 +6105,7 @@
             "rank": "3",
             "skill": "Inferno",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6150,7 +6150,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6160,7 +6160,7 @@
             "rank": "1",
             "skill": "Lux",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6169,7 +6169,7 @@
             "rank": "2",
             "skill": "Lux",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6182,7 +6182,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -6238,7 +6238,7 @@
             "rank": "2",
             "skill": "Lux",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -6247,7 +6247,7 @@
             "rank": "3",
             "skill": "Lux",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6256,7 +6256,7 @@
             "rank": "1",
             "skill": "Lux",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6265,7 +6265,7 @@
             "rank": "3",
             "skill": "Lux",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6310,7 +6310,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6320,7 +6320,7 @@
             "rank": "1",
             "skill": "Mori",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6329,7 +6329,7 @@
             "rank": "2",
             "skill": "Mori",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6342,7 +6342,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -6398,7 +6398,7 @@
             "rank": "2",
             "skill": "Mori",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -6407,7 +6407,7 @@
             "rank": "3",
             "skill": "Mori",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6416,7 +6416,7 @@
             "rank": "1",
             "skill": "Mori",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6425,7 +6425,7 @@
             "rank": "3",
             "skill": "Mori",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6470,7 +6470,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6480,7 +6480,7 @@
             "rank": "1",
             "skill": "Nihil",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6489,7 +6489,7 @@
             "rank": "2",
             "skill": "Nihil",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6502,7 +6502,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -6558,7 +6558,7 @@
             "rank": "2",
             "skill": "Nihil",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -6567,7 +6567,7 @@
             "rank": "3",
             "skill": "Nihil",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6576,7 +6576,7 @@
             "rank": "1",
             "skill": "Nihil",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6585,7 +6585,7 @@
             "rank": "3",
             "skill": "Nihil",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6630,7 +6630,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6640,7 +6640,7 @@
             "rank": "1",
             "skill": "Nox",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6649,7 +6649,7 @@
             "rank": "2",
             "skill": "Nox",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6662,7 +6662,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -6718,7 +6718,7 @@
             "rank": "2",
             "skill": "Nox",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -6727,7 +6727,7 @@
             "rank": "3",
             "skill": "Nox",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6736,7 +6736,7 @@
             "rank": "1",
             "skill": "Nox",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6745,7 +6745,7 @@
             "rank": "3",
             "skill": "Nox",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6790,7 +6790,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6800,7 +6800,7 @@
             "rank": "1",
             "skill": "Ordi",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6809,7 +6809,7 @@
             "rank": "2",
             "skill": "Ordi",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6822,7 +6822,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -6878,7 +6878,7 @@
             "rank": "2",
             "skill": "Ordi",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -6887,7 +6887,7 @@
             "rank": "3",
             "skill": "Ordi",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6896,7 +6896,7 @@
             "rank": "1",
             "skill": "Ordi",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6905,7 +6905,7 @@
             "rank": "3",
             "skill": "Ordi",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6950,7 +6950,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -6960,7 +6960,7 @@
             "rank": "1",
             "skill": "Phylla",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6969,7 +6969,7 @@
             "rank": "2",
             "skill": "Phylla",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6982,7 +6982,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7038,7 +7038,7 @@
             "rank": "2",
             "skill": "Phylla",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -7047,7 +7047,7 @@
             "rank": "3",
             "skill": "Phylla",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7056,7 +7056,7 @@
             "rank": "1",
             "skill": "Phylla",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7065,7 +7065,7 @@
             "rank": "3",
             "skill": "Phylla",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7110,7 +7110,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -7120,7 +7120,7 @@
             "rank": "1",
             "skill": "Rime",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7129,7 +7129,7 @@
             "rank": "2",
             "skill": "Rime",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7142,7 +7142,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7198,7 +7198,7 @@
             "rank": "2",
             "skill": "Rime",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -7207,7 +7207,7 @@
             "rank": "3",
             "skill": "Rime",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7216,7 +7216,7 @@
             "rank": "1",
             "skill": "Rime",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7225,7 +7225,7 @@
             "rank": "3",
             "skill": "Rime",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7270,7 +7270,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -7280,7 +7280,7 @@
             "rank": "1",
             "skill": "Squall",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7289,7 +7289,7 @@
             "rank": "2",
             "skill": "Squall",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7302,7 +7302,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7358,7 +7358,7 @@
             "rank": "2",
             "skill": "Squall",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -7367,7 +7367,7 @@
             "rank": "3",
             "skill": "Squall",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7376,7 +7376,7 @@
             "rank": "1",
             "skill": "Squall",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7385,7 +7385,7 @@
             "rank": "3",
             "skill": "Squall",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7430,7 +7430,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -7440,7 +7440,7 @@
             "rank": "1",
             "skill": "Tellus",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7449,7 +7449,7 @@
             "rank": "2",
             "skill": "Tellus",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7462,7 +7462,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7518,7 +7518,7 @@
             "rank": "2",
             "skill": "Tellus",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -7527,7 +7527,7 @@
             "rank": "3",
             "skill": "Tellus",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7536,7 +7536,7 @@
             "rank": "1",
             "skill": "Tellus",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7545,7 +7545,7 @@
             "rank": "3",
             "skill": "Tellus",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7590,7 +7590,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -7600,7 +7600,7 @@
             "rank": "1",
             "skill": "Tempest",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7609,7 +7609,7 @@
             "rank": "2",
             "skill": "Tempest",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7622,7 +7622,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7678,7 +7678,7 @@
             "rank": "2",
             "skill": "Tempest",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -7687,7 +7687,7 @@
             "rank": "3",
             "skill": "Tempest",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7696,7 +7696,7 @@
             "rank": "1",
             "skill": "Tempest",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7705,7 +7705,7 @@
             "rank": "3",
             "skill": "Tempest",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7750,7 +7750,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -7760,7 +7760,7 @@
             "rank": "1",
             "skill": "Torrent",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7769,7 +7769,7 @@
             "rank": "2",
             "skill": "Torrent",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7782,7 +7782,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7838,7 +7838,7 @@
             "rank": "2",
             "skill": "Torrent",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -7847,7 +7847,7 @@
             "rank": "3",
             "skill": "Torrent",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7856,7 +7856,7 @@
             "rank": "1",
             "skill": "Torrent",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7865,7 +7865,7 @@
             "rank": "3",
             "skill": "Torrent",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7910,7 +7910,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>"
                 }
             ],
             "keywords": "Ongoing 1"
@@ -7920,7 +7920,7 @@
             "rank": "1",
             "skill": "Vivus",
             "type": "Ability",
-            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7929,7 +7929,7 @@
             "rank": "2",
             "skill": "Vivus",
             "type": "Ability",
-            "effect": "One target [current] takes X Hits, X. . .",
+            "effect": "One target in your current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7942,7 +7942,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "keywords": ""
@@ -7998,7 +7998,7 @@
             "rank": "2",
             "skill": "Vivus",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
             "threshold": null,
             "keywords": ""
         },
@@ -8007,7 +8007,7 @@
             "rank": "3",
             "skill": "Vivus",
             "type": "Ability",
-            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -8016,7 +8016,7 @@
             "rank": "1",
             "skill": "Vivus",
             "type": "Shift",
-            "effect": "You gain Armor Defense X, X. . .",
+            "effect": "You gain Armor Defense X, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -8025,7 +8025,7 @@
             "rank": "3",
             "skill": "Vivus",
             "type": "Ability",
-            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -8187,7 +8187,7 @@
             "rank": "2",
             "Skill": "Aether",
             "type": "Static",
-            "effect": "Your Essence Ray gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits, X. . ..</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Aether.",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Aether.",
             "threshold": null,
             "keywords": ""
         },
@@ -8223,7 +8223,7 @@
             "rank": "2",
             "Skill": "Mori",
             "type": "Static",
-            "effect": "Your Essence Ray gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1.  The target recovers +X to their Primary Defense, X. . .</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Mori.",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1.  The target recovers +X to their Primary Defense, where X is equal to Hits in the result set.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Mori.",
             "threshold": null,
             "keywords": ""
         },
@@ -8232,7 +8232,7 @@
             "rank": "2",
             "Skill": "Nihil",
             "type": "Static",
-            "effect": "Your Essence Ray gains the following options: <ul><li>The target takes X Hits, X. . .   Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Nihil.",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target takes X Hits, where X is equal to Hits in the result set.   Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Nihil.",
             "threshold": null,
             "keywords": ""
         },
@@ -8322,7 +8322,7 @@
             "rank": "2",
             "Skill": "Aether",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
             "threshold": null,
             "keywords": ""
         },
@@ -8331,7 +8331,7 @@
             "rank": "2",
             "Skill": "Bellor",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
             "threshold": null,
             "keywords": ""
         },
@@ -8340,7 +8340,7 @@
             "rank": "2",
             "Skill": "Inferno",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
             "threshold": null,
             "keywords": ""
         },
@@ -8349,7 +8349,7 @@
             "rank": "2",
             "Skill": "Lux",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
             "threshold": null,
             "keywords": ""
         },
@@ -8358,7 +8358,7 @@
             "rank": "2",
             "Skill": "Mori",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Vulnerable 1.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Vulnerable 1.",
             "threshold": null,
             "keywords": ""
         },
@@ -8367,7 +8367,7 @@
             "rank": "2",
             "Skill": "Nihil",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 2.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 2.",
             "threshold": null,
             "keywords": ""
         },
@@ -8376,7 +8376,7 @@
             "rank": "2",
             "Skill": "Nox",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All allies in the Hazard's Zone recover gain th.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All allies in the Hazard's Zone recover gain th.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
             "threshold": null,
             "keywords": ""
         },
@@ -8385,7 +8385,7 @@
             "rank": "2",
             "Skill": "Ordi",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Silenced 1 and Restrained 2.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Silenced 1 and Restrained 2.",
             "threshold": null,
             "keywords": ""
         },
@@ -8394,7 +8394,7 @@
             "rank": "2",
             "Skill": "Phylla",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Charmed 2 and Restrained 1.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Charmed 2 and Restrained 1.",
             "threshold": null,
             "keywords": ""
         },
@@ -8403,7 +8403,7 @@
             "rank": "2",
             "Skill": "Rime",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Frozen 2.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Frozen 2.",
             "threshold": null,
             "keywords": ""
         },
@@ -8412,7 +8412,7 @@
             "rank": "2",
             "Skill": "Squall",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and are moved to one Adjacent Zone and become Prone.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and are moved to one Adjacent Zone and become Prone.",
             "threshold": null,
             "keywords": ""
         },
@@ -8421,7 +8421,7 @@
             "rank": "2",
             "Skill": "Tellus",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1 and Slowed 2.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1 and Slowed 2.",
             "threshold": null,
             "keywords": ""
         },
@@ -8430,7 +8430,7 @@
             "rank": "2",
             "Skill": "Tempest",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 1 and Dazed 2.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 1 and Dazed 2.",
             "threshold": null,
             "keywords": ""
         },
@@ -8439,7 +8439,7 @@
             "rank": "2",
             "Skill": "Torrent",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 2 and become Prone.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 2 and become Prone.",
             "threshold": null,
             "keywords": ""
         },
@@ -8448,7 +8448,7 @@
             "rank": "2",
             "Skill": "Vivus",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels [current].  You and all allies in the Hazard's Zone reduce one Status by -1 and either regain +3 Grit or immediately use the Recover Action.",
+            "effect": "Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  You and all allies in the Hazard's Zone reduce one Status by -1 and either regain +3 Grit or immediately use the Recover Action.",
             "threshold": null,
             "keywords": ""
         },

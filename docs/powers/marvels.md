@@ -38,7 +38,7 @@ To use a Marvel, your current Attunement must be equal to or greater than the Ma
                     <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
                         <h3 style="margin-top: 5px;">{{r.name}}</h3>
                         <h4 style="margin-top: 5px;">{{r.type}}</h4>
-                        <h5 style="margin-top: 5px;">{{r.rank}}</h5>
+                        <h5 style="margin-top: 5px;">Rank &mdash; {{r.rank}}</h5>
                         <em>{{r.keywords | join: ", "}}</em>
                         <details>
                         <summary></summary>
