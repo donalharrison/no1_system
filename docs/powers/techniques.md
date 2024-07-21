@@ -31,12 +31,14 @@ Each Technique includes a *Cost* & a *Current* value.  The Cost value is how muc
                     <div style="background-color: #37344f50; margin: 10px; padding: 5px;">
                         <h3 style="margin-top: 5px;">{{t.name}}</h3>
                         <h4 style="margin-top: 5px;">{{t.type}}</h4>
+                        <h5 style="margin-top: 5px;">Cost &mdash; {{t.cost}}</h5>
                         <em>{{t.keywords | join: ", "}}</em>
                         <details>
                         <summary></summary>
                             {% if t.requires %}
                                 <p><em>Requires: </em>{{t.requires}}</p>
                             {% endif %}
+                            <h4 style="margin-top: 5px;">Current &mdash; {{t.current}}</h4>
                             {% if t.effect %}
                                 <p><strong>Effect</strong>
                                 <br>{{t.effect}}</p>

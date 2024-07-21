@@ -5649,842 +5649,2957 @@
     "marvels": [
         {
             "name": "Essence Barrier",
-            "rank": 1,
+            "rank": "1",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": 2,
-                    "effect__1": "Your Current Zone gains Hazard 2 Ongoing. It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
                 }
             ],
-            "requires": "",
-            "keywords": ""
+            "keywords": "Ongoing 2"
         },
         {
-            "name": "Ray of Essence",
-            "rank": 1,
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": 2,
-                    "effect__1": "Select one target in your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>The target takes 1d4 Bonus Hits.</li>\n<li>Increase one of the target's Statuses one Status by +1.</li>\n<li>Decrease one of the target's Statuses one Status by -1.</li>\n</ul>"
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
                 }
             ],
-            "requires": "",
             "keywords": "Ongoing 1"
         },
         {
             "name": "Essence Strike",
-            "rank": 1,
+            "rank": "1",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": 1,
-                    "effect__1": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set."
+                    "hits": "1",
+                    "effect": "One target in your Current Zone takes X Hits, X. . ."
                 }
             ],
-            "requires": "",
             "keywords": ""
         },
         {
             "name": "Essence Blast",
-            "rank": 2,
+            "rank": "2",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": 2,
-                    "effect__1": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
-                }
-            ],
-            "requires": "",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Essence Burst",
-            "rank": 4,
+            "rank": "4",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
+            "effect": null,
             "threshold": [
                 {
-                    "hits": 3,
-                    "effect__1": "Up to 3 Targets in your Current Zone take X Hits, where X is equal to Hits in the result set."
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
                 }
             ],
-            "requires": "",
             "keywords": ""
         },
         {
             "name": "Essence Rift",
-            "rank": 2,
+            "rank": "2",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard."
-                }
-            ],
-            "requires": "",
-            "keywords": ""
+            "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing.",
+            "threshold": null,
+            "keywords": "Ongoing 2"
         },
         {
             "name": "Essence Storm",
-            "rank": 3,
+            "rank": "3",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Target your Current or an Adjacent Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:\n<ul>\n<li>Move the Storm one Adjacent Zone.</li>\n<li>One ally in the Storm's Zone may immediately use the Recover Action</li>\n<li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li>\n</ul>"
-                }
-            ],
-            "requires": "",
-            "keywords": "Ongoing 3"
+            "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>",
+            "threshold": null,
+            "keywords": "Ongoing 2"
         },
         {
             "name": "Essence Surge",
-            "rank": 1,
+            "rank": "1",
+            "skill": "Aether",
             "type": "Shift",
             "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Essence Veil",
-            "rank": 1,
+            "rank": "1",
+            "skill": "Aether",
             "type": "Shift",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "You gain Aura X."
-                }
-            ],
-            "requires": "",
-            "keywords": ""
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
         },
         {
             "name": "Essence Volley",
-            "rank": 2,
+            "rank": "2",
+            "skill": "Aether",
             "type": "Shift",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Up to X targets in an Adjacent Zone take 2 Hits."
-                }
-            ],
-            "requires": "",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Essence Wave",
-            "rank": 3,
+            "rank": "3",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Spend 1 Attunement. Target your Current or and Adjacent Zone. Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, where X is equal to Hits in the result set."
-                }
-            ],
-            "requires": "",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Warding Essence",
-            "rank": 1,
+            "rank": "1",
+            "skill": "Aether",
             "type": "Shift",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": 1,
-                    "effect__1": "You gain Armor Defense X, where X is equal to Hits in the result set."
-                }
-            ],
-            "requires": "",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Essence Nova",
-            "rank": 3,
+            "rank": "3",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "All targets in your Current and all Adjacent Zones take 3 Hits."
-                }
-            ],
-            "requires": "",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits, X. . .",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Binding Essence",
-            "rank": 2,
+            "rank": "2",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Spend 1 Attunement. Choose one (1):\n<ul>\n<li>One target gains Restrained X.</li>\n<li>Up to X targets gain Restrained 1.</li> \n</ul>"
-                }
-            ],
-            "requires": "",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
             "keywords": ""
         },
         {
             "name": "Essence Barrage",
-            "rank": 2,
+            "rank": "2",
+            "skill": "Aether",
             "type": "Ability",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": 1,
-                    "effect__1": "Spend 1 Attunement. Up to X targets in an Adjacent Zone take 3 Hits."
-                }
-            ],
-            "requires": "",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Aether",
-            "rank": 2,
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing.",
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "One target in your Current Zone takes X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Bellor",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Inferno",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Lux",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Mori",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Nihil",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Nox",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Ordi",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Phylla",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Rime",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Squall",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Tellus",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Tempest",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Torrent",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrier",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Ray",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "2",
+                    "effect": "Select one target in your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>The target takes 1d4 Bonus Hits.</li><li>Increase one of the target's Statuses one Status by +1.</li><li>Decrease one of the target's Statuses one Status by -1.</li></ul>\""
+                }
+            ],
+            "keywords": "Ongoing 1"
+        },
+        {
+            "name": "Essence Strike",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "One target in your Current Zone takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Blast",
+            "rank": "2",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "One target [current] takes X Hits, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Burst",
+            "rank": "4",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "3",
+                    "effect": "Up to 3 Targets in your Current Zone take X Hits, X. . ."
+                }
+            ],
+            "keywords": ""
+        },
+        {
+            "name": "Essence Rift",
+            "rank": "2",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target one Zone up to 2 Zone Adjacent to your Current Zone. The targetted Zone gains +1 Hazard Ongoing."
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Storm",
+            "rank": "3",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": "1",
+                    "effect": "Target your Current or an Adjacent Zone.  This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the Storm one Adjacent Zone.</li><li>One ally in the Storm's Zone may immediately use the Recover Action</li><li>One target in the Storm's Zone takes 1d4 Bonus Hits.</li></ul>"
+                }
+            ],
+            "keywords": "Ongoing 2"
+        },
+        {
+            "name": "Essence Surge",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Shift",
+            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Veil",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Shift",
+            "effect": "You gain Aura X.",
+            "threshold": null,
+            "keywords": "Aura"
+        },
+        {
+            "name": "Essence Volley",
+            "rank": "2",
+            "skill": "Vivus",
+            "type": "Shift",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, X. . ..",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Wave",
+            "rank": "3",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Target your Current or and Adjacent Zone.  Up to X targets in the targetted Zone are moved one Ajdacent Zone away from you, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Warding Essence",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Shift",
+            "effect": "You gain Armor Defense X, X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Nova",
+            "rank": "3",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "All targets in your Current and all Adjacent Zones take 1 + X Hits., X. . .",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Binding Essence",
+            "rank": "2",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Choose one (1):<ul><li>One target gains Restrained X.</li><li>Up to X targets gain Restrained 1.</li></ul>",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Barrage",
+            "rank": "2",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "Spend 1 Attunement.  Up to X targets in an Adjacent Zone take 3 Hits.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Agent of the Aether",
+            "rank": "2",
+            "Skill": "Aether",
             "type": "Static",
-            "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Action in a Zonecontaining a Hazard created by one of your Marvels may reduce on Status rating by -1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Hazards created by your Marvels light their Curent Zone.  Allies who use the Recover Action in a Zone containing a Hazard created by one of your Marvels  may reduce on Status rating by -1.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Bellor",
-            "rank": 2,
+            "name": "Agent of Chaos",
+            "rank": "2",
+            "Skill": "Bellor",
             "type": "Static",
             "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When a target scores 4+ Hits against another single target wihile they are both in this Zone, the acting target immediately takes another Action.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Inferno",
-            "rank": 2,
+            "name": "Agent of Fire",
+            "rank": "2",
+            "Skill": "Inferno",
             "type": "Static",
             "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 1 or fewer Hits against one target wihile they are both in this Zone, the target takes +1d4 Bonus Hits.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Lux",
-            "rank": 2,
+            "name": "Agent of Light",
+            "rank": "2",
+            "Skill": "Lux",
             "type": "Static",
-            "effect": "Hazards created by your Marvels light their Curent Zone. Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels can end the Blind Status.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Hazards created by your Marvels light their Curent Zone.  Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels can end the Blind Status.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Mori",
-            "rank": 2,
+            "name": "Agent of Death",
+            "rank": "2",
+            "Skill": "Mori",
             "type": "Static",
             "effect": "Hostile targets that take any attack Action while in a Zone containing a Hazard created by oen of your Marvels gain Vulnerable 1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Nihil",
-            "rank": 2,
+            "name": "Agent of the Nothing",
+            "rank": "2",
+            "Skill": "Nihil",
             "type": "Static",
-            "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels can increase the Entropy by +2 and end any one Status or Aura.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished.  Allies in a Zone containing a Hazard created by one of your Marvels can increase the Entropy by +2 and end any one Status or Aura.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Nox",
-            "rank": 2,
+            "name": "Agent of Darkness",
+            "rank": "2",
+            "Skill": "Nox",
             "type": "Static",
             "effect": "All light in Zones containing a Hazard created by your Marvels is extinguished. Allies in a Zone containing a Hazard created by one of your Marvels gain the Nightsight keyword.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Ordi",
-            "rank": 2,
+            "name": "Agent of Order",
+            "rank": "2",
+            "Skill": "Ordi",
             "type": "Static",
             "effect": "Any action taken by targets in a Zone containing a Hazard created by one of your Marvesl that would increase the Momentum increases the Momentum by an additional +1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Phylla",
-            "rank": 2,
+            "name": "Agent of Nature",
+            "rank": "2",
+            "Skill": "Phylla",
             "type": "Static",
             "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Restratined 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Rime",
-            "rank": 2,
+            "name": "Agent of Frost",
+            "rank": "2",
+            "Skill": "Rime",
             "type": "Static",
             "effect": "Any target that Shifts to move into or out of a Zone containing a Hazard created by one of your Marvels gains Frozen 1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Squall",
-            "rank": 2,
+            "name": "Agent of the Winds",
+            "rank": "2",
+            "Skill": "Squall",
             "type": "Static",
-            "effect": "Hostile targets that shift into or out of a Zone containing a Hazard created by one of your Marvels lose the Flying keyword until their next turn. Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target wihile they are both in this Zone, the target is Moved to an Adjacent Zone.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Hostile targets that shift into or out of a Zone containing a Hazard created by one of your Marvels lose the Flying keyword until their next turn.  Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target wihile they are both in this Zone, the target is Moved to an Adjacent Zone.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Tellus",
-            "rank": 2,
+            "name": "Agent of Stone",
+            "rank": "2",
+            "Skill": "Tellus",
             "type": "Static",
             "effect": "Allies who use the Recover Aciton in a Zone containing a Hazard created by one of your Marvels gain Armor Bonus +3.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Tempest",
-            "rank": 2,
+            "name": "Agent of Storms",
+            "rank": "2",
+            "Skill": "Tempest",
             "type": "Static",
             "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against one target while they are both in this Zone, the target gains Stunned 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Torrent",
-            "rank": 2,
+            "name": "Agent of Waves",
+            "rank": "2",
+            "Skill": "Torrent",
             "type": "Static",
             "effect": "Hazards created by your Marvels gain the following Trigger: Trigger &mdash; When an ally scores 4+ Hits against another single target wihile they are both in this Zone, the target becomes Prone.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Vivus",
-            "rank": 2,
+            "name": "Agent of Life",
+            "rank": "2",
+            "Skill": "Vivus",
             "type": "Static",
             "effect": "Allies who use the Recover Action while in a Zone containing a Hazard created by one of your Marvels regian +1d4 Bonus Hits to Grit.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Aether",
-            "rank": 2,
+            "name": "Wield the Aether",
+            "rank": "2",
+            "Skill": "Aether",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Aether."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits, X. . ..</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Aether.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Bellor",
-            "rank": 2,
+            "name": "Wield Chaos",
+            "rank": "2",
+            "Skill": "Bellor",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gain Dazed 1. The target gains Charmed 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Bellor."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target gain Dazed 1.  The target gains Charmed 1.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Bellor.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Inferno",
-            "rank": 2,
+            "name": "Wield the Inferno",
+            "rank": "2",
+            "Skill": "Inferno",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>Increase the Entropy by +1 and the target gains Provoked and Vulnerable 1. The target gain Armor Defense 3 against fire and Inferno effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Inferno."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Increase the Entropy by +1 and the target gains Provoked and Vulnerable 1.  The target gain Armor Defense 3 against fire and Inferno effects.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Inferno.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Lux",
-            "rank": 2,
+            "name": "Wied the Light",
+            "rank": "2",
+            "Skill": "Lux",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Fatigued 1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Lux."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target takes 1d6 Bonus Hits.  The target gains Fatigued 1.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Lux.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Mori",
-            "rank": 2,
+            "name": "Wield Death",
+            "rank": "2",
+            "Skill": "Mori",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1. The target recovers +X to their Primary Defense, where X is equal to Hits in the result set.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Mori."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Spend 2 Momentum and the target gains Blind 1.  The target recovers +X to their Primary Defense, X. . .</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Mori.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Nihil",
-            "rank": 2,
+            "name": "Wield the Nothing",
+            "rank": "2",
+            "Skill": "Nihil",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes X Hits, where X is equal to Hits in the result set. Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nihil."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target takes X Hits, X. . .   Increase the Entropy by +2 and the target gain Wounded.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Nihil.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Nox",
-            "rank": 2,
+            "name": "Wield Shadow",
+            "rank": "2",
+            "Skill": "Nox",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>All light in the target's Current Zone is extinguished. The target gains the Nightsight keyword Ongoing.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Nox."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>All light in the target's Current Zone is extinguished.  The target gains the Nightsight keyword Ongoing.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Nox.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Ordi",
-            "rank": 2,
+            "name": "Wield Order",
+            "rank": "2",
+            "Skill": "Ordi",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d4 Bonus hits. If the targets dies, increase the Momentum by +1.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Ordi."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target takes 1d4 Bonus hits.  If the targets dies, increase the Momentum by +1.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Ordi.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Phylla",
-            "rank": 2,
+            "name": "Wield Nature",
+            "rank": "2",
+            "Skill": "Phylla",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Restrained 1. The target gain Vulnerable 1 to Poisons and Phylla effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Phylla."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target gains Restrained 1.  The target gain Vulnerable 1 to Poisons and Phylla effects.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Phylla.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Rime",
-            "rank": 2,
+            "name": "Wield Frost",
+            "rank": "2",
+            "Skill": "Rime",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains Frozen 1. The target takes 1d6 Bonus Hits.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Rime."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target gains Frozen 1.  The target takes 1d6 Bonus Hits.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Rime.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Squall",
-            "rank": 2,
+            "name": "Wield the Winds",
+            "rank": "2",
+            "Skill": "Squall",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>You move the target up to 1 Zone Adjacent to its Current Zone. Spend 2 Momentum and the target becomes Prone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Squall."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>You move the target up to 1 Zone Adjacent to its Current Zone.  Spend 2 Momentum and the target becomes Prone.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Squall.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Tellus",
-            "rank": 2,
+            "name": "Wield Stone",
+            "rank": "2",
+            "Skill": "Tellus",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target becomes Prone. The target can Move to Shift ignoring Hazards.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tellus."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target becomes Prone.  The target can Move to Shift ignoring Hazards.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Tellus.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Tempest",
-            "rank": 2,
+            "name": "Wield the Storm",
+            "rank": "2",
+            "Skill": "Tempest",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target takes 1d6 Bonus Hits. The target gains Armor Defense 3 again lightning and Tempest effects.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Tempest."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target takes 1d6 Bonus Hits.  The target gains Armor Defense 3 again lightning and Tempest effects.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Tempest.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Torrent",
-            "rank": 2,
+            "name": "Wield the Depths",
+            "rank": "2",
+            "Skill": "Torrent",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>The target gains the Aquatic keyword Ongoing. Spend 1 Momentum and increase the Entropy by +1, and the target becomes Prone and your may Move the target up to one Zone Adjacent to its Current Zone.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Torrent."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>The target gains the Aquatic keyword Ongoing.  Spend 1 Momentum and increase the Entropy by +1, and the target becomes Prone and your may Move the target up to one Zone Adjacent to its Current Zone.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Torrent.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Vivus",
-            "rank": 2,
+            "name": "Wield the Lifeforce",
+            "rank": "2",
+            "Skill": "Vivus",
             "type": "Static",
-            "effect": "",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect__1": "Your Ray of Essence gains the following options: <ul><li>Spend 2 Momentum or increase the Entropy by +2, then the target gains Wounded 1. The target regains 1d4 Bonus Hits to their Grit.</li></ul> You can use one of these options on each of your turn Ongoingby using a Shift. For any option that contains an X value, you roll Vivus."
-                }
-            ],
-            "requires": "",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Spend 2 Momentum or increase the Entropy by +2, then the target gains Wounded 1.  The target regains 1d4 Bonus Hits to their Grit.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Vivus.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Aether",
-            "rank": 2,
+            "name": "Aether Outburst",
+            "rank": "2",
+            "Skill": "Aether",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Bellor",
-            "rank": 2,
+            "name": "Violent Outburst",
+            "rank": "2",
+            "Skill": "Bellor",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Inferno",
-            "rank": 2,
+            "name": "Fiery Outburst",
+            "rank": "2",
+            "Skill": "Inferno",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Lux",
-            "rank": 2,
+            "name": "Radiant Outburst",
+            "rank": "2",
+            "Skill": "Lux",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Mori",
-            "rank": 2,
+            "name": "Lethal Outburst",
+            "rank": "2",
+            "Skill": "Mori",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Vulnerable 1.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Nihil",
-            "rank": 2,
+            "name": "Void Effusion",
+            "rank": "2",
+            "Skill": "Nihil",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 2.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Nox",
-            "rank": 2,
+            "name": "Dark Outburst",
+            "rank": "2",
+            "Skill": "Nox",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All allies in the Hazard's Zone recover gain th. All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All allies in the Hazard's Zone recover gain th.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Ordi",
-            "rank": 2,
+            "name": "Effuse with Law",
+            "rank": "2",
+            "Skill": "Ordi",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Silenced 1 and Restrained 2.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Phylla",
-            "rank": 2,
+            "name": "Effuse with Nature",
+            "rank": "2",
+            "Skill": "Phylla",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Charmed 2 and Restrained 1.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Rime",
-            "rank": 2,
+            "name": "Icy Outburst",
+            "rank": "2",
+            "Skill": "Rime",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Frozen 2.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Squall",
-            "rank": 2,
+            "name": "Galeforce Outburst",
+            "rank": "2",
+            "Skill": "Squall",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and are moved to one Adjacent Zone and become Prone.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Tellus",
-            "rank": 2,
+            "name": "Effuse with Stone",
+            "rank": "2",
+            "Skill": "Tellus",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1 and Slowed 2.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Tempest",
-            "rank": 2,
+            "name": "Stormbreak Outburst",
+            "rank": "2",
+            "Skill": "Tempest",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 1 and Dazed 2.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Torrent",
-            "rank": 2,
+            "name": "Sudden Deluge",
+            "rank": "2",
+            "Skill": "Torrent",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 2 and become Prone.",
+            "threshold": null,
             "keywords": ""
         },
         {
-            "name": "Vivus",
-            "rank": 2,
+            "name": "Effuse with Life",
+            "rank": "2",
+            "Skill": "Vivus",
             "type": "Shift",
-            "effect": "Dismiss a Hazard created by one of your Marvels in your Current or an Adjacent Zone. All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.",
-            "threshold": [
-                {
-                    "hits": "",
-                    "effect": ""
-                }
-            ],
-            "requires": "",
+            "effect": "Dismiss a Hazard created by one of your Marvels [current].  You and all allies in the Hazard's Zone reduce one Status by -1 and either regain +3 Grit or immediately use the Recover Action.",
+            "threshold": null,
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Aether",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Bellor",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Inferno",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Lux",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Mori",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Nihil",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Nox",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Ordi",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Phylla",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Rime",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Squall",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Tellus",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Tempest",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Torrent",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
+            "keywords": ""
+        },
+        {
+            "name": "Essence Infusion",
+            "rank": "1",
+            "skill": "Vivus",
+            "type": "Ability",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "threshold": "",
+            "hits": "1",
             "keywords": ""
         }
     ],
