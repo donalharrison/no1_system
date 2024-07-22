@@ -1324,6 +1324,17 @@
         },
         {
             "tree": "Brute",
+            "name": "Brutal Blow",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Martial Arts against one target with unrelenting force, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Brute",
             "name": "Just Getting Started",
             "type": "Ability",
             "rank": "2",
@@ -1397,7 +1408,7 @@
             "replaces": null,
             "effect": [
                 "Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.",
-                "When you gain this Talent, select 2 Power Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>","At the beginning of each Waypoint, your Current is 0."
+                "When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>","At the beginning of each Waypoint, your Current is 0."
             ]
         },
         {

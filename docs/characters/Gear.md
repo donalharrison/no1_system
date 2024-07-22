@@ -58,10 +58,10 @@ The Gear can be Equipped underneath other Gear with the Armor keyword.  You can 
     </thead>
     {% for g in site.data.gear.gear %}
     <tr>
-        <td>td.name</td>
-        <td>td.rating</td>
-        <td>td.skill</td>
-        <td>td.keywords</td>
+        <td>{{ g.name }}</td>
+        <td>{{ g.rating }}</td>
+        <td>{{ g.skill }}</td>
+        <td>{{ g.keywords }}</td>
     </tr>
     {% endfor %}
 </table>
