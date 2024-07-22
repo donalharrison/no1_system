@@ -1,8 +1,7 @@
 ---
 layout: page
 title: "Skill Triggers"
-permalink: /characters/skills/skill_triggers
-id: characters-skills-triggers
+permalink: /characters/skills/skill_triggers/
 grand_parent: Characters
 parent: Skills
 nav_order: 1
