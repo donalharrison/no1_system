@@ -1,0 +1,244 @@
+{
+    "gear": [
+    {
+      "name": "Club",
+      "rating": "0",
+      "skill": "Strike",
+      "keywords": "Weapon, Hammer"
+    },
+    {
+      "name": "Warhammer",
+      "rating": "2",
+      "skill": "Strike",
+      "keywords": "Weapon, Hammer"
+    },
+    {
+      "name": "Mace",
+      "rating": "2",
+      "skill": "Strike",
+      "keywords": "Weapon, Hammer"
+    },
+    {
+      "name": "Flail",
+      "rating": "2",
+      "skill": "Strike",
+      "keywords": "Weapon, Hammer"
+    },
+    {
+      "name": "Morningstar",
+      "rating": "3",
+      "skill": "Strike",
+      "keywords": "Weapon, Hammer"
+    },
+    {
+      "name": "Maul",
+      "rating": "3",
+      "skill": "Strike",
+      "keywords": "Weapon, Hammer"
+    },
+    {
+      "name": "Dagger (3)",
+      "rating": "1",
+      "skill": "Strike, Throw",
+      "keywords": "Weapon, Dagger"
+    },
+    {
+      "name": "Rapier",
+      "rating": "1",
+      "skill": "Strike",
+      "keywords": "Weapon, Sword"
+    },
+    {
+      "name": "Shortsword",
+      "rating": "0",
+      "skill": "Strike",
+      "keywords": "Weapon, Sword"
+    },
+    {
+      "name": "Longsword",
+      "rating": "2",
+      "skill": "Strike",
+      "keywords": "Weapon, Sword"
+    },
+    {
+      "name": "Two-handed Sword",
+      "rating": "3",
+      "skill": "Strike",
+      "keywords": "Weapon, Sword, Two-Handed"
+    },
+    {
+      "name": "Battleaxe",
+      "rating": "2",
+      "skill": "Strike",
+      "keywords": "Weapon, Axe"
+    },
+    {
+      "name": "Scimitar",
+      "rating": "4",
+      "skill": "Strike",
+      "keywords": "Weapon, Sword"
+    },
+    {
+      "name": "Halbred",
+      "rating": "3",
+      "skill": "Strike",
+      "keywords": "Weapon, Polearm"
+    },
+    {
+      "name": "Glaive",
+      "rating": "3",
+      "skill": "Strike",
+      "keywords": "Weapon, Polearm"
+    },
+    {
+      "name": "Hatchet (3)",
+      "rating": "1",
+      "skill": "Strike, Throw",
+      "keywords": "Weapon, Axe"
+    },
+    {
+      "name": "Spear",
+      "rating": "2",
+      "skill": "Strike",
+      "keywords": "Weapon, Polearm, Two-Handed"
+    },
+    {
+      "name": "Longspear",
+      "rating": "3",
+      "skill": "Strike",
+      "keywords": "Weapon, Polearm, Two-Handed"
+    },
+    {
+      "name": "Shortbow",
+      "rating": "2",
+      "skill": "Shoot",
+      "keywords": "Weapon, Bow, Two-Handed"
+    },
+    {
+      "name": "Longbow",
+      "rating": "3",
+      "skill": "Shoot",
+      "keywords": "Weapon, Bow, Two-Handed"
+    },
+    {
+      "name": "Crossbow",
+      "rating": "2",
+      "skill": "Shoot",
+      "keywords": "Weapon, Bow, Two-Handed"
+    },
+    {
+      "name": "Quarterstaff",
+      "rating": "1",
+      "skill": "Strike",
+      "keywords": "Weapon, Two-Handed"
+    },
+    {
+      "name": "Sling",
+      "rating": "0",
+      "skill": "Shoot",
+      "keywords": "Weapon"
+    },
+    {
+      "name": "Gambeson",
+      "rating": "1",
+      "skill": "",
+      "keywords": "Armor, Layer"
+    },
+    {
+      "name": "Leathers",
+      "rating": "2",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Studded Leathers",
+      "rating": "3",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Chain Shirt",
+      "rating": "2",
+      "skill": "",
+      "keywords": "Armor, Layer"
+    },
+    {
+      "name": "Scale Mail",
+      "rating": "3",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Chain Mail",
+      "rating": "4",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Lamellar",
+      "rating": "3",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Splint Mail",
+      "rating": "4",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Breastplate",
+      "rating": "3",
+      "skill": "",
+      "keywords": "Armor, Layer"
+    },
+    {
+      "name": "Plate Mail",
+      "rating": "6",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Round Shield",
+      "rating": "2",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Kite Shield",
+      "rating": "2",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Buckler",
+      "rating": "1",
+      "skill": "",
+      "keywords": "Armor"
+    },
+    {
+      "name": "Torch (5)",
+      "rating": "1",
+      "skill": "",
+      "keywords": ""
+    },
+    {
+      "name": "Concoction (5)",
+      "rating": "1",
+      "skill": "",
+      "keywords": ""
+    },
+    {
+      "name": "Thieves' Tools",
+      "rating": "1",
+      "skill": "Implements",
+      "keywords": ""
+    },
+    {
+      "name": "Rope (50')",
+      "rating": "1",
+      "skill": "",
+      "keywords": ""
+    }
+  ]
+}

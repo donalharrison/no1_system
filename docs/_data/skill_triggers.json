@@ -5,7 +5,7 @@
               "skill": "Aether",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us an Aether effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Aether effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -61,7 +61,7 @@
               "skill": "Arithm",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us an Arithm effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Arithm effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -243,7 +243,7 @@
               "skill": "Destroy",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us a Destroy effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Destroy effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -348,7 +348,7 @@
               "skill": "Inferno",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us an Inferno effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Inferno effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "Cleansing",
@@ -390,7 +390,7 @@
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us an Intuit effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Intuit effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -502,7 +502,7 @@
               "skill": "Luck",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us a Luck effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Luck effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -575,11 +575,11 @@
               "effect": "When you score 3+ Hits with a Lux effect, one target in your Current Zone loses Blind."
             },
             {
-              "name": "",
+              "name": "Unfading",
               "skill": "Lux",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us a Lux effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Lux effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "Blinding",
@@ -589,25 +589,25 @@
               "effect": "When you score 4+ Hits with a Lux effect, your target gains Blind."
             },
             {
-              "name": "",
+              "name": "Lustrous",
               "skill": "Lux",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Lux effect, score +1 Bonus Hits."
             },
             {
-              "name": "Revealing",
+              "name": "Exposing",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": null,
+              "rank": 2,
               "effect": "When you score 4+ Hits with a Lux effect, you may have the all target's in the effect's Zone lose the Invisible keyword."
             },
             {
-              "name": "",
+              "name": "Revealing",
               "skill": "Lux",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you score 4+ Hits with a Lux effect, you may reduce the Hidden ratings of all targets in the effect's Zone by 4."
+              "rank": 1,
+              "effect": "When you score 3+ Hits with a Lux effect, you may reduce the Hidden ratings of all targets in the effect's Zone by 3."
             },
             {
               "name": "",
@@ -670,7 +670,7 @@
               "skill": "Mentis",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us a Mentis effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Mentis effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -722,46 +722,46 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Death Dealer",
               "skill": "Mori",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us a Mori effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Mori effect and score 0 Hits, add +2 Hits to the result."
             },
             {
-              "name": "",
+              "name": "Death Monger",
               "skill": "Mori",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Mori effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Deathly Respite",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": null,
+              "rank": 2,
               "effect": "When you score 5+ Hits with a Mori effect, you may reduce your Dying rating by -1."
             },
             {
-              "name": "",
+              "name": "Death's Trace",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": null,
+              "rank": 3,
               "effect": "When you score 4+ Hits with a Mori effect, your target gains Wounded 1."
             },
             {
-              "name": "",
+              "name": "Death's Mark",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you score 4+ Hits with a Mori effect, your target gains Vulnerable 1."
             },
             {
-              "name": "",
+              "name": "Death's Presence",
               "skill": "Mori",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you score 3+ Hits with a Lux effect, you may have the effect's Zone lose Darkened until your next turn."
+              "rank": 1,
+              "effect": "When you score 3+ Hits with a Mori effect, you may have one target in the effect's Zone gain Vulnerable 1."
             },
             {
               "name": "",
@@ -796,7 +796,7 @@
               "skill": "Nihil",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you us a Nihil effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Nihil effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
@@ -881,6 +881,447 @@
               "type": "Trigger",
               "rank": 3,
               "effect": "When you score 4+ Hits with a Nox effect, you may gain Hidden 2."
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Phylla effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Phylla effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Rime effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Rime effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Sangui effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Sangui effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Sangui",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Squall effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Squall effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Squall",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Unyielding",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Tellus effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "Overwhelming",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Tellus effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "Metamorphic",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tellus effect and score 3+ Hits, you may have the effect's target gain Slowed 1."
+            },
+            {
+              "name": "Pummeling",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tellus effect and score 4+ Hits, you may have the effect's target become Prone."
+            },
+            {
+              "name": "Grounding",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use a Tellus effect and score 3+ Hits, you may reduce one Status rating of one ally in the effect's Zone by -1."
+            },
+            {
+              "name": "Hardening",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 3,
+              "effect": "When you use a Tellus effect and score 3+ Hits, you gain Armor Defense +1."
+            },
+            {
+              "name": "Refining",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 3,
+              "effect": "When you score 3+ Hits with an Tellus effect, you may remove 1 Hazard in the effect's Zone."
+            },
+            {
+              "name": "Obstructive",
+              "skill": "Tellus",
+              "type": "Trigger",
+              "rank": 2,
+              "effect":  "When you score 4+ Hits with an Tellus effect, you may create +1 Hazard in the effect's Zone."
+            },
+            {
+              "name": "Inescapable",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Tempest effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "Raging",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Tempest effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "Startling",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tempest effect and score 3+ Hits, you may have the target gain Dazed 1."
+            },
+            {
+              "name": "Staggering",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 3,
+              "effect": "When you use a Tempest effect and score 4+ Hits, you may have the target gain Stunned 3."
+            },
+            {
+              "name": "Shocking",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tempest effect and score 4+ Hits, you may have the target gain Stunned 1."
+            },
+            {
+              "name": "Energizing",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use a Tempest effect and score 4+ Hits, you gain +2 Current."
+            },
+            {
+              "name": "Ritualistic",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 3,
+              "effect": "When you use a Tempest effect and score 3+ Hits, you gain +1 Concordance."
+            },
+            {
+              "name": "Surging",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tempest effect and score 3+ Hits, you gain +1 Current."
+            },
+            {
+              "name": "",
+              "skill": "Tempest",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Torrent effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Torrent effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use an Vivus effect and score 0 Hits, add +2 Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use an Vivus effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Vivus",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
             }
           ]
 }
