@@ -107,7 +107,7 @@
         {
             "tree": "Aberrant",
             "name": "Aberration (3)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": "Aberration",
             "replaces": null,
@@ -118,7 +118,7 @@
         {
             "tree": "Aberrant",
             "name": "Living Anomaly",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "3",
             "requires": "Aberration",
             "replaces": null,
@@ -824,7 +824,7 @@
             "tree": "Heretic",
             "name": "Heterodoxy",
             "rank": "3",
-            "type": "Ability",
+            "type": "Shift",
             "requires": "Heterodox Practice",
             "replaces": null,
             "effect": [
@@ -1079,12 +1079,12 @@
         {
             "tree": "Black Belt",
             "name": "Flying Kick",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": 1,
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."
+                "When you Shift to Move into an Adjacent Zone and use your Martial Arts to attack your target, add +3 Hits to the result set."
             ]
         },
         {
@@ -1280,7 +1280,7 @@
         {
             "tree": "Bounty Hunter",
             "name": "Intimidate (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -1517,7 +1517,7 @@
         {
             "tree": "Conduit",
             "name": "Affinity (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -2083,7 +2083,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Focus Rank to 3 (d12)."
+                "Increase your Focus Rank to 4 (d12)."
             ]
         },
         {
@@ -2149,7 +2149,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Endure Rank to 3 (d12)."
+                "Increase your Endure Rank to 4 (d12)."
             ]
         },
         {
@@ -2310,7 +2310,7 @@
         {
             "tree": "Detective",
             "name": "Master Investigator",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -2425,7 +2425,7 @@
         {
             "tree": "Diplomat",
             "name": "Persuade (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -2480,7 +2480,7 @@
         {
             "tree": "Diplomat",
             "name": "Unflappable",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -2491,7 +2491,7 @@
         {
             "tree": "Diplomat",
             "name": "Persuade (3)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -2607,7 +2607,7 @@
         {
             "tree": "Druid",
             "name": "Affinity (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -2629,7 +2629,7 @@
         {
             "tree": "Druid",
             "name": "Affinity (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -2800,7 +2800,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend 2 Meomentum and gain +2 Current."
+                "Spend 2 Momentum and gain +2 Current."
             ]
         },
         {
@@ -3214,7 +3214,7 @@
         {
             "tree": "Hunter",
             "name": "Survival (3)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -3225,7 +3225,7 @@
         {
             "tree": "Hunter",
             "name": "Silent Stalker",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -3241,13 +3241,13 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Stealth to conceal yourself while in a natural environment.  Until you take use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set."
+                "Use Stealth to conceal yourself while in a natural environment.  Until you use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set."
             ]
         },
         {
             "tree": "Hunter",
             "name": "Perceive (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -3258,7 +3258,7 @@
         {
             "tree": "Hunter",
             "name": "Shoot (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -4056,7 +4056,7 @@
         {
             "tree": "Marksman",
             "name": "Ready",
-            "type": "Ability",
+            "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -4640,7 +4640,7 @@
         {
             "tree": "Overseer",
             "name": "Weapons Free!",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "3",
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
@@ -4651,7 +4651,7 @@
         {
             "tree": "Overseer",
             "name": "Don't Just Stand There!",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "3",
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
@@ -4815,7 +4815,7 @@
         {
             "tree": "Necromancer",
             "name": "Swarm the Enemy",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "3",
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
@@ -4967,7 +4967,7 @@
         {
             "tree": "Beastmaster",
             "name": "One of the Pack",
-            "type": "Ability",
+            "type": "Shift",
             "rank": "2",
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
@@ -5193,7 +5193,7 @@
         {
             "tree": "Nexus",
             "name": "Affinity (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5429,7 +5429,7 @@
         {
             "tree": "Pugilist",
             "name": "Slip and Counter",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5440,7 +5440,7 @@
         {
             "tree": "Pugilist",
             "name": "Martial Arts (3)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5451,7 +5451,7 @@
         {
             "tree": "Pugilist",
             "name": "Focus (2)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -5462,7 +5462,7 @@
         {
             "tree": "Pugilist",
             "name": "Focus (3)",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -5511,7 +5511,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shift to move and then attack a target, you may spend 1 Hit to Shift again this turn."
+                "When you Shift to move and then us an Action to attack a target, you may spend 1 Hit to Shift again this turn."
             ]
         },
         {
@@ -6814,7 +6814,7 @@
         {
             "tree": "Sniper",
             "name": "Boom! Headshot!",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -6825,18 +6825,18 @@
         {
             "tree": "Soldier",
             "name": "Charge",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to move into an adjacent Zone, then immediately Strike your target, adding +2 Hits to the result set."
+                "When you Shift to Move into an Adjacent Zone and use an Action attack your target, add +2 Hits to the result set."
             ]
         },
         {
             "tree": "Soldier",
             "name": "Physical Training",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
@@ -7051,7 +7051,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you."
+                "Intimidate all hostile targets in your Current Zone to have X targets gain Provoked, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -7349,7 +7349,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Implements to  scatter caltrops in a a Current Zone, creating a Hazard 3.  Any target who Shifts to Move into or out of the affected Zone are Slowed.  You can move away from your caltrops without suffering the Hazard or Slowed."
+                "Use your Implements to  scatter caltrops in your Current Zone, creating a Hazard 3.  Any target who Shifts to Move into or out of the affected Zone are Slowed.  You can move away from your caltrops without suffering the Hazard or Slowed."
             ]
         },
         {
@@ -8544,7 +8544,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use a Shift to move into an adjacent Zone, then immediately Grapple your target, adding +2 Hits to the result set."
+                "When you Shift to Move into an Adjacent Zone and Grapple your target, add +2 Hits to the result set."
             ]
         },
         {

@@ -1,0 +1,2821 @@
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_acolyte" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Acolyte</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Commune with Divinity<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.<br>You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Commune with Divinity
+    --Effect|Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.<br>You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_composure}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_mystic" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Mystic</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Manage Strain<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Insight to reduce your current Strain by Hits.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Manage Strain
+    --Effect|Use your Insight to reduce your current Strain by Hits.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_archmage" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Archmage</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Master the arcane<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Master the arcane
+        --Effect|
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_assassin" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Assassin</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Coup de Grace<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 3 Momentum and immediately Strike a target in your Current Zone that is Prone.  On 6+ Hits, the target dies.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Coup de Grace
+    --Effect|Spend 3 Momentum and immediately Strike a target in your Current Zone that is Prone.  On 6+ Hits, the target dies.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Silent Takedown<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Silent Takedown
+    --Effect|Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Vanish<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend X Momentum to gain Hidden X, where X is the amount of Momentum spent.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Vanish
+        --Effect|Spend X Momentum to gain Hidden X, where X is the amount of Momentum spent.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Contract Killer<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Persuade one target in your Current Zone to negotiate terms of a contract, adding +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Contract Killer
+    --Effect|Persuade one target in your Current Zone to negotiate terms of a contract, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_athlete" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Athlete</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Powerlifter<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Exert yourself to accomplish a feat of strength, adding +1d4 bonus hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Powerlifter
+    --Effect|Exert yourself to accomplish a feat of strength, adding +1d4 bonus hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_exert}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_heretic" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Heretic</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Commune with Divinity<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.<br>You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Commune with Divinity
+    --Effect|Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.<br>You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_composure}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Profane Smite<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend your Concordance to add Xd4 to your Strike, where X is equal to the amount of Concordance spent.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Profane Smite
+    --Effect|Spend your Concordance to add Xd4 to your Strike, where X is equal to the amount of Concordance spent.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Profane Aura<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Focus to gain an Aura X, where X is the number of Hits in the result set.<br>While the Aura persists, all Allies in your Current Zone regain Grit equal to your Heretic rank at the beginning of your turn.<br>All hostile targets in your Current Zone gain Fatigued 1.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Profane Aura
+    --Effect|Focus to gain an Aura X, where X is the number of Hits in the result set.<br>While the Aura persists, all Allies in your Current Zone regain Grit equal to your Heretic rank at the beginning of your turn.<br>All hostile targets in your Current Zone gain Fatigued 1.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_focus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Dark Revelation<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Once per Waypoint, use your Insight to uncover an unwanted truth.  If you score 3+ Hits, ask the BAMF one question about the game fiction.  Answers will vary depending on the amount of infromation you and your allies have discovered about the game fiction in question.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Dark Revelation
+    --Effect|Once per Waypoint, use your Insight to uncover an unwanted truth.  If you score 3+ Hits, ask the BAMF one question about the game fiction.  Answers will vary depending on the amount of infromation you and your allies have discovered about the game fiction in question.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Defiant Healing<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>You can spend 1 Concordance to call on the Vivus energy.  You and one ally in your Current Zone ragin Hits to your Grit or Primary Defenses.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Defiant Healing
+    --Effect|You can spend 1 Concordance to call on the Vivus energy.  You and one ally in your Current Zone ragin Hits to your Grit or Primary Defenses.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_vivus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_tactician" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Tactician</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Inspire Allies<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead all allies in your Current Zone, allowing a number of them equal to the Hits in the result set to immediately do 1 of the following:<ul><li>Recover</li><li>Reduce one Variable Status by -1</li><li>Add +1 Bonus Hits to their next result set</li></ul></p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Inspire Allies
+    --Effect|Lead all allies in your Current Zone, allowing a number of them equal to the Hits in the result set to immediately do 1 of the following:<ul><li>Recover</li><li>Reduce one Variable Status by -1</li><li>Add +1 Bonus Hits to their next result set</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Reposition<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Tactics allies in your current Zones, allowing X allies to immediately use a Shift, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Reposition
+    --Effect|Use your Tactics allies in your current Zones, allowing X allies to immediately use a Shift, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_tactics}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_berserker" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Berserker</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Berkserker's Fury<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul></p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Berkserker's Fury
+    --Effect|Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_grapple}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Berkserker's Fury
+    --Effect|Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Berkserker's Fury
+    --Effect|Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Berkserker's Fury
+    --Effect|Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Berkserker's Fury
+    --Effect|Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_throw}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_bounty hunter" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Bounty Hunter</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">I Can Bring You In Warm, Or I Can Bring You In Cold.<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Intimidate a target in yout Current Zone that you are trying to apprehend, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - I Can Bring You In Warm, Or I Can Bring You In Cold.
+    --Effect|Intimidate a target in yout Current Zone that you are trying to apprehend, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Bolas<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to ensnare one target in your Current or and Adjacent Zone.  The target gains Prone and Restrained X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Bolas
+    --Effect|Use your Implements to ensnare one target in your Current or and Adjacent Zone.  The target gains Prone and Restrained X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Manacles<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to bind the hands of one target in your Current Zone.  On 2+ Hits, the target gains Restrained X, where X is 8+Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Manacles
+    --Effect|Use your Implements to bind the hands of one target in your Current Zone.  On 2+ Hits, the target gains Restrained X, where X is 8+Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Shrewd Contractor<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, addin +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Shrewd Contractor
+    --Effect|Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, addin +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Shrewd Contractor
+    --Effect|Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, addin +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Shrewd Contractor
+    --Effect|Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, addin +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Word on the Street<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Streetwise to gain valuable information or find the right person to talk to about you target.  On 3+ Hits, you gain +1 Favor to use in your hunt.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Word on the Street
+    --Effect|Use your Streetwise to gain valuable information or find the right person to talk to about you target.  On 3+ Hits, you gain +1 Favor to use in your hunt.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_streetwise}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_brute" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Brute</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Brutal Strike<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Strike one target with unrelenting force, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Brutal Strike
+    --Effect|Strike one target with unrelenting force, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Brutal Blow<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use Martial Arts against one target with unrelenting force, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Brutal Blow
+    --Effect|Use Martial Arts against one target with unrelenting force, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Just Getting Started<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Exert yourself when you are below your maximum Grit, then choose 1:<ul><li>Regain Hits to your Primary Defense.</li><li>Increase the current Timer by 1.</li></ul></p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Just Getting Started
+    --Effect|Exert yourself when you are below your maximum Grit, then choose 1:<ul><li>Regain Hits to your Primary Defense.</li><li>Increase the current Timer by 1.</li></ul>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_exert}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Who's Next<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Intimidate all targets in your Current Zone.  If you score Hits greater than their current Nerve, they become <a href:'/no1_system/core/statuses#Afraid/'>Afraid</a> of you.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Who's Next
+    --Effect|Intimidate all targets in your Current Zone.  If you score Hits greater than their current Nerve, they become <a href:'/no1_system/core/statuses#Afraid/'>Afraid</a> of you.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_channeler" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Channeler</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Channeling<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_inferno}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_tempest}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_nox}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_squall}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_rime}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_torrent}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lux}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Channeling
+    --Effect|Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.<br>When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em><br>At the beginning of each Waypoint, your Current is 0.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_tellus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_conduit" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Conduit</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Attune with Essence<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Focus or use your Insight to connect with your power, gaining Hits in Attunement.<br>Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Attune with Essence
+    --Effect|Focus or use your Insight to connect with your power, gaining Hits in Attunement.<br>Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Attune with Essence
+    --Effect|Focus or use your Insight to connect with your power, gaining Hits in Attunement.<br>Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_focus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_corsair" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Corsair</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Pirate's Charm<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Persuade a sailor, pirate, or maritime merchant, adding +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Pirate's Charm
+    --Effect|Persuade a sailor, pirate, or maritime merchant, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Plunderer's Instinct<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Perceive or Investigate to find hidden compartments, treaure, or valuable cargo, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Plunderer's Instinct
+    --Effect|Perceive or Investigate to find hidden compartments, treaure, or valuable cargo, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_investigate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Plunderer's Instinct
+    --Effect|Perceive or Investigate to find hidden compartments, treaure, or valuable cargo, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_perceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Broadside Barrage<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead the crew of a ship in unleashing a devastating broadside attack.  On 2+ Hits, the ballistae to deal double Hits on their next Shoot attempt.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Broadside Barrage
+    --Effect|Lead the crew of a ship in unleashing a devastating broadside attack.  On 2+ Hits, the ballistae to deal double Hits on their next Shoot attempt.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_shoot}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Broadside Barrage
+    --Effect|Lead the crew of a ship in unleashing a devastating broadside attack.  On 2+ Hits, the ballistae to deal double Hits on their next Shoot attempt.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Grappling Hook<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to throw a grappling hook, allowing you to use your Shift to Move to an Adjacent Zone that is vertical from your Current Zone.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Grappling Hook
+    --Effect|Use your Implements to throw a grappling hook, allowing you to use your Shift to Move to an Adjacent Zone that is vertical from your Current Zone.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Tidal Strike<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend Momentum to Strike with the rage of the seas adding +X Bonus Hits to the result set, where X is the amount of Momentum spent.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Tidal Strike
+    --Effect|Spend Momentum to Strike with the rage of the seas adding +X Bonus Hits to the result set, where X is the amount of Momentum spent.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Smuggler's Cunning<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive a target that holds a position of authority, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Smuggler's Cunning
+    --Effect|Deceive a target that holds a position of authority, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Captain's Command<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead all allies in your Current Zone allowing X allies to immediately use a Shoft or Trigger, where X is the number of Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Captain's Command
+    --Effect|Lead all allies in your Current Zone allowing X allies to immediately use a Shoft or Trigger, where X is the number of Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_courtier" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Courtier</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Silver Tongue<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Persuade your target, adding +2 Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Silver Tongue
+    --Effect|Persuade your target, adding +2 Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Subtle Manipulation<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive your target, adding +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Subtle Manipulation
+    --Effect|Deceive your target, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Intrigue Mastery<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Increase your History Rank to 3 (d10) and your Persuasion or Insight Rank to 3 (d10).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Intrigue Mastery
+    --Effect|Increase your History Rank to 3 (d10) and your Persuasion or Insight Rank to 3 (d10).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Intrigue Mastery
+    --Effect|Increase your History Rank to 3 (d10) and your Persuasion or Insight Rank to 3 (d10).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_history}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Social Chameleon<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive to adopt the mannerisms and speech of a different social class, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Social Chameleon
+    --Effect|Deceive to adopt the mannerisms and speech of a different social class, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Rumor Mill<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>You can utilize your Shadow Network to spread a rumor or piece of misinformation. While you are in a city, Spend 2 Wealth and Deceive to plant the seeds of gossip.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Rumor Mill
+    --Effect|You can utilize your Shadow Network to spread a rumor or piece of misinformation. While you are in a city, Spend 2 Wealth and Deceive to plant the seeds of gossip.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Inspiring Presence<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead all allies in your Current Zone, restoring Hits to their Primary Defenses.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Inspiring Presence
+    --Effect|Lead all allies in your Current Zone, restoring Hits to their Primary Defenses.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Whispered Secrets<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>You are a master at communicating subtly and discreetly, exchanging critical information without arousing suspicion.  Deceive to communicate with an ally in your Current Zone when you are being observed by unwanted ears.  On 3+ Hits, you can speak freely without being overheard.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Whispered Secrets
+    --Effect|You are a master at communicating subtly and discreetly, exchanging critical information without arousing suspicion.  Deceive to communicate with an ally in your Current Zone when you are being observed by unwanted ears.  On 3+ Hits, you can speak freely without being overheard.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_defender" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Defender</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Focused Defense<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Focused Defense
+    --Effect|Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_focus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_detective" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Detective</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Interrogator<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Persuade or Intimidate a target you are questioning, adding +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Interrogator
+    --Effect|Persuade or Intimidate a target you are questioning, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Interrogator
+    --Effect|Persuade or Intimidate a target you are questioning, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Deductive Reasoning<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Analyze the facts and data, adding +1d4 Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Deductive Reasoning
+    --Effect|Analyze the facts and data, adding +1d4 Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_analyze}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Intuitive Insight<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Insight to determine if your target is lying or to sense their intentions, adding +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Intuitive Insight
+    --Effect|Use your Insight to determine if your target is lying or to sense their intentions, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Logical Conclusion<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>You can draw accurate conclusions from limited information.  Spend 3 Momentum to state yoru conclusion.  The BAMF will tell you if you are correct.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Logical Conclusion
+        --Effect|You can draw accurate conclusions from limited information.  Spend 3 Momentum to state yoru conclusion.  The BAMF will tell you if you are correct.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_diabolist" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Diabolist</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Profane Allure<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Increase the Entropy by +1, then Deceive or Persuade on target in your Current Zone to give them Charmed X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Profane Allure
+    --Effect|Increase the Entropy by +1, then Deceive or Persuade on target in your Current Zone to give them Charmed X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Profane Allure
+    --Effect|Increase the Entropy by +1, then Deceive or Persuade on target in your Current Zone to give them Charmed X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Profane Caress<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Increase the Entropy by +1, then touch one target in your Current Zone who is Charmed by you to regain X Grit, where X is the target's Charmed rating.  The target loses Charmed.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Profane Caress
+        --Effect|Increase the Entropy by +1, then touch one target in your Current Zone who is Charmed by you to regain X Grit, where X is the target's Charmed rating.  The target loses Charmed.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_diplomat" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Diplomat</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Nobody's Fool<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Nothing slips by you while engaged in social Contests, scoring +2 Bonus Hits when using Insight or Persuade.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nobody's Fool
+    --Effect|Nothing slips by you while engaged in social Contests, scoring +2 Bonus Hits when using Insight or Persuade.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nobody's Fool
+    --Effect|Nothing slips by you while engaged in social Contests, scoring +2 Bonus Hits when using Insight or Persuade.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Silver Tongue<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Persuade your target, adding +2 Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Silver Tongue
+    --Effect|Persuade your target, adding +2 Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Browbeat<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Intimidate your opponent while engaged in a Contest, adding +2 Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Browbeat
+    --Effect|Intimidate your opponent while engaged in a Contest, adding +2 Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_druid" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Druid</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Attune with Nature<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Endure or use your Insight to connect with nature, gaining Hits in Attunement.<br>Attunment measures the strength of connection to nature, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Fatigued 4 and the Momentum decreases by -2.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Attune with Nature
+    --Effect|Endure or use your Insight to connect with nature, gaining Hits in Attunement.<br>Attunment measures the strength of connection to nature, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Fatigued 4 and the Momentum decreases by -2.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Attune with Nature
+    --Effect|Endure or use your Insight to connect with nature, gaining Hits in Attunement.<br>Attunment measures the strength of connection to nature, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Fatigued 4 and the Momentum decreases by -2.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_endure}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Nourish the Bond<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em></p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nourish the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_plaga}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nourish the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_squall}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nourish the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_rime}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nourish the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_torrent}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Temper the Bond<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em></p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Temper the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_inferno}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Temper the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_tempest}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Temper the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_rime}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Temper the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_torrent}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Temper the Bond
+    --Effect|Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_vivus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_elementalist" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Elementalist</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Elemental Recovery<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend X Current and choose one (1):<ul><li>Reduce one of your Statuses by -X.</li><li>Recover +X to your Primary Defense.</li></ul></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Elemental Recovery
+        --Effect|Spend X Current and choose one (1):<ul><li>Reduce one of your Statuses by -X.</li><li>Recover +X to your Primary Defense.</li></ul>
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Uncanny Trait Increase<br><span style="font-size:8pt;">Rank </span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Increase your Uncanny Trait rating by +1.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Uncanny Trait Increase
+        --Effect|Increase your Uncanny Trait rating by +1.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_grandmaster" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Grandmaster</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Dim Mak<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Dim Mak
+        --Effect|
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_healer" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Healer</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Embrace the Cycle<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>When you gain this Talent, increase you Vivus Rank to 2 (d8).<br>You can use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that call on the Vivus Skill.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Embrace the Cycle
+    --Effect|When you gain this Talent, increase you Vivus Rank to 2 (d8).<br>You can use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that call on the Vivus Skill.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_vivus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_hunter" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Hunter</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Natural Camoflauge<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use Stealth to conceal yourself while in a natural environment.  Until you use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Natural Camoflauge
+    --Effect|Use Stealth to conceal yourself while in a natural environment.  Until you use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_stealth}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_infiltrator" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Infiltrator</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Disguise Expert<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive the world to gain Disguised X, where X is euqal to Hits in the result set.  You cannot use this ability if you are being observed by an enemy.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Disguise Expert
+    --Effect|Deceive the world to gain Disguised X, where X is euqal to Hits in the result set.  You cannot use this ability if you are being observed by an enemy.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Lock Master<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to disable a lock blocking your way, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Lock Master
+    --Effect|Use your Implements to disable a lock blocking your way, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Vanish<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend Momentum to gain Hidden X, where X is the amount of Momentum spent.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Vanish
+        --Effect|Spend Momentum to gain Hidden X, where X is the amount of Momentum spent.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_knight" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Knight</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Atoning Act<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 4 Momentum to increase your Dedication by +3.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Atoning Act
+        --Effect|Spend 4 Momentum to increase your Dedication by +3.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_mage" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Mage</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Grasp the arcane<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Whe nyou Study Spells, add +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Grasp the arcane
+        --Effect|Whe nyou Study Spells, add +2 Bonus Hits to the result set.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_magic-user" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Magic-User</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Study Spells<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Research the magical secrets and recipes that empower your Spells.<br>You gain Hits in Spell Ranks to invest in your Spells.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Study Spells
+    --Effect|Research the magical secrets and recipes that empower your Spells.<br>You gain Hits in Spell Ranks to invest in your Spells.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_research}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Spellcraft<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Analyze a magical effect you encounter to determine its type, source, and/or effects.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Spellcraft
+    --Effect|Analyze a magical effect you encounter to determine its type, source, and/or effects.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_analyze}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_marksman" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Marksman</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Pinning Shot<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Shoot your target, reducing Hits in the result set by -2 but giving your target Restrained 2.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Pinning Shot
+    --Effect|Shoot your target, reducing Hits in the result set by -2 but giving your target Restrained 2.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_shoot}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Crippling Shot<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Shoot your target, redicing Hits in the result set by -2 but giving your target Fatigued 1 and Wounded 1.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Crippling Shot
+    --Effect|Shoot your target, redicing Hits in the result set by -2 but giving your target Fatigued 1 and Wounded 1.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_shoot}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Two Birds, One Shot<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Shoot two targets in your Current or an Adjacent Zon, dividing Hits between the two.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Two Birds, One Shot
+    --Effect|Shoot two targets in your Current or an Adjacent Zon, dividing Hits between the two.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_shoot}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Double Tap<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Shoot your target at Hazard 1.  Add +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Double Tap
+    --Effect|Shoot your target at Hazard 1.  Add +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_shoot}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_martial artist" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Martial Artist</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Sweep the Leg<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Martial Arts against your target and reduce the Hits by -2.  If 1+ Hits remain, your target becomes Prone.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Sweep the Leg
+    --Effect|Use your Martial Arts against your target and reduce the Hits by -2.  If 1+ Hits remain, your target becomes Prone.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_medic" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Medic</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">First Aid<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Score 2+ Hits with your Medicine to have one target in your Current Zone regain +X Grit, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - First Aid
+    --Effect|Score 2+ Hits with your Medicine to have one target in your Current Zone regain +X Grit, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Stop Whining!<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Medicine to reduce the Wounded rating of one target in your Current Zone by X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Stop Whining!
+    --Effect|Use your Medicine to reduce the Wounded rating of one target in your Current Zone by X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Smelling Salts<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Medicine to reduce the Unconscious rating of one target in your Current Zone by X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Smelling Salts
+    --Effect|Use your Medicine to reduce the Unconscious rating of one target in your Current Zone by X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Snap Out of It!<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Medicine to reduce the Dazed or Stunned rating of one target in your Current Zone by X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Snap Out of It!
+    --Effect|Use your Medicine to reduce the Dazed or Stunned rating of one target in your Current Zone by X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">I'll Patch You Up<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Medicine to have one target in your Current Zone recover X to their Primary Defense, where X is euqal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - I'll Patch You Up
+    --Effect|Use your Medicine to have one target in your Current Zone recover X to their Primary Defense, where X is euqal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Stem the Bleeding <br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Medicine to reduce the Dying Rating of one target in your current zone by X, where X is equal to Hits -1 in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Stem the Bleeding 
+    --Effect|Use your Medicine to reduce the Dying Rating of one target in your current zone by X, where X is equal to Hits -1 in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_medicine}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_templar" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Templar</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Wrathful Conviction<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 2 Conviction, then use your Boon to harm your foe scoring Hits against one target in your Current Zone.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Wrathful Conviction
+        --Effect|Spend 2 Conviction, then use your Boon to harm your foe scoring Hits against one target in your Current Zone.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;"></h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Fortune Favors the Bold<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Fortune Favors the Bold
+        --Effect|
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Clever Solution<br><span style="font-size:8pt;">Rank None</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Clever Solution
+        --Effect|.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_overseer" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Overseer</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">At Ease, Soldiers!<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead X Minions in your Current Zone to regain 2 Grit, where X is equal to Hits in the result set. These Minions cannot Shift or take an Action this turn.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - At Ease, Soldiers!
+    --Effect|Lead X Minions in your Current Zone to regain 2 Grit, where X is equal to Hits in the result set. These Minions cannot Shift or take an Action this turn.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Rally the Troops<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 4 Momentum to allow all Minions in your Current Zone to regain up to 2 Grit.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Rally the Troops
+        --Effect|Spend 4 Momentum to allow all Minions in your Current Zone to regain up to 2 Grit.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_necromancer" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Necromancer</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Feast On Their Flesh!<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead X Haunts to score 1 Hit against any number of targets in their Current Zones and regain 1 Grit, where X is the number of Hits in your result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Feast On Their Flesh!
+    --Effect|Lead X Haunts to score 1 Hit against any number of targets in their Current Zones and regain 1 Grit, where X is the number of Hits in your result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Dread Presence<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Intimidate targets in your Current Zone, forcing Hits + your Mori Rank targets to become Afraid of you.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Dread Presence
+    --Effect|Intimidate targets in your Current Zone, forcing Hits + your Mori Rank targets to become Afraid of you.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Dread Presence
+    --Effect|Intimidate targets in your Current Zone, forcing Hits + your Mori Rank targets to become Afraid of you.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_mori}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_beastmaster" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Beastmaster</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Protect the Alpha<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the resul set.  Until your next turn, any Hits you suffer are redirected to Minions in yoru Current Zone.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Protect the Alpha
+    --Effect|Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the resul set.  Until your next turn, any Hits you suffer are redirected to Minions in yoru Current Zone.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Feed the Pack<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Lead X Beasts in your Current Zone to regain 2 Grit, where X is equal to Hits in the result set. These Beasts cannot Shift or take an Action this turn.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Feed the Pack
+    --Effect|Lead X Beasts in your Current Zone to regain 2 Grit, where X is equal to Hits in the result set. These Beasts cannot Shift or take an Action this turn.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_lead}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Gather the Pack<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 3 Momentum to allow all Minions under your command to move up to 1 Zone closer to you and regain 1 Grit.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Gather the Pack
+        --Effect|Spend 3 Momentum to allow all Minions under your command to move up to 1 Zone closer to you and regain 1 Grit.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_priest" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Priest</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Commune with Divinity<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.<br>If the result set of one of your Rites contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.<br>You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Commune with Divinity
+    --Effect|Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.<br>If the result set of one of your Rites contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.<br>You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_composure}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_probabilist" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Probabilist</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Derive Axioms<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Analyze</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Derive Axioms
+    --Effect|Analyze
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_analyze}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_psion" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Psion</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Hone the mind<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Focus</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Hone the mind
+    --Effect|Focus
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_focus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_nexus" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Nexus</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Attune with Essence<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Focus or use your Insight to connect with your power, gaining Hits in Attunement.<br>Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Attune with Essence
+    --Effect|Focus or use your Insight to connect with your power, gaining Hits in Attunement.<br>Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Attune with Essence
+    --Effect|Focus or use your Insight to connect with your power, gaining Hits in Attunement.<br>Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.<br>If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.<br>If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_focus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_pugilist" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Pugilist</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Haymaker<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>User your Martial Arts to smash your target's face, giving them a Stunned rating equal to Hits -2.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Haymaker
+    --Effect|User your Martial Arts to smash your target's face, giving them a Stunned rating equal to Hits -2.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Sting Like a Bee<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Martial arts after you Float Like a Butterfly, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Sting Like a Bee
+        --Effect|Use your Martial arts after you Float Like a Butterfly, adding +1d4 Bonus Hits to the result set.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Jab<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p><h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rapid punch to your opponent.  On +1 Hits, score 1 Hit on the target and immediately use different <em>Combination Punch</em>.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Jab
+    --Effect|<h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rapid punch to your opponent.  On +1 Hits, score 1 Hit on the target and immediately use different <em>Combination Punch</em>.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Cross<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p><h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rear-hand punch to your opponent.  On +2 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Cross
+    --Effect|<h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rear-hand punch to your opponent.  On +2 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Hook<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p><h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rotating punch to your opponent.  On +3 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Hook
+    --Effect|<h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rotating punch to your opponent.  On +3 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Uppercut<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p><h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rising punch to your opponent.  On +3 Hits, score 3 Hits on the target.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Uppercut
+    --Effect|<h4 style='margin: 4px'>Combination Punch</h4><br>Use your Martial Arts while engaged in a Contest to deliver a rising punch to your opponent.  On +3 Hits, score 3 Hits on the target.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Work the Body<br><span style="font-size:8pt;">Rank None</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Martial Arts against one target in your Current Zone.  On 2+ Hits, the target gain Fatigued 2.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Work the Body
+    --Effect|Use your Martial Arts against one target in your Current Zone.  On 2+ Hits, the target gain Fatigued 2.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Bob and Weave<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Bob and Weave
+    --Effect|Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_focus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_reaver" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Reaver</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Rending Strike<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Strike your target, delaing +1 Bonus Hits directly to their Grit.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Rending Strike
+    --Effect|Strike your target, delaing +1 Bonus Hits directly to their Grit.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Whirlwind Strike<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Strike at all hostile Targets in your Current Zone.  Deal 1 Hit to a number of targets equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Whirlwind Strike
+    --Effect|Strike at all hostile Targets in your Current Zone.  Deal 1 Hit to a number of targets equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scholar" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Scholar</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Knowledge is Power<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Research to gain critical information about the current situation.  Increase the current Timer by Hits - 2 and decrease the Challenge by -1d.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Knowledge is Power
+    --Effect|Research to gain critical information about the current situation.  Increase the current Timer by Hits - 2 and decrease the Challenge by -1d.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_research}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Linguistic Aptitude<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use Linguistics to speak or decipher any language.  Create +Hits Advantages you can spend on Persuade or Invesitgate.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Linguistic Aptitude
+    --Effect|Use Linguistics to speak or decipher any language.  Create +Hits Advantages you can spend on Persuade or Invesitgate.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_linguistics}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Linguistic Aptitude
+    --Effect|Use Linguistics to speak or decipher any language.  Create +Hits Advantages you can spend on Persuade or Invesitgate.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scoundrel" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Scoundrel</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">It's all a facade<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive opponents in your Current Zone, masking your true intentions.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - It's all a facade
+    --Effect|Deceive opponents in your Current Zone, masking your true intentions.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Forked Tongue<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive your target, adding +2 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Forked Tongue
+    --Effect|Deceive your target, adding +2 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_seer" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Seer</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">See Beyond<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 1 Momentum and Perceive to reveal hiden creatures and secrets.  You gain Truesight X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - See Beyond
+    --Effect|Spend 1 Momentum and Perceive to reveal hiden creatures and secrets.  You gain Truesight X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_perceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Uncanny Trait Increase<br><span style="font-size:8pt;">Rank </span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Increase your Uncanny Trait rating by +1.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Uncanny Trait Increase
+        --Effect|Increase your Uncanny Trait rating by +1.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shaman" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Shaman</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Trance<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>You are capable of traversing the spirit world to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Endure, maintain your Composure, or use your Insight to enter a trancelike state to walk the spirit world. You gain Hits + Steady in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Steady Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Trance
+    --Effect|You are capable of traversing the spirit world to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Endure, maintain your Composure, or use your Insight to enter a trancelike state to walk the spirit world. You gain Hits + Steady in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Trance
+    --Effect|You are capable of traversing the spirit world to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Endure, maintain your Composure, or use your Insight to enter a trancelike state to walk the spirit world. You gain Hits + Steady in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_composure}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Trance
+    --Effect|You are capable of traversing the spirit world to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Endure, maintain your Composure, or use your Insight to enter a trancelike state to walk the spirit world. You gain Hits + Steady in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Steady Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_endure}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shifter" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Shifter</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Primal Form<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Primal Form
+        --Effect|
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shugenja" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Shugenja</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Entreat Spirits<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>You are capable of persuading the spirits if this world and beyond to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Persuade, use your Insight, or Deceive the Spirits in a ceremony of your own design. You gain Hits + Savvy in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Savvy Actions (minimum 1 Action).</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Entreat Spirits
+    --Effect|You are capable of persuading the spirits if this world and beyond to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Persuade, use your Insight, or Deceive the Spirits in a ceremony of your own design. You gain Hits + Savvy in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Savvy Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Entreat Spirits
+    --Effect|You are capable of persuading the spirits if this world and beyond to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Persuade, use your Insight, or Deceive the Spirits in a ceremony of your own design. You gain Hits + Savvy in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Savvy Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Entreat Spirits
+    --Effect|You are capable of persuading the spirits if this world and beyond to discover mystical powers and insights.  You gain access to <a href='/no1_system/characters/powers/spirits/'>Spirits</a>.<br>Set any current Spirit ranks to 0.  Then Persuade, use your Insight, or Deceive the Spirits in a ceremony of your own design. You gain Hits + Savvy in Spirit Ranks to invest in Spirits.<br>You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 9 - Savvy Actions (minimum 1 Action).
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_persuade}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_skald" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Skald</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Trumpet's Call<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Craft to grant X target in your Current Zone 1 Advantage, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Trumpet's Call
+    --Effect|Craft to grant X target in your Current Zone 1 Advantage, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_craft}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_soldier" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Soldier</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Toughened<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Increase your Grit by +2.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Toughened
+        --Effect|Increase your Grit by +2.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_spy" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Spy</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">It's all a facade<br><span style="font-size:8pt;">Rank None</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive opponents in your Current Zone, masking your true intentions.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - It's all a facade
+    --Effect|Deceive opponents in your Current Zone, masking your true intentions.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Master Eavesdropp<br><span style="font-size:8pt;">Rank None</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Master Eavesdropp
+    --Effect|Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_perceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Master of Disguise<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>!!!!</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Master of Disguise
+        --Effect|!!!!
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Silent Takedown<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Silent Takedown
+    --Effect|Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_strike}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Master Eavesdropper<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Master Eavesdropper
+    --Effect|Perceive a private conversation while Hidden to gather information.  Ignore 1s in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_perceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Counterintelligence<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Insight to detect lies and hidden motives, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Counterintelligence
+    --Effect|Use your Insight to detect lies and hidden motives, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_insight}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_tank" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Tank</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Taunt<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Taunt
+    --Effect|Intimidate all hostile targets in your current Zone, +nd Challenge.  Until the beginning of your next turn, a number of hostiles equal to the Hits in your result set target only you.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intimidate}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_thief" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Thief</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Pickpocket<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use Legerdemain to steal from a target.  On 3+ Hits, your target does not notice.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Pickpocket
+    --Effect|Use Legerdemain to steal from a target.  On 3+ Hits, your target does not notice.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_legerdemain}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shinobi" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Shinobi</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Smoke Bomb<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately Defy Danger to Hide!, gaining +2 Bonus Hits to the Hidden rating.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Smoke Bomb
+    --Effect|Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately Defy Danger to Hide!, gaining +2 Bonus Hits to the Hidden rating.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Ninja, Vanish!<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend Momentum to gain Hidden X, where X is the amount of Momentum spent.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Ninja, Vanish!
+        --Effect|Spend Momentum to gain Hidden X, where X is the amount of Momentum spent.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Mewosorasu<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive all opponents in your Current Zone, making a number of them equal to Hits Confused.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Mewosorasu
+    --Effect|Deceive all opponents in your Current Zone, making a number of them equal to Hits Confused.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Caltrops<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to  scatter caltrops in your Current Zone, creating a Hazard 3.  Any target who Shifts to Move into or out of the affected Zone are Slowed.  You can move away from your caltrops without suffering the Hazard or Slowed.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Caltrops
+    --Effect|Use your Implements to  scatter caltrops in your Current Zone, creating a Hazard 3.  Any target who Shifts to Move into or out of the affected Zone are Slowed.  You can move away from your caltrops without suffering the Hazard or Slowed.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Grappling Hook<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Implements to throw a grappling hook, allowing you to use your Shift to Move to an Adjacent Zone that is vertical from your Current Zone.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Grappling Hook
+    --Effect|Use your Implements to throw a grappling hook, allowing you to use your Shift to Move to an Adjacent Zone that is vertical from your Current Zone.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_implements}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Nerve Strike<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Martial Arts against your target, reducing Hits by -2. If the reduced result set still has 2+ Hits, the Target gains Stunned equal to the reduced Hits, but suffers no damage to their Defenses or Grit.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Nerve Strike
+    --Effect|Use your Martial Arts against your target, reducing Hits by -2. If the reduced result set still has 2+ Hits, the Target gains Stunned equal to the reduced Hits, but suffers no damage to their Defenses or Grit.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_martial_arts}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Master of Deception<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Deceive your opponents to create false information or cover your tracks more effectively, adding +1d4 Bonus Hits to the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Master of Deception
+    --Effect|Deceive your opponents to create false information or cover your tracks more effectively, adding +1d4 Bonus Hits to the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_deceive}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scout" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Scout</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Natural Camouflage<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use Stealth to conceal yourself while in a natural environment.  Until you take use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Natural Camouflage
+    --Effect|Use Stealth to conceal yourself while in a natural environment.  Until you take use a Shift or Action, you gain Hidden X, where X is equal to 8+Hits in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_stealth}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Rapid Recon<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your Stealth while scouting ahead of your allies.  On 4+ Hits, you gain 2 additional Shifts this turn.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Rapid Recon
+    --Effect|Use your Stealth while scouting ahead of your allies.  On 4+ Hits, you gain 2 additional Shifts this turn.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_stealth}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Expert Tracker<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Use your skills of Survival to track an enemy, adding +1d4 Bonus Hits and ignoring 1s in the result set.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Expert Tracker
+    --Effect|Use your skills of Survival to track an enemy, adding +1d4 Bonus Hits and ignoring 1s in the result set.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_survival}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_petitioner" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Petitioner</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Gifts Affinity<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em></p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_bellor}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_inferno}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_mori}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_rime}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_ordi}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_aether}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_destroy}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_intuit}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_nihil}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Gifts Affinity
+    --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_vivus}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Desperate Plea<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Spend 4 Momentum to convince your Patron to restore your Gifts.  Regain +2 Succor and increase the Entropy by +2.</p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Desperate Plea
+        --Effect|Spend 4 Momentum to convince your Patron to restore your Gifts.  Regain +2 Succor and increase the Entropy by +2.
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Gifts Affinity<br><span style="font-size:8pt;">Rank 3</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Choose one of the Effect Skills below to be an Affinity.<br><em></em></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Gifts Affinity
+        --Effect|Choose one of the Effect Skills below to be an Affinity.<br><em></em>
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_transmuter" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Transmuter</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Study the forms<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p></p>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{Name} - Study the forms
+        --Effect|
+        --format|abilitycheck
+        }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_wrestler" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Wrestler</h4>
+<div class="grid-container-talents">
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Suplex<br><span style="font-size:8pt;">Rank 2</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grappled Status.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Suplex
+    --Effect|Grapple your target, adding +1d4 bonus Hits and making them Prone, but ending their Grappled Status.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_grapple}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+<div class="grid-item-talents">
+<label style="font-size:12pt;">Chokeslam<br><span style="font-size:8pt;">Rank 1</span></label>
+<br><input type="checkbox" /><div class="talent-rollbox">
+<p>Grapple one target in your Current Zone.  On 3+ Hits, your target becomes Prone and Dazed 2.</p>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{name} - Chokeslam
+    --Effect|Grapple one target in your Current Zone.  On 3+ Hits, your target becomes Prone and Dazed 2.
+    --Result Set|[[ [$talent|XPND] @{BAMF|challenge}d@{skill_grapple}>4]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|abilitycheck
+    }}">
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
