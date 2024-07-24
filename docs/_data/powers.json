@@ -1611,14 +1611,11 @@
                     "effects": [
                         {
                             "ranks": 2,
-                            "effect": "Reduce your Strain by -1 for each target in your Zone that is Fatigued.
-                            <br>Reduce your Strain by -1 for each target in your Zone that is Charmed."
+                            "effect": "Reduce your Strain by -1 for each target in your Zone that is Fatigued.<br>Reduce your Strain by -1 for each target in your Zone that is Charmed."
                         },
                         {
                             "ranks": 4,
-                            "effect": "Reduce your Strain by -1 for each target in your Zone that is Fatigued.
-                            <br>Reduce your Strain by -1 for each target in your Zone that is Charmed.
-                            <br>Move to an Adjacent Zone ignoring Hazards."
+                            "effect": "Reduce your Strain by -1 for each target in your Zone that is Fatigued.<br>Reduce your Strain by -1 for each target in your Zone that is Charmed.<br>Move to an Adjacent Zone ignoring Hazards."
                         }
                     ]
                 },
@@ -5811,7 +5808,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing.",
+                    "effect": "Your Current Zone gains Hazard 2 Ongoing.  It requires 2 Shifts to Move into or out of your Current Zone Ongoing."
                 }
             ],
             "keywords": "Ongoing 2"
@@ -8806,12 +8803,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "Select one target in your Current Zone.  The target gains Provoked 3, then choose one (1):
-                    <ul>
-                        <li>The target gains Charmed X.</li>
-                        <li>The target becomes Prone.</li>
-                        <li>The target gains Afraid X.</li>
-                    </ul>"
+                    "effect": "Select one target in your Current Zone.  The target gains Provoked 3, then choose one (1):<ul><li>The target gains Charmed X.</li><li>The target becomes Prone.</li><li>The target gains Afraid X.</li></ul>"
                 }
             ],
             "requires": null,
@@ -8824,12 +8816,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "Select one target in your Current Zone.  The target gains Provoked 3, then choose one (1):
-                    <ul>
-                        <li>The target gains Charmed X.</li>
-                        <li>The target becomes Prone.</li>
-                        <li>The target gains Afraid X.</li>
-                    </ul>"
+                    "effect": "Select one target in your Current Zone.  The target gains Provoked 3, then choose one (1):<ul><li>The target gains Charmed X.</li><li>The target becomes Prone.</li><li>The target gains Afraid X.</li></ul>"
                 }
             ],
             "requires": null,
@@ -8933,11 +8920,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "You gain Aura X, where X is equal to Hits in the result set.  If a target dies in your Current Zone while the Aura persists, choose one (1):
-                        <ul>
-                            <li>You regain +1 Grit.</li>
-                            <li>You reduce your Dying rating by -1.</li>
-                        </ul>"
+                    "effect": "You gain Aura X, where X is equal to Hits in the result set.  If a target dies in your Current Zone while the Aura persists, choose one (1):<ul><li>You regain +1 Grit.</li><li>You reduce your Dying rating by -1.</li></ul>"
                 }
             ],
             "requires": null,
@@ -9327,11 +9310,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "Choose up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set.  Choose one (1):
-                        <ul>
-                            <li>All targets gain Frozen 1.</li>
-                            <li>All targets gain Restrained 2.</li>
-                        </ul>"
+                    "effect": "Choose up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set.  Choose one (1):<ul><li>All targets gain Frozen 1.</li><li>All targets gain Restrained 2.</li></ul>"
                 }
             ],
             "requires": null,
@@ -9682,12 +9661,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Create a sphere of pallid in your Current Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:
-                    <ul>
-                        <li>Move the sphere one Adjacent Zone.</li>
-                        <li>Reveal any hidden target in the Sphere's zone using your Perceive, adding +1d4 Bonus Hits to the result set and removing the Invisible keyword from all targets in the Zone.</li>
-                        <li>One target in the Sphere's Zone gains the Invisible keyword.</li>
-                    </ul>"
+                    "effect": "Create a sphere of pallid in your Current Zone. This turn, and on each of your turns Ongoing, you may use a Shift for one of the following:<ul><li>Move the sphere one Adjacent Zone.</li><li>Reveal any hidden target in the Sphere's zone using your Perceive, adding +1d4 Bonus Hits to the result set and removing the Invisible keyword from all targets in the Zone.</li><li>One target in the Sphere's Zone gains the Invisible keyword.</li></ul>"
                 }
             ],
             "requires": null,
@@ -9765,12 +9739,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "Create 3 spheres of luminous energy in your Current Zone. This turn, and on each of your turns Ongoing, you may use a Shift for either of the following:
-                    <ul>
-                        <li>Move the spheres one Adjacent Zone.</li>
-                        <li>Score 1d4 Bonus Hits to one target in each Sphere's Current Zone.</li>
-                        <li>One target in each sphere's Current Zone recovers 1d4 Bonus Hits to their Primary Defense.</li>
-                    </ul>"
+                    "effect": "Create 3 spheres of luminous energy in your Current Zone. This turn, and on each of your turns Ongoing, you may use a Shift for either of the following:<ul><li>Move the spheres one Adjacent Zone.</li><li>Score 1d4 Bonus Hits to one target in each Sphere's Current Zone.</li><li>One target in each sphere's Current Zone recovers 1d4 Bonus Hits to their Primary Defense.</li></ul>"
                 }
             ],
             "requires": null,
@@ -10017,11 +9986,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "You Provoke all enemies in your Current or an Adjacent Zone.  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger:
-                    <div style='background-colo:#4b476650;'>
-                        <h4 style='margin: 5px;'>Trigger</h4>
-                        When you score 2+ Hits with an Action that effects one target, the target gains Stunned 1.
-                    </div>"
+                    "effect": "You Provoke all enemies in your Current or an Adjacent Zone.  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with an Action that effects one target, the target gains Stunned 1.</div>"
                 }
             ],
             "requires": null,
@@ -10190,11 +10155,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:
-                    <div style='background-colo:#4b476650;'>
-                        <h4 style='margin: 5px;'>Trigger</h4>
-                        When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.
-                    </div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
                 }
             ],
             "requires": null,
@@ -10207,11 +10168,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:
-                    <div style='background-colo:#4b476650;'>
-                        <h4 style='margin: 5px;'>Trigger</h4>
-                        When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.
-                    </div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
                 }
             ],
             "requires": null,
@@ -10263,12 +10220,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "Choose one (1):
-                    <ul>
-                        <li>Create a sphere of golden light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere one Adjacent Zone and/or have one target in the sphere's Current Zone adds +1d4 Bonus Hits to any Action using Analyze, Endure, Focus, Insight, or Lux.</li>
-                        <li>Create a sphere of coppery red light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere one Adjacent Zone and/or have one target in the sphere's Current Zone adds +1d4 Bonus Hits to any Action using Exert, Shoot, Strike, Tactics, or Lux.</li>
-                        <li>Create a sphere of cold black light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere one Adjacent Zone and/or have one target in the sphere's Current Zone take 1d4 Bonus Hits and gain Stunned X, where X is equal to the Bonus Hits from this Power.</li>
-                    </ul>"
+                    "effect": "Choose one (1):<ul><li>Create a sphere of golden light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere one Adjacent Zone and/or have one target in the sphere's Current Zone adds +1d4 Bonus Hits to any Action using Analyze, Endure, Focus, Insight, or Lux.</li><li>Create a sphere of coppery red light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere one Adjacent Zone and/or have one target in the sphere's Current Zone adds +1d4 Bonus Hits to any Action using Exert, Shoot, Strike, Tactics, or Lux.</li><li>Create a sphere of cold black light in your Current Zone.  This turn, and on each of your turns Ongoing, you may use a Shift to move the sphere one Adjacent Zone and/or have one target in the sphere's Current Zone take 1d4 Bonus Hits and gain Stunned X, where X is equal to the Bonus Hits from this Power.</li></ul>"
                 }
             ],
             "requires": null,
@@ -10320,12 +10272,7 @@
             "threshold": [
                 {
                     "hits": "1",
-                    "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set.  Choose one (1):
-                    <ul>
-                        <li>The target gains Restrained 3.</li>
-                        <li>You pull the target into your Current Zone.</li>
-                        <li>The target gains Stunned 3.</li>
-                    </ul>"
+                    "effect": "One target in your Current or an Adjacent Zone takes X hits, where X is equal to Hits in the result set.  Choose one (1):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>The target gains Stunned 3.</li></ul>"
                 }
             ],
             "requires": null,
@@ -10507,11 +10454,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger:
-                    <div style='background-colo:#4b476650;'>
-                        <h4 style='margin: 5px;'>Trigger</h4>
-                        When you score 2+ Hits with a combat Action that effects one target, the target gains Frozen 1.
-                    </div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with a combat Action that effects one target, the target gains Frozen 1.</div>"
                 }
             ],
             "requires": null,
@@ -10604,8 +10547,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:
-                <br><em>Focus, Insight, Investigate, Operate, Perceive</em>"
+                    "effect": "Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:<br><em>Focus, Insight, Investigate, Operate, Perceive</em>"
                 }
             ],
             "requires": null,
@@ -11442,7 +11384,7 @@
                 },
                 {
                     "hits": 1,
-                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed X, where X is equal to Hits in the result set.",
+                    "effect": "Up to 3 targets in your Currrent Zone take 2 Hits and gain Slowed X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": "Frostbite 2",
@@ -11466,7 +11408,7 @@
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent Zone take X Hits, where X is equal to Hits in the result set.",
+                    "effect": "One target in your Current or an Adjacent Zone take X Hits, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -11482,8 +11424,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.
-                    <br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
             "requires": null,
@@ -11559,11 +11500,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Touch one target in your Current Zone and choose one (1):
-                    <ul>
-                        <li>The target grows in size, gaining +5 Grit, +5 Vigor, and adding +1d4 Bonus Hits to any result set using Endure, Exert, Strike, or Grapple Ongoing.</li>
-                        <li>The target shrinks in size, gaining +5 Reflexes and adding +1d4 Bonus Hits to any result set using Stealth or Tumple.</li>
-                    </ul>"
+                    "effect": "Touch one target in your Current Zone and choose one (1):<ul><li>The target grows in size, gaining +5 Grit, +5 Vigor, and adding +1d4 Bonus Hits to any result set using Endure, Exert, Strike, or Grapple Ongoing.</li><li>The target shrinks in size, gaining +5 Reflexes and adding +1d4 Bonus Hits to any result set using Stealth or Tumple.</li></ul>"
                 }
             ],
             "requires": null,
@@ -11694,21 +11631,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):
-                    <ul>
-                        <li>The target gains Restrained 3.</li>
-                        <li>You pull the target into your Current Zone.</li>
-                        <li>The target gains Afraid 2.</li>
-                    </ul>"
+                    "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>The target gains Afraid 2.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent Zone, where X is equal to Hits in the result set., then choose two (2):
-                    <ul>
-                        <li>The target gains Restrained 3.</li>
-                        <li>You pull the target into your Current Zone.</li>
-                        <li>The target gains Afraid 2.</li>
-                    </ul>"
+                    "effect": "One target in your Current or an Adjacent Zone, where X is equal to Hits in the result set., then choose two (2):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>The target gains Afraid 2.</li></ul>"
                 }
             ],
             "requires": null,
@@ -11724,21 +11651,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone or an Adjacent takes 2 Hits, then choose one (1):
-                    <ul>
-                        <li>The target gains Restrained 3.</li>
-                        <li>You pull the target into your Current Zone.</li>
-                        <li>The target gains Wounded 1.</li>
-                    </ul>"
+                    "effect": "One target in your Current Zone or an Adjacent takes 2 Hits, then choose one (1):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>The target gains Wounded 1.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current Zone or an Adjacent takes 2 Hits, then choose two (2):
-                    <ul>
-                        <li>The target gains Restrained 3.</li>
-                        <li>You pull the target into your Current Zone.</li>
-                        <li>The target gains Wounded 1.</li>
-                    </ul>"
+                    "effect": "One target in your Current Zone or an Adjacent takes 2 Hits, then choose two (2):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>The target gains Wounded 1.</li></ul>"
                 }
             ],
             "requires": null,
@@ -11870,7 +11787,7 @@
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraidd 1 and Vulnerable 1 on each of their turns Ongoing.",
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraidd 1 and Vulnerable 1 on each of their turns Ongoing."
                 }
             ],
             "requires": null,
@@ -12011,23 +11928,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
-                    <ul>
-                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                        <li>The target gains Dazed 2 and Confused 2.</li>
-                        <li>You read the targets surface thoughts.</li>
-                    </ul>
-                    "
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Dazed 2 and Confused 2.</li><li>You read the targets surface thoughts.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
-                    <ul>
-                        <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                        <li>The target gains Dazed 2 and Confused 2.</li>
-                        <li>You read the targets surface thoughts.</li>
-                    </ul>
-                    "
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Dazed 2 and Confused 2.</li><li>You read the targets surface thoughts.</li></ul>"
                 }
             ],
             "requires": null,
@@ -12103,8 +12008,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Ongoing:
-                    <h4 style='margin: 3px;'>Trigger &mdash </h4> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
+                    "effect": "One target in your Current Zone gains the following Ongoing:<h4 style='margin: 3px;'>Trigger &mdash </h4> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
                 }
             ],
             "requires": null,
@@ -12382,8 +12286,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Aura 2:
-                    <h4 style='margin: 3px;'>Trigger &mdash </h4> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
+                    "effect": "One target in your Current Zone gains the following Aura 2:<h4 style='margin: 3px;'>Trigger &mdash </h4> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
                 }
             ],
             "requires": null,
@@ -13494,7 +13397,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effec": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set."
+                    "effect": "When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set."
                 },
                 {
                     "hits": 4,
@@ -13648,19 +13551,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li>
-                                    <li>All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li>
-                                    <li>All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li></ul>"
                 }
             ],
             "requires": null,
@@ -13816,21 +13711,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
-                            <ul>
-                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                                <li>The target gains Dazed 2 and Confused 2.</li>
-                                <li>You gain +4 Current.</li>
-                            </ul>"
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Dazed 2 and Confused 2.</li><li>You gain +4 Current.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
-                            <ul>
-                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                                <li>The target gains Dazed 2 and Confused 2.</li>
-                                <li>You gain +4 Current.</li>
-                            </ul>"
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Dazed 2 and Confused 2.</li><li>You gain +4 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -13958,19 +13843,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>All targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li>
-                                    <li>Increase the Entropy by +1 and you gain +3 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul>"
                 },
                 {
                     "hits": 5,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>All hostile targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li>
-                                    <li>Increase the Entropy by +1 and you gain +3 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -13986,11 +13863,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):
-                            <ul>
-                                <li>The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.</li>
-                                <li>The target loses all Auras and loses 2 Grit.</li>
-                            </ul>"
+                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):<ul><li>The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.</li><li>The target loses all Auras and loses 2 Grit.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14042,21 +13915,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):
-                            <ul>
-                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                                <li>The target gains Afraidd 2 and Wounded 1.</li>
-                                <li>You gain +3 Current.</li>
-                            </ul>"
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraidd 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):
-                            <ul>
-                                <li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li>
-                                <li>The target gains Afraidd 2 and Wounded 1.</li>
-                                <li>You gain +3 Current.</li>
-                            </ul>"
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraidd 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14120,19 +13983,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):
-                            <ul>
-                                <li>The target gains Fatigued 1.</li>
-                                <li>The target takes 2 Hits to Nerve.</li>
-                            </ul>"
+                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one (1):<ul><li>The target gains Fatigued 1.</li><li>The target takes 2 Hits to Nerve.</li></ul>"
                 },
                 {
                     "hits": 3,
-                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one or both:
-                            <ul>
-                                <li>The target gains Fatigued 1.</li>
-                                <li>The target takes 2 Hits to Nerve.</li>
-                            </ul>"
+                    "effect": "Select a target in your Current or an Adjacent Zone and then choose one or both:<ul><li>The target gains Fatigued 1.</li><li>The target takes 2 Hits to Nerve.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14176,16 +14031,15 @@
         },
         {
             "name": "Spreading Darkness",
-            "type": "Nox",
-            "skill": null,
+            "type": "Ability",
+            "skill": "Nox",
             "cost": 2,
             "effect": null,
             "current": 3,
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "All light in your Current Zone are extinguished and all targets in your Current Zone gain Blind 1 Ongoing.
-                            <br><br>At the beginning of each of your turns while this Techniqe is Ongoing, copy its effect to all Adjacent Zones."
+                    "effect": "All light in your Current Zone are extinguished and all targets in your Current Zone gain Blind 1 Ongoing.<br><br>At the beginning of each of your turns while this Technique is Ongoing, copy its effect to all Adjacent Zones."
                 }
             ],
             "requires": null,
@@ -14347,19 +14201,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.</li>
-                                    <li>Increase the Entropy by +1 and you gain +2 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.</li><li>Increase the Entropy by +1 and you gain +2 Current.</li></ul>"
                 },
                 {
                     "hits": 5,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.</li>
-                                    <li>Increase the Entropy by +1 and you gain +2 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.</li><li>Increase the Entropy by +1 and you gain +2 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14455,19 +14301,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.</li>
-                                    <li>The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.</li><li>The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.</li>
-                                    <li>The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.</li><li>The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14485,19 +14323,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>All targets in the targeted Zone take become Prone and gain Dazed 2.</li>
-                                    <li>All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets in the targeted Zone take become Prone and gain Dazed 2.</li><li>All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>All targets in the targeted Zone take become Prone and gain Dazed 2.</li>
-                                    <li>All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All targets in the targeted Zone take become Prone and gain Dazed 2.</li><li>All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14591,21 +14421,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li>
-                                    <li>Increase the Entropy by +3 and increase the Momentum by +3.
-                                    <br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li><li>Increase the Entropy by +3 and increase the Momentum by +3.<br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li>
-                                    <li>Increase the Entropy by +3 and increase the Momentum by +3.
-                                    <br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li><li>Increase the Entropy by +3 and increase the Momentum by +3.<br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14665,8 +14485,7 @@
                 },
                 {
                     "hits": 3,
-                    "effect": "Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targeted Zones.
-                    <br>You gain +2 Current."
+                    "effect": "Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targeted Zones.<br>You gain +2 Current."
                 }
             ],
             "requires": null,
@@ -14734,21 +14553,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.</li>
-                                    <li>Increase the Entropy by +2 and increase the Momentum by +3.
-                                    <br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.</li><li>Increase the Entropy by +2 and increase the Momentum by +3.<br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.</li>
-                                    <li>Increase the Entropy by +2 and increase the Momentum by +3.
-                                    <br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.</li><li>Increase the Entropy by +2 and increase the Momentum by +3.<br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14858,12 +14667,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):
-                    <ul>
-                        <li>The target gains Restrained 3.</li>
-                        <li>You pull the target into your Current Zone.</li>
-                        <li>You gain +2 Current.</li>
-                    </ul>"
+                    "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>You gain +2 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -14895,19 +14699,11 @@
             "threshold": [
                 {
                     "hits": 1,
-                    "effect": "One target in your Current Zone can choose one (1):
-                        <ul>
-                            <li>Regain X Grit, where X is equal to Hits in the result set.</li>
-                            <li>Reduce one Status by X, where X is equal to Hits in the result set.</li>
-                        </ul>"
+                    "effect": "One target in your Current Zone can choose one (1):<ul><li>Regain X Grit, where X is equal to Hits in the result set.</li><li>Reduce one Status by X, where X is equal to Hits in the result set.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to 3 targets in your Current Zone can choose one (1):
-                        <ul>
-                            <li>Regain X Grit, where X is equal to Hits in the result set.</li>
-                            <li>Reduce one Status by X, where X is equal to Hits in the result set.</li>
-                        </ul>"
+                    "effect": "Up to 3 targets in your Current Zone can choose one (1):<ul><li>Regain X Grit, where X is equal to Hits in the result set.</li><li>Reduce one Status by X, where X is equal to Hits in the result set.</li></ul>"
                 }
             ],
             "requires": null,
@@ -15013,19 +14809,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):
-                                <ul>
-                                    <li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li>
-                                    <li>All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:
-                                <ul>
-                                    <li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li>
-                                    <li>All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li>
-                                </ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li></ul>"
                 }
             ],
             "requires": null,
