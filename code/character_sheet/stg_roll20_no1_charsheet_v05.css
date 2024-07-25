@@ -81,34 +81,46 @@
   }
   
   .charsheet .sheet-powers-affinity ~ .sheet-power-aether,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-bellor,
   .charsheet .sheet-powers-affinity ~ .sheet-power-inferno,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-locus,
   .charsheet .sheet-powers-affinity ~ .sheet-power-lux,
   .charsheet .sheet-powers-affinity ~ .sheet-power-mentis,
   .charsheet .sheet-powers-affinity ~ .sheet-power-mori,
   .charsheet .sheet-powers-affinity ~ .sheet-power-nihil,
   .charsheet .sheet-powers-affinity ~ .sheet-power-nox,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-ordi,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-phylla,
   .charsheet .sheet-powers-affinity ~ .sheet-power-plaga,
   .charsheet .sheet-powers-affinity ~ .sheet-power-rime,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-sangui,
   .charsheet .sheet-powers-affinity ~ .sheet-power-squall,
   .charsheet .sheet-powers-affinity ~ .sheet-power-tellus,
   .charsheet .sheet-powers-affinity ~ .sheet-power-tempest,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-tempor,
   .charsheet .sheet-powers-affinity ~ .sheet-power-torrent,
   .charsheet .sheet-powers-affinity ~ .sheet-power-vivus {
     display: none;
   }
 
   .charsheet .sheet-powers-affinity[value="Aether"] ~ .sheet-power-aether,
+  .charsheet .sheet-powers-affinity[value="Bellor"] ~ .sheet-power-bellor,
   .charsheet .sheet-powers-affinity[value="Inferno"] ~ .sheet-power-inferno,
+  .charsheet .sheet-powers-affinity[value="Locus"] ~ .sheet-power-locus,
   .charsheet .sheet-powers-affinity[value="Lux"] ~ .sheet-power-lux,
   .charsheet .sheet-powers-affinity[value="Mentis"] ~ .sheet-power-mentis,
   .charsheet .sheet-powers-affinity[value="Mori"] ~ .sheet-power-mori,
   .charsheet .sheet-powers-affinity[value="Nihil"] ~ .sheet-power-nihil,
   .charsheet .sheet-powers-affinity[value="Nox"] ~ .sheet-power-nox,
+  .charsheet .sheet-powers-affinity[value="Ordi"] ~ .sheet-power-ordi,
+  .charsheet .sheet-powers-affinity[value="Phylla"] ~ .sheet-power-phylla,
   .charsheet .sheet-powers-affinity[value="Plaga"] ~ .sheet-power-plaga,
   .charsheet .sheet-powers-affinity[value="Rime"] ~ .sheet-power-rime,
+  .charsheet .sheet-powers-affinity[value="Sangui"] ~ .sheet-power-sangui,
   .charsheet .sheet-powers-affinity[value="Squall"] ~ .sheet-power-squall,
   .charsheet .sheet-powers-affinity[value="Tellus"] ~ .sheet-power-tellus,
   .charsheet .sheet-powers-affinity[value="Tempest"] ~ .sheet-power-tempest,
+  .charsheet .sheet-powers-affinity[value="Tempor"] ~ .sheet-power-tempor,
   .charsheet .sheet-powers-affinity[value="Torrent"] ~ .sheet-power-torrent,
   .charsheet .sheet-powers-affinity[value="Vivus"] ~ .sheet-power-vivus {
     display: block;
