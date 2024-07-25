@@ -13355,11 +13355,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  Until the end of your next turn, characters can Shift to Move between the tunnel's endpoints without incurring Hazard."
+                    "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent Ongoing.  While the tunnel persists, characters can Shift to Move between the tunnel's endpoints without incurring Hazard."
                 },
                 {
                     "hits": 4,
-                    "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  Until the end of your next turn, You and your allies Shift to Move between the tunnel's endpoints without incurring Hazard."
+                    "effect": "Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  While the tunnel persists, you and your allies can Shift to Move between the tunnel's endpoints without incurring Hazard."
                 }
             ],
             "requires": null,
@@ -14277,7 +14277,7 @@
         },
         {
             "name": "Glacial Spike",
-            "type": "Bility",
+            "type": "Ability",
             "skill": "Rime",
             "cost": 0,
             "effect": null,
@@ -14317,9 +14317,9 @@
             "name": "Invoke the Winds",
             "type": "Ability",
             "skill": "Squall",
-            "cost": null,
+            "cost": 3,
             "effect": null,
-            "current": null,
+            "current": 5,
             "threshold": [
                 {
                     "hits": 2,
@@ -14497,7 +14497,7 @@
             "skill": "Tempest",
             "cost": 0,
             "effect": null,
-            "current": 3,
+            "current": 1,
             "threshold": [
                 {
                     "hits": 1,

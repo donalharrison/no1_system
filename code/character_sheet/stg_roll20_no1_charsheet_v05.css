@@ -37,7 +37,17 @@
   .sheet-character-training,
   .sheet-actions-abilities,
   .sheet-actions-recover,
-  .sheet-actions-maneuvers {
+  .sheet-actions-maneuvers,
+  .sheet-powers-arcana,
+  .sheet-powers-concoctions,
+  .sheet-powers-epics,
+  .sheet-powers-gifts,
+  .sheet-powers-hexes,
+  .sheet-powers-marvels,
+  .sheet-powers-rites,
+  .sheet-powers-spells,
+  .sheet-powers-spirits,
+  .sheet-powers-techniques {
     display: none;
   }
   
@@ -47,7 +57,17 @@
   .charsheet .subsheet-tabstoggle[value="training"]~div.sheet-character-training,
   .charsheet .subsheet-tabstoggle[value="abilities"]~div.sheet-actions-abilities,
   .charsheet .subsheet-tabstoggle[value="recover"]~div.sheet-actions-recover,
-  .charsheet .subsheet-tabstoggle[value="maneuvers"]~div.sheet-actions-maneuvers {
+  .charsheet .subsheet-tabstoggle[value="maneuvers"]~div.sheet-actions-maneuvers,
+  .charsheet .subsheet-tabstoggle[value="arcana"]~div.sheet-powers-arcana,
+  .charsheet .subsheet-tabstoggle[value="concoctions"]~div.sheet-powers-concoctions,
+  .charsheet .subsheet-tabstoggle[value="epics"]~div.sheet-powers-epics,
+  .charsheet .subsheet-tabstoggle[value="gifts"]~div.sheet-powers-gifts,
+  .charsheet .subsheet-tabstoggle[value="hexes"]~div.sheet-powers-hexes,
+  .charsheet .subsheet-tabstoggle[value="marvels"]~div.sheet-powers-marvels,
+  .charsheet .subsheet-tabstoggle[value="rites"]~div.sheet-powers-rites,
+  .charsheet .subsheet-tabstoggle[value="spells"]~div.sheet-powers-spells,
+  .charsheet .subsheet-tabstoggle[value="spirits"]~div.sheet-powers-spirits,
+  .charsheet .subsheet-tabstoggle[value="techniques"]~div.sheet-powers-techniques {
     display: block;
   }
   
@@ -60,12 +80,38 @@
     display: block;
   }
   
-  .charsheet .sheet-powers-affinity ~ .sheet-powers-power {
-    display: block;
-  }
-  
-.charsheet .sheet-powers-affinity[value="None"] ~ .sheet-powers-power {
+  .charsheet .sheet-powers-affinity ~ .sheet-power-aether,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-inferno,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-lux,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-mentis,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-mori,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-nihil,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-nox,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-plaga,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-rime,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-squall,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-tellus,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-tempest,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-torrent,
+  .charsheet .sheet-powers-affinity ~ .sheet-power-vivus {
     display: none;
+  }
+
+  .charsheet .sheet-powers-affinity[value="Aether"] ~ .sheet-power-aether,
+  .charsheet .sheet-powers-affinity[value="Inferno"] ~ .sheet-power-inferno,
+  .charsheet .sheet-powers-affinity[value="Lux"] ~ .sheet-power-lux,
+  .charsheet .sheet-powers-affinity[value="Mentis"] ~ .sheet-power-mentis,
+  .charsheet .sheet-powers-affinity[value="Mori"] ~ .sheet-power-mori,
+  .charsheet .sheet-powers-affinity[value="Nihil"] ~ .sheet-power-nihil,
+  .charsheet .sheet-powers-affinity[value="Nox"] ~ .sheet-power-nox,
+  .charsheet .sheet-powers-affinity[value="Plaga"] ~ .sheet-power-plaga,
+  .charsheet .sheet-powers-affinity[value="Rime"] ~ .sheet-power-rime,
+  .charsheet .sheet-powers-affinity[value="Squall"] ~ .sheet-power-squall,
+  .charsheet .sheet-powers-affinity[value="Tellus"] ~ .sheet-power-tellus,
+  .charsheet .sheet-powers-affinity[value="Tempest"] ~ .sheet-power-tempest,
+  .charsheet .sheet-powers-affinity[value="Torrent"] ~ .sheet-power-torrent,
+  .charsheet .sheet-powers-affinity[value="Vivus"] ~ .sheet-power-vivus {
+    display: block;
   }
   
   input[type=checkbox]:not(:checked)~ .talent-rollbox {
@@ -456,9 +502,9 @@
   .grid-item-talents {
     background-color: #33303e;
     color: #f2f2f2;
-    padding: 6px;
+    padding: 3px;
     text-align: left;
-    margin: 4px;
+    margin: 2px;
     grid-column-end: span 1;
   /*   grid-row-start: 2;
     grid-row-end: span 1; */
@@ -468,6 +514,17 @@
     font-size: 10pt;
   }
   
+  .grid-item-talents {
+    background-color: #33303e;
+    color: #f2f2f2;
+    padding: 6px;
+    text-align: left;
+    margin: 4px;
+    grid-column-end: span 1;
+  /*   grid-row-start: 2;
+    grid-row-end: span 1; */
+  }
+
   .demos {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
