@@ -3827,7 +3827,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Analyze Rank to 2 (d6)."
+                "Increase your Analyze Rank to 2 (d8)."
             ]
         },
         {
@@ -3838,7 +3838,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Analyze Rank to 3 (d8)."
+                "Increase your Analyze Rank to 3 (d10)."
             ]
         },
         {
@@ -5146,7 +5146,7 @@
             "tree": "Probabilist",
             "name": "Measurement Error",
             "type": "Trigger",
-            "rank": "",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5157,7 +5157,7 @@
             "tree": "Probabilist",
             "name": "Lambda",
             "type": "Ability",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5168,7 +5168,7 @@
             "tree": "Probabilist",
             "name": "Proficiency Decay",
             "type": "Ability",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5178,7 +5178,8 @@
         {
             "tree": "Probabilist",
             "name": "Inverse Cumulative Distribution",
-            "type": "Trigger""rank": "",
+            "type": "Trigger",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5189,7 +5190,7 @@
             "tree": "Probabilist",
             "name": "Differentiaion Ray",
             "type": "Ability",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5200,7 +5201,7 @@
             "tree": "Probabilist",
             "name": "Central Limit Theorem",
             "type": "Ability",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5211,7 +5212,7 @@
             "tree": "Probabilist",
             "name": "Random Walk",
             "type": "Shift",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5222,7 +5223,7 @@
             "tree": "Probabilist",
             "name": "Uncertainty Field",
             "type": "Trigger",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5233,7 +5234,7 @@
             "tree": "Probabilist",
             "name": "Real Analysis",
             "type": "Static",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -5244,77 +5245,77 @@
             "tree": "Probabilist",
             "name": "Analyze (2)",
             "type": "Static",
-            "rank": "",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Analyze Rank to 2 (d8)."
             ]
         },
         {
             "tree": "Probabilist",
             "name": "Analyze (3)",
             "type": "Static",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Analyze Rank to 3 (d10)."
             ]
         },
         {
             "tree": "Probabilist",
             "name": "Analyze (4)",
             "type": "Static",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Analyze Rank to 4 (d12)."
             ]
         },
         {
             "tree": "Probabilist",
             "name": "Arithm (1)",
             "type": "Static",
-            "rank": "",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Arithm Rank to 1 (d6)."
             ]
         },
         {
             "tree": "Probabilist",
             "name": "Arithm (2)",
             "type": "Static",
-            "rank": "",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Arithm Rank to 2 (d8)."
             ]
         },
         {
             "tree": "Probabilist",
             "name": "Arithm (3)",
             "type": "Static",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Arithm Rank to 3 (d10)."
             ]
         },
         {
             "tree": "Probabilist",
             "name": "Arithm (4)",
             "type": "Static",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Arithm Rank to 4 (d12)."
             ]
         },
         {
