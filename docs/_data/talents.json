@@ -5139,7 +5139,182 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Analyze"
+                "Analyze at Challenge 5 to gain X + your Rank in Arithm in Axioms, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Measurement Error",
+            "type": "Trigger",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When an ally in your Current Zone rolls a 1 in the result set of an Action, you may spend 1 Axiom to allow them to reroll the 1 without spending a Trait point."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Lambda",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Axioms and Analyze to gain Aura X, where X is equal to Hits in the result set.  Choose one (1):<ul><li>Hits are scored on rolls of 3 or greater.</li><li>Hits are scored on rolls of 5 or greater.</li></ul>While the Aura persists, the chosen effect remains true."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Proficiency Decay",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 3 Axioms and Analyze to have X target allies in your Current or an Adjacent Zone gain Aura 1, where X is equal to Hits in the results set.  While this Aura persists, target allies may ignore 1s in their result sets and each Action target allies take increases the Momentum by the number of Hits in the Action's result set."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Inverse Cumulative Distribution",
+            "type": "Trigger""rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When your team loses the Initiative, you may spend Momentum and/or Axioms, then roll 1d20+X, where X is the total Momentum and Axioms spent (X cannot be 0).  If the result of the d20 is greater than 14, your team maintains the Initiative."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Differentiaion Ray",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 3 Axioms and Analyze to have one target in your Current or an Adjacent Zone takes X + 2 Hits to their Grit, where X is equal to Hits in the result set.  If the target's Grit is reduced to 0 by this effect, they disintegrate."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Central Limit Theorem",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze your current situation.  On 3+ Hits, The Timer becomes 3.  Until the Timer expires, all Shifts and Actions score 3 Hits.  Every 4th roll, the Initiative shifts to the opposing team."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Random Walk",
+            "type": "Shift",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze or use Arithm to gain Armor Defense X, where X is equal to Hits in the result set.  When you use your Armor Defense to absorb Hits scored against you, you may immediately Shift to Move to an Adjacent Zone ignoring Hazards."
+            ],
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Uncertainty Field",
+            "type": "Trigger",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When a target that can see you score hits against you, you may spend 1 Axiom to force the target to reroll the entire result set, keeping the second result.  If the new result set does not score hits against you, you may gain Hidden X, where X is equal to hits in the target's new result set."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Real Analysis",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Your use of the Analyze skill gain the Arithm keyword."
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Analyze (2)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Analyze (3)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Analyze (4)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Arithm (1)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Arithm (2)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Arithm (3)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Probabilist",
+            "name": "Arithm (4)",
+            "type": "Static",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
