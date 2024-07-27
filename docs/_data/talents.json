@@ -9040,7 +9040,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Sworldplay</em>",
+                "<h4 style='margin: 3px'>Sworldplay</h4>",
                 "Spend X Defenses and Strike one target in your Current Zone, add X Bonus Hits to the result set."
             ]
         },
@@ -9052,7 +9052,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Sworldplay</em>",
+                "<h4 style='margin: 3px'>Sworldplay</h4>",
                 "Strike one target in your Current Zone.  You may spend 3 Hits from the result set to have the target gain Wounded 1."
             ]
         },
@@ -9064,7 +9064,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Sworldplay</em>",
+                "<h4 style='margin: 3px'>Sworldplay</h4>",
                 "Deceive one target in your Current Zone.  One 2+ Hits, you may immediately Strike the target adding +1d4 Bonus Hits to the result set."
             ]
         },
@@ -9076,7 +9076,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Hewer</em>",
+                "<h4 style='margin: 3px'>Hewer</h4>",
                 "Strike one target in your Current Zone.  You may spend 3 Hits in the result set to have the target gain Wounded 2."
             ]
         },
@@ -9088,7 +9088,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Hewer</em>",
+                "<h4 style='margin: 3px'>Hewer</h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to have to reduce one of the target's Gear Ratings by X, where X is the total Hits in the result set."
             ]
         },
@@ -9100,7 +9100,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Hewer</em>",
+                "<h4 style='margin: 3px'>Hewer</h4>",
                 "Strike one target in your Current Zone that is is Wounded, it gains Vulnerable 1 and Stunned 1."
             ]
         },
@@ -9112,7 +9112,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Crusher</em>",
+                "<h4 style='margin: 3px'>Crusher</h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target gain Vulnerable 1."
             ]
         },
@@ -9124,7 +9124,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Crusher</em>",
+                "<h4 style='margin: 3px'>Crusher</h4>",
                 "When you Strike one target in your Current Zone that is Vulnerable, the target gains Fatigued 1."
             ]
         },
@@ -9136,7 +9136,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Crusher</em>",
+                "<h4 style='margin: 3px'>Crusher</h4>",
                 "When you Strike one target in your Current Zone that is Vulnerable, the target gains Stunned 2."
             ]
         },
@@ -9148,7 +9148,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Crusher</em>",
+                "<h4 style='margin: 3px'>Crusher</h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to move your target to an Adjacent Zone."
             ]
         },
@@ -9160,7 +9160,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Poledance</em>",
+                "<h4 style='margin: 3px'>Poledance</h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target become Prone."
             ]
         },
@@ -9172,7 +9172,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Poledance</em>",
+                "<h4 style='margin: 3px'>Poledance</h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target gain Restrained 2."
             ]
         },
@@ -9184,7 +9184,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Poledance</em>",
+                "<h4 style='margin: 3px'>Poledance</h4>",
                 "Strike one target in your Current Zone and gain Aura 1.  While this Aura persists, all targets in your Current Zone add 1 Hazard to any Action targetting you."
             ]
         },
@@ -9196,8 +9196,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Niten</em>",
-                "Strike one target in your Current Zone.  You may spend 2 Hits from the result set to immediately Wait for it. . . , preparing an Action to Strike one target in your Current Zone if they use a Shift to Move or an Action to attack.",
+                "<h4 style='margin: 3px'>Niten</h4>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits from the result set to immediately Wait for it. . . , preparing an Action to Strike one target in your Current Zone if they use a Shift to Move or an Action to attack."
             ]
         },
         {
@@ -9208,7 +9208,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Niten</em>",
+                "<h4 style='margin: 3px'>Niten</h4>",
                 "Strike one target in your Current Zone and use your second weapon to defend yourself to gain Armor Defense X, where X is equal to Hits in the result set."
             ]
         },
@@ -9220,7 +9220,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px'>Niten</em>",
+                "<h4 style='margin: 3px'>Niten</h4>",
                 "When you Strike a target and score 3+ Hits, you may immediately use another Action to strike with your second weapon."
             ]
         },
