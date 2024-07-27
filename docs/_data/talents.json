@@ -1592,6 +1592,17 @@
             ]
         },
         {
+            "tree": "Conduit",
+            "name": "Augmented Bond",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Nature's Bond",
+            "replaces": null,
+            "effect": [
+                "Select 2 additional Effect Skills from the list below to add to your Affinity:<br><em>Plaga, Rime, Squall, Torrent</em>"
+            ]
+        },
+        {
             "tree": "Confessor",
             "name": "",
             "type": "Ability",
@@ -8931,6 +8942,286 @@
             "replaces": null,
             "effect": [
                 "Increase you Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Quick Draw",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can draw or change weapons without using a Shift."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Swordsman",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are an expert Swordsman, granting you access to <em>Sworldplay</em> talents when using a gear with the <em>Sword</em> Keyword."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Axeman",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are an expert with Axes, granting you access to <em>Hewer</em> talents when using a gear with the <em>Axe</em> Keyword.."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Cudgeler",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are an expert Maces, granting you access to <em>Crusher</em> talents when using a gear with the <em>Mace</em> Keyword."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Polearm Expert",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are an expert with Polearms, granting you access to <em>Poledance</em> talents when using Gear with the <em>Polearm</em> Keyword."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Dual Wielder",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are an expert at using two weapons at once, granting you access to <em>Niten</em> talents when using two Weapon Gear at the same time."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Strike (4)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Lunge",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Sworldplay</em>",
+                "Spend X Defenses and Strike one target in your Current Zone, add X Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Thrust",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Sworldplay</em>",
+                "Strike one target in your Current Zone.  You may spend 3 Hits from the result set to have the target gain Wounded 1."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Feint",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Sworldplay</em>",
+                "Deceive one target in your Current Zone.  One 2+ Hits, you may immediately Strike the target adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Hewer Flesh",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Hewer</em>",
+                "Strike one target in your Current Zone.  You may spend 3 Hits in the result set to have the target gain Wounded 2."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Sundering Chop",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Hewer</em>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to have to reduce one of the target's Gear Ratings by X, where X is the total Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Feller's Hack",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Hewer</em>",
+                "Strike one target in your Current Zone that is is Wounded, it gains Vulnerable 1 and Stunned 1."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Crushing Blow",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Crusher</em>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target gain Vulnerable 1."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Sapping Blow",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Crusher</em>",
+                "When you Strike one target in your Current Zone that is Vulnerable, the target gains Fatigued 1."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Jarring Blow",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Crusher</em>",
+                "When you Strike one target in your Current Zone that is Vulnerable, the target gains Stunned 2."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Forceful Blow",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Crusher</em>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to move your target to an Adjacent Zone."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Tripping Swipe",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Poledance</em>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target become Prone."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Pinion Thrust",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Poledance</em>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target gain Restrained 2."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Make Space",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Poledance</em>",
+                "Strike one target in your Current Zone and gain Aura 1.  While this Aura persists, all targets in your Current Zone add 1 Hazard to any Action targetting you."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Waki-gamae",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Niten</em>",
+                "Strike one target in your Current Zone.  You may spend 2 Hits from the result set to immediately Wait for it. . . , preparing an Action to Strike one target in your Current Zone if they use a Shift to Move or an Action to attack.",
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Off-hand Parry",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Niten</em>",
+                "Strike one target in your Current Zone and use your second weapon to defend yourself to gain Armor Defense X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Weapon Master",
+            "name": "Sinawali",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px'>Niten</em>",
+                "When you Strike a target and score 2+ Hits, you may immediately use another Action to strike with your second weapon."
             ]
         },
         {
