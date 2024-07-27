@@ -57,14 +57,14 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Scalar",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use an Arithm effect and score 0 Hits, add +2 Hits to the result."
             },
             {
-              "name": "",
+              "name": "x+1",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": 4,
@@ -75,49 +75,49 @@
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you score 4+ Hits with an Arithm effect, you may regain +1 Axiom."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Perceive and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Analyze and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use your Insight and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you score 3+ Hits with an Arithm effect, you may increase the Challenge by +1."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you score 3+ Hits with an Arithm effect, you may decrease the Challenge by -1."
             },
             {
               "name": "",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Research and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
               "name": "",
@@ -138,28 +138,28 @@
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
-              "effect": "When you score 4+ Hits wit ha Bellor effect while the Entropy is 10+, add +1d4 Bonus Hits to the result set."
+              "effect": "When you score 4+ Hits with a Bellor effect while the Entropy is 10+, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use Martial Arts or Strike and score 3+ Hits, you may increase the Entropy by +2 to add +2 Bonus Hits to your result set."
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Intimidate a target and score 3+ Hits, you may increase the Entropy by +1 to regain +2 Grit."
             },
             {
               "name": "",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use Martial Arts, Strike, or Grapple a target and score 2+ Hits, you may spend 3 Momentum and 1 Entropy to have the target gain Confused 1."
             },
             {
               "name": "",
@@ -187,7 +187,7 @@
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
-              "effect": "When you Craft to restore Gear ratings and score 0 Hits, add +2 Hits to the result set."
+              "effect": "When you Craft to restore Gear Ratings and score 0 Hits, add +2 Hits to the result set."
             },
             {
               "name": "",
@@ -222,7 +222,7 @@
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
-              "effect": "When you Craft to create Concoctions,  score +1 Bonus Hits."
+              "effect": "When you Craft to create Concoctions, score +1 Bonus Hits."
             },
             {
               "name": "",
@@ -230,6 +230,20 @@
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft to create Concoctions and score 3+, reduce the number of turns required by -2."
+            },
+            {
+              "name": "",
+              "skill": "Craft",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When Strike a target and score 3+ Hits, you may restore +1 Gear Rating to your equipped weapon."
+            },
+            {
+              "name": "",
+              "skill": "Craft",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you Craft, add +1 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -278,14 +292,35 @@
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use Martial Arts, Strike, or Grapple a target and score 3+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Shoot or Thow at a target and score 3+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
+            },
+            {
+              "name": "",
+              "skill": "Destroy",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you use a Destroy effect and score 3+ Hits, you may regain +1 Succor."
+            },
+            {
+              "name": "",
+              "skill": "Destroy",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you use a Destroy effect and score 3+ Hits, you may regain +1 Concordance."
+            },
+            {
+              "name": "",
+              "skill": "Destroy",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you use a Destroy effect and score 3+ Hits, you may reduce your Strain by -3."
             },
             {
               "name": "",
@@ -404,7 +439,7 @@
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Perceive and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -418,84 +453,84 @@
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use your Insight and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Analyze and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Investigate and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Persuade a target and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Pererceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use an Locus effect and score 0 Hits, add +2 Hits to the result."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use an Locus effect, score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to target any Zone up to 2 Adjacencies from your Current Zone."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you take an Action that targets something in an Adjacent Zone, you may spend 2 Momentum to add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you Shift to Move to an Adjacent Zone, you may spend 3 Momentum to immediately use another Shift."
             },
             {
               "name": "",
@@ -516,49 +551,49 @@
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use an Action and score 0 Hits, you may spend 4 Momentum and reroll the result set."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Savvy skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Deft skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Maneuver and fail, you may reroll the Maneuver, keeping the second result."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use an action and roll a 1 in the result set, you may spend a Trait Point to reroll the entire result set instead of only the 1."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -635,28 +670,28 @@
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Medicine effect, score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Medicine effect and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Medicine effect to recover one target's Defenses, you may have that target regain +1 Grit."
             },
             {
               "name": "",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you us a Medicine effect on one target and score 2+ Hits, you may reduce the target's Dying Rating by -1."
             },
             {
               "name": "",

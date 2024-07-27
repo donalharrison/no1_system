@@ -53,7 +53,7 @@
         {
             "name": "The Flame of Affliction",
             "max_ranks": 7,
-            "threshold": null,
+            "threshold": 3,
             "requires": null,
             "keywords": [
                 ""

@@ -3517,7 +3517,8 @@
             "replaces": null,
             "effect": [
                 "Your elevated status requires that you show bravery, strength, and conviction in all your affairs.",
-                "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash braving danger and facing fear or defeat without hesitation.<br>Select two other Virtue from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>","You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.","Whenever you act against your Virtues, reduce your Dedication by -1. If your Dedication is 0 or less, increase the Entropy by +5."
+                "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash; braving danger and facing fear or defeat without hesitation.<br>Select two other Virtues from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>","You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
+                "Whenever you act against your Virtues, reduce your Dedication by -1. If your Dedication is 0 or less, increase the Entropy by +5."
             ]
         },
         {
@@ -5188,7 +5189,7 @@
         },
         {
             "tree": "Probabilist",
-            "name": "Differentiaion Ray",
+            "name": "Differentiation Ray",
             "type": "Ability",
             "rank": "3",
             "requires": null,
@@ -5217,7 +5218,7 @@
             "replaces": null,
             "effect": [
                 "Analyze or use Arithm to gain Armor Defense X, where X is equal to Hits in the result set.  When you use your Armor Defense to absorb Hits scored against you, you may immediately Shift to Move to an Adjacent Zone ignoring Hazards."
-            ],
+            ]
         },
         {
             "tree": "Probabilist",
@@ -6938,7 +6939,7 @@
             "requires": "2",
             "replaces": null,
             "effect": [
-                "<h4 style='margin:3px'>>Defensive Stance</h4>",
+                "<h4 style='margin:3px'>Defensive Stance</h4>",
                 "Position yourself in your Current Zone to assume a Defensive Stance.",
                 "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
             ]

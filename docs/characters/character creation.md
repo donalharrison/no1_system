@@ -1268,7 +1268,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <p>You have a powerful enemy that will hunt to the ends of this world, or the next.  You Nemesis is always close behind you and will become a significant part of your adventure.
 <br><br><em>You must have approval from the BAMF to choose this Experience.  You will collaborate with th eBAMF on your ides about this Nemesis, working to determine if it fits into the game fiction.</em>
 </p>
-<p>Gain +2 Milestones and Enemies +4.</p>
+<p>Gain +3 Milestones and Enemies +4.</p>
 </details>
 
 </div>
