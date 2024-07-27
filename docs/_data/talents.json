@@ -9221,7 +9221,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px'>Niten</em>",
-                "When you Strike a target and score 2+ Hits, you may immediately use another Action to strike with your second weapon."
+                "When you Strike a target and score 3+ Hits, you may immediately use another Action to strike with your second weapon."
             ]
         },
         {
