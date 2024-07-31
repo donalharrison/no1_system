@@ -5151,7 +5151,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Analyze at Challenge 5 to gain X + your Rank in Arithm in Axioms, where X is equal to Hits in the result set."
+                "Analyze at Challenge 5 to gain X Axioms, where X is equal to Hits in the result set + your Rank in Arithm."
             ]
         },
         {
