@@ -1,161 +1,184 @@
-.charsheet{
+.charsheet {
     background-color: #27262b;
     color: #f2f2f2;
-  }
-  
-  label, span {
-      margin-bottom: 0px;
-  }
-  
-  h1, h2, h3, h4, h5, label {
+}
+
+label,
+span {
+    margin-bottom: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label {
     color: #f2f2f2;
-  }
-  
-  /*Configure the tab buttons*/
-  .sheet-character,
-  .sheet-shifts,
-  .sheet-actions,
-  .sheet-triggers,
-  .sheet-powers,
-  .sheet-journal {
-    display: none;
-  }
-  
-  /* show the selected tab */
-  .charsheet .sheet-tabstoggle[value="character"]~div.sheet-character,
-  .charsheet .sheet-tabstoggle[value="shifts"]~div.sheet-shifts,
-  .charsheet .sheet-tabstoggle[value="actions"]~div.sheet-actions,
-  .charsheet .sheet-tabstoggle[value="triggers"]~div.sheet-triggers,
-  .charsheet .sheet-tabstoggle[value="powers"]~div.sheet-powers,
-  .charsheet .sheet-tabstoggle[value="journal"]~div.sheet-journal {
-    display: block;
-  }
-  
-  .sheet-character-traits,
-  .sheet-character-skills,
-  .sheet-character-static,
-  .sheet-character-training,
-  .sheet-actions-abilities,
-  .sheet-actions-recover,
-  .sheet-actions-maneuvers,
-  .sheet-powers-arcana,
-  .sheet-powers-concoctions,
-  .sheet-powers-epics,
-  .sheet-powers-gifts,
-  .sheet-powers-hexes,
-  .sheet-powers-marvels,
-  .sheet-powers-rites,
-  .sheet-powers-spells,
-  .sheet-powers-spirits,
-  .sheet-powers-techniques {
-    display: none;
-  }
-  
-  .charsheet .subsheet-tabstoggle[value="traits"]~div.sheet-character-traits,
-  .charsheet .subsheet-tabstoggle[value="skills"]~div.sheet-character-skills,
-  .charsheet .subsheet-tabstoggle[value="static"]~div.sheet-character-static,
-  .charsheet .subsheet-tabstoggle[value="training"]~div.sheet-character-training,
-  .charsheet .subsheet-tabstoggle[value="abilities"]~div.sheet-actions-abilities,
-  .charsheet .subsheet-tabstoggle[value="recover"]~div.sheet-actions-recover,
-  .charsheet .subsheet-tabstoggle[value="maneuvers"]~div.sheet-actions-maneuvers,
-  .charsheet .subsheet-tabstoggle[value="arcana"]~div.sheet-powers-arcana,
-  .charsheet .subsheet-tabstoggle[value="concoctions"]~div.sheet-powers-concoctions,
-  .charsheet .subsheet-tabstoggle[value="epics"]~div.sheet-powers-epics,
-  .charsheet .subsheet-tabstoggle[value="gifts"]~div.sheet-powers-gifts,
-  .charsheet .subsheet-tabstoggle[value="hexes"]~div.sheet-powers-hexes,
-  .charsheet .subsheet-tabstoggle[value="marvels"]~div.sheet-powers-marvels,
-  .charsheet .subsheet-tabstoggle[value="rites"]~div.sheet-powers-rites,
-  .charsheet .subsheet-tabstoggle[value="spells"]~div.sheet-powers-spells,
-  .charsheet .subsheet-tabstoggle[value="spirits"]~div.sheet-powers-spirits,
-  .charsheet .subsheet-tabstoggle[value="techniques"]~div.sheet-powers-techniques {
-    display: block;
-  }
-  
-  /*.charsheet .sheet-character*/
-  .charsheet .sheet-training-ranks[value="0"] ~ .sheet-training-talents {
-    display: none;
-  }
-  
-  .charsheet .sheet-training-ranks ~ .sheet-training-talents {
-    display: block;
-  }
-  
-  .charsheet .sheet-powers-affinity ~ .sheet-power-aether,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-bellor,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-inferno,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-locus,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-lux,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-mentis,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-mori,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-nihil,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-nox,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-ordi,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-phylla,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-plaga,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-rime,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-sangui,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-squall,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-tellus,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-tempest,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-tempor,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-torrent,
-  .charsheet .sheet-powers-affinity ~ .sheet-power-vivus {
-    display: none;
-  }
+}
 
-  .charsheet .sheet-powers-affinity[value="Aether"] ~ .sheet-power-aether,
-  .charsheet .sheet-powers-affinity[value="Bellor"] ~ .sheet-power-bellor,
-  .charsheet .sheet-powers-affinity[value="Inferno"] ~ .sheet-power-inferno,
-  .charsheet .sheet-powers-affinity[value="Locus"] ~ .sheet-power-locus,
-  .charsheet .sheet-powers-affinity[value="Lux"] ~ .sheet-power-lux,
-  .charsheet .sheet-powers-affinity[value="Mentis"] ~ .sheet-power-mentis,
-  .charsheet .sheet-powers-affinity[value="Mori"] ~ .sheet-power-mori,
-  .charsheet .sheet-powers-affinity[value="Nihil"] ~ .sheet-power-nihil,
-  .charsheet .sheet-powers-affinity[value="Nox"] ~ .sheet-power-nox,
-  .charsheet .sheet-powers-affinity[value="Ordi"] ~ .sheet-power-ordi,
-  .charsheet .sheet-powers-affinity[value="Phylla"] ~ .sheet-power-phylla,
-  .charsheet .sheet-powers-affinity[value="Plaga"] ~ .sheet-power-plaga,
-  .charsheet .sheet-powers-affinity[value="Rime"] ~ .sheet-power-rime,
-  .charsheet .sheet-powers-affinity[value="Sangui"] ~ .sheet-power-sangui,
-  .charsheet .sheet-powers-affinity[value="Squall"] ~ .sheet-power-squall,
-  .charsheet .sheet-powers-affinity[value="Tellus"] ~ .sheet-power-tellus,
-  .charsheet .sheet-powers-affinity[value="Tempest"] ~ .sheet-power-tempest,
-  .charsheet .sheet-powers-affinity[value="Tempor"] ~ .sheet-power-tempor,
-  .charsheet .sheet-powers-affinity[value="Torrent"] ~ .sheet-power-torrent,
-  .charsheet .sheet-powers-affinity[value="Vivus"] ~ .sheet-power-vivus {
+/*Configure the tab buttons*/
+.sheet-character,
+.sheet-shifts,
+.sheet-actions,
+.sheet-triggers,
+.sheet-powers,
+.sheet-gear,
+.sheet-journal,
+.sheet-cosm,
+.sheet-bamf {
+    display: none;
+}
+
+/* show the selected tab */
+.charsheet .sheet-tabstoggle[value="character"]~div.sheet-character,
+.charsheet .sheet-tabstoggle[value="shifts"]~div.sheet-shifts,
+.charsheet .sheet-tabstoggle[value="actions"]~div.sheet-actions,
+.charsheet .sheet-tabstoggle[value="triggers"]~div.sheet-triggers,
+.charsheet .sheet-tabstoggle[value="powers"]~div.sheet-powers,
+.charsheet .sheet-tabstoggle[value="gear"]~div.sheet-gear,
+.charsheet .sheet-tabstoggle[value="journal"]~div.sheet-journal {
     display: block;
-  }
-  
-  input[type=checkbox]:not(:checked)~ .talent-rollbox {
-      display: none;
-      }
+}
 
-  input[type=checkbox]:checked~ .talent-rollbox {
-      display: block;
-      }
+.charsheet .sheet-is-cosm[value="1"]~.sheet-cosm {
+    display: block;
+}
 
-  .charsheet input[value="Nerve"],
-  .charsheet input[value="Reflexes"],
-  .charsheet input[value="Vigor"] {
-        background-color: #6962a6;
-    }
 
-  .skill-list {
+.sheet-character-traits,
+.sheet-character-skills,
+.sheet-character-static,
+.sheet-character-training,
+.sheet-actions-abilities,
+.sheet-actions-recover,
+.sheet-actions-maneuvers,
+.sheet-powers-arcana,
+.sheet-powers-concoctions,
+.sheet-powers-epics,
+.sheet-powers-gifts,
+.sheet-powers-hexes,
+.sheet-powers-marvels,
+.sheet-powers-rites,
+.sheet-powers-spells,
+.sheet-powers-spirits,
+.sheet-powers-techniques {
+    display: none;
+}
+
+.charsheet .subsheet-tabstoggle[value="traits"]~div.sheet-character-traits,
+.charsheet .subsheet-tabstoggle[value="skills"]~div.sheet-character-skills,
+.charsheet .subsheet-tabstoggle[value="static"]~div.sheet-character-static,
+.charsheet .subsheet-tabstoggle[value="training"]~div.sheet-character-training,
+.charsheet .subsheet-tabstoggle[value="abilities"]~div.sheet-actions-abilities,
+.charsheet .subsheet-tabstoggle[value="recover"]~div.sheet-actions-recover,
+.charsheet .subsheet-tabstoggle[value="maneuvers"]~div.sheet-actions-maneuvers,
+.charsheet .subsheet-tabstoggle[value="arcana"]~div.sheet-powers-arcana,
+.charsheet .subsheet-tabstoggle[value="concoctions"]~div.sheet-powers-concoctions,
+.charsheet .subsheet-tabstoggle[value="epics"]~div.sheet-powers-epics,
+.charsheet .subsheet-tabstoggle[value="gifts"]~div.sheet-powers-gifts,
+.charsheet .subsheet-tabstoggle[value="hexes"]~div.sheet-powers-hexes,
+.charsheet .subsheet-tabstoggle[value="marvels"]~div.sheet-powers-marvels,
+.charsheet .subsheet-tabstoggle[value="rites"]~div.sheet-powers-rites,
+.charsheet .subsheet-tabstoggle[value="spells"]~div.sheet-powers-spells,
+.charsheet .subsheet-tabstoggle[value="spirits"]~div.sheet-powers-spirits,
+.charsheet .subsheet-tabstoggle[value="techniques"]~div.sheet-powers-techniques {
+    display: block;
+}
+
+/*.charsheet .sheet-character*/
+.charsheet .sheet-training-ranks[value="0"]~.sheet-training-talents {
+    display: none;
+}
+
+.charsheet .sheet-training-ranks~.sheet-training-talents {
+    display: block;
+}
+
+.charsheet .sheet-powers-affinity~.sheet-power-aether,
+.charsheet .sheet-powers-affinity~.sheet-power-bellor,
+.charsheet .sheet-powers-affinity~.sheet-power-inferno,
+.charsheet .sheet-powers-affinity~.sheet-power-locus,
+.charsheet .sheet-powers-affinity~.sheet-power-lux,
+.charsheet .sheet-powers-affinity~.sheet-power-mentis,
+.charsheet .sheet-powers-affinity~.sheet-power-mori,
+.charsheet .sheet-powers-affinity~.sheet-power-nihil,
+.charsheet .sheet-powers-affinity~.sheet-power-nox,
+.charsheet .sheet-powers-affinity~.sheet-power-ordi,
+.charsheet .sheet-powers-affinity~.sheet-power-phylla,
+.charsheet .sheet-powers-affinity~.sheet-power-plaga,
+.charsheet .sheet-powers-affinity~.sheet-power-rime,
+.charsheet .sheet-powers-affinity~.sheet-power-sangui,
+.charsheet .sheet-powers-affinity~.sheet-power-squall,
+.charsheet .sheet-powers-affinity~.sheet-power-tellus,
+.charsheet .sheet-powers-affinity~.sheet-power-tempest,
+.charsheet .sheet-powers-affinity~.sheet-power-tempor,
+.charsheet .sheet-powers-affinity~.sheet-power-torrent,
+.charsheet .sheet-powers-affinity~.sheet-power-vivus {
+    display: none;
+}
+
+.charsheet .sheet-powers-affinity[value="Aether"]~.sheet-power-aether,
+.charsheet .sheet-powers-affinity[value="Bellor"]~.sheet-power-bellor,
+.charsheet .sheet-powers-affinity[value="Inferno"]~.sheet-power-inferno,
+.charsheet .sheet-powers-affinity[value="Locus"]~.sheet-power-locus,
+.charsheet .sheet-powers-affinity[value="Lux"]~.sheet-power-lux,
+.charsheet .sheet-powers-affinity[value="Mentis"]~.sheet-power-mentis,
+.charsheet .sheet-powers-affinity[value="Mori"]~.sheet-power-mori,
+.charsheet .sheet-powers-affinity[value="Nihil"]~.sheet-power-nihil,
+.charsheet .sheet-powers-affinity[value="Nox"]~.sheet-power-nox,
+.charsheet .sheet-powers-affinity[value="Ordi"]~.sheet-power-ordi,
+.charsheet .sheet-powers-affinity[value="Phylla"]~.sheet-power-phylla,
+.charsheet .sheet-powers-affinity[value="Plaga"]~.sheet-power-plaga,
+.charsheet .sheet-powers-affinity[value="Rime"]~.sheet-power-rime,
+.charsheet .sheet-powers-affinity[value="Sangui"]~.sheet-power-sangui,
+.charsheet .sheet-powers-affinity[value="Squall"]~.sheet-power-squall,
+.charsheet .sheet-powers-affinity[value="Tellus"]~.sheet-power-tellus,
+.charsheet .sheet-powers-affinity[value="Tempest"]~.sheet-power-tempest,
+.charsheet .sheet-powers-affinity[value="Tempor"]~.sheet-power-tempor,
+.charsheet .sheet-powers-affinity[value="Torrent"]~.sheet-power-torrent,
+.charsheet .sheet-powers-affinity[value="Vivus"]~.sheet-power-vivus {
+    display: block;
+}
+
+input[type=checkbox]:not(:checked)~.talent-rollbox {
+    display: none;
+}
+
+input[type=checkbox]:checked~.talent-rollbox {
+    display: block;
+}
+
+input[type=checkbox]:not(:checked)~.grid-container-concoction {
+    display: none;
+}
+
+input[type=checkbox]:checked~.grid-container-concoction {
+    display: grid;
+}
+
+.charsheet input[value="Nerve"],
+.charsheet input[value="Reflexes"],
+.charsheet input[value="Vigor"] {
+    background-color: #6962a6;
+}
+
+.skill-list {
     /*display: inline-block;*/
     text-align: left;
     font-size: 16px;
     width: 500px;
-  }
-  
-  .skill-button {
+}
+
+.skill-button {
     margin-right: 10px;
-  }
-  
-  .charsheet button[type="roll"].txt-btn:before {
+}
+
+.charsheet button[type="roll"].txt-btn:before {
     content: ' ';
-  }
-  
-  .charsheet button[type="roll"].txt-btn {
+}
+
+.charsheet button[type="roll"].txt-btn {
     height: 14;
     border-style: none;
     background-color: transparent;
@@ -163,70 +186,70 @@
     font-weight: bold;
     padding: 2px 2px 2px 2px;
     font-size: 6px;
-  }
-  
-  .trait-header {
+}
+
+.trait-header {
     font-size: 12pt;
     font-weight: bold;
-  }
-  
-  .trait-input {
+}
+
+.trait-input {
     width: 30px;
     height: 30px;
-  }
-  
-  .charsheet button {
+}
+
+.charsheet button {
     color: #2c2a37;
     font-size: 10pt;
-  }
-  
-  .charsheet button[type="action"].txt-btn:hover {
+}
+
+.charsheet button[type="action"].txt-btn:hover {
     background-color: #868686;
     color: #2c2a37;
     border-radius: 3px;
-  }
-  
-  .charsheet button[type="roll"].txt-btn:hover {
+}
+
+.charsheet button[type="roll"].txt-btn:hover {
     background-color: #868686;
     color: #2c2a37;
     border-radius: 3px;
-  }
-  
-  .grid-container {
+}
+
+.grid-container {
     display: grid;
     background-color: #2c2a37;
     grid-gap: 5px;
     padding: 5px;
     width: 850;
     grid-template-columns: auto;
-  }
+}
 
-  .banner-wrapper {
+.banner-wrapper {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(6, [col] auto);
     align-self: center;
     background-color: #2c2a37;
-  }
-  
-  .grid-item {
+}
+
+.grid-item {
     background-color: #37344f;
     color: #f2f2f2;
     border-radius: 5px;
     padding: 2px;
     font-size: 100%;
     text-align: center;
-  }
- 
-  .grid-a {
+}
+
+.grid-a {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     text-align: center;
     align-items: center;
     justify-content: center;
-  }
-  
-  .grid-b {
+}
+
+.grid-b {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     text-align: center;
@@ -234,24 +257,25 @@
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-  }
-  
-  .grid-b1 {
+}
+
+.grid-b1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-b2 {
+}
+
+.grid-b2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
     font-weight: bold;
-  }
-  .grid-b3 {
+}
+
+.grid-b3 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-c {
+}
+
+.grid-c {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     display: grid;
@@ -259,281 +283,288 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: 2fr 1fr 1fr;
-  }
-  
-  .grid-c1 {
+}
+
+.grid-c1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
     text-align: center;
     vertical-align: center;
     font-weight: bold;
-  }
-  
-  .grid-c2 {
+}
+
+.grid-c2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
     text-align: center;
     vertical-align: center;
     font-size: 10pt;
-  }
-  
-  .grid-c3 {
+}
+
+.grid-c3 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     display: grid;
     text-align: center;
     vertical-align: center;
-    font-size:10pt;
-  }
-  
-  .grid-c4 {
+    font-size: 10pt;
+}
+
+.grid-c4 {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
     text-align: center;
     vertical-align: center;
-  }
-  
-  .grid-c5 {
+}
+
+.grid-c5 {
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
     text-align: center;
     vertical-align: center;
-  }
-  
-  .grid-d {
+}
+
+.grid-d {
     grid-column: 4 / span 2;
     grid-row: 1 / span 1;
     display: grid;
     text-align: center;
     align-items: center;
     /* justify-content: center; */
-  }
-  
-  .grid-d1 {
+}
+
+.grid-d1 {
     grid-column: 1/ span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-d2 {
+}
+
+.grid-d2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-d3 {
+}
+
+.grid-d3 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-d4 {
+}
+
+.grid-d4 {
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-d5 {
+}
+
+.grid-d5 {
     grid-column: 5 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-d6 {
+}
+
+.grid-d6 {
     grid-column: 1/ span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-d7 {
+}
+
+.grid-d7 {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-d8 {
+}
+
+.grid-d8 {
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-d9 {
+}
+
+.grid-d9 {
     grid-column: 4 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-d10 {
+}
+
+.grid-d10 {
     grid-column: 5 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-e {
+}
+
+.grid-e {
     grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     display: grid;
-      text-align: center;
+    text-align: center;
     align-items: center;
-  }
-  
-  .grid-e1 {
+}
+
+.grid-e1 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-e2 {
+}
+
+.grid-e2 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-f {
+}
+
+.grid-f {
     grid-column: 3 / span 2;
     grid-row: 2 / span 1;
     display: grid;
-  }
-  
-  .grid-f1 {
+}
+
+.grid-f1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     text-align: center;
-  }
-  
-  .grid-f2 {
+}
+
+.grid-f2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
     text-align: center;
-  }
-  
-  .grid-f3 {
+}
+
+.grid-f3 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     text-align: center;
-  }
-  
-  .grid-f4 {
+}
+
+.grid-f4 {
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
     text-align: center;
     background-color: #555555ce;
-  }
-  
-  .grid-g {
+}
+
+.grid-g {
     grid-column: 5 / span 1;
     grid-row: 2 / span 1;
     display: grid;
     text-align: center;
     align-items: center;
     /* justify-content: center; */
-  }
-  .grid-g1 {
+}
+
+.grid-g1 {
     grid-column: 2/ span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-g2 {
+}
+
+.grid-g2 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-g3 {
+}
+
+.grid-g3 {
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-g4 {
+}
+
+.grid-g4 {
     grid-column: 5 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-g5 {
+}
+
+.grid-g5 {
     grid-column: 6 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-h {
+}
+
+.grid-h {
     grid-column: 1 / span 4;
     grid-row: 3 / span 1;
     display: grid;
     text-align: center;
-  }
-  
-  .grid-h1 {
+}
+
+.grid-h1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-h2 {
+}
+
+.grid-h2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-h3 {
+}
+
+.grid-h3 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  .grid-h4 {
+}
+
+.grid-h4 {
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
-  }
-  .grid-h5 {
+}
+
+.grid-h5 {
     grid-column: 5 / span 1;
     grid-row: 1 / span 1;
-  }
-  .grid-h6 {
+}
+
+.grid-h6 {
     grid-column: 6 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-h7 {
+}
+
+.grid-h7 {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-h8 {
+}
+
+.grid-h8 {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-h9 {
+}
+
+.grid-h9 {
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-h10 {
+}
+
+.grid-h10 {
     grid-column: 4 / span 1;
     grid-row: 2 / span 1;
-  }
-  .grid-h11 {
+}
+
+.grid-h11 {
     grid-column: 5 / span 1;
     grid-row: 2 / span 1;
-  }
-  .grid-h12 {
+}
+
+.grid-h12 {
     grid-column: 6 / span 1;
     grid-row: 2 / span 1;
-  }
-  
-  .grid-i {
+}
+
+.grid-i {
     grid-column: 5 / span 2;
     grid-row: 3 / span 1;
     display: grid;
     text-align: center;
     align-items: center;
-  }
-  
-  .grid-i1 {
+}
+
+.grid-i1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-  }
-  .grid-i2 {
+}
+
+.grid-i2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-i3 {
+}
+
+.grid-i3 {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-sheet-character {
+}
+
+.grid-sheet-character {
     display: grid;
     background-color: #2c2a37;
     padding: 5px;
     width: auto;
     grid-template-columns: 1fr 1fr;
-  }
+}
 
-  .grid-character-traits {
+.grid-character-traits {
     display: grid;
     background-color: #2c2a37;
     grid-gap: 5px;
@@ -544,10 +575,10 @@
     grid-row-start: 1;
     grid-row-end: span 1;
     justify-content: center
-      /* grid-template-columns: 3fr 1fr 1fr; */
-  }
+        /* grid-template-columns: 3fr 1fr 1fr; */
+}
 
-  .grid-character-trait-label {
+.grid-character-trait-label {
     background-color: #37344f;
     /* border: 1px solid #f2f2f2; */
     padding: 1px;
@@ -560,61 +591,61 @@
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr;
-  }
+}
 
-  .grid-character-trait-1 {
+.grid-character-trait-1 {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
 
-  }
+}
 
-  .grid-character-trait-2 {
+.grid-character-trait-2 {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-trait-3 {
+.grid-character-trait-3 {
     grid-column: 1 / span 1;
     grid-row: 4 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-trait-4 {
+.grid-character-trait-4 {
     grid-column: 1 / span 1;
     grid-row: 5 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-trait-5 {
+.grid-character-trait-5 {
     grid-column: 1 / span 1;
     grid-row: 6 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-trait-6 {
+.grid-character-trait-6 {
     grid-column: 1 / span 1;
     grid-row: 7 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-trait-item-1 {
+.grid-character-trait-item-1 {
     grid-column: 1 / span 1;
     grid-row: 1/ span 1;
-  }
+}
 
-  .grid-character-trait-item-2 {
+.grid-character-trait-item-2 {
     grid-column: 2 / span 1;
     grid-row: 1/ span 1;
-  }
+}
 
-  .grid-character-trait-item-3 {
+.grid-character-trait-item-3 {
     grid-column: 3 / span 1;
     grid-row: 1/ span 1;
-  }
+}
 
-  .grid-character-grit {
+.grid-character-grit {
     display: grid;
     background-color: #37344f;
     grid-gap: 5px;
@@ -624,9 +655,9 @@
     grid-column-end: span 1;
     grid-row-start: 1;
     grid-row-end: span 1;
-  }
+}
 
-  .grid-character-grit-label {
+.grid-character-grit-label {
     background-color: #37344f;
     /* border: 1px solid #f2f2f2; */
     padding: 1px;
@@ -638,32 +669,32 @@
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr;
-  }
+}
 
-  .grid-character-grit-attr {
+.grid-character-grit-attr {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     text-align: center;
     grid-template-columns: 1fr 1fr;
-  }
+}
 
-  .grid-character-grit-input {
+.grid-character-grit-input {
     grid-row: 3 / span 1;
     text-align: center;
     grid-template-columns: 1fr 1fr;
-  }
+}
 
-  .grid-character-grit-item-1 {
+.grid-character-grit-item-1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-  }
+}
 
-  .grid-character-grit-item-2 {
+.grid-character-grit-item-2 {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
+}
 
-  .grid-character-defenses {
+.grid-character-defenses {
     display: grid;
     background-color: #37344f;
     grid-gap: 5px;
@@ -673,10 +704,10 @@
     grid-row-start: 2;
     grid-row-end: span 1;
     justify-content: center
-    /* grid-template-columns: 3fr 1fr 1fr; */
-  }
+        /* grid-template-columns: 3fr 1fr 1fr; */
+}
 
-  .grid-character-defense-label {
+.grid-character-defense-label {
     background-color: #37344f;
     /* border: 1px solid #f2f2f2; */
     padding: 1px;
@@ -688,65 +719,65 @@
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr 1fr 1fr;
-  }
+}
 
-  .grid-character-defense-1 {
+.grid-character-defense-1 {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-defense-2 {
+.grid-character-defense-2 {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-defense-3 {
+.grid-character-defense-3 {
     grid-column: 1 / span 1;
     grid-row: 4 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-defense-4 {
+.grid-character-defense-4 {
     grid-column: 1 / span 1;
     grid-row: 5 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-defense-5 {
+.grid-character-defense-5 {
     grid-column: 1 / span 1;
     grid-row: 6 / span 1;
     grid-template-columns: 2fr 1fr 1fr;
-  }
+}
 
-  .grid-character-defense-item-1 {
+.grid-character-defense-item-1 {
     text-align: right;
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-  }
+}
 
-  .grid-character-defense-item-2 {
+.grid-character-defense-item-2 {
     text-align: center;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
+}
 
-  .grid-character-defense-item-3 {
+.grid-character-defense-item-3 {
     text-align: center;
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .grid-character-skill {
+}
+
+.grid-character-skill {
     display: grid;
     background-color: #2c2a37;
     padding: 5px;
     width: 700;
     grid-template-columns: repeat(7, [col] auto);
-  }
-  
-  .grid-character-skills-trait-label {
+}
+
+.grid-character-skills-trait-label {
     background-color: #33303e;
     border: 1px solid #f2f2f2;
     padding: 1px;
@@ -756,9 +787,9 @@
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr;
-  }
-  
-  .grid-character-skills-type-label {
+}
+
+.grid-character-skills-type-label {
     background-color: #33303e;
     border: 1px solid #f2f2f2;
     padding: 1px;
@@ -768,9 +799,9 @@
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr;
-  }
-  
-  .grid-character-skill-item {
+}
+
+.grid-character-skill-item {
     background-color: #33303e;
     padding: 1px;
     text-align: right;
@@ -781,33 +812,33 @@
     grid-row-end: span 10;
     grid-template-columns: 3fr 1fr 1fr;
     */
-  }
-  
-  .grid-character-skill-col1 {
+}
+
+.grid-character-skill-col1 {
     grid-column-start: 1;
     grid-column-end: span 1;
     grid-row-start: 1;
     grid-row-end: span 10;
     grid-template-columns: 2fr 3fr 1fr 1fr;
-  }
-  
-  .grid-character-skill-col2 {
+}
+
+.grid-character-skill-col2 {
     grid-column-start: 5;
     grid-column-end: span 1;
     grid-row-start: 1;
     grid-row-end: span 10;
     grid-template-columns: 2fr 3fr 1fr 1fr;
-  }
-  
-  .grid-character-training {
+}
+
+.grid-character-training {
     display: grid;
     background-color: #2c2a37;
     padding: 5px;
     width: 700;
     grid-template-columns: repeat(3, [col] auto);
-  }
-  
-  .grid-character-training-label {
+}
+
+.grid-character-training-label {
     background-color: #33303e;
     border: 1px solid #f2f2f2;
     padding: 1px;
@@ -816,48 +847,48 @@
     grid-column-end: span 3;
     grid-row-start: 1;
     grid-row-end: span 1;
-    
-  }
-  
-  .grid-character-training-item {
+
+}
+
+.grid-character-training-item {
     background-color: #33303e;
     border: 1px solid #f2f2f2;
     padding: 1px;
     text-align: center;
-  }
-  
-  .grid-shifts {
+}
+
+.grid-shifts {
     display: grid;
     background-color: #2c2a37;
     grid-gap: 5px;
     padding: 5px;
     width: 700;
     grid-template-columns: repeat(2, [col] auto);
-  }
+}
 
-  .grid-shifts-label {
+.grid-shifts-label {
     font-size: 18pt;
     font-weight: bold;
     grid-column-start: 1;
     grid-column-end: span 2;
-  }
+}
 
-  .item-header {
+.item-header {
     font-size: 12pt;
     font-weight: bold;
-  }
-  
-  
-  .grid-container-talents {
+}
+
+
+.grid-container-talents {
     display: grid;
     grid-gap: 5px;
     background-color: #27262b;
     padding: 3px;
     width: 850;
     grid-template-columns: 415px 415px;
-  }
-  
-  .grid-talents-label {
+}
+
+.grid-talents-label {
     background-color: #27262b;
     margin-bottom: 0px;
     margin-top: 6px;
@@ -865,9 +896,9 @@
     grid-column-end: span 2;
     grid-row-start: 1;
     grid-row-end: span 1;
-  }
-  
-  .grid-item-talents {
+}
+
+.grid-item-talents {
     background-color: #33303e;
     color: #f2f2f2;
     padding: 3px;
@@ -875,101 +906,114 @@
     border-radius: 5px;
     margin: 2px;
     grid-column-end: span 1;
-  /*   grid-row-start: 2;
+    /*   grid-row-start: 2;
     grid-row-end: span 1; */
-  }
-  
-  .grid-item-talents p {
+}
+
+.grid-item-talents p {
     font-size: 10pt;
-  }
-  
-  .grid-item-talents {
+}
+
+.grid-item-talents {
     background-color: #33303e;
     color: #f2f2f2;
     padding: 6px;
     text-align: left;
     margin: 4px;
     grid-column-end: span 1;
-  /*   grid-row-start: 2;
+    /*   grid-row-start: 2;
     grid-row-end: span 1; */
-  }
+}
 
-  .grid-arcana-item {
+.grid-arcana-item {
     background-color: #413e47;
     border: 1px solid #727272;
     padding: 1px;
     margin: 2px;
     grid-column-end: span 1;
-  }
-  
-  .grid-arcana-table {
+}
+
+.grid-arcana-table {
     display: grid;
     grid-template-columns: 50px auto;
-    
-  }
-  
-  .arcana-data {
+
+}
+
+.arcana-data {
     grid-column-end: span 1;
     padding: 4px;
     border: 1px solid #bdbdb1;
+}
+
+.grid-container-concoction {
+    display: grid;
+    background-color: #2c2a37;
+    text-align: left;
+    grid-gap: 5px;
+    padding: 5px;
+    width: 850;
+    grid-template-columns: auto auto auto;
   }
   
-  .demos {
+  .grid-concoction {
+    text-align: left;
+  }
+
+.demos {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .roller {
+}
+
+.roller {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-  }
-  
-  .talent {
+}
+
+.talent {
     display: inline-grid;
     grid-column: 1 / span 2;
     grid-row: 3;
-  }
-  
-  .talent-1 {
+}
+
+.talent-1 {
     grid-area: 1 / 1 / 4 / 2;
-  }
-  
-  .talent-2 {
+}
+
+.talent-2 {
     grid-area: 1 / 2 / 4 / 3;
-  }
-  
-  .talent-3 {
+}
+
+.talent-3 {
     grid-area: 1 / 3 / 4 / 4;
-  }
-  
-  .trait {
+}
+
+.trait {
     display: inline-grid;
     grid-column: 1 / span 2;
     grid-row: 2;
-  }
-  
-  .trait-1 {
+}
+
+.trait-1 {
     grid-area: 1 / 1 / 4 / 2;
-  }
-  
-  .trait-2 {
+}
+
+.trait-2 {
     grid-area: 1 / 2 / 4 / 3;
-  }
-  
-  .trait-3 {
+}
+
+.trait-3 {
     grid-area: 1 / 3 / 4 / 4;
-  }
-  
-  .trait-4 {
+}
+
+.trait-4 {
     grid-area: 1 / 4 / 4 / 5;
-  }
-  
-  .trait-5 {
+}
+
+.trait-5 {
     grid-area: 1 / 5 / 4 / 6;
-  }
-  
-  .talents {
+}
+
+.talents {
     grid-column: 1;
     grid-row: 4 / span 3;
-  }
-  
+}
