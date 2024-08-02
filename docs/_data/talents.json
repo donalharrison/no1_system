@@ -5518,7 +5518,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "<h4 style='margin: 3px'>Combination Punch</h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rapid punch to your opponent.  On +1 Hits, score 1 Hit on the target and immediately use different <em>Combination Punch</em>."
             ]
         },
@@ -5530,7 +5530,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "<h4 style='margin: 3px'>Combination Punch</h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rear-hand punch to your opponent.  On +2 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>."
             ]
         },
@@ -5542,7 +5542,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "<h4 style='margin: 3px'>Combination Punch</h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rotating punch to your opponent.  On +3 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>."
             ]
         },
@@ -5554,7 +5554,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 4px'>Combination Punch</h4>",
+                "<h4 style='margin: 3px'>Combination Punch</h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rising punch to your opponent.  On +3 Hits, score 3 Hits on the target."
             ]
         },
@@ -6268,7 +6268,7 @@
             "tree": "Seer",
             "name": "Peer Through Depths",
             "type": "Ability",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -6337,12 +6337,12 @@
             "tree": "Seer",
             "name": "Read the Bones",
             "type": "Ability",
-            "rank": "",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px';>Portent</h4>",
-                "Analyze the remains of one or more creatures, then roll 1d20 as X:<ul><li>If X is less than , increase the Entropy by +3.</li><li>If X is greater than 8, increase the Momentum by +3.</li><li>If X is greater than 15, increase the Momentum by +3 and take on additional Action this turn.</li></ul>"
+                "Analyze the remains of one or more creatures, then roll 1d20 as X:<ul><li>If X is less than 9, increase the Entropy by +3.</li><li>If X is greater than 8, increase the Momentum by +3.</li><li>If X is greater than 15, increase the Momentum by +3 and take on additional Action this turn.</li></ul>"
             ]
         },
         {
@@ -7591,7 +7591,7 @@
             "rank": "3",
             "requires": null,
             "replaces": null,
-            "effect": []
+            "effect": [""]
         },
         {
             "tree": "Spy",

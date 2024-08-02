@@ -160,12 +160,14 @@ label {
     display: block;
 }
 
+
+
 input[type=checkbox]:not(:checked)~.talent-rollbox {
     display: none;
 }
 
 input[type=checkbox]:checked~.talent-rollbox {
-    display: block;
+    display: inline;
 }
 
 input[type=checkbox]:not(:checked)~.grid-container-concoction {
@@ -190,21 +192,29 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .skill-button {
-    margin-right: 10px;
+    margin: 0.005em;
+    font-size: 8pt;
+    /* font-weight: bold; */
+    padding: 0.02em;
 }
+
+.skill-rank-input {
+    margin-left: 0.005em;
+    margin-right: 0.005em;
+  }
 
 .charsheet button[type="roll"].txt-btn:before {
     content: ' ';
 }
 
 .charsheet button[type="roll"].txt-btn {
-    height: 14;
+    height: 12;
     border-style: none;
     background-color: transparent;
-    margin-left: 2px;
-    font-weight: bold;
-    padding: 2px 2px 2px 2px;
-    font-size: 6px;
+    margin: 0.005em;
+    font-weight: normal;
+    padding: 0.05em;
+    font-size: 10pt;
 }
 
 .trait-header {
@@ -252,6 +262,20 @@ input[type=checkbox]:checked~.grid-container-concoction {
     display: grid;
     grid-template-columns: auto auto;
     text-align: right;
+}
+
+.grid-bamf-header {
+    text-align: center;
+}
+
+.grid-bamf-body {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-bamf-roller {
+    display: grid;
+    grid-template-columns: repeat(6, [col] auto);
 }
 
 .banner-wrapper {
@@ -589,6 +613,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .grid-sheet-character {
     display: grid;
     background-color: #2c2a37;
+    grid-gap: 5px;
     padding: 5px;
     width: auto;
     grid-template-columns: 1fr 1fr;
@@ -599,13 +624,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
     background-color: #2c2a37;
     grid-gap: 5px;
     padding: 3px;
-    /* border-radius: 5px; */
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    justify-content: center
-        /* grid-template-columns: 3fr 1fr 1fr; */
+    grid-template-columns: 3fr 1fr 1fr;
 }
 
 .grid-character-trait-label {
@@ -616,80 +635,28 @@ input[type=checkbox]:checked~.grid-container-concoction {
     font-size: 16pt;
     font-weight: bold;
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 1;
-    grid-row-end: span 1;
     grid-template-columns: 1fr;
 }
 
-.grid-character-trait-1 {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-
-}
-
-.grid-character-trait-2 {
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-trait-3 {
-    grid-column: 1 / span 1;
-    grid-row: 4 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-trait-4 {
-    grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-trait-5 {
-    grid-column: 1 / span 1;
-    grid-row: 6 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-trait-6 {
-    grid-column: 1 / span 1;
-    grid-row: 7 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-trait-item-1 {
-    grid-column: 1 / span 1;
-    grid-row: 1/ span 1;
-}
-
-.grid-character-trait-item-2 {
-    grid-column: 2 / span 1;
-    grid-row: 1/ span 1;
-}
-
-.grid-character-trait-item-3 {
-    grid-column: 3 / span 1;
-    grid-row: 1/ span 1;
+.grid-trait-item {
+  background-color: #2c2a37;
+  color: #f2f2f2;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 100%;
+  text-align: center;
 }
 
 .grid-character-grit {
     display: grid;
-    background-color: #37344f;
+    background-color: #2c2a37;
     grid-gap: 5px;
-    /* border-radius: 5px; */
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 1;
-    grid-row-end: span 1;
+    padding: 3px;
+    grid-template-columns: auto auto;
 }
 
 .grid-character-grit-label {
     background-color: #37344f;
-    /* border: 1px solid #f2f2f2; */
     padding: 1px;
     font-size: 16pt;
     font-weight: bold;
@@ -699,104 +666,6 @@ input[type=checkbox]:checked~.grid-container-concoction {
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr;
-}
-
-.grid-character-grit-attr {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-    text-align: center;
-    grid-template-columns: 1fr 1fr;
-}
-
-.grid-character-grit-input {
-    grid-row: 3 / span 1;
-    text-align: center;
-    grid-template-columns: 1fr 1fr;
-}
-
-.grid-character-grit-item-1 {
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-}
-
-.grid-character-grit-item-2 {
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
-}
-
-.grid-character-defenses {
-    display: grid;
-    background-color: #37344f;
-    grid-gap: 5px;
-    /* border-radius: 5px; */
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 2;
-    grid-row-end: span 1;
-    justify-content: center
-        /* grid-template-columns: 3fr 1fr 1fr; */
-}
-
-.grid-character-defense-label {
-    background-color: #37344f;
-    /* border: 1px solid #f2f2f2; */
-    padding: 1px;
-    font-size: 16pt;
-    font-weight: bold;
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid-character-defense-1 {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-defense-2 {
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-defense-3 {
-    grid-column: 1 / span 1;
-    grid-row: 4 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-defense-4 {
-    grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-defense-5 {
-    grid-column: 1 / span 1;
-    grid-row: 6 / span 1;
-    grid-template-columns: 2fr 1fr 1fr;
-}
-
-.grid-character-defense-item-1 {
-    text-align: right;
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-}
-
-.grid-character-defense-item-2 {
-    text-align: center;
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
-}
-
-.grid-character-defense-item-3 {
-    text-align: center;
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
 }
 
 .grid-character-skill {
@@ -806,6 +675,28 @@ input[type=checkbox]:checked~.grid-container-concoction {
     width: 700;
     grid-template-columns: repeat(7, [col] auto);
 }
+
+.grid-skill-roller-action {
+    display: grid;
+    grid-template-columns: repeat(4, [col] auto);
+  }
+  
+  .grid-skill-roller-effect {
+    display: grid;
+    grid-template-columns: repeat(5, [col] auto);
+  }
+  
+  .grid-character-skill-item {
+      background-color: #37344f;
+      padding: 1px;
+      text-align: right;
+  }
+  
+  .grid-character-skill-savvy {
+    display: grid;
+    grid-template-rows: 1 / span 7;
+    grid-template-columns: auto auto;
+  }
 
 .grid-character-skills-trait-label {
     background-color: #33303e;
@@ -829,19 +720,6 @@ input[type=checkbox]:checked~.grid-container-concoction {
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-template-columns: 1fr;
-}
-
-.grid-character-skill-item {
-    background-color: #33303e;
-    padding: 1px;
-    text-align: right;
-    /*
-    grid-column-start: 1;
-    grid-column-end: span 3;
-    grid-row-start: 6;
-    grid-row-end: span 10;
-    grid-template-columns: 3fr 1fr 1fr;
-    */
 }
 
 .grid-character-skill-col1 {
@@ -929,30 +807,33 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-item-talents {
+    display: grid;
     background-color: #33303e;
     color: #f2f2f2;
     padding: 3px;
     text-align: left;
     border-radius: 5px;
     margin: 2px;
-    grid-column-end: span 1;
-    /*   grid-row-start: 2;
-    grid-row-end: span 1; */
-}
-
-.grid-item-talents p {
+    grid-template-columns: auto auto;
     font-size: 10pt;
 }
 
-.grid-item-talents {
-    background-color: #33303e;
-    color: #f2f2f2;
-    padding: 6px;
-    text-align: left;
-    margin: 4px;
-    grid-column-end: span 1;
-    /*   grid-row-start: 2;
-    grid-row-end: span 1; */
+.grid-item-talents>*:nth-child(1) {
+  font-size: 12pt;
+  font-weight:bold;
+}
+
+.grid-item-talents>*:nth-child(2) {
+  font-size: 8;
+  font-weight:bold;
+}
+
+.grid-item-talents>*:nth-child(odd) {
+  text-align: left;
+}
+
+.grid-item-talents>*:nth-child(even) {
+  text-align: right;
 }
 
 .grid-arcana-item {
@@ -999,6 +880,16 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .grid-concoction {
     text-align: left;
 }
+
+.grid-journal {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .grid-item.grid-journal {
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
 
 .demos {
     grid-column: 1 / span 1;

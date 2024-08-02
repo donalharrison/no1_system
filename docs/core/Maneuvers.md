@@ -65,10 +65,9 @@ Employ misdirection to draw your enemies into a bait-and-switch, roll 1d20 as X:
 
 ## Yippee Ki Yay. . .
 *Momentum Cost -- 3*
-Roll - Dangerous trait
 If Entropy is greater than Momentum, roll 1d20 as X:
 - If X + Momentum is greater than Challenge + Entropy:
-    - Immediately take on Action.
+    - Immediately take one Action.
     - Increase the Momentum by Hits in the result set of the Action.
     - Reduce Entropy by Hits in the result set of the Action.
 
