@@ -25,6 +25,17 @@ Loadout is equal to the sum of your character's maximum Dangerous Trait + maximu
 Your Inventory rating determines the total Gear Rating your character can carry at one time (including their Loadout).
 Inventory is Equal to your character's maximum Grit + Endure Skill Rank + Exert Skill Rank + Implements Skill Rank + 8.
 
+# Acquiring Gear
+
+## Using Gear Points
+If you have unspent Gear points, you may use them to acquire Gear at a rate of 1:1 to the Gear's Rating.  You have to spend a number of Gear points equal to the item's total gear Rating in order to acquire it, otherwise you must make a Wealth roll to acquire Gear.
+
+## Using Wealth
+Characters can attempt to purchase Gear using their Wealth score.  To do so, the player makes a Wealth roll using their Wealth score to determine the type of dice to roll and the Gear's Cost to determine the Challenge (i.e., the number of dice to roll).
+- If the Hits in the result set of the Wealth roll equals or exceeds the Gear's Pruchase Threshold, the character acquire the Gear.
+- If the Hits in the result set of the Wealth roll is less than the Gear's Pruchase Threshold, the character can reduce their Wealth score by -1 and acquire the Gear.
+- The the result set of the Wealth roll contains a 1, the character's Wealth score is reduced by -1.
+
 
 # Gear Keywords
 
@@ -54,6 +65,8 @@ The Gear can be Equipped underneath other Gear with the Armor keyword.  You can 
             <td>Gear Rating</td>
             <td>Skills</td>
             <td>Keywords</td>
+            <td>Cost</td>
+            <td>Purchase Threshold</td>
         </tr>
     </thead>
     {% for g in site.data.gear.gear %}
@@ -62,6 +75,8 @@ The Gear can be Equipped underneath other Gear with the Armor keyword.  You can 
         <td>{{ g.rating }}</td>
         <td>{{ g.skill }}</td>
         <td>{{ g.keywords }}</td>
+        <td>{{ g.cost }}</td>
+        <td>{{ g.threshold }}</td>
     </tr>
     {% endfor %}
 </table>

@@ -37,7 +37,7 @@ The Thesis sets the tone for your character’s development and provides a clear
 
 Use your Thesis as a touchstone throughout the game, allowing it to guide your character’s evolution and interactions. This initial statement will help you stay focused on your character’s essence and make your roleplaying more cohesive and immersive.
 
-## T.H.E.M.E.
+## THEME
 
 The character theme expands on the Thesis, providing details, fleshing out personality and motivation, and giving the players more cues to to inform their roelplaying.  The No 1's System breaks character themes into 5 components -- **Temperament**, **Heritage**, **Esteem**, **Motivation**, and **Experience**.  Each of these components are one piece of the larger picture and can be referenced when the player needs inspiration for how the character would interacts with the game fiction.
 
@@ -732,7 +732,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Beloved</strong>
 </summary>
 <p>You are adored by many for your kindness, generosity, and charm. People go out of their way to help and support you, viewing you with affection and loyalty. This beloved status can create a strong network of allies and supporters, but it also means you must maintain a likable persona.</p>
-<p>Gain Favors 3 & Renown 1.</p>
+<p>Gain +3 Favors & +1 Renown.</p>
 </details>
 
 <details>
@@ -748,7 +748,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Enigmatic</strong>
 </summary>
 <p>You are a mystery to most, with an aura of secrecy and the unknown surrounding you. People are intrigued by your presence and curious about your background. This enigmatic reputation can draw interest and speculation, but it might also lead to misunderstandings.</p>
-<p>.</p>
+<p>Gain +2 Secrets & +2 Wealth.</p>
 </details>
 
 <details>
@@ -791,7 +791,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Mysterious</strong>
 </summary>
 <p>You are an enigma, shrouded in mystery and speculation. Few know your true background or intentions, making you an intriguing and unpredictable figure. This mysterious reputation can give you an edge in negotiations and encounters, but it also means others may be cautious around you.</p>
-<p>Gain Gear 3 & Wealth 1.</p>
+<p>Gain +3 Gear & +1 Wealth.</p>
 </details>
 
 <details>
@@ -799,7 +799,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Nameless</strong>
 </summary>
 <p>You are an unknown figure, blending into the crowd without drawing much attention. This anonymity allows you to move freely and act without preconceived notions from others, though it also means your achievements might go unnoticed.</p>
-<p>Gain Gear 2 & Wealth 2.</p>
+<p>Gain +2 Gear & +2 Wealth.</p>
 </details>
 
 <details>
@@ -823,7 +823,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Renowned</strong>
 </summary>
 <p>You are widely respected and admired for your expertise and accomplishments in a particular field. Your skills and knowledge are sought after, and your reputation precedes you in professional circles. This renown can open professional opportunities, but it also brings high expectations and competition.</p>
-<p>Gain Renown 4.</p>
+<p>Gain +4 Renown.</p>
 </details>
 
 <details>
@@ -831,7 +831,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Revered</strong>
 </summary>
 <p>You are held in high regard for your wisdom, kindness, and exemplary conduct. People seek your guidance and respect your opinions. This reverence can help you influence others and gain support, but it also places a burden of maintaining a high moral standard.</p>
-<p>Gain Favors 3 & Renown 1.</p>
+<p>Gain +3 Favors & +1 Renown.</p>
 </details>
 
 <details>
@@ -839,7 +839,7 @@ Your Esteem describes your social standing and the perceptions have of you that 
 <strong>Scandalous</strong>
 </summary>
 <p>Your name is synonymous with scandal and controversy. Whether through personal indiscretions, public failures, or shocking actions, your reputation has been marred by gossip and scandal. This notoriety can make social interactions challenging, but it can also make you a topic of interest.</p>
-<p>Gain Enemies +2 & Wealth +2.</p>
+<p>Gain +2 Enemies & +2 Wealth.</p>
 </details>
 
 </div>
@@ -1054,7 +1054,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Betrayed</strong>
 </summary>
 <p>At some point in your past, someone you trusted betrayed you. This betrayal has made you wary and distrustful of others, always looking for hidden motives and preparing for the worst. You rely on your own strength and cunning to navigate the dangerous world around you.</p>
-<p>Gain +1 Milestone and +1 Enemies.</p>
+<p>Gain +1 Milestone & +1 Enemies.</p>
 </details>
 
 <details>
@@ -1070,7 +1070,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Crime</strong>
 </summary>
 <p>You have a history of engaging in criminal activities, whether as a thief, smuggler, or enforcer. This experience has made you street-smart and adept at underhanded tactics, but it also means you have a past that could catch up with you and enemies who may seek revenge.</p>
-<p>Gain +1 Milestone and +2 Wealth.</p>
+<p>Gain +1 Milestone & +2 Wealth.</p>
 </details>
 
 <details>
@@ -1078,7 +1078,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Exploration</strong>
 </summary>
 <p>You have a background in exploring unknown territories, mapping uncharted lands, and discovering hidden secrets. This experience has given you a sense of adventure and keen survival instincts, but it also means you've faced countless dangers and unknown threats.</p>
-<p>Gain +1 Milestone and +2 Wealth.</p>
+<p>Gain +1 Milestone & +2 Wealth.</p>
 </details>
 
 <details>
@@ -1089,8 +1089,8 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <p>Gain +1 Milestone and choose one (1):
     <ul>
         <li>Increase your Craft Rank by +1.</li>
-        <li>Gain +1 Renown and +2 Wealth.</li>
-        <li>Gain +2 Gear and +1 Wealth.</li>
+        <li>Gain +1 Renown & +2 Wealth.</li>
+        <li>Gain +2 Gear & +1 Wealth.</li>
     </ul>
 </p>
 </details>
@@ -1100,7 +1100,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Mender</strong>
 </summary>
 <p>You trained and worked as a healer, whether through magical means or traditional medicine. This experience has given you extensive knowledge of healing practices and a compassionate outlook, but it can also mean you've seen much suffering and loss.</p>
-<p>Gain +1 Milestone and increase your Medicine Rank by +1.</p>
+<p>Gain +1 Milestone & increase your Medicine Rank by +1.</p>
 </details>
 
 <details>
@@ -1108,7 +1108,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Hero</strong>
 </summary>
 <p>Early in your life, you found yourself facing an overwhelming challenge. You risked your own life to save others and overcome despite the impossible odds. Your bravery and heroism have earned you recognition in some form.</p>
-<p>Gain +1 Milestone and +1 Renown.</p>
+<p>Gain +1 Milestone & +1 Renown.</p>
 </details>
 
 <details>
@@ -1119,8 +1119,8 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <p>Gain +1 Milestone and choose one (1):
     <ul>
         <li>Increase your Stealth Rank by +1.</li>
-        <li>Gain +1 Enemies and +2 Favors.</li>
-        <li>Gain +1 Secrets.</li>
+        <li>Gain +1 Enemies & +2 Favors.</li>
+        <li>Gain +2 Secrets.</li>
     </ul>
 </p>
 </details>
@@ -1130,7 +1130,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Lost Love</strong>
 </summary>
 <p>You once had a deep, meaningful relationship that ended tragically. The loss of your loved one has left a permanent mark on you, driving you to protect those you care about fiercely while also keeping others at a distance to avoid further pain.</p>
-<p>Gain +1 Milestone, +1 Enemies, and increase your Insight Rank by +13</p>
+<p>Gain +1 Milestone, +1 Enemies, & increase your Insight Rank by +13</p>
 </details>
 
 <details>
@@ -1138,7 +1138,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Merchant Trade</strong>
 </summary>
 <p>You worked in the bustling world of trade and commerce, dealing with merchants, negotiating deals, and traveling extensively. This experience has made you savvy in business and skilled at navigating diverse cultures, but it can also make you wary of deceit and cutthroat competition.</p>
-<p>Gain +1 Milestone and +3 Wealth.</p>
+<p>Gain +1 Milestone & +3 Wealth.</p>
 </details>
 
 </div>
@@ -1152,9 +1152,9 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <p>Gain +1 Milestone and choose one (1):
     <ul>
         <li>Increase your Strike or Tactics Rank by +1.</li>
-        <li>Gain +2 Gear and +1 Wealth.</li>
-        <li>Gain +1 Enemies and +3 Wealth.</li>
-        <li>Gain +1 Enemies, +1 Gear, +1 Renown, and +1 Wealth.</li>
+        <li>Gain +2 Gear & +1 Wealth.</li>
+        <li>Gain +1 Enemies & +3 Wealth.</li>
+        <li>Gain +1 Enemies, +1 Gear, +1 Renown, & +1 Wealth.</li>
     </ul>
 </p>
 </details>
@@ -1168,9 +1168,9 @@ Motivations are the driving forces that can shape your character's goals, decisi
     <ul>
         <li>Increase your Strike or Tactics Rank by +1.</li>
         <li>Increase your Operate or Shoot Rank by +1.</li>
-        <li>Gain +2 Gear and +1 Renown.</li>
-        <li>Gain +3 Gear and +1 Wealth.</li>
-        <li>Gain +1 Enemies, +2 Gear, and +1 Renown.</li>
+        <li>Gain +2 Gear & +1 Renown.</li>
+        <li>Gain +3 Gear & +1 Wealth.</li>
+        <li>Gain +1 Enemies, +2 Gear, & +1 Renown.</li>
     </ul>
 </p>
 </details>
@@ -1184,7 +1184,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
     <ul>
         <li>Increase your Persuade Rank by +1.</li>
         <li>Gain +3 Wealth.</li>
-        <li>Gain +1 Enemies and +2 Renown.</li>
+        <li>Gain +1 Enemies & +2 Renown.</li>
     </ul>
 </p>
 </details>
@@ -1194,7 +1194,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Nomad</strong>
 </summary>
 <p>You have spent most of your life wandering from place to place, never settling down for long. This nomadic lifestyle has made you adaptable and resourceful, but also rootless and longing for stability. You value freedom and new experiences above all else.</p>
-<p>Gain +1 Milestone, +2 Gear, and increase your Survival Rank by +1.</p>
+<p>Gain +1 Milestone, +2 Gear, & increase your Survival Rank by +1.</p>
 </details>
 
 <details>
@@ -1202,7 +1202,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Performance</strong>
 </summary>
 <p>You worked as an entertainer, captivating audiences with your talents in music, theater, or acrobatics. This experience has made you charismatic and adaptable, but it can also mean you have a public persona to maintain and the pressures of constant performance.</p>
-<p>Gain +1 Milestone, +1 Wealth, and increase your Craft Rank by +1.</p>
+<p>Gain +1 Milestone, +1 Wealth, & increase your Craft Rank by +1.</p>
 </details>
 
 <details>
@@ -1210,7 +1210,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Politico</strong>
 </summary>
 <p>You served as a public official or advisor, navigating the complex and often treacherous world of politics. This experience has honed your skills in diplomacy, persuasion, and strategy. You are adept at reading people, managing alliances, and leveraging power dynamics to achieve your goals.</p>
-<p>Gain +1 Milestone, +1 Wealth, and increase your Craft Rank by +1.</p>
+<p>Gain +1 Milestone, +1 Wealth, & increase your Deceive, Insight, or Persuade Rank by +1.</p>
 </details>
 
 <details>
@@ -1218,7 +1218,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Religious Service</strong>
 </summary>
 <p>You served in a religious order, dedicating your life to spiritual practices, rituals, and helping others. This experience has given you a deep sense of faith and moral guidance, but it can also mean you've encountered fanaticism or internal conflicts within the order.</p>
-<p>Gain +1 Milestone.  Increase your Theology Rank by +1 and gain +2 Favors or +1 Renown.</p>
+<p>Gain +1 Milestone.  Increase your Theology Rank by +1 & gain +2 Favors or +1 Renown.</p>
 </details>
 
 <details>
@@ -1226,7 +1226,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <strong>Shadowed Past</strong>
 </summary>
 <p>You have a mysterious or criminal past that you keep hidden from most people. This shadowed history has taught you valuable skills and lessons, but it also haunts you, as you fear the day it might catch up with you. You are constantly looking over your shoulder, ready to confront your past if necessary.</p>
-<p>Gain +1 Milestone.  Increase your Deceive Rank by +1 and gain Enemies +1.</p>
+<p>Gain +1 Milestone.  Increase your Deceive Rank by +1 & gain Enemies +1.</p>
 </details>
 
 <details>
@@ -1268,7 +1268,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 <p>You have a powerful enemy that will hunt to the ends of this world, or the next.  You Nemesis is always close behind you and will become a significant part of your adventure.
 <br><br><em>You must have approval from the BAMF to choose this Experience.  You will collaborate with th eBAMF on your ides about this Nemesis, working to determine if it fits into the game fiction.</em>
 </p>
-<p>Gain +3 Milestones and Enemies +4.</p>
+<p>Gain +3 Milestones & +4 Enemies.</p>
 </details>
 
 </div>
@@ -1278,7 +1278,7 @@ Motivations are the driving forces that can shape your character's goals, decisi
 
 ### Choose (or Roll) Trait Array
 
-Players choose from (or roll if you're not a coward) the following arrays to apply to their characters' starting Trait scores. The scores can be applied to the Traits in any order the player wishes.
+Players choose from (or roll if you're not a coward 1d6 to select one of the arrays below) the following arrays to apply to their characters' starting Trait scores. The scores can be applied to the Traits in any order the player wishes.
 
 **1:** 4 - 2 - 1 - 0 - 0
 
@@ -1310,6 +1310,46 @@ Invest your Milestones gained from your THEME, along with any starting Milestone
 
 ## Targets
 ***Defining Your Character's Goals***
+
+**Targets** are a crucial element of character development, representing individual goals that player characters strive to achieve. These goals drive the narrative forward, uncovering each character’s story and enhancing their abilities.  Characters will all have multiple Targets and will write new Targets as the the game progresses and they complete other targets.
+
+The BAMF will write certain Targets to specify the goals the characters must strive for in the game fiction, some of which will be shared across the characters and some that will be specific to a single character.  At the beginning of the game, the BAMF will provide the players with 1-2 Short-term Targets, and potentially 1 or more Mid- and Long-term Targets.
+
+Players also write their own Targets which define their individual interests and aims for the game fiction.  At the beginning of the game, each Character should have 1-2 Short-term Targets, 1 Mid-term Target, and 1 Long-term Target.
+
+### Creating Targets
+Targets all have criteria that must be met to be valid:
+1. Targets must be achievable.
+2. Targets must have varying **durations**, defining the number of Waypoints during which the Target must be completed or failed (*see Types of Targets below*).
+3. Targets must have **rewards** for success.
+4. Targets must have **consequences** for failure.
+5. Targets must be ***fun*** to pursue!
+
+### Types of Targets
+Targets are categorized into three types based on their duration and complexity: Short-term, Mid-term, and Long-term.
+
+**Short-term Targets**
+- **Description:** These are immediate goals that can be accomplished quickly and are not terribly complex. They provide immediate direction and motivation, and typically span 1-2 Waypoints.
+- **Example:** Recover a stolen heirloom from a local thief.
+    - **Duration:** Must be completed within 2 Waypoints.
+    - **Reward:** 2 Milestones
+    - **Consequences:** The thief sells the heriloom to an enemy.
+
+**Mid-term Targets**
+- **Description:** These goals take longer to achieve and often involve more steps or challenges. They are still specific and attainable, but require more effort and planning, usually spanning 4-8 Waypoints.
+- **Example:** Negotiate a peace treaty between two rival factions.
+    - **Duration:** Must be completed within 5 Waypoints.
+    - **Reward:** 7 Milestones
+    - **Consequences:** The factions go to war.
+
+**Long-term Targets**
+- **Duration:** Half to a whole campaign
+- **Description:** These are overarching goals that span significant portions of the campaign. They shape the character’s overarching narrative and require sustained effort and dedication.  Long-term Targets usually span anywhere from 10 to 20 Waypoints.
+- **Example:** Defeat the Deathless King.
+    - **Duration:** Must be completed within 20 Waypoints.
+    - **Reward:** 15 Milestones
+    - **Consequences:** The Deathless King becomes Cahmpion of the Black Sun and claims Aerdth as his domain.
+
 
 <style>
     .row {

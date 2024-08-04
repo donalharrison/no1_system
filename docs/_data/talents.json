@@ -3529,7 +3529,7 @@
             "effect": [
                 "Your elevated status requires that you show bravery, strength, and conviction in all your affairs.",
                 "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash; braving danger and facing fear or defeat without hesitation.<br>Select two other Virtues from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>","You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
-                "Whenever you act against your Virtues, reduce your Dedication by -1. If your Dedication is 0 or less, increase the Entropy by +5."
+                "Whenever you act in accordance with your Virtues, increase your Dedication by +1.","Whenever you act against your Virtues, reduce your Dedication by -1.", "If your Dedication is 0 or less, increase the Entropy by +5."
             ]
         },
         {

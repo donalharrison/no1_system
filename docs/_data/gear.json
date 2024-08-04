@@ -1,244 +1,324 @@
 {
-    "gear": [
+  "gear": [
     {
       "name": "Club",
-      "rating": "0",
+      "rating": 1,
       "skill": "Strike",
-      "keywords": "Weapon, Hammer"
+      "keywords": "Weapon, Hammer",
+      "cost": 0,
+      "threshold": 0
     },
     {
       "name": "Warhammer",
-      "rating": "2",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Hammer"
+      "keywords": "Weapon, Hammer",
+      "cost":  3,
+      "threshold": 1
     },
     {
       "name": "Mace",
-      "rating": "2",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Hammer"
+      "keywords": "Weapon, Hammer",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Flail",
-      "rating": "2",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Hammer"
+      "keywords": "Weapon, Hammer",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Morningstar",
-      "rating": "3",
+      "rating": 3,
       "skill": "Strike",
-      "keywords": "Weapon, Hammer"
+      "keywords": "Weapon, Hammer",
+      "cost":  3,
+      "threshold": 1
     },
     {
       "name": "Maul",
-      "rating": "3",
+      "rating": 3,
       "skill": "Strike",
-      "keywords": "Weapon, Hammer"
+      "keywords": "Weapon, Hammer",
+      "cost":  4,
+      "threshold": 1
     },
     {
       "name": "Dagger (3)",
-      "rating": "1",
+      "rating": 2,
       "skill": "Strike, Throw",
-      "keywords": "Weapon, Dagger"
+      "keywords": "Weapon, Dagger",
+      "cost": 2,
+      "threshold": 1
     },
     {
       "name": "Rapier",
-      "rating": "1",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Sword"
+      "keywords": "Weapon, Sword",
+      "cost": 3,
+      "threshold":1
     },
     {
       "name": "Shortsword",
-      "rating": "0",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Sword"
+      "keywords": "Weapon, Sword",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Longsword",
-      "rating": "2",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Sword"
+      "keywords": "Weapon, Sword",
+      "cost":  3,
+      "threshold": 1
     },
     {
       "name": "Two-handed Sword",
-      "rating": "3",
+      "rating": 3,
       "skill": "Strike",
-      "keywords": "Weapon, Sword, Two-Handed"
+      "keywords": "Weapon, Sword, Two-Handed",
+      "cost":  4,
+      "threshold": 2
     },
     {
       "name": "Battleaxe",
-      "rating": "2",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Axe"
+      "keywords": "Weapon, Axe",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Scimitar",
-      "rating": "4",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Sword"
+      "keywords": "Weapon, Sword",
+      "cost":  ,
+      "threshold":
     },
     {
       "name": "Halbred",
-      "rating": "3",
+      "rating": 4,
       "skill": "Strike",
-      "keywords": "Weapon, Polearm"
+      "keywords": "Weapon, Polearm, Two-Handed",
+      "cost": 4,
+      "threshold": 2
     },
     {
       "name": "Glaive",
-      "rating": "3",
+      "rating": 3,
       "skill": "Strike",
-      "keywords": "Weapon, Polearm"
+      "keywords": "Weapon, Polearm, Two-Handed",
+      "cost":  4,
+      "threshold": 2
     },
     {
       "name": "Hatchet (3)",
-      "rating": "1",
+      "rating": 2,
       "skill": "Strike, Throw",
-      "keywords": "Weapon, Axe"
+      "keywords": "Weapon, Axe",
+      "cost": 2,
+      "threshold": 1
     },
     {
       "name": "Spear",
-      "rating": "2",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Polearm, Two-Handed"
+      "keywords": "Weapon, Polearm, Two-Handed",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Longspear",
-      "rating": "3",
+      "rating": 3,
       "skill": "Strike",
-      "keywords": "Weapon, Polearm, Two-Handed"
+      "keywords": "Weapon, Polearm, Two-Handed",
+      "cost": 4,
+      "threshold": 1
     },
     {
       "name": "Shortbow",
-      "rating": "2",
+      "rating": 2,
       "skill": "Shoot",
-      "keywords": "Weapon, Bow, Two-Handed"
+      "keywords": "Weapon, Bow, Two-Handed",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Longbow",
-      "rating": "3",
+      "rating": 3,
       "skill": "Shoot",
-      "keywords": "Weapon, Bow, Two-Handed"
+      "keywords": "Weapon, Bow, Two-Handed",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Crossbow",
-      "rating": "2",
+      "rating": 2,
       "skill": "Shoot",
-      "keywords": "Weapon, Bow, Two-Handed"
+      "keywords": "Weapon, Bow, Two-Handed",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Quarterstaff",
-      "rating": "1",
+      "rating": 2,
       "skill": "Strike",
-      "keywords": "Weapon, Two-Handed"
+      "keywords": "Weapon, Two-Handed",
+      "cost": 0,
+      "threshold": 0
     },
     {
       "name": "Sling",
-      "rating": "0",
+      "rating": 2,
       "skill": "Shoot",
-      "keywords": "Weapon"
+      "keywords": "Weapon",
+      "cost": 0,
+      "threshold": 0
     },
     {
       "name": "Gambeson",
-      "rating": "1",
+      "rating": 2,
       "skill": "",
-      "keywords": "Armor, Layer"
+      "keywords": "Armor, Layer",
+      "cost": 2,
+      "threshold": 1
     },
     {
       "name": "Leathers",
-      "rating": "2",
+      "rating": 2,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Studded Leathers",
-      "rating": "3",
+      "rating": 3,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 4,
+      "threshold": 1
     },
     {
       "name": "Chain Shirt",
-      "rating": "2",
+      "rating": 2,
       "skill": "",
-      "keywords": "Armor, Layer"
+      "keywords": "Armor, Layer",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Scale Mail",
-      "rating": "3",
+      "rating": 3,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 4,
+      "threshold": 1
     },
     {
       "name": "Chain Mail",
-      "rating": "4",
+      "rating": 4,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 4,
+      "threshold": 2
     },
     {
       "name": "Lamellar",
-      "rating": "3",
+      "rating": 3,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 4,
+      "threshold": 2
     },
     {
       "name": "Splint Mail",
-      "rating": "4",
+      "rating": 4,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 5,
+      "threshold": 3
     },
     {
       "name": "Breastplate",
-      "rating": "3",
+      "rating": 3,
       "skill": "",
-      "keywords": "Armor, Layer"
+      "keywords": "Armor, Layer",
+      "cost": 4,
+      "threshold":2
     },
     {
       "name": "Plate Mail",
-      "rating": "6",
+      "rating": 6,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 5,
+      "threshold": 3
     },
     {
       "name": "Round Shield",
-      "rating": "2",
+      "rating": 2,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Kite Shield",
-      "rating": "2",
+      "rating": 2,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Buckler",
-      "rating": "1",
+      "rating": 2,
       "skill": "",
-      "keywords": "Armor"
+      "keywords": "Armor",
+      "cost": 3,
+      "threshold": 1
     },
     {
       "name": "Torch (5)",
-      "rating": "1",
+      "rating": 2,
       "skill": "",
-      "keywords": ""
+      "keywords": "",
+      "cost": 0,
+      "threshold": 0
     },
     {
       "name": "Concoction (5)",
-      "rating": "1",
+      "rating": 2,
       "skill": "",
-      "keywords": ""
+      "keywords": "",
+      "cost": 5,
+      "threshold": 2
     },
     {
       "name": "Thieves' Tools",
-      "rating": "1",
+      "rating": 2,
       "skill": "Implements",
-      "keywords": ""
+      "keywords": "",
+      "cost": 0,
+      "threshold": 0
     },
     {
       "name": "Rope (50')",
-      "rating": "1",
-      "skill": "",
-      "keywords": ""
+      "rating": 2,
+      "skill": "Implements",
+      "keywords": "",
+      "cost": 0,
+      "threshold": 0
     }
   ]
 }

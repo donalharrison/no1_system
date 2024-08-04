@@ -128,9 +128,9 @@ Grit represents characters' capacity to take dramatic, and often heroic, action.
 
 Traits combine to construct characters’ Defenses.  
 
-Defenses measure the number of Hits a character can take before they begin to lose their Grit.  All characters posses each of the 3 Defenses, but their Primary Defense is determined by their starting Profession.  The Primary Defense describes how the character generally avoids harm.
+Defenses measure the number of Hits a character can take before they begin to lose their Grit.  All characters posses each of the 3 Defenses, with their Primary Defense selected during character creation Profession.  The Primary Defense describes how the character generally avoids harm.
 
-Some Abilities target specific Defenses.  Any Hits from these Abilities ignore the character’s Primary Defense (unless, of course, the Ability targets the Primary Defense).  Once a Defense is exhausted, all Hits are dealt directly to Grit until the character recovers their Defenses.
+Some Abilities target specific Defenses.  Any Hits from these Abilities ignore the character’s Primary Defense (unless, of course, the Ability targets the Primary Defense).  Once any Defense is exhausted (i.e., equals 0), all Hits are dealt directly to Grit until the character uses the Recover Action to recover their Defenses.
 
 ## Reflexes
 
@@ -147,13 +147,21 @@ Dangerous + Steady + Uncanny
 # Qualities
 
 ## Enemies
+Enemies are those NPCs that you've crossed in some way during your adventures.  Generally, Enemies represent foes who want to see your deeds undone or made difficult.  Higher Enemies scores can be across multiple enemy factions, reflecting that you've crossed paths with many foes, or they can be consolidated into a single entity or group (e.g., the +4 Enemies score gained from the Nemesis Experience option).
 
 ## Favors
+Favors reflect some small debt owed to your cahracter by a known NPC.  Favor points can be spent to gain some small advantage in the game fiction.  Examples include (but are not limited to) having a Noble pull strings to get you invited to a ball, having a sailor grant you passage on their vessel, or having a guard captain allow you to enter a restricted area.
 
 ## Gear
+Gear points are spent to acquire Gear without using Wealth.  Gear points are exchanged 1:1 for Gear Rating of equipment (e.g., a Longsword can be acquired by using 2 Gear points)
 
 ## Renown
+Renown is used to recruite minions with the Retainer keyword.  Retainers are named minions that are more capable than other minions, but not as capable as Characters (i.e., they're sidekicks and protégés).  Renown points can also be spent train Retainers, increasing their ratings, Grit, etc.
 
 ## Secrets
+Secrets are small truths about the game fiction that your character has somehow acquired.  For each Secret point you have, the BAMF will provide you one truth about a fictional situation.  These truths are short statements about a situation that is not otherwise common knowledge.  Secrets do not give you comprehensive outlay of information, instead giving you a piece of information that helps you to assemble the larger puzzle.
+
+Not all Secrets will be provided at the onset of the game allowing you to keep some truths reserved to recall at a later point.  The first and every other Secret point you acquire are revelead at the game's beginning.  Every second secret point you have is reserved to be revelaed later.  For any Secrets you have reserved, you may ask the BAMF if you know anything about a situation, allowing the BAMF to reveal a truth at that point if there is an appropriate context in the game fiction.  Alternatively, the BAMF can reveal a reserved Secret to you at an appropriate point in the fiction without your prompt.
 
 ## Wealth
+Wealth is used to pruchasing Gear, clearing debts, or payign bribes.  Your Wealth score acts like a Skill Rank, determining the type of dice rolled in a Wealth roll.  The Cost of the desired purchase determines the Challenge of the Wealth roll, and the success of the roll is determined by the purchase's Thershold.  More details on using Wealth can be found in the Gear section.
