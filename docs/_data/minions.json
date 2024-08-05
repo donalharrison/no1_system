@@ -1,0 +1,384 @@
+{
+    "minions": [
+        {
+            "name": "Stalker",
+            "rating": 2,
+            "grit": 6,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When this Minion Shifts to Move, it gains Hidden 3."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Ambusher",
+            "rating": 2,
+            "grit": 4,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When this Minion attacks a target while Hidden, add +2 bonus the the result set."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Ravager",
+            "rating": 3,
+            "grit": 6,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When this Minion scores Hits against one target in its Current Zone and the target takes 5+ Hits this turn, the target gains Vulnerable 2."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Hardy",
+            "rating": 2,
+            "grit": 10,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When you use the Recover Action, this minion regains +2 Grit."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Watcher",
+            "rating": 1,
+            "grit": 3,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When you attempt to Perceive your surroundings, you may choose to Perceive your Current Zone or this Minion's Current Zone.  If you and this Minion are in the same Current Zone, add +2 Bnous Hits to the result set."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Tracker",
+            "rating": 1,
+            "grit": 4,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When you or an ally attempts to use Survival skills to track a target while in this Minion's Current Zone, add +1d4 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Striker",
+            "rating": 1,
+            "grit": 6,
+            "melee": 2,
+            "ranged": 0,
+            "trigger": [
+                "When this Minion does not use a Shift to Move on your turn, it may score X Hits against one target in its Current Zone, where X is equal to its Melle Rating."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Charger",
+            "rating": 2,
+            "grit": 5,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When this Minion Shifts to Move to an Adjacent Zone and attack a target, it may ignores Hazards and its target becomes Prone."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Sentry",
+            "rating": 1,
+            "grit": 8,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When your or your allies are the target of an Ambush while in this Minion's Current Zone, you may add +1d4 bonus hits to the Initiative Test."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Decoy",
+            "rating": 1,
+            "grit": 3,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When this Minion Shifts to Move within its Current or into an Adjacent Zone, X targets in its Current Zone gain Provoked, where X is equal to this Minion's Current Grit."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Sapper",
+            "rating": 1,
+            "grit": 4,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When this Minon would score Hits against a target in its Current Zone, the target gains Fatigued 1."
+            ],
+            "keywords": [
+                "Beast"
+            ]
+        },
+        {
+            "name": "Spu Ki",
+            "rating": 0,
+            "grit": 4,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When this Minon would score Hits against a target in its Current Zone, the target gains Fatigued 1."
+            ],
+            "keywords": [
+                "Undead"
+            ]
+        },
+        {
+            "name": "Bodyguard",
+            "rating": 2,
+            "grit": 5,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When you suffer Hits from a target you can see and this Minion is in your Current Zone, you may redirect the Hits to this Minion."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Enforcer",
+            "rating": 1,
+            "grit": 4,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When you Lead your Minions to score Hits against a target in this Minion's Current Zone, add +2 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Battler",
+            "rating": 1,
+            "grit": 3,
+            "melee": 2,
+            "ranged": 1,
+            "trigger": [
+                ""
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Piker",
+            "rating": 2,
+            "grit": 3,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                "When a target uses a Shift to Move past this Minion, the target adds an additional +1 Hazard to their team's next roll."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Arcanist",
+            "rating": 2,
+            "grit": 4,
+            "melee": 0,
+            "ranged": 2,
+            "trigger": [
+                "When you or your allies use Cosmology, History, Researhc, Skrimisiology, or Theology and this Minion is in your Current Zone, add +2 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Medic",
+            "rating": 2,
+            "grit": 2,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When you or your allies use the Recover Aciton and this Minion is in your Current Zone, you regain +1 Grit.",
+                "When you or your allies use Medicine and this Minion is in your Current Zone, add +2 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Archer",
+            "rating": 1,
+            "grit": 2,
+            "melee": 1,
+            "ranged": 2,
+            "trigger": [
+                "When you Lead your Minions to score Hits against a target in a Zone Adjacent to this Minion's Current Zone, add +2 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Rogue",
+            "rating": 1,
+            "grit": 2,
+            "melee": 1,
+            "ranged": 1,
+            "trigger": [
+                "When this Minon uses a Shifts to Move, you may have it gain Hidden 2.",
+                "When you or your allies use your Implements and this Minion is in your Current Zone, add +2 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Veteran",
+            "rating": 3,
+            "grit": 5,
+            "melee": 3,
+            "ranged": 1,
+            "trigger": [
+                "When you Lead your Minions to score Hits against a target in this Minion's Current Zone and the target dies, you may have this Minion deal X hits to another target in its Current Zone, where X is equal to this Minions Melee rating."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Cutthroat",
+            "rating": 2,
+            "grit": 2,
+            "melee": 3,
+            "ranged": 0,
+            "trigger": [
+                "When you Lead your Minions to score Hits against a target in this Minion's Current Zone and the target dies, you may have this Minion gain an additional Shift this turn."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Consular",
+            "rating": 1,
+            "grit": 2,
+            "melee": 0,
+            "ranged": 0,
+            "trigger": [
+                "When you send this Minion to manage diplomacy in your stead, you may roll Lead instead of Deceive or Persaude to conduct the deliberations."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Agent",
+            "rating": 1,
+            "grit": 2,
+            "melee": 1,
+            "ranged": 1,
+            "trigger": [
+                "When this Minon uses a Shifts to Move, you may have it gain Hidden 2.",
+                "When you or your allies Perceive and this Minion is in your Current Zone, add +2 Bonus Hits to the result set."
+            ],
+            "keywords": [
+                "Henchmen"
+            ]
+        },
+        {
+            "name": "Dangerous",
+            "rating": 1,
+            "grit": 4,
+            "melee": 2,
+            "ranged": 2,
+            "trigger": [
+                ""
+            ],
+            "keywords": [
+                "Retainer"
+            ]
+        },
+        {
+            "name": "Deft",
+            "rating": 1,
+            "grit": 3,
+            "melee": 1,
+            "ranged": 1,
+            "trigger": [
+                ""
+            ],
+            "keywords": [
+                "Retainer"
+            ]
+        },
+        {
+            "name": "Savvy",
+            "rating": 1,
+            "grit": 2,
+            "melee": 0,
+            "ranged": 1,
+            "trigger": [
+                ""
+            ],
+            "keywords": [
+                "Retainer"
+            ]
+        },
+        {
+            "name": "Steady",
+            "rating": 1,
+            "grit": 3,
+            "melee": 1,
+            "ranged": 0,
+            "trigger": [
+                ""
+            ],
+            "keywords": [
+                "Retainer"
+            ]
+        },
+        {
+            "name": "Uncanny",
+            "rating": 1,
+            "grit": 2,
+            "melee": 1,
+            "ranged": 1,
+            "trigger": [
+                ""
+            ],
+            "keywords": [
+                "Retainer"
+            ]
+        }
+    ]
+}
