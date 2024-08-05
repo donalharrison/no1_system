@@ -156,7 +156,7 @@ Favors reflect some small debt owed to your cahracter by a known NPC.  Favor poi
 Gear points are spent to acquire Gear without using Wealth.  Gear points are exchanged 1:1 for Gear Rating of equipment (e.g., a Longsword can be acquired by using 2 Gear points)
 
 ## Renown
-Renown is used to recruite minions with the Retainer keyword.  Retainers are named minions that are more capable than other minions, but not as capable as Characters (i.e., they're sidekicks and protégés).  Renown points can also be spent train Retainers, increasing their ratings, Grit, etc.
+Renown is used to recruit minions with the Retainer keyword.  Retainers are named minions that are more capable than other minions, but not as capable as Characters (i.e., they're sidekicks and protégés).  Renown points can also be spent train Retainers, increasing their ratings, Grit, etc.
 
 ## Secrets
 Secrets are small truths about the game fiction that your character has somehow acquired.  For each Secret point you have, the BAMF will provide you one truth about a fictional situation.  These truths are short statements about a situation that is not otherwise common knowledge.  Secrets do not give you comprehensive outlay of information, instead giving you a piece of information that helps you to assemble the larger puzzle.

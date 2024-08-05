@@ -9934,6 +9934,204 @@
             "effect": [
                 "Increase you Uncanny Trait rating by +1."
             ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor and choose one target in your Current or an Adjacent Zone.  On 2+ Hits, the target gains Slowed 3."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor and target your Current or an Adjacent Zone to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the targeted Zone is frozen in time.  All targets within the targeted Zone gain Silenced X, Restrained X, and can take no Actions.", "Any targets that Shift to Move into and any items or effects that enter the Zone immediately suffer these effects.", "When this Aura ends, your gain Slowed 2 and Fatigued 1."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor to have one target in your Current or an Adjacent Zone gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the target gains the following effects:<ul><li>Your Primary Defense is Reflexes.  You gain +10 to your Rexlexes Defense.</li><li>You gain 1 additional Shift on each of your turns.</li><li>You gain 1 additional Action on each of your turns.</li><li>When this Aura ends, you gain Slowed 2 and Fatigued 3.</li></li>", "When this Aura ends, the current Timer decreases by -2."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, you gain Fatigued 2, Dazed 1, and your team cannot lose the Initiative."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor to create an Auxiliary Timer X, where X is equal to Hits in the result set.  While the Auxiliary Timer persists, the current Timer stops and only you act on each of the Auxiliary turns.", "When the Auxiliary Timer ends, you gain Dazed 1, Fatigued 2, Silenced 2, and Slowed 2."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor to end the current Waypoint.  On 2+ Hits, the current Waypoint ends.  Any Targets and situations active in the current Waypoint advance accordingly.", "The next Waypoint begins immediately."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor to gain Aura X start a new Waypoint, where X is equal to your  Uncanny Trait + Hits in the result set.  The new Waypoint begins at any point in the game fiction's timeline and encompasses X Timers.  When this Aura ends (i.e., the last Timer concludes), you return to this point in the game fiction's timeline, but things may not be as tehy once were. . ."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor and choose one target in your Current Zone.  On 3+ Hits, the target disappears from the current encounter until the beginning of the next round and you gain Slowed 2."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor and decrease the current Timer by -1.  All targets in your Current Zone reduce all statuses by X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tempor to gain Stunned X, where X is equal to Hits in the result set.  Set the current Timer to X."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When this round ends and the enemy team has the Initiative, you may gain Fatigued 2 and increase the current Timer by +1."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When the current Timer equals 1, you may use Tempor to gain Aura X.  While this Aura persists, you gain Fatigued 1, Stunned 2, and the current Timer does not decrease."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from a target, you may gain gain Dazed 2 and have the target reroll their effect, using the new result set."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "Tempor (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tempor Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "Tempor (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tempor Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "Tempor (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tempor Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Temporalist",
+            "name": "Tempor (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tempor Rank to 4 (d12)."
+            ]
         }
     ]
 }
