@@ -50,7 +50,7 @@ You can increase the Minion Rating to a maximum of 4 of any Retainer by spending
         <td>{{ m.ranged }}</td>
         <td>
         {% for t in m.triggers %}
-            <div>{{ m.threshold }}</div>
+            <div>{{ t }}</div>
         {% endfor % }
         </td>
     </tr>
