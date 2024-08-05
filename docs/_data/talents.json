@@ -1985,6 +1985,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
                 "Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense."
             ]
         },
@@ -4177,6 +4178,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
                 "You assume a Defensive Stance, reducing all Hits from using your Martial Arts by -1.",
                 "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
             ]
@@ -4189,6 +4191,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive Stance</span></h4>",
                 "You assume an Aggressive Stance, adding +1 Bonus Hits when using your Martial Arts.",
                 "You can maintain this stance until you use a different Shift and as long as your Reflexes are above 0."
             ]
@@ -5563,7 +5566,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Combination Punch</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Combination Punch</span></h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rapid punch to your opponent.  On +1 Hits, score 1 Hit on the target and immediately use different <em>Combination Punch</em>."
             ]
         },
@@ -5575,7 +5578,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Combination Punch</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Combination Punch</span></h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rear-hand punch to your opponent.  On +2 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>."
             ]
         },
@@ -5587,7 +5590,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Combination Punch</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Combination Punch</span></h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rotating punch to your opponent.  On +3 Hits, score 2 Hits on the target and immediately use different <em>Combination Punch</em>."
             ]
         },
@@ -5599,7 +5602,7 @@
             "requires": "Journeyman Competitor",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Combination Punch</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Combination Punch</span></h4>",
                 "Use your Martial Arts while engaged in a Contest to deliver a rising punch to your opponent.  On +3 Hits, score 3 Hits on the target."
             ]
         },
@@ -5656,6 +5659,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
                 "Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense."
             ]
         },
@@ -6330,7 +6334,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Increase the Entropy by +1 and Perceive to gain a vision of one target of your choice.",
                 "On 2+ Hits, you learn the target's current location.",
                 "On 3+ Hits, you may immediately use different <em>Portent</em>."
@@ -6344,7 +6348,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Spend 3 Momentum and Investigate to discern the meaning of the clues you have gathered.",
                 "On 2+ Hits, you can ask the BAMF to confirm or refute your interpretation.",
                 "On 3+ Hits, you may immediately use a different <em>Portent</em>."
@@ -6358,7 +6362,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Spend 2 Momentum and use Locus to send a message to one target.",
                 "On 1+ Hits, you send a message of 25 words or less to your target.",
                 "On 2+ Hits, the target may reply in 10 wirds of less.",
@@ -6373,7 +6377,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "When you have used 3+ different <em>Portents</em> this turn, a terrible thought enters your mind, one that you wish your could push beyond memory.",
                 "You gain Fatigued 2 and the BAMF reveals one secret to you about the game fiction."
             ]
@@ -6386,7 +6390,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "When you have used 3+ different <em>Portents</em> this turn, you learn a dangerous detail about the movements of the Cosm.",
                 "You gain Fatigued 3 and may ask the BAMF one question about the game fiction."
             ]
@@ -6399,7 +6403,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Analyze the remains of one or more creatures, then roll 1d20 as X:<ul><li>If X is less than 9, increase the Entropy by +3.</li><li>If X is greater than 8, increase the Momentum by +3.</li><li>If X is greater than 15, increase the Momentum by +3 and take on additional Action this turn.</li></ul>"
             ]
         },
@@ -6422,7 +6426,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Spend 2 Momentum and Analyze to understand the signs of a specific situation.  On 3+ Hits, ask the BAMF one <em>'Yes or No'</em> question about the game fiction."
             ]
         },
@@ -6434,7 +6438,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Roll 2d4 to gain X, then choose one:<ul><li>Spend 4 Momentum to allow one ally in your Current or Adjacent Zone to add +X Bonus Hits to their next result set.</li><li>Increase the Entropy by +2 to reduce Hits in the next result set of one target Current or Adjacent Zone by -X.</li></ul>"
             ]
         },
@@ -6446,7 +6450,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Percieve to observe the movements of the Cosm.  On 2+ Hits, gain Blind 2 and choose 1:<ul><li>You learn the current location of one target of your choosing.</li><li>The BAMF reveals one secret to you about the game fiction.</li><li>You may immediately use a different <em>Portent</em>.</ul>"
             ]
         },
@@ -6469,7 +6473,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Intuit to learn the intentions of X targets in your Current Zone, where X is equal to Hits in the result set."
             ]
         },
@@ -6481,7 +6485,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Portent</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "When you use 4+ <em>Portents</em> this turn, your receive a cryptic vision.  The BAMF will describe the vision you receive, which may be unrelated to one of your current Targets."
             ]
         },
@@ -7008,7 +7012,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Defensive Stance</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
                 "Position yourself in your Current Zone to assume a Defensive Stance.",
                 "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
             ]
@@ -9101,7 +9105,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Sworldplay</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
                 "Spend X Defenses and Strike one target in your Current Zone, add X Bonus Hits to the result set."
             ]
         },
@@ -9113,7 +9117,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Sworldplay</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 3 Hits from the result set to have the target gain Wounded 1."
             ]
         },
@@ -9125,7 +9129,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Sworldplay</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
                 "Deceive one target in your Current Zone.  One 2+ Hits, you may immediately Strike the target adding +1d4 Bonus Hits to the result set."
             ]
         },
@@ -9137,7 +9141,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Hewer</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Hewer</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 3 Hits in the result set to have the target gain Wounded 2."
             ]
         },
@@ -9149,7 +9153,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Hewer</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Hewer</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to have to reduce one of the target's Gear Ratings by X, where X is the total Hits in the result set."
             ]
         },
@@ -9161,7 +9165,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Hewer</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Hewer</span></h4>",
                 "Strike one target in your Current Zone that is is Wounded, it gains Vulnerable 1 and Stunned 1."
             ]
         },
@@ -9173,7 +9177,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Crusher</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Crusher</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target gain Vulnerable 1."
             ]
         },
@@ -9185,7 +9189,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Crusher</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Crusher</span></h4>",
                 "When you Strike one target in your Current Zone that is Vulnerable, the target gains Fatigued 1."
             ]
         },
@@ -9197,7 +9201,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Crusher</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Crusher</span></h4>",
                 "When you Strike one target in your Current Zone that is Vulnerable, the target gains Stunned 2."
             ]
         },
@@ -9209,7 +9213,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Crusher</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Crusher</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to move your target to an Adjacent Zone."
             ]
         },
@@ -9221,7 +9225,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Poledance</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Poledance</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target become Prone."
             ]
         },
@@ -9233,7 +9237,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Poledance</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Poledance</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits in the result set to make the target gain Restrained 2."
             ]
         },
@@ -9245,7 +9249,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Poledance</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Poledance</span></h4>",
                 "Strike one target in your Current Zone and gain Aura 1.  While this Aura persists, all targets in your Current Zone add 1 Hazard to any Action targetting you."
             ]
         },
@@ -9257,7 +9261,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Niten</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Niten</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 2 Hits from the result set to immediately Wait for it. . . , preparing an Action to Strike one target in your Current Zone if they use a Shift to Move or an Action to attack."
             ]
         },
@@ -9269,7 +9273,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Niten</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Niten</span></h4>",
                 "Strike one target in your Current Zone and use your second weapon to defend yourself to gain Armor Defense X, where X is equal to Hits in the result set."
             ]
         },
@@ -9281,7 +9285,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 8px'>Niten</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Niten</span></h4>",
                 "When you Strike a target and score 3+ Hits, you may immediately use another Action to strike with your second weapon."
             ]
         },
