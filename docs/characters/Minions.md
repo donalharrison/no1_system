@@ -40,7 +40,7 @@ You can increase the Minion Rating to a maximum of 4 of any Retainer by spending
             <td>Triggers</td>
         </tr>
     </thead>
-    {% for m in site.data.minions.minons %}
+    {% for m in site.data.minions.minions %}
     <tr>
         <td>{{ m.name }}</td>
         <td>{{ m.keywords }}</td>
@@ -48,6 +48,11 @@ You can increase the Minion Rating to a maximum of 4 of any Retainer by spending
         <td>{{ m.grit }}</td>
         <td>{{ m.melee }}</td>
         <td>{{ m.ranged }}</td>
+        <td>
+        {% for t in m.trigger %}
+            <div>{{ t }}</div>
+        {% endfor % }
+        </td>
     </tr>
     {% endfor %}
 </table>

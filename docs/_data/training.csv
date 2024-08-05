@@ -96,7 +96,7 @@ Rhapsodist,Specialization,,"You are amaster storyteller who chronicles great eve
 Samurai,Specialization,,"You embrace the way of the warrior, focusing on honor, discipline, and mastery of the blade.",/no1_system/assets/img/samurai.png,/no1_system/characters/training/samurai/
 Shinobi,Specialization,,"You combine stealth, espionage, and unconventional warfare, specializing in silent and deadly tactics.",/no1_system/assets/img/shinobi.png,/no1_system/characters/training/shinobi/
 Skald,Specialization,,"You combine musical and combat abilities, inspiring allies and striking fear into enemies.",/no1_system/assets/img/skald.png,/no1_system/characters/training/skald/
-Skrimister,Specialization,,You are an expert in the knowledge and elimination of monsters.,,
+Skrimister,Specialization,,You are an expert in the knowledge and elimination of monsters.,/no1_system/assets/img/skrimister.png,/no1_system/assets/img/skrimister.png
 Slayer,Specialization,,You are a ruthless combatant specialized in hunting and eliminating powerful adversaries.,/no1_system/assets/img/slayer.png,/no1_system/characters/training/slayer/
 Sniper,Specialization,,"You are a marksman with deadly accuracy, capable of taking out targets from extreme distances with precision.",/no1_system/assets/img/sniper.png,/no1_system/characters/training/sniper/
 Spy,Specialization,,"You navigate the world of espionage, specializing in information gathering, covert operations, and secrecy.",/no1_system/assets/img/spy.png,/no1_system/characters/training/spy/
