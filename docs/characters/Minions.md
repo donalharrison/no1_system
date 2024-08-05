@@ -28,15 +28,13 @@ You can increase the Minion Rating to a maximum of 4 of any Retainer by spending
 
 # Minons Table
 
-<table>
+<table style="padding: 2px;">
     <thead>
         <tr style="font-weight: bold;">
             <td>Minion Name</td>
             <td>Keywords</td>
             <td>Rating</td>
             <td>Grit / Melee / Ranged</td>
-            <td>Melee</td>
-            <td>Ranged</td>
             <td>Triggers</td>
         </tr>
     </thead>
