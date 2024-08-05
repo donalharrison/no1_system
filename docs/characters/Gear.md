@@ -60,7 +60,7 @@ The Gear can be Equipped underneath other Gear with the Armor keyword.  You can 
 
 <table>
     <thead>
-        <tr>
+        <tr style="font-weight: bold;">
             <td>Gear Name</td>
             <td>Gear Rating</td>
             <td>Skills</td>
