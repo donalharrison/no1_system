@@ -9937,7 +9937,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Temporal Deceleration",
             "type": "Ability",
             "rank": "1",
             "requires": null,
@@ -9948,9 +9948,9 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Temporal Exclusion",
             "type": "Ability",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -9959,9 +9959,9 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Temporal Acceleration",
             "type": "Ability",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -9970,7 +9970,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Timekeeper",
             "type": "Ability",
             "rank": "1",
             "requires": null,
@@ -9983,7 +9983,7 @@
             "tree": "Temporalist",
             "name": "",
             "type": "Ability",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -9992,9 +9992,9 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Ex Epilogo ad Prologum",
             "type": "Ability",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -10003,9 +10003,9 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Revisit History",
             "type": "Ability",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -10014,7 +10014,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Phase Shift",
             "type": "Shift",
             "rank": "1",
             "requires": null,
@@ -10025,9 +10025,9 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Speedy Recovery",
             "type": "Shift",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -10036,7 +10036,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Make the Time",
             "type": "Shift",
             "rank": "1",
             "requires": null,
@@ -10047,7 +10047,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "I'm Not Done Yet",
             "type": "Trigger",
             "rank": "1",
             "requires": null,
@@ -10058,9 +10058,9 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Pause the Sands",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -10069,7 +10069,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "One of Many Outcomes",
             "type": "Trigger",
             "rank": "1",
             "requires": null,
@@ -10086,7 +10086,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
