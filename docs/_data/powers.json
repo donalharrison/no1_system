@@ -55,9 +55,7 @@
             "max_ranks": 7,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Inferno",
@@ -111,9 +109,7 @@
             "max_ranks": 5,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Mori",
@@ -152,9 +148,7 @@
             "max_ranks": 8,
             "threshold": null,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Aether",
@@ -240,9 +234,7 @@
             "max_ranks": 4,
             "threshold": 1,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Bellor",
@@ -292,9 +284,7 @@
             "max_ranks": 3,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Tempor",
@@ -363,9 +353,7 @@
             "max_ranks": 5,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Bellor",
@@ -423,9 +411,7 @@
             "max_ranks": 5,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Bellor",
@@ -479,9 +465,7 @@
             "max_ranks": 3,
             "threshold": 1,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Tempor",
@@ -520,9 +504,7 @@
             "max_ranks": 4,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Lux",
@@ -561,9 +543,7 @@
             "max_ranks": 4,
             "threshold": 1,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Bellor",
@@ -602,9 +582,7 @@
             "max_ranks": 6,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Destroy",
@@ -666,9 +644,7 @@
             "max_ranks": 4,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Bellor",
@@ -733,9 +709,7 @@
             "max_ranks": 5,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Intuit",
@@ -789,9 +763,7 @@
             "max_ranks": 4,
             "threshold": 1,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Luck",
@@ -830,9 +802,7 @@
             "max_ranks": 8,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Destroy",
@@ -901,9 +871,7 @@
             "max_ranks": 5,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Locus",
@@ -969,9 +937,7 @@
             "max_ranks": 4,
             "threshold": null,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Phylla",
@@ -1037,9 +1003,7 @@
             "max_ranks": 4,
             "threshold": null,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Forma",
@@ -1070,9 +1034,7 @@
             "max_ranks": 4,
             "threshold": null,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Aether",
@@ -1157,9 +1119,7 @@
             "max_ranks": 5,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Aether",
@@ -1198,9 +1158,7 @@
             "max_ranks": 4,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Aether",
@@ -1239,9 +1197,7 @@
             "max_ranks": 5,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Squall",
@@ -1295,9 +1251,7 @@
             "max_ranks": 3,
             "threshold": null,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Lux",
@@ -1336,9 +1290,7 @@
             "max_ranks": 6,
             "threshold": null,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Bellor",
@@ -1404,9 +1356,7 @@
             "max_ranks": 3,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Inferno",
@@ -1445,9 +1395,7 @@
             "max_ranks": 4,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Mori",
@@ -1513,9 +1461,7 @@
             "max_ranks": 5,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Destroy",
@@ -1581,9 +1527,7 @@
             "max_ranks": 4,
             "threshold": 2,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Lux",
@@ -1645,9 +1589,7 @@
             "max_ranks": 8,
             "threshold": 3,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Tempor",
@@ -1713,9 +1655,7 @@
             "max_ranks": 8,
             "threshold": 4,
             "requires": null,
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "aspects": [
                 {
                     "skill": "Tempor",
@@ -10561,11 +10501,11 @@
             "name": "Biting Rain",
             "type": "Ability",
             "max_ranks": 2,
-            "effect": "All targets in your Current or an Adjacent Zone suffer 1 Hit to their Primary Defenses.",
+            "effect": null,
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": ""
+                    "effect": "All targets in your Current or an Adjacent Zone suffer 1 Hit to their Primary Defenses."
                 },
                 {
                     "hits": 4,
@@ -10824,9 +10764,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Crippling Blight",
@@ -10887,9 +10825,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Dark Blast",
@@ -11364,9 +11300,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Frost Breath",
@@ -11412,9 +11346,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Galvanic Bombardment",
@@ -11541,9 +11473,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Icy Blast",
@@ -11577,9 +11507,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Incite",
@@ -11751,9 +11679,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Magic Missile",
@@ -11771,9 +11697,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Malevolent Whispers",
@@ -11856,9 +11780,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Misty Step",
@@ -12240,9 +12162,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Summon Spirit Animal",
@@ -12384,13 +12304,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Increase the Entropy by +1 Momentum to copy the effects of the next spell you cast this turn.  You may choose different targets for the copy."
+                    "effect": "Increase the Entropy by +1 to copy the effects of the next spell you cast this turn.  You may choose different targets for the copy."
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Vine Snare",
@@ -12529,9 +12447,7 @@
                 }
             ],
             "requires": null,
-            "keywords": [
-                ""
-            ]
+            "keywords": []
         },
         {
             "name": "Withercrown",
@@ -12559,9 +12475,7 @@
             "description": "Summon a protective spirit that defends an ally from attacks.",
             "requires": "",
             "cost": "1",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12571,9 +12485,7 @@
             "description": "Call forth a vengeful spirit to attack and haunt an enemy.",
             "requires": "",
             "cost": "2",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12583,9 +12495,7 @@
             "description": "Summon a benevolent spirit that heals and rejuvenates allies over time.",
             "requires": "",
             "cost": "2",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12657,9 +12567,7 @@
             "description": "Call upon a spirit to create convincing illusions to deceive enemies.",
             "requires": "",
             "cost": "2",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12682,9 +12590,7 @@
             "description": "Call upon a spirit of balance to restore equilibrium and peace.",
             "requires": "",
             "cost": "2",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12920,9 +12826,7 @@
             "description": "Summon a courageous spirit to bolster morale and instill bravery in allies.",
             "requires": "",
             "cost": "1",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12956,9 +12860,7 @@
             "description": "Call upon a spirit of knowledge to uncover secrets and provide insights.",
             "requires": "",
             "cost": "1",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]
@@ -12968,9 +12870,7 @@
             "description": "Summon a dream spirit to influence sleep, dreams, and the subconscious mind.",
             "requires": "3",
             "cost": "Mentis",
-            "keywords": [
-                ""
-            ],
+            "keywords": [],
             "effects": [
                 {}
             ]

@@ -1,63 +1,63 @@
 name,trait,type,description
-Bellor,Dangerous,2,"Encompasses the forces of war, hostility, battle, and violence."
-Exert,Dangerous,1,Use your physical prowess to overwhelm & overcome.
-Grapple,Dangerous,1,Techniques for engaging in close combat and securing holds on an opponent.
-Inferno,Dangerous,2,"Commands fire and flame, igniting and controlling blazes."
-Intimidate,Dangerous,1,Using fear or threats to influence others' actions.
-Martial Arts,Dangerous,1,Training and expertise in hand-to-hand combat techniques.
-Sangui,Dangerous,2,Of blood that flows.
-Shoot,Dangerous,1,"Proficiency in using ranged weapons, such as firearms or bows."
-Strike,Dangerous,1,Skill in delivering effective blows in combat.
-Tempest,Dangerous,2,"Unleashes lightning, thunder, and the storm."
-Throw,Dangerous,1,Proficiency in accurately throwing objects or weapons.
-Implements,Deft,1,Proficiency in using tools and devices for various purposes.
-Insight,Deft,1,The ability to understand and interpret the true nature of people and situations.
-Legerdemain,Deft,1,Skill in sleight of hand and performing tricks or feats of dexterity.
-Mori,Deft,2,"Governs death, dying, and undeath, influencing the end of life and the afterlife."
-Nox,Deft,2,"Masters darkness and shadow, concealing and manipulating gloom."
-Operate,Deft,1,Proficiency in controlling and managing machinery and vehicles.
-Plaga,Deft,2,"Encompasses affliction, poison, plagues, and the infliction of suffering."
-Squall,Deft,2,"Commands winds, air, and the skies, summoning gusts and atmospheric forces."
-Stealth,Deft,1,The ability to move quietly and unseen.
-Tactics,Deft,1,The art of planning and executing strategies in various situations.
-Tumble,Deft,1,"Skill in acrobatics and performing rolls, flips, and other agile movements."
+Aether,Uncanny,2,"Harnesses the energy of all forces unknown, tapping into the cosmic and mystical."
 Analyze,Savvy,1,The ability to examine and break down information or situations critically.
 Arithm,Savvy,2,"Manipulates reality through the knowledge of numeracy, equations, and numerical patterns."
+Bellor,Dangerous,2,"Encompasses the forces of war, hostility, battle, and violence."
+Composure,Steady,1,Maintaining calm and control under pressure or in stressful situations.
 Cosmology,Savvy,1,"The study of the  fundamental nature of the universe, including celestial bodies, cosmic phenomena, and their underlying principles"
 Craft,Savvy,2,Skill in creating or repairing items through various methods and materials.
 Current Events,Savvy,1,Awareness and knowledge of recent happenings and news.
 Deceive,Savvy,1,"The art of lying, misleading, or tricking others."
-History,Savvy,1,"The study of past events, civilizations, and cultures, providing insight into how they have shaped the present world."
-Linguistics,Savvy,1,Knowledge and understanding of languages and their structures.
-Medicine,Savvy,2,"The knowledge and practices to diagnose, treat, and prevent illnesses and injuries."
-Mentis,Savvy,2,"Utilizes the mind in all aspects, from illusions and telepathy to psychic attacks."
-Nature,Savvy,1,The study of the natural world and its processes.
-Navigate,Savvy,1,"The ability to plan and follow a route, whether on land, sea, or air."
-Persuade,Savvy,1,The art of convincing others to agree or take action.
-Phylla,Savvy,2,"Governs plants, trees, and the natural growth of flora."
-Research,Savvy,1,The ability to systematically investigate and gather information.
-Rime,Savvy,2,"Controls cold, ice, and frost, bringing chills and freezing environments."
-Skrimisiology,Savvy,1,"The study of non-humanoid creatures and species, including their strengths, weaknesses, and behavior."
-Streetwise,Savvy,1,Practical knowledge and experience of urban life and its challenges.
-Survival,Savvy,1,The ability to endure and thrive in harsh or wilderness environments.
-Theology,Savvy,1,"The study of gods, religions, and spritual practices past and present, granting insight into their doctrines and impact."
-Torrent,Savvy,2,"Wields water and rain, directing and forming aquatic flows."
-Composure,Steady,1,Maintaining calm and control under pressure or in stressful situations.
+Destroy,Uncanny,2,"Amplifies destructive capabilities, enhancing the ability to cause harm and deal death."
 Endure,Steady,1,The capability to withstand physical or mental stress and hardships.
+Exert,Dangerous,1,Use your physical prowess to overwhelm & overcome.
 Focus,Steady,1,Concentration and mental discipline to maintain attention on a task.
 Forma,Steady,2,"Encompasses shaping and transfiguration, altering forms and structures."
+Grapple,Dangerous,1,Techniques for engaging in close combat and securing holds on an opponent.
+History,Savvy,1,"The study of past events, civilizations, and cultures, providing insight into how they have shaped the present world."
+Implements,Deft,1,Proficiency in using tools and devices for various purposes.
+Inferno,Dangerous,2,"Commands fire and flame, igniting and controlling blazes."
+Insight,Deft,1,The ability to understand and interpret the true nature of people and situations.
+Intimidate,Dangerous,1,Using fear or threats to influence others' actions.
+Intuit,Uncanny,2,"Enhances perception and insight, allowing for extraordinary understanding and instinctive knowledge."
 Investigate,Steady,1,"The skill of searching for information, clues, and evidence."
 Lead,Steady,1,"The ability to guide, direct, and inspire others."
+Legerdemain,Deft,1,Skill in sleight of hand and performing tricks or feats of dexterity.
+Linguistics,Savvy,1,Knowledge and understanding of languages and their structures.
 Locus,Steady,2,"Encompasses position, spatial relation, and movement."
+Luck,Uncanny,2,"Increases serendipity and chance, making favorable outcomes more likely and reducing mishaps."
 Lux,Steady,2,"Wields light and illumination, creating and controlling brilliance."
+Martial Arts,Dangerous,1,Training and expertise in hand-to-hand combat techniques.
+Medicine,Savvy,2,"The knowledge and practices to diagnose, treat, and prevent illnesses and injuries."
+Mentis,Savvy,2,"Utilizes the mind in all aspects, from illusions and telepathy to psychic attacks."
+Mori,Deft,2,"Governs death, dying, and undeath, influencing the end of life and the afterlife."
+Nature,Savvy,1,The study of the natural world and its processes.
+Navigate,Savvy,1,"The ability to plan and follow a route, whether on land, sea, or air."
+Nihil,Uncanny,2,"Channels the energy of the void, the absolute nothingness."
+Nox,Deft,2,"Masters darkness and shadow, concealing and manipulating gloom."
+Operate,Deft,1,Proficiency in controlling and managing machinery and vehicles.
 Ordi,Steady,2,"Governs order, peace, and the enforcement of law."
 Perceive,Steady,1,"The use of innate senses such as sight, smell, and hearing to notice and interpret details in the environment."
-Tellus,Steady,2,"Manipulates earth, stone, and plants, shaping the natural and solid world."
-Aether,Uncanny,2,"Harnesses the energy of all forces unknown, tapping into the cosmic and mystical."
-Destroy,Uncanny,2,"Amplifies destructive capabilities, enhancing the ability to cause harm and deal death."
-Intuit,Uncanny,2,"Enhances perception and insight, allowing for extraordinary understanding and instinctive knowledge."
-Luck,Uncanny,2,"Increases serendipity and chance, making favorable outcomes more likely and reducing mishaps."
-Nihil,Uncanny,2,"Channels the energy of the void, the absolute nothingness."
+Persuade,Savvy,1,The art of convincing others to agree or take action.
+Phylla,Savvy,2,"Governs plants, trees, and the natural growth of flora."
+Plaga,Deft,2,"Encompasses affliction, poison, plagues, and the infliction of suffering."
+Research,Savvy,1,The ability to systematically investigate and gather information.
 Resist,Uncanny,2,"Fortifies defenses against various forms of harm, providing exceptional resilience and endurance."
+Rime,Savvy,2,"Controls cold, ice, and frost, bringing chills and freezing environments."
+Sangui,Dangerous,2,Of blood that flows.
+Shoot,Dangerous,1,"Proficiency in using ranged weapons, such as firearms or bows."
+Skrimisiology,Savvy,1,"The study of non-humanoid creatures and species, including their strengths, weaknesses, and behavior."
+Squall,Deft,2,"Commands winds, air, and the skies, summoning gusts and atmospheric forces."
+Stealth,Deft,1,The ability to move quietly and unseen.
+Streetwise,Savvy,1,Practical knowledge and experience of urban life and its challenges.
+Strike,Dangerous,1,Skill in delivering effective blows in combat.
+Survival,Savvy,1,The ability to endure and thrive in harsh or wilderness environments.
+Tactics,Deft,1,The art of planning and executing strategies in various situations.
+Tellus,Steady,2,"Manipulates earth, stone, and plants, shaping the natural and solid world."
+Tempest,Dangerous,2,"Unleashes lightning, thunder, and the storm."
 Tempor,Uncanny,2,"Time as a single, limitless entity."
+Theology,Savvy,1,"The study of gods, religions, and spritual practices past and present, granting insight into their doctrines and impact."
+Throw,Dangerous,1,Proficiency in accurately throwing objects or weapons.
+Torrent,Savvy,2,"Wields water and rain, directing and forming aquatic flows."
+Tumble,Deft,1,"Skill in acrobatics and performing rolls, flips, and other agile movements."
 Vivus,Uncanny,2,"Governs life, restoration, and healing, mending wounds and revitalizing the living."

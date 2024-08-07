@@ -1063,7 +1063,7 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you are in a Rage and suffer 2+ Hits from a melee attack, increase you Rage Aura by +1."
+                "When you are in a Rage and suffer 2+ Hits from a melee attack, Increase your Rage Aura by +1."
             ]
         },
         {
@@ -1146,13 +1146,156 @@
         },
         {
             "tree": "Blade Weaver",
-            "name": "",
+            "name": "Dance of Nevieshara",
             "type": "Ability",
-            "rank": null,
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Bladeweave Aura to Strike up to X targets in your Current Zone.", "On 3+ Hits in the Strike result set, you gain an additional Shift this turn and may Shift to Move ignoring Hazards."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Dance of Orometh",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>", "Spend 1 Bladeweave Aura to enter a Defensive Stance. You may maintain this stance until you use a different Shift.", "While you maintain this Stance, you may use a Shift to rolle Strike to gain Armor Defese X, where equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Dance of Tahliiathar",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Bladeweave Aura and use a Savvy Skill, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Dance of T'rissinidia",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Bladeweave Aura and use a Deft Skill, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Weave the Blades",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Atyamaica",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use the Strike Skill."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Sirillamai",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you have Bladeweave Aura 1+ and score 4+ Hits with the Strike Skill, increase your Bladeweave Aura by +1."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Mai'edraith",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you have Bladeweave Aura 1+ and use the Recover Action, increase your Bladeweave Aura by +2."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Tahl Naite",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you have Bladeweave Aura 1+ and score 0 Hits with an Action, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Strike (4)",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
                 ""
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Quar ath Tel",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You may reroll 1s in Strike result sets using Savvy Trait points."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Quar ath Curu",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You may reroll 1s in Strike result sets using Deft Trait points."
+            ]
+        },
+        {
+            "tree": "Blade Weaver",
+            "name": "Quar ath Rua",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You may reroll 1s in Strike result sets using Steady Trait points."
             ]
         },
         {
@@ -1401,12 +1544,12 @@
         {
             "tree": "Channeler",
             "name": "Channeling",
-            "type": "Ability",
+            "type": "Static",
             "rank": "1",
             "requires": "Recoil",
             "replaces": null,
             "effect": [
-                "Your Affinity for these forces all you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.",
+                "Your Affinity for these forces allow you to use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that channel their power.",
                 "When you gain this Talent, select 2 Effect Skills from the list below to be your Affinities:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>",
                 "At the beginning of each Waypoint, your Current is 0."
             ]
@@ -1419,7 +1562,29 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "If a Technique you use has a 1 in the result set, all targets within your Current Zone sustain Hits from the Techniques's effect equal to its lowest Threshold."
+                "When you use a Technique and roll a 1 in the result set, all targets within your Current Zone sustain Hits from the Techniques's effect equal to its lowest Threshold."
+            ]
+        },
+        {
+            "tree": "Channeler",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Channeler",
+            "name": "Affinity (1)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 1 (d6)."
             ]
         },
         {
@@ -2030,7 +2195,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Recover, regain +2 Defenses."
+                "When you Recover, recover +2 Defenses."
             ]
         },
         {
@@ -2129,7 +2294,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Recover, regain +2 Defenses."
+                "When you Recover, recover +2 Defenses."
             ]
         },
         {
@@ -2499,7 +2664,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Recover to regain Nerve, regain and additional +2 Bonus Hits."
+                "When you Recover to recover Nerve, regain and additional +2 Bonus Hits."
             ]
         },
         {
@@ -2917,6 +3082,17 @@
             ]
         },
         {
+            "tree": "Elementalist",
+            "name": "Dangerous Trait Increase",
+            "type": "Ability",
+            "rank": "",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Dangerous Trait rating by +1."
+            ]
+        },
+        {
             "tree": "Engineer",
             "name": "Tinkering",
             "type": "",
@@ -3177,7 +3353,7 @@
             "requires": "The Cycle's Drain",
             "replaces": null,
             "effect": [
-                "When you gain this Talent, increase you Vivus Rank to 2 (d8).",
+                "When you gain this Talent, Increase your Vivus Rank to 2 (d8).",
                 "You can use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that call on the Vivus Skill."
             ]
         },
@@ -3233,7 +3409,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Survival Rank to 3 (d10)."
+                "Increase your Survival Rank to 3 (d10)."
             ]
         },
         {
@@ -3513,13 +3689,211 @@
         },
         {
             "tree": "Juggernaut",
-            "name": "",
+            "name": "Unstoppable Force",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use Exert to gain Unstoppable Aura X, where X is equal to Hits in the result set.  While this Aura persists, you cannot be Restrained and you may use a Shift to Move to an Adjacent Zone, causing X targets in that Zone to become Prone."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Immovable Object",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Endure to gain Immovable Aura X, where X is equal to Hits in the result set.  While this Aura persists, you gain Restrained X and cannot be moved by other effects."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Groundbreaker",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Roll Martial Arts or Strike as X to slam the ground, where X is equal to Hits in the result set.", "If X is 1+, create X Hazards in your Current Zone and X targets in your Current Zone become Prone.", "If X is 3+, create up to X Hazards in your Current and/or Adjacent Zones and up to X targets your Current and/or Adjacent Zone become Prone."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Titan's Stance",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Immovable Object",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>", "Spend 1 Immovable Aura to enter a Defensive Stance.  You may maintain this Stance until you use a different Shift.", "While you maintain this Stance, you gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by you."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Crash Through",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Unstoppable Force",
+            "replaces": null,
+            "effect": [
+                "When you have an Unstoppable Aura 1+ and roll a 1 on a 1+ Hazard Dice, increase your Unstoppable Aura by +1."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Force to be Reckoned With",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain an Immovable or Unstoppable Aura, add +1d4 Bonus Hits to the Aura."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover while your have an Immovable or Unstoppable Aura 1+, regain +2 Grit."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Beyond Death's Reach",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, you may reduce Dying Rating by -1 instead of recovering Defense or regaining Grit."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Impossible to Kill",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Grit by +3."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Just Won't Die",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You do not die until your Dying rating is 7 or greater."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Uncanny Resilience",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "The Recover Action has the Resist Keyword."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Uncanny Endurance",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "The Endure Skill has the Resist Keyword."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Resist (1)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Resist Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Resist (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Resist Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Resist (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Resist Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Resist (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Resist Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Endure (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Exert (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Exert Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Juggernaut",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -3924,7 +4298,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>"
             ]
         },
         {
@@ -4179,8 +4553,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
-                "You assume a Defensive Stance, reducing all Hits from using your Martial Arts by -1.",
-                "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
+                "You assume a Defensive Stance.  You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.", "While you maintain this Stance, reduce all Hits from using your Martial Arts by -1."
             ]
         },
         {
@@ -4192,8 +4565,8 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive Stance</span></h4>",
-                "You assume an Aggressive Stance, adding +1 Bonus Hits when using your Martial Arts.",
-                "You can maintain this stance until you use a different Shift and as long as your Reflexes are above 0."
+                "You assume an Aggressive Stance, You may maintain this Stance until you use a different Shift and as long as your Reflexes are above 0.",
+                "While you maintain this Stance, add +1 Bonus Hits when using your Martial Arts."
             ]
         },
         {
@@ -4248,7 +4621,7 @@
             "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
-                "When you are in a Defensive Stance and take 4+ Hits in melee combat from an attacker you can see, reduce the total hits by 1."
+                "When you are in a Defensive Stance and take 4+ Hits in melee combat from an attacker you can see, reduce the total hits by -1."
             ]
         },
         {
@@ -5648,7 +6021,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Recover, regain +2 Defenses."
+                "When you Recover, recover +2 Defenses."
             ]
         },
         {
@@ -7014,7 +7387,7 @@
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
                 "Position yourself in your Current Zone to assume a Defensive Stance.",
-                "You can maintain this stance until you use a different Shift as long as your Reflexes are above 0."
+                "You may maintain this stance until you use a different Shift as long as your Reflexes are above 0."
             ]
         },
         {
@@ -7196,13 +7569,135 @@
         },
         {
             "tree": "Summoner",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Locus (1)",
+            "type": "Static",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Locus Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Bring Forth the Willing",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Locus to bring a target to your Current Zone.  On 2+ Hits if the target is willing, they immediately appear in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Locus (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Locus (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Reach Through Worlds",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Initiate a Contest with a sentient target whose current location in the Cosm is known to you."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Convey the Loathed",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Reach Through Worlds",
+            "replaces": null,
+            "effect": [
+                "When you Reach Through Worlds and are the Victor of the Contest, use Locus to summon the target to yoru Current Zone.  The target gains Aura X, where X is equal to Hits in the result set.  While this Aura persists, remains in the current Scene.",
+                "You gain Fatigued 2."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Transpose Matter",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Locus to alter the physical matter in your Current or an Adjacent Zone by X, where X is euqla ot Hits in the result set.  Choose one (1):<ul><li>Create X Hazards in your Current and/or Adjacent Zones.</li><li>Remove X Hazards in your Current and/or Adjacent Zones.</li></ul>",
+                "You gain Fatigued 1."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Bring Down the Star",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Roll Locus as X to target a celestial body from a different world in the Cosm.",
+                "On 1 Hit, the target appears your Current Zone for X rounds creating Hazard 3.  All targets in the celestial body's Zone gain Blind 4 and suffer X Hits each round.",
+                "On 3+ Hits, target you Current or an Adjacent Zone.  The celestial body appears in targeted Zone for X rounds, creating Hazard 2 in the targeted and all Ajdacent Zones.  All targets in the celestial body's Zone gain Blind 1 and suffer X Hits each round.",
+                "On 5+ Hits, target you Current or an Adjacent Zone.  The celestial body appears in targeted Zone for X rounds, creating Hazard 4 in the targeted and all Ajdacent Zones.  All targets in the targeted and all Adjacent Zones gain Blind 4 and suffer X Hits each round.",
+                "You gain Stunned X."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Locus (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Call the Behemoth",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Reach Through Worlds",
+            "replaces": null,
+            "effect": [
+                "When you Reach Through Worlds and are the Victor of the Contest with an atrocity from worlds beyond, use Locus to summon the target to yoru Current Zone.  The target gains Aura X, where X is equal to Hits in the result set.  While this Aura persists, remains in the current Scene.",
+                "If X is 4+, the target is friendly to you.",
+                "You gain Fatigued 3."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Translocate Matter",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Roll Locus as X to bring forth matter from a distant location in the Cosm known by you.",
+                "On 1 Hit, the matter appears your Current Zone for X rounds creating Hazard 1 and all targets in the Zone become Prone.",
+                "On 3+ Hits, the matter appears in your Current or an Adjacent Zone for X rounds creating Hazard 1 and all targets in the Zone become Prone.",
+                "On 5+ Hits, the matter appears in you Current or an Adjacent Zone creating Hazard 2 and all targets in the Zone become Prone and gain Restrained X.",
+                "You gain Stunned X."
             ]
         },
         {
@@ -7268,7 +7763,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Grit by 3."
+                "Increase your Grit by +3."
             ]
         },
         {
@@ -7290,7 +7785,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use the Recover action."
+                "Use the Recover Action."
             ]
         },
         {
@@ -7323,7 +7818,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Recover, regain 2 Grit."
+                "When you Recover, regain +2 Grit."
             ]
         },
         {
@@ -8219,7 +8714,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -8230,7 +8725,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -8345,15 +8840,147 @@
         },
         {
             "tree": "Traveler",
-            "name": "",
+            "name": "Map the Cosm",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Navigate to learn the pathways through the Cosm.  You gain Gateway Aura X, where X is equal to Hits in the result set."
             ]
         },
+        {
+            "tree": "Traveler",
+            "name": "Walk the Pathways",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Gateway Aura.  You and up to X targets in your Current Zone move to a different location in the Cosm with which you are familiar."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Discover the Pathway",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you have never visited.", "On 1 Hit, you and up to X targets in your Current Zone arrive at a random location in the targeted world.  You gain Stunned 4.", "On 3 Hits, you and X targets arrive at a safe location in the targeted world.  You gain Restrained 2.", "On 5+ Hits, you and X targets arrive at a safe location in the targeted world.  You create X Advantages in your Current Zone in the targetd world, where X is euqal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Step Through",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Gateway Aura to Move up to X Zones Adjacent to your Current Zone ignoring Hazards."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Know the Pathways",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Map the Cosm",
+            "replaces": null,
+            "effect": [
+                "When you Map the Cosm, add +1d4 Bonus Hits to the resuilt set."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Ooh, Piece of Candy!",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Step Through, you may roll Locus to leave a gateway open for others to use until the beginning of your next turn.", "On 1+ Hits, the gateway is open.",  "On 2+ Hits, the gateway is open to your allies."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Anywhere But Here",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from a target in your Current Zone, you may spend Gateway Aura X.  If you do, you immediately Move to an Adjacent Zone ignoring Hazards and reduce the Hits suffered by X."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Locus (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Locus (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Locus (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Locus (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Locus Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Traverse the Loci",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You ignore Hazards when you use a Shift to Move."
+            ]
+        },        
         {
             "tree": "Troubadour",
             "name": "Practiced Trouper",
@@ -8474,7 +9101,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -8901,13 +9528,169 @@
         },
         {
             "tree": "Zenith",
-            "name": "",
+            "name": "Elemental Confluence",
             "type": "Ability",
-            "rank": null,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Roll 2 of your Affinities as X and Y, where X and Y are equal to Hits in the respective result sets.",
+                "You gain 2 additional Actions this turn, gain Current X for Techniques of the Affinity rolled for X, and gain Current Y for Techniques of the Affinity rolled for Y.",
+                "At the end of your turn, your Current is 0, you gain Stunned X + Y, and your Dying Rating increases by +1."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Elemental Avatar",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Roll one of your Affinities as to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, you gain Armor Defense equal to you Current and gain +1 Current from any Technique you use."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Zenith's Boon",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Current and roll one of your Affinities as X, where X is equal to hits in the result set.  Up to X target add +2 Bonus Hits to the result set of their next Action."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Echo of the Elements",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use this turn.  You may choose different targets for the copy.", "You gain Fatigued 2."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Zenith's Haste",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Current and 2 Momentum to gain an Additional Action this turn.  You gain Fatigued 1."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Roil of Currents",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Technique and score 6+ Hits, you may immediately use a different Technique.  If you do, you gain Stunned X, where X is equal to Hits in the additional Technique's result set."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Aid of the Elements",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Technique and score 4+ Hits, create 1 Advantage in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Elemntal Flourishing",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from Recoil, increase your Current by +1."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Bolster the Current",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Recover, you may spend 2 Momentum to gain X Current, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Convergent Channels",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose 1 Effect Skill Affinity from the list below as a new Affinity:<br><em>Inferno, Lux, Nox, Rime, Squall, Tellus, Tempest, Torrent</em>"
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Affinity (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Affinity (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Affinity (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Zenith",
+            "name": "Affinity (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase one of your Affinity Ranks to 4 (d12)."
             ]
         },
         {
@@ -8918,7 +9701,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8929,7 +9712,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8940,7 +9723,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8951,7 +9734,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8962,7 +9745,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8973,7 +9756,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8984,7 +9767,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -8995,7 +9778,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -9006,7 +9789,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -9297,7 +10080,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -9308,7 +10091,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -9319,7 +10102,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9330,7 +10113,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9341,7 +10124,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9352,7 +10135,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9473,7 +10256,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Dangerous Trait rating by +1."
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -9484,7 +10267,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9495,7 +10278,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9506,7 +10289,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9517,7 +10300,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9528,7 +10311,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9539,7 +10322,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Deft Trait rating by +1."
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -9550,7 +10333,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9561,7 +10344,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9572,7 +10355,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9583,7 +10366,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9594,7 +10377,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9605,7 +10388,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you  Trait rating by +1."
+                "Increase your  Trait rating by +1."
             ]
         },
         {
@@ -9616,7 +10399,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9650,7 +10433,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9771,7 +10554,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9782,7 +10565,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9793,7 +10576,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9804,7 +10587,18 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Savvy Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Summoner",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -9815,7 +10609,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9826,7 +10620,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9837,7 +10631,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9848,7 +10642,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9859,7 +10653,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9870,7 +10664,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9881,7 +10675,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9892,7 +10686,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Steady Trait rating by +1."
+                "Increase your Steady Trait rating by +1."
             ]
         },
         {
@@ -9903,7 +10697,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9914,7 +10708,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9925,7 +10719,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9936,7 +10730,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9947,7 +10741,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9958,7 +10752,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9969,7 +10763,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {
@@ -9980,7 +10774,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase you Uncanny Trait rating by +1."
+                "Increase your Uncanny Trait rating by +1."
             ]
         },
         {

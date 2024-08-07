@@ -5,7 +5,7 @@
               "skill": "Aether",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Aether effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Aether effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -61,7 +61,7 @@
               "skill": "Arithm",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Arithm effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Arithm effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "x+1",
@@ -131,7 +131,7 @@
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
-              "effect": "When you score 0 Hits with a Bellor effect, add +2 Hits to the result."
+              "effect": "When you score 0 Hits with a Bellor effect, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -173,7 +173,7 @@
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
-              "effect": "When you Craft an Epic and score 0 Hits, add +2 Hits to the result set."
+              "effect": "When you Craft an Epic and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -187,7 +187,7 @@
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
-              "effect": "When you Craft to restore Gear Ratings and score 0 Hits, add +2 Hits to the result set."
+              "effect": "When you Craft to restore Gear Ratings and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -215,7 +215,7 @@
               "skill": "Craft",
               "type": "",
               "rank": null,
-              "effect": "When you Craft to create Concoctions and score 0 Hits, add +2 Hits to the result set."
+              "effect": "When you Craft to create Concoctions and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -257,7 +257,7 @@
               "skill": "Destroy",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Destroy effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Destroy effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -383,7 +383,7 @@
               "skill": "Inferno",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Inferno effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Inferno effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "Cleansing",
@@ -425,7 +425,7 @@
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Intuit effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Intuit effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -438,8 +438,8 @@
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you Perceive and score 0 Hits, add +1d4 Bonus Hits to the result set."
+              "rank": 1,
+              "effect": "When you use Analyze, Insight, Investigate, Perceive, or Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -452,84 +452,56 @@
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you use your Insight and score 0 Hits, add +1d4 Bonus Hits to the result set."
+              "rank": 3,
+              "effect": "When you use Insight or Persuade and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you Analyze and score 0 Hits, add +1d4 Bonus Hits to the result set."
-            },
-            {
-              "name": "",
-              "skill": "Intuit",
-              "type": "Trigger",
-              "rank": null,
-              "effect": "When you Investigate and score 0 Hits, add +1d4 Bonus Hits to the result set."
-            },
-            {
-              "name": "",
-              "skill": "Intuit",
-              "type": "Trigger",
-              "rank": null,
-              "effect": "When you Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set."
-            },
-            {
-              "name": "",
-              "skill": "Intuit",
-              "type": "Trigger",
-              "rank": null,
-              "effect": "When you Persuade a target and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
-            },
-            {
-              "name": "",
-              "skill": "Intuit",
-              "type": "Trigger",
-              "rank": null,
-              "effect": "When you Pererceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
+              "rank": 3,
+              "effect": "When you use Analyze or Pererceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you use an Locus effect and score 0 Hits, add +2 Hits to the result."
+              "rank": 1,
+              "effect": "When you use a Locus effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you use an Locus effect, score +1 Bonus Hits."
+              "rank": 4,
+              "effect": "When you use a Locus effect, score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to target any Zone up to 2 Adjacencies from your Current Zone."
+              "rank": 2,
+              "effect": "When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to target any Zone up to 2 Adjacencies from your Current Zone instead."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": null,
+              "rank": 2,
               "effect": "When you take an Action that targets something in an Adjacent Zone, you may spend 2 Momentum to add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Locus",
               "type": "Trigger",
-              "rank": null,
+              "rank": 3,
               "effect": "When you Shift to Move to an Adjacent Zone, you may spend 3 Momentum to immediately use another Shift."
             },
             {
@@ -537,7 +509,7 @@
               "skill": "Luck",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Luck effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Luck effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -550,49 +522,49 @@
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
-              "effect": "When you use an Action and score 0 Hits, you may spend 4 Momentum and reroll the result set."
+              "rank": 3,
+              "effect": "When you use an Action and score 0 Hits, you may spend 2 Momentum and reroll the result set."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
+              "rank": 2,
               "effect": "When you use a Savvy skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you use a Deft skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
+              "rank": 3,
               "effect": "When you use a Maneuver and fail, you may reroll the Maneuver, keeping the second result."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you use an action and roll a 1 in the result set, you may spend a Trait Point to reroll the entire result set instead of only the 1."
             },
             {
               "name": "",
               "skill": "Luck",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set."
             },
             {
@@ -614,7 +586,7 @@
               "skill": "Lux",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Lux effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Lux effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "Blinding",
@@ -705,7 +677,7 @@
               "skill": "Mentis",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Mentis effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Mentis effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -761,7 +733,7 @@
               "skill": "Mori",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Mori effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Mori effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "Death Monger",
@@ -831,7 +803,7 @@
               "skill": "Nihil",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Nihil effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Nihil effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -901,7 +873,7 @@
               "skill": "Nox",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use a Nox effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Nox effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
@@ -922,14 +894,14 @@
               "skill": "Phylla",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Phylla effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Phylla effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
               "skill": "Phylla",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Phylla effect, score +1 Bonus Hits."
+              "effect": "When you use a Phylla effect, score +1 Bonus Hits."
             },
             {
               "name": "",
@@ -972,27 +944,69 @@
               "type": "Trigger",
               "rank": null,
               "effect": null
+            },
+            {
+              "name": "",
+              "skill": "Resist",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you use a Resist effect and score 0 Hits, add +2 Bonus Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Resist",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you use a Resist effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Resist",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you use the Recover Action and score 3+ Hits, you may reduce one Status by -1."
+            },
+            {
+              "name": "",
+              "skill": "Resist",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result."
+            },
+            {
+              "name": "",
+              "skill": "Resist",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When you suffer 4+ Hits from an effect, reduce the total Hits by -1."
+            },
+            {
+              "name": "",
+              "skill": "Resist",
+              "type": "Trigger",
+              "rank": null,
+              "effect": "When have the Wounded Status, you may use the Recover Action to reduce your Wounded rating by -1 instead of recovering Defenses or regaining Grit."
             },
             {
               "name": "",
               "skill": "Rime",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Rime effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Rime effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
               "skill": "Rime",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Rime effect, score +1 Bonus Hits."
+              "effect": "When you use a Rime effect, score +1 Bonus Hits."
             },
             {
               "name": "",
               "skill": "Rime",
               "type": "Trigger",
               "rank": null,
-              "effect": null
+              "effect": "When you use a Rime effect and score 3+ Hits, you may have the target gain Frozen 2."
             },
             {
               "name": "",
@@ -1034,14 +1048,14 @@
               "skill": "Sangui",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Sangui effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Sangui effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Sangui effect, score +1 Bonus Hits."
+              "effect": "When you use a Sangui effect, score +1 Bonus Hits."
             },
             {
               "name": "",
@@ -1083,14 +1097,14 @@
               "skill": "Squall",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Squall effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Squall effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
               "skill": "Squall",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Squall effect, score +1 Bonus Hits."
+              "effect": "When you use a Squall effect, score +1 Bonus Hits."
             },
             {
               "name": "",
@@ -1139,14 +1153,14 @@
               "skill": "Tellus",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Tellus effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Tellus effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "Overwhelming",
               "skill": "Tellus",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Tellus effect, score +1 Bonus Hits."
+              "effect": "When you use a Tellus effect, score +1 Bonus Hits."
             },
             {
               "name": "Metamorphic",
@@ -1181,28 +1195,28 @@
               "skill": "Tellus",
               "type": "Trigger",
               "rank": 3,
-              "effect": "When you score 3+ Hits with an Tellus effect, you may remove 1 Hazard in the effect's Zone."
+              "effect": "When you score 3+ Hits with a Tellus effect, you may remove 1 Hazard in the effect's Zone."
             },
             {
               "name": "Obstructive",
               "skill": "Tellus",
               "type": "Trigger",
               "rank": 2,
-              "effect":  "When you score 4+ Hits with an Tellus effect, you may create +1 Hazard in the effect's Zone."
+              "effect":  "When you score 4+ Hits with a Tellus effect, you may create +1 Hazard in the effect's Zone."
             },
             {
               "name": "Inescapable",
               "skill": "Tempest",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Tempest effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Tempest effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "Raging",
               "skill": "Tempest",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Tempest effect, score +1 Bonus Hits."
+              "effect": "When you use a Tempest effect, score +1 Bonus Hits."
             },
             {
               "name": "Startling",
@@ -1248,24 +1262,66 @@
             },
             {
               "name": "",
-              "skill": "Tempest",
+              "skill": "Tempor",
               "type": "Trigger",
-              "rank": null,
-              "effect": null
+              "rank": 1,
+              "effect": "When you use a Tempor effect and score 3+ Hits, you may reduce one of your Statuses by -1."
+            },
+            {
+              "name": "",
+              "skill": "Tempor",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tempor effect and score 3+ Hits, you may have one target gain Slowed 1."
+            },
+            {
+              "name": "",
+              "skill": "Tempor",
+              "type": "Trigger",
+              "rank": 4,
+              "effect": "When you use a Tempor effect, score +1 Bonus Hits."
+            },
+            {
+              "name": "",
+              "skill": "Tempor",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use a Tempor effect and score 0 Hits, add +2 Bonus Hits to the result."
+            },
+            {
+              "name": "",
+              "skill": "Tempor",
+              "type": "Trigger",
+              "rank": 3,
+              "effect": "When you use a Tempor effect and score 3+ Hits, you may increase the current Timer by +1."
+            },
+            {
+              "name": "",
+              "skill": "Tempor",
+              "type": "Trigger",
+              "rank": 2,
+              "effect": "When you use a Tempor effect and score 3+ Hits, you may take an addition Shift this turn."
+            },
+            {
+              "name": "",
+              "skill": "Tempor",
+              "type": "Trigger",
+              "rank": 1,
+              "effect": "When you use a Tempor effect and score 3+ Hits, your team maintains the Initiative even if there is a 1 in your result set."
             },
             {
               "name": "",
               "skill": "Torrent",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Torrent effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use a Torrent effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
               "skill": "Torrent",
               "type": "Trigger",
               "rank": 4,
-              "effect": "When you use an Torrent effect, score +1 Bonus Hits."
+              "effect": "When you use a Torrent effect, score +1 Bonus Hits."
             },
             {
               "name": "",
@@ -1307,7 +1363,7 @@
               "skill": "Vivus",
               "type": "Trigger",
               "rank": 2,
-              "effect": "When you use an Vivus effect and score 0 Hits, add +2 Hits to the result."
+              "effect": "When you use an Vivus effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
               "name": "",
