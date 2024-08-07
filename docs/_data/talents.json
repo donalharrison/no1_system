@@ -1248,10 +1248,10 @@
             "name": "Strike (4)",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Strike 3",
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Strike Rank to 4 (d12)."
             ]
         },
         {
@@ -1262,7 +1262,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Increase your Dangerous Trait rating by +1."
             ]
         },
         {
@@ -10388,7 +10388,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your  Trait rating by +1."
+                "Increase your Savvy Trait rating by +1."
             ]
         },
         {
@@ -11060,7 +11060,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your  Rank to 1 (d6)."
+                "Increase your Current Events Rank to 1 (d6)."
             ]
         },
         {
