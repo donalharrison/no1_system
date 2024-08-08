@@ -1,7 +1,7 @@
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_assassin" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_assassin" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Assassin</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -35,10 +35,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_heretic" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_heretic" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Heretic</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -70,10 +70,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_berserker" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_berserker" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Berserker</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -177,10 +177,82 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_conduit" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_blade weaver" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Blade Weaver</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Weave the Blades</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_blade weaver_weave_the_blades" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Weave the Blades
+    --Effect|Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set.
+    --Rank| d@{skill_composure}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Composure
+                        </button>
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Weave the Blades
+    --Effect|Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set.
+    --Rank| d@{skill_focus}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_focus}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Focus
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Atyamaica</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use the Strike Skill.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_blade weaver_atyamaica" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Atyamaica
+    --Effect|Use the Strike Skill.
+    --Rank| d@{skill_strike}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_strike}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Strike
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_conduit" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Conduit</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -209,10 +281,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_defender" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_defender" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Defender</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -240,10 +312,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_detective" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_detective" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Detective</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -286,10 +358,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_druid" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_druid" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Druid</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -318,10 +389,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_elementalist" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_elementalist" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Elementalist</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -349,10 +420,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_hunter" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_hunter" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Hunter</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -422,10 +493,45 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_knight" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_juggernaut" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Juggernaut</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Titan's Stance</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        <h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive
+                                Stance</span></h4><br>Spend 1 Immovable Aura to enter a Defensive Stance. You may
+                        maintain this Stance until you use a different Shift.<br>While you maintain this Stance, you
+                        gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by
+                        you.<br>
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_juggernaut_titans_stance" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Titan's Stance
+        --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>Spend 1 Immovable Aura to enter a Defensive Stance.  You may maintain this Stance until you use a different Shift.<br>While you maintain this Stance, you gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by you.<br>
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_knight" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Knight</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -476,10 +582,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_marksman" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_marksman" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Marksman</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -539,10 +645,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_martial artist" step="1" value="0"
-        min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_martial artist" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Martial Artist</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -573,8 +679,10 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        You assume a Defensive Stance, reducing all Hits from using your Martial Arts by -1.<br>You can
-                        maintain this stance until you use a different Shift as long as your Reflexes are above 0.<br>
+                        <h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive
+                                Stance</span></h4><br>You assume a Defensive Stance. You may maintain this stance until
+                        you use a different Shift as long as your Reflexes are above 0.<br>While you maintain this
+                        Stance, reduce all Hits from using your Martial Arts by -1.<br>
                     </details>
                 </div>
                 <div>
@@ -582,7 +690,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
     --name|@{character_name} - Back Stance
-    --Effect|You assume a Defensive Stance, reducing all Hits from using your Martial Arts by -1.^^You can maintain this stance until you use a different Shift as long as your Reflexes are above 0.^^
+    --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance//**^^^^You assume a Defensive Stance.  You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.^^While you maintain this Stance, reduce all Hits from using your Martial Arts by -1.^^
     --Rank| d@{skill_martial_arts}
     --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
     --Hits|[^talent.ss]
@@ -600,9 +708,10 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        You assume an Aggressive Stance, adding +1 Bonus Hits when using your Martial Arts.<br>You can
-                        maintain this stance until you use a different Shift and as long as your Reflexes are above
-                        0.<br>
+                        <h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive
+                                Stance</span></h4><br>You assume an Aggressive Stance, You may maintain this Stance
+                        until you use a different Shift and as long as your Reflexes are above 0.<br>While you maintain
+                        this Stance, add +1 Bonus Hits when using your Martial Arts.<br>
                     </details>
                 </div>
                 <div>
@@ -610,7 +719,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
     --name|@{character_name} - Front Stance
-    --Effect|You assume an Aggressive Stance, adding +1 Bonus Hits when using your Martial Arts.^^You can maintain this stance until you use a different Shift and as long as your Reflexes are above 0.^^
+    --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive Stance//**^^^^You assume an Aggressive Stance, You may maintain this Stance until you use a different Shift and as long as your Reflexes are above 0.^^While you maintain this Stance, add +1 Bonus Hits when using your Martial Arts.^^
     --Rank| d@{skill_martial_arts}
     --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
     --Hits|[^talent.ss]
@@ -625,10 +734,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_templar" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_templar" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Templar</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -705,10 +814,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_overseer" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_overseer" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Overseer</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -824,10 +933,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_necromancer" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_necromancer" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Necromancer</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -918,10 +1027,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_beastmaster" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_beastmaster" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Beastmaster</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1005,10 +1114,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_probabilist" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_probabilist" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Probabilist</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1053,10 +1162,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_nexus" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_nexus" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Nexus</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1084,10 +1192,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_pugilist" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_pugilist" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Pugilist</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1115,10 +1223,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_ranger" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_ranger" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Ranger</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1152,10 +1260,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scrapper" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scrapper" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Scrapper</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1183,10 +1291,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_seer" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_seer" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Seer</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1214,10 +1321,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shaman" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shaman" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Shaman</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1246,10 +1353,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shugenja" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_shugenja" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Shugenja</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1278,21 +1385,22 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_sniper" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_sniper" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Sniper</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
                 <div>Overwatch</div>
-                <div>Rank None</div>
+                <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        <h4 style='margin:3px'>Defensive Stance</h4><br>Position yourself in your Current Zone to assume
-                        a Defensive Stance.<br>You can maintain this stance until you use a different Shift as long as
-                        your Reflexes are above 0.<br>
+                        <h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive
+                                Stance</span></h4><br>Position yourself in your Current Zone to assume a Defensive
+                        Stance.<br>You may maintain this stance until you use a different Shift as long as your Reflexes
+                        are above 0.<br>
                     </details>
                 </div>
                 <div>
@@ -1300,7 +1408,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
         --name|@{character_name} - Overwatch
-        --Effect|<h4 style='margin:3px'>Defensive Stance</h4><br>Position yourself in your Current Zone to assume a Defensive Stance.<br>You can maintain this stance until you use a different Shift as long as your Reflexes are above 0.<br>
+        --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>Position yourself in your Current Zone to assume a Defensive Stance.<br>You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.<br>
         --format|shiftcheck
         }}">
                             Roll
@@ -1311,10 +1419,10 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_soldier" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_soldier" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Soldier</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1373,27 +1481,27 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_tank" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
-        <h4 class="grid-talents-label" style="margin-bottom:4px;">Tank</h4>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_summoner" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Summoner</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Walk it off</div>
-                <div>Rank 3</div>
+                <div>Reach Through Worlds</div>
+                <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Use the Recover action.
+                        Initiate a Contest with a sentient target whose current location in the Cosm is known to you.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="attr_talent_tank_i_can_take_it" />
+                    <input type="checkbox" name="attr_talent_summoner_locus_3" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
-        --name|@{character_name} - Walk it off
-        --Effect|Use the Recover action.
+        --name|@{character_name} - Reach Through Worlds
+        --Effect|Initiate a Contest with a sentient target whose current location in the Cosm is known to you.
         --format|shiftcheck
         }}">
                             Roll
@@ -1404,10 +1512,39 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scout" step="1" value="0" min="0"
-        max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_tank" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Tank</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Walk it off</div>
+                <div>Rank 3</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use the Recover Action.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_tank_i_can_take_it" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Walk it off
+        --Effect|Use the Recover Action.
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_scout" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Scout</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1433,6 +1570,322 @@
     --format|shiftcheck
     }}">
                             Survival
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_traveler" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Traveler</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Walk the Pathways</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Spend X Gateway Aura. You and up to X targets in your Current Zone move to a different location
+                        in the Cosm with which you are familiar.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_transmuter_study_the_forms" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Walk the Pathways
+        --Effect|Spend X Gateway Aura.  You and up to X targets in your Current Zone move to a different location in the Cosm with which you are familiar.
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Discover the Pathway</div>
+                <div>Rank 3</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you
+                        have never visited.<br>On 1 Hit, you and up to X targets in your Current Zone arrive at a random
+                        location in the targeted world. You gain Stunned 4.<br>On 3 Hits, you and X targets arrive at a
+                        safe location in the targeted world. You gain Restrained 2.<br>On 5+ Hits, you and X targets
+                        arrive at a safe location in the targeted world. You create X Advantages in your Current Zone in
+                        the targetd world, where X is euqal to Hits in the result set.<br>
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_traveler_map_the_cosm" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Discover the Pathway
+    --Effect|Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you have never visited.^^On 1 Hit, you and up to X targets in your Current Zone arrive at a random location in the targeted world.  You gain Stunned 4.^^On 3 Hits, you and X targets arrive at a safe location in the targeted world.  You gain Restrained 2.^^On 5+ Hits, you and X targets arrive at a safe location in the targeted world.  You create X Advantages in your Current Zone in the targetd world, where X is euqal to Hits in the result set.^^
+    --Rank| d@{skill_locus}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_locus}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Locus
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Step Through</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Spend X Gateway Aura to Move up to X Zones Adjacent to your Current Zone ignoring Hazards.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_traveler_walk_the_pathways" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Step Through
+        --Effect|Spend X Gateway Aura to Move up to X Zones Adjacent to your Current Zone ignoring Hazards.
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_zenith" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Zenith</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Echo of the Elements</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use
+                        this turn. You may choose different targets for the copy.<br>You gain Fatigued 2.<br>
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_zenith_elemental_confluence" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Echo of the Elements
+        --Effect|Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use this turn.  You may choose different targets for the copy.<br>You gain Fatigued 2.<br>
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Zenith's Haste</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Spend 2 Current and 2 Momentum to gain an Additional Action this turn. You gain Fatigued 1.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_zenith_elemental_avatar" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Zenith's Haste
+        --Effect|Spend 2 Current and 2 Momentum to gain an Additional Action this turn.  You gain Fatigued 1.
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_slayer" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Slayer</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Marked for Death</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your
+                        result set. Your target is Vulnerable 1 to any Action you take against it while the Aura
+                        persists.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_scout_deft_trait_increase" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Marked for Death
+    --Effect|Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.
+    --Rank| d@{skill_tactics}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Tactics
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Targeted for Execution</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Write a Target to slay a specific NPC.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_ranger_deft_trait_increase" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+        --name|@{character_name} - Targeted for Execution
+        --Effect|Write a Target to slay a specific NPC.
+        --format|shiftcheck
+        }}">
+                            Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Predator's Focus</div>
+                <div>Rank 3</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Focus on a target you have Targeted for Execution, gaining Aura X, where X is equal to Hits in
+                        the result set. While this Aura persists, you are Provoked by your target and can reduce the
+                        Aura by -1 to reroll 1s in any of your result sets.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_slayer_adrenaline_rush" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Predator's Focus
+    --Effect|Focus on a target you have Targeted for Execution, gaining Aura X, where X is equal to Hits in the result set.  While this Aura persists, you are Provoked by your target and can reduce the Aura by -1 to reroll 1s in any of your result sets.
+    --Rank| d@{skill_focus}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_focus}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Focus
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_temporalist" step="1" value="0" min="0"
+    max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Temporalist</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Phase Shift</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use Tempor and choose one target in your Current Zone. On 3+ Hits, the target disappears from
+                        the current encounter until the beginning of the next round and you gain Slowed 2.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_temporalist_phase_shift" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Phase Shift
+    --Effect|Use Tempor and **choose one target in your Current Zone.  On 3+ Hits, the target disappears from the current encounter until the beginning of the next round and you gain Slowed 2.
+    --Rank| d@{skill_tempor}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Speedy Recovery</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use Tempor and decrease the current Timer by -1. All targets in your Current Zone reduce all
+                        statuses by X, where X is equal to Hits in the result set.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_temporalist_speedy_recovery" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Speedy Recovery
+    --Effect|Use Tempor and decrease the current Timer by -1.  All targets in your Current Zone reduce all statuses by X, where X is equal to Hits in the result set.
+    --Rank| d@{skill_tempor}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Make the Time</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Use Tempor to gain Stunned X, where X is equal to Hits in the result set. Set the current Timer
+                        to X.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="attr_talent_temporalist_make_the_time" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+    --name|@{character_name} - Make the Time
+    --Effect|Use Tempor to gain Stunned X, where X is equal to Hits in the result set.  Set the current Timer to X.
+    --Rank| d@{skill_tempor}
+    --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^talent.ss]
+    --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">
+                            Tempor
                         </button>
                     </div>
                 </div>

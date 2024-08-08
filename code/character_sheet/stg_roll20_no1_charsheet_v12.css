@@ -8,8 +8,9 @@ span {
     margin-bottom: 0px;
 }
 
-textarea {
+.charsheet textarea {
     vertical-align: top;
+    
 }
 
 h1,
