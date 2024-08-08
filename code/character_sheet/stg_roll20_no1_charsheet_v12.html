@@ -1685,8 +1685,8 @@
                 max="20" /></div>
     </div>
     <div class="grid-item grid-e">
-        Initiative
-        <div class="grid-item grid-e1">
+        <div class="grid-item grid-e1">Initiative</div>
+        <div class="grid-item grid-e2">
             <button class="txt-btn" name="init_test_comp" type="roll" value="!power {{
                 --name|@{character_name} - Initiative Test - Composure
                 --Result Set|[[ [$init|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target} ]]
@@ -1697,7 +1697,7 @@
                 Composure
             </button>
         </div>
-        <div class="grid-item grid-e2">
+        <div class="grid-item grid-e3">
             <button class="txt-btn" name="init_test_tac" type="roll" value="!power {{
                 --name|@{character_name} - Initiative Test - Tactics
                 --Result Set|[[ [$init|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target} ]]
@@ -1762,17 +1762,25 @@
         <div class="grid-item grid-h6">
             Aura
         </div>
-        <div class="grid-item grid-h7"><input type="number" name="attr_ongoing" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-h7">
+            Dying
+            <img
+                src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/status_dying.png?raw=True"
+                alt="Dying Icon" , width="75" , height="75">
         </div>
-        <div class="grid-item grid-h8"><input type="number" name="attr_hidden" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-h8"><input type="number" name="attr_ongoing" step="1" value="0" min="0" max="20" />
         </div>
-        <div class="grid-item grid-h9"><input type="number" name="attr_disguised" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-h9"><input type="number" name="attr_hidden" step="1" value="0" min="0" max="20" />
         </div>
-        <div class="grid-item grid-h10"><input type="number" name="attr_aura1" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-h10"><input type="number" name="attr_disguised" step="1" value="0" min="0" max="20" />
         </div>
-        <div class="grid-item grid-h11"><input type="number" name="attr_aura2" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-h11"><input type="number" name="attr_aura1" step="1" value="0" min="0" max="20" />
         </div>
-        <div class="grid-item grid-h12"><input type="number" name="attr_aura3" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-h12"><input type="number" name="attr_aura2" step="1" value="0" min="0" max="20" />
+        </div>
+        <div class="grid-item grid-h13"><input type="number" name="attr_aura3" step="1" value="0" min="0" max="20" />
+        </div>
+        <div class="grid-item grid-h14"><input type="number" name="attr_dying" step="1" value="0" min="0" max="20" />
         </div>
     </div>
     <div class="grid-item grid-i">
@@ -2012,7 +2020,7 @@
             <div class="grid-item">
                 <strong>Thesis</strong>
                 <div class="grid-container">
-                    <textarea name="attr_thesis" rows=3 cols=50></textarea>
+                    <textarea class="input-area-short" name="attr_thesis" rows=3 cols=50></textarea>
                 </div>
             </div>
             <div class="grid-item">
@@ -14220,14 +14228,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_1_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_1_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_1_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_1_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_1_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14238,14 +14246,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_2_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_2_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_2_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_2_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_2_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14256,14 +14264,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_3_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_3_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_3_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_3_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_3_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14274,14 +14282,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_4_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_4_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_4_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_4_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_4_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14292,14 +14300,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_5_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_5_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_5_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_5_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_5_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14310,14 +14318,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_6_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_6_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_6_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_6_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_6_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14328,14 +14336,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_7_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_7_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_7_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_7_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_7_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14346,14 +14354,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_8_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_8_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_8_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_8_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_8_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14364,14 +14372,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_9_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_9_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Duration: <input name="attr_target_9_dur" class="trait-input" type="number"></label>
+                            <label>Duration: <input class="input-area-short" name="attr_target_9_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_9_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_9_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14382,14 +14390,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_10_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_10_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_10_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_10_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_10_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14401,14 +14409,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_11_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_11_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_11_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_11_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_11_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14420,14 +14428,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_12_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_12_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_12_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_12_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_12_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14439,14 +14447,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_13_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_13_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_13_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_13_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_13_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14458,14 +14466,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_14_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_14_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_14_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_14_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_14_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
@@ -14477,14 +14485,14 @@
                 <div class="grid-container">
                     <div class="grid-item grid-targets">
                         <div class="grid-item-targets">
-                            <label>Description: <textarea name="attr_target_15_desc" rows="2"
+                            <label>Description: <textarea class="input-area-short" name="attr_target_15_desc" rows="2"
                                     cols="50"></textarea></label>
                         </div>
                         <div class="grid-item-targets">
                             <label>Duration: <input name="attr_target_15_dur" class="trait-input" type="number"></label>
                         </div>
                         <div class="grid-item-targets">
-                            <label>Consequences: </label><textarea name="attr_target_15_cons" rows="2"
+                            <label>Consequences: </label><textarea class="input-area-short" name="attr_target_15_cons" rows="2"
                                 cols="50"></textarea>
                         </div>
                         <div class="grid-item-targets">
