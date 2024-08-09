@@ -421,46 +421,46 @@
               "effect": "When you use an Inferno effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Sharpened",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use an Intuit effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Prescient",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use an Intuit effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Astute",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use Analyze, Insight, Investigate, Perceive, or Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Keen",
               "skill": "Intuit",
               "type": "Trigger",
-              "rank": null,
-              "effect": null
+              "rank": 1,
+              "effect": "When you use a Savvy Skill and score 5+ Hits, you gain an additional Shift this turn."
             },
             {
-              "name": "",
+              "name": "Discerning",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 3,
               "effect": "When you use Insight or Persuade and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Sharpened",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 3,
-              "effect": "When you use Analyze or Pererceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
+              "effect": "When you use Analyze or Perceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -505,74 +505,67 @@
               "effect": "When you Shift to Move to an Adjacent Zone, you may spend 3 Momentum to immediately use another Shift."
             },
             {
-              "name": "",
+              "name": "Serendipitous",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Luck effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Lucky",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Luck effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Fortuitous",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 3,
               "effect": "When you use an Action and score 0 Hits, you may spend 2 Momentum and reroll the result set."
             },
             {
-              "name": "",
+              "name": "Favorable",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result."
             },
             {
-              "name": "",
+              "name": "Auspicious",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Savvy skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Opportune",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Deft skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Providential",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 3,
               "effect": "When you use a Maneuver and fail, you may reroll the Maneuver, keeping the second result."
             },
             {
-              "name": "",
+              "name": "Charmed",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use an action and roll a 1 in the result set, you may spend a Trait Point to reroll the entire result set instead of only the 1."
             },
             {
-              "name": "",
+              "name": "Fortunate",
               "skill": "Luck",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set."
-            },
-            {
-              "name": "",
-              "skill": "Luck",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
             },
             {
               "name": "Illuminating",

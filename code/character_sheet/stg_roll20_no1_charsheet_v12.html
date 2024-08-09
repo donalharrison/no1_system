@@ -1650,183 +1650,276 @@
     </div>
 </div>
 
-<div class="banner-wrapper">
-    <div class="grid-item grid-b">
-        <div class="grid-item grid-b1"><img
-                src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/perspective-dice-one.png?raw=True"
-                alt="No1 Logo" , width="100" , height="100"></div>
-        <div class="grid-item grid-b2">Name </div>
-        <div class="grid-item grid-b3"><input input name="attr_character_name" type="text" size="5" /></div>
-    </div>
-    <div class="grid-item grid-c">
-        <div class="grid-item grid-c1">Grit</div>
-        <div class="grid-item grid-c2">Current</div>
-        <div class="grid-item grid-c3">Max</div>
-        <div class="grid-item grid-c4"><input type="number" name="attr_grit" step="1" value="0" min="0" max="20" />
+<div class="charsheet">
+    <div class="banner-wrapper">
+        <div class="grid-item grid-b">
+            <div class="grid-item grid-b1"><img
+                    src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/perspective-dice-one.png?raw=True"
+                    alt="No1 Logo" , width="50" , height="50"></div>
+            <div class="grid-item grid-b2">Name </div>
+            <div class="grid-item grid-b3"><input input name="attr_character_name" type="text" size="5" /></div>
         </div>
-        <div class="grid-item grid-c5"><input type="number" name="attr_max_grit" step="1" value="0" min="0" max="20"
-                readonly /></div>
-    </div>
-    <div class="grid-item grid-d">
-        <div class="grid-item grid-d1">Dangerous</div>
-        <div class="grid-item grid-d2">Deft</div>
-        <div class="grid-item grid-d3">Savvy</div>
-        <div class="grid-item grid-d4">Steady</div>
-        <div class="grid-item grid-d5">Uncanny</div>
-        <div class="grid-item grid-d6"><input type="number" name="attr_trait_dangerous" step="1" value="0" min="0"
-                max="20" /></div>
-        <div class="grid-item grid-d7"><input type="number" name="attr_trait_deft" step="1" value="0" min="0"
-                max="20" /></div>
-        <div class="grid-item grid-d8"><input type="number" name="attr_trait_savvy" step="1" value="0" min="0"
-                max="20" /></div>
-        <div class="grid-item grid-d9"><input type="number" name="attr_trait_steady" step="1" value="0" min="0"
-                max="20" /></div>
-        <div class="grid-item grid-d10"><input type="number" name="attr_trait_uncanny" step="1" value="0" min="0"
-                max="20" /></div>
-    </div>
-    <div class="grid-item grid-e">
-        <div class="grid-item grid-e1">Initiative</div>
-        <div class="grid-item grid-e2">
-            <button class="txt-btn" name="init_test_comp" type="roll" value="!power {{
-                --name|@{character_name} - Initiative Test - Composure
-                --Result Set|[[ [$init|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target} ]]
-                --Hits|[^init.ss]
-                --1s|[^init.ones]
-                --format|initcheck
-                }}">
-                Composure
-            </button>
+        <div class="grid-item grid-c">
+            <div class="grid-item grid-c1">Grit</div>
+            <div class="grid-item grid-c2">Current</div>
+            <div class="grid-item grid-c3">Max</div>
+            <div class="grid-item grid-c4"><input type="number" name="attr_grit" step="1" value="0" min="0" max="20" />
+            </div>
+            <div class="grid-item grid-c5"><input type="number" name="attr_max_grit" step="1" value="0" min="0" max="20"
+                    readonly /></div>
         </div>
-        <div class="grid-item grid-e3">
-            <button class="txt-btn" name="init_test_tac" type="roll" value="!power {{
-                --name|@{character_name} - Initiative Test - Tactics
-                --Result Set|[[ [$init|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target} ]]
-                --Hits|[^init.ss]
-                --1s|[^init.ones]
-                --format|initcheck
-                }}">
-                Tactics
-            </button>
+        <div class="grid-item grid-d">
+            <div class="grid-item grid-d1">Dangerous</div>
+            <div class="grid-item grid-d2">Deft</div>
+            <div class="grid-item grid-d3">Savvy</div>
+            <div class="grid-item grid-d4">Steady</div>
+            <div class="grid-item grid-d5">Uncanny</div>
+            <div class="grid-item grid-d6"><input type="number" name="attr_trait_dangerous" step="1" value="0" min="0"
+                    max="20" /></div>
+            <div class="grid-item grid-d7"><input type="number" name="attr_trait_deft" step="1" value="0" min="0"
+                    max="20" /></div>
+            <div class="grid-item grid-d8"><input type="number" name="attr_trait_savvy" step="1" value="0" min="0"
+                    max="20" /></div>
+            <div class="grid-item grid-d9"><input type="number" name="attr_trait_steady" step="1" value="0" min="0"
+                    max="20" /></div>
+            <div class="grid-item grid-d10"><input type="number" name="attr_trait_uncanny" step="1" value="0" min="0"
+                    max="20" /></div>
         </div>
-    </div>
-    <div class="grid-item grid-f">
-        <div class="grid-item grid-f1">
+        <div class="grid-item grid-e">
+            <div class="grid-item grid-e1">Initiative</div>
+            <div class="grid-item grid-e2">
+                <button class="txt-btn" name="init_test_comp" type="roll" value="!power {{
+                  --name|@{character_name} - Initiative Test - Composure
+                  --Result Set|[[ [$init|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target} ]]
+                  --Hits|[^init.ss]
+                  --1s|[^init.ones]
+                  --format|initcheck
+                  }}">
+                    Composure
+                </button>
+            </div>
+            <div class="grid-item grid-e3">
+                <button class="txt-btn" name="init_test_tac" type="roll" value="!power {{
+                  --name|@{character_name} - Initiative Test - Tactics
+                  --Result Set|[[ [$init|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target} ]]
+                  --Hits|[^init.ss]
+                  --1s|[^init.ones]
+                  --format|initcheck
+                  }}">
+                    Tactics
+                </button>
+            </div>
+        </div>
+        <div class="grid-item grid-f">
             <input type="hidden" name="attr_def_primary" value="None" />
-            Nerve <input type="number" name="attr_def_nerve" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-f2">
+            <div class="grid-item grid-f1">
+                Nerve
+                <div class="grid-item grid-f5"><input type="number" name="attr_def_nerve" step="1" value="0" min="0" max="20" /></div>
+            </div>
             <input type="hidden" name="attr_def_primary" value="None" />
-            Reflexes <input type="number" name="attr_def_reflexes" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-f3">
+            <div class="grid-item grid-f2">
+                Reflexes
+                <div class="grid-item grid-f6"><input type="number" name="attr_def_reflexes" step="1" value="0" min="0" max="20" /></div>
+            </div>
             <input type="hidden" name="attr_def_primary" value="None" />
-            Vigor <input type="number" name="attr_def_vigor" step="1" value="0" min="0" max="20" />
+            <div class="grid-item grid-f3">
+                Vigor
+                <div class="grid-item grid-f7"><input type="number" name="attr_def_vigor" step="1" value="0" min="0" max="20" /></div>
+            </div>
+            <div class="grid-item grid-f4">
+                Armor
+                <div class="grid-item grid-f8"><input type="number" name="attr_def_armor" step="1" value="0" min="0" max="20" /></div>
+            </div>
         </div>
-        <div class="grid-item grid-f4">
-            Armor <input type="number" name="attr_def_armor" step="1" value="0" min="0" max="20" />
+        <div class="grid-item grid-g">Rerolls
+            <div class="grid-item grid-g1">
+                <button class="txt-btn" name="reroll_1d4" type="roll" value="/roll 1d4>3">d4</button>
+            </div>
+            <div class="grid-item grid-g2">
+                <button class="txt-btn" name="reroll_1d6" type="roll" value="/roll 1d6>3">d6</button>
+            </div>
+            <div class="grid-item grid-g3">
+                <button class="txt-btn" name="reroll_1d8" type="roll" value="/roll 1d8>3">d8</button>
+            </div>
+            <div class="grid-item grid-g4">
+                <button class="txt-btn" name="reroll_1d10" type="roll" value="/roll 1d10>3">d10</button>
+            </div>
+            <div class="grid-item grid-g5">
+                <button class="txt-btn" name="reroll_1d12" type="roll" value="/roll 1d12>3">d12</button>
+            </div>
         </div>
-    </div>
-    <div class="grid-item grid-g">Rerolls
-        <div class="grid-item grid-g1">
-            <button class="txt-btn" name="reroll_1d4" type="roll" value="/roll 1d4>3">d4</button>
+        <div class="grid-item grid-h">
+            <div class="grid-item grid-h1">
+                Ongoing
+            </div>
+            <div class="grid-item grid-h2">
+                Hidden
+            </div>
+            <div class="grid-item grid-h3">
+                Disguised
+            </div>
+            <div class="grid-item grid-h4">
+                Aura
+            </div>
+            <div class="grid-item grid-h5">
+                Aura
+            </div>
+            <div class="grid-item grid-h6">
+                Aura
+            </div>
+            <div class="grid-item grid-h7">
+                Dying
+                <img src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/status_dying.png?raw=True"
+                    alt="Dying Icon" , width="15" , height="15">
+                    <div class="grid-item grid-h14"><input type="number" name="attr_dying" step="1" value="0" min="0" max="20" /></div>
+            </div>
+            <div class="grid-item grid-h8"><input type="number" name="attr_ongoing" step="1" value="0" min="0"
+                    max="20" />
+            </div>
+            <div class="grid-item grid-h9"><input type="number" name="attr_hidden" step="1" value="0" min="0"
+                    max="20" />
+            </div>
+            <div class="grid-item grid-h10"><input type="number" name="attr_disguised" step="1" value="0" min="0"
+                    max="20" />
+            </div>
+            <div class="grid-item grid-h11"><input type="number" name="attr_aura1" step="1" value="0" min="0"
+                    max="20" />
+            </div>
+            <div class="grid-item grid-h12"><input type="number" name="attr_aura2" step="1" value="0" min="0"
+                    max="20" />
+            </div>
+            <div class="grid-item grid-h13"><input type="number" name="attr_aura3" step="1" value="0" min="0"
+                    max="20" />
+            </div>
         </div>
-        <div class="grid-item grid-g2">
-            <button class="txt-btn" name="reroll_1d6" type="roll" value="/roll 1d6>3">d6</button>
+        <div class="grid-container grid-i">
+            <div class="grid-item grid-i1">Bonus Hits
+                <div class="grid-item grid-i4">
+                    <button class="txt-btn" name="roll_1dBH" type="roll" value="!power {{
+                  --name|@{character_name} - Hazard Roll
+                  --Result Set|[[ [$bhits|XPND] 1d4]]
+                  --Hits|[^bhits]
+                  --format|bhitscheck
+                  }}">+1d4</button>
+                    <button class="txt-btn" name="roll_1dBH" type="roll" value="!power {{
+                  --name|@{character_name} - Hazard Roll
+                  --Result Set|[[ [$bhits|XPND] 1d6]]
+                  --Hits|[^bhits]
+                  --format|bhitscheck
+                  }}">+1d6</button>
+                </div>
+            </div>
+            <div class="grid-item grid-i3">Hazard
+                <div class="grid-item grid-i6">
+                    <button class="txt-btn" name="roll_1dH" type="roll" value="!power {{
+                  --name|@{character_name} - Hazard Roll
+                  --Result Set|[[ [$hazard|XPND] 1d4>4]]
+                  --Hits|[^hazard.ss]
+                  --1s|[^hazard.ones]
+                  --format|hazardcheck
+                  }}">1dH</button>
+                    <button class="txt-btn" name="roll_2dH" type="roll" value="!power {{
+                  --name|@{character_name} - Hazard Roll
+                  --Result Set|[[ [$hazard|XPND] 2d4>4]]
+                  --Hits|[^hazard.ss]
+                  --1s|[^hazard.ones]
+                  --format|hazardcheck
+                  }}">2dH</button>
+                    <button class="txt-btn" name="roll_3dH" type="roll" value="!power {{
+                  --name|@{character_name} - Hazard Roll
+                  --Result Set|[[ [$hazard|XPND] 3d4>4]]
+                  --Hits|[^hazard.ss]
+                  --1s|[^hazard.ones]
+                  --format|hazardcheck
+                  }}">3dH</button>
+                </div>
+            </div>
         </div>
-        <div class="grid-item grid-g3">
-            <button class="txt-btn" name="reroll_1d8" type="roll" value="/roll 1d8>3">d8</button>
-        </div>
-        <div class="grid-item grid-g4">
-            <button name="reroll_1d10" type="roll" value="/roll 1d10>3">d10</button>
-        </div>
-        <div class="grid-item grid-g5">
-            <button class="txt-btn" name="reroll_1d12" type="roll" value="/roll 1d12>3">d12</button>
-        </div>
-    </div>
-    <div class="grid-item grid-h">
-        <div class="grid-item grid-h1">
-            Ongoing
-        </div>
-        <div class="grid-item grid-h2">
-            Hidden
-        </div>
-        <div class="grid-item grid-h3">
-            Disguised
-        </div>
-        <div class="grid-item grid-h4">
-            Aura
-        </div>
-        <div class="grid-item grid-h5">
-            Aura
-        </div>
-        <div class="grid-item grid-h6">
-            Aura
-        </div>
-        <div class="grid-item grid-h7">
-            Dying
-            <img src="https://raw.githubusercontent.com/donalharrison/no1_system/site-testing/docs/assets/img/status_dying.png?raw=True"
-                alt="Dying Icon" , width="75" , height="75">
-        </div>
-        <div class="grid-item grid-h8"><input type="number" name="attr_ongoing" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-h9"><input type="number" name="attr_hidden" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-h10"><input type="number" name="attr_disguised" step="1" value="0" min="0"
-                max="20" />
-        </div>
-        <div class="grid-item grid-h11"><input type="number" name="attr_aura1" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-h12"><input type="number" name="attr_aura2" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-h13"><input type="number" name="attr_aura3" step="1" value="0" min="0" max="20" />
-        </div>
-        <div class="grid-item grid-h14"><input type="number" name="attr_dying" step="1" value="0" min="0" max="20" />
-        </div>
-    </div>
-    <div class="grid-item grid-i">
-        <div class="grid-item grid-i1">Bonus Hits</div>
-        <div class="grid-item grid-i2"></div>
-        <div class="grid-item grid-i3">Hazard</div>
-        <div class="grid-item grid-i4">
-            <button class="txt-btn" name="roll_1dBH" type="roll" value="!power {{
-                --name|@{character_name} - Hazard Roll
-                --Result Set|[[ [$bhits|XPND] 1d4]]
-                --Hits|[^bhits]
-                --format|bhitscheck
-                }}">+1d4</button>
-            <button class="txt-btn" name="roll_1dBH" type="roll" value="!power {{
-                --name|@{character_name} - Hazard Roll
-                --Result Set|[[ [$bhits|XPND] 1d6]]
-                --Hits|[^bhits]
-                --format|bhitscheck
-                }}">+1d6</button>
-        </div>
-        <div class="grid-item grid-i5"></div>
-        <div class="grid-item grid-i6">
-            <button class="txt-btn" name="roll_1dH" type="roll" value="!power {{
-                --name|@{character_name} - Hazard Roll
-                --Result Set|[[ [$hazard|XPND] 1d4>4]]
-                --Hits|[^hazard.ss]
-                --1s|[^hazard.ones]
-                --format|hazardcheck
-                }}">1dH</button>
-            <button class="txt-btn" name="roll_2dH" type="roll" value="!power {{
-                --name|@{character_name} - Hazard Roll
-                --Result Set|[[ [$hazard|XPND] 2d4>4]]
-                --Hits|[^hazard.ss]
-                --1s|[^hazard.ones]
-                --format|hazardcheck
-                }}">2dH</button>
-            <button class="txt-btn" name="roll_3dH" type="roll" value="!power {{
-                --name|@{character_name} - Hazard Roll
-                --Result Set|[[ [$hazard|XPND] 3d4>4]]
-                --Hits|[^hazard.ss]
-                --1s|[^hazard.ones]
-                --format|hazardcheck
-                }}">3dH</button>
+        <div class="grid-item grid-j">
+            <details>
+                <summary>&#10010; Statuses</summary>
+                <div class="grid-container grid-j-items">
+                    <div class="grid-item">
+                        Blind
+                        <input name="attr_status_blind" class="trait-input" type="number" value="0" step="1" min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Charmed
+                        <input name="attr_status_charmed" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Confused
+                        <input name="attr_status_confused" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Dazed
+                        <input name="attr_status_dazed" class="trait-input" type="number" value="0" step="1" min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Fatigued
+                        <input name="attr_status_fatigued" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Frozen
+                        <input name="attr_status_frozen" class="trait-input" type="number" value="0" step="1" min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Grappled
+                        <input name="attr_status_grappled" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Prone
+                        <input name="attr_status_prone" class="trait-input" type="number" value="0" step="1" min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Provoked
+                        <input name="attr_status_provoked" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Restrained
+                        <input name="attr_status_restrained" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Silenced
+                        <input name="attr_status_silenced" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Slowed
+                        <input name="attr_status_slowed" class="trait-input" type="number" value="0" step="1" min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Stunned
+                        <input name="attr_status_stunned" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Unconscious
+                        <input name="attr_status_unconscious" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Vulnerable
+                        <input name="attr_status_vulnerable" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                    <div class="grid-item">
+                        Wounded
+                        <input name="attr_status_wounded" class="trait-input" type="number" value="0" step="1"
+                            min="1" />
+                    </div>
+                </div>
+            </details>
         </div>
     </div>
 </div>
+
 
 
 <input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab" value="character" />
@@ -2051,7 +2144,8 @@
                                 <option>Mentor</option>
                                 <option>Outcast</option>
                                 <option>Paragon</option>
-                                <option>Passimistic</option>
+                                <option>Pessimistic</option>
+                                <option>Playful</option>
                                 <option>Pragmatic</option>
                                 <option>Protector</option>
                                 <option>Reserved</option>
@@ -2082,7 +2176,8 @@
                                 <option>Mentor</option>
                                 <option>Outcast</option>
                                 <option>Paragon</option>
-                                <option>Passimistic</option>
+                                <option>Pessimistic</option>
+                                <option>Playful</option>
                                 <option>Pragmatic</option>
                                 <option>Protector</option>
                                 <option>Reserved</option>
@@ -2402,7 +2497,7 @@
           --format|skillcheck
           }}">Martial Arts</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_martial_arts" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_martial_arts"
                                     value="6"><span class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_martial_arts"
@@ -2483,7 +2578,7 @@
             --format|skillcheck
             }}">Implements</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_implements" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_implements"
                                     value="6"><span class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_implements"
@@ -2640,7 +2735,7 @@
             --format|skillcheck
             }}">Cosmology</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_cosmology" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_cosmology" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_cosmology" value="8"><span
@@ -2659,7 +2754,7 @@
             --format|skillcheck
             }}">Current Events</button>
                                 <input type="radio" class="skill-rank-input" name="attr_current_events" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_current_events" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_current_events" value="8"><span
@@ -2716,7 +2811,7 @@
             --format|skillcheck
             }}">Linguistics</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_linguistics" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_linguistics"
                                     value="6"><span class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_linguistics"
@@ -2754,7 +2849,7 @@
           --format|skillcheck
           }}">Navigate</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_navigate" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_navigate" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_navigate" value="8"><span
@@ -2773,7 +2868,7 @@
           --format|skillcheck
           }}">Persuade</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_persuade" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_persuade" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_persuade" value="8"><span
@@ -2792,7 +2887,7 @@
           --format|skillcheck
           }}">Research</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_research" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_research" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_research" value="8"><span
@@ -2811,7 +2906,7 @@
           --format|skillcheck
           }}">Skrimisiology</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_skrimisiology" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_skrimisiology"
                                     value="6"><span class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_skrimisiology"
@@ -2830,7 +2925,7 @@
           --format|skillcheck
           }}">Streetwise</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_streetwise" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_streetwise"
                                     value="6"><span class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_streetwise"
@@ -2849,7 +2944,7 @@
           --format|skillcheck
           }}">Survival</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_survival" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_survival" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_survival" value="8"><span
@@ -2868,7 +2963,7 @@
           --format|skillcheck
           }}">Theology</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_theology" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_theology" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_theology" value="8"><span
@@ -2892,7 +2987,7 @@
           --format|skillcheck
           }}">Composure</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_composure" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_composure" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_composure" value="8"><span
@@ -2949,7 +3044,7 @@
           --format|skillcheck
           }}">Investigate</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_investigate" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_investigate"
                                     value="6"><span class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_investigate"
@@ -2988,7 +3083,7 @@
           --format|skillcheck
           }}">Perceive</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_perceive" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_perceive" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_perceive" value="8"><span
@@ -3221,7 +3316,7 @@
             --format|skillcheck
             }}">Medicine</button>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_medicine" value="4"
-                                    checked hidden><span class="checkmark" checked></span>
+                                    checked><span class="checkmark" checked></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_medicine" value="6"><span
                                     class="checkmark"></span>
                                 <input type="radio" class="skill-rank-input" name="attr_skill_medicine" value="8"><span
@@ -32445,6 +32540,7 @@
                         <option>Ordi</option>
                         <option>Rime</option>
                         <option>Squall</option>
+                        <option>Tellus</option>
                         <option>Tempest</option>
                         <option>Torrent</option>
                         <option>Vivus</option>

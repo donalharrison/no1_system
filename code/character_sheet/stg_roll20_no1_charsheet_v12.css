@@ -8,9 +8,10 @@ span {
     margin-bottom: 0px;
 }
 
-.charsheet textarea {
+.charsheet textarea.input-area-short {
     vertical-align: top;
-    
+    width: 400px;
+    height: 35px;
 }
 
 h1,
@@ -115,11 +116,11 @@ label {
 }
 
 /*.charsheet .sheet-character*/
-.charsheet .sheet-training-ranks[value="0"]~.sheet-training-talents {
+.charsheet .sheet-training-ranks[value="0"]+.sheet-training-talents {
     display: none;
 }
 
-.charsheet .sheet-training-ranks~.sheet-training-talents {
+.charsheet .sheet-training-ranks+.sheet-training-talents {
     display: block;
 }
 
@@ -187,9 +188,12 @@ input[type=checkbox]:checked~.grid-container-concoction {
     display: grid;
 }
 
-.charsheet input[value="Nerve"],
-.charsheet input[value="Reflexes"],
-.charsheet input[value="Vigor"] {
+.charsheet input[value="Nerve"]+.grid-f1,
+.charsheet input[value="Nerve"]+.grid-f5,
+.charsheet input[value="Reflexes"]+.grid-f2,
+.charsheet input[value="Reflexes"]+.grid-f6,
+.charsheet input[value="Vigor"]+.grid-f3,
+.charsheet input[value="Vigor"]+.grid-f7 {
     background-color: #6962a6;
 }
 
@@ -210,7 +214,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .skill-rank-input {
     margin-left: 0.005em;
     margin-right: 0.005em;
-  }
+}
 
 .charsheet button[type="roll"].txt-btn:before {
     content: ' ';
@@ -231,10 +235,16 @@ input[type=checkbox]:checked~.grid-container-concoction {
     border-style: solid 1px #37344f;
     background-color: #4e4877;
     color: #f2f2f2;
-    margin: 1em;
+    margin: 0.15em;
     font-weight: normal;
-    padding: 1em;
+    padding: 0.30em;
     font-size: 13pt;
+}
+
+.charsheet button[type="action"].txt-btn:hover {
+    background-color: #75b0f3;
+    color: #2c2a37;
+    /* border-radius: 3px; */
 }
 
 .trait-header {
@@ -245,12 +255,6 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .trait-input {
     width: 30px;
     height: 30px;
-}
-
-.charsheet button[type="action"].txt-btn:hover {
-    background-color: #75b0f3;
-    color: #2c2a37;
-    /* border-radius: 3px; */
 }
 
 .charsheet button[type="roll"].txt-btn:hover {
@@ -275,25 +279,25 @@ input[type=checkbox]:checked~.grid-container-concoction {
     padding: 5px;
     width: auto;
     grid-template-columns: auto auto;
-  }
-  
-  .grid-3col {
+}
+
+.grid-3col {
     display: grid;
     background-color: #2c2a37;
     grid-gap: 5px;
     padding: 5px;
     width: auto;
     grid-template-columns: auto auto auto;
-  }
+}
 
-  .grid-6col {
+.grid-6col {
     display: grid;
     background-color: #2c2a37;
     grid-gap: 5px;
     padding: 5px;
     width: auto;
     grid-template-columns: repeat(6, [col] auto);
-  }
+}
 
 .grid-cosm-header {
     grid-column: 1;
@@ -328,6 +332,14 @@ input[type=checkbox]:checked~.grid-container-concoction {
     background-color: #2c2a37;
 }
 
+.banner-wrapper .grid-item>button[type="roll"] {
+    padding: 2px 10px;
+}
+
+.banner-wrapper .grid-e .grid-item>button[type="roll"] {
+    margin: 0px 6px 0px 6px;
+}
+
 .grid-item {
     background-color: #37344f;
     color: #f2f2f2;
@@ -352,7 +364,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-columns: 2fr 1fr 4fr;
 }
 
 .grid-b1 {
@@ -378,7 +390,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
     text-align: center;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
 }
 
 .grid-c1 {
@@ -421,7 +433,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-d {
-    grid-column: 4 / span 2;
+    grid-column: 4 / span 3;
     grid-row: 1 / span 1;
     display: grid;
     text-align: center;
@@ -480,30 +492,31 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-e {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     display: grid;
     text-align: center;
-    align-items: center;
+    justify-content: center;
 }
 
 .grid-e1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
+    text-align: center;
 }
 
 .grid-e2 {
-    grid-column: 2 / span 1;
+    grid-column: 1 / span 1;
     grid-row: 2 / span 1;
 }
 
 .grid-e3 {
-    grid-column: 3 / span 1;
+    grid-column: 2 / span 1;
     grid-row: 2 / span 1;
 }
 
 .grid-f {
-    grid-column: 3 / span 2;
+    grid-column: 2 / span 2;
     grid-row: 2 / span 1;
     display: grid;
 }
@@ -533,8 +546,33 @@ input[type=checkbox]:checked~.grid-container-concoction {
     background-color: #555555ce;
 }
 
+.grid-f5{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    text-align: center;
+}
+
+.grid-f6 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    text-align: center;
+}
+
+.grid-f7 {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    text-align: center;
+}
+
+.grid-f8 {
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+    text-align: center;
+    background-color: #555555ce;
+}
+
 .grid-g {
-    grid-column: 5 / span 1;
+    grid-column: 4 / span 3;
     grid-row: 2 / span 1;
     display: grid;
     text-align: center;
@@ -568,7 +606,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-h {
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 3;
     grid-row: 3 / span 1;
     display: grid;
     text-align: center;
@@ -606,7 +644,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
 
 .grid-h7 {
     grid-column: 7 / span 1;
-    grid-row: 1 / span 1;
+    grid-row: 1 / span 2;
     background-color: #bd2222ce;
     font-weight: bold;
 }
@@ -644,10 +682,12 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .grid-h14 {
     grid-column: 7 / span 1;
     grid-row: 2 / span 1;
+    background-color: transparent;
+
 }
 
 .grid-i {
-    grid-column: 5 / span 2;
+    grid-column: 4 / span 3;
     grid-row: 3 / span 1;
     display: grid;
     text-align: center;
@@ -665,7 +705,7 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-i3 {
-    grid-column: 3 / span 1;
+    grid-column: 2 / span 1;
     grid-row: 1 / span 1;
 }
 
@@ -680,8 +720,22 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-i6 {
-    grid-column: 3 / span 1;
+    grid-column: 2 / span 1;
     grid-row: 2 / span 1;
+}
+
+.grid-j {
+    grid-column: 1 / span 6;
+    grid-row: 4 / span 1;
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(16, [col] auto)
+}
+
+.grid-j-items {
+    display: grid;
+    justify-content: right;
+    grid-template-columns: repeat(8, [col] auto)
 }
 
 .grid-sheet-character {
@@ -713,12 +767,12 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-trait-item {
-  background-color: #2c2a37;
-  color: #f2f2f2;
-  border-radius: 5px;
-  padding: 2px;
-  font-size: 100%;
-  text-align: center;
+    background-color: #2c2a37;
+    color: #f2f2f2;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 100%;
+    text-align: center;
 }
 
 .grid-character-grit {
@@ -753,24 +807,24 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .grid-skill-roller-action {
     display: grid;
     grid-template-columns: repeat(4, [col] auto);
-  }
-  
-  .grid-skill-roller-effect {
+}
+
+.grid-skill-roller-effect {
     display: grid;
     grid-template-columns: repeat(5, [col] auto);
-  }
-  
-  .grid-character-skill-item {
-      background-color: #37344f;
-      padding: 1px;
-      text-align: right;
-  }
-  
-  .grid-character-skill-savvy {
+}
+
+.grid-character-skill-item {
+    background-color: #37344f;
+    padding: 1px;
+    text-align: right;
+}
+
+.grid-character-skill-savvy {
     display: grid;
     grid-template-rows: 1 / span 7;
     grid-template-columns: auto auto;
-  }
+}
 
 .grid-character-skills-trait-label {
     background-color: #33303e;
@@ -845,12 +899,12 @@ input[type=checkbox]:checked~.grid-container-concoction {
     text-align: right;
     justify-self: center;
     grid-gap: 3px;
-  }
-  
-  .grid-item-targets {
+}
+
+.grid-item-targets {
     text-align: right;
-    align-content: start;
-  }
+    /* align-content: start; */
+}
 
 .grid-shifts {
     display: grid;
@@ -906,21 +960,21 @@ input[type=checkbox]:checked~.grid-container-concoction {
 }
 
 .grid-item-talents>*:nth-child(1) {
-  font-size: 12pt;
-  font-weight:bold;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 .grid-item-talents>*:nth-child(2) {
-  font-size: 8;
-  font-weight:bold;
+    font-size: 8;
+    font-weight: bold;
 }
 
 .grid-item-talents>*:nth-child(odd) {
-  text-align: left;
+    text-align: left;
 }
 
 .grid-item-talents>*:nth-child(even) {
-  text-align: right;
+    text-align: right;
 }
 
 .grid-arcana-item {
@@ -950,22 +1004,22 @@ input[type=checkbox]:checked~.grid-container-concoction {
     padding: 3px;
     width: auto;
     grid-template-columns: auto auto auto;
-  }
-  
-  .grid-item-spells {
+}
+
+.grid-item-spells {
     background-color: #33303e;
     color: #f2f2f2;
     display: grid;
     grid-template-columns: auto auto auto;
-  }
-  
-  .grid-spells-kwords {
+}
+
+.grid-spells-kwords {
     grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     font-size: 8pt;
-  }
-  
-  .grid-spells-name {
+}
+
+.grid-spells-name {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     color: #f2f2f2;
@@ -974,31 +1028,31 @@ input[type=checkbox]:checked~.grid-container-concoction {
     border-radius: 1px;
     margin: 2px;
     font-weight: bold;
-  }
-  
-  .grid-spells-ranks {
+}
+
+.grid-spells-ranks {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     text-align: right;
-  }
-  
-  .grid-spells-ranks input[type="number"] {
+}
+
+.grid-spells-ranks input[type="number"] {
     width: 25px;
-  }
-  
-  .grid-spells-btn {
+}
+
+.grid-spells-btn {
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
     font-size: 8pt;
     text-align: right;
-  }
-  
-  .grid-spells-effects {
+}
+
+.grid-spells-effects {
     grid-column: 1 / span 3;
     grid-row: 4 / span 1;
     font-size: 8pt;
-  }
-  
+}
+
 .gear-equipment-body {
     display: grid;
     grid-template-columns: auto auto;
@@ -1031,53 +1085,60 @@ input[type=checkbox]:checked~.grid-container-concoction {
     justify-self: center;
     grid-gap: 3px;
     grid-template-columns: auto auto auto;
-  }
-  
-  .grid-item-minions {
+}
+
+.grid-item-minions {
     text-align: center;
     align-content: center;
-  }
-  
-  .grid-item-minions > .grid-container {
+}
+
+.grid-item-minions>.grid-container {
     display: none;
-  }
-  
-  .grid-item-minions:has(> select option[value="stalker"]:checked) > .grid-item-stalker,
-  .grid-item-minions:has(> select option[value="ambusher"]:checked) > .grid-item-ambusher,
-  .grid-item-minions:has(> select option[value="ravager"]:checked) > .grid-item-ravager,
-  .grid-item-minions:has(> select option[value="hardy"]:checked) > .grid-item-hardy,
-  .grid-item-minions:has(> select option[value="watcher"]:checked) > .grid-item-watcher,
-  .grid-item-minions:has(> select option[value="tracker"]:checked) > .grid-item-tracker,
-  .grid-item-minions:has(> select option[value="striker"]:checked) > .grid-item-striker,
-  .grid-item-minions:has(> select option[value="charger"]:checked) > .grid-item-charger,
-  .grid-item-minions:has(> select option[value="sentry"]:checked) > .grid-item-sentry,
-  .grid-item-minions:has(> select option[value="decoy"]:checked) > .grid-item-decoy,
-  .grid-item-minions:has(> select option[value="sapper"]:checked) > .grid-item-sapper,
-  .grid-item-minions:has(> select option[value="spu ki"]:checked) > .grid-item-spu_ki,
-  .grid-item-minions:has(> select option[value="bodyguard"]:checked) > .grid-item-bodyguard,
-  .grid-item-minions:has(> select option[value="enforcer"]:checked) > .grid-item-enforcer,
-  .grid-item-minions:has(> select option[value="battler"]:checked) > .grid-item-battler,
-  .grid-item-minions:has(> select option[value="piker"]:checked) > .grid-item-piker,
-  .grid-item-minions:has(> select option[value="arcanist"]:checked) > .grid-item-arcanist,
-  .grid-item-minions:has(> select option[value="medic"]:checked) > .grid-item-medic,
-  .grid-item-minions:has(> select option[value="archer"]:checked) > .grid-item-archer,
-  .grid-item-minions:has(> select option[value="rogue"]:checked) > .grid-item-rogue,
-  .grid-item-minions:has(> select option[value="veteran"]:checked) > .grid-item-veteran,
-  .grid-item-minions:has(> select option[value="cutthroat"]:checked) > .grid-item-cutthroat,
-  .grid-item-minions:has(> select option[value="consular"]:checked) > .grid-item-consular,
-  .grid-item-minions:has(> select option[value="agent"]:checked) > .grid-item-agent {
+}
+
+.grid-item-minions:has(> select option[value="stalker"]:checked)>.grid-item-stalker,
+.grid-item-minions:has(> select option[value="ambusher"]:checked)>.grid-item-ambusher,
+.grid-item-minions:has(> select option[value="ravager"]:checked)>.grid-item-ravager,
+.grid-item-minions:has(> select option[value="hardy"]:checked)>.grid-item-hardy,
+.grid-item-minions:has(> select option[value="watcher"]:checked)>.grid-item-watcher,
+.grid-item-minions:has(> select option[value="tracker"]:checked)>.grid-item-tracker,
+.grid-item-minions:has(> select option[value="striker"]:checked)>.grid-item-striker,
+.grid-item-minions:has(> select option[value="charger"]:checked)>.grid-item-charger,
+.grid-item-minions:has(> select option[value="sentry"]:checked)>.grid-item-sentry,
+.grid-item-minions:has(> select option[value="decoy"]:checked)>.grid-item-decoy,
+.grid-item-minions:has(> select option[value="sapper"]:checked)>.grid-item-sapper,
+.grid-item-minions:has(> select option[value="spu ki"]:checked)>.grid-item-spu_ki,
+.grid-item-minions:has(> select option[value="bodyguard"]:checked)>.grid-item-bodyguard,
+.grid-item-minions:has(> select option[value="enforcer"]:checked)>.grid-item-enforcer,
+.grid-item-minions:has(> select option[value="battler"]:checked)>.grid-item-battler,
+.grid-item-minions:has(> select option[value="piker"]:checked)>.grid-item-piker,
+.grid-item-minions:has(> select option[value="arcanist"]:checked)>.grid-item-arcanist,
+.grid-item-minions:has(> select option[value="medic"]:checked)>.grid-item-medic,
+.grid-item-minions:has(> select option[value="archer"]:checked)>.grid-item-archer,
+.grid-item-minions:has(> select option[value="rogue"]:checked)>.grid-item-rogue,
+.grid-item-minions:has(> select option[value="veteran"]:checked)>.grid-item-veteran,
+.grid-item-minions:has(> select option[value="cutthroat"]:checked)>.grid-item-cutthroat,
+.grid-item-minions:has(> select option[value="consular"]:checked)>.grid-item-consular,
+.grid-item-minions:has(> select option[value="agent"]:checked)>.grid-item-agent,
+.grid-item-minions:has(> select option:checked:not([value=""]))>.grid-item-retainer {
     display: grid;
-  }
+}
+
+.grid-item-retainer {
+    text-align: left;
+    align-content: left;
+}
+
 
 .grid-journal {
     display: grid;
     grid-template-columns: auto auto;
-  }
-  
-  .grid-item.grid-journal {
+}
+
+.grid-item.grid-journal {
     grid-template-columns: 1fr 2fr;
     align-items: center;
-  }
+}
 
 .demos {
     grid-column: 1 / span 1;

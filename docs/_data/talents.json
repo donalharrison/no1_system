@@ -4120,18 +4120,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
-            ]
-        },
-        {
-            "tree": "Mage",
-            "name": "Affinity (1)",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Affinity Rank to 1 (d6)."
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>",
+                "Increase your Rank in the chosen Effect Skill by +1."
             ]
         },
         {
@@ -4298,18 +4288,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>"
-            ]
-        },
-        {
-            "tree": "Magic-User",
-            "name": "Affinity (1)",
-            "type": "Static",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Affinity Rank to 1 (d6)."
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>",
+                "Increase your Skill Rank in the chosen Effect Skill by +1."
             ]
         },
         {
@@ -4331,7 +4311,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>"
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Torrent, Vivus</em>",
+                "Increase your Skill Rank in the chosen Effect Skill by +1."
             ]
         },
         {
@@ -8913,6 +8894,28 @@
             "replaces": null,
             "effect": [
                 "When you suffer Hits from a target in your Current Zone, you may spend Gateway Aura X.  If you do, you immediately Move to an Adjacent Zone ignoring Hazards and reduce the Hits suffered by X."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Cosmic Journeyman",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Navigate or Cosmology Rank by +1."
+            ]
+        },
+        {
+            "tree": "Traveler",
+            "name": "Cosmic Wayfarer",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Navigate or Cosmology Rank by +1."
             ]
         },
         {

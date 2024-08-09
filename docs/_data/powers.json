@@ -5672,8 +5672,13 @@
             "rank": "1",
             "skill": "Aether",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -5837,8 +5842,13 @@
             "rank": "1",
             "skill": "Bellor",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -5997,8 +6007,13 @@
             "rank": "1",
             "skill": "Inferno",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -6157,8 +6172,13 @@
             "rank": "1",
             "skill": "Lux",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -6317,8 +6337,13 @@
             "rank": "1",
             "skill": "Mori",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -6477,8 +6502,13 @@
             "rank": "1",
             "skill": "Nihil",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -6637,8 +6667,13 @@
             "rank": "1",
             "skill": "Nox",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -6797,8 +6832,13 @@
             "rank": "1",
             "skill": "Ordi",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -6957,8 +6997,13 @@
             "rank": "1",
             "skill": "Phylla",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -7117,8 +7162,13 @@
             "rank": "1",
             "skill": "Rime",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -7277,8 +7327,13 @@
             "rank": "1",
             "skill": "Squall",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -7437,8 +7492,13 @@
             "rank": "1",
             "skill": "Tellus",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -7597,8 +7657,13 @@
             "rank": "1",
             "skill": "Tempest",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -7757,8 +7822,13 @@
             "rank": "1",
             "skill": "Torrent",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -7917,8 +7987,13 @@
             "rank": "1",
             "skill": "Vivus",
             "type": "Shift",
-            "effect": "Add +1d4 Bonus Hits to your next Action this turn.",
-            "threshold": null,
+            "effect": null,
+            "threshold": [
+                {
+                    "hits": 1,
+                    "effect": "Add +1d4 Bonus Hits to your next Action this turn."
+                }
+            ],
             "keywords": ""
         },
         {
@@ -9926,7 +10001,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "You Provoke all enemies in your Current or an Adjacent Zone.  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with an Action that effects one target, the target gains Stunned 1.</div>"
+                    "effect": "You Provoke all enemies in your Current or an Adjacent Zone.  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with an Action that effects one target, the target gains Stunned 1.</div>"
                 }
             ],
             "requires": null,
@@ -10095,7 +10170,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
                 }
             ],
             "requires": null,
@@ -10108,7 +10183,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
                 }
             ],
             "requires": null,
@@ -10394,7 +10469,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger:<div style='background-colo:#4b476650;'><h4 style='margin: 5px;'>Trigger</h4>When you score 2+ Hits with a combat Action that effects one target, the target gains Frozen 1.</div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with a combat Action that effects one target, the target gains Frozen 1.</div>"
                 }
             ],
             "requires": null,
@@ -10790,7 +10865,7 @@
         {
             "name": "Cyclone",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 3,
             "effect": null,
             "threshold": [
                 {
@@ -10812,7 +10887,7 @@
         {
             "name": "Damping Pulse",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 4,
             "effect": null,
             "threshold": [
                 {
@@ -10892,7 +10967,7 @@
         {
             "name": "Deathmark",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 3,
             "effect": null,
             "threshold": [
                 {
@@ -11134,7 +11209,7 @@
         {
             "name": "Gambit of the Cosm",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 3,
             "effect": "Spend 1 Momentum to roll 1d20 as X.  If X is less than the Challenge + Entropy, mark 1 Hit.  Repeat this process until X is greater than Challenge + Entropy or you choose to stop.",
             "threshold": [
                 {
@@ -11356,7 +11431,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><h4 style='margin: 3px;'>Trigger &emdash</h4> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><strong><em>Trigger &emdash</strong></em> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
             "requires": null,
@@ -11634,7 +11709,7 @@
         {
             "name": "Lightning Storm",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 3,
             "effect": null,
             "threshold": [
                 {
@@ -11865,7 +11940,7 @@
         {
             "name": "Restrain Target",
             "type": "Ability",
-            "max_ranks": null,
+            "max_ranks": 3,
             "effect": null,
             "threshold": [
                 {
@@ -11930,7 +12005,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Ongoing:<h4 style='margin: 3px;'>Trigger &mdash </h4> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
+                    "effect": "One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash </strong></em> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
                 }
             ],
             "requires": null,
@@ -12206,7 +12281,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Aura 2:<h4 style='margin: 3px;'>Trigger &mdash </h4> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
+                    "effect": "One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash </strong></em> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
                 }
             ],
             "requires": null,
@@ -12349,7 +12424,7 @@
         {
             "name": "Void Step",
             "type": "Shift",
-            "max_ranks": null,
+            "max_ranks": 2,
             "effect": null,
             "threshold": [
                 {

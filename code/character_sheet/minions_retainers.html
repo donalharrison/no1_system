@@ -1,0 +1,2726 @@
+<div class="grid-container">
+  <div class="grid-item triat-header">Retainers
+    <div class="grid-container">
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 1  &mdash;
+          <select name="attr_retainer1_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer1_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer1_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer1_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer1_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer1_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer1_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer1_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer1_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer1_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_skill1}
+                  --Rank|d@{retainer1_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer1_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer1_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_skill2}
+                  --Rank|d@{retainer1_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer1_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer1_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_skill3}
+                  --Rank|d@{retainer1_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer1_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer1_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_skill4}
+                  --Rank|d@{retainer1_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer1_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer1_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_trigger1}
+                  --Rank|d@{retainer1_rating}
+                  --Effect|@{retainer1_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer1_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_trigger2}
+                  --Rank|d@{retainer1_rating}
+                  --Effect|@{retainer1_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer1_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer1_name} - @{retainer1_trigger3}
+                  --Rank|d@{retainer1_rating}
+                  --Effect|@{retainer1_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 2  &mdash;
+          <select name="attr_retainer2_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer2_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer2_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer2_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer2_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer2_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer2_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer2_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer2_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer2_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_skill1}
+                  --Rank|d@{retainer2_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer2_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer2_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_skill2}
+                  --Rank|d@{retainer2_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer2_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer2_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_skill3}
+                  --Rank|d@{retainer2_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer2_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer2_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_skill4}
+                  --Rank|d@{retainer2_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer2_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer2_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_trigger1}
+                  --Rank|d@{retainer2_rating}
+                  --Effect|@{retainer2_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer2_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_trigger2}
+                  --Rank|d@{retainer2_rating}
+                  --Effect|@{retainer2_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer2_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer2_name} - @{retainer2_trigger3}
+                  --Rank|d@{retainer2_rating}
+                  --Effect|@{retainer2_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 3  &mdash;
+          <select name="attr_retainer3_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer3_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer3_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer3_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer3_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer3_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer3_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer3_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer3_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer3_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_skill1}
+                  --Rank|d@{retainer3_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer3_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer3_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_skill2}
+                  --Rank|d@{retainer3_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer3_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer3_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_skill3}
+                  --Rank|d@{retainer3_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer3_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer3_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_skill4}
+                  --Rank|d@{retainer3_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer3_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer3_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_trigger1}
+                  --Rank|d@{retainer3_rating}
+                  --Effect|@{retainer3_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer3_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_trigger2}
+                  --Rank|d@{retainer3_rating}
+                  --Effect|@{retainer3_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer3_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer3_name} - @{retainer3_trigger3}
+                  --Rank|d@{retainer3_rating}
+                  --Effect|@{retainer3_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 4 &mdash;
+          <select name="attr_retainer4_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer4_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer4_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer4_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer4_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer4_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer4_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer4_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer4_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer4_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_skill1}
+                  --Rank|d@{retainer4_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer4_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer4_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_skill2}
+                  --Rank|d@{retainer4_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer4_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer4_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_skill3}
+                  --Rank|d@{retainer4_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer4_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer4_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_skill4}
+                  --Rank|d@{retainer4_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer4_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer4_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_trigger1}
+                  --Rank|d@{retainer4_rating}
+                  --Effect|@{retainer4_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer4_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_trigger2}
+                  --Rank|d@{retainer4_rating}
+                  --Effect|@{retainer4_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer4_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer4_name} - @{retainer4_trigger3}
+                  --Rank|d@{retainer4_rating}
+                  --Effect|@{retainer4_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 5 &mdash;
+          <select name="attr_retainer5_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer5_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer5_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer5_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer5_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer5_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer5_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer5_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer5_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer5_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_skill1}
+                  --Rank|d@{retainer5_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer5_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer5_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_skill2}
+                  --Rank|d@{retainer5_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer5_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer5_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_skill3}
+                  --Rank|d@{retainer5_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer5_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer5_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_skill4}
+                  --Rank|d@{retainer5_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer5_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer5_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_trigger1}
+                  --Rank|d@{retainer5_rating}
+                  --Effect|@{retainer5_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer5_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_trigger2}
+                  --Rank|d@{retainer5_rating}
+                  --Effect|@{retainer5_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer5_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer5_name} - @{retainer5_trigger3}
+                  --Rank|d@{retainer5_rating}
+                  --Effect|@{retainer5_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 6 &mdash;
+          <select name="attr_retainer6_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer6_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer6_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer6_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer6_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer6_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer6_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer6_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer6_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer6_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_skill1}
+                  --Rank|d@{retainer6_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer6_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer6_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_skill2}
+                  --Rank|d@{retainer6_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer6_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer6_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_skill3}
+                  --Rank|d@{retainer6_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer6_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer6_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_skill4}
+                  --Rank|d@{retainer6_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer6_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer6_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_trigger1}
+                  --Rank|d@{retainer6_rating}
+                  --Effect|@{retainer6_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer6_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_trigger2}
+                  --Rank|d@{retainer6_rating}
+                  --Effect|@{retainer6_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer6_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer6_name} - @{retainer6_trigger3}
+                  --Rank|d@{retainer6_rating}
+                  --Effect|@{retainer6_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 7 &mdash;
+          <select name="attr_retainer7_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer7_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer7_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer7_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer7_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer7_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer7_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer7_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer7_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer7_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_skill1}
+                  --Rank|d@{retainer7_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer7_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer7_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_skill2}
+                  --Rank|d@{retainer7_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer7_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer7_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_skill3}
+                  --Rank|d@{retainer7_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer7_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer7_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_skill4}
+                  --Rank|d@{retainer7_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer7_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer7_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_trigger1}
+                  --Rank|d@{retainer7_rating}
+                  --Effect|@{retainer7_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer7_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_trigger2}
+                  --Rank|d@{retainer7_rating}
+                  --Effect|@{retainer7_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer7_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer7_name} - @{retainer7_trigger3}
+                  --Rank|d@{retainer7_rating}
+                  --Effect|@{retainer7_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 8 &mdash;
+          <select name="attr_retainer8_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer8_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer8_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer8_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer8_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer8_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer8_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer8_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer8_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer8_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_skill1}
+                  --Rank|d@{retainer8_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer8_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer8_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_skill2}
+                  --Rank|d@{retainer8_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer8_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer8_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_skill3}
+                  --Rank|d@{retainer8_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer8_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer8_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_skill4}
+                  --Rank|d@{retainer8_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer8_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer8_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_trigger1}
+                  --Rank|d@{retainer8_rating}
+                  --Effect|@{retainer8_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer8_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_trigger2}
+                  --Rank|d@{retainer8_rating}
+                  --Effect|@{retainer8_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer8_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer8_name} - @{retainer8_trigger3}
+                  --Rank|d@{retainer8_rating}
+                  --Effect|@{retainer8_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 9 &mdash;
+          <select name="attr_retainer9_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer9_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer9_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer9_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer9_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer9_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer9_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer9_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer9_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer9_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_skill1}
+                  --Rank|d@{retainer9_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer9_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer9_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_skill2}
+                  --Rank|d@{retainer9_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer9_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer9_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_skill3}
+                  --Rank|d@{retainer9_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer9_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer9_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_skill4}
+                  --Rank|d@{retainer9_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer9_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer9_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_trigger1}
+                  --Rank|d@{retainer9_rating}
+                  --Effect|@{retainer9_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer9_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_trigger2}
+                  --Rank|d@{retainer9_rating}
+                  --Effect|@{retainer9_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer9_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer9_name} - @{retainer9_trigger3}
+                  --Rank|d@{retainer9_rating}
+                  --Effect|@{retainer9_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-item-minions">
+          Retainer 10 &mdash;
+          <select name="attr_retainer10_type">
+            <option value="">Select to Recruit</option>
+            <option value="dangerous">Dangerous</option>
+            <option value="deft">Deft</option>
+            <option value="savvy">Savvy</option>
+            <option value="steady">Steady</option>
+            <option value="uncanny">Uncanny</option>
+          </select>
+          <div class="grid-container grid-2col grid-item-retainer">
+            <label>Name: <input name="attr_retainer10_name" type="text" /></label>
+            <label>Rating: <input type="radio" class="skill-rank-input" name="attr_retainer10_rating" value="4"
+                checked><span class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer10_rating" value="6"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer10_rating" value="8"><span
+                class="checkmark"></span>
+              <input type="radio" class="skill-rank-input" name="attr_retainer10_rating" value="10"><span
+                class="checkmark"></span>
+            </label>
+          </div>
+          <div class="grid-container grid-3col grid-item-retainer">
+            <label>Grit: <input class="trait-input" name="attr_retainer10_grit" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Melee: <input class="trait-input" name="attr_retainer10_melee" type="number" value="0" min="0"
+                step="1" /></label>
+            <label>Ranged: <input class="trait-input" name="attr_retainer10_ranged" type="number" value="0" min="0"
+                step="1" /></label>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Skills
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer10_skill1">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_skill1}
+                  --Rank|d@{retainer10_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer10_skill1}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer10_skill2">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_skill2}
+                  --Rank|d@{retainer10_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer10_skill2}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+              <div class="grid-container grid-2col grid-item-retainer">
+                <div class="grid-item">
+                  <select name="attr_retainer10_skill3">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_skill3}
+                  --Rank|d@{retainer10_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer10_skill3}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+                <div class="grid-item">
+                  <select name="attr_retainer10_skill4">
+                    <option></option>
+                    <option>Analyze</option>
+                    <option>Composure</option>
+                    <option>Cosmology</option>
+                    <option>Current Events</option>
+                    <option>Deceive</option>
+                    <option>Endure</option>
+                    <option>Exert</option>
+                    <option>Focus</option>
+                    <option>Grapple</option>
+                    <option>History</option>
+                    <option>Implements</option>
+                    <option>Insight</option>
+                    <option>Intimidate</option>
+                    <option>Investigate</option>
+                    <option>Lead</option>
+                    <option>Legerdemain</option>
+                    <option>Linguistics</option>
+                    <option>Martial Arts</option>
+                    <option>Nature</option>
+                    <option>Navigate</option>
+                    <option>Operate</option>
+                    <option>Perceive</option>
+                    <option>Persuade</option>
+                    <option>Research</option>
+                    <option>Shoot</option>
+                    <option>Skrimisiology</option>
+                    <option>Stealth</option>
+                    <option>Streetwise</option>
+                    <option>Strike</option>
+                    <option>Survival</option>
+                    <option>Tactics</option>
+                    <option>Theology</option>
+                    <option>Throw</option>
+                    <option>Tumble</option>
+                  </select>
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_skill4}
+                  --Rank|d@{retainer10_rating}
+                  --Result Set|[[ [$skill|XPND] @{Cosm|challenge}d@{retainer10_skill4}>@{Cosm|target}]]
+                  --Hits|[^skill.ss]
+                  --1s|[^skill.ones]
+                  --format|skillcheck
+                  }}">
+                    Roll
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container  grid-item-retainer">
+            <div class="grid-item">
+              Triggers
+              <div class="grid-container grid-item-retainer">
+                <div class="grid-item">
+                  <input name="attr_retainer10_trigger1" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_trigger1}
+                  --Rank|d@{retainer10_rating}
+                  --Effect|@{retainer10_trigger1}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer10_trigger2" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_trigger2}
+                  --Rank|d@{retainer10_rating}
+                  --Effect|@{retainer10_trigger2}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+                <div class="grid-item">
+                  <input name="attr_retainer10_trigger3" type="text" />
+                  <button class="txt-btn" value="!power {{
+                  --name|@{character_name} - @{retainer10_name} - @{retainer10_trigger3}
+                  --Rank|d@{retainer10_rating}
+                  --Effect|@{retainer10_trigger3}
+                  --format|triggercheck
+                  }}">Show</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
