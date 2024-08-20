@@ -10662,7 +10662,7 @@
                 },
                 {
                     "hits": 5,
-                    "effect": "<em><strong>Trigger</strong></em> &mdash cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
+                    "effect": "<em><strong>Trigger</strong></em> &mdash; cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
                 }
             ],
             "requires": "Arc Lightning 2",
@@ -12005,7 +12005,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash </strong></em> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
+                    "effect": "One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash; </strong></em> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
                 }
             ],
             "requires": null,
@@ -12281,7 +12281,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash </strong></em> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
+                    "effect": "One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash; </strong></em> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
                 }
             ],
             "requires": null,

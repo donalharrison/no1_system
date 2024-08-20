@@ -89,7 +89,9 @@ label {
 .sheet-powers-spirits,
 .sheet-powers-techniques,
 .sheet-gear-equipment,
-.sheet-gear-concoctions {
+.sheet-gear-concoctions,
+.sheet-minions-minions,
+.sheet-minions-retainers {
     display: none;
 }
 
@@ -111,7 +113,9 @@ label {
 .charsheet .subsheet-tabstoggle[value="spirits"]~div.sheet-powers-spirits,
 .charsheet .subsheet-tabstoggle[value="techniques"]~div.sheet-powers-techniques,
 .charsheet .subsheet-tabstoggle[value="equipment"]~div.sheet-gear-equipment,
-.charsheet .subsheet-tabstoggle[value="concoctions"]~div.sheet-gear-concoctions {
+.charsheet .subsheet-tabstoggle[value="concoctions"]~div.sheet-gear-concoctions,
+.charsheet .subsheet-tabstoggle[value="minions"]~div.sheet-minions-minions,
+.charsheet .subsheet-tabstoggle[value="retainers"]~div.sheet-minions-retainers {
     display: block;
 }
 
@@ -322,6 +326,11 @@ input[type=checkbox]:checked~.grid-container-concoction {
 .grid-bamf-roller {
     display: grid;
     grid-template-columns: repeat(6, [col] auto);
+}
+
+.grid-bamf-roller .grid-container .grid-item {
+    height: 25px;
+    vertical-align: center;
 }
 
 .banner-wrapper {

@@ -1,0 +1,1966 @@
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Prime Conflagration</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_prime_conflagration" type="number" value="0" step="1"
+                max="4" /> of 4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Prime Conflagration
+    --Aspect|Inferno
+    --Type|Ability
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_prime_conflagration} >= 0 ?? Effect:|**//Rank - 0//**^^Deal Hits to 1 target in your Current or an Adjacent Zone.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_prime_conflagration} >= 1 ?? Effect:|**//Rank - 1//**^^Deal Hits to 1 target in your Current or an Adjacent Zone.  Reduce your Strain by 1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_prime_conflagration} >= 4 ?? Effect:|**//Rank - 4//**^^Deal Hits to 2 targets in your Current or an Adjacent Zone.  Reduce your Strain by 2.
+}}">Inferno</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">0</div>
+            <div class="arcana-data">Deal Hits to 1 target in your Current or an Adjacent Zone.</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Deal Hits to 1 target in your Current or an Adjacent Zone. Reduce your Strain by 1.
+            </div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Deal Hits to 2 targets in your Current or an Adjacent Zone. Reduce your Strain by
+                2.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Prime Conflagration
+    --Aspect|Aether
+    --Type|Shift
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_prime_conflagration} >= 0 ?? Effect:|**//Rank - 0//**^^Score 2+ Hits to have 1 target in your Current Zone gains Dazed.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_prime_conflagration} >= 1 ?? Effect:|**//Rank - 1//**^^Score 2+ Hits to have up to 2 targets in your Current Zone gain Dazed.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_prime_conflagration} >= 4 ?? Effect:|**//Rank - 4//**^^Score 2+ Hits to have up to Hits targets in your Current Zone gain Dazed.
+}}">Aether</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">0</div>
+            <div class="arcana-data">Score 2+ Hits to have 1 target in your Current Zone gains Dazed.</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Score 2+ Hits to have up to 2 targets in your Current Zone gain Dazed.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Score 2+ Hits to have up to Hits targets in your Current Zone gain Dazed.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Flame of Affliction</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_flame_of_affliction" type="number" value="0" step="1"
+                max="7" /> of 7</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Flame of Affliction
+    --Aspect|Inferno
+    --Type|Ability
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_flame_of_affliction} >= 3 ?? Effect:|**//Rank - 3//**^^Deal Hits to 1 target's Grit, ignoring all Defenses.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_flame_of_affliction} >= 7 ?? Effect:|**//Rank - 7//**^^Deal Hits to all target's Grit, ignoring all Defenses.
+}}">Inferno</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Deal Hits to 1 target's Grit, ignoring all Defenses.</div>
+            <div class="arcana-data">7</div>
+            <div class="arcana-data">Deal Hits to all target's Grit, ignoring all Defenses.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Flame of Affliction
+    --Aspect|Mori
+    --Type|Trigger
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_flame_of_affliction} >= 5 ?? Effect:|**//Rank - 5//**^^When a target you can see in your Current Zone dies, restore Hits to your Grit.
+}}">Mori</button>
+        <br><em>Trigger</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">When a target you can see in your Current Zone dies, restore Hits to your Grit.
+            </div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Flame of Affliction
+    --Aspect|Plaga
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_flame_of_affliction} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current or an Adjacent Zone gains Fatigued 1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_flame_of_affliction} >= 5 ?? Effect:|**//Rank - 5//**^^One target in your Current or an Adjacent Zone gains Fatigued 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_flame_of_affliction} >= 7 ?? Effect:|**//Rank - 7//**^^All targets in your Current or an Adjacent Zone gains Fatigued 2.
+}}">Plaga</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Fatigued 1.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Fatigued 2.</div>
+            <div class="arcana-data">7</div>
+            <div class="arcana-data">All targets in your Current or an Adjacent Zone gains Fatigued 2.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Eternal Cycle</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_eternal_cycle" type="number" value="0" step="1" max="5" /> of
+            5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Eternal Cycle
+    --Aspect|Mori
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_eternal_cycle} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current or an Adjacent Zone loses 2 Grit and one target in your Current Zone reduces their Dying rating by -1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_eternal_cycle} >= 5 ?? Effect:|**//Rank - 5//**^^One target in your Current or an Adjacent Zone loses X Grit and one target in your Current Zone reduces their Dying rating by -1, where X is equal to Hits in the result set.
+}}">Mori</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 2 Grit and one target in your
+                Current Zone reduces their Dying rating by -1.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses X Grit and one target in your
+                Current Zone reduces their Dying rating by -1, where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Eternal Cycle
+    --Aspect|Vivus
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_eternal_cycle} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone regains X Grit, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_eternal_cycle} >= 5 ?? Effect:|**//Rank - 5//**^^One target in your Current or an Adjacent Zone regains X Grit and one other target in your Current or an Adjacent Zone gains Wounded 1, where X is equal to Hits in the result set.
+}}">Vivus</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone regains X Grit, where X is equal to
+                Hits in the result set.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone regains X Grit and one other target
+                in your Current or an Adjacent Zone gains Wounded 1, where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Silent War</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_silent_war" type="number" value="0" step="1" max="4" /> of
+            4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 1</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Silent War
+    --Aspect|Bellor
+    --Type|Trigger
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_bellor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_silent_war} >= 1 ?? Effect:|**//Rank - 1//**^^When you make an Initiative Test using Tactics, add +1d4 Bonus Hits to the result set
+}}">Bellor</button>
+        <br><em>Trigger</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">When you make an Initiative Test using Tactics, add +1d4 Bonus Hits to the result
+                set</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Silent War
+    --Aspect|Destroy
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_destroy}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_silent_war} >= 2 ?? Effect:|**//Rank - 2//**^^You gain Aura X to add +1d4 Bonus Hits to any Action using Shoot or Strike, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_silent_war} >= 4 ?? Effect:|**//Rank - 4//**^^You gain Aura X. Add +2d4 Bonus Hits to any Action using Shoot or Strike while the Aura persists., where X is equal to Hits in the result set.
+}}">Destroy</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">You gain Aura X to add +1d4 Bonus Hits to any Action using Shoot or Strike, where X
+                is equal to Hits in the result set.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">You gain Aura X. Add +2d4 Bonus Hits to any Action using Shoot or Strike while the
+                Aura persists., where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Silent War
+    --Aspect|Nox
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_silent_war} >= 1 ?? Effect:|**//Rank - 1//**^^Target your Current and an Adjacent Zone.  The targeted Zone gains the Silent keyword until the beginning of your next turn.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_silent_war} >= 1 ?? Effect:|**//Rank - 1//**^^Your Current and all Adjacent Zones gain the Silent keyword until the beginning of your next turn.
+}}">Nox</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Target your Current and an Adjacent Zone. The targeted Zone gains the Silent
+                keyword until the beginning of your next turn.</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Your Current and all Adjacent Zones gain the Silent keyword until the beginning of
+                your next turn.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Fractured Mirror</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_fractured_mirror" type="number" value="0" step="1" max="3" />
+            of 3</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Fractured Mirror
+    --Aspect|Tempor
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the current Timer by +1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 3 ?? Effect:|**//Rank - 3//**^^Increase the current Timer by +1.
+}}">Tempor</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the current Timer by +1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Increase the current Timer by +1.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Fractured Mirror
+    --Aspect|Locus
+    --Type|Shift
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_locus}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 1 ?? Effect:|**//Rank - 1//**^^You move to any Adjacent Zone ignoring Hazards.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 3 ?? Effect:|**//Rank - 3//**^^You and up to X targets move to any Adjacent Zone ignoring Hazards, where X is equal to Hits in the result set.
+}}">Locus</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">You move to any Adjacent Zone ignoring Hazards.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">You and up to X targets move to any Adjacent Zone ignoring Hazards, where X is
+                equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Fractured Mirror
+    --Aspect|Luck
+    --Type|Shift
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_luck}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the Momentum by +2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 3 ?? Effect:|**//Rank - 3//**^^Decrease the Entropy by -2 and increase the Momentum by +2.
+}}">Luck</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the Momentum by +2.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Decrease the Entropy by -2 and increase the Momentum by +2.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Fractured Mirror
+    --Aspect|Mentis
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone gains Stunned 1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_fractured_mirror} >= 3 ?? Effect:|**//Rank - 3//**^^Up to X targets in your Current or an Adjacent Zone gain Stunned 1.
+}}">Mentis</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Stunned 1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Up to X targets in your Current or an Adjacent Zone gain Stunned 1.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Iron Moon</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_iron_moon" type="number" value="0" step="1" max="5" /> of
+            5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Iron Moon
+    --Aspect|Bellor
+    --Type|Shift
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_bellor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the Entrpy by +2.  Up to X targets in your Current Zone gain Afraid 2, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 3 ?? Effect:|**//Rank - 3//**^^Increase the Entrpy by +1.  Up to X targets in your Current Zone gain Afraid 2, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 5 ?? Effect:|**//Rank - 5//**^^Up to X targets in your Current Zone gain Afraid 2, where X is equal to Hits in the result set.
+}}">Bellor</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the Entrpy by +2. Up to X targets in your Current Zone gain Afraid 2,
+                where X is equal to Hits in the result set.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Increase the Entrpy by +1. Up to X targets in your Current Zone gain Afraid 2,
+                where X is equal to Hits in the result set.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Up to X targets in your Current Zone gain Afraid 2, where X is equal to Hits in the
+                result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Iron Moon
+    --Aspect|Destroy
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_destroy}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 1 ?? Effect:|**//Rank - 1//**^^Add +1d4 Bonus Hits to your next Action using Shoot or Strike.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 5 ?? Effect:|**//Rank - 5//**^^You gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, add +1d4 Bonus Hits to any Action using Shoot or Strike.
+}}">Destroy</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Add +1d4 Bonus Hits to your next Action using Shoot or Strike.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">You gain Aura X, where X is equal to Hits in the result set. While this Aura
+                persists, add +1d4 Bonus Hits to any Action using Shoot or Strike.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Iron Moon
+    --Aspect|Mori
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set.  If the target is Afraid, reduce your Strain by -1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_iron_moon} >= 5 ?? Effect:|**//Rank - 5//**^^One target in your Current or an Adjacent Zone loses X Grit and gains Wounded 1, where X is equal to Hits in the result set.  If the target is Afraid, reduce your Strain by -1.
+}}">Mori</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses X Grit, where X is equal to
+                Hits in the result set. If the target is Afraid, reduce your Strain by -1.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses X Grit and gains Wounded 1,
+                where X is equal to Hits in the result set. If the target is Afraid, reduce your Strain by -1.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Crimson Sun</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_crimson_sun" type="number" value="0" step="1" max="5" /> of
+            5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Crimson Sun
+    --Aspect|Bellor
+    --Type|Shift
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_bellor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_crimson_sun} >= 1 ?? Effect:|**//Rank - 1//**^^Up to X targets in your Current Zone become Provoked, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_crimson_sun} >= 5 ?? Effect:|**//Rank - 5//**^^All targets in your Current Zone become Provoked.
+}}">Bellor</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Up to X targets in your Current Zone become Provoked, where X is equal to Hits in
+                the result set.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">All targets in your Current Zone become Provoked.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Crimson Sun
+    --Aspect|Lux
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_crimson_sun} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If the target is Provoked, add +1d4 Bonus Hits to the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_crimson_sun} >= 3 ?? Effect:|**//Rank - 3//**^^Up to X targets in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If a target is Provoked, add +1d4 Bonus Hits to the result set.
+}}">Lux</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set. If the target is Provoked, add +1d4 Bonus Hits to the result set.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Up to X targets in your Current or an Adjacent Zone takes X Hits, where X is equal
+                to Hits in the result set. If a target is Provoked, add +1d4 Bonus Hits to the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Crimson Sun
+    --Aspect|Resist
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_resist}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_crimson_sun} >= 3 ?? Effect:|**//Rank - 3//**^^Spend 2 Momentum.  You regain 3 Grit and gain Armor Bonus X, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_crimson_sun} >= 5 ?? Effect:|**//Rank - 5//**^^Spend 2 Momentum.  You and up to X target in your Current or an Adjacent Zone regain 3 Grit and gain Armor Bonus X, where X is equal to Hits in the result set.
+}}">Resist</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Spend 2 Momentum. You regain 3 Grit and gain Armor Bonus X, where X is equal to
+                Hits in the result set.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Spend 2 Momentum. You and up to X target in your Current or an Adjacent Zone regain
+                3 Grit and gain Armor Bonus X, where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Long Night</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_long_night" type="number" value="0" step="1" max="3" /> of
+            3</label>
+        <h4 style="margin:3px;">Threshold &mdash; 1</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Long Night
+    --Aspect|Tempor
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_long_night} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the current Timer by +1.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_long_night} >= 3 ?? Effect:|**//Rank - 3//**^^Increase the current Timer by +X, where X is equal to Hits in the result set.
+}}">Tempor</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the current Timer by +1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Increase the current Timer by +X, where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Long Night
+    --Aspect|Nox
+    --Type|Shift
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_long_night} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone gains Blind 1.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_long_night} >= 3 ?? Effect:|**//Rank - 3//**^^Up to X target in your Current or an Adjacent Zone gains Blind 1, where X is equal to Hits in the result set.
+}}">Nox</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Blind 1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Up to X target in your Current or an Adjacent Zone gains Blind 1, where X is equal
+                to Hits in the result set.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Growing Dawn</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_growing_dawn" type="number" value="0" step="1" max="4" /> of
+            4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Growing Dawn
+    --Aspect|Lux
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_growing_dawn} >= 2 ?? Effect:|**//Rank - 2//**^^Up to X targets in your Current or an Adjacent Zone gain Dazed 1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_growing_dawn} >= 4 ?? Effect:|**//Rank - 4//**^^Up to X targets in your Current or an Adjacent Zone gain Dazed 3.
+}}">Lux</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Up to X targets in your Current or an Adjacent Zone gain Dazed 1.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Up to X targets in your Current or an Adjacent Zone gain Dazed 3.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Growing Dawn
+    --Aspect|Ordi
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_ordi}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_growing_dawn} >= 1 ?? Effect:|**//Rank - 1//**^^Score 1 Hit to up to 3 targets in your Current Zone. Reduce your Strain by -1 for each target you score Hits against that is Dazed.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_growing_dawn} >= 4 ?? Effect:|**//Rank - 4//**^^Score X Hit to up to 3 targets in your Current or an Adjacent Zone, X . . . Reduce your Strain by -1 for each target you score Hits against that is Dazed.
+}}">Ordi</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Score 1 Hit to up to 3 targets in your Current Zone. Reduce your Strain by -1 for
+                each target you score Hits against that is Dazed.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Score X Hit to up to 3 targets in your Current or an Adjacent Zone, X . . . Reduce
+                your Strain by -1 for each target you score Hits against that is Dazed.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Coming War</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_coming_war" type="number" value="0" step="1" max="4" /> of
+            4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 1</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Coming War
+    --Aspect|Bellor
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_bellor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_coming_war} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the Entropy by X to have X targets gain Fatigued 1, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_coming_war} >= 4 ?? Effect:|**//Rank - 4//**^^Increase the Entropy by X to have X targets gain Fatigued 3, where X is equal to Hits in the result set.
+}}">Bellor</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the Entropy by X to have X targets gain Fatigued 1, where X is equal to
+                Hits in the result set.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Increase the Entropy by X to have X targets gain Fatigued 3, where X is equal to
+                Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Coming War
+    --Aspect|Ordi
+    --Type|Ability
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_ordi}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_coming_war} >= 1 ?? Effect:|**//Rank - 1//**^^Spend 2 Momentum.  Divide 5 Hits among up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set.  Reduce your Strain by -1 for each each target you score Hits against that is Fatigued.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_coming_war} >= 4 ?? Effect:|**//Rank - 4//**^^Spend 2 Momentum.  Divide 10 Hits among up to X targets in your Current or an Adjacent Zone, where X is equal to Hits in the result set.  Reduce your Strain by -1 for each each target you score Hits against that is Fatigued.
+}}">Ordi</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Spend 2 Momentum. Divide 5 Hits among up to X targets in your Current or an
+                Adjacent Zone, where X is equal to Hits in the result set. Reduce your Strain by -1 for each each target
+                you score Hits against that is Fatigued.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Spend 2 Momentum. Divide 10 Hits among up to X targets in your Current or an
+                Adjacent Zone, where X is equal to Hits in the result set. Reduce your Strain by -1 for each each target
+                you score Hits against that is Fatigued.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Heart of Cruelty</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_heart_of_cruelty" type="number" value="0" step="1" max="6" />
+            of 6</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Heart of Cruelty
+    --Aspect|Destroy
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_destroy}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current or an Adjacent Zone gains Wounded 1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current or an Adjacent Zone gains Wounded 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 6 ?? Effect:|**//Rank - 6//**^^One target in your Current or an Adjacent Zone gains Wounded 3.
+}}">Destroy</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Wounded 1.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Wounded 2.</div>
+            <div class="arcana-data">6</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Wounded 3.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Heart of Cruelty
+    --Aspect|Mori
+    --Type|
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current or an Adjacent Zone loses 1 Grit.  If the target is wounded, they lose 2 Grit instead.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current or an Adjacent Zone loses 1 Grit.  If the target is wounded, they lose 3 Grit instead.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 6 ?? Effect:|**//Rank - 6//**^^One target in your Current or an Adjacent Zone loses 1 Grit.  If the target is wounded, they lose 4 Grit instead.
+}}">Mori</button>
+        <br><em></em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 1 Grit. If the target is
+                wounded, they lose 2 Grit instead.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 1 Grit. If the target is
+                wounded, they lose 3 Grit instead.</div>
+            <div class="arcana-data">6</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 1 Grit. If the target is
+                wounded, they lose 4 Grit instead.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Heart of Cruelty
+    --Aspect|Plaga
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current or an Adjacent Zone gains Vulnerable 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_heart_of_cruelty} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current or an Adjacent Zone gains Vulnerable X, where X is equal to Hits in the result set.
+}}">Plaga</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Vulnerable 2.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Vulnerable X, where X is equal
+                to Hits in the result set.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Shattered Peace</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_shattered_peace" type="number" value="0" step="1" max="4" />
+            of 4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Shattered Peace
+    --Aspect|Bellor
+    --Type|Trigger
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_bellor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_shattered_peace} >= 2 ?? Effect:|**//Rank - 2//**^^When you make an Initiative Test, add +1d4 Bonus Hits to the result set
+--?? $arcana.ss >= 2 AND @{arc_rank_the_shattered_peace} >= 4 ?? Effect:|**//Rank - 4//**^^When you and up to X allies in your Current Zone make an Initiative Test, add +1d4 Bonus Hits to the result set
+}}">Bellor</button>
+        <br><em>Trigger</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">When you make an Initiative Test, add +1d4 Bonus Hits to the result set</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">When you and up to X allies in your Current Zone make an Initiative Test, add +1d4
+                Bonus Hits to the result set</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Shattered Peace
+    --Aspect|Ordi
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_ordi}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_shattered_peace} >= 1 ?? Effect:|**//Rank - 1//**^^Until the end of your next turn, if you or your allies would increase the Momentum, increase the Momentum an additional +1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_shattered_peace} >= 3 ?? Effect:|**//Rank - 3//**^^Until the end of your next turn, if you or your allies would increase the Momentum, increase the Momentum an additional +1.  If the Momenumt reachesh 10+, you gain +1 Renonwn.
+}}">Ordi</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Until the end of your next turn, if you or your allies would increase the Momentum,
+                increase the Momentum an additional +1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Until the end of your next turn, if you or your allies would increase the Momentum,
+                increase the Momentum an additional +1. If the Momenumt reachesh 10+, you gain +1 Renonwn.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Quiet</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_quiet" type="number" value="0" step="1" max="5" /> of
+            5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Quiet
+    --Aspect|Nihil
+    --Type|Ability
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_quiet} >= 2 ?? Effect:|**//Rank - 2//**^^You Current Zone gains the Silent keyword ongoing.  All targets in your Current Zone gain Blind 1 Ongoing.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_quiet} >= 5 ?? Effect:|**//Rank - 5//**^^You Current and all Adjacent Zones gains the Silent keyword ongoing.  All targets in the effected Zones gain Blind 1 Ongoing.
+}}">Nihil</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">You Current Zone gains the Silent keyword ongoing. All targets in your Current Zone
+                gain Blind 1 Ongoing.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">You Current and all Adjacent Zones gains the Silent keyword ongoing. All targets in
+                the effected Zones gain Blind 1 Ongoing.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Forgotten Cold</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_forgotten_cold" type="number" value="0" step="1" max="5" />
+            of 5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Forgotten Cold
+    --Aspect|Intuit
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_intuit}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_forgotten_cold} >= 1 ?? Effect:|**//Rank - 1//**^^You gain Aura X, where X is equal to Hits in the result set.  While the Aura persists, you ignore Hazards when you Shift to Move.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_forgotten_cold} >= 5 ?? Effect:|**//Rank - 5//**^^You and up to X targets in your Current Zone gain Aura X, where X is equal to Hits in the result set.  While the Aura persists, all effected targets ignore Hazards when they Shift to Move.
+}}">Intuit</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">You gain Aura X, where X is equal to Hits in the result set. While the Aura
+                persists, you ignore Hazards when you Shift to Move.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">You and up to X targets in your Current Zone gain Aura X, where X is equal to Hits
+                in the result set. While the Aura persists, all effected targets ignore Hazards when they Shift to Move.
+            </div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Forgotten Cold
+    --Aspect|Mentis
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_forgotten_cold} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current Zone gains Confused 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_forgotten_cold} >= 5 ?? Effect:|**//Rank - 5//**^^Up to X targets in your Current Zone gains Confused 2.
+}}">Mentis</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current Zone gains Confused 2.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Up to X targets in your Current Zone gains Confused 2.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Forgotten Cold
+    --Aspect|Rime
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_forgotten_cold} >= 1 ?? Effect:|**//Rank - 1//**^^Target your Current or an Adjacent Zone to gain Hazard 3.  All targets in the targeted Zone gain Frozen 1 and take 1 Hit.  Reduce your Strain by -1 for each target that takes Hits from this effect that is Confused.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_forgotten_cold} >= 5 ?? Effect:|**//Rank - 5//**^^Target your Current and all Adjacent Zones to gain Hazard 3.  All targets in the targeted Zone gain Frozen 1 and take 1 Hit.  Reduce your Strain by -1 for each target that takes Hits from this effect that is Confused.
+}}">Rime</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Target your Current or an Adjacent Zone to gain Hazard 3. All targets in the
+                targeted Zone gain Frozen 1 and take 1 Hit. Reduce your Strain by -1 for each target that takes Hits
+                from this effect that is Confused.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Target your Current and all Adjacent Zones to gain Hazard 3. All targets in the
+                targeted Zone gain Frozen 1 and take 1 Hit. Reduce your Strain by -1 for each target that takes Hits
+                from this effect that is Confused.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Lost Winds</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_lost_winds" type="number" value="0" step="1" max="4" /> of
+            4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 1</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Lost Winds
+    --Aspect|Luck
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_luck}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_lost_winds} >= 1 ?? Effect:|**//Rank - 1//**^^If you score 3+ Hits on your next Action, **choose one (1)**:^^^^**Increase the Momentum by +3.^^^^You gain +1 Renown.^^^^You gain +3 Wealth.**
+--?? $arcana.ss >= 1 AND @{arc_rank_the_lost_winds} >= 4 ?? Effect:|**//Rank - 4//**^^If you score 3+ Hits on your next Action, **choose up to two (2)**:^^^^**Increase the Momentum by +3.^^^^You gain +1 Renown.^^^^You gain +3 Wealth.**
+}}">Luck</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">If you score 3+ Hits on your next Action, choose one (1):<ul>
+                    <li>Increase the Momentum by +3.</li>
+                    <li>You gain +1 Renown.</li>
+                    <li>You gain +3 Wealth.</li>
+                </ul>
+            </div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">If you score 3+ Hits on your next Action, choose up to two (2):<ul>
+                    <li>Increase the Momentum by +3.</li>
+                    <li>You gain +1 Renown.</li>
+                    <li>You gain +3 Wealth.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Lost Winds
+    --Aspect|Squall
+    --Type|Shift
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 1 AND @{arc_rank_the_lost_winds} >= 1 ?? Effect:|**//Rank - 1//**^^Add +X Bonus Hits to your next Action using Operate, Shoot, or Tumble, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 1 AND @{arc_rank_the_lost_winds} >= 4 ?? Effect:|**//Rank - 4//**^^Add +Xd4 Bonus Hits to your next Action using Operate, Shoot, or Tumble, where X is equal to Hits in the result set.
+}}">Squall</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Add +X Bonus Hits to your next Action using Operate, Shoot, or Tumble, where X is
+                equal to Hits in the result set.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Add +Xd4 Bonus Hits to your next Action using Operate, Shoot, or Tumble, where X is
+                equal to Hits in the result set.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Black Sun</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_black_sun" type="number" value="0" step="1" max="8" /> of
+            8</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Black Sun
+    --Aspect|Destroy
+    --Type|Ability
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_destroy}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 4 ?? Effect:|**//Rank - 4//**^^All targets in your Current or an Adjacent Zone lose 2 Grit.  Reduce your Strain by 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 8 ?? Effect:|**//Rank - 8//**^^All targets in your Current or an Adjacent Zone take Lose X Grit, where X is equal to Hits in the result set.  Reduce your Strain by the total Grit lost from the effect.  Increase the Entropy by +5.
+}}">Destroy</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">All targets in your Current or an Adjacent Zone lose 2 Grit. Reduce your Strain by
+                2.</div>
+            <div class="arcana-data">8</div>
+            <div class="arcana-data">All targets in your Current or an Adjacent Zone take Lose X Grit, where X is equal
+                to Hits in the result set. Reduce your Strain by the total Grit lost from the effect. Increase the
+                Entropy by +5.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Black Sun
+    --Aspect|Lux
+    --Type|Ability
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 4 ?? Effect:|**//Rank - 4//**^^X targets in your Current Zone gain Charmed 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 6 ?? Effect:|**//Rank - 6//**^^X targets in your Current Zone gain Charmed 5.
+}}">Lux</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">X targets in your Current Zone gain Charmed 2.</div>
+            <div class="arcana-data">6</div>
+            <div class="arcana-data">X targets in your Current Zone gain Charmed 5.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Black Sun
+    --Aspect|Nox
+    --Type|Ability
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 2 ?? Effect:|**//Rank - 2//**^^Up to X Targets in your Current or an Adjacent Zone gain Stunned 2, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 4 ?? Effect:|**//Rank - 4//**^^Up to X Targets in your Current or an Adjacent Zone gain Stunned 4, where X is equal to Hits in the result set.
+}}">Nox</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Up to X Targets in your Current or an Adjacent Zone gain Stunned 2, where X is
+                equal to Hits in the result set.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Up to X Targets in your Current or an Adjacent Zone gain Stunned 4, where X is
+                equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Black Sun
+    --Aspect|Ordi
+    --Type|Shift
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_ordi}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 2 ?? Effect:|**//Rank - 2//**^^You recover +1 to your Primary Defense for each target in your Current Zone that are Charmed or Stunned.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_black_sun} >= 6 ?? Effect:|**//Rank - 6//**^^You recover +X to your Primary Defense, where X is equal to the number of target in your Current Zone that are Charmed or Stunned.
+}}">Ordi</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">You recover +1 to your Primary Defense for each target in your Current Zone that
+                are Charmed or Stunned.</div>
+            <div class="arcana-data">6</div>
+            <div class="arcana-data">You recover +X to your Primary Defense, where X is equal to the number of target in
+                your Current Zone that are Charmed or Stunned.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Ebon Field</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_ebon_field" type="number" value="0" step="1" max="5" /> of
+            5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Ebon Field
+    --Aspect|Locus
+    --Type|Shift
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_locus}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 1 ?? Effect:|**//Rank - 1//**^^You may Shift to Move up to 2 Adjacent Zones ignoring Hazards.  You gain Fatigued 1.  Increase the Entropy by +1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current Zone Shifts to Move up to 2 Adjacent Zones ignoring Hazards.  The target gain Fatigued 1.  Increase the Entropy by +3.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 5 ?? Effect:|**//Rank - 5//**^^Up to X targets in your Current Zone may Shift to Move up to 2 Adjacent Zones ignoring Hazards.  All targets gain Fatigued 1.  Increase the Entropy by +3.
+}}">Locus</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">You may Shift to Move up to 2 Adjacent Zones ignoring Hazards. You gain Fatigued 1.
+                Increase the Entropy by +1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current Zone Shifts to Move up to 2 Adjacent Zones ignoring
+                Hazards. The target gain Fatigued 1. Increase the Entropy by +3.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Up to X targets in your Current Zone may Shift to Move up to 2 Adjacent Zones
+                ignoring Hazards. All targets gain Fatigued 1. Increase the Entropy by +3.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Ebon Field
+    --Aspect|Nihil
+    --Type|Ability
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 1 ?? Effect:|**//Rank - 1//**^^You reduce one Status by X.  Increase the Entropy by +1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 3 ?? Effect:|**//Rank - 3//**^^You and one target in your Current Zone reduce one Status by X.  Increase the Entropy by +2.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 5 ?? Effect:|**//Rank - 5//**^^You reduce all Statuses of allies in your Current Zone by X.  Increase the Entropy by +5.
+}}">Nihil</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">You reduce one Status by X. Increase the Entropy by +1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">You and one target in your Current Zone reduce one Status by X. Increase the
+                Entropy by +2.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">You reduce all Statuses of allies in your Current Zone by X. Increase the Entropy
+                by +5.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Ebon Field
+    --Aspect|Nox
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current Zone gains Blind 1.  Increase the Entropy by +1.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current Zone gains Blind 3.  Increase the Entropy by +4.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_ebon_field} >= 1 ?? Effect:|**//Rank - 1//**^^Up to X targets in your Current Zone gain Blind 3, where X is equal to Hits in the result set.  Increase the Entropy by +5.
+}}">Nox</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current Zone gains Blind 1. Increase the Entropy by +1.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current Zone gains Blind 3. Increase the Entropy by +4.</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Up to X targets in your Current Zone gain Blind 3, where X is equal to Hits in the
+                result set. Increase the Entropy by +5.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Celestial Conflux</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_celestial_conflux" type="number" value="0" step="1"
+                max="5" /> of 5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Celestial Conflux
+    --Aspect|Aether
+    --Type|Shift
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_celestial_conflux} >= 2 ?? Effect:|**//Rank - 2//**^^Up to X targets in your Current Zone gain Vulnerable 2, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_celestial_conflux} >= 5 ?? Effect:|**//Rank - 5//**^^All targets in your Current Zone gain Vulnerable 2.
+}}">Aether</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Up to X targets in your Current Zone gain Vulnerable 2, where X is equal to Hits in
+                the result set.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">All targets in your Current Zone gain Vulnerable 2.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Celestial Conflux
+    --Aspect|Lux
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_celestial_conflux} >= 2 ?? Effect:|**//Rank - 2//**^^Up to X targets in your Current Zone take 1 Hit, where X is equal to Hits in the result set.  Redduce your Strain by -2.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_celestial_conflux} >= 2 ?? Effect:|**//Rank - 2//**^^Up to X targets in your Current Zone take 1 Hit, where X is equal to Hits in the result set.  Reduce your Strain by the number of targets with Vulnerable that suffered Hits from this effect.
+}}">Lux</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Up to X targets in your Current Zone take 1 Hit, where X is equal to Hits in the
+                result set. Redduce your Strain by -2.</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Up to X targets in your Current Zone take 1 Hit, where X is equal to Hits in the
+                result set. Reduce your Strain by the number of targets with Vulnerable that suffered Hits from this
+                effect.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Dreamer's Well</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_dreamer's_well" type="number" value="0" step="1" max="4" />
+            of 4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Dreamer's Well
+    --Aspect|Aether
+    --Type|Ability
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_dreamer's_well} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the Entropy by +1 and gain a vision of one target of your choice, learning the target's current location.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_dreamer's_well} >= 4 ?? Effect:|**//Rank - 4//**^^Increase the Entropy by +1 and gain a vision of one target of your choice, learning the target's current location.  Reduce your Straing by X, where X is equal to Hits in the result set.
+}}">Aether</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the Entropy by +1 and gain a vision of one target of your choice, learning
+                the target's current location.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Increase the Entropy by +1 and gain a vision of one target of your choice, learning
+                the target's current location. Reduce your Straing by X, where X is equal to Hits in the result set.
+            </div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Dreamer's Well
+    --Aspect|Mentis
+    --Type|Ability
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_dreamer's_well} >= 1 ?? Effect:|**//Rank - 1//**^^Increase the Entropy by +2 and you may ask the BAMF one <em>'Yes or No'</em> question about the game fiction.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_dreamer's_well} >= 4 ?? Effect:|**//Rank - 4//**^^You gain Fatigued 2 and the BAMF reveals one secret to you about the game fiction.
+}}">Mentis</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Increase the Entropy by +2 and you may ask the BAMF one <em>'Yes or No'</em>
+                question about the game fiction.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">You gain Fatigued 2 and the BAMF reveals one secret to you about the game fiction.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Tempest Core</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_tempest_core" type="number" value="0" step="1" max="5" /> of
+            5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Tempest Core
+    --Aspect|Squall
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_tempest_core} >= 2 ?? Effect:|**//Rank - 2//**^^Move one target in your Current Zone away from you one Adjacent Zone.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_tempest_core} >= 5 ?? Effect:|**//Rank - 5//**^^Move up to X targets in your Current Zone away from you one Adjacent Zone, where X is equal to Hits in the result set.
+}}">Squall</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Move one target in your Current Zone away from you one Adjacent Zone.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Move up to X targets in your Current Zone away from you one Adjacent Zone, where X
+                is equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Tempest Core
+    --Aspect|Tempest
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_tempest}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_tempest_core} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone takes 2 Hits.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_tempest_core} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.
+}}">Tempest</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes 2 Hits.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Tempest Core
+    --Aspect|Torrent
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_tempest_core} >= 1 ?? Effect:|**//Rank - 1//**^^Target your Current or an Adjacent Zone to gain Hazard 3.  All targets in the targeted Zone gain Fatigued 1 and take 1 Hit.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_tempest_core} >= 4 ?? Effect:|**//Rank - 4//**^^Target your Current and all Adjacent Zones to gain Hazard 3.  All targets in the targeted Zones gain Fatigued 1 and take 1 Hit.  Reduce your Strain by -1 for each target that takes Hits from this effect that is Fatigued.
+}}">Torrent</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">Target your Current or an Adjacent Zone to gain Hazard 3. All targets in the
+                targeted Zone gain Fatigued 1 and take 1 Hit.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Target your Current and all Adjacent Zones to gain Hazard 3. All targets in the
+                targeted Zones gain Fatigued 1 and take 1 Hit. Reduce your Strain by -1 for each target that takes Hits
+                from this effect that is Fatigued.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Blood Hand</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_blood_hand" type="number" value="0" step="1" max="3" /> of
+            3</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Blood Hand
+    --Aspect|Inferno
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_blood_hand} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If the target is Wounded, reduce your Strain by -2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_blood_hand} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If the target is Wounded, reduce your Strain by -X.
+}}">Inferno</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set. If the target is Wounded, reduce your Strain by -2.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set. If the target is Wounded, reduce your Strain by -X.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Blood Hand
+    --Aspect|Sangui
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_sangui}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_blood_hand} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current Zone gains Fatigued 1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_blood_hand} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone gains Fatigued 1 and Wounded 1.
+}}">Sangui</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current Zone gains Fatigued 1.</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone gains Fatigued 1 and Wounded 1.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Bleeding Tome</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_bleeding_tome" type="number" value="0" step="1" max="4" /> of
+            4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Bleeding Tome
+    --Aspect|Mori
+    --Type|Ability
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current Zone gains Fatigued 1 and loses 1 Grit.  Reduce your Strain by -1 if the target is Vulnerable.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current Zone gains Fatigued 1 and loses 3 Grit.  Reduce your Strain by -1 if the target is Vulnerable.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current Zone gains Fatigued 1 and loses X Grit, where X is equal to Hits in the result set.  Reduce your Strain by -3 if the target is Vulnerable.
+}}">Mori</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current Zone gains Fatigued 1 and loses 1 Grit. Reduce your
+                Strain by -1 if the target is Vulnerable.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current Zone gains Fatigued 1 and loses 3 Grit. Reduce your
+                Strain by -1 if the target is Vulnerable.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current Zone gains Fatigued 1 and loses X Grit, where X is equal
+                to Hits in the result set. Reduce your Strain by -3 if the target is Vulnerable.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Bleeding Tome
+    --Aspect|Plaga
+    --Type|Ability
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current Zone gains Vulnerable 1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current Zone gains Vulnerable 2.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current Zone gains Vulnerable 2.  Reduce the Entropy by -2.
+}}">Plaga</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current Zone gains Vulnerable 1.</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current Zone gains Vulnerable 2.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current Zone gains Vulnerable 2. Reduce the Entropy by -2.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Bleeding Tome
+    --Aspect|Sangui
+    --Type|Ability
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_sangui}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current Zone takes 2 Hits.  You regain 2 Grit if the target is Fatigued.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.  You regain 2 Grit if the target is Fatigued.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_bleeding_tome} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.  You regain X Grit if the target is Fatigued.
+}}">Sangui</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current Zone takes 2 Hits. You regain 2 Grit if the target is
+                Fatigued.</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current Zone takes X Hits, where X is equal to Hits in the
+                result set. You regain 2 Grit if the target is Fatigued.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current Zone takes X Hits, where X is equal to Hits in the
+                result set. You regain X Grit if the target is Fatigued.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Hungering Tide</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_hungering_tide" type="number" value="0" step="1" max="5" />
+            of 5</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Hungering Tide
+    --Aspect|Destroy
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_destroy}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If the target is Dazed, your recover 2 to your Primary Defense.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If the target is Dazed, your recover X to your Primary Defense.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 5 ?? Effect:|**//Rank - 5//**^^All targets in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.  If a target is Dazed, your recover X to your Primary Defense.
+}}">Destroy</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set. If the target is Dazed, your recover 2 to your Primary Defense.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set. If the target is Dazed, your recover X to your Primary Defense.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">All targets in your Current or an Adjacent Zone takes X Hits, where X is equal to
+                Hits in the result set. If a target is Dazed, your recover X to your Primary Defense.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Hungering Tide
+    --Aspect|Tellus
+    --Type|
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 2 ?? Effect:|**//Rank - 2//**^^All targets in your Current Zone become Prone.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 3 ?? Effect:|**//Rank - 3//**^^All targets in your Current Zone take become Prone and gain Dazed 1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 5 ?? Effect:|**//Rank - 5//**^^All targets in your Current Zone take become Prone and gain Dazed X, where X is equal to Hits in the result set.
+}}">Tellus</button>
+        <br><em></em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">All targets in your Current Zone become Prone.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">All targets in your Current Zone take become Prone and gain Dazed 1.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">All targets in your Current Zone take become Prone and gain Dazed X, where X is
+                equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Hungering Tide
+    --Aspect|Torrent
+    --Type|
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 2 ?? Effect:|**//Rank - 2//**^^Move one target in your Curent Zone away from you to an Adjacent Zone.  If the target is Prone, it loses X Grit, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 3 ?? Effect:|**//Rank - 3//**^^Move all targets in your Current or an Adjacent Zone up to one Adjacent Zone from their Current Zone.  If a target is Prone, it loses X Grit, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_hungering_tide} >= 5 ?? Effect:|**//Rank - 5//**^^Move up to X targets in your Current or an Adjacent Zone up to one Adjacent Zone from their Current Zone.  If the target is Prone, it loses X Grit, where X is equal to Hits in the result set.  If a target is Dazed, reduce your Strain by X.
+}}">Torrent</button>
+        <br><em></em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Move one target in your Curent Zone away from you to an Adjacent Zone. If the
+                target is Prone, it loses X Grit, where X is equal to Hits in the result set.</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Move all targets in your Current or an Adjacent Zone up to one Adjacent Zone from
+                their Current Zone. If a target is Prone, it loses X Grit, where X is equal to Hits in the result set.
+            </div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Move up to X targets in your Current or an Adjacent Zone up to one Adjacent Zone
+                from their Current Zone. If the target is Prone, it loses X Grit, where X is equal to Hits in the result
+                set. If a target is Dazed, reduce your Strain by X.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Vihreän Astri</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_vihreän_astri" type="number" value="0" step="1" max="4" /> of
+            4</label>
+        <h4 style="margin:3px;">Threshold &mdash; 2</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Vihreän Astri
+    --Aspect|Lux
+    --Type|Ability
+    --Cost|2
+    --api_modattr|_name @{character_name} _strain|2
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone takes 1 Hits and gains Fatigued 1, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 2 ?? Effect:|**//Rank - 2//**^^One target in your Current or an Adjacent Zone takes X Hits and gains Fatigued 1, where X is equal to Hits in the result set.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current or an Adjacent Zone takes X Hits and gains Fatigued X, where X is equal to Hits in the result set.
+}}">Lux</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 2</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes 1 Hits and gains Fatigued 1,
+                where X is equal to Hits in the result set.</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits and gains Fatigued 1,
+                where X is equal to Hits in the result set.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone takes X Hits and gains Fatigued X,
+                where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Vihreän Astri
+    --Aspect|Ordi
+    --Type|Shift
+    --Cost|1
+    --api_modattr|_name @{character_name} _strain|1
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_ordi}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 2 ?? Effect:|**//Rank - 2//**^^Reduce your Strain by -1 for each target in your Zone that is Fatigued.<br>Reduce your Strain by -1 for each target in your Zone that is Charmed.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 4 ?? Effect:|**//Rank - 4//**^^Reduce your Strain by -1 for each target in your Zone that is Fatigued.<br>Reduce your Strain by -1 for each target in your Zone that is Charmed.<br>Move to an Adjacent Zone ignoring Hazards.
+}}">Ordi</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 1</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">Reduce your Strain by -1 for each target in your Zone that is Fatigued.<br>Reduce
+                your Strain by -1 for each target in your Zone that is Charmed.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">Reduce your Strain by -1 for each target in your Zone that is Fatigued.<br>Reduce
+                your Strain by -1 for each target in your Zone that is Charmed.<br>Move to an Adjacent Zone ignoring
+                Hazards.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Vihreän Astri
+    --Aspect|Plaga
+    --Type|Ability
+    --Cost|None
+    --api_modattr|_name @{character_name} _strain|None
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 1 ?? Effect:|**//Rank - 1//**^^One target in your Current or an Adjacent Zone loses 1 Grit and gains Charmed 2.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 3 ?? Effect:|**//Rank - 3//**^^One target in your Current or an Adjacent Zone loses 3 Grit and gains Charmed 2.
+--?? $arcana.ss >= 2 AND @{arc_rank_the_vihreän_astri} >= 4 ?? Effect:|**//Rank - 4//**^^One target in your Current or an Adjacent Zone loses 3 Grit and gains Charmed X.
+}}">Plaga</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; None</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 1 Grit and gains Charmed 2.
+            </div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 3 Grit and gains Charmed 2.
+            </div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">One target in your Current or an Adjacent Zone loses 3 Grit and gains Charmed X.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Sequence</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_sequence" type="number" value="0" step="1" max="8" /> of
+            8</label>
+        <h4 style="margin:3px;">Threshold &mdash; 3</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Sequence
+    --Aspect|Tempor
+    --Type|Ability
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 3 ?? Effect:|**//Rank - 3//**^^Increase the current Timer by +1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 5 ?? Effect:|**//Rank - 5//**^^Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +1.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 8 ?? Effect:|**//Rank - 8//**^^Increase the current Timer by +1.  If the Momentum is 10 or greater, immediately take another Action.  Otherwise, Increase the Momentum by +X, where X is equal to Hits in the result set.
+}}">Tempor</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Increase the current Timer by +1.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Increase the current Timer by +1. If the Momentum is 10 or greater, immediately
+                take another Action. Otherwise, Increase the Momentum by +1.</div>
+            <div class="arcana-data">8</div>
+            <div class="arcana-data">Increase the current Timer by +1. If the Momentum is 10 or greater, immediately
+                take another Action. Otherwise, Increase the Momentum by +X, where X is equal to Hits in the result set.
+            </div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Sequence
+    --Aspect|Locus
+    --Type|Shift
+    --Cost|3
+    --api_modattr|_name @{character_name} _strain|3
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_locus}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 3 ?? Effect:|**//Rank - 3//**^^Move one target in your Current or an Adjacent Zone to your Current Zone.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 5 ?? Effect:|**//Rank - 5//**^^Move one target in your Current or an Adjacent Zone to any Zone Adjacent to your Current Zone.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 8 ?? Effect:|**//Rank - 8//**^^Move X targets in your Current or an Adjacent Zone to any Zone Adjacent to your Current Zone.
+}}">Locus</button>
+        <br><em>Shift</em><br><strong>Strain &mdash; 3</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Move one target in your Current or an Adjacent Zone to your Current Zone.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Move one target in your Current or an Adjacent Zone to any Zone Adjacent to your
+                Current Zone.</div>
+            <div class="arcana-data">8</div>
+            <div class="arcana-data">Move X targets in your Current or an Adjacent Zone to any Zone Adjacent to your
+                Current Zone.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Sequence
+    --Aspect|Arithm
+    --Type|Ability
+    --Cost|6
+    --api_modattr|_name @{character_name} _strain|6
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_arithm}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 3 ?? Effect:|**//Rank - 3//**^^Roll 1d20 + Hits as X.  If X is greater than 17, you gain +1 Milestone.  Otherwise, increase the Entropy by +10.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 5 ?? Effect:|**//Rank - 5//**^^Roll 1d20 + Hits as X.  If X is greater than 16, you gain +1 Milestone.  Otherwise, increase the Entropy by +10.
+--?? $arcana.ss >= 3 AND @{arc_rank_the_sequence} >= 8 ?? Effect:|**//Rank - 8//**^^Roll 1d20 + Hits as X.  If X is greater than 15, you gain +1 Milestone.  Otherwise, increase the Entropy by +10.
+}}">Arithm</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 6</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">Roll 1d20 + Hits as X. If X is greater than 17, you gain +1 Milestone. Otherwise,
+                increase the Entropy by +10.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">Roll 1d20 + Hits as X. If X is greater than 16, you gain +1 Milestone. Otherwise,
+                increase the Entropy by +10.</div>
+            <div class="arcana-data">8</div>
+            <div class="arcana-data">Roll 1d20 + Hits as X. If X is greater than 15, you gain +1 Milestone. Otherwise,
+                increase the Entropy by +10.</div>
+        </div>
+    </div>
+</div>
+<div class="grid-container-arcana">
+    <div class="grid-talents-label">
+        <h3 style="margin:3px;">The Recursion</h3>
+        <label>Arcana Rank: <input name="attr_arc_rank_the_recursion" type="number" value="0" step="1" max="8" /> of
+            8</label>
+        <h4 style="margin:3px;">Threshold &mdash; 4</h4>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Recursion
+    --Aspect|Tempor
+    --Type|Ability
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 2 ?? Effect:|**//Rank - 2//**^^The current Timer ends.
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 5 ?? Effect:|**//Rank - 5//**^^The current Timer ends.  If the Momentum is greater than the Entropy, reduce your Strain by -3.
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 8 ?? Effect:|**//Rank - 8//**^^The current Timer ends.  If the Momentum is greater than the Entropy, reduce your Strain by -X, where X is equal to Hits in the result set.
+}}">Tempor</button>
+        <br><em>Ability</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">2</div>
+            <div class="arcana-data">The current Timer ends.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">The current Timer ends. If the Momentum is greater than the Entropy, reduce your
+                Strain by -3.</div>
+            <div class="arcana-data">8</div>
+            <div class="arcana-data">The current Timer ends. If the Momentum is greater than the Entropy, reduce your
+                Strain by -X, where X is equal to Hits in the result set.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Recursion
+    --Aspect|Vivus
+    --Type|Trigger
+    --Cost|5
+    --api_modattr|_name @{character_name} _strain|5
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 3 ?? Effect:|**//Rank - 3//**^^When the current Timer ends while its value is above 1, you regain +3 Grit.
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 5 ?? Effect:|**//Rank - 5//**^^When the current Timer ends while its value is above 1, you and up to X target in your Current Zone regain +3 Grit.
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 7 ?? Effect:|**//Rank - 7//**^^When the current Timer ends while its value is above 1, you and up to X target in your Current Zone regain +5 Grit.
+}}">Vivus</button>
+        <br><em>Trigger</em><br><strong>Strain &mdash; 5</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">3</div>
+            <div class="arcana-data">When the current Timer ends while its value is above 1, you regain +3 Grit.</div>
+            <div class="arcana-data">5</div>
+            <div class="arcana-data">When the current Timer ends while its value is above 1, you and up to X target in
+                your Current Zone regain +3 Grit.</div>
+            <div class="arcana-data">7</div>
+            <div class="arcana-data">When the current Timer ends while its value is above 1, you and up to X target in
+                your Current Zone regain +5 Grit.</div>
+        </div>
+    </div>
+    <div class="grid-arcana-item"><button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - The Recursion
+    --Aspect|Destroy
+    --Type|Trigger
+    --Cost|0
+    --api_modattr|_name @{character_name} _strain|0
+    --Result Set|[[ [$arcana|XPND] @{Cosm|challenge}d@{skill_destroy}>@{Cosm|target}]]
+    --Hits|[^arcana.ss]
+    --1s|[^arcana.ones]
+    --format|powercheck
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 1 ?? Effect:|**//Rank - 1//**^^When the current Timer ends while its value is above 1, all targets in your Current Zone lose -3 Grit.
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 4 ?? Effect:|**//Rank - 4//**^^When the current Timer ends while its value is above 1, all targets in your Current Zone except for you lose -3 Grit.
+--?? $arcana.ss >= 4 AND @{arc_rank_the_recursion} >= 8 ?? Effect:|**//Rank - 8//**^^When the current Timer ends while its value is above 1, all targets in your Current Zone except for you lose -5 Grit.  If a target dies from this effect, set a new Timer to 2 and immediately take an Action.
+}}">Destroy</button>
+        <br><em>Trigger</em><br><strong>Strain &mdash; 0</strong>
+        <div class="grid-arcana-table">
+            <div class="arcana-data">Rank</div>
+            <div class="arcana-data">Effect</div>
+            <div class="arcana-data">1</div>
+            <div class="arcana-data">When the current Timer ends while its value is above 1, all targets in your Current
+                Zone lose -3 Grit.</div>
+            <div class="arcana-data">4</div>
+            <div class="arcana-data">When the current Timer ends while its value is above 1, all targets in your Current
+                Zone except for you lose -3 Grit.</div>
+            <div class="arcana-data">8</div>
+            <div class="arcana-data">When the current Timer ends while its value is above 1, all targets in your Current
+                Zone except for you lose -5 Grit. If a target dies from this effect, set a new Timer to 2 and
+                immediately take an Action.</div>
+        </div>
+    </div>
+</div>

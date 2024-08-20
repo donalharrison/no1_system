@@ -1,23 +1,23 @@
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_aether" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_aether" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Aether</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Aether Trigger 1</div>
+                <div>Arcane</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Aether effect and score 0 Hits, add +2 Hits to the result.
+                        When you use an Aether effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_1" />
+                    <input type="checkbox" name="arcane" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 1
---Effect|When you use an Aether effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Arcane
+--Effect|When you use an Aether effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Aether
                         </button>
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Aether Trigger 2</div>
+                <div>Mystical</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -34,10 +34,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_2" />
+                    <input type="checkbox" name="mystical" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 2
+--name|@{character_name} - Mystical
 --Effect|When you use an Aether effect, score +1 Bonus Hits.
 }}">
                             Aether
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Aether Trigger 3</div>
+                <div>Celestial</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -55,10 +55,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_3" />
+                    <input type="checkbox" name="celestial" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 3
+--name|@{character_name} - Celestial
 --Effect|When you score 3+ Hits with an Aether effect, you may have the target gain Dazed 1.
 }}">
                             Aether
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Aether Trigger 4</div>
+                <div>Cosmic</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -76,10 +76,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_4" />
+                    <input type="checkbox" name="cosmic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 4
+--name|@{character_name} - Cosmic
 --Effect|When you score 4+ Hits with an Aether effect, you may remove 1 Hazard in the effect's Zone.
 }}">
                             Aether
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Aether Trigger 5</div>
+                <div>Ethereal</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -97,10 +97,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_5" />
+                    <input type="checkbox" name="ethereal" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 5
+--name|@{character_name} - Ethereal
 --Effect|When you use the Recover Action and score 4+ Hits, you may reduce one Status by -1.
 }}">
                             Aether
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Aether Trigger 6</div>
+                <div>Otherworldly</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -119,10 +119,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_6" />
+                    <input type="checkbox" name="otherworldly" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 6
+--name|@{character_name} - Otherworldly
 --Effect|When you score 3+ Hits with a Aether effect, you may have the effect's Zone lose Darkened until your next turn.
 }}">
                             Aether
@@ -131,7 +131,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Aether Trigger 7</div>
+                <div>Chimeric</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -140,10 +140,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="aether_trigger_7" />
+                    <input type="checkbox" name="chimeric" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Aether Trigger 7
+--name|@{character_name} - Chimeric
 --Effect|When you score 3+ Hits with an Inferno effect, you may have the target gain Charmed 1.
 }}">
                             Aether
@@ -175,9 +175,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_arithm" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_arithm" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Arithm</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -186,7 +186,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Arithm effect and score 0 Hits, add +2 Hits to the result.
+                        When you use an Arithm effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
@@ -194,7 +194,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Scalar
---Effect|When you use an Arithm effect and score 0 Hits, add +2 Hits to the result.
+--Effect|When you use an Arithm effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Arithm
                         </button>
@@ -223,7 +223,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 11</div>
+                <div>Calculated</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -232,10 +232,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_11" />
+                    <input type="checkbox" name="calculated" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 11
+--name|@{character_name} - Calculated
 --Effect|When you score 4+ Hits with an Arithm effect, you may regain +1 Axiom.
 }}">
                             Arithm
@@ -244,7 +244,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 12</div>
+                <div>Formulaic</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -253,10 +253,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_12" />
+                    <input type="checkbox" name="formulaic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 12
+--name|@{character_name} - Formulaic
 --Effect|When you Perceive and score 3+ Hits, you may use 1 other Arithm Skill Trigger.
 }}">
                             Arithm
@@ -265,7 +265,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 13</div>
+                <div>Geometric</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -274,10 +274,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_13" />
+                    <input type="checkbox" name="geometric" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 13
+--name|@{character_name} - Geometric
 --Effect|When you Analyze and score 3+ Hits, you may use 1 other Arithm Skill Trigger.
 }}">
                             Arithm
@@ -286,7 +286,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 14</div>
+                <div>Exacting</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -295,10 +295,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_14" />
+                    <input type="checkbox" name="exacting" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 14
+--name|@{character_name} - Exacting
 --Effect|When you use your Insight and score 3+ Hits, you may use 1 other Arithm Skill Trigger.
 }}">
                             Arithm
@@ -307,7 +307,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 15</div>
+                <div>Integral</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -316,10 +316,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_15" />
+                    <input type="checkbox" name="integral" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 15
+--name|@{character_name} - Integral
 --Effect|When you score 3+ Hits with an Arithm effect, you may increase the Challenge by +1.
 }}">
                             Arithm
@@ -328,7 +328,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 16</div>
+                <div>Numerical</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -337,10 +337,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_16" />
+                    <input type="checkbox" name="numerical" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 16
+--name|@{character_name} - Numerical
 --Effect|When you score 3+ Hits with an Arithm effect, you may decrease the Challenge by -1.
 }}">
                             Arithm
@@ -349,7 +349,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Arithm Trigger 17</div>
+                <div>Differentiable</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -358,10 +358,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="arithm_trigger_17" />
+                    <input type="checkbox" name="differentiable" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Arithm Trigger 17
+--name|@{character_name} - Differentiable
 --Effect|When you Research and score 3+ Hits, you may use 1 other Arithm Skill Trigger.
 }}">
                             Arithm
@@ -393,26 +393,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_bellor" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_bellor" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Bellor</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Bellor Trigger 19</div>
+                <div>Fierce</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 0 Hits with a Bellor effect, add +2 Hits to the result.
+                        When you score 0 Hits with a Bellor effect, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="bellor_trigger_19" />
+                    <input type="checkbox" name="fierce" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Bellor Trigger 19
---Effect|When you score 0 Hits with a Bellor effect, add +2 Hits to the result.
+--name|@{character_name} - Fierce
+--Effect|When you score 0 Hits with a Bellor effect, add +2 Bonus Hits to the result.
 }}">
                             Bellor
                         </button>
@@ -420,7 +420,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Bellor Trigger 20</div>
+                <div>Warlike</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -430,10 +430,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="bellor_trigger_20" />
+                    <input type="checkbox" name="warlike" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Bellor Trigger 20
+--name|@{character_name} - Warlike
 --Effect|When you score 4+ Hits with a Bellor effect while the Entropy is 10+, add +1d4 Bonus Hits to the result set.
 }}">
                             Bellor
@@ -442,7 +442,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Bellor Trigger 21</div>
+                <div>Savage</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -452,10 +452,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="bellor_trigger_21" />
+                    <input type="checkbox" name="savage" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Bellor Trigger 21
+--name|@{character_name} - Savage
 --Effect|When you use Martial Arts or Strike and score 3+ Hits, you may increase the Entropy by +2 to add +2 Bonus Hits to your result set.
 }}">
                             Bellor
@@ -464,7 +464,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Bellor Trigger 22</div>
+                <div>Relentless</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -474,10 +474,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="bellor_trigger_22" />
+                    <input type="checkbox" name="relentless" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Bellor Trigger 22
+--name|@{character_name} - Relentless
 --Effect|When you Intimidate a target and score 3+ Hits, you may increase the Entropy by +1 to regain +2 Grit.
 }}">
                             Bellor
@@ -486,7 +486,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Bellor Trigger 23</div>
+                <div>Brutal</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -496,10 +496,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="bellor_trigger_23" />
+                    <input type="checkbox" name="brutal" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Bellor Trigger 23
+--name|@{character_name} - Brutal
 --Effect|When you use Martial Arts, Strike, or Grapple a target and score 2+ Hits, you may spend 3 Momentum and 1 Entropy to have the target gain Confused 1.
 }}">
                             Bellor
@@ -508,7 +508,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Bellor Trigger 24</div>
+                <div>Ruthless</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -517,10 +517,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="bellor_trigger_24" />
+                    <input type="checkbox" name="ruthless" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Bellor Trigger 24
+--name|@{character_name} - Ruthless
 --Effect|Under Development
 }}">
                             Bellor
@@ -531,26 +531,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_craft" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_craft" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Craft</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Craft Trigger 25</div>
+                <div>Practiced</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you Craft an Epic and score 0 Hits, add +2 Hits to the result set.
+                        When you Craft an Epic and score 0 Hits, add +2 Bonus Hits to the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_25" />
+                    <input type="checkbox" name="practiced" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 25
---Effect|When you Craft an Epic and score 0 Hits, add +2 Hits to the result set.
+--name|@{character_name} - Practiced
+--Effect|When you Craft an Epic and score 0 Hits, add +2 Bonus Hits to the result set.
 }}">
                             Craft
                         </button>
@@ -558,7 +558,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 26</div>
+                <div>Praiseworthy</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -568,10 +568,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_26" />
+                    <input type="checkbox" name="praiseworthy" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 26
+--name|@{character_name} - Praiseworthy
 --Effect|When you Craft an Epic and score 5+ Hits, you may use your Shift this turn to activate the next Verse of the Epic as a Trigger.
 }}">
                             Craft
@@ -580,20 +580,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 27</div>
+                <div>Handcrafted</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you Craft to restore Gear Ratings and score 0 Hits, add +2 Hits to the result set.
+                        When you Craft to restore Gear Ratings and score 0 Hits, add +2 Bonus Hits to the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_27" />
+                    <input type="checkbox" name="handcrafted" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 27
---Effect|When you Craft to restore Gear Ratings and score 0 Hits, add +2 Hits to the result set.
+--name|@{character_name} - Handcrafted
+--Effect|When you Craft to restore Gear Ratings and score 0 Hits, add +2 Bonus Hits to the result set.
 }}">
                             Craft
                         </button>
@@ -601,7 +601,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 28</div>
+                <div>Emotional</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -610,10 +610,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_28" />
+                    <input type="checkbox" name="emotional" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 28
+--name|@{character_name} - Emotional
 --Effect|When you Craft an Epic with the Ballad keyword, add +1 Bonus Hit to the result set.
 }}">
                             Craft
@@ -622,7 +622,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 29</div>
+                <div>Enrapturing</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -631,10 +631,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_29" />
+                    <input type="checkbox" name="enrapturing" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 29
+--name|@{character_name} - Enrapturing
 --Effect|When you Craft an Epic with the Saga keyword, add +1 Bonus Hit to the result set.
 }}">
                             Craft
@@ -643,7 +643,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 30</div>
+                <div>Meticulous</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -652,10 +652,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_30" />
+                    <input type="checkbox" name="meticulous" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 30
+--name|@{character_name} - Meticulous
 --Effect|When you Craft to restore Gear ratings, score +1 Bonus Hits.
 }}">
                             Craft
@@ -664,20 +664,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft 31</div>
+                <div>Artisanal</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you Craft to create Concoctions and score 0 Hits, add +2 Hits to the result set.
+                        When you Craft to create Concoctions and score 0 Hits, add +2 Bonus Hits to the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft__31" />
+                    <input type="checkbox" name="artisanal" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft  31
---Effect|When you Craft to create Concoctions and score 0 Hits, add +2 Hits to the result set.
+--name|@{character_name} - Artisanal
+--Effect|When you Craft to create Concoctions and score 0 Hits, add +2 Bonus Hits to the result set.
 }}">
                             Craft
                         </button>
@@ -685,7 +685,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 32</div>
+                <div>Skillful</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -694,10 +694,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_32" />
+                    <input type="checkbox" name="skillful" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 32
+--name|@{character_name} - Skillful
 --Effect|When you Craft to create Concoctions, score +1 Bonus Hits.
 }}">
                             Craft
@@ -706,7 +706,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 33</div>
+                <div>Fortified</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -715,10 +715,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_33" />
+                    <input type="checkbox" name="fortified" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 33
+--name|@{character_name} - Fortified
 --Effect|When you Craft to create Concoctions and score 3+, reduce the number of turns required by -2.
 }}">
                             Craft
@@ -727,7 +727,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 34</div>
+                <div>Restorative</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -736,10 +736,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_34" />
+                    <input type="checkbox" name="restorative" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 34
+--name|@{character_name} - Restorative
 --Effect|When Strike a target and score 3+ Hits, you may restore +1 Gear Rating to your equipped weapon.
 }}">
                             Craft
@@ -748,7 +748,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Craft Trigger 35</div>
+                <div>Masterful</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -757,10 +757,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="craft_trigger_35" />
+                    <input type="checkbox" name="masterful" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Craft Trigger 35
+--name|@{character_name} - Masterful
 --Effect|When you Craft, add +1 Bonus Hits to the result set.
 }}">
                             Craft
@@ -792,26 +792,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_destroy" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_destroy" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Destroy</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Destroy Trigger 37</div>
+                <div>Ruinous</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Destroy effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Destroy effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_37" />
+                    <input type="checkbox" name="ruinous" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 37
---Effect|When you use a Destroy effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Ruinous
+--Effect|When you use a Destroy effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Destroy
                         </button>
@@ -819,7 +819,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 38</div>
+                <div>Cataclysmic</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -828,10 +828,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_38" />
+                    <input type="checkbox" name="cataclysmic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 38
+--name|@{character_name} - Cataclysmic
 --Effect|When you use a Destroy effect, score +1 Bonus Hits.
 }}">
                             Destroy
@@ -840,7 +840,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 39</div>
+                <div>Annihilating</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -849,10 +849,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_39" />
+                    <input type="checkbox" name="annihilating" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 39
+--name|@{character_name} - Annihilating
 --Effect|When you score 4+ Hits with a Destroy effect, your target gains Vulnerable 1.
 }}">
                             Destroy
@@ -861,7 +861,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 40</div>
+                <div>Devastating</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -870,10 +870,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_40" />
+                    <input type="checkbox" name="devastating" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 40
+--name|@{character_name} - Devastating
 --Effect|When you score 4+ Hits with a Destroy effect, your target gains Wounded 1.
 }}">
                             Destroy
@@ -882,7 +882,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 41</div>
+                <div>Savaging</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -892,10 +892,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_41" />
+                    <input type="checkbox" name="savaging" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 41
+--name|@{character_name} - Savaging
 --Effect|When you score 4+ Hits with a Destroy effect that has a single target, you may score +1 Bonus Hits against a different target in the effect's Zone.
 }}">
                             Destroy
@@ -904,7 +904,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 42</div>
+                <div>Wrecking</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -914,10 +914,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_42" />
+                    <input type="checkbox" name="wrecking" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 42
+--name|@{character_name} - Wrecking
 --Effect|When you use Martial Arts, Strike, or Grapple a target and score 3+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set.
 }}">
                             Destroy
@@ -926,7 +926,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 43</div>
+                <div>Indelible</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -936,10 +936,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_43" />
+                    <input type="checkbox" name="indelible" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 43
+--name|@{character_name} - Indelible
 --Effect|When you Shoot or Thow at a target and score 3+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set.
 }}">
                             Destroy
@@ -948,7 +948,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 44</div>
+                <div>Appeasing</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -957,10 +957,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_44" />
+                    <input type="checkbox" name="appeasing" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 44
+--name|@{character_name} - Appeasing
 --Effect|When you use a Destroy effect and score 3+ Hits, you may regain +1 Succor.
 }}">
                             Destroy
@@ -969,7 +969,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 45</div>
+                <div>Aligned</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -978,10 +978,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_45" />
+                    <input type="checkbox" name="aligned" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 45
+--name|@{character_name} - Aligned
 --Effect|When you use a Destroy effect and score 3+ Hits, you may regain +1 Concordance.
 }}">
                             Destroy
@@ -990,7 +990,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Destroy Trigger 46</div>
+                <div>Mythical</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -999,10 +999,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="destroy_trigger_46" />
+                    <input type="checkbox" name="mythical" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Destroy Trigger 46
+--name|@{character_name} - Mythical
 --Effect|When you use a Destroy effect and score 3+ Hits, you may reduce your Strain by -3.
 }}">
                             Destroy
@@ -1013,9 +1013,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_forma" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_forma" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Forma</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1147,9 +1147,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_inferno" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_inferno" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Inferno</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1201,7 +1201,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Inferno effect and score 0 Hits, add +2 Hits to the result.
+                        When you use an Inferno effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
@@ -1209,7 +1209,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Inextinguishable
---Effect|When you use an Inferno effect and score 0 Hits, add +2 Hits to the result.
+--Effect|When you use an Inferno effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Inferno
                         </button>
@@ -1326,26 +1326,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_intuit" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_intuit" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Intuit</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Intuit Trigger 61</div>
+                <div>Sharpened</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Intuit effect and score 0 Hits, add +2 Hits to the result.
+                        When you use an Intuit effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="intuit_trigger_61" />
+                    <input type="checkbox" name="sharpened" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 61
---Effect|When you use an Intuit effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Sharpened
+--Effect|When you use an Intuit effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Intuit
                         </button>
@@ -1353,7 +1353,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Intuit Trigger 62</div>
+                <div>Prescient</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -1362,10 +1362,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="intuit_trigger_62" />
+                    <input type="checkbox" name="prescient" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 62
+--name|@{character_name} - Prescient
 --Effect|When you use an Intuit effect, score +1 Bonus Hits.
 }}">
                             Intuit
@@ -1374,20 +1374,21 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Intuit Trigger 63</div>
+                <div>Astute</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you Perceive and score 0 Hits, add +1d4 Bonus Hits to the result set.
+                        When you use Analyze, Insight, Investigate, Perceive, or Persuade and score 0 Hits, add +1d4
+                        Bonus Hits to the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="intuit_trigger_63" />
+                    <input type="checkbox" name="astute" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 63
---Effect|When you Perceive and score 0 Hits, add +1d4 Bonus Hits to the result set.
+--name|@{character_name} - Astute
+--Effect|When you use Analyze, Insight, Investigate, Perceive, or Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set.
 }}">
                             Intuit
                         </button>
@@ -1395,20 +1396,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Intuit Trigger 64</div>
+                <div>Keen</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you use a Savvy Skill and score 5+ Hits, you gain an additional Shift this turn.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="intuit_trigger_64" />
+                    <input type="checkbox" name="keen" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 64
---Effect|Under Development
+--name|@{character_name} - Keen
+--Effect|When you use a Savvy Skill and score 5+ Hits, you gain an additional Shift this turn.
 }}">
                             Intuit
                         </button>
@@ -1416,20 +1417,21 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Intuit Trigger 65</div>
-                <div>Rank 1</div>
+                <div>Discerning</div>
+                <div>Rank 3</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use your Insight and score 0 Hits, add +1d4 Bonus Hits to the result set.
+                        When you use Insight or Persuade and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus
+                        Hits to the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="intuit_trigger_65" />
+                    <input type="checkbox" name="discerning" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 65
---Effect|When you use your Insight and score 0 Hits, add +1d4 Bonus Hits to the result set.
+--name|@{character_name} - Discerning
+--Effect|When you use Insight or Persuade and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set.
 }}">
                             Intuit
                         </button>
@@ -1437,106 +1439,21 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Intuit Trigger 66</div>
-                <div>Rank 1</div>
+                <div>Sharpened</div>
+                <div>Rank 3</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you Analyze and score 0 Hits, add +1d4 Bonus Hits to the result set.
+                        When you use Analyze or Perceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus
+                        Hits to the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="intuit_trigger_66" />
+                    <input type="checkbox" name="sharpened" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 66
---Effect|When you Analyze and score 0 Hits, add +1d4 Bonus Hits to the result set.
-}}">
-                            Intuit
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Intuit Trigger 67</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        When you Investigate and score 0 Hits, add +1d4 Bonus Hits to the result set.
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="intuit_trigger_67" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 67
---Effect|When you Investigate and score 0 Hits, add +1d4 Bonus Hits to the result set.
-}}">
-                            Intuit
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Intuit Trigger 68</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        When you Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set.
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="intuit_trigger_68" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 68
---Effect|When you Persuade and score 0 Hits, add +1d4 Bonus Hits to the result set.
-}}">
-                            Intuit
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Intuit Trigger 69</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        When you Persuade a target and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits
-                        to the result set.
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="intuit_trigger_69" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 69
---Effect|When you Persuade a target and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set.
-}}">
-                            Intuit
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Intuit Trigger 70</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        When you Pererceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the
-                        result set.
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="intuit_trigger_70" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Intuit Trigger 70
---Effect|When you Pererceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set.
+--name|@{character_name} - Sharpened
+--Effect|When you use Analyze or Perceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set.
 }}">
                             Intuit
                         </button>
@@ -1546,26 +1463,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_locus" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_locus" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Locus</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Locus Trigger 71</div>
+                <div>Positional</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Locus effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Locus effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="locus_trigger_71" />
+                    <input type="checkbox" name="positional" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Locus Trigger 71
---Effect|When you use an Locus effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Positional
+--Effect|When you use a Locus effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Locus
                         </button>
@@ -1573,20 +1490,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Locus Trigger 72</div>
-                <div>Rank 1</div>
+                <div>Spatial</div>
+                <div>Rank 4</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Locus effect, score +1 Bonus Hits.
+                        When you use a Locus effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="locus_trigger_72" />
+                    <input type="checkbox" name="spatial" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Locus Trigger 72
---Effect|When you use an Locus effect, score +1 Bonus Hits.
+--name|@{character_name} - Spatial
+--Effect|When you use a Locus effect, score +1 Bonus Hits.
 }}">
                             Locus
                         </button>
@@ -1594,7 +1511,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Locus Trigger 73</div>
+                <div>Axial</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -1603,10 +1520,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="locus_trigger_73" />
+                    <input type="checkbox" name="axial" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Locus Trigger 73
+--name|@{character_name} - Axial
 --Effect|When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set.
 }}">
                             Locus
@@ -1615,21 +1532,21 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Locus Trigger 74</div>
-                <div>Rank 1</div>
+                <div>Anchored</div>
+                <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
                         When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to
-                        target any Zone up to 2 Adjacencies from your Current Zone.
+                        target any Zone up to 2 Adjacencies from your Current Zone instead.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="locus_trigger_74" />
+                    <input type="checkbox" name="anchored" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Locus Trigger 74
---Effect|When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to target any Zone up to 2 Adjacencies from your Current Zone.
+--name|@{character_name} - Anchored
+--Effect|When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to target any Zone up to 2 Adjacencies from your Current Zone instead.
 }}">
                             Locus
                         </button>
@@ -1637,8 +1554,8 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Locus Trigger 75</div>
-                <div>Rank 1</div>
+                <div>Accelerated</div>
+                <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
@@ -1647,10 +1564,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="locus_trigger_75" />
+                    <input type="checkbox" name="accelerated" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Locus Trigger 75
+--name|@{character_name} - Accelerated
 --Effect|When you take an Action that targets something in an Adjacent Zone, you may spend 2 Momentum to add +1d4 Bonus Hits to the result set.
 }}">
                             Locus
@@ -1659,8 +1576,8 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Locus Trigger 76</div>
-                <div>Rank 1</div>
+                <div>Vectorial</div>
+                <div>Rank 3</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
@@ -1669,10 +1586,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="locus_trigger_76" />
+                    <input type="checkbox" name="vectorial" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Locus Trigger 76
+--name|@{character_name} - Vectorial
 --Effect|When you Shift to Move to an Adjacent Zone, you may spend 3 Momentum to immediately use another Shift.
 }}">
                             Locus
@@ -1683,26 +1600,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_luck" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_luck" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Luck</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Luck Trigger 77</div>
+                <div>Serendipitous</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Luck effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Luck effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_77" />
+                    <input type="checkbox" name="serendipitous" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 77
---Effect|When you use a Luck effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Serendipitous
+--Effect|When you use a Luck effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Luck
                         </button>
@@ -1710,7 +1627,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 78</div>
+                <div>Lucky</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -1719,10 +1636,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_78" />
+                    <input type="checkbox" name="lucky" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 78
+--name|@{character_name} - Lucky
 --Effect|When you use a Luck effect, score +1 Bonus Hits.
 }}">
                             Luck
@@ -1731,20 +1648,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 79</div>
-                <div>Rank 1</div>
+                <div>Fortuitous</div>
+                <div>Rank 3</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Action and score 0 Hits, you may spend 4 Momentum and reroll the result set.
+                        When you use an Action and score 0 Hits, you may spend 2 Momentum and reroll the result set.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_79" />
+                    <input type="checkbox" name="fortuitous" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 79
---Effect|When you use an Action and score 0 Hits, you may spend 4 Momentum and reroll the result set.
+--name|@{character_name} - Fortuitous
+--Effect|When you use an Action and score 0 Hits, you may spend 2 Momentum and reroll the result set.
 }}">
                             Luck
                         </button>
@@ -1752,7 +1669,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 80</div>
+                <div>Favorable</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -1761,10 +1678,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_80" />
+                    <input type="checkbox" name="favorable" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 80
+--name|@{character_name} - Favorable
 --Effect|When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result.
 }}">
                             Luck
@@ -1773,8 +1690,8 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 81</div>
-                <div>Rank 1</div>
+                <div>Auspicious</div>
+                <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
@@ -1783,10 +1700,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_81" />
+                    <input type="checkbox" name="auspicious" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 81
+--name|@{character_name} - Auspicious
 --Effect|When you use a Savvy skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set.
 }}">
                             Luck
@@ -1795,7 +1712,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 82</div>
+                <div>Opportune</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -1805,10 +1722,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_82" />
+                    <input type="checkbox" name="opportune" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 82
+--name|@{character_name} - Opportune
 --Effect|When you use a Deft skill and score 0 Hits, you may spend 1 Momentum and add +2 Bonus Hits to the result set.
 }}">
                             Luck
@@ -1817,8 +1734,8 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 83</div>
-                <div>Rank 1</div>
+                <div>Providential</div>
+                <div>Rank 3</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
@@ -1826,10 +1743,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_83" />
+                    <input type="checkbox" name="providential" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 83
+--name|@{character_name} - Providential
 --Effect|When you use a Maneuver and fail, you may reroll the Maneuver, keeping the second result.
 }}">
                             Luck
@@ -1838,7 +1755,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 84</div>
+                <div>Charmed</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -1848,10 +1765,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_84" />
+                    <input type="checkbox" name="charmed" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 84
+--name|@{character_name} - Charmed
 --Effect|When you use an action and roll a 1 in the result set, you may spend a Trait Point to reroll the entire result set instead of only the 1.
 }}">
                             Luck
@@ -1860,7 +1777,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Luck Trigger 85</div>
+                <div>Fortunate</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -1869,32 +1786,11 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="luck_trigger_85" />
+                    <input type="checkbox" name="fortunate" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 85
+--name|@{character_name} - Fortunate
 --Effect|When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set.
-}}">
-                            Luck
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Luck Trigger 86</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="luck_trigger_86" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Luck Trigger 86
---Effect|Under Development
 }}">
                             Luck
                         </button>
@@ -1904,9 +1800,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_lux" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_lux" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Lux</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -1936,7 +1832,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Lux effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Lux effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
@@ -1944,7 +1840,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Unfading
---Effect|When you use a Lux effect and score 0 Hits, add +2 Hits to the result.
+--Effect|When you use a Lux effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Lux
                         </button>
@@ -2038,7 +1934,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Lux Trigger 93</div>
+                <div>Lux Trigger 88</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2047,10 +1943,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="lux_trigger_93" />
+                    <input type="checkbox" name="lux_trigger_88" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Lux Trigger 93
+--name|@{character_name} - Lux Trigger 88
 --Effect|Under Development
 }}">
                             Lux
@@ -2059,7 +1955,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Lux Trigger 94</div>
+                <div>Lux Trigger 89</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2068,10 +1964,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="lux_trigger_94" />
+                    <input type="checkbox" name="lux_trigger_89" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Lux Trigger 94
+--name|@{character_name} - Lux Trigger 89
 --Effect|Under Development
 }}">
                             Lux
@@ -2082,13 +1978,13 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_medicine" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_medicine" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Medicine</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Medicine Trigger 95</div>
+                <div>Restorative</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2098,10 +1994,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="medicine_trigger_95" />
+                    <input type="checkbox" name="restorative" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Medicine Trigger 95
+--name|@{character_name} - Restorative
 --Effect|When you score 2+ Hits with a Medicine effect that reduces one target's Status, reduce that Status by an additional -1.
 }}">
                             Medicine
@@ -2110,7 +2006,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Medicine Trigger 96</div>
+                <div>Curative</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2119,10 +2015,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="medicine_trigger_96" />
+                    <input type="checkbox" name="curative" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Medicine Trigger 96
+--name|@{character_name} - Curative
 --Effect|When you use a Medicine effect, score +1 Bonus Hits.
 }}">
                             Medicine
@@ -2131,7 +2027,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Medicine Trigger 97</div>
+                <div>Nurturing</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2140,10 +2036,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="medicine_trigger_97" />
+                    <input type="checkbox" name="nurturing" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Medicine Trigger 97
+--name|@{character_name} - Nurturing
 --Effect|When you use a Medicine effect and score 0 Hits, add +2 Bonus Hits to the result set.
 }}">
                             Medicine
@@ -2152,7 +2048,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Medicine Trigger 98</div>
+                <div>Therapeutic</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2162,10 +2058,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="medicine_trigger_98" />
+                    <input type="checkbox" name="therapeutic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Medicine Trigger 98
+--name|@{character_name} - Therapeutic
 --Effect|When you use a Medicine effect to recover one target's Defenses, you may have that target regain +1 Grit.
 }}">
                             Medicine
@@ -2174,7 +2070,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Medicine Trigger 99</div>
+                <div>Revitalizing</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2184,10 +2080,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="medicine_trigger_99" />
+                    <input type="checkbox" name="revitalizing" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Medicine Trigger 99
+--name|@{character_name} - Revitalizing
 --Effect|When you us a Medicine effect on one target and score 2+ Hits, you may reduce the target's Dying Rating by -1.
 }}">
                             Medicine
@@ -2196,7 +2092,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Medicine Trigger 100</div>
+                <div>Medicine Trigger 95</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2205,10 +2101,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="medicine_trigger_100" />
+                    <input type="checkbox" name="medicine_trigger_95" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Medicine Trigger 100
+--name|@{character_name} - Medicine Trigger 95
 --Effect|Under Development
 }}">
                             Medicine
@@ -2219,26 +2115,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_mentis" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_mentis" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Mentis</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Mentis Trigger 101</div>
+                <div>Cognitive</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Mentis effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Mentis effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="mentis_trigger_101" />
+                    <input type="checkbox" name="cognitive" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mentis Trigger 101
---Effect|When you use a Mentis effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Cognitive
+--Effect|When you use a Mentis effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Mentis
                         </button>
@@ -2246,7 +2142,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Mentis Trigger 102</div>
+                <div>Psychic</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -2255,11 +2151,116 @@
                     </details>
                 </div>
                 <div>
+                    <input type="checkbox" name="psychic" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Psychic
+--Effect|When you use a Mentis effect, score +1 Bonus Hits.
+}}">
+                            Mentis
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Telepathic</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you score 4+ Hits with a Mentis effect, your target gains Confused 1.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="telepathic" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Telepathic
+--Effect|When you score 4+ Hits with a Mentis effect, your target gains Confused 1.
+}}">
+                            Mentis
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Intellectual</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="intellectual" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Intellectual
+--Effect|Under Development
+}}">
+                            Mentis
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Illusory</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="illusory" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Illusory
+--Effect|Under Development
+}}">
+                            Mentis
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Intrinsic</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="intrinsic" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Intrinsic
+--Effect|Under Development
+}}">
+                            Mentis
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Mentis Trigger 102</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
                     <input type="checkbox" name="mentis_trigger_102" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Mentis Trigger 102
---Effect|When you use a Mentis effect, score +1 Bonus Hits.
+--Effect|Under Development
 }}">
                             Mentis
                         </button>
@@ -2272,7 +2273,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 4+ Hits with a Mentis effect, your target gains Confused 1.
+                        Under Development
                     </details>
                 </div>
                 <div>
@@ -2280,111 +2281,6 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Mentis Trigger 103
---Effect|When you score 4+ Hits with a Mentis effect, your target gains Confused 1.
-}}">
-                            Mentis
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Mentis Trigger 104</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="mentis_trigger_104" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mentis Trigger 104
---Effect|Under Development
-}}">
-                            Mentis
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Mentis Trigger 105</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="mentis_trigger_105" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mentis Trigger 105
---Effect|Under Development
-}}">
-                            Mentis
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Mentis Trigger 106</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="mentis_trigger_106" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mentis Trigger 106
---Effect|Under Development
-}}">
-                            Mentis
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Mentis Trigger 107</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="mentis_trigger_107" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mentis Trigger 107
---Effect|Under Development
-}}">
-                            Mentis
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Mentis Trigger 108</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="mentis_trigger_108" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mentis Trigger 108
 --Effect|Under Development
 }}">
                             Mentis
@@ -2395,9 +2291,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_mori" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_mori" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Mori</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -2406,7 +2302,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Mori effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Mori effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
@@ -2414,7 +2310,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Death Dealer
---Effect|When you use a Mori effect and score 0 Hits, add +2 Hits to the result.
+--Effect|When you use a Mori effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Mori
                         </button>
@@ -2528,7 +2424,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Mori Trigger 115</div>
+                <div>Mori Trigger 110</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2537,10 +2433,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="mori_trigger_115" />
+                    <input type="checkbox" name="mori_trigger_110" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mori Trigger 115
+--name|@{character_name} - Mori Trigger 110
 --Effect|Under Development
 }}">
                             Mori
@@ -2549,7 +2445,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Mori Trigger 116</div>
+                <div>Mori Trigger 111</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2558,10 +2454,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="mori_trigger_116" />
+                    <input type="checkbox" name="mori_trigger_111" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mori Trigger 116
+--name|@{character_name} - Mori Trigger 111
 --Effect|Under Development
 }}">
                             Mori
@@ -2570,7 +2466,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Mori Trigger 117</div>
+                <div>Mori Trigger 112</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2579,10 +2475,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="mori_trigger_117" />
+                    <input type="checkbox" name="mori_trigger_112" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mori Trigger 117
+--name|@{character_name} - Mori Trigger 112
 --Effect|Under Development
 }}">
                             Mori
@@ -2591,7 +2487,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Mori Trigger 118</div>
+                <div>Mori Trigger 113</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -2600,10 +2496,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="mori_trigger_118" />
+                    <input type="checkbox" name="mori_trigger_113" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Mori Trigger 118
+--name|@{character_name} - Mori Trigger 113
 --Effect|Under Development
 }}">
                             Mori
@@ -2614,26 +2510,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_nihil" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_nihil" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Nihil</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Nihil Trigger 119</div>
+                <div>Voidic</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Nihil effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Nihil effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="nihil_trigger_119" />
+                    <input type="checkbox" name="voidic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nihil Trigger 119
---Effect|When you use a Nihil effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Voidic
+--Effect|When you use a Nihil effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Nihil
                         </button>
@@ -2641,7 +2537,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Nihil Trigger 120</div>
+                <div>Abyssal</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -2650,11 +2546,116 @@
                     </details>
                 </div>
                 <div>
+                    <input type="checkbox" name="abyssal" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Abyssal
+--Effect|When you use a Nihil effect, score +1 Bonus Hits.
+}}">
+                            Nihil
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Nullifying</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you score 4+ Hits with a Nihil effect, your target gains Confused 1.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="nullifying" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Nullifying
+--Effect|When you score 4+ Hits with a Nihil effect, your target gains Confused 1.
+}}">
+                            Nihil
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Obliterating</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you score 3+ Hits with a Nihil effect, your target gains Afraid 2.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="obliterating" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Obliterating
+--Effect|When you score 3+ Hits with a Nihil effect, your target gains Afraid 2.
+}}">
+                            Nihil
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Desolating</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you score 4+ Hits with a Nihil effect, your target gains Blind 1.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="desolating" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Desolating
+--Effect|When you score 4+ Hits with a Nihil effect, your target gains Blind 1.
+}}">
+                            Nihil
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Erasing</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="erasing" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Erasing
+--Effect|Under Development
+}}">
+                            Nihil
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Nihil Trigger 120</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
                     <input type="checkbox" name="nihil_trigger_120" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Nihil Trigger 120
---Effect|When you use a Nihil effect, score +1 Bonus Hits.
+--Effect|Under Development
 }}">
                             Nihil
                         </button>
@@ -2667,7 +2668,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 4+ Hits with a Nihil effect, your target gains Confused 1.
+                        Under Development
                     </details>
                 </div>
                 <div>
@@ -2675,7 +2676,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Nihil Trigger 121
---Effect|When you score 4+ Hits with a Nihil effect, your target gains Confused 1.
+--Effect|Under Development
 }}">
                             Nihil
                         </button>
@@ -2688,7 +2689,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 3+ Hits with a Nihil effect, your target gains Afraid 2.
+                        Under Development
                     </details>
                 </div>
                 <div>
@@ -2696,7 +2697,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Nihil Trigger 122
---Effect|When you score 3+ Hits with a Nihil effect, your target gains Afraid 2.
+--Effect|Under Development
 }}">
                             Nihil
                         </button>
@@ -2709,7 +2710,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 4+ Hits with a Nihil effect, your target gains Blind 1.
+                        Under Development
                     </details>
                 </div>
                 <div>
@@ -2717,111 +2718,6 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Nihil Trigger 123
---Effect|When you score 4+ Hits with a Nihil effect, your target gains Blind 1.
-}}">
-                            Nihil
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Nihil Trigger 124</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="nihil_trigger_124" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nihil Trigger 124
---Effect|Under Development
-}}">
-                            Nihil
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Nihil Trigger 125</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="nihil_trigger_125" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nihil Trigger 125
---Effect|Under Development
-}}">
-                            Nihil
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Nihil Trigger 126</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="nihil_trigger_126" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nihil Trigger 126
---Effect|Under Development
-}}">
-                            Nihil
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Nihil Trigger 127</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="nihil_trigger_127" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nihil Trigger 127
---Effect|Under Development
-}}">
-                            Nihil
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Nihil Trigger 128</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="nihil_trigger_128" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nihil Trigger 128
 --Effect|Under Development
 }}">
                             Nihil
@@ -2832,26 +2728,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_nox" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_nox" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Nox</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Nox Trigger 129</div>
+                <div>Shadowy</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use a Nox effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Nox effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="nox_trigger_129" />
+                    <input type="checkbox" name="shadowy" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nox Trigger 129
---Effect|When you use a Nox effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Shadowy
+--Effect|When you use a Nox effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Nox
                         </button>
@@ -2859,7 +2755,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Nox Trigger 130</div>
+                <div>Umbral</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -2868,10 +2764,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="nox_trigger_130" />
+                    <input type="checkbox" name="umbral" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Nox Trigger 130
+--name|@{character_name} - Umbral
 --Effect|When you use a Nox effect, score +1 Bonus Hits.
 }}">
                             Nox
@@ -2903,18 +2799,123 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_phylla" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_phylla" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Phylla</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Phylla Trigger 132</div>
+                <div>Phylla Trigger 127</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Phylla effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Phylla effect and score 0 Hits, add +2 Bonus Hits to the result.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="phylla_trigger_127" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Phylla Trigger 127
+--Effect|When you use a Phylla effect and score 0 Hits, add +2 Bonus Hits to the result.
+}}">
+                            Phylla
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Verdant</div>
+                <div>Rank 4</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Phylla effect, score +1 Bonus Hits.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="verdant" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Verdant
+--Effect|When you use a Phylla effect, score +1 Bonus Hits.
+}}">
+                            Phylla
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Flourishing</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="flourishing" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Flourishing
+--Effect|Under Development
+}}">
+                            Phylla
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Rooted</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="rooted" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Rooted
+--Effect|Under Development
+}}">
+                            Phylla
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Arboreal</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="arboreal" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Arboreal
+--Effect|Under Development
+}}">
+                            Phylla
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Phylla Trigger 132</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
                     </details>
                 </div>
                 <div>
@@ -2922,7 +2923,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Phylla Trigger 132
---Effect|When you use an Phylla effect and score 0 Hits, add +2 Hits to the result.
+--Effect|Under Development
 }}">
                             Phylla
                         </button>
@@ -2931,11 +2932,11 @@
             </div>
             <div class="grid-item-talents">
                 <div>Phylla Trigger 133</div>
-                <div>Rank 4</div>
+                <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Phylla effect, score +1 Bonus Hits.
+                        Under Development
                     </details>
                 </div>
                 <div>
@@ -2943,7 +2944,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Phylla Trigger 133
---Effect|When you use an Phylla effect, score +1 Bonus Hits.
+--Effect|Under Development
 }}">
                             Phylla
                         </button>
@@ -2971,107 +2972,137 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_resist" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Resist</h4>
+        <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Phylla Trigger 135</div>
+                <div>Stalwart</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you use a Resist effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="phylla_trigger_135" />
+                    <input type="checkbox" name="stalwart" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Phylla Trigger 135
---Effect|Under Development
+--name|@{character_name} - Stalwart
+--Effect|When you use a Resist effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
-                            Phylla
+                            Resist
                         </button>
                     </div>
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Phylla Trigger 136</div>
+                <div>Unyielding</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you use a Resist effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="phylla_trigger_136" />
+                    <input type="checkbox" name="unyielding" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Phylla Trigger 136
---Effect|Under Development
+--name|@{character_name} - Unyielding
+--Effect|When you use a Resist effect, score +1 Bonus Hits.
 }}">
-                            Phylla
+                            Resist
                         </button>
                     </div>
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Phylla Trigger 137</div>
+                <div>Immovable</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you use the Recover Action and score 3+ Hits, you may reduce one Status by -1.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="phylla_trigger_137" />
+                    <input type="checkbox" name="immovable" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Phylla Trigger 137
---Effect|Under Development
+--name|@{character_name} - Immovable
+--Effect|When you use the Recover Action and score 3+ Hits, you may reduce one Status by -1.
 }}">
-                            Phylla
+                            Resist
                         </button>
                     </div>
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Phylla Trigger 138</div>
+                <div>Ironclad</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="phylla_trigger_138" />
+                    <input type="checkbox" name="ironclad" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Phylla Trigger 138
---Effect|Under Development
+--name|@{character_name} - Ironclad
+--Effect|When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result.
 }}">
-                            Phylla
+                            Resist
                         </button>
                     </div>
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Phylla Trigger 139</div>
+                <div>Resilient</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you suffer 4+ Hits from an effect, reduce the total Hits by -1.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="phylla_trigger_139" />
+                    <input type="checkbox" name="resilient" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Phylla Trigger 139
---Effect|Under Development
+--name|@{character_name} - Resilient
+--Effect|When you suffer 4+ Hits from an effect, reduce the total Hits by -1.
 }}">
-                            Phylla
+                            Resist
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Fortified</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When have the Wounded Status, you may use the Recover Action to reduce your Wounded rating by -1
+                        instead of recovering Defenses or regaining Grit.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="fortified" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Fortified
+--Effect|When have the Wounded Status, you may use the Recover Action to reduce your Wounded rating by -1 instead of recovering Defenses or regaining Grit.
+}}">
+                            Resist
                         </button>
                     </div>
                 </div>
@@ -3079,26 +3110,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_rime" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_rime" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Rime</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Rime Trigger 140</div>
+                <div>Frigid</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Rime effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Rime effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="rime_trigger_140" />
+                    <input type="checkbox" name="frigid" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 140
---Effect|When you use an Rime effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Frigid
+--Effect|When you use a Rime effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Rime
                         </button>
@@ -3106,20 +3137,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Rime Trigger 141</div>
+                <div>Icy</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Rime effect, score +1 Bonus Hits.
+                        When you use a Rime effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="rime_trigger_141" />
+                    <input type="checkbox" name="icy" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 141
---Effect|When you use an Rime effect, score +1 Bonus Hits.
+--name|@{character_name} - Icy
+--Effect|When you use a Rime effect, score +1 Bonus Hits.
 }}">
                             Rime
                         </button>
@@ -3127,7 +3158,28 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Rime Trigger 142</div>
+                <div>Glacial</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Rime effect and score 3+ Hits, you may have the target gain Frozen 2.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="glacial" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Glacial
+--Effect|When you use a Rime effect and score 3+ Hits, you may have the target gain Frozen 2.
+}}">
+                            Rime
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Freezing</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3136,10 +3188,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="rime_trigger_142" />
+                    <input type="checkbox" name="freezing" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 142
+--name|@{character_name} - Freezing
 --Effect|Under Development
 }}">
                             Rime
@@ -3148,7 +3200,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Rime Trigger 143</div>
+                <div>Frostbitten</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3157,10 +3209,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="rime_trigger_143" />
+                    <input type="checkbox" name="frostbitten" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 143
+--name|@{character_name} - Frostbitten
 --Effect|Under Development
 }}">
                             Rime
@@ -3169,7 +3221,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Rime Trigger 144</div>
+                <div>Chilling</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3178,52 +3230,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="rime_trigger_144" />
+                    <input type="checkbox" name="chilling" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 144
---Effect|Under Development
-}}">
-                            Rime
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Rime Trigger 145</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="rime_trigger_145" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 145
---Effect|Under Development
-}}">
-                            Rime
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Rime Trigger 146</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="rime_trigger_146" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Rime Trigger 146
+--name|@{character_name} - Chilling
 --Effect|Under Development
 }}">
                             Rime
@@ -3252,29 +3262,50 @@
                     </div>
                 </div>
             </div>
+            <div class="grid-item-talents">
+                <div>Rime Trigger 148</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="rime_trigger_148" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Rime Trigger 148
+--Effect|Under Development
+}}">
+                            Rime
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_sangui" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_sangui" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Sangui</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Sangui Trigger 148</div>
+                <div>Sanguine</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Sangui effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Sangui effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_148" />
+                    <input type="checkbox" name="sanguine" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 148
---Effect|When you use an Sangui effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Sanguine
+--Effect|When you use a Sangui effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Sangui
                         </button>
@@ -3282,20 +3313,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Sangui Trigger 149</div>
+                <div>Vital</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Sangui effect, score +1 Bonus Hits.
+                        When you use a Sangui effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_149" />
+                    <input type="checkbox" name="vital" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 149
---Effect|When you use an Sangui effect, score +1 Bonus Hits.
+--name|@{character_name} - Vital
+--Effect|When you use a Sangui effect, score +1 Bonus Hits.
 }}">
                             Sangui
                         </button>
@@ -3303,7 +3334,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Sangui Trigger 150</div>
+                <div>Crimson</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3312,10 +3343,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_150" />
+                    <input type="checkbox" name="crimson" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 150
+--name|@{character_name} - Crimson
 --Effect|Under Development
 }}">
                             Sangui
@@ -3324,7 +3355,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Sangui Trigger 151</div>
+                <div>Lifeblood</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3333,10 +3364,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_151" />
+                    <input type="checkbox" name="lifeblood" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 151
+--name|@{character_name} - Lifeblood
 --Effect|Under Development
 }}">
                             Sangui
@@ -3345,7 +3376,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Sangui Trigger 152</div>
+                <div>Hemal</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3354,10 +3385,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_152" />
+                    <input type="checkbox" name="hemal" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 152
+--name|@{character_name} - Hemal
 --Effect|Under Development
 }}">
                             Sangui
@@ -3366,7 +3397,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Sangui Trigger 153</div>
+                <div>Arterial</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3375,10 +3406,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_153" />
+                    <input type="checkbox" name="arterial" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 153
+--name|@{character_name} - Arterial
 --Effect|Under Development
 }}">
                             Sangui
@@ -3387,7 +3418,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Sangui Trigger 154</div>
+                <div>Cerise</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3396,10 +3427,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="sangui_trigger_154" />
+                    <input type="checkbox" name="cerise" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Sangui Trigger 154
+--name|@{character_name} - Cerise
 --Effect|Under Development
 }}">
                             Sangui
@@ -3410,26 +3441,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_squall" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_squall" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Squall</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Squall Trigger 155</div>
+                <div>Gusting</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Squall effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Squall effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="squall_trigger_155" />
+                    <input type="checkbox" name="gusting" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 155
---Effect|When you use an Squall effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Gusting
+--Effect|When you use a Squall effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Squall
                         </button>
@@ -3437,20 +3468,20 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Squall Trigger 156</div>
+                <div>Tempestuous</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Squall effect, score +1 Bonus Hits.
+                        When you use a Squall effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="squall_trigger_156" />
+                    <input type="checkbox" name="tempestuous" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 156
---Effect|When you use an Squall effect, score +1 Bonus Hits.
+--name|@{character_name} - Tempestuous
+--Effect|When you use a Squall effect, score +1 Bonus Hits.
 }}">
                             Squall
                         </button>
@@ -3458,7 +3489,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Squall Trigger 157</div>
+                <div>Whirling</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3467,10 +3498,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="squall_trigger_157" />
+                    <input type="checkbox" name="whirling" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 157
+--name|@{character_name} - Whirling
 --Effect|Under Development
 }}">
                             Squall
@@ -3479,7 +3510,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Squall Trigger 158</div>
+                <div>Cyclonic</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3488,10 +3519,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="squall_trigger_158" />
+                    <input type="checkbox" name="cyclonic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 158
+--name|@{character_name} - Cyclonic
 --Effect|Under Development
 }}">
                             Squall
@@ -3500,7 +3531,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Squall Trigger 159</div>
+                <div>Turbulent</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3509,10 +3540,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="squall_trigger_159" />
+                    <input type="checkbox" name="turbulent" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 159
+--name|@{character_name} - Turbulent
 --Effect|Under Development
 }}">
                             Squall
@@ -3521,7 +3552,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Squall Trigger 160</div>
+                <div>Aerial</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -3530,31 +3561,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="squall_trigger_160" />
+                    <input type="checkbox" name="aerial" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 160
---Effect|Under Development
-}}">
-                            Squall
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item-talents">
-                <div>Squall Trigger 161</div>
-                <div>Rank 1</div>
-                <div>
-                    <details>
-                        <summary>&#10010;</summary>
-                        Under Development
-                    </details>
-                </div>
-                <div>
-                    <input type="checkbox" name="squall_trigger_161" />
-                    <div class="talent-rollbox">
-                        <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Squall Trigger 161
+--name|@{character_name} - Aerial
 --Effect|Under Development
 }}">
                             Squall
@@ -3583,12 +3593,33 @@
                     </div>
                 </div>
             </div>
+            <div class="grid-item-talents">
+                <div>Squall Trigger 163</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        Under Development
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="squall_trigger_163" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Squall Trigger 163
+--Effect|Under Development
+}}">
+                            Squall
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_tellus" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_tellus" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Tellus</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -3597,7 +3628,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Tellus effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Tellus effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
@@ -3605,7 +3636,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Unyielding
---Effect|When you use an Tellus effect and score 0 Hits, add +2 Hits to the result.
+--Effect|When you use a Tellus effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Tellus
                         </button>
@@ -3618,7 +3649,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Tellus effect, score +1 Bonus Hits.
+                        When you use a Tellus effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
@@ -3626,7 +3657,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Overwhelming
---Effect|When you use an Tellus effect, score +1 Bonus Hits.
+--Effect|When you use a Tellus effect, score +1 Bonus Hits.
 }}">
                             Tellus
                         </button>
@@ -3724,7 +3755,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 3+ Hits with an Tellus effect, you may remove 1 Hazard in the effect's Zone.
+                        When you score 3+ Hits with a Tellus effect, you may remove 1 Hazard in the effect's Zone.
                     </details>
                 </div>
                 <div>
@@ -3732,7 +3763,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Refining
---Effect|When you score 3+ Hits with an Tellus effect, you may remove 1 Hazard in the effect's Zone.
+--Effect|When you score 3+ Hits with a Tellus effect, you may remove 1 Hazard in the effect's Zone.
 }}">
                             Tellus
                         </button>
@@ -3745,7 +3776,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you score 4+ Hits with an Tellus effect, you may create +1 Hazard in the effect's Zone.
+                        When you score 4+ Hits with a Tellus effect, you may create +1 Hazard in the effect's Zone.
                     </details>
                 </div>
                 <div>
@@ -3753,7 +3784,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Obstructive
---Effect|When you score 4+ Hits with an Tellus effect, you may create +1 Hazard in the effect's Zone.
+--Effect|When you score 4+ Hits with a Tellus effect, you may create +1 Hazard in the effect's Zone.
 }}">
                             Tellus
                         </button>
@@ -3763,9 +3794,9 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_tempest" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_tempest" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Tempest</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
@@ -3774,7 +3805,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Tempest effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Tempest effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
@@ -3782,7 +3813,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Inescapable
---Effect|When you use an Tempest effect and score 0 Hits, add +2 Hits to the result.
+--Effect|When you use a Tempest effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Tempest
                         </button>
@@ -3795,7 +3826,7 @@
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Tempest effect, score +1 Bonus Hits.
+                        When you use a Tempest effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
@@ -3803,7 +3834,7 @@
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
 --name|@{character_name} - Raging
---Effect|When you use an Tempest effect, score +1 Bonus Hits.
+--Effect|When you use a Tempest effect, score +1 Bonus Hits.
 }}">
                             Tempest
                         </button>
@@ -3936,71 +3967,185 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_tempor" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Tempor</h4>
+        <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Tempest Trigger 179</div>
+                <div>Eternal</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        Under Development
+                        When you use a Tempor effect and score 3+ Hits, you may reduce one of your Statuses by -1.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="tempest_trigger_179" />
+                    <input type="checkbox" name="eternal" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Tempest Trigger 179
---Effect|Under Development
+--name|@{character_name} - Eternal
+--Effect|When you use a Tempor effect and score 3+ Hits, you may reduce one of your Statuses by -1.
 }}">
-                            Tempest
+                            Tempor
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_torrent" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
-        <h4 class="grid-talents-label" style="margin-bottom:4px;">Torrent</h4>
-        <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Torrent Trigger 180</div>
-                <div>Rank 2</div>
+                <div>Chronal</div>
+                <div>Rank 1</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Torrent effect and score 0 Hits, add +2 Hits to the result.
+                        When you use a Tempor effect and score 3+ Hits, you may have one target gain Slowed 1.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_180" />
+                    <input type="checkbox" name="chronal" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 180
---Effect|When you use an Torrent effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Chronal
+--Effect|When you use a Tempor effect and score 3+ Hits, you may have one target gain Slowed 1.
 }}">
-                            Torrent
+                            Tempor
                         </button>
                     </div>
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Torrent Trigger 181</div>
+                <div>Timeless</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Torrent effect, score +1 Bonus Hits.
+                        When you use a Tempor effect, score +1 Bonus Hits.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_181" />
+                    <input type="checkbox" name="timeless" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 181
---Effect|When you use an Torrent effect, score +1 Bonus Hits.
+--name|@{character_name} - Timeless
+--Effect|When you use a Tempor effect, score +1 Bonus Hits.
+}}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Epochal</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Tempor effect and score 0 Hits, add +2 Bonus Hits to the result.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="epochal" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Epochal
+--Effect|When you use a Tempor effect and score 0 Hits, add +2 Bonus Hits to the result.
+}}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Fleeting</div>
+                <div>Rank 3</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Tempor effect and score 3+ Hits, you may increase the current Timer by +1.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="fleeting" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Fleeting
+--Effect|When you use a Tempor effect and score 3+ Hits, you may increase the current Timer by +1.
+}}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Rapid</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Tempor effect and score 3+ Hits, you may take an addition Shift this turn.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="rapid" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Rapid
+--Effect|When you use a Tempor effect and score 3+ Hits, you may take an addition Shift this turn.
+}}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Momentous</div>
+                <div>Rank 1</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Tempor effect and score 3+ Hits, your team maintains the Initiative even if there
+                        is a 1 in your result set.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="momentous" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Momentous
+--Effect|When you use a Tempor effect and score 3+ Hits, your team maintains the Initiative even if there is a 1 in your result set.
+}}">
+                            Tempor
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_torrent" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
+        <h4 class="grid-talents-label" style="margin-bottom:4px;">Torrent</h4>
+        <div class="grid-container-talents">
+            <div class="grid-item-talents">
+                <div>Surging</div>
+                <div>Rank 2</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Torrent effect and score 0 Hits, add +2 Bonus Hits to the result.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="surging" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Surging
+--Effect|When you use a Torrent effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Torrent
                         </button>
@@ -4008,7 +4153,28 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Torrent Trigger 182</div>
+                <div>Cascading</div>
+                <div>Rank 4</div>
+                <div>
+                    <details>
+                        <summary>&#10010;</summary>
+                        When you use a Torrent effect, score +1 Bonus Hits.
+                    </details>
+                </div>
+                <div>
+                    <input type="checkbox" name="cascading" />
+                    <div class="talent-rollbox">
+                        <button class="txt-btn" type="roll" value="!power {{
+--name|@{character_name} - Cascading
+--Effect|When you use a Torrent effect, score +1 Bonus Hits.
+}}">
+                            Torrent
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item-talents">
+                <div>Flooding</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4017,10 +4183,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_182" />
+                    <input type="checkbox" name="flooding" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 182
+--name|@{character_name} - Flooding
 --Effect|Under Development
 }}">
                             Torrent
@@ -4029,7 +4195,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Torrent Trigger 183</div>
+                <div>Dousing</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4038,10 +4204,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_183" />
+                    <input type="checkbox" name="dousing" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 183
+--name|@{character_name} - Dousing
 --Effect|Under Development
 }}">
                             Torrent
@@ -4050,7 +4216,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Torrent Trigger 184</div>
+                <div>Deluge</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4059,10 +4225,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_184" />
+                    <input type="checkbox" name="deluge" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 184
+--name|@{character_name} - Deluge
 --Effect|Under Development
 }}">
                             Torrent
@@ -4071,7 +4237,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Torrent Trigger 185</div>
+                <div>Aquatic</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4080,10 +4246,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_185" />
+                    <input type="checkbox" name="aquatic" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 185
+--name|@{character_name} - Aquatic
 --Effect|Under Development
 }}">
                             Torrent
@@ -4092,7 +4258,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Torrent Trigger 186</div>
+                <div>Torrent Trigger 193</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4101,10 +4267,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="torrent_trigger_186" />
+                    <input type="checkbox" name="torrent_trigger_193" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Torrent Trigger 186
+--name|@{character_name} - Torrent Trigger 193
 --Effect|Under Development
 }}">
                             Torrent
@@ -4115,26 +4281,26 @@
         </div>
     </div>
 </div>
-<div class="grid-container-talents">
-    <input class="sheet-training-ranks" type="hidden" name="attr_skill_vivus" step="1" value="0" min="0" max="20" />
-    <div class="sheet-training-talents">
+<input class="sheet-training-ranks" type="hidden" name="attr_skill_vivus" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+    <div class="grid-container-talents">
         <h4 class="grid-talents-label" style="margin-bottom:4px;">Vivus</h4>
         <div class="grid-container-talents">
             <div class="grid-item-talents">
-                <div>Vivus Trigger 187</div>
+                <div>Vital</div>
                 <div>Rank 2</div>
                 <div>
                     <details>
                         <summary>&#10010;</summary>
-                        When you use an Vivus effect and score 0 Hits, add +2 Hits to the result.
+                        When you use an Vivus effect and score 0 Hits, add +2 Bonus Hits to the result.
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_187" />
+                    <input type="checkbox" name="vital" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 187
---Effect|When you use an Vivus effect and score 0 Hits, add +2 Hits to the result.
+--name|@{character_name} - Vital
+--Effect|When you use an Vivus effect and score 0 Hits, add +2 Bonus Hits to the result.
 }}">
                             Vivus
                         </button>
@@ -4142,7 +4308,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 188</div>
+                <div>Invigorating</div>
                 <div>Rank 4</div>
                 <div>
                     <details>
@@ -4151,10 +4317,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_188" />
+                    <input type="checkbox" name="invigorating" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 188
+--name|@{character_name} - Invigorating
 --Effect|When you use an Vivus effect, score +1 Bonus Hits.
 }}">
                             Vivus
@@ -4163,7 +4329,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 189</div>
+                <div>Restorative</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4172,10 +4338,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_189" />
+                    <input type="checkbox" name="restorative" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 189
+--name|@{character_name} - Restorative
 --Effect|Under Development
 }}">
                             Vivus
@@ -4184,7 +4350,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 190</div>
+                <div>Rejuvenating</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4193,10 +4359,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_190" />
+                    <input type="checkbox" name="rejuvenating" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 190
+--name|@{character_name} - Rejuvenating
 --Effect|Under Development
 }}">
                             Vivus
@@ -4205,7 +4371,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 191</div>
+                <div>Reviving</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4214,10 +4380,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_191" />
+                    <input type="checkbox" name="reviving" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 191
+--name|@{character_name} - Reviving
 --Effect|Under Development
 }}">
                             Vivus
@@ -4226,7 +4392,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 192</div>
+                <div>Vivus Trigger 199</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4235,10 +4401,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_192" />
+                    <input type="checkbox" name="vivus_trigger_199" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 192
+--name|@{character_name} - Vivus Trigger 199
 --Effect|Under Development
 }}">
                             Vivus
@@ -4247,7 +4413,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 193</div>
+                <div>Vivus Trigger 200</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4256,10 +4422,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_193" />
+                    <input type="checkbox" name="vivus_trigger_200" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 193
+--name|@{character_name} - Vivus Trigger 200
 --Effect|Under Development
 }}">
                             Vivus
@@ -4268,7 +4434,7 @@
                 </div>
             </div>
             <div class="grid-item-talents">
-                <div>Vivus Trigger 194</div>
+                <div>Vivus Trigger 201</div>
                 <div>Rank 1</div>
                 <div>
                     <details>
@@ -4277,10 +4443,10 @@
                     </details>
                 </div>
                 <div>
-                    <input type="checkbox" name="vivus_trigger_194" />
+                    <input type="checkbox" name="vivus_trigger_201" />
                     <div class="talent-rollbox">
                         <button class="txt-btn" type="roll" value="!power {{
---name|@{character_name} - Vivus Trigger 194
+--name|@{character_name} - Vivus Trigger 201
 --Effect|Under Development
 }}">
                             Vivus

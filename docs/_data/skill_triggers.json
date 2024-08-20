@@ -1,49 +1,49 @@
 {
     "skill_triggers": [
             {
-              "name": "",
+              "name": "Arcane",
               "skill": "Aether",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use an Aether effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Mystical",
               "skill": "Aether",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use an Aether effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Celestial",
               "skill": "Aether",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 3+ Hits with an Aether effect, you may have the target gain Dazed 1."
             },
             {
-              "name": "",
+              "name": "Cosmic",
               "skill": "Aether",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with an Aether effect, you may remove 1 Hazard in the effect's Zone."
             },
             {
-              "name": "",
+              "name": "Ethereal",
               "skill": "Aether",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use the Recover Action and score 4+ Hits, you may reduce one Status by -1."
             },
             {
-              "name": "",
+              "name": "Otherworldly",
               "skill": "Aether",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 3+ Hits with a Aether effect, you may have the effect's Zone lose Darkened until your next turn."
             },
             {
-              "name": "",
+              "name": "Chimeric",
               "skill": "Aether",
               "type": "Trigger",
               "rank": null,
@@ -71,49 +71,49 @@
               "effect": "When you use an Arithm effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Calculated",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with an Arithm effect, you may regain +1 Axiom."
             },
             {
-              "name": "",
+              "name": "Formulaic",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Perceive and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
-              "name": "",
+              "name": "Geometric",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Analyze and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
-              "name": "",
+              "name": "Exacting",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use your Insight and score 3+ Hits, you may use 1 other Arithm Skill Trigger."
             },
             {
-              "name": "",
+              "name": "Integral",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 3+ Hits with an Arithm effect, you may increase the Challenge by +1."
             },
             {
-              "name": "",
+              "name": "Numerical",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 3+ Hits with an Arithm effect, you may decrease the Challenge by -1."
             },
             {
-              "name": "",
+              "name": "Differentiable",
               "skill": "Arithm",
               "type": "Trigger",
               "rank": null,
@@ -127,119 +127,119 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Fierce",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 0 Hits with a Bellor effect, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Warlike",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Bellor effect while the Entropy is 10+, add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Savage",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use Martial Arts or Strike and score 3+ Hits, you may increase the Entropy by +2 to add +2 Bonus Hits to your result set."
             },
             {
-              "name": "",
+              "name": "Relentless",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Intimidate a target and score 3+ Hits, you may increase the Entropy by +1 to regain +2 Grit."
             },
             {
-              "name": "",
+              "name": "Brutal",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use Martial Arts, Strike, or Grapple a target and score 2+ Hits, you may spend 3 Momentum and 1 Entropy to have the target gain Confused 1."
             },
             {
-              "name": "",
+              "name": "Ruthless",
               "skill": "Bellor",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Practiced",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft an Epic and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Praiseworthy",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft an Epic and score 5+ Hits, you may use your Shift this turn to activate the next Verse of the Epic as a Trigger."
             },
             {
-              "name": "",
+              "name": "Handcrafted",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft to restore Gear Ratings and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Emotional",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft an Epic with the Ballad keyword, add +1 Bonus Hit to the result set."
             },
             {
-              "name": "",
+              "name": "Enrapturing",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft an Epic with the Saga keyword, add +1 Bonus Hit to the result set."
             },
             {
-              "name": "",
+              "name": "Meticulous",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft to restore Gear ratings, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Artisanal",
               "skill": "Craft",
               "type": "",
               "rank": null,
               "effect": "When you Craft to create Concoctions and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Skillful",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft to create Concoctions, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Fortified",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Craft to create Concoctions and score 3+, reduce the number of turns required by -2."
             },
             {
-              "name": "",
+              "name": "Restorative",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
               "effect": "When Strike a target and score 3+ Hits, you may restore +1 Gear Rating to your equipped weapon."
             },
             {
-              "name": "",
+              "name": "Masterful",
               "skill": "Craft",
               "type": "Trigger",
               "rank": null,
@@ -253,70 +253,70 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Ruinous",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Destroy effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Cataclysmic",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Destroy effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Annihilating",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Destroy effect, your target gains Vulnerable 1."
             },
             {
-              "name": "",
+              "name": "Devastating",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Destroy effect, your target gains Wounded 1."
             },
             {
-              "name": "",
+              "name": "Savaging",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Destroy effect that has a single target, you may score +1 Bonus Hits against a different target in the effect's Zone."
             },
             {
-              "name": "",
+              "name": "Wrecking",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use Martial Arts, Strike, or Grapple a target and score 3+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Indelible",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you Shoot or Thow at a target and score 3+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Appeasing",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Destroy effect and score 3+ Hits, you may regain +1 Succor."
             },
             {
-              "name": "",
+              "name": "Aligned",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Destroy effect and score 3+ Hits, you may regain +1 Concordance."
             },
             {
-              "name": "",
+              "name": "Mythical",
               "skill": "Destroy",
               "type": "Trigger",
               "rank": null,
@@ -463,42 +463,42 @@
               "effect": "When you use Analyze or Perceive and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Positional",
               "skill": "Locus",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Locus effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Spatial",
               "skill": "Locus",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Locus effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Axial",
               "skill": "Locus",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Shift to Defy Danger, add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Anchored",
               "skill": "Locus",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you take an Action that targets something in an Adjacent Zone, you may spen 2 Momentum to target any Zone up to 2 Adjacencies from your Current Zone instead."
             },
             {
-              "name": "",
+              "name": "Accelerated",
               "skill": "Locus",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you take an Action that targets something in an Adjacent Zone, you may spend 2 Momentum to add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Vectorial",
               "skill": "Locus",
               "type": "Trigger",
               "rank": 3,
@@ -624,35 +624,35 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Restorative",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 2+ Hits with a Medicine effect that reduces one target's Status, reduce that Status by an additional -1."
             },
             {
-              "name": "",
+              "name": "Curative",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Medicine effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Nurturing",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Medicine effect and score 0 Hits, add +2 Bonus Hits to the result set."
             },
             {
-              "name": "",
+              "name": "Therapeutic",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Medicine effect to recover one target's Defenses, you may have that target regain +1 Grit."
             },
             {
-              "name": "",
+              "name": "Revitalizing",
               "skill": "Medicine",
               "type": "Trigger",
               "rank": null,
@@ -666,42 +666,42 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Cognitive",
               "skill": "Mentis",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Mentis effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Psychic",
               "skill": "Mentis",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Mentis effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Telepathic",
               "skill": "Mentis",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Mentis effect, your target gains Confused 1."
             },
             {
-              "name": "",
+              "name": "Intellectual",
               "skill": "Mentis",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Illusory",
               "skill": "Mentis",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Intrinsic",
               "skill": "Mentis",
               "type": "Trigger",
               "rank": null,
@@ -792,42 +792,42 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Voidic",
               "skill": "Nihil",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Nihil effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Abyssal",
               "skill": "Nihil",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Nihil effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Nullifying",
               "skill": "Nihil",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Nihil effect, your target gains Confused 1."
             },
             {
-              "name": "",
+              "name": "Obliterating",
               "skill": "Nihil",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 3+ Hits with a Nihil effect, your target gains Afraid 2."
             },
             {
-              "name": "",
+              "name": "Desolating",
               "skill": "Nihil",
               "type": "Trigger",
               "rank": null,
               "effect": "When you score 4+ Hits with a Nihil effect, your target gains Blind 1."
             },
             {
-              "name": "",
+              "name": "Erasing",
               "skill": "Nihil",
               "type": "Trigger",
               "rank": null,
@@ -862,14 +862,14 @@
               "effect": null
             },
             {
-              "name": "",
+              "name": "Shadowy",
               "skill": "Nox",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Nox effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Umbral",
               "skill": "Nox",
               "type": "Trigger",
               "rank": 4,
@@ -890,14 +890,28 @@
               "effect": "When you use a Phylla effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Verdant",
               "skill": "Phylla",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Phylla effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Flourishing",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Rooted",
+              "skill": "Phylla",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Arboreal",
               "skill": "Phylla",
               "type": "Trigger",
               "rank": null,
@@ -925,84 +939,84 @@
               "effect": null
             },
             {
-              "name": "",
-              "skill": "Phylla",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
-              "skill": "Phylla",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
+              "name": "Stalwart",
               "skill": "Resist",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Resist effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Unyielding",
               "skill": "Resist",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Resist effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Immovable",
               "skill": "Resist",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use the Recover Action and score 3+ Hits, you may reduce one Status by -1."
             },
             {
-              "name": "",
+              "name": "Ironclad",
               "skill": "Resist",
               "type": "Trigger",
               "rank": null,
               "effect": "When you roll a 1 on a Hazard die, you may reroll that Hazard, keeping the new result."
             },
             {
-              "name": "",
+              "name": "Resilient",
               "skill": "Resist",
               "type": "Trigger",
               "rank": null,
               "effect": "When you suffer 4+ Hits from an effect, reduce the total Hits by -1."
             },
             {
-              "name": "",
+              "name": "Fortified",
               "skill": "Resist",
               "type": "Trigger",
               "rank": null,
               "effect": "When have the Wounded Status, you may use the Recover Action to reduce your Wounded rating by -1 instead of recovering Defenses or regaining Grit."
             },
             {
-              "name": "",
+              "name": "Frigid",
               "skill": "Rime",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Rime effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Icy",
               "skill": "Rime",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Rime effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Glacial",
               "skill": "Rime",
               "type": "Trigger",
               "rank": null,
               "effect": "When you use a Rime effect and score 3+ Hits, you may have the target gain Frozen 2."
             },
             {
-              "name": "",
+              "name": "Freezing",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Frostbitten",
+              "skill": "Rime",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Chilling",
               "skill": "Rime",
               "type": "Trigger",
               "rank": null,
@@ -1023,105 +1037,91 @@
               "effect": null
             },
             {
-              "name": "",
-              "skill": "Rime",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
-              "skill": "Rime",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
+              "name": "Sanguine",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Sangui effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Vital",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Sangui effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Crimson",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Lifeblood",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Hemal",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Arterial",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Cerise",
               "skill": "Sangui",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Gusting",
               "skill": "Squall",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Squall effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Tempestuous",
               "skill": "Squall",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Squall effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Whirling",
               "skill": "Squall",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Cyclonic",
               "skill": "Squall",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Turbulent",
               "skill": "Squall",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Aerial",
               "skill": "Squall",
               "type": "Trigger",
               "rank": null,
@@ -1254,70 +1254,91 @@
               "effect": "When you use a Tempest effect and score 3+ Hits, you gain +1 Current."
             },
             {
-              "name": "",
+              "name": "Eternal",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Tempor effect and score 3+ Hits, you may reduce one of your Statuses by -1."
             },
             {
-              "name": "",
+              "name": "Chronal",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Tempor effect and score 3+ Hits, you may have one target gain Slowed 1."
             },
             {
-              "name": "",
+              "name": "Timeless",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Tempor effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Epochal",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Tempor effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Fleeting",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 3,
               "effect": "When you use a Tempor effect and score 3+ Hits, you may increase the current Timer by +1."
             },
             {
-              "name": "",
+              "name": "Rapid",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Tempor effect and score 3+ Hits, you may take an addition Shift this turn."
             },
             {
-              "name": "",
+              "name": "Momentous",
               "skill": "Tempor",
               "type": "Trigger",
               "rank": 1,
               "effect": "When you use a Tempor effect and score 3+ Hits, your team maintains the Initiative even if there is a 1 in your result set."
             },
             {
-              "name": "",
+              "name": "Surging",
               "skill": "Torrent",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use a Torrent effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Cascading",
               "skill": "Torrent",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use a Torrent effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Flooding",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Dousing",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Deluge",
+              "skill": "Torrent",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+            {
+              "name": "Aquatic",
               "skill": "Torrent",
               "type": "Trigger",
               "rank": null,
@@ -1331,56 +1352,35 @@
               "effect": null
             },
             {
-              "name": "",
-              "skill": "Torrent",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
-              "skill": "Torrent",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
-              "skill": "Torrent",
-              "type": "Trigger",
-              "rank": null,
-              "effect": null
-            },
-            {
-              "name": "",
+              "name": "Vital",
               "skill": "Vivus",
               "type": "Trigger",
               "rank": 2,
               "effect": "When you use an Vivus effect and score 0 Hits, add +2 Bonus Hits to the result."
             },
             {
-              "name": "",
+              "name": "Invigorating",
               "skill": "Vivus",
               "type": "Trigger",
               "rank": 4,
               "effect": "When you use an Vivus effect, score +1 Bonus Hits."
             },
             {
-              "name": "",
+              "name": "Restorative",
               "skill": "Vivus",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Rejuvenating",
               "skill": "Vivus",
               "type": "Trigger",
               "rank": null,
               "effect": null
             },
             {
-              "name": "",
+              "name": "Reviving",
               "skill": "Vivus",
               "type": "Trigger",
               "rank": null,
