@@ -7315,7 +7315,7 @@
             "tree": "Shock Trooper",
             "name": "Lethal on the Move",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -7337,7 +7337,7 @@
             "tree": "Shock Trooper",
             "name": "Blitzkrieg",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
