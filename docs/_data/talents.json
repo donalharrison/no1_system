@@ -7235,15 +7235,171 @@
         },
         {
             "tree": "Shock Trooper",
-            "name": "",
+            "name": "Ready the Charge",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Exert to ready yourself to charge into battle.  On 3+ Hits, you gain 2 additional Shifts this turn."
             ]
         },
+        {
+            "tree": "Shock Trooper",
+            "name": "Hit and Run",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike a target in your Current Zone.  On 4+ Hits, you may immediately Shift to Move."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Break Their Line",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike a target in your Current Zone you just used a Shift to Move into.  On 2+ Hits, hostile targets in your current Zone do not impose Hazards when you or your allies Shift to Move passed them for the rest of the current Timer."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Shock. . .",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike a target in your Current Zone you just used a Shift to Move into.  Spend X Hits to have X targets in your Current Zone become Prone, where X is any number up to the total Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Reform the Line",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Exert to gain +X Armor Defense, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": ". . and Awe",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Intimidate all targets in your Current Zone you just used a Shift to Move into.  On 3+ Hits, all targets in your Current Zone become Provoked."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Bull Rush",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Exert against one target in your Current Zone your just used a Shift to Move into.  On 3+ Hits, move the target to an Adjacent Zone and the target becomes Prone.",
+                "On 5+ Hits, move up to 3 targets to an Adjacent Zone and the targets become Prone."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Lethal on the Move",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Shift to Move and use an Action to attack a target, increase the Momentum by +1."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Battlefield Charger",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Defy Danger using Exert and use a Shift to Move, you may immediately Strike a target you can see in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Blitzkrieg",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Shift to Move and there is a hostile target you can see in your Current Zone, you may immediately Strike the target."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Plunge Into Battle",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you roll one or more Hazard Die imposed by moving, you may recover +2 to your Primary Defense."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Exert (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Exert Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Exert (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Exert Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Shock Trooper",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Dangerous Trait rating by +1."
+            ]
+        },
+
         {
             "tree": "Shugenja",
             "name": "Entreat Spirits",
@@ -11712,17 +11868,6 @@
             "replaces": null,
             "effect": [
                 "Persaude to gain Canny Aura X, where X is equal to Hits in the result set.  While this Aura persists, you cannot gain Charmed or Confused."
-            ]
-        },
-        {
-            "tree": "Envoy",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
             ]
         },
         {
