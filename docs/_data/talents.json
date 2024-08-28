@@ -372,7 +372,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
+                "Strike an opponent while Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -7360,7 +7360,7 @@
             "name": "Exert (3)",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Exert 2",
             "replaces": null,
             "effect": [
                 "Increase your Exert Rank to 3 (d10)."
@@ -7371,7 +7371,7 @@
             "name": "Exert (4)",
             "type": "Static",
             "rank": "2",
-            "requires": null,
+            "requires": "Exert 3",
             "replaces": null,
             "effect": [
                 "Increase your Exert Rank to 4 (d12)."
@@ -7399,7 +7399,6 @@
                 "Increase your Dangerous Trait rating by +1."
             ]
         },
-
         {
             "tree": "Shugenja",
             "name": "Entreat Spirits",
@@ -8352,7 +8351,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Hide!, you may take an Additional Shift this turn.",
+                "When you Defy Danger using Stealth, you may take an Additional Shift this turn.",
                 "If you you are already Hidden and Shift to Move, you may take an Additional Shift this turn."
             ]
         },
@@ -8375,7 +8374,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately Defy Danger to Hide!, gaining +2 Bonus Hits to the Hidden rating."
+                "Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately Defy Danger using Stealth, gaining +2 Bonus Hits to the Hidden rating."
             ]
         },
         {
@@ -8496,7 +8495,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Deceive to gain Disguised X, where X is equal to Hits in the result set + 2."
             ]
         },
         {
@@ -12078,6 +12077,205 @@
             "replaces": null,
             "effect": [
                 "Increase your Savvy Trait by +1."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Vanishing Blow",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Martial Arts or Strike against one target in your Current Zone, then gain Hidden +X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Unseen Striking",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You do not lose your Hidden rating when you use Martial Arits or Strike while Hidden."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Shadows' Binding",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase the Entropy by +1 and use Nox against one target in your Current Zone while you are Hidden.  You gain Shadow Aura X, where X is euqal to Hits in the result set +1.  While this aura persists, your shadow is bound to your target -- any Shift the target uses to Move you immediately take ignoring Hazards and the target gains Silenced 1 at the start of your turn."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Imiter Noir",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Nox to conjure a Shadow Clone.  On 3+ Hits, you create a copy of yourself with the following adjustments:<ul><li>The Shadow Clone has the Minion Type</li><li>The Shadow Clone has 3 Grit</li><li>The Shadow Clone has no Defenses</li><li>The Shadow Clone cannot use Trigger Talents</li></ul>"
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Step Through Darkness",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase the Entropy by +1 and use Nox.  On 2+ Hits, you may Move to any Adjacent Zone ignoring Hazards.",
+                "On 3+ Hits, you may Move to any Zone up to 2 adjacencies away ignoring Hazards and increase the Entropy by +1."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Dans de L'Ombres",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Exchange positions with your Shadow Clone."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Vanish Beyond Sight",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Reduce your Hidden Ratings by -3 to gain the Invisible keyword."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Night's Touch",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you attack a target while Hidden, the Skill you use to attack gains the Nox keyword for that Action."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Umbral Juke",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from an effect you can see, you may increase the Entropy by +2. If you do, you immediately Shift to Move to an Adjacent Zone and suffer 0 Hits."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Unhindered Shade",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Defy Danger using Stealth, choose one (1):<ul><li>Add +2 Bonus Hits to the result set.</li><li>Increase the Entropy by +1 and gain an additional Action this turn.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "One With the Shadows",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "The Stealth Skill gains the Nox keyword."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Stealth (4)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Stealth 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Stealth Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Nox (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Nox Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Nox (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Nox 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Nox Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Nox (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Nox 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Nox Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Nox (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Nox 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Nox Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Shadow",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
