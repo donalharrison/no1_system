@@ -906,7 +906,7 @@
             "requires": "Heretical Knowledge",
             "replaces": null,
             "effect": [
-                "Once per Waypoint, use your Insight to uncover an unwanted truth.  If you score 3+ Hits, ask the BAMF one question about the game fiction.  Answers will vary depending on the amount of infromation you and your allies have discovered about the game fiction in question."
+                "Once per Waypoint, use your Insight to uncover an unwanted truth.  If you score 3+ Hits, ask the BAMF one question about the game fiction.  Answers will vary depending on the amount of information you and your allies have discovered about the game fiction in question."
             ]
         },
         {
@@ -1985,7 +1985,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert at arranging advantageous deals and alliances, leveraging your noble prowess to gain favors and resources.<br> At the beginning of a Waypoint when you are in a city, you may spend 2 Momentum to gain 1 Favor and 1 Wealth."
+                "You are an expert at arranging advantageous deals and alliances, leveraging your noble prowess to gain favors and resources.","At the beginning of a Waypoint when you are in a city, you may spend 2 Momentum to gain 1 Favor and 1 Wealth."
             ]
         },
         {
@@ -2018,7 +2018,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you suffer Hits from a target you can see and your Nerve is above 0, spend 1 Nerve to reduce the total Hits by +2."
+                "When you suffer Hits from a target you can see and your Nerve is above 0, spend 1 Nerve to reduce the total Hits by -2."
             ]
         },
         {
@@ -2090,12 +2090,13 @@
         {
             "tree": "Courtier",
             "name": "Shadow Network",
-            "type": "Static",
+            "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+                "You maintain a network of informants and are skilled at finding enterprising locals to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.",
+                "The BAMF will provide your answers at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -2455,12 +2456,12 @@
         {
             "tree": "Detective",
             "name": "Informant Network",
-            "type": "Static",
+            "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+                "You maintain a network of informants and are skilled at finding enterprising locals to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -3602,12 +3603,12 @@
         {
             "tree": "Infiltrator",
             "name": "Spy Network",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You maintain a network of informants and are skilled at finding enterprising local to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
+                "You maintain a network of informants and are skilled at finding enterprising locals to gather valuable intelligence.  You may spend Wealth while in a city and ask the BAMF X questions, where X is the amount of Wealth spent.  Then, Deceive your informants to cover your tracks.<br>The BAMF will provide your answers at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -4963,6 +4964,235 @@
             ]
         },
         {
+            "tree": "Shifter",
+            "name": "Shift Forms",
+            "type": "Shift",
+            "rank": "1",
+            "requires": "Forma 1",
+            "replaces": null,
+            "effect": [
+                "Use Forma to transform yourself and gain Form Aura X, where X is equal to Hits in the result set + your Forma Rank.  While this Aura persists, you may use Talents with the Altered Form keyword.",
+                "If you use a Talent with the Altered Form keyword that specifies a Skill, use your Form Aura as the Skill Rank to determine the type of dice you roll.  If your form Aura is equal to or greater than 4, you roll a d12.",
+                "When your Form Aura equals 0, you gain Fatigued 2."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Savage Form",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Shift Forms",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Use Strike or Intimidate against one target in your Current Zone, or use Exert.",
+                "On 2+ Hits, you may create one (1) Advantage in your Current Zone and have all targets in your Current Zone become Provoked."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Nimble Form",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Shift Forms",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Use Stealth, Legerdemain, or Tumble.",
+                "You may use an additional Shift this turn."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Stalwart Form",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Shift Forms",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Use Grapple or Insight against one target in your Current Zone; or use Investigate, Perceive, or Survival.",
+                "You may immediately use the Recover action."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Clever Form",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Use Analyze, Deceive, Implements, Navigate, or Streetwise.",
+                "On 4+ Hits, you may immediately take another Action."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Swift Form",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Nimble Form",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Shift to Move, ignoring Hazards.  You may immediately use another Shift."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Vicious Form",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Savage Form",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Strike one target in your Current Zone, adding +2 Bonus Hits to the result set.  The target gains Vulnerable 1 and all other targets in your Current Zone gain Afraid 1.",
+                "On 5+ Hits, you may immediately take another Action."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Ruinous Form",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Forma 4, Four other <span style='background-color: #096491;border-radius: 4px'>Altered Form</span> Talents.",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Spend 2 Form Aura to Strike all targets in your Current Zone and they become Prone, then Create X Hazards in your Current Zone, where X is equal to Hits in the result set.  Increase the Entropy by +3.",
+                "On 4+ Hits, all targets in all Adjacent Zone suffer X-3 Hits and become Prone, then create X-3 Haxards in all Adjacent Zones.  Increase the Entropy by +1."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Aegis Form",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Two other <span style='background-color: #096491;border-radius: 4px'>Altered Form</span> Talents.",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "Endure to gain X Armor Defense and regain +X Grit, where X is equal to Hits in the result set.  All targets in your Current and Adjacent Zone become Provoked.",
+                "On 4+ Hits, you may reduce one Status by -2."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Embrace the Forms",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Form Aura to add +1d4 Bonus Hits to your next Action's result set."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "This Isn't Even My Final Form",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Momentum and 4 Grit to immideately use Forma and increase your Form Aura by +X, where X is equal to Hits in the result set.  Increase the Entropy by +1."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Feed the Forms",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use an Action with the Altered Form keyword and score 4+ Hits, increase your Form Aura by +1."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Altered Form",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Shift Forms",
+            "replaces": null,
+            "effect": [
+                "When you use Forma to gain a Form Aura, choose one (1) of the following keywords:",
+                "<em>Nightsight, Flying, Aquatic</em>",
+                "While your Form Aura persists, you gain the chosen keyword."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Elusive Form",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "When you Defy Danger using Stealth or Tumble, add +X Bonus Hits to the result set, where X is equal to you Form Aura."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Forma (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Forma Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Forma (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Forma 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Forma Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Forma (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Forma 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Forma Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "Forma (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Forma 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Forma Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Shifter",
+            "name": "",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
             "tree": "Mesmer",
             "name": "",
             "type": "Ability",
@@ -5055,7 +5285,7 @@
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
             "effect": [
-                "Lead your Minions to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the sum of your Minons' Ranged stat in the target's Current Zone."
+                "Lead your Minions to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minons' Ranged stat in the target's Current Zone."
             ]
         },
         {
@@ -9230,13 +9460,190 @@
         },
         {
             "tree": "Warlord",
-            "name": "",
+            "name": "Gain the Upper Hand",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Strike a target in your Current Zone.  On 3+ Hits, you Create 1 Advantage in your Current Zone and all Adjacent Zones."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Beat Them Into the Ground",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Strike one target in your Current Zone.  On 2+ Hits, the target suffers 0 Hits and becomes Prone.",
+                "All allies in your Current Zone may spend 1 Momentum to immedately make a melee attack against target that is not Prone.  On 2+ Hits, the targets suffer 0 Hits and beomce Prone."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "War Game Master",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "War Game Adept",
+            "replaces": null,
+            "effect": [
+                "Use Tactics to attack a target in melee.  On 3+ Hits, all allies in your Current and all Adjacent Zones may spend 1 Momentum to Use Their Skills to attack a target."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Form a Line",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tactics to assume a defensive formation.  You and all allies in your Current Zone gain Armor Defense X, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "War Game Specialist",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you make an Initiatve Test, you or one ally may immediately use a Shift before the first round of the Timer."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Rush of Battle",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target for 4+ Hits, you may immediately use the Recover Action using."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Battlefield Exemplar",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Rush of Battle",
+            "replaces": null,
+            "effect": [
+                "When you use the Recover Action after Striking a target, all allies in your Current Zone may spend 1 Momentum to immediately use the Recover Action."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Get Out of There!",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When an ally in your Current or and Adjacent Zone suffers 3+ Hits, you may spend 1 Momentum to allow that ally to immediately Defy Danger using Stealth or Tumble."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "War Game Adept",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to Defy Danger.  You and all allies in your Current Zone reduce the total number of Hazard dice equal to the Hits in the Result Set."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Tactics (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Tactics 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Tactics (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Tactics 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Tactics (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Tactics 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Tactics Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Strike (4)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Strike 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Dangerous Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Dangerous Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Deft Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Deft Trait rating by +1."
             ]
         },
         {
@@ -10921,6 +11328,564 @@
             "replaces": null,
             "effect": [
                 "When you suffer Hits from a target, you may gain gain Dazed 2 and have the target reroll their effect, using the new result set."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Market Savvy",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze the markets to acquire Gear, gaining Brokerage Aura X, where X is equal to Hits in the result set.  While this Aura persists, all Purchase Thresholds for Gear you attempt to acquire are reduce by -1.",
+                "You gain +X Wealth at the end of each Waypoint, where X is equal to your current Brokerage Aura."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Information Broker",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You can contact experts in a given field to find valuable information for you.  Spend 3 Wealth to have the BAMF use Cosmology, Current Events, History, Linguistucs, Nature, Research, Navigate, Skrimisiology, Streetwise, or Theology at Rank 4 about a specific situation or target.",
+                "On 2+ Hits, you Gain +2 Secrets and reduce your Wealth by the total 1s in the BAMF's result set.  The BAMF will provide your Secrets at a time that makes sense in the game fiction.",
+                "On 4+ Hits, you Gain +X Secrets reduce your Wealth by the total 1s in the BAMF's result set, where X is equal to Hits in the result set.  The BAMF will provide your Secrets at a time that makes sense in the game fiction."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Liability Broker",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are adept at trading Favors with powerful contacts, leveraging their influence to secure valuable alliances and resources.  Persaude a known influential NPC.",
+                "On 2+ Hits, you Gain +1 Favor and write a short-term Target in exchange.  The BAMF will give you the details of the Target.  If you do not successfully complete this Target, you gain +2 Enemies, as the NPC seeks repayment.",
+                "On 4+ Hits, you Gain +2 Favors and write a short-term Target in exchange. The BAMF will give you the details of the Target.  You may Spend X Wealth to complete the Target, where X is equal to the Target's Reward.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 5 - Savvy Actions (minimum 1 Action) and the Momentum increases by +1."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Let's Make a Deal",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persuade or Deceive a target in your Current Zone to negotiate prices, terms, or aggrements, adding +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Insider Trading",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze or use Insight to predict a major economic event.  One 2+ Hits, gain +X Wealth, where X is equal to Hits in the result set.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 5 - Savvy Actions (minimum 1 Action) and the Entropy increases by +1."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Never Show Your Cards",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Initiate a Contest with a target to negotiate, your opponent gains Fatigued 1."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Underworld Broker",
+            "type": "Trigger",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you make a Wealth Check to acquire dangerous, rare, or illicit Gear, you may Persaude your market contacts to arrange the Gear to be moved discreetly.  One 2+ Hits, the Gear can be delivered across borders and/or through hostile territory without detection or confiscation."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Magnetic Demeanor",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Persaude or Deceive a target and score 3+ Hits, the target gain Charmed 1."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Rapid Acquisitions",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use a Shift to make a Wealth Check to purchase goods."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Change Vendors",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Brokerage Aura to reroll a Wealth Check."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Balanced Portfolio",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You maintain a well-rounded investment portfolio across markets.  You gain +2 Wealth at the beginning of each Waypoint."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Silent Partner",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are an expoert at conducting financial transactions, brokering deals, or acquiring goods without revealing your identity.  Targets who attempt to trace your business trasactions back to you gain Fatigued 2."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Persaude (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Persuade 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Persuade (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Persaude 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Deceive (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Deceive 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Deceive Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Deceive (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Deceive 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Deceive Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "A New Power is Rising!",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you recruit Minions, add +1d4 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Blot Out the Sun!",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Coordinated Volley",
+            "replaces": null,
+            "effect": [
+                "Lead your Minions to launch a coordinated ranged attack against a single Zone Adjacent to your Minions.  Divide X Hits among any number of targets in the targteted Zone, where X is the sum of your Minons' Ranged stat in the target's Current Zone."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Fight in the Shade",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When one or more of your Minions suffer Hits from an attack outside of their Current Zone, you may Lead them to gian X Armor Defense, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Its Victory is at Hand!",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you score 4+ Hits on an Action using Lead, you gain an additional Shift this turn."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Do Not Count Days",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When your Minions kill a target, you may have one Minion score Hits euqal to its Melee or Ranged rating to a different target."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Do Not Count Miles",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Minions kill a target, you may Lead X Minions to immediately use a Shift, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Lead (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Lead 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Lead (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Lead 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Lead Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Steady Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Steady Trait by +1."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "Company Man",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You reduce the Momentum Costs of all Company Maneuvers by -1."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Master Diplomat",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persaude to gain Canny Aura X, where X is equal to Hits in the result set.  While this Aura persists, you cannot gain Charmed or Confused."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Widespread Influence",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Persuade all Targets in your Current Zone.  On 3+ Hits, all targets gain Charmed 1."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "False Flag",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Momentum and Deceive to execute a false flag operation, convincing others that the actions were carried out by a different target or faction. On 3+ Hits, the blame is shifted to a target of your choice.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 6 - Savvy Actions (minimum 1 Action) and the Entropy increases by +1."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Shrewd Mind",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you become Charmed, reduce your Charmed rating by -1."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Hidden Motives",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Deceive to conceal your true intentions or cover your tracks, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Compelling Argument",
+            "type": "Trigger",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are defeated in a Contest of wits, you may Persaude your contestant.  On 4+ Hits, add 2 to the Contest Timer."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Political Maneuvering",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Master Diplomat",
+            "replaces": null,
+            "effect": [
+                "Spend 1 Canny Aura to add +1 Bonus Hits to your next Action using Deceive, Insight, or Persaude."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Political Recovery",
+            "type": "Shift",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Canny Aura to reroll the result set of an Action using Deceive, Insight, or Persaude."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Renowned Emissary",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Gain +2 Renown and +1 Favors."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Persaude (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Persuade 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Persaude (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Persuade 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Persuade Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Deceive (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Deceive 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Deceive Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Deceive (4)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Deceive 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Deceive Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Current Events (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Current Events 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Current Events Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Current Events (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Current Events 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Current Events Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Current Events (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Current Events 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Current Events Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Insight (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Insight 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Insight (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Insight 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
+            ]
+        },
+        {
+            "tree": "Envoy",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
             ]
         },
         {

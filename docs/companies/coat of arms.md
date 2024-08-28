@@ -1,0 +1,168 @@
+---
+layout: page
+title: Coat of Arms
+permalink: /companies/coat-of-arms/
+id: companies-coat
+parent: Companies
+has_children: false
+nav_order: 2
+---
+# Coat of Arms
+
+
+## Colors
+- Or
+    - Generosity, elevation of the mind
+    - Tactics, Lead
+    - Your Company Gains +1 Intelligence and +1 Magic.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point.
+- Argent
+    - Sincerity, peace
+    - Persuasion, Lead
+    - You Company gains +1 Intelligence and +1 Operations.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point.
+- Gules
+    - Warrior, martyr
+    - Your Company gains +2 Battle.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point.
+    - When you successfully use the Rally the Troops Maneuver, your company gains an additional +1 Morale.
+- Azure
+    - Truth, loyalty
+    - Insight, morale
+    - Your Comapny gains +1 Intelligence and +2 Morale.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point
+- Vert
+    - Hope, joy
+    - Morale, Lead
+    - Your Company gains +6 Morale.
+    - When you successfully use the Rally the Troops Maneuver, your company gains an additional +4 Morale.
+- Sable
+    - Constancy, grief
+    - Morale, Endure
+    - You company gains +1 Battle and +2 Morale.
+    - When you successfully use the Rally the Troops Maneuver, your company gains an additional +3 Morale.
+- Purpure
+    - majesty, justice
+    - Intimidate, 
+    - You Company gains +1 Battle and +1 Magic.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point.
+- Tawny
+    - Ambition
+    - Deception, Lead
+    - You Comapny gains +2 Operations or +2 Magic.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point.
+    - When you successfully use the Rally the Troops Maneuver, your company gains an additional +1 Morale.
+- Murray
+    - Patience in battle
+    - Morale, Tactics
+    - Your Company gains +1 Operations and +2 Morale.
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +2 Skill Points.
+
+
+## Ordinaries
+- Bend
+    - defense or protection
+    - Your Company gains +3 Morale.
+    - When you successfully use the Rally the Troops Maneuver, your company gains an additional +1 Morale.
+- Canton
+    - Your Company gains +1 Operations.
+- Chequy
+    - 
+- Chevron
+    - protection
+    - Units in your company do not Die until their Morale is -6.
+- Chief
+    - Authority, domination of Will, prudence and wisdom, success in war
+    - Your Company gains +2 Battle.
+- Cross
+    - Your Company cannot become Afraid or Confused.
+- Fess
+    - Readiness to act
+    - Your Company adds +1d4 Bonus Hits to Initiative Tests.
+- Lozenge
+    - 
+- Pale
+    - Defensive strength, protection, calm under stress
+    - Your Company does not desert when their Morale is 0 or less.
+- Pall (y)
+- Pile
+- Point
+- Saltire
+    - Endurance of hardship
+    - Reduce all Hits suffered to your Company's Morale by -1.
+
+## Charges
+- Annulet -- continuation
+    - When a Unit in your Company is Routed, your Company retains 2 of the Skill Points assigned to the Unit.
+- Arrow -- readiness
+    - Initiative, Shoot
+    - Your Company add +1 Bonus Hits to Initiative Tests.
+    - Your Company only scores Hits against Enemy Units with Action using Battle that target Adjacent Zones.
+- Badger (brock) -- courage
+    - Decrease your Company's Morale threshold by -1.
+- Balance -- justice
+    - 
+- Bat -- fear
+    - When your Company score 3+ Hits on an Action using Battle, the targeted Unit gains Afraid 1.
+- Bear -- ferocity
+    - Your Company adds +2 Bonus Hits to Actions using Battle and +1 Bonus Hits to Actions using Operations.
+- Boar -- fiercly combative
+    - Your Company adds +1d4 Bonus Hits to Actions using Battle.
+- Book -- knowledge, learning
+    - Your Company adds +1d4 Bonus Hits to Actions using Intelligence.
+- Cloud -- consistency
+    - When one of your Company's Actions score 0 Hits, add +2 Bonus Hits to the result set.
+- Crane -- vigilance
+    - Your Company cannot be Ambushed.
+- Crescent -- hope
+    - When you successfully use the Rally the Troops Maneuver, your company gains an additional +1d4 Morale.
+- Crown -- victory, sovereignty
+    - When your Company completes a Mission or Battle, choose one (1):
+        - All Company Officers gain +1 Renown.
+        - Your Company gains +1 Skill Point.
+        - Your Company gains +5 Morale.
+- Dog -- loyalty, guardianship
+- Eagle -- fortitude
+- Eye -- providence, destiny
+    - Your Company adds +1d4 Bonus Hits to Actions using Magic.
+- Falcon -- eager pursuit
+    - Your Company adds +1d4 Bonus Hits to Actions using Operations.
+- Feathers -- serenity of mind
+- Flames -- zeal, rebirth, purification
+- Fox -- intelligence, cunning, hard to capture
+    - Your Company gains +1 Bonus Hits to Actions using Intelligence.
+    - Units in your Company cannot be Restrained.
+- Gauntlet -- readiness for battle
+    - Your Company always gains the Initiative in the first round.
+- Goat -- practical wisdom, diplomatic victory
+    - Your Company gains +2 Bonus Htis to actions using Operations.
+- Grapes -- luck
+    - Your Company's Skills gain the Luck keyword.
+- Griffon -- valor
+- Hammer -- force and dominance, smithing
+- Horse -- readiness, speed
+    - When Units in your Company use a Shift to Move, they may Move an additional Zone.
+- Lion -- deathless courage
+- Peacock -- resurrection, immortality
+    - When a Unit in your Company is Routed, immediately roll 1d20 as X.  If X is greater than 9, the Unit's Morale becomes 0.
+- Pheonix -- rebirth
+- Ram -- leadership
+- Raven -- knowledge
+    - You company add +2 Bonus Hits to Actions using Intelligence and +1 Bonus Hits to actions using Magic.
+- Serpent -- defiance
+    - 
+- Spear -- service in battle
+- Star -- honor, achievement, hope
+- Sun -- authority, happiness, life, spirituality
+- Sword -- honor in battle
+    - Your Company does not Retreat.
+- Thunderbolt -- power, speed
+    - When Unit's in you Company Shift the Move and then use a Battle Action, add +1d4 Bonus Hits to the result set.
+- Tower -- strength, protection
+    - 
+- Unicorn -- virtue
+- Vulture -- rapacity
+    - When a Unit in your Company Routes an Enemy Unit, they may immediately use a Battle Action.
+- Wolf -- valiant captainship
+    - Retainers assigned to lead Units in your Company gain Armor Defense equal to the Unit's Morale.
+- Wyvern -- keen sight
