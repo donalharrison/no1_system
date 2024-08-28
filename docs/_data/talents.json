@@ -1163,7 +1163,9 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>", "Spend 1 Bladeweave Aura to enter a Defensive Stance. You may maintain this stance until you use a different Shift.", "While you maintain this Stance, you may use a Shift to rolle Strike to gain Armor Defese X, where equal to Hits in the result set."
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
+                "Spend 1 Bladeweave Aura to enter a Defensive Stance. You may maintain this stance until you use a different Shift.",
+                "While you maintain this Stance and use an Action to Strike, you gain Armor Defese X, where X is equal to your Bladeweave Aura."
             ]
         },
         {
@@ -4984,7 +4986,7 @@
             "requires": "Shift Forms",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Use Strike or Intimidate against one target in your Current Zone, or use Exert.",
                 "On 2+ Hits, you may create one (1) Advantage in your Current Zone and have all targets in your Current Zone become Provoked."
             ]
@@ -4997,7 +4999,7 @@
             "requires": "Shift Forms",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Use Stealth, Legerdemain, or Tumble.",
                 "You may use an additional Shift this turn."
             ]
@@ -5010,7 +5012,7 @@
             "requires": "Shift Forms",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Use Grapple or Insight against one target in your Current Zone; or use Investigate, Perceive, or Survival.",
                 "You may immediately use the Recover action."
             ]
@@ -5023,7 +5025,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Use Analyze, Deceive, Implements, Navigate, or Streetwise.",
                 "On 4+ Hits, you may immediately take another Action."
             ]
@@ -5036,7 +5038,7 @@
             "requires": "Nimble Form",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Shift to Move, ignoring Hazards.  You may immediately use another Shift."
             ]
         },
@@ -5048,7 +5050,7 @@
             "requires": "Savage Form",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Strike one target in your Current Zone, adding +2 Bonus Hits to the result set.  The target gains Vulnerable 1 and all other targets in your Current Zone gain Afraid 1.",
                 "On 5+ Hits, you may immediately take another Action."
             ]
@@ -5061,7 +5063,7 @@
             "requires": "Forma 4, Four other <span style='background-color: #096491;border-radius: 4px'>Altered Form</span> Talents.",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Spend 2 Form Aura to Strike all targets in your Current Zone and they become Prone, then Create X Hazards in your Current Zone, where X is equal to Hits in the result set.  Increase the Entropy by +3.",
                 "On 4+ Hits, all targets in all Adjacent Zone suffer X-3 Hits and become Prone, then create X-3 Haxards in all Adjacent Zones.  Increase the Entropy by +1."
             ]
@@ -5074,7 +5076,7 @@
             "requires": "Two other <span style='background-color: #096491;border-radius: 4px'>Altered Form</span> Talents.",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Endure to gain X Armor Defense and regain +X Grit, where X is equal to Hits in the result set.  All targets in your Current and Adjacent Zone become Provoked.",
                 "On 4+ Hits, you may reduce one Status by -2."
             ]
@@ -5133,7 +5135,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Form</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "When you Defy Danger using Stealth or Tumble, add +X Bonus Hits to the result set, where X is equal to you Form Aura."
             ]
         },
@@ -5179,17 +5181,6 @@
             "replaces": null,
             "effect": [
                 "Increase your Forma Rank to 4 (d12)."
-            ]
-        },
-        {
-            "tree": "Shifter",
-            "name": "",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
             ]
         },
         {
@@ -7229,17 +7220,6 @@
             "replaces": null,
             "effect": [
                 "Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1."
-            ]
-        },
-        {
-            "tree": "Shifter",
-            "name": "Primal Form",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
             ]
         },
         {
@@ -9466,7 +9446,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike a target in your Current Zone.  On 3+ Hits, you Create 1 Advantage in your Current Zone and all Adjacent Zones."
+                "Strike a target in your Current Zone.  If target dies, you Create 1 Advantage in your Current Zone and all Adjacent Zones."
             ]
         },
         {
@@ -9644,6 +9624,28 @@
             "replaces": null,
             "effect": [
                 "Increase your Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "Call to Arms",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Company Maneuver, choose one (1):<ul><li>Increase the Momentum by +2 and immediately reroll the same Company Maneuver.</li><li>Reduce X by -1.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Warlord",
+            "name": "There's a War Coming",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Company Maneuver, reduce X by -2."
             ]
         },
         {
@@ -11482,13 +11484,36 @@
         },
         {
             "tree": "Broker",
-            "name": "Persuade (4)",
+            "name": "Insight (2)",
             "type": "Static",
             "rank": "2",
-            "requires": "Persaude 3",
+            "requires": "Insight 1",
             "replaces": null,
             "effect": [
-                "Increase your Persuade Rank to 4 (d12)."
+                "Increase your Insight Rank to 2 (d8)."
+            ]
+        },
+        
+        {
+            "tree": "Broker",
+            "name": "Insight (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Insight 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Insight Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Analyze (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Analyze 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Analyze Rank to 2 (d8)."
             ]
         },
         {
@@ -11504,13 +11529,24 @@
         },
         {
             "tree": "Broker",
-            "name": "Deceive (4)",
+            "name": "Analyze (3)",
             "type": "Static",
             "rank": "2",
-            "requires": "Deceive 3",
+            "requires": "Analyze 2",
             "replaces": null,
             "effect": [
-                "Increase your Deceive Rank to 4 (d12)."
+                "Increase your Analyze Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Broker",
+            "name": "Analyze (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Analyze 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Analyze Rank to 4 (d12)."
             ]
         },
         {
@@ -11538,7 +11574,7 @@
         {
             "tree": "Overlord",
             "name": "A New Power is Rising!",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -11554,13 +11590,13 @@
             "requires": "Coordinated Volley",
             "replaces": null,
             "effect": [
-                "Lead your Minions to launch a coordinated ranged attack against a single Zone Adjacent to your Minions.  Divide X Hits among any number of targets in the targteted Zone, where X is the sum of your Minons' Ranged stat in the target's Current Zone."
+                "Select any number of your Minions.  Lead the selected to launch a coordinated ranged attack targeted against a single Zone Adjacent to the selected Minion.  Divide X Hits among any number of targets in the targteted Zone, where X is the sum of the selected Minons' Ranged rating + Hits in the result set."
             ]
         },
         {
             "tree": "Overlord",
             "name": "Fight in the Shade",
-            "type": "Ability",
+            "type": "Trigger",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -11599,6 +11635,17 @@
             "replaces": null,
             "effect": [
                 "When you Minions kill a target, you may Lead X Minions to immediately use a Shift, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Overlord",
+            "name": "There's a War Coming",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use a Company Maneuver, reduce X by -2."
             ]
         },
         {
@@ -11693,7 +11740,7 @@
             "tree": "Envoy",
             "name": "False Flag",
             "type": "Ability",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -11727,7 +11774,7 @@
             "tree": "Envoy",
             "name": "Compelling Argument",
             "type": "Trigger",
-            "rank": null,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -11749,7 +11796,7 @@
             "tree": "Envoy",
             "name": "Political Recovery",
             "type": "Shift",
-            "rank": null,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -11760,7 +11807,7 @@
             "tree": "Envoy",
             "name": "Renowned Emissary",
             "type": "Static",
-            "rank": "2",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [

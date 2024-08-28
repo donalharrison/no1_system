@@ -22,6 +22,7 @@ Scout,Basic,"Deft 1, Steady 2","You specialize in reconnaissance and information
 Scrapper,Basic,Dangerous 2,"You are a master close-quarters armed combat, using a combination of strength, agility, and brawling skills to excel in melee engagements",/no1_system/assets/img/scrapper.png,/no1_system/characters/training/scrapper/
 Seer,Basic,Steady 3,"You experience divine insights and prophetic visions, providing guidance and foresight.",/no1_system/assets/img/seer.png,/no1_system/characters/training/seer/
 Shaman,Basic,Savvy 3,"You engage in ancient spiritual practices, gaining powers from the spirit world and connecting with ancestral energies.",/no1_system/assets/img/shaman.png,/no1_system/characters/training/shaman/
+Shifter,Basic,Steady 3,"You possess the ability to transform your physical form, gaining unique and adaptable capabilities.",/no1_system/assets/img/shifter.png,/no1_system/characters/training/shifter/
 Shugenja,Basic,Savvy 3,"You master the mystical arts of elemental and spirit magic, able to create powerful spells through prayer and ritual.",/no1_system/assets/img/shugenja.png,/no1_system/characters/training/shugenja/
 Soldier,Basic,Dangerous 1,"You have undergone military training, becoming skilled in various combat styles, weaponry, and tactics for organized warfare.",/no1_system/assets/img/soldier.png,/no1_system/characters/training/soldier/
 Tactician,Basic,"Deft 2, Dangerous 1","You are adept in strategic thinking and battlefield tactics, providing crucial insights and coordination in combat situations.",/no1_system/assets/img/tactician.png,/no1_system/characters/training/tactician/
@@ -53,7 +54,6 @@ Paragon,Discipline,,"You have mastered your uncanny ablities, exemplify perfecti
 Probabilist,Discipline,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist.png,/no1_system/characters/training/probabilist/
 Raindancer,Discipline,,"You control and manipulate weather, influencing the natural energies to your own advantage.",/no1_system/assets/img/raindancer.png,/no1_system/characters/training/raindancer/
 Shadow,Discipline,,"You are an inescapable operative, mastering dark powers and striking from the shadows.",/no1_system/assets/img/shadow.png,/no1_system/characters/training/shadow/
-Shifter,Discipline,,"You possess the ability to transform your physical form, gaining unique and adaptable capabilities.",/no1_system/assets/img/shifter.png,/no1_system/characters/training/shifter/
 Shock Trooper,Discipline,,"You embrace high-impact combat, specializing in rapid assaults and overwhelming force.",/no1_system/assets/img/shock_trooper.png,/no1_system/characters/training/shock_trooper/
 Spellreaver,Discipline,,"You draw upon arcane energies recklessly, fueling your battle frenzy to terrifying effect.",/no1_system/assets/img/spellreaver.png,/no1_system/characters/training/spellreaver/
 Summoner,Discipline,,"You call upon creatures and otherworldly beings, commanding them to aid in battles or perform tasks.",/no1_system/assets/img/summoner.png,/no1_system/characters/training/summoner/

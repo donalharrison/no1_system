@@ -30,7 +30,7 @@ nav_order: 2
     - Truth, loyalty
     - Insight, morale
     - Your Comapny gains +1 Intelligence and +2 Morale.
-    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point
+    - When you succesfully use the Shall We Play A Game Maneuver, your company gains and additional +1 Skill Point.
 - Vert
     - Hope, joy
     - Morale, Lead
