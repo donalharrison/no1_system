@@ -10001,7 +10001,7 @@
             "threshold": [
                 {
                     "hits": "3",
-                    "effect": "You Provoke all enemies in your Current or an Adjacent Zone.  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with an Action that effects one target, the target gains Stunned 1.</div>"
+                    "effect": "You Provoke all enemies in your Current or an Adjacent Zone.  Until the end of your next turn, you and X allies in your Current Zone gain the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</em></strong>When you score 2+ Hits with an Action that effects one target, the target gains Stunned 1.</div>"
                 }
             ],
             "requires": null,
@@ -10170,7 +10170,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</em></strong>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
                 }
             ],
             "requires": null,
@@ -10183,7 +10183,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Blind status; reduces any Hits you suffer from heat, fire, Inferno, or Lux effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</em></strong>When you score 2+ Hits with a combat Action that effects one target, that target gains Blind 1.</div>"
                 }
             ],
             "requires": null,
@@ -10469,7 +10469,7 @@
             "threshold": [
                 {
                     "hits": "2",
-                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</strong></em>When you score 2+ Hits with a combat Action that effects one target, the target gains Frozen 1.</div>"
+                    "effect": "One target in your Current or an Adjacent Zone gains Aura X.  While the Aura persist, the target cannot gain the Frozen status; reduces any Hits you suffer from cold, ice, or Rime effects by -1; and gains the following Trigger:<div style='background-color:#4b476650;'><strong><em>Trigger</em></strong>When you score 2+ Hits with a combat Action that effects one target, the target gains Frozen 1.</div>"
                 }
             ],
             "requires": null,
@@ -10662,7 +10662,7 @@
                 },
                 {
                     "hits": 5,
-                    "effect": "<em><strong>Trigger</strong></em> &mdash; cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
+                    "effect": "<em><strong>Trigger</strong></em> &mdash; Immediately cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
                 }
             ],
             "requires": "Arc Lightning 2",
@@ -11431,7 +11431,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><strong><em>Trigger &emdash</strong></em> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><strong><em>Trigger &emdash</em></strong> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
             "requires": null,
@@ -12005,7 +12005,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash; </strong></em> When you Strike or use your Martial Arts and score 3+ Hits, your target becomees Prone."
+                    "effect": "One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash; </em></strong> When you Strike or use your Martial Arts and score 3+ Hits, your target becomes Prone."
                 }
             ],
             "requires": null,
@@ -12281,7 +12281,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash; </strong></em> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
+                    "effect": "One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash; </em></strong> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1."
                 }
             ],
             "requires": null,
