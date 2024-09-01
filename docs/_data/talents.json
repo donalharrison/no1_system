@@ -12094,7 +12094,7 @@
             "tree": "Shadow",
             "name": "Unseen Striking",
             "type": "Static",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -12183,7 +12183,7 @@
             "tree": "Shadow",
             "name": "Unhindered Shade",
             "type": "Trigger",
-            "rank": "1",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
