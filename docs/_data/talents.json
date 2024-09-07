@@ -279,7 +279,7 @@
         {
             "tree": "Alchemist",
             "name": "Brew Broker",
-            "type": "",
+            "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -290,9 +290,9 @@
         {
             "tree": "Alchemist",
             "name": "Premium Potables",
-            "type": "",
+            "type": "Trigger",
             "rank": "3",
-            "requires": null,
+            "requires": "Brew Broker",
             "replaces": null,
             "effect": [
                 "When you Persuade or Deceive a target to sell your Concoctions and score 3+ Hits, gain +1 Wealth from the transaction."
@@ -444,8 +444,8 @@
         {
             "tree": "Assassin",
             "name": "Assassinate",
-            "type": "3",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "3",
             "requires": "Marked for Death, Sneak Attack",
             "replaces": null,
             "effect": [
@@ -656,19 +656,19 @@
         {
             "tree": "Tactician",
             "name": "Coordinated Attack",
-            "type": "",
-            "rank": "",
+            "type": "Shift",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Lead the assault in combat designating one target in your Current Zone.  The target gains Vulnerable X, where X is equal to Hits -2 in the result set."
+                "Use Tactics to coordinate the assault in combat designating one target in your Current Zone.  The target gains Vulnerable X, where X is equal to Hits -2 in the result set."
             ]
         },
         {
             "tree": "Tactician",
             "name": "Defensive Maneuver",
-            "type": "",
-            "rank": "",
+            "type": "Shift",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -678,8 +678,8 @@
         {
             "tree": "Tactician",
             "name": "Tactical Retreat",
-            "type": "2",
-            "rank": "Ability",
+            "type": "Ability",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -689,8 +689,8 @@
         {
             "tree": "Tactician",
             "name": "Rallying Cry",
-            "type": "",
-            "rank": "",
+            "type": "Shift",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -700,8 +700,8 @@
         {
             "tree": "Tactician",
             "name": "Flanking Maneuver",
-            "type": "",
-            "rank": "",
+            "type": "Shift",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -711,7 +711,7 @@
         {
             "tree": "Tactician",
             "name": "Tactical Strike",
-            "type": "Abiltiy",
+            "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -1828,8 +1828,8 @@
         {
             "tree": "Corsair",
             "name": "Sea Lore",
-            "type": "2",
-            "rank": "Static",
+            "type": "Static",
+            "rank": "2",
             "requires": "Cosmology 1 or History 1",
             "replaces": null,
             "effect": [
@@ -1894,7 +1894,7 @@
         {
             "tree": "Corsair",
             "name": "Strike 3",
-            "type": "Strike",
+            "type": "Static",
             "rank": "2",
             "requires": "Strike 2",
             "replaces": null,
@@ -1927,7 +1927,7 @@
         {
             "tree": "Corsair",
             "name": "Weather the Storm",
-            "type": "",
+            "type": "Ability",
             "rank": "3",
             "requires": null,
             "replaces": null,
@@ -2425,7 +2425,7 @@
         {
             "tree": "Detective",
             "name": "Shadow the Perp",
-            "type": "Abiltiy",
+            "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
@@ -3616,8 +3616,8 @@
         {
             "tree": "Infiltrator",
             "name": "Mimicry",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3627,8 +3627,8 @@
         {
             "tree": "Infiltrator",
             "name": "Counter-Surveillance",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3638,8 +3638,8 @@
         {
             "tree": "Infiltrator",
             "name": "Escape Artist",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3649,8 +3649,8 @@
         {
             "tree": "Infiltrator",
             "name": "Deep Cover",
-            "type": "",
-            "rank": "",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3660,8 +3660,8 @@
         {
             "tree": "Infiltrator",
             "name": "Forgery",
-            "type": "",
-            "rank": "",
+            "type": "Ability",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -3682,8 +3682,8 @@
         {
             "tree": "Infiltrator",
             "name": "Infiltrator's Instincts",
-            "type": "",
-            "rank": "",
+            "type": "Trigger",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -4327,17 +4327,6 @@
             "replaces": null,
             "effect": [
                 "Choose one (1) Spell you have 2+ Ranks in.  The Spell gains the Subtle keyword."
-            ]
-        },
-        {
-            "tree": "Magic-User",
-            "name": "",
-            "type": "",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
             ]
         },
         {

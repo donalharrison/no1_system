@@ -1,0 +1,600 @@
+<div class="sheet-main">
+<div class="grid-container">
+<div class="grid-item grid-header">
+Savvy
+<div class="grid-container"><label>Trait Points: <input class="trait-input" type="number" name="attr_trait_savvy" /></label>
+<div class="grid-item grid-main-skills">
+Analyze
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Analyze
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_analyze}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_analyze}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Analyze
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_analyze}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Cosmology
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Cosmology
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_cosmology}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_cosmology}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Cosmology
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_cosmology}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Current Events
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Current Events
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_current_events}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_current_events}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Current Events
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_current_events}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Deceive
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Deceive
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_deceive}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_deceive}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Deceive
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_deceive}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+History
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - History
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_history}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_history}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - History
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_history}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Linguistics
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Linguistics
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_linguistics}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_linguistics}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Linguistics
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_linguistics}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Nature
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Nature
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_nature}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_nature}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Nature
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_nature}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Navigate
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Navigate
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_navigate}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_navigate}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Navigate
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_navigate}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Persuade
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Persuade
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_persuade}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_persuade}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Persuade
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_persuade}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Research
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Research
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_research}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_research}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Research
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_research}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Skrimisiology
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Skrimisiology
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_skrimisiology}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_skrimisiology}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Skrimisiology
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_skrimisiology}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Streetwise
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Streetwise
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_streetwise}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_streetwise}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Streetwise
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_streetwise}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Survival
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Survival
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_survival}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_survival}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Survival
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_survival}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Theology
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Theology
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_theology}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_theology}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Theology
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_theology}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+</div>
+</div>
+<div class="grid-item grid-header">
+Steady
+<div class="grid-container"><label>Trait Points: <input class="trait-input" type="number" name="attr_trait_steady" /></label>
+<div class="grid-item grid-main-skills">
+Composure
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Composure
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_composure}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Composure
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_composure}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Endure
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Endure
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_endure}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_endure}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Endure
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_endure}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Focus
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Focus
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_focus}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_focus}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Focus
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_focus}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Investigate
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Investigate
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_investigate}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_investigate}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Investigate
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_investigate}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Lead
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Lead
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_lead}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Lead
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_lead}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Perceive
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Perceive
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_perceive}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_perceive}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Perceive
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_perceive}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+</div>
+</div>
+<div class="grid-item grid-header">
+Dangerous
+<div class="grid-container"><label>Trait Points: <input class="trait-input" type="number" name="attr_trait_dangerous" /></label>
+<div class="grid-item grid-main-skills">
+Exert
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Exert
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_exert}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_exert}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Exert
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_exert}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Grapple
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Grapple
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_grapple}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_grapple}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Grapple
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_grapple}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Intimidate
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Intimidate
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_intimidate}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_intimidate}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Intimidate
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_intimidate}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Martial Arts
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Martial Arts
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_martial_arts}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Martial Arts
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_martial_arts}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Shoot
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Shoot
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_shoot}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Shoot
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_shoot}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Strike
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Strike
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_strike}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_strike}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Strike
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_strike}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Throw
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Throw
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_throw}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_throw}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Throw
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_throw}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+</div>
+</div>
+<div class="grid-item grid-header">
+Deft
+<div class="grid-container"><label>Trait Points: <input class="trait-input" type="number" name="attr_trait_deft" /></label>
+<div class="grid-item grid-main-skills">
+Implements
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Implements
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_implements}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_implements}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Implements
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_implements}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Insight
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Insight
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_insight}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_insight}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Insight
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_insight}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Legerdemain
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Legerdemain
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_legerdemain}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_legerdemain}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Legerdemain
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_legerdemain}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Operate
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Operate
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_operate}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_operate}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Operate
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_operate}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Stealth
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Stealth
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_stealth}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_stealth}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Stealth
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_stealth}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Tactics
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Tactics
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_tactics}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Tactics
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_tactics}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+<div class="grid-item grid-main-skills">
+Tumble
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Tumble
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_tumble}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">d@{skill_tumble}</button>
+<button class="txt-btn" type="roll" value="!power {{
+          --name|@{character_name} - Reroll - Tumble
+          --Result Set| [[ [$reroll|XPND] 1d@{skill_tumble}>@{Cosm|target}]]
+          --Hits|[^reroll.ss]
+          --1s|[^reroll.ones]
+          --format|skillcheck
+          }}">1s</button>
+</div>
+</div>
+</div>

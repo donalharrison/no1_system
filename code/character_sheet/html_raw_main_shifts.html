@@ -1,0 +1,3173 @@
+    <div class="grid-container grid-main-middle">
+
+      <div class="grid-item grid-header">
+        Shifts
+        <div class="grid-container grid-middle-pane">
+
+          <input type="radio" class="main-tab-toggle" value="basic" name="main_middle_shifts" id="tab_main_shift_basic" checked="checked" hidden />
+          <label class="main-tab-toggle" for="tab_main_shift_basic">Basic</label>
+          <input type="radio" class="main-tab-toggle" name="main_middle_shifts" id="tab_main_shift_talents" value="talents" hidden />
+          <label class="main-tab-toggle" for="tab_main_shift_talents">Talents</label>
+          <input type="radio" class="main-tab-toggle" name="main_middle_shifts" id="tab_main_shift_powers" value="powers" hidden />
+          <label class="main-tab-toggle" for="tab_main_shift_powers">Powers</label>
+          <div class="grid-main-shifts-basic">
+            <div class="grid-main-middle-item">
+              <input class="talent-expand" type="checkbox" id="main_advantage_create" hidden />
+              <label for="main_advantage_create">Create an Advantage</label>
+              <div class="talent-desc">
+                Use a Skill quickly to aid in your allies efforts, creating X Advantages in your Current Zone, where X is equal to total Hits in the result set.
+              </div>
+            </div>
+            <div class="grid-main-middle-item">
+              <input class="talent-expand" type="checkbox" id="main_defy_danger" hidden />
+              <label for="main_defy_danger">Defy Danger</label>
+              <div class="talent-desc">
+                Choose your skill:
+                <div class="grid-3col">
+                  <button class="skill-button" type="roll" value="!power {{
+          --name|@{character_name} - Defy Danger - Hide!
+          --Rank|d@{skill_stealth}
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_stealth}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">Hide!</button>
+                <button class="skill-button" type="roll" value="!power {{
+          --name|@{character_name} - Defy Danger - Parkour!
+          --Rank|d@{skill_tumble}
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_tumble}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">Parkour!</button>
+            <button class="skill-button" type="roll" value="!power {{
+          --name|@{character_name} - Defy Danger - Prove Your Mettle!
+          --Rank|d@{skill_exert}
+          --Result Set| [[ [$skill|XPND] @{Cosm|challenge}d@{skill_exert}>@{Cosm|target}]]
+          --Hits|[^skill.ss]
+          --1s|[^skill.ones]
+          --format|skillcheck
+          }}">Prove Your Mettle!</button>
+                </div>
+            </div>
+            </div>
+            <div class="grid-main-middle-item">
+            <input class="talent-expand" type="checkbox" id="main_initiatie_contest" hidden />
+            <label for="main_initiatie_contest">Initiate a Contest</label>
+              <div class="talent-desc">
+              Issue a challenge to a single enemy to engage you one on one.  If they take up your Challenge, you enter into a Contest.
+              </div>
+            </div>
+            <div class="grid-main-middle-item">
+              <input class="talent-expand" type="checkbox" id="main_move" hidden />
+              <label for="main_move">Move</label>
+                <div class="talent-desc">
+                  <ul style="margin: 0px;">
+                    <li>Move to an Adjacent Zone.</li>
+                    <li>Move into proximity of or away from a Point of Interest within your Current Zone</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="grid-main-middle-item">
+            <input class="talent-expand" type="checkbox" id="main_advantage_use" hidden />
+            <label for="main_advantage_use">Use an Advantage</label>
+              <div class="talent-desc">
+                <ul style="margin: 0px;">
+                  <li>Add +1d4 Bonus Hits to your next roll.</li>
+                  <li>Remove 1 Hazard die from your next roll.</li>
+                  <li>Reduce the current Entropy by 1.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-main-middle-item">
+              <input class="talent-expand" type="checkbox" id="main_use_equipment" hidden />
+              <label for="main_use_equipment">Use Your Equipment</label>
+                <div class="talent-desc">
+                  <ul style="margin: 0px;">
+                    <li>Reload / Restring / Unjam a weapon*/li>
+                    <li>Draw / Change  a weapon</li>
+                    <li>Use a consumable item</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="grid-main-middle-item">
+              <input class="talent-expand" type="checkbox" id="main_wait_for_it" hidden />
+              <label for="main_wait_for_it">Wait For It. . .</label>
+                <div class="talent-desc">
+                Specify an Action you will take when a certain condition is met this turn.
+                </div>
+            </div>
+          </div><div class="grid-main-shifts-talents">
+<input class="talent-trained" type="hidden" name="attr_talent_shock trooper_reform_the_line" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0647" hidden />
+<label for="main_shift_talent_0647">. . and Awe</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - . . and Awe
+    --Effect|Intimidate all targets in your Current Zone you just used a Shift to Move into.  On 3+ Hits, all targets in your Current Zone become Provoked.
+        --Rank| d@{skill_intimidate}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_intimidate}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Intimidate</button>
+<div class="talent-desc">Intimidate all targets in your Current Zone you just used a Shift to Move into.  On 3+ Hits, all targets in your Current Zone become Provoked.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_soldier_physical_training" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0694" hidden />
+<label for="main_shift_talent_0694">Aim</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Aim
+    --Effect|Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<div class="talent-desc">Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_marksman_aim" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0389" hidden />
+<label for="main_shift_talent_0389">Aim</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Aim
+    --Effect|Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<div class="talent-desc">Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_hunter_aim" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0304" hidden />
+<label for="main_shift_talent_0304">Aim</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Aim
+    --Effect|Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<div class="talent-desc">Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_conduit_attuning_conflux" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0156" hidden />
+<label for="main_shift_talent_0156">Attuning Conflux</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Attuning Conflux
+        --Effect|Spend X Hits from the result set of the next Marvel you use this turn to increase your Attunement by X.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Hits from the result set of the next Marvel you use this turn to increase your Attunement by X.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_blade weaver_atyamaica" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0107" hidden />
+<label for="main_shift_talent_0107">Atyamaica</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Atyamaica
+    --Effect|Use the Strike Skill.
+        --Rank| d@{skill_strike}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_strike}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Strike</button>
+<div class="talent-desc">Use the Strike Skill.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_martial artist_back_stance" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0405" hidden />
+<label for="main_shift_talent_0405">Back Stance</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Back Stance
+    --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance//**^^^^You assume a Defensive Stance.  You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.^^While you maintain this Stance, reduce all Hits from using your Martial Arts by -1.^^
+        --Rank| d@{skill_martial_arts}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Martial Arts</button>
+<div class="talent-desc"><h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>You assume a Defensive Stance.  You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.<br>While you maintain this Stance, reduce all Hits from using your Martial Arts by -1.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shock trooper__and_awe" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0648" hidden />
+<label for="main_shift_talent_0648">Bull Rush</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Bull Rush
+    --Effect|Exert against one target in your Current Zone your just used a Shift to Move into.  On 3+ Hits, move the target to an Adjacent Zone and the target becomes Prone.^^On 5+ Hits, move up to 3 targets to an Adjacent Zone and the targets become Prone.^^
+        --Rank| d@{skill_exert}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_exert}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Exert</button>
+<div class="talent-desc">Exert against one target in your Current Zone your just used a Shift to Move into.  On 3+ Hits, move the target to an Adjacent Zone and the target becomes Prone.<br>On 5+ Hits, move up to 3 targets to an Adjacent Zone and the targets become Prone.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_broker_change_vendors" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1033" hidden />
+<label for="main_shift_talent_1033">Change Vendors</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Change Vendors
+        --Effect|Spend 1 Brokerage Aura to reroll a Wealth Check.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 1 Brokerage Aura to reroll a Wealth Check.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_tactician_coordinated_attack" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0058" hidden />
+<label for="main_shift_talent_0058">Coordinated Attack</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Coordinated Attack
+    --Effect|Use Tactics to coordinate the assault in combat designating one target in your Current Zone.  The target gains Vulnerable X, where X is equal to Hits -2 in the result set.
+        --Rank| d@{skill_tactics}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tactics</button>
+<div class="talent-desc">Use Tactics to coordinate the assault in combat designating one target in your Current Zone.  The target gains Vulnerable X, where X is equal to Hits -2 in the result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_overseer_coordinated_strike" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0466" hidden />
+<label for="main_shift_talent_0466">Coordinated Strike</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Coordinated Strike
+    --Effect|Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_overseer_coordinated_volley" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0469" hidden />
+<label for="main_shift_talent_0469">Coordinated Volley</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Coordinated Volley
+    --Effect|Lead your Minions to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minons' Ranged stat in the target's Current Zone.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Lead your Minions to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minons' Ranged stat in the target's Current Zone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shadow_dans_de_lombres" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1082" hidden />
+<label for="main_shift_talent_1082">Dans de L'Ombres</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Dans de L'Ombres
+        --Effect|Exchange positions with your Shadow Clone.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Exchange positions with your Shadow Clone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_necromancer_deaths_reach" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0483" hidden />
+<label for="main_shift_talent_0483">Death's Reach</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Death's Reach
+    --Effect|Lead your Haunts to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the Hits in the result set + sum of your Haunts Ranged stat in the target's Current Zone.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Lead your Haunts to launch a coordinated ranged attack against a single target in your Current or an Adjacent Zone, dealing X Hits the the target, where X is the Hits in the result set + sum of your Haunts Ranged stat in the target's Current Zone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_knight_dedicated_exemplar" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0355" hidden />
+<label for="main_shift_talent_0355">Dedicated Exemplar</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Dedicated Exemplar
+        --Effect|Spend X Dedication to add X Hits to your next roll.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Dedication to add X Hits to your next roll.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_tactician_defensive_maneuver" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0059" hidden />
+<label for="main_shift_talent_0059">Defensive Maneuver</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Defensive Maneuver
+        --Effect|Spend X Momentum to grant all allies in your Current Zone to regain +X to their Primary Defenses, where X is equal to the Momentum spent.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Momentum to grant all allies in your Current Zone to regain +X to their Primary Defenses, where X is equal to the Momentum spent.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_seer_dig_through_time" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0620" hidden />
+<label for="main_shift_talent_0620">Dig Through Time</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Dig Through Time
+        --Effect|Spend X Momentum to add X Bonus Hits to the next Portent you use this turn.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Momentum to add X Bonus Hits to the next Portent you use this turn.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_traveler_map_the_cosm" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0819" hidden />
+<label for="main_shift_talent_0819">Discover the Pathway</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Discover the Pathway
+    --Effect|Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you have never visited.^^On 1 Hit, you and up to X targets in your Current Zone arrive at a random location in the targeted world.  You gain Stunned 4.^^On 3 Hits, you and X targets arrive at a safe location in the targeted world.  You gain Restrained 2.^^On 5+ Hits, you and X targets arrive at a safe location in the targeted world.  You create X Advantages in your Current Zone in the targetd world, where X is euqal to Hits in the result set.^^
+        --Rank| d@{skill_locus}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_locus}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Locus</button>
+<div class="talent-desc">Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you have never visited.<br>On 1 Hit, you and up to X targets in your Current Zone arrive at a random location in the targeted world.  You gain Stunned 4.<br>On 3 Hits, you and X targets arrive at a safe location in the targeted world.  You gain Restrained 2.<br>On 5+ Hits, you and X targets arrive at a safe location in the targeted world.  You create X Advantages in your Current Zone in the targetd world, where X is euqal to Hits in the result set.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_overseer_dont_just_stand_there" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0468" hidden />
+<label for="main_shift_talent_0468">Don't Just Stand There!</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Don't Just Stand There!
+    --Effect|Use a Shift to Lead X Minions to score Hits equal to their Melee Stat to any number of targets in their Current Zone, where X is the number of Hits in your result set.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Use a Shift to Lead X Minions to score Hits equal to their Melee Stat to any number of targets in their Current Zone, where X is the number of Hits in your result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_zenith_elemental_confluence" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0902" hidden />
+<label for="main_shift_talent_0902">Echo of the Elements</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Echo of the Elements
+        --Effect|Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use this turn.  You may choose different targets for the copy.<br>You gain Fatigued 2.<br>
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use this turn.  You may choose different targets for the copy.<br>You gain Fatigued 2.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shifter_embrace_the_forms" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0453" hidden />
+<label for="main_shift_talent_0453">Embrace the Forms</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Embrace the Forms
+        --Effect|Spend 1 Form Aura to add +1d4 Bonus Hits to your next Action's result set.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 1 Form Aura to add +1d4 Bonus Hits to your next Action's result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_soldier_quick_draw" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0697" hidden />
+<label for="main_shift_talent_0697">Flanking</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Flanking
+    --Effect|Use your Tactics to position yourself and an ally in your current Zone advantageously, choosing one target in your current Zone to gain a Vulnerable rating equal to Hits.
+        --Rank| d@{skill_tactics}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tactics</button>
+<div class="talent-desc">Use your Tactics to position yourself and an ally in your current Zone advantageously, choosing one target in your current Zone to gain a Vulnerable rating equal to Hits.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_tactician_flanking_maneuver" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0062" hidden />
+<label for="main_shift_talent_0062">Flanking Maneuver</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Flanking Maneuver
+    --Effect|Spend 3 Momentum and use your Tactics to outmanuever your enemies.  On 2+ Hits, you may designate up to 3 targets in your Current or Adjacent Zones to gain Vulnerable 1.
+        --Rank| d@{skill_tactics}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tactics</button>
+<div class="talent-desc">Spend 3 Momentum and use your Tactics to outmanuever your enemies.  On 2+ Hits, you may designate up to 3 targets in your Current or Adjacent Zones to gain Vulnerable 1.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_scrapper_float_like_a_butterfly_" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0604" hidden />
+<label for="main_shift_talent_0604">Float like a butterfly. . .</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Float like a butterfly. . .
+        --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_martial artist_float_like_a_butterfly_" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0404" hidden />
+<label for="main_shift_talent_0404">Float like a butterfly. . .</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Float like a butterfly. . .
+        --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_pugilist_float_like_a_butterfly_" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0543" hidden />
+<label for="main_shift_talent_0543">Float like a butterfly. . .</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Float like a butterfly. . .
+        --Effect|Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Until the beginning of your next turn, use Reflexes +1d4 as as your Primary Defense.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_martial artist_front_stance" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0406" hidden />
+<label for="main_shift_talent_0406">Front Stance</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Front Stance
+    --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive Stance//**^^^^You assume an Aggressive Stance, You may maintain this Stance until you use a different Shift and as long as your Reflexes are above 0.^^While you maintain this Stance, add +1 Bonus Hits when using your Martial Arts.^^
+        --Rank| d@{skill_martial_arts}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Martial Arts</button>
+<div class="talent-desc"><h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive Stance</span></h4><br>You assume an Aggressive Stance, You may maintain this Stance until you use a different Shift and as long as your Reflexes are above 0.<br>While you maintain this Stance, add +1 Bonus Hits when using your Martial Arts.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_heretic_heterodoxy" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0073" hidden />
+<label for="main_shift_talent_0073">Heterodoxy</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Heterodoxy
+    --Effect|Use a Shift to maintain your Composure, immediately gaining 1d4+1 Concordance.
+        --Rank| d@{skill_composure}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Composure</button>
+<div class="talent-desc">Use a Shift to maintain your Composure, immediately gaining 1d4+1 Concordance.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shaman_insight_2" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0640" hidden />
+<label for="main_shift_talent_0640">Humble Offering</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Humble Offering
+        --Effect|Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_temporalist_make_the_time" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1020" hidden />
+<label for="main_shift_talent_1020">Make the Time</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Make the Time
+    --Effect|Use Tempor to gain Stunned X, where X is equal to Hits in the result set.  Set the current Timer to X.
+        --Rank| d@{skill_tempor}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tempor</button>
+<div class="talent-desc">Use Tempor to gain Stunned X, where X is equal to Hits in the result set.  Set the current Timer to X.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_scout_deft_trait_increase" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0953" hidden />
+<label for="main_shift_talent_0953">Marked for Death</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Marked for Death
+    --Effect|Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.
+        --Rank| d@{skill_tactics}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tactics</button>
+<div class="talent-desc">Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_assassin_marked_for_death" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0034" hidden />
+<label for="main_shift_talent_0034">Marked for Death</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Marked for Death
+    --Effect|Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.
+        --Rank| d@{skill_tactics}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tactics</button>
+<div class="talent-desc">Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_detective_master_investigator" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0223" hidden />
+<label for="main_shift_talent_0223">Master Investigator</label>
+<div class="talent-desc">Use a Shift to Investigate, then Analyze your findings, summing the Hits in both result sets.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Master Investigator
+    --Effect|Use a Shift to Investigate, then Analyze your findings, summing the Hits in both result sets.
+        --Rank| d@{skill_analyze}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_analyze}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Analyze</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Master Investigator
+    --Effect|Use a Shift to Investigate, then Analyze your findings, summing the Hits in both result sets.
+        --Rank| d@{skill_investigate}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_investigate}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Investigate</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_knight_momentous_act" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0365" hidden />
+<label for="main_shift_talent_0365">Momentous Act</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Momentous Act
+        --Effect|Spend 2 Momentum, then take an Action.  If there are no 1s in the result set, increase the Momentum by +5.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 2 Momentum, then take an Action.  If there are no 1s in the result set, increase the Momentum by +5.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_nexus_momentous_marvel" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0539" hidden />
+<label for="main_shift_talent_0539">Momentous Marvel</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Momentous Marvel
+        --Effect|Spend 4 Momentum and immediately use one of your Marvels without spending an Action.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 4 Momentum and immediately use one of your Marvels without spending an Action.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_druid_natures_wrath" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0257" hidden />
+<label for="main_shift_talent_0257">Nature's Wrath</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Nature's Wrath
+        --Effect|Spend X Attunement and spend an Action to use two Marvels.  You can add +X bonus Hits to either Marvel's result set.<br>Your Attunement decreases to 0.<br>
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Attunement and spend an Action to use two Marvels.  You can add +X bonus Hits to either Marvel's result set.<br>Your Attunement decreases to 0.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_beastmaster_one_of_the_pack" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0497" hidden />
+<label for="main_shift_talent_0497">One of the Pack</label>
+<div class="talent-desc">Use a Shift to Strike, Shoot, or use your Martial Arts against a target you can see in your Current Zone.  On 3+ Hits, all Minions under your command may score Hits equal to their Melee Stat against any target in their Current Zones.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - One of the Pack
+    --Effect|Use a Shift to Strike, Shoot, or use your Martial Arts against a target you can see in your Current Zone.  On 3+ Hits, all Minions under your command may score Hits equal to their Melee Stat against any target in their Current Zones.
+        --Rank| d@{skill_martial_arts}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Martial Arts</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - One of the Pack
+    --Effect|Use a Shift to Strike, Shoot, or use your Martial Arts against a target you can see in your Current Zone.  On 3+ Hits, all Minions under your command may score Hits equal to their Melee Stat against any target in their Current Zones.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - One of the Pack
+    --Effect|Use a Shift to Strike, Shoot, or use your Martial Arts against a target you can see in your Current Zone.  On 3+ Hits, all Minions under your command may score Hits equal to their Melee Stat against any target in their Current Zones.
+        --Rank| d@{skill_strike}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_strike}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Strike</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_sniper_unseen_shot" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0686" hidden />
+<label for="main_shift_talent_0686">Overwatch</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Overwatch
+        --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>Position yourself in your Current Zone to assume a Defensive Stance.<br>You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.<br>
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc"><h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>Position yourself in your Current Zone to assume a Defensive Stance.<br>You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_beastmaster_pack_tactics" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0495" hidden />
+<label for="main_shift_talent_0495">Pack Tactics</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Pack Tactics
+    --Effect|Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the sum of your Minions' Melee stat in the target's Current Zone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_scout_scouts_alertness" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0781" hidden />
+<label for="main_shift_talent_0781">Pathfinder's Mark</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Pathfinder's Mark
+    --Effect|Use your Survival skill to Create an Advantage while scouting ahead of your allies, adding +1d4 Bonus Hits to the result set.
+        --Rank| d@{skill_survival}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_survival}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Survival</button>
+<div class="talent-desc">Use your Survival skill to Create an Advantage while scouting ahead of your allies, adding +1d4 Bonus Hits to the result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_marksman_patient_shot" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0390" hidden />
+<label for="main_shift_talent_0390">Patient Shot</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Patient Shot
+    --Effect|Use a Shift to Wait For It with the condition that an ally scores 1+ Hits against your target in melee combat.  When the the condition is met, Shoot your target dealing Hits directly to their Grit.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<div class="talent-desc">Use a Shift to Wait For It with the condition that an ally scores 1+ Hits against your target in melee combat.  When the the condition is met, Shoot your target dealing Hits directly to their Grit.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_temporalist_phase_shift" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1018" hidden />
+<label for="main_shift_talent_1018">Phase Shift</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Phase Shift
+    --Effect|Use Tempor and **choose one target in your Current Zone.  On 3+ Hits, the target disappears from the current encounter until the beginning of the next round and you gain Slowed 2.
+        --Rank| d@{skill_tempor}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tempor</button>
+<div class="talent-desc">Use Tempor and choose one target in your Current Zone.  On 3+ Hits, the target disappears from the current encounter until the beginning of the next round and you gain Slowed 2.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_envoy_political_maneuvering" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1063" hidden />
+<label for="main_shift_talent_1063">Political Maneuvering</label>
+<div class="talent-desc">Spend 1 Canny Aura to add +1 Bonus Hits to your next Action using Deceive, Insight, or Persaude.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Political Maneuvering
+    --Effect|Spend 1 Canny Aura to add +1 Bonus Hits to your next Action using Deceive, Insight, or Persaude.
+        --Rank| d@{skill_insight}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_insight}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Insight</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Political Maneuvering
+    --Effect|Spend 1 Canny Aura to add +1 Bonus Hits to your next Action using Deceive, Insight, or Persaude.
+        --Rank| d@{skill_deceive}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_deceive}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Deceive</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_envoy_political_recovery" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1064" hidden />
+<label for="main_shift_talent_1064">Political Recovery</label>
+<div class="talent-desc">Spend 1 Canny Aura to reroll the result set of an Action using Deceive, Insight, or Persaude.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Political Recovery
+    --Effect|Spend 1 Canny Aura to reroll the result set of an Action using Deceive, Insight, or Persaude.
+        --Rank| d@{skill_insight}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_insight}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Insight</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Political Recovery
+    --Effect|Spend 1 Canny Aura to reroll the result set of an Action using Deceive, Insight, or Persaude.
+        --Rank| d@{skill_deceive}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_deceive}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Deceive</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_slayer_adrenaline_rush" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0962" hidden />
+<label for="main_shift_talent_0962">Predator's Focus</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Predator's Focus
+    --Effect|Focus on a target you have Targeted for Execution, gaining Aura X, where X is equal to Hits in the result set.  While this Aura persists, you are Provoked by your target and can reduce the Aura by -1 to reroll 1s in any of your result sets.
+        --Rank| d@{skill_focus}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_focus}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Focus</button>
+<div class="talent-desc">Focus on a target you have Targeted for Execution, gaining Aura X, where X is equal to Hits in the result set.  While this Aura persists, you are Provoked by your target and can reduce the Aura by -1 to reroll 1s in any of your result sets.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_hunter_predator’s_instinct" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0310" hidden />
+<label for="main_shift_talent_0310">Predator’s Instinct</label>
+<div class="talent-desc">Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt or Initiative Test.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Predator’s Instinct
+    --Effect|Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt or Initiative Test.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Predator’s Instinct
+    --Effect|Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt or Initiative Test.
+        --Rank| d@{skill_focus}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_focus}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Focus</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_berserker_rage" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0087" hidden />
+<label for="main_shift_talent_0087">Rage</label>
+<div class="talent-desc">Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.<br>While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.<br>If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.<br>If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.<br><div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_exert}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_exert}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Exert</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_grapple}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_grapple}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Grapple</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_intimidate}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_intimidate}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Intimidate</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_martial_arts}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Martial Arts</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_strike}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_strike}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Strike</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_throw}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_throw}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Throw</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rage
+    --Effect|Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.^^While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.^^If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.^^If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2.^^
+        --Rank| d@{skill_endure}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_endure}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Endure</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_tactician_rallying_cry" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0061" hidden />
+<label for="main_shift_talent_0061">Rallying Cry</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rallying Cry
+    --Effect|Lead allies in your Current Zone, adding Hits -1 to the Momentum and Creating 1 Advantage in your Current Zone.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Lead allies in your Current Zone, adding Hits -1 to the Momentum and Creating 1 Advantage in your Current Zone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_probabilist_random_walk" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0519" hidden />
+<label for="main_shift_talent_0519">Random Walk</label>
+<div class="talent-desc">Analyze or use Arithm to gain Armor Defense X, where X is equal to Hits in the result set.  When you use your Armor Defense to absorb Hits scored against you, you may immediately Shift to Move to an Adjacent Zone ignoring Hazards.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Random Walk
+    --Effect|Analyze or use Arithm to gain Armor Defense X, where X is equal to Hits in the result set.  When you use your Armor Defense to absorb Hits scored against you, you may immediately Shift to Move to an Adjacent Zone ignoring Hazards.
+        --Rank| d@{skill_analyze}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_analyze}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Analyze</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Random Walk
+    --Effect|Analyze or use Arithm to gain Armor Defense X, where X is equal to Hits in the result set.  When you use your Armor Defense to absorb Hits scored against you, you may immediately Shift to Move to an Adjacent Zone ignoring Hazards.
+        --Rank| d@{skill_arithm}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_arithm}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Arithm</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_broker_rapid_acquisitions" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1032" hidden />
+<label for="main_shift_talent_1032">Rapid Acquisitions</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Rapid Acquisitions
+        --Effect|Use a Shift to make a Wealth Check to purchase goods.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Use a Shift to make a Wealth Check to purchase goods.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_summoner_locus_3" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0707" hidden />
+<label for="main_shift_talent_0707">Reach Through Worlds</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Reach Through Worlds
+        --Effect|Initiate a Contest with a sentient target whose current location in the Cosm is known to you.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Initiate a Contest with a sentient target whose current location in the Cosm is known to you.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shock trooper_shock_" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0646" hidden />
+<label for="main_shift_talent_0646">Reform the Line</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Reform the Line
+    --Effect|Exert to gain +X Armor Defense, where X is equal to Hits in the result set.
+        --Rank| d@{skill_exert}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_exert}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Exert</button>
+<div class="talent-desc">Exert to gain +X Armor Defense, where X is equal to Hits in the result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_templar_relentless_conviction" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0431" hidden />
+<label for="main_shift_talent_0431">Relentless Conviction</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Relentless Conviction
+        --Effect|Increase the Entropy by +2 to regain +3 Conviction
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Increase the Entropy by +2 to regain +3 Conviction</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_necromancer_rip_and_tear" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0478" hidden />
+<label for="main_shift_talent_0478">Rip and Tear!</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Rip and Tear!
+    --Effect|Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the + sum of your Minions' Melee stat in the target's Current Zone.^^If the target dies, one other target in the same Zone becomes Afraid of your Minions.^^
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Lead your Minions to launch a coordinated melee against a single target in your Current or an Adjacent Zone, dealing X Hits to the target, where X is the + sum of your Minions' Melee stat in the target's Current Zone.<br>If the target dies, one other target in the same Zone becomes Afraid of your Minions.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_elementalist_shape_the_elements" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0266" hidden />
+<label for="main_shift_talent_0266">Shape the elements</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Shape the elements
+        --Effect|Spend 2 Momentum and gain +2 Current.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 2 Momentum and gain +2 Current.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shifter_shift_forms" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0444" hidden />
+<label for="main_shift_talent_0444">Shift Forms</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Shift Forms
+    --Effect|Use Forma to transform yourself and gain Form Aura X, where X is equal to Hits in the result set + your Forma Rank.  While this Aura persists, you may use Talents with the Altered Form keyword.^^If you use a Talent with the Altered Form keyword that specifies a Skill, use your Form Aura as the Skill Rank to determine the type of dice you roll.  If your form Aura is equal to or greater than 4, you roll a d12.^^When your Form Aura equals 0, you gain Fatigued 2.^^
+        --Rank| d@{skill_forma}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_forma}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Forma</button>
+<div class="talent-desc">Use Forma to transform yourself and gain Form Aura X, where X is equal to Hits in the result set + your Forma Rank.  While this Aura persists, you may use Talents with the Altered Form keyword.<br>If you use a Talent with the Altered Form keyword that specifies a Skill, use your Form Aura as the Skill Rank to determine the type of dice you roll.  If your form Aura is equal to or greater than 4, you roll a d12.<br>When your Form Aura equals 0, you gain Fatigued 2.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shugenja_insight_2" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0670" hidden />
+<label for="main_shift_talent_0670">Shugen-do</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Shugen-do
+        --Effect|Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 2 Hits from the result set of the next Spirit you use this turn to increase your Rank in that Spirit by +1.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_temporalist_speedy_recovery" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1019" hidden />
+<label for="main_shift_talent_1019">Speedy Recovery</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Speedy Recovery
+    --Effect|Use Tempor and decrease the current Timer by -1.  All targets in your Current Zone reduce all statuses by X, where X is equal to Hits in the result set.
+        --Rank| d@{skill_tempor}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tempor}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tempor</button>
+<div class="talent-desc">Use Tempor and decrease the current Timer by -1.  All targets in your Current Zone reduce all statuses by X, where X is equal to Hits in the result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_defender_stay_close_to_me" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0193" hidden />
+<label for="main_shift_talent_0193">Stay Close to Me</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Stay Close to Me
+        --Effect|Use a Shift to protect 1 ally in your Current Zone.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Use a Shift to protect 1 ally in your Current Zone.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_traveler_walk_the_pathways" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0820" hidden />
+<label for="main_shift_talent_0820">Step Through</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Step Through
+        --Effect|Spend X Gateway Aura to Move up to X Zones Adjacent to your Current Zone ignoring Hazards.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Gateway Aura to Move up to X Zones Adjacent to your Current Zone ignoring Hazards.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shadow_step_through_darkness" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1081" hidden />
+<label for="main_shift_talent_1081">Step Through Darkness</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Step Through Darkness
+    --Effect|Increase the Entropy by +1 and use Nox.  On 2+ Hits, you may Move to any Adjacent Zone ignoring Hazards.^^On 3+ Hits, you may Move to any Zone up to 2 adjacencies away ignoring Hazards and increase the Entropy by +1.^^
+        --Rank| d@{skill_nox}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Nox</button>
+<div class="talent-desc">Increase the Entropy by +1 and use Nox.  On 2+ Hits, you may Move to any Adjacent Zone ignoring Hazards.<br>On 3+ Hits, you may Move to any Zone up to 2 adjacencies away ignoring Hazards and increase the Entropy by +1.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_templar_strike_with_conviction" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0428" hidden />
+<label for="main_shift_talent_0428">Strike with Conviction</label>
+<div class="talent-desc">Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Strike with Conviction
+    --Effect|Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon.
+        --Rank| d@{skill_martial_arts}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_martial_arts}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Martial Arts</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Strike with Conviction
+    --Effect|Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon.
+        --Rank| d@{skill_shoot}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_shoot}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Shoot</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Strike with Conviction
+    --Effect|Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon.
+        --Rank| d@{skill_strike}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_strike}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Strike</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_necromancer_swarm_the_enemy" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0482" hidden />
+<label for="main_shift_talent_0482">Swarm the Enemy</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Swarm the Enemy
+    --Effect|Use a Shift to Lead X Minions to immediately Shift to Move into one target's Current Zone.  Minions must be in a Zone Adjacent to the target Zone.^^Once in position, the target suffers X + the sum of your Minions' Melee stat in the target's Current Zone.^^
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Use a Shift to Lead X Minions to immediately Shift to Move into one target's Current Zone.  Minions must be in a Zone Adjacent to the target Zone.<br>Once in position, the target suffers X + the sum of your Minions' Melee stat in the target's Current Zone.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_ranger_deft_trait_increase" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0954" hidden />
+<label for="main_shift_talent_0954">Targeted for Execution</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Targeted for Execution
+        --Effect|Write a Target to slay a specific NPC.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Write a Target to slay a specific NPC.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shifter_this_isnt_even_my_final_form" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0454" hidden />
+<label for="main_shift_talent_0454">This Isn't Even My Final Form</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - This Isn't Even My Final Form
+    --Effect|Spend 1 Momentum and 4 Grit to immideately use Forma and increase your Form Aura by +X, where X is equal to Hits in the result set.  Increase the Entropy by +1.
+        --Rank| d@{skill_forma}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_forma}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Forma</button>
+<div class="talent-desc">Spend 1 Momentum and 4 Grit to immideately use Forma and increase your Form Aura by +X, where X is equal to Hits in the result set.  Increase the Entropy by +1.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_juggernaut_titans_stance" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0334" hidden />
+<label for="main_shift_talent_0334">Titan's Stance</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Titan's Stance
+        --Effect|<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>Spend 1 Immovable Aura to enter a Defensive Stance.  You may maintain this Stance until you use a different Shift.<br>While you maintain this Stance, you gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by you.<br>
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc"><h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4><br>Spend 1 Immovable Aura to enter a Defensive Stance.  You may maintain this Stance until you use a different Shift.<br>While you maintain this Stance, you gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by you.<br></div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_shadow_vanish_beyond_sight" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_1083" hidden />
+<label for="main_shift_talent_1083">Vanish Beyond Sight</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Vanish Beyond Sight
+        --Effect|Reduce your Hidden Ratings by -3 to gain the Invisible keyword.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Reduce your Hidden Ratings by -3 to gain the Invisible keyword.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_tank_i_can_take_it" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0721" hidden />
+<label for="main_shift_talent_0721">Walk it off</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Walk it off
+        --Effect|Use the Recover Action.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Use the Recover Action.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_transmuter_study_the_forms" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0818" hidden />
+<label for="main_shift_talent_0818">Walk the Pathways</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Walk the Pathways
+        --Effect|Spend X Gateway Aura.  You and up to X targets in your Current Zone move to a different location in the Cosm with which you are familiar.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend X Gateway Aura.  You and up to X targets in your Current Zone move to a different location in the Cosm with which you are familiar.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_warlord_rush_of_battle" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0862" hidden />
+<label for="main_shift_talent_0862">War Game Adept</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - War Game Adept
+        --Effect|Use a Shift to Defy Danger.  You and all allies in your Current Zone reduce the total number of Hazard dice equal to the Hits in the Result Set.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Use a Shift to Defy Danger.  You and all allies in your Current Zone reduce the total number of Hazard dice equal to the Hits in the Result Set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_ranger_wardens_mark" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0565" hidden />
+<label for="main_shift_talent_0565">Warden's Mark</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Warden's Mark
+    --Effect|Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.
+        --Rank| d@{skill_tactics}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_tactics}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Tactics</button>
+<div class="talent-desc">Use your Tactics to mark your target, giving them Aura X, where X is equal to Hits in your result set.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_overseer_weapons_free" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0467" hidden />
+<label for="main_shift_talent_0467">Weapons Free!</label>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Weapons Free!
+    --Effect|Use a Shift to Lead X Minions to score Hits equal to their Ranged Stat to any number of targets in their Current or an Adjacent Zone, where X is the number of Hits in your result set.
+        --Rank| d@{skill_lead}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_lead}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Lead</button>
+<div class="talent-desc">Use a Shift to Lead X Minions to score Hits equal to their Ranged Stat to any number of targets in their Current or an Adjacent Zone, where X is the number of Hits in your result set.</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_blade weaver_weave_the_blades" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0106" hidden />
+<label for="main_shift_talent_0106">Weave the Blades</label>
+<div class="talent-desc">Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set.<div class="grid-3col">
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Weave the Blades
+    --Effect|Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set.
+        --Rank| d@{skill_composure}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_composure}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Composure</button>
+<button class="skill-button" type="roll" value="!power {{
+    --name|@{character_name} - Weave the Blades
+    --Effect|Use Focus or Composure to gain Bladeweave Aura X, where X is equal to Hits in the result set.
+        --Rank| d@{skill_focus}
+        --Result Set|[[ [$talent|XPND] @{Cosm|challenge}d@{skill_focus}>@{Cosm|target}]]
+        --Hits|[^talent.ss]
+        --1s|[^talent.ones]
+    --format|shiftcheck
+    }}">Focus</button>
+</div>
+</div>
+</div>
+<input class="talent-trained" type="hidden" name="attr_talent_zenith_elemental_avatar" />
+<div class="grid-main-middle-item">
+<input class="talent-expand" type="checkbox" id="main_shift_talent_0903" hidden />
+<label for="main_shift_talent_0903">Zenith's Haste</label>
+<button class="skill-button" type="roll" value="!power {{
+        --name|@{character_name} - Zenith's Haste
+        --Effect|Spend 2 Current and 2 Momentum to gain an Additional Action this turn.  You gain Fatigued 1.
+        --format|shiftcheck
+        }}">Use</button>
+<div class="talent-desc">Spend 2 Current and 2 Momentum to gain an Additional Action this turn.  You gain Fatigued 1.</div>
+</div>
+</div>
+<div class="grid-main-shifts-powers">
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_conduit" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<div class="grid-item">
+Marvels
+<div class="grid-container">
+<label>Attunement<input class="trait-input" type="number" name="attr_attunement" /></label><input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_essence_affinity_7" value="None" />
+<div class="sheet-power-aether">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0007" hidden />
+<label for="main_shift_marvel_0007">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Aether</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Aether</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0008" hidden />
+<label for="main_shift_marvel_0008">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Aether</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Aether</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0011" hidden />
+<label for="main_shift_marvel_0011">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Aether</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Aether</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0255" hidden />
+<label for="main_shift_marvel_0255">Aether Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Aether</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Aether Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.
+            --format|shiftcheck
+            }}">Aether</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Confused 2.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0009" hidden />
+<label for="main_shift_marvel_0009">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Aether</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Aether</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+</div>
+<div class="sheet-power-bellor">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0022" hidden />
+<label for="main_shift_marvel_0022">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Bellor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_bellor}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Bellor</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0023" hidden />
+<label for="main_shift_marvel_0023">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Bellor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Bellor</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0026" hidden />
+<label for="main_shift_marvel_0026">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Bellor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Bellor</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0024" hidden />
+<label for="main_shift_marvel_0024">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Bellor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Bellor</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0256" hidden />
+<label for="main_shift_marvel_0256">Violent Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Bellor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Violent Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.
+            --format|shiftcheck
+            }}">Bellor</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  Increase the Entropy by +3, then you and all allies in the Hazard's Zone immediately take one Shift or one Action.</div>
+</div>
+</div>
+<div class="sheet-power-inferno">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0037" hidden />
+<label for="main_shift_marvel_0037">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Inferno</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Inferno</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0038" hidden />
+<label for="main_shift_marvel_0038">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Inferno</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Inferno</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0041" hidden />
+<label for="main_shift_marvel_0041">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Inferno</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Inferno</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0039" hidden />
+<label for="main_shift_marvel_0039">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Inferno</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Inferno</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0257" hidden />
+<label for="main_shift_marvel_0257">Fiery Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Inferno</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Fiery Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.
+            --format|shiftcheck
+            }}">Inferno</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1.</div>
+</div>
+</div>
+<div class="sheet-power-lux">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0052" hidden />
+<label for="main_shift_marvel_0052">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Lux</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Lux</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0053" hidden />
+<label for="main_shift_marvel_0053">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Lux</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Lux</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0056" hidden />
+<label for="main_shift_marvel_0056">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Lux</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Lux</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0054" hidden />
+<label for="main_shift_marvel_0054">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Lux</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Lux</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0258" hidden />
+<label for="main_shift_marvel_0258">Radiant Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Lux</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Radiant Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.
+            --format|shiftcheck
+            }}">Lux</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All allies in the Hazard's Zone recover +2 to their Primary Defense and remove the Blind Status.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.</div>
+</div>
+</div>
+<div class="sheet-power-mori">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0067" hidden />
+<label for="main_shift_marvel_0067">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Mori</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Mori</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0068" hidden />
+<label for="main_shift_marvel_0068">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Mori</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Mori</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0071" hidden />
+<label for="main_shift_marvel_0071">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Mori</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Mori</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0069" hidden />
+<label for="main_shift_marvel_0069">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Mori</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Mori</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0259" hidden />
+<label for="main_shift_marvel_0259">Lethal Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Mori</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Lethal Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Vulnerable 1.
+            --format|shiftcheck
+            }}">Mori</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Vulnerable 1.</div>
+</div>
+</div>
+<div class="sheet-power-nihil">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0082" hidden />
+<label for="main_shift_marvel_0082">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Nihil</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0083" hidden />
+<label for="main_shift_marvel_0083">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Nihil</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0086" hidden />
+<label for="main_shift_marvel_0086">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Nihil</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0084" hidden />
+<label for="main_shift_marvel_0084">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Nihil</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0260" hidden />
+<label for="main_shift_marvel_0260">Void Effusion</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Void Effusion
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 2.
+            --format|shiftcheck
+            }}">Nihil</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 2.</div>
+</div>
+</div>
+<div class="sheet-power-nox">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0097" hidden />
+<label for="main_shift_marvel_0097">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Nox</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0098" hidden />
+<label for="main_shift_marvel_0098">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Nox</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0101" hidden />
+<label for="main_shift_marvel_0101">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Nox</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0261" hidden />
+<label for="main_shift_marvel_0261">Dark Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Dark Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All allies in the Hazard's Zone recover gain th.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.
+            --format|shiftcheck
+            }}">Nox</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All allies in the Hazard's Zone recover gain th.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Blind 1.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0099" hidden />
+<label for="main_shift_marvel_0099">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Nox</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+</div>
+<div class="sheet-power-ordi">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0112" hidden />
+<label for="main_shift_marvel_0112">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Ordi</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_ordi}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Ordi</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0113" hidden />
+<label for="main_shift_marvel_0113">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Ordi</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Ordi</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0116" hidden />
+<label for="main_shift_marvel_0116">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Ordi</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Ordi</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0262" hidden />
+<label for="main_shift_marvel_0262">Effuse with Law</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Ordi</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Effuse with Law
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Silenced 1 and Restrained 2.
+            --format|shiftcheck
+            }}">Ordi</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Silenced 1 and Restrained 2.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0114" hidden />
+<label for="main_shift_marvel_0114">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Ordi</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Ordi</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+</div>
+<div class="sheet-power-phylla">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0127" hidden />
+<label for="main_shift_marvel_0127">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Phylla</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_phylla}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Phylla</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0128" hidden />
+<label for="main_shift_marvel_0128">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Phylla</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Phylla</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0131" hidden />
+<label for="main_shift_marvel_0131">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Phylla</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Phylla</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0263" hidden />
+<label for="main_shift_marvel_0263">Effuse with Nature</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Phylla</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Effuse with Nature
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Charmed 2 and Restrained 1.
+            --format|shiftcheck
+            }}">Phylla</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Charmed 2 and Restrained 1.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0129" hidden />
+<label for="main_shift_marvel_0129">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Phylla</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Phylla</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+</div>
+<div class="sheet-power-rime">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0142" hidden />
+<label for="main_shift_marvel_0142">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Rime</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Rime</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0143" hidden />
+<label for="main_shift_marvel_0143">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Rime</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Rime</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0146" hidden />
+<label for="main_shift_marvel_0146">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Rime</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Rime</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0144" hidden />
+<label for="main_shift_marvel_0144">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Rime</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Rime</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0264" hidden />
+<label for="main_shift_marvel_0264">Icy Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Rime</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Icy Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Frozen 2.
+            --format|shiftcheck
+            }}">Rime</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Frozen 2.</div>
+</div>
+</div>
+<div class="sheet-power-squall">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0157" hidden />
+<label for="main_shift_marvel_0157">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Squall</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0158" hidden />
+<label for="main_shift_marvel_0158">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Squall</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0161" hidden />
+<label for="main_shift_marvel_0161">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Squall</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0159" hidden />
+<label for="main_shift_marvel_0159">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Squall</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0265" hidden />
+<label for="main_shift_marvel_0265">Galeforce Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Galeforce Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and are moved to one Adjacent Zone and become Prone.
+            --format|shiftcheck
+            }}">Squall</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and are moved to one Adjacent Zone and become Prone.</div>
+</div>
+</div>
+<div class="sheet-power-tellus">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0172" hidden />
+<label for="main_shift_marvel_0172">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Tellus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Tellus</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0173" hidden />
+<label for="main_shift_marvel_0173">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Tellus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Tellus</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0176" hidden />
+<label for="main_shift_marvel_0176">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Tellus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Tellus</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0266" hidden />
+<label for="main_shift_marvel_0266">Effuse with Stone</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Tellus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Effuse with Stone
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1 and Slowed 2.
+            --format|shiftcheck
+            }}">Tellus</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 1 and Slowed 2.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0174" hidden />
+<label for="main_shift_marvel_0174">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Tellus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Tellus</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+</div>
+<div class="sheet-power-tempest">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0187" hidden />
+<label for="main_shift_marvel_0187">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Tempest</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_tempest}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Tempest</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0188" hidden />
+<label for="main_shift_marvel_0188">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Tempest</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Tempest</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0191" hidden />
+<label for="main_shift_marvel_0191">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Tempest</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Tempest</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0189" hidden />
+<label for="main_shift_marvel_0189">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Tempest</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Tempest</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0267" hidden />
+<label for="main_shift_marvel_0267">Stormbreak Outburst</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Tempest</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Stormbreak Outburst
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 1 and Dazed 2.
+            --format|shiftcheck
+            }}">Tempest</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Stunned 1 and Dazed 2.</div>
+</div>
+</div>
+<div class="sheet-power-torrent">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0202" hidden />
+<label for="main_shift_marvel_0202">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Torrent</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0203" hidden />
+<label for="main_shift_marvel_0203">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Torrent</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0206" hidden />
+<label for="main_shift_marvel_0206">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Torrent</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0204" hidden />
+<label for="main_shift_marvel_0204">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Torrent</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0268" hidden />
+<label for="main_shift_marvel_0268">Sudden Deluge</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Sudden Deluge
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 2 and become Prone.
+            --format|shiftcheck
+            }}">Torrent</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  All targets in that Hazard's Zone take +2 Bonus Hits and gain Fatigued 2 and become Prone.</div>
+</div>
+</div>
+<div class="sheet-power-vivus">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0217" hidden />
+<label for="main_shift_marvel_0217">Essence Surge</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Vivus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Surge
+--Rank|1
+--Result Set|[[ [$mrvl|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+--Hits|[^mrvl.ss]
+--1s|[^mrvl.ones]
+--format|powercheck
+--?? $mrvl.ss >= 1 ?? Effect:|**//Threshold - [^mrvl.ss]//**^^Add +1d4 Bonus Hits to your next Action this turn.
+--?? $mrvl.ones > 0 ?? Trigger:|Your Attunement decreases by -[^mrvl.ss].
+--?? $mrvl.ones > 0 ?? --api_modattr|_name @{character_name} _ongoing|-[^mrvl.ss].
+}}">Vivus</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Add +1d4 Bonus Hits to your next Action this turn.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0218" hidden />
+<label for="main_shift_marvel_0218">Essence Veil</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Vivus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Veil
+            --Effect|You gain Aura X.
+            --format|shiftcheck
+            }}">Vivus</button>
+<div class="talent-desc">You gain Aura X.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0221" hidden />
+<label for="main_shift_marvel_0221">Warding Essence</label>
+<div class="power-note">Rank  1</div>
+<div>
+<span class="kwords">Vivus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Warding Essence
+            --Effect|You gain Armor Defense X, where X is equal to Hits in the result set.
+            --format|shiftcheck
+            }}">Vivus</button>
+<div class="talent-desc">You gain Armor Defense X, where X is equal to Hits in the result set.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0269" hidden />
+<label for="main_shift_marvel_0269">Effuse with Life</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Vivus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Effuse with Life
+            --Effect|Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  You and all allies in the Hazard's Zone reduce one Status by -1 and either regain +3 Grit or immediately use the Recover Action.
+            --format|shiftcheck
+            }}">Vivus</button>
+<div class="talent-desc">Dismiss a Hazard created by one of your Marvels in your current or an Adjacent Zone.  You and all allies in the Hazard's Zone reduce one Status by -1 and either regain +3 Grit or immediately use the Recover Action.</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_marvel_0219" hidden />
+<label for="main_shift_marvel_0219">Essence Volley</label>
+<div class="power-note">Rank  2</div>
+<div>
+<span class="kwords">Vivus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+            --name|@{character_name} - Essence Volley
+            --Effect|Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..
+            --format|shiftcheck
+            }}">Vivus</button>
+<div class="talent-desc">Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_magic-user" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<div class="grid-item">
+Spells
+<div class="grid-container"><div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0003" hidden />
+<label for="main_shift_spell_0003">Augment Senses</label>
+<div>
+<span class="kwords">Vivus</span>
+<span class="kwords">Mentis</span>
+<span class="kwords">Forma</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Augment Senses
+--Rank|d@{spell_rank_augment_senses}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_augment_senses}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 ?? Effect:|**//Threshold - [^spell.ss]//**^^Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:<br><em>Focus, Insight, Investigate, Operate, Perceive</em>
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Forma</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>Score 2+ Hits touch one target you can seei n your Current Zone, allowing them to add +1d4 Bonus Hits to their next result set for any of the follosing Skills:<br><em>Focus, Insight, Investigate, Operate, Perceive</em>
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0026" hidden />
+<label for="main_shift_spell_0026">Dimension Door</label>
+<div>
+<span class="kwords">Locus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Dimension Door
+--Rank|d@{spell_rank_dimension_door}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_dimension_door}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 1 AND $spell.ss < 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^Allow one target in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards.
+--?? $spell.ss >= 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^Allow up to 2 targets in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 1
+}}">Locus</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Allow one target in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards.
+<strong>Threshold &mdash; 3</strong>Allow up to 2 targets in your Current Zone to move to any Zone up to 2 adjacencies away ignoring Hazards.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0031" hidden />
+<label for="main_shift_spell_0031">Ethereal Haze</label>
+<div>
+<span class="kwords">Aether</span>
+<span class="kwords">Ordi</span>
+<span class="kwords">Vivus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Ethereal Haze
+--Rank|d@{spell_rank_ethereal_haze}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_ethereal_haze}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 AND $spell.ss < 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^Prevent any Hits to Defenses or Grit until the end of your next turn.
+--?? $spell.ss >= 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^Prevent any Hits to Defenses or Grit until the end of your next turn.  Increase the Timer by +1.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Vivus</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>Prevent any Hits to Defenses or Grit until the end of your next turn.
+<strong>Threshold &mdash; 3</strong>Prevent any Hits to Defenses or Grit until the end of your next turn.  Increase the Timer by +1.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0039" hidden />
+<label for="main_shift_spell_0039">Fly</label>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Fly
+--Rank|d@{spell_rank_fly}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_fly}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 1 AND $spell.ss < 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^One target in your Current Zone gains the Fly keyword.
+--?? $spell.ss >= 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^Up to 2 targets in your Current Zone gains the Fly keyword.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 1
+}}">Squall</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>One target in your Current Zone gains the Fly keyword.
+<strong>Threshold &mdash; 3</strong>Up to 2 targets in your Current Zone gains the Fly keyword.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0049" hidden />
+<label for="main_shift_spell_0049">Grow / Shrink Target</label>
+<div>
+<span class="kwords">Ongoing 4</span>
+<span class="kwords">Forma</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Grow / Shrink Target
+--Rank|d@{spell_rank_grow_/_shrink_target}
+--api_modattr|_name @{character_name} _ongoing|4
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_grow_/_shrink_target}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 ?? Effect:|**//Threshold - [^spell.ss]//**^^Touch one target in your Current Zone and **choose one (1)**:^^^^**The target grows in size, gaining +5 Grit, +5 Vigor, and adding +1d4 Bonus Hits to any result set using Endure, Exert, Strike, or Grapple Ongoing.^^^^The target shrinks in size, gaining +5 Reflexes and adding +1d4 Bonus Hits to any result set using Stealth or Tumple.**
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Forma</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>Touch one target in your Current Zone and choose one (1):<ul><li>The target grows in size, gaining +5 Grit, +5 Vigor, and adding +1d4 Bonus Hits to any result set using Endure, Exert, Strike, or Grapple Ongoing.</li><li>The target shrinks in size, gaining +5 Reflexes and adding +1d4 Bonus Hits to any result set using Stealth or Tumple.</li></ul>
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0055" hidden />
+<label for="main_shift_spell_0055">Invisibility</label>
+<div>
+<span class="kwords">Ongoing 2</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invisibility
+--Rank|d@{spell_rank_invisibility}
+--api_modattr|_name @{character_name} _ongoing|2
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_invisibility}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 AND $spell.ss < 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^One target in your Current Zone becomees Invisible Ongoing.
+--?? $spell.ss >= 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Up to 2 targets in your Current Zone becomees Invisible Ongoing.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Ongoing 2</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current Zone becomees Invisible Ongoing.
+<strong>Threshold &mdash; 4</strong>Up to 2 targets in your Current Zone becomees Invisible Ongoing.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0061" hidden />
+<label for="main_shift_spell_0061">Mage Hand</label>
+<div>
+<span class="kwords">Ongoing 1</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Mage Hand
+--Rank|d@{spell_rank_mage_hand}
+--api_modattr|_name @{character_name} _ongoing|1
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_mage_hand}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 1 ?? Effect:|**//Threshold - [^spell.ss]//**^^Conjure a telekenetic Hand in your Current or an Adjacent Zone to lift and carry up to X Gear, where X is equal to Hits in the result set.  The Hand can use one Shift on each of your turns and you may use a Shift on each of your turns to have the Hand take 1 Action.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 1
+}}">Ongoing 1</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Conjure a telekenetic Hand in your Current or an Adjacent Zone to lift and carry up to X Gear, where X is equal to Hits in the result set.  The Hand can use one Shift on each of your turns and you may use a Shift on each of your turns to have the Hand take 1 Action.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0062" hidden />
+<label for="main_shift_spell_0062">Mage armor</label>
+<div>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Mage armor
+--Rank|d@{spell_rank_mage_armor}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_mage_armor}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 1 ?? Effect:|**//Threshold - [^spell.ss]//**^^You gain an Armor Defense X until you cast this spell again, where X is equal to Hits in the result set.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 1
+}}">Ongoing 1</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>You gain an Armor Defense X until you cast this spell again, where X is equal to Hits in the result set.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0085" hidden />
+<label for="main_shift_spell_0085">Make the Time</label>
+<div>
+<span class="kwords">Tempor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Make the Time
+--Rank|d@{spell_rank_make_the_time}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_make_the_time}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 3 AND $spell.ss < 5 ?? Effect:|**//Threshold - [^spell.ss]//**^^Spend 1 Momentum and increase the current Timer by 1.
+--?? $spell.ss >= 5 ?? Effect:|**//Threshold - [^spell.ss]//**^^Spend 1 Momentum and increase the current Timer by 2.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 3
+}}">Tempor</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 3</strong>Spend 1 Momentum and increase the current Timer by 1.
+<strong>Threshold &mdash; 5</strong>Spend 1 Momentum and increase the current Timer by 2.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0068" hidden />
+<label for="main_shift_spell_0068">Misty Step</label>
+<div>
+<span class="kwords">Locus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Misty Step
+--Rank|d@{spell_rank_misty_step}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_misty_step}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 1 AND $spell.ss < 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Move to any Adjacent Zone up ignoring Hazards.
+--?? $spell.ss >= 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Move to any Zone up to 2 adjacencies away ignoring Hazards.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 1
+}}">Locus</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Move to any Adjacent Zone up ignoring Hazards.
+<strong>Threshold &mdash; 4</strong>Move to any Zone up to 2 adjacencies away ignoring Hazards.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0075" hidden />
+<label for="main_shift_spell_0075">Seismic Strikes</label>
+<div>
+<span class="kwords">Ongoing 3</span>
+<span class="kwords">Tellus</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Seismic Strikes
+--Rank|d@{spell_rank_seismic_strikes}
+--api_modattr|_name @{character_name} _ongoing|3
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_seismic_strikes}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 ?? Effect:|**//Threshold - [^spell.ss]//**^^One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash; </em></strong> When you Strike or use your Martial Arts and score 3+ Hits, your target becomes Prone.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Tellus</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current Zone gains the following Ongoing:<strong><em>Trigger &mdash; </em></strong> When you Strike or use your Martial Arts and score 3+ Hits, your target becomes Prone.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0079" hidden />
+<label for="main_shift_spell_0079">Shadow Step</label>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Shadow Step
+--Rank|d@{spell_rank_shadow_step}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_shadow_step}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 1 AND $spell.ss < 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Move to any Adjacent Zone ignoring Hazards.
+--?? $spell.ss >= 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Move to any Zone up to 2 adjacencies away ignoring Hazards.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 1
+}}">Nox</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Move to any Adjacent Zone ignoring Hazards.
+<strong>Threshold &mdash; 4</strong>Move to any Zone up to 2 adjacencies away ignoring Hazards.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0090" hidden />
+<label for="main_shift_spell_0090">Tainted Strikes</label>
+<div>
+<span class="kwords">Mori</span>
+<span class="kwords">Nox</span>
+<span class="kwords">Plaga</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Tainted Strikes
+--Rank|d@{spell_rank_tainted_strikes}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_tainted_strikes}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 ?? Effect:|**//Threshold - [^spell.ss]//**^^One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash; </em></strong> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Plaga</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current Zone gains the following Aura 2:<strong><em>Trigger &mdash; </em></strong> When you Shoot, Strike, or use your Martial Arts and score 1+ Hits, your target gains Fatigued 1.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0094" hidden />
+<label for="main_shift_spell_0094">Trumpet Blast</label>
+<div>
+<span class="kwords">Bellor</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Trumpet Blast
+--Rank|d@{spell_rank_trumpet_blast}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_trumpet_blast}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 2 AND $spell.ss < 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Up to 2 targets in your Current or an Adjacent Zone add +1d4 Bonus Hits to any action using Compsure, Endure, Exert, Focus, Grapple, Shoot, Strike, or Martial Arts on their next turn.
+--?? $spell.ss >= 4 ?? Effect:|**//Threshold - [^spell.ss]//**^^Up to x targets in your Current or an Adjacent Zone add +1d4 Bonus Hits to any action using Compsure, Endure, Exert, Focus, Grapple, Shoot, Strike, or Martial Arts on their next turn, where X is equal to Hits in the result set.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 2
+}}">Bellor</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>Up to 2 targets in your Current or an Adjacent Zone add +1d4 Bonus Hits to any action using Compsure, Endure, Exert, Focus, Grapple, Shoot, Strike, or Martial Arts on their next turn.
+<strong>Threshold &mdash; 4</strong>Up to x targets in your Current or an Adjacent Zone add +1d4 Bonus Hits to any action using Compsure, Endure, Exert, Focus, Grapple, Shoot, Strike, or Martial Arts on their next turn, where X is equal to Hits in the result set.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0095" hidden />
+<label for="main_shift_spell_0095">Twincast</label>
+<div>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Twincast
+--Rank|d@{spell_rank_twincast}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_twincast}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 3 ?? Effect:|**//Threshold - [^spell.ss]//**^^Increase the Entropy by +1 to copy the effects of the next spell you cast this turn.  You may **choose different targets for the copy.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 3
+}}">Bellor</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 3</strong>Increase the Entropy by +1 to copy the effects of the next spell you cast this turn.  You may choose different targets for the copy.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_spell_0098" hidden />
+<label for="main_shift_spell_0098">Void Step</label>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Void Step
+--Rank|d@{spell_rank_void_step}
+--Result Set|[[ [$spell|XPND] @{Cosm|challenge}d@{spell_rank_void_step}>@{Cosm|target}]]
+--Hits|[^spell.ss]
+--1s|[^spell.ones]
+--format|powercheck
+--?? $spell.ss >= 0 ?? Effect:|**//Threshold - [^spell.ss]//**^^Increase the Entropy by +1 and Move to an Adjacent Zone ignoring Hazards.
+--?? $spell.ones > 0 ?? Trigger:|**//Spellburn://** 0
+}}">Nihil</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 0</strong>Increase the Entropy by +1 and Move to an Adjacent Zone ignoring Hazards.
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-training-ranks" type="hidden" name="attr_training_rank_channeler" step="1" value="0" min="0" max="20" />
+<div class="sheet-training-talents">
+<div class="grid-item">
+Techniques
+<div class="grid-container">
+<label>Current<input class="trait-input" type="number" name="attr_current" /></label><input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-lux">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0016" hidden />
+<label for="main_shift_tech_0016">Beaming Defiance</label>
+<div class="power-note">Cost  3</div>
+<div>
+<span class="kwords">Lux</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Beaming Defiance
+--Cost|3
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^When you suffer Hits from a melee attack, reduce the Hits taken by X + 1, where X is equal to Hits in this Technique's result set, and the attacker gains Blind 1
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Lux</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>When you suffer Hits from a melee attack, reduce the Hits taken by X + 1, where X is equal to Hits in this Technique's result set, and the attacker gains Blind 1
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-mori">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0024" hidden />
+<label for="main_shift_tech_0024">Merciless Resolve</label>
+<div class="power-note">Cost  3</div>
+<div>
+<span class="kwords">Mori</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Merciless Resolve
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^Spend 2 Momentum.  You gain +4 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Mori</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Spend 2 Momentum.  You gain +4 Current.
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-nihil">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0031" hidden />
+<label for="main_shift_tech_0031">Enter the Infinite</label>
+<div class="power-note">Cost  5</div>
+<div>
+<span class="kwords">Nihil</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Enter the Infinite
+--Cost|5
+--Current|8
+--api_setattr|_name @{character_name} _current|8
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Increase the Entropy +2 and immediately take X Actions, where X is equal to Hits in the result set.
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Spend 5 Entropy and immediately take X Actions, X . . .  The Momentum equals 5.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Nihil</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>Increase the Entropy +2 and immediately take X Actions, where X is equal to Hits in the result set.
+<strong>Threshold &mdash; 2</strong>Spend 5 Entropy and immediately take X Actions, X . . .  The Momentum equals 5.
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-nox">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0040" hidden />
+<label for="main_shift_tech_0040">Eyes of Night</label>
+<div class="power-note">Cost  0</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Eyes of Night
+--Cost|0
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^You can see in absolute darkness and are immune to the Blind status.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Nox</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>You can see in absolute darkness and are immune to the Blind status.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0033" hidden />
+<label for="main_shift_tech_0033">Dark Ritual</label>
+<div class="power-note">Cost  1</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Dark Ritual
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^Increase the Entropy by +1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Nox</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Increase the Entropy by +1.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0036" hidden />
+<label for="main_shift_tech_0036">Subtle Strike</label>
+<div class="power-note">Cost  2</div>
+<div>
+<span class="kwords">Nox</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Subtle Strike
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select a target in your Current or an Adjacent Zone and then **choose one (1)**:^^^^**The target gains Fatigued 1.^^^^The target takes 2 Hits to Nerve.**
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select a target in your Current or an Adjacent Zone and then **choose one or both**:^^^^**The target gains Fatigued 1.^^^^The target takes 2 Hits to Nerve.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Nox</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Select a target in your Current or an Adjacent Zone and then choose one (1):<ul><li>The target gains Fatigued 1.</li><li>The target takes 2 Hits to Nerve.</li></ul>
+<strong>Threshold &mdash; 3</strong>Select a target in your Current or an Adjacent Zone and then choose one or both:<ul><li>The target gains Fatigued 1.</li><li>The target takes 2 Hits to Nerve.</li></ul>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-plaga">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0042" hidden />
+<label for="main_shift_tech_0042">Ghost Pain</label>
+<div class="power-note">Cost  0</div>
+<div>
+<span class="kwords">Plaga</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Ghost Pain
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits to Grit.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Plaga</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current or an Adjacent Zone takes 2 Hits to Grit.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0048" hidden />
+<label for="main_shift_tech_0048">Consume Their Suffering</label>
+<div class="power-note">Cost  1</div>
+<div>
+<span class="kwords">Plaga</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Consume Their Suffering
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^If you score 3+ Hits on the next Technique you use this turn, gain +3 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Plaga</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>If you score 3+ Hits on the next Technique you use this turn, gain +3 Current.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0043" hidden />
+<label for="main_shift_tech_0043">Searing Pain</label>
+<div class="power-note">Cost  1</div>
+<div>
+<span class="kwords">Plaga</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Searing Pain
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 3 Hits and gains Vulnerable 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Plaga</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current or an Adjacent Zone takes 3 Hits and gains Vulnerable 1.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0044" hidden />
+<label for="main_shift_tech_0044">Crushing Pain</label>
+<div class="power-note">Cost  2</div>
+<div>
+<span class="kwords">Plaga</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Crushing Pain
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 6 Hits and gains Fatigued 1.  Increase the Entropy by +1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Plaga</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 3</strong>One target in your Current or an Adjacent Zone takes 6 Hits and gains Fatigued 1.  Increase the Entropy by +1.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0041" hidden />
+<label for="main_shift_tech_0041">Pain Bolt</label>
+<div class="power-note">Cost  3</div>
+<div>
+<span class="kwords">Plaga</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Pain Bolt
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 1 Hit to Grit and gains Wounded 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Plaga</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current or an Adjacent Zone takes 1 Hit to Grit and gains Wounded 1.
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-squall">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0058" hidden />
+<label for="main_shift_tech_0058">Zephyr Strike</label>
+<div class="power-note">Cost  1</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Zephyr Strike
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone take X Hits and is moved to an Adjacent Zone, where X is equal to Hits in the result set.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Divide X Hits among up to 3 targets in yoru Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Squall</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>One target in your Current Zone take X Hits and is moved to an Adjacent Zone, where X is equal to Hits in the result set.
+<strong>Threshold &mdash; 3</strong>Divide X Hits among up to 3 targets in yoru Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0057" hidden />
+<label for="main_shift_tech_0057">Stride of the Clouds</label>
+<div class="power-note">Cost  2</div>
+<div>
+<span class="kwords">Squall</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Stride of the Clouds
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone gains the Fly keyword.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 2 targets in your Current or an Adjacent Zone gain the Fly keyword.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Squall</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>One target in your Current or an Adjacent Zone gains the Fly keyword.
+<strong>Threshold &mdash; 4</strong>Up to 2 targets in your Current or an Adjacent Zone gain the Fly keyword.
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-tempest">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0065" hidden />
+<label for="main_shift_tech_0065">Thunderous Charge</label>
+<div class="power-note">Cost  0</div>
+<div>
+<span class="kwords">Tempest</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Thunderous Charge
+--Cost|0
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tempest}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes 1 Hits and becomes Prone, where X is equal to Hits in the result set.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes X Hits and becomes Prone, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Tempest</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes 1 Hits and becomes Prone, where X is equal to Hits in the result set.
+<strong>Threshold &mdash; 3</strong>Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes X Hits and becomes Prone, where X is equal to Hits in the result set.
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_3" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_4" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_5" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_6" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_7" value="None" />
+<div class="sheet-power-torrent">
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0072" hidden />
+<label for="main_shift_tech_0072">Cascade</label>
+<div class="power-note">Cost  0</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Cascade
+--Cost|0
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^If you score 3+ Hits on the next Technique you use this turn, you gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Torrent</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 2</strong>If you score 3+ Hits on the next Technique you use this turn, you gain +2 Current.
+</div>
+</div>
+<div class="grid-main-middle-power">
+<input class="talent-expand" type="checkbox" id="main_shift_tech_0078" hidden />
+<label for="main_shift_tech_0078">One With Water</label>
+<div class="power-note">Cost  0</div>
+<div>
+<span class="kwords">Torrent</span>
+</div><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - One With Water
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^You gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, your can breathe underwater and ignore Hazards in underwater Zones.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">Torrent</button>
+<div class="talent-desc">
+<strong>Threshold &mdash; 1</strong>You gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, your can breathe underwater and ignore Hazards in underwater Zones.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

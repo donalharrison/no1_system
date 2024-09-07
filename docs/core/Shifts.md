@@ -37,9 +37,7 @@ If an Action or Shift would cause you to add 1 or more Hazard dice to your roll,
 ## Use an Advantage
 - Any ally can use an Advantage to:
     - **Bonus Hits**: Add +1d4 Bonus Hits to any roll.
-    - **Trigger a talent**: Automatically use a Trigger Talent.
     - **Ignore a Hazard**: Remove 1 Hazard die from your next roll.
-    - **Re-roll a 1**: Re-roll a single die in a result set that landed on 1.
     - **Calm the chaos**: Reduce the current Entropy by 1.
 
 ## Initiate a Contest

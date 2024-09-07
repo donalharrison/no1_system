@@ -11688,7 +11688,7 @@
         },
         {
             "name": "Lightning Bolt",
-            "type": "",
+            "type": "Ability",
             "max_ranks": 4,
             "effect": null,
             "threshold": [
@@ -14634,7 +14634,7 @@
         },
         {
             "name": "Water Whip",
-            "type": "",
+            "type": "Ability",
             "skill": "Torrent",
             "cost": 2,
             "effect": null,

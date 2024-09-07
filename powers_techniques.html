@@ -1,0 +1,2335 @@
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-aether">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Aether</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Aether Spike</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Aether Spike
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 1 Hit.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 2 Hits.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 1 Hit.</p>
+<p><strong>Threshold &mdash; 3</strong><br> Send a bolt of cosmic energy at a target in your Current or an Adjacent Zone, scoring 2 Hits.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Aether Gust</div>
+<div class="grid-spells-ranks">Cost:  4</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Aether Gust
+--Cost|4
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Send a wave of energy outward, pushing all targets in your Current Zone to the Adjacent Zone closest to them.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 4</strong><br> Send a wave of energy outward, pushing all targets in your Current Zone to the Adjacent Zone closest to them.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Aether Tunnel</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Aether Tunnel
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent Ongoing.  While the tunnel persists, characters can Shift to Move between the tunnel's endpoints without incurring Hazard.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  While the tunnel persists, you and your allies can Shift to Move between the tunnel's endpoints without incurring Hazard.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent Ongoing.  While the tunnel persists, characters can Shift to Move between the tunnel's endpoints without incurring Hazard.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Open a cosmic tunnel between your Current Zone and a linear Zone up to 2 Zones adjacent.  While the tunnel persists, you and your allies can Shift to Move between the tunnel's endpoints without incurring Hazard.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Bring the Ending</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Bring the Ending
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^The current Timer expires.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^The current Timer expires.  The next Timer is set to 4.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> The current Timer expires.</p>
+<p><strong>Threshold &mdash; 4</strong><br> The current Timer expires.  The next Timer is set to 4.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Drain Current</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Drain Current
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Gain X Hits to your Current, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Gain X Hits to your Current, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Essence Flux</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Trigger</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Essence Flux
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_aether}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.  Create 1 Advantage in the target ally's Current Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.</p>
+<p><strong>Threshold &mdash; 4</strong><br> When one of your allies you can see suffers Hits from an attack, you momentarily send them to the Aether, reducing the Hits they take by Hits in the result set.  Create 1 Advantage in the target ally's Current Zone.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-inferno">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Inferno</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke the Flame</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke the Flame
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 3 Hits to up to 2 targets in your Current or Adjacent Zone.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 3 Hits to up to 3 targets in your Current or Adjacent Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Deal 3 Hits to up to 2 targets in your Current or Adjacent Zone.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Deal 3 Hits to up to 3 targets in your Current or Adjacent Zone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Kindle</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Kindle
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 1 + X Hits to one target in your Current Zone, where X is equal to the number of consecutive turns you have used this technique.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Deal 1 + X Hits to one target in your Current Zone, where X is equal to the number of consecutive turns you have used this technique.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Immolation</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Immolation
+--Cost|1
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits in fire damage when they use Grapple, Strike or Martial Arts.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +3 Bonus Hits inin fire damage when they use Grapple, Strike or Martial Arts.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +2 Bonus Hits in fire damage when they use Grapple, Strike or Martial Arts.</p>
+<p><strong>Threshold &mdash; 4</strong><br> One target you can see in your Current Zone gains Aura 2 as you wrap them in flames.  They suffer 2 Hits to their Grit on each of their turns while this Aura persists, and they add +3 Bonus Hits inin fire damage when they use Grapple, Strike or Martial Arts.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Rending Flames</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Rending Flames
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 3 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 2 Hits to another target in the same Zone.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 5 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 3 Hits to another target in the same Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Deal 3 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 2 Hits to another target in the same Zone.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Deal 5 Hits to one target in your Current or Adjacent Zone.  If that target dies, deal 3 Hits to another target in the same Zone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Fiery Volley</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Fiery Volley
+--Cost|1
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 2 Hits to up to 3 targets in an Adjacent Zone.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 3 Hits to up to 4 targets in an Adjacent Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Deal 2 Hits to up to 3 targets in an Adjacent Zone.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Deal 3 Hits to up to 4 targets in an Adjacent Zone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Pyroclasm</div>
+<div class="grid-spells-ranks">Cost:  4</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Pyroclasm
+--Cost|4
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_inferno}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current and all Adjacent Zones.  Deal 2 Hits to all targets in the targeted Zone.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current and all Adjacent Zones.  Deal 4 Hits to all targets in the targeted Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Target your Current and all Adjacent Zones.  Deal 2 Hits to all targets in the targeted Zone.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Target your Current and all Adjacent Zones.  Deal 4 Hits to all targets in the targeted Zone.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-lux">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Lux</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Beaming Defiance</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Beaming Defiance
+--Cost|3
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^When you suffer Hits from a melee attack, reduce the Hits taken by X + 1, where X is equal to Hits in this Technique's result set, and the attacker gains Blind 1
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> When you suffer Hits from a melee attack, reduce the Hits taken by X + 1, where X is equal to Hits in this Technique's result set, and the attacker gains Blind 1</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke the Dawn</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke the Dawn
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.^^^^All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.^^^^All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Radiant Mending</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Radiant Mending
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone recover 3 Hits to their Primary Defense and all their Gear repairs +1 rating.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone recover 3 Hits to their Primary Defense and all their Gear repairs +1 rating.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Luminous Volley</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Luminous Volley
+--Cost|1
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 2 Hits to up to 3 targets in an Adjacent Zone.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 3 Hits to up to 4 targets in an Adjacent Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Deal 2 Hits to up to 3 targets in an Adjacent Zone.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Deal 3 Hits to up to 4 targets in an Adjacent Zone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Energizing Ray</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Energizing Ray
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone recovers X to their Primary Defense and reduces all Statuses by X, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone recovers X to their Primary Defense and reduces all Statuses by X, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Sweltering Rays</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Sweltering Rays
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_lux}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2. Gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Up to 3 targets in your Current or an Adjacent Zone take 3 Hits and gain Fatigued 2. Gain +2 Current.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-mentis">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Mentis</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Mind Rot</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Mind Rot
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone gains Confused 2.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 2 targets in your Current or an Adjacent Zone gains Confused 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone gains Confused 2.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to 2 targets in your Current or an Adjacent Zone gains Confused 1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Tormenting Voice</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Tormenting Voice
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone recover gains Dazed X and Confused X, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone recover gains Dazed X and Confused X, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Mind Spike</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Mind Spike
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes X Hits or gains Stunned 2, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone takes X Hits or gains Stunned 2, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Psychic Lance</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Psychic Lance
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mentis}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select one target in your Current or an Adjacent Zone and **choose one (1)**:^^^^**The target takes X Hits to their Nerve, where X is equal to Hits in the result set.^^^^The target gains Dazed 2 and Confused 2.^^^^You gain +4 Current.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select one target in your Current or an Adjacent Zone and **choose two (2)**:^^^^**The target takes X Hits to their Nerve, where X is equal to Hits in the result set.^^^^The target gains Dazed 2 and Confused 2.^^^^You gain +4 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Dazed 2 and Confused 2.</li><li>You gain +4 Current.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Dazed 2 and Confused 2.</li><li>You gain +4 Current.</li></ul></p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-mori">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Mori</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Merciless Resolve</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Merciless Resolve
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^Spend 2 Momentum.  You gain +4 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> Spend 2 Momentum.  You gain +4 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke Death</div>
+<div class="grid-spells-ranks">Cost:  4</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke Death
+--Cost|4
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to three targets in your Current or an Adjacent Zone lose X Grit, where X is equal to Hits in the result set.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to three targets in your Current or an Adjacent Zone lose X Grit, where X is equal to Hits in the result set.  You gain +3 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Up to three targets in your Current or an Adjacent Zone lose X Grit, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Up to three targets in your Current or an Adjacent Zone lose X Grit, where X is equal to Hits in the result set.  You gain +3 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Mortality Spear</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Mortality Spear
+--Cost|3
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= None ?? Effect:|**//Threshold - [^tech.ss]//**^^Spend 3 Grit, then 1 target in your Current or an Adjacent Zone loses X +3 Grit, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; None</strong><br> Spend 3 Grit, then 1 target in your Current or an Adjacent Zone loses X +3 Grit, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Alms of Vivus</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Alms of Vivus
+--Cost|0
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone loses X Grit and one other target in your Current Zone regains X Grit, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone loses X Grit, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone loses X Grit and one other target in your Current Zone regains X Grit, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Death's Touch</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Death's Touch
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone gains Wounded 1.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone gains Wounded 1.  You gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone gains Wounded 1.</p>
+<p><strong>Threshold &mdash; 4</strong><br> One target in your Current or an Adjacent Zone gains Wounded 1.  You gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Culling Ritual</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Trigger</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Culling Ritual
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_mori}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^When a target in your Current Zone dies, increase the Entropy +1 and one other target in your Current or an Adjacent Zone loses X +2 Grit, where X is equal to Hits in the result set.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^When a target in your Current Zone dies, increase the Entropy +1 and one other target in your Current or an Adjacent Zone loses X +2 Grit.  You gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> When a target in your Current Zone dies, increase the Entropy +1 and one other target in your Current or an Adjacent Zone loses X +2 Grit, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 3</strong><br> When a target in your Current Zone dies, increase the Entropy +1 and one other target in your Current or an Adjacent Zone loses X +2 Grit.  You gain +2 Current.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-nihil">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Nihil</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Enter the Infinite</div>
+<div class="grid-spells-ranks">Cost:  5</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Enter the Infinite
+--Cost|5
+--Current|8
+--api_setattr|_name @{character_name} _current|8
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Increase the Entropy +2 and immediately take X Actions, where X is equal to Hits in the result set.
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Spend 5 Entropy and immediately take X Actions, X . . .  The Momentum equals 5.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Increase the Entropy +2 and immediately take X Actions, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 2</strong><br> Spend 5 Entropy and immediately take X Actions, X . . .  The Momentum equals 5.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke Despair</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke Despair
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**All targets in the targeted Zone gain Afraidd 2 and gain Confused 2.^^^^Increase the Entropy by +1 and you gain +3 Current.**
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**All hostile targets in the targeted Zone gain Afraidd 2 and gain Confused 2.^^^^Increase the Entropy by +1 and you gain +3 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul></p>
+<p><strong>Threshold &mdash; 5</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Negation Blast</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Negation Blast
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select a target in your Current or an Adjacent Zone and then **choose one (1)**:^^^^**The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.^^^^The target loses all Auras and loses 2 Grit.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Select a target in your Current or an Adjacent Zone and then choose one (1):<ul><li>The target takes X Hits and gains Vulnerable 1, where X is equal to Hits in the result set.</li><li>The target loses all Auras and loses 2 Grit.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Void Rift</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Void Rift
+--Cost|1
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nihil}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^All targets in your Current or an Adjacent Zone becomee Prone and gain Vulnerable 1.  Increase the Entropy by +1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> All targets in your Current or an Adjacent Zone becomee Prone and gain Vulnerable 1.  Increase the Entropy by +1.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-nox">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Nox</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Dark Ritual</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Dark Ritual
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^Increase the Entropy by +1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> Increase the Entropy by +1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Subtle Strike</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Subtle Strike
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select a target in your Current or an Adjacent Zone and then **choose one (1)**:^^^^**The target gains Fatigued 1.^^^^The target takes 2 Hits to Nerve.**
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select a target in your Current or an Adjacent Zone and then **choose one or both**:^^^^**The target gains Fatigued 1.^^^^The target takes 2 Hits to Nerve.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> Select a target in your Current or an Adjacent Zone and then choose one (1):<ul><li>The target gains Fatigued 1.</li><li>The target takes 2 Hits to Nerve.</li></ul></p>
+<p><strong>Threshold &mdash; 3</strong><br> Select a target in your Current or an Adjacent Zone and then choose one or both:<ul><li>The target gains Fatigued 1.</li><li>The target takes 2 Hits to Nerve.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Eyes of Night</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Eyes of Night
+--Cost|0
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^You can see in absolute darkness and are immune to the Blind status.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> You can see in absolute darkness and are immune to the Blind status.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Shadow Lance</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Shadow Lance
+--Cost|2
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select one target in your Current or an Adjacent Zone and **choose one (1)**:^^^^**The target takes X Hits to their Nerve, where X is equal to Hits in the result set.^^^^The target gains Afraidd 2 and Wounded 1.^^^^You gain +3 Current.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Select one target in your Current or an Adjacent Zone and **choose two (2)**:^^^^**The target takes X Hits to their Nerve, where X is equal to Hits in the result set.^^^^The target gains Afraidd 2 and Wounded 1.^^^^You gain +3 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraidd 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraidd 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Dread Fugue</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Dread Fugue
+--Cost|2
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone gains Vulnerable 2.  You gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone gains Vulnerable 2.  You gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Vengeance of Shadows</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Vengeance of Shadows
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Your Current or an Adjacent Zone gains Hazard 1.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^All targets in your Current or an Adjacent Zone gain Blind 2.  The targeted zone gains Hazard 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Your Current or an Adjacent Zone gains Hazard 1.</p>
+<p><strong>Threshold &mdash; 4</strong><br> All targets in your Current or an Adjacent Zone gain Blind 2.  The targeted zone gains Hazard 1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Eclipse</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Eclipse
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^All targets in those Zones gain Blind 1 Ongoing.  You gain +X Current, where X is the number of targets Blinded this way.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 4</strong><br> All targets in those Zones gain Blind 1 Ongoing.  You gain +X Current, where X is the number of targets Blinded this way.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Spreading Darkness</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Spreading Darkness
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^All light in your Current Zone are extinguished and all targets in your Current Zone gain Blind 1 Ongoing.<br><br>At the beginning of each of your turns while this Technique is Ongoing, copy its effect to all Adjacent Zones.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> All light in your Current Zone are extinguished and all targets in your Current Zone gain Blind 1 Ongoing.<br><br>At the beginning of each of your turns while this Technique is Ongoing, copy its effect to all Adjacent Zones.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Umbral Juke</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Trigger</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Umbral Juke
+--Cost|1
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_nox}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^When you suffer Hits from an effect you can see, you may increase the Entropy by +2. If you do, you immediately Shift to Move to an Adjacent Zone and suffer 0 Hits.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> When you suffer Hits from an effect you can see, you may increase the Entropy by +2. If you do, you immediately Shift to Move to an Adjacent Zone and suffer 0 Hits.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-plaga">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Plaga</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Pain Bolt</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Pain Bolt
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 1 Hit to Grit and gains Wounded 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone takes 1 Hit to Grit and gains Wounded 1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Ghost Pain</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Ghost Pain
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits to Grit.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone takes 2 Hits to Grit.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Searing Pain</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Searing Pain
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 3 Hits and gains Vulnerable 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone takes 3 Hits and gains Vulnerable 1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Crushing Pain</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Crushing Pain
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 6 Hits and gains Fatigued 1.  Increase the Entropy by +1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone takes 6 Hits and gains Fatigued 1.  Increase the Entropy by +1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Consume Their Suffering</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Consume Their Suffering
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^If you score 3+ Hits on the next Technique you use this turn, gain +3 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> If you score 3+ Hits on the next Technique you use this turn, gain +3 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Extort Affliction</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Extort Affliction
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits to Grit.  If that target was Vulnerable, you gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone takes 2 Hits to Grit.  If that target was Vulnerable, you gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Hear Their Gasps</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Hear Their Gasps
+--Cost|2
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^All targets except you in your Current Zone gain Vulnerable 1.  You gain +X Current, wher eX is euqal to the number of targets that gained Vulnerable from this technique.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> All targets except you in your Current Zone gain Vulnerable 1.  You gain +X Current, wher eX is euqal to the number of targets that gained Vulnerable from this technique.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke Suffering</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke Suffering
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.^^^^Increase the Entropy by +1 and you gain +2 Current.**
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.^^^^Increase the Entropy by +1 and you gain +2 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.</li><li>Increase the Entropy by +1 and you gain +2 Current.</li></ul></p>
+<p><strong>Threshold &mdash; 5</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All targets except for you in the targeted Zone gain Fatigued 1 and lose 2 Grit.</li><li>Increase the Entropy by +1 and you gain +2 Current.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Choke the Life</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Choke the Life
+--Cost|2
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone loses 3 Grit.  If the target dies, you gain +3 Current.  Otherwise, the target gains Vulnerable 2.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone loses 3 Grit.  If the target dies, you gain +3 Current.  Otherwise, the target gains Vulnerable 2.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Painful Lesson</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Trigger</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Painful Lesson
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_plaga}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^When you suffer Hits from a melee attack form a target you can see, you may deal X Hits to that target and have them gain Fatigued 1, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> When you suffer Hits from a melee attack form a target you can see, you may deal X Hits to that target and have them gain Fatigued 1, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-rime">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Rime</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Wrath of Frost</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Wrath of Frost
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone take 4 Hits and gains Frozen 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current Zone take 4 Hits and gains Frozen 1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Cold Snap</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Cold Snap
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^All targets except you in your Current Zone gains Frozen 4.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> All targets except you in your Current Zone gains Frozen 4.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Glacial Spike</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Glacial Spike
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes X Hits and gains Slowed 1.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone takes X Hits and gains Slowed 1.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke the Wintr</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke the Wintr
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.^^^^The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.^^^^The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.</li><li>The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>The targeted Zone gains Hazard 3.  All targets in the targeted Zone take 1 Hits and gain Slowed 1 Ongoing.</li><li>The targeted Zone gains Hazard 1.  All targets in the targeted Zone gain Fatigued 1 Ongoing.  You gain +2 Current.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Forstbite</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Trigger</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Forstbite
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_rime}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^When you suffer Hits from a melee attack form a target you can see, you may deal 2 Hits to that target and have them gain Frozen 2.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> When you suffer Hits from a melee attack form a target you can see, you may deal 2 Hits to that target and have them gain Frozen 2.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-squall">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Squall</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Stride of the Clouds</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Stride of the Clouds
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone gains the Fly keyword.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 2 targets in your Current or an Adjacent Zone gain the Fly keyword.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone gains the Fly keyword.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to 2 targets in your Current or an Adjacent Zone gain the Fly keyword.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Zephyr Strike</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Zephyr Strike
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone take X Hits and is moved to an Adjacent Zone, where X is equal to Hits in the result set.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Divide X Hits among up to 3 targets in yoru Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current Zone take X Hits and is moved to an Adjacent Zone, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 3</strong><br> Divide X Hits among up to 3 targets in yoru Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke the Winds</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke the Winds
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**All targets in the targeted Zone take become Prone and gain Dazed 2.^^^^All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**All targets in the targeted Zone take become Prone and gain Dazed 2.^^^^All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets in the targeted Zone take become Prone and gain Dazed 2.</li><li>All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All targets in the targeted Zone take become Prone and gain Dazed 2.</li><li>All targets in the targeted Zone are moved to an Adjacent Zone and you gain +4 Current.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Whirlwind</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Whirlwind
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_squall}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone loses the Fly keyword Ongoing.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to X targets in your Current or an Adjacent Zone loses the Fly keyword Ongoing, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone loses the Fly keyword Ongoing.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to X targets in your Current or an Adjacent Zone loses the Fly keyword Ongoing, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-tellus">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Tellus</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Seismic Surge</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Seismic Surge
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adacent Zone.  The targeted Zone gains Hazard 2 and all targets in the Zone take 3 Hits.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adacent Zone.  The targeted Zone gains Hazard 2 and all targets in the Zone take 3 Hits.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke Calamity</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke Calamity
+--Cost|2
+--Current|7
+--api_setattr|_name @{character_name} _current|7
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.^^^^Increase the Entropy by +3 and increase the Momentum by +3.<br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.^^^^Increase the Entropy by +3 and increase the Momentum by +3.<br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li><li>Increase the Entropy by +3 and increase the Momentum by +3.<br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>Increase the Entropy by +2.  All targets in the targeted Zone take become Prone and take X Hits, where X is equal to Hits in the result set.</li><li>Increase the Entropy by +3 and increase the Momentum by +3.<br>All targets in the targeted Zone gain Confused 2 and take X Hits, where X is equal to Hits in the result set.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Return to Nature</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Return to Nature
+--Cost|1
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone reduces one Status by -2.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone reduces one Status by X, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current Zone reduces one Status by -2.</p>
+<p><strong>Threshold &mdash; 3</strong><br> One target in your Current Zone reduces one Status by X, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Crystal Volley</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Crystal Volley
+--Cost|1
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 2 Hits to up to 3 targets in an Adjacent Zone.
+--?? $tech.ss >= 5 ?? Effect:|**//Threshold - [^tech.ss]//**^^Deal 2 Hits to up to 5 targets in an Adjacent Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Deal 2 Hits to up to 3 targets in an Adjacent Zone.</p>
+<p><strong>Threshold &mdash; 5</strong><br> Deal 2 Hits to up to 5 targets in an Adjacent Zone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Slagstorm</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Slagstorm
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targeted Zones.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targeted Zones.<br>You gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targeted Zones.</p>
+<p><strong>Threshold &mdash; 3</strong><br> Target your Current and an Adjacent Zone to gain Hazard 3.  Deal 3 Hits to all targets in the targeted Zones.<br>You gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke the Storm</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke the Storm
+--Cost|2
+--Current|7
+--api_setattr|_name @{character_name} _current|7
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tellus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.^^^^Increase the Entropy by +2 and increase the Momentum by +3.<br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.^^^^Increase the Entropy by +2 and increase the Momentum by +3.<br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.</li><li>Increase the Entropy by +2 and increase the Momentum by +3.<br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>Increase the Entropy by +1.  All targets in the targeted Zone take gain Stunned 1 Ongoing.</li><li>Increase the Entropy by +2 and increase the Momentum by +3.<br>All targets in the targeted Zone take X Hits, where X is equal to Hits in the result set.</li></ul></p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-tempest">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Tempest</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Thunderous Charge</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Thunderous Charge
+--Cost|0
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tempest}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes 1 Hits and becomes Prone, where X is equal to Hits in the result set.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes X Hits and becomes Prone, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes 1 Hits and becomes Prone, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 3</strong><br> Move to any Adjacent Zone ignoring Hazards.  One target in the destination Zone takes X Hits and becomes Prone, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Lightning Strike</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Lightning Strike
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tempest}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Thunderous Bolt</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Thunderous Bolt
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_tempest}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits and gains Stunned 2.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone takes 2 Hits and gains Stunned 2.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-torrent">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Torrent</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Cascade</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Cascade
+--Cost|0
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^If you score 3+ Hits on the next Technique you use this turn, you gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> If you score 3+ Hits on the next Technique you use this turn, you gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">One With Water</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Shift</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - One With Water
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 ?? Effect:|**//Threshold - [^tech.ss]//**^^You gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, your can breathe underwater and ignore Hazards in underwater Zones.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> You gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, your can breathe underwater and ignore Hazards in underwater Zones.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Hydro Blast</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Hydro Blast
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits and gains Dazed 1.
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits and gains Dazed 1.  You gain +1 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone takes 2 Hits and gains Dazed 1.</p>
+<p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone takes 2 Hits and gains Dazed 1.  You gain +1 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Current's Flow</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Current's Flow
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^You gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> You gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Water Spout</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Water Spout
+--Cost|3
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes 2 Hits and becomes Prone.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 2 targets in your Current or an Adjacent Zone take 2 Hits and become Prone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone takes 2 Hits and becomes Prone.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to 2 targets in your Current or an Adjacent Zone take 2 Hits and become Prone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Riptide</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Riptide
+--Cost|3
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone gains Confused 2.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 3 targets in your Current Zone gain Confused 2.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current Zone gains Confused 2.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to 3 targets in your Current Zone gain Confused 2.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Water Whip</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Water Whip
+--Cost|2
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then **choose one (1)**:^^^^**The target gains Restrained 3.^^^^You pull the target into your Current Zone.^^^^You gain +2 Current.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set., then choose one (1):<ul><li>The target gains Restrained 3.</li><li>You pull the target into your Current Zone.</li><li>You gain +2 Current.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Tangle Wave</div>
+<div class="grid-spells-ranks">Cost:  4</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Tangle Wave
+--Cost|4
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone.  All targets in the targeted Zone gain Restrained 2.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Target your Current or an Adjacent Zone.  All targets in the targeted Zone gain Restrained 2.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Soothing Waters</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Soothing Waters
+--Cost|2
+--Current|1
+--api_setattr|_name @{character_name} _current|1
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current Zone can **choose one (1)**:^^^^**Regain X Grit, where X is equal to Hits in the result set.^^^^Reduce one Status by X, where X is equal to Hits in the result set.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 3 targets in your Current Zone can **choose one (1)**:^^^^**Regain X Grit, where X is equal to Hits in the result set.^^^^Reduce one Status by X, where X is equal to Hits in the result set.**
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current Zone can choose one (1):<ul><li>Regain X Grit, where X is equal to Hits in the result set.</li><li>Reduce one Status by X, where X is equal to Hits in the result set.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to 3 targets in your Current Zone can choose one (1):<ul><li>Regain X Grit, where X is equal to Hits in the result set.</li><li>Reduce one Status by X, where X is equal to Hits in the result set.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Crashing Wave</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Crashing Wave
+--Cost|3
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^All targets except you in yoru Current Zone take 3 Hits and become Prone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> All targets except you in yoru Current Zone take 3 Hits and become Prone.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Be Like Water</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Be Like Water
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^Recover X to your Primary Defense, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> Recover X to your Primary Defense, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Undertow</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Undertow
+--Cost|2
+--Current|4
+--api_setattr|_name @{character_name} _current|4
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_torrent}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in an Adjacent Zone is moved into your Current Zone.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Up to 3 targets in an Adjacent Zone are moved into your Current Zone.
+--?? $tech.ones > 0 ?? Trigger:|Recoil 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in an Adjacent Zone is moved into your Current Zone.</p>
+<p><strong>Threshold &mdash; 4</strong><br> Up to 3 targets in an Adjacent Zone are moved into your Current Zone.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_1" value="None" />
+<input class="sheet-powers-affinity" type="hidden" name="attr_affinity_2" value="None" />
+<div class="sheet-power-vivus">
+<div class="grid-container-talents">
+<h4 class="grid-talents-label" style="margin-bottom:4px;">Vivus</h4>
+<div class="grid-container-talents">
+<div class="grid-item-spells">
+<div class="grid-spells-name">Revitalize</div>
+<div class="grid-spells-ranks">Cost:  0</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Revitalize
+--Cost|0
+--Current|2
+--api_setattr|_name @{character_name} _current|2
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 1 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone recovers X +2 to their Primary Defense and regains X Grit, where X is equal to Hits in the result set.
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone recovers X +2 to their Primary Defense and regains X Grit, where X is equal to Hits in the result set.  You gain +2 Current.
+--?? $tech.ones > 0 ?? Trigger:|The Cycle's Drain 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 1</strong><br> One target in your Current or an Adjacent Zone recovers X +2 to their Primary Defense and regains X Grit, where X is equal to Hits in the result set.</p>
+<p><strong>Threshold &mdash; 4</strong><br> One target in your Current or an Adjacent Zone recovers X +2 to their Primary Defense and regains X Grit, where X is equal to Hits in the result set.  You gain +2 Current.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Invoke the Dawn</div>
+<div class="grid-spells-ranks">Cost:  3</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Invoke the Dawn
+--Cost|3
+--Current|5
+--api_setattr|_name @{character_name} _current|5
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 AND $tech.ss < 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one (1)**:^^^^**All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.^^^^All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.**
+--?? $tech.ss >= 4 ?? Effect:|**//Threshold - [^tech.ss]//**^^Target your Current or an Adjacent Zone, then **choose one or both**:^^^^**All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.^^^^All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.**
+--?? $tech.ones > 0 ?? Trigger:|The Cycle's Drain 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 3 Hits to their Primary Defense and regain up to 2 Grit.</li></ul></p>
+<p><strong>Threshold &mdash; 4</strong><br> Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone take 3 Hits and gain Dazed 2.</li><li>All allies in the targeted Zone recover 4 Hits to their Primary Defense and regain up to 2 Grit.</li></ul></p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Revitalizing Ray</div>
+<div class="grid-spells-ranks">Cost:  1</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Revitalizing Ray
+--Cost|1
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 3 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in your Current or an Adjacent Zone recovers X to their Primary Defense and reduces all Statuses by X, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|The Cycle's Drain 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 3</strong><br> One target in your Current or an Adjacent Zone recovers X to their Primary Defense and reduces all Statuses by X, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+<div class="grid-item-spells">
+<div class="grid-spells-name">Rush of Vitality</div>
+<div class="grid-spells-ranks">Cost:  2</div>
+<div class="grid-spells-kwords">Ability</div>
+<div class="talent-rollbox grid-spells-btn"><button class="skill-button" type="roll" value="!power {{
+--name|@{character_name} - Rush of Vitality
+--Cost|2
+--Current|3
+--api_setattr|_name @{character_name} _current|3
+--Result Set|[[ [$tech|XPND] @{Cosm|challenge}d@{skill_vivus}>@{Cosm|target}]]
+--Hits|[^tech.ss]
+--1s|[^tech.ones]
+--format|powercheck
+--?? $tech.ss >= 2 ?? Effect:|**//Threshold - [^tech.ss]//**^^One target in yoru Current Zone regains X Grit, where X is equal to Hits in the result set.
+--?? $tech.ones > 0 ?? Trigger:|The Cycle's Drain 
+}}">
+Roll</button>
+</div>
+
+<div class="grid-spells-effects">
+<details>
+<summary>&#10010;</summary><p><strong>Threshold &mdash; 2</strong><br> One target in yoru Current Zone regains X Grit, where X is equal to Hits in the result set.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
