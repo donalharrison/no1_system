@@ -716,7 +716,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Tactics instead of Strike to attack an enemy in yoru Current Zone.  The target suffers Hits -2 to their Defense and you Create 1 Advantage in your Current Zone."
+                "Use your Tactics instead of Strike to attack an enemy in your Current Zone.  The target suffers Hits -2 to their Defense and you Create 1 Advantage in your Current Zone."
             ]
         },
         {
@@ -1081,7 +1081,7 @@
             "tree": "Black Belt",
             "name": "Flying Kick",
             "type": "Trigger",
-            "rank": 1,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -1092,7 +1092,7 @@
             "tree": "Black Belt",
             "name": "Cross Block",
             "type": "Trigger",
-            "rank": 2,
+            "rank": "2",
             "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
@@ -2026,7 +2026,7 @@
         {
             "tree": "Courtier",
             "name": "Intrigue Mastery",
-            "type": "Ability",
+            "type": "Static",
             "rank": "3",
             "requires": "History 2 and Persuasion 2 or Insight 2",
             "replaces": null,
@@ -2485,7 +2485,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You can draw accurate conclusions from limited information.  Spend 3 Momentum to state yoru conclusion.  The BAMF will tell you if you are correct."
+                "You can draw accurate conclusions from limited information.  Spend 3 Momentum to state your conclusion.  The BAMF will tell you if you are correct."
             ]
         },
         {
@@ -2630,7 +2630,7 @@
             "tree": "Diplomat",
             "name": "Silver Tongue",
             "type": "Ability",
-            "rank": 1,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -2805,7 +2805,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Linguistics to ask one natural animal in yoru Current Zone X questions, where X is equal to Hits in the result set."
+                "Use Linguistics to ask one natural animal in your Current Zone X questions, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -3909,7 +3909,7 @@
             "effect": [
                 "Your elevated status requires that you show bravery, strength, and conviction in all your affairs.",
                 "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash; braving danger and facing fear or defeat without hesitation.<br>Select two other Virtues from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>",
-                "You gain Dedication which measures your commitment to yoru Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
+                "You gain Dedication which measures your commitment to your Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
                 "Whenever you act in accordance with your Virtues, increase your Dedication by +1.",
                 "Whenever you act against your Virtues, reduce your Dedication by -1.",
                 "If your Dedication is 0 or less, increase the Entropy by +5."
@@ -4175,7 +4175,7 @@
             "tree": "Mage",
             "name": "Subtle Spell",
             "type": "Static",
-            "rank": 2,
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -4197,7 +4197,7 @@
             "tree": "Mage",
             "name": "Subtle Spell",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -4322,7 +4322,7 @@
             "tree": "Magic-User",
             "name": "Subtle Spell",
             "type": "Static",
-            "rank": 3,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -4392,7 +4392,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you are the target on Ambush, you immediately dela +1d4 Bonus Hits to one target."
+                "When you are the target on Ambush, you immediately deal +1d4 Bonus Hits to one target."
             ]
         },
         {
@@ -4590,7 +4590,7 @@
             "tree": "Martial Artist",
             "name": "High Block",
             "type": "Trigger",
-            "rank": 3,
+            "rank": "3",
             "requires": "Any Defensive Stance",
             "replaces": null,
             "effect": [
@@ -5581,7 +5581,7 @@
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
             "effect": [
-                "Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the resul set.  Until your next turn, any Hits you suffer are redirected to Minions in yoru Current Zone."
+                "Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the resul set.  Until your next turn, any Hits you suffer are redirected to Minions in your Current Zone."
             ]
         },
         {
@@ -6174,7 +6174,7 @@
             "tree": "Pugilist",
             "name": "Knockout Punch",
             "type": "Trigger",
-            "rank": null,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -6400,7 +6400,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike your target, delaing +1 Bonus Hits directly to their Grit."
+                "Strike your target, dealing +1 Bonus Hits directly to their Grit."
             ]
         },
         {
@@ -7965,7 +7965,7 @@
             "requires": "Reach Through Worlds",
             "replaces": null,
             "effect": [
-                "When you Reach Through Worlds and are the Victor of the Contest, use Locus to summon the target to yoru Current Zone.  The target gains Aura X, where X is equal to Hits in the result set.  While this Aura persists, remains in the current Scene.",
+                "When you Reach Through Worlds and are the Victor of the Contest, use Locus to summon the target to your Current Zone.  The target gains Aura X, where X is equal to Hits in the result set.  While this Aura persists, remains in the current Scene.",
                 "You gain Fatigued 2."
             ]
         },
@@ -8015,7 +8015,7 @@
             "requires": "Reach Through Worlds",
             "replaces": null,
             "effect": [
-                "When you Reach Through Worlds and are the Victor of the Contest with an atrocity from worlds beyond, use Locus to summon the target to yoru Current Zone.  The target gains Aura X, where X is equal to Hits in the result set.  While this Aura persists, remains in the current Scene.",
+                "When you Reach Through Worlds and are the Victor of the Contest with an atrocity from worlds beyond, use Locus to summon the target to your Current Zone.  The target gains Aura X, where X is equal to Hits in the result set.  While this Aura persists, remains in the current Scene.",
                 "If X is 4+, the target is friendly to you.",
                 "You gain Fatigued 3."
             ]
@@ -8341,7 +8341,7 @@
             "replaces": null,
             "effect": [
                 "When you Defy Danger using Stealth, you may take an Additional Shift this turn.",
-                "If you you are already Hidden and Shift to Move, you may take an Additional Shift this turn."
+                "If you are already Hidden and Shift to Move, you may take an Additional Shift this turn."
             ]
         },
         {
@@ -8369,7 +8369,7 @@
         {
             "tree": "Shinobi",
             "name": "Doku No Senmoka",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
