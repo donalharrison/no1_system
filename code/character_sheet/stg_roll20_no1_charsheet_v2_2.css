@@ -1,0 +1,1534 @@
+.charsheet {
+  background-color: #27262b;
+  color: #f2f2f2;
+}
+
+label,
+span {
+  margin-bottom: 0px;
+}
+
+.charsheet textarea.input-area-short {
+  vertical-align: top;
+  width: 300px;
+  height: 35px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label {
+  color: #f2f2f2;
+}
+
+/*Configure the tab buttons*/
+.sheet-main,
+.sheet-traits,
+.sheet-skills,
+.sheet-training,
+.sheet-powers,
+.sheet-targets,
+.sheet-gear,
+.sheet-minions,
+.sheet-journal,
+.sheet-cosm,
+.sheet-bamf {
+  display: none;
+}
+
+/* show the selected tab */
+.charsheet .sheet-tabstoggle[value="main"]~div.sheet-main,
+.charsheet .sheet-tabstoggle[value="traits"]~div.sheet-traits,
+.charsheet .sheet-tabstoggle[value="skills"]~div.sheet-skills,
+.charsheet .sheet-tabstoggle[value="training"]~div.sheet-training,
+.charsheet .sheet-tabstoggle[value="powers"]~div.sheet-powers,
+.charsheet .sheet-tabstoggle[value="targets"]~div.sheet-targets,
+.charsheet .sheet-tabstoggle[value="gear"]~div.sheet-gear,
+.charsheet .sheet-tabstoggle[value="minions"]~div.sheet-minions,
+.charsheet .sheet-tabstoggle[value="journal"]~div.sheet-journal {
+  display: grid;
+}
+
+.charsheet .sheet-is-cosm[value="1"]~.sheet-cosm {
+  display: block;
+}
+
+.charsheet .sheet-is-bamf[value="1"]~.sheet-bamf {
+  display: block;
+}
+
+.charsheet .sheet-is-cosm[value="1"]~div.banner-wrapper,
+.charsheet .sheet-is-cosm[value="1"]~div.nav-bar,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-tabstoggle,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-character,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-shifts,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-actions,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-triggers,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-powers,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-gear,
+.charsheet .sheet-is-cosm[value="1"]~div.sheet-journal {
+  display: none;
+}
+
+.sheet-skills-ranks,
+.sheet-skills-triggers,
+.sheet-powers-arcana,
+.sheet-powers-concoctions,
+.sheet-powers-epics,
+.sheet-powers-gifts,
+.sheet-powers-hexes,
+.sheet-powers-marvels,
+.sheet-powers-rites,
+.sheet-powers-spells,
+.sheet-powers-spirits,
+.sheet-powers-techniques,
+.sheet-gear-equipment,
+.sheet-gear-concoctions,
+.sheet-minions-minions,
+.sheet-minions-retainers {
+  display: none;
+}
+
+.charsheet .subsheet-tabstoggle[value="skill_ranks"]~div.sheet-skills-ranks,
+.charsheet .subsheet-tabstoggle[value="skill_triggers"]~div.sheet-skills-triggers,
+.charsheet .subsheet-tabstoggle[value="arcana"]~div.sheet-powers-arcana,
+.charsheet .subsheet-tabstoggle[value="epics"]~div.sheet-powers-epics,
+.charsheet .subsheet-tabstoggle[value="gifts"]~div.sheet-powers-gifts,
+.charsheet .subsheet-tabstoggle[value="hexes"]~div.sheet-powers-hexes,
+.charsheet .subsheet-tabstoggle[value="marvels"]~div.sheet-powers-marvels,
+.charsheet .subsheet-tabstoggle[value="rites"]~div.sheet-powers-rites,
+.charsheet .subsheet-tabstoggle[value="spells"]~div.sheet-powers-spells,
+.charsheet .subsheet-tabstoggle[value="spirits"]~div.sheet-powers-spirits,
+.charsheet .subsheet-tabstoggle[value="techniques"]~div.sheet-powers-techniques,
+.charsheet .subsheet-tabstoggle[value="equipment"]~div.sheet-gear-equipment,
+.charsheet .subsheet-tabstoggle[value="concoctions"]~div.sheet-gear-concoctions,
+.charsheet .subsheet-tabstoggle[value="minions"]~div.sheet-minions-minions,
+.charsheet .subsheet-tabstoggle[value="retainers"]~div.sheet-minions-retainers {
+  display: block;
+}
+
+/*.charsheet .sheet-character*/
+.charsheet .sheet-training-ranks[value="0"]+.sheet-training-talents {
+  display: none;
+}
+
+.charsheet .sheet-training-ranks+.sheet-training-talents {
+  display: block;
+}
+
+.charsheet .sheet-training-ranks[value="4"]+.sheet-training-skill-triggers {
+  display: none;
+}
+
+.charsheet .sheet-training-ranks+.sheet-training-skill-triggers {
+  display: block;
+}
+
+
+.charsheet .sheet-powers-affinity~.sheet-power-aether,
+.charsheet .sheet-powers-affinity~.sheet-power-bellor,
+.charsheet .sheet-powers-affinity~.sheet-power-inferno,
+.charsheet .sheet-powers-affinity~.sheet-power-locus,
+.charsheet .sheet-powers-affinity~.sheet-power-lux,
+.charsheet .sheet-powers-affinity~.sheet-power-mentis,
+.charsheet .sheet-powers-affinity~.sheet-power-mori,
+.charsheet .sheet-powers-affinity~.sheet-power-nihil,
+.charsheet .sheet-powers-affinity~.sheet-power-nox,
+.charsheet .sheet-powers-affinity~.sheet-power-ordi,
+.charsheet .sheet-powers-affinity~.sheet-power-phylla,
+.charsheet .sheet-powers-affinity~.sheet-power-plaga,
+.charsheet .sheet-powers-affinity~.sheet-power-rime,
+.charsheet .sheet-powers-affinity~.sheet-power-sangui,
+.charsheet .sheet-powers-affinity~.sheet-power-squall,
+.charsheet .sheet-powers-affinity~.sheet-power-tellus,
+.charsheet .sheet-powers-affinity~.sheet-power-tempest,
+.charsheet .sheet-powers-affinity~.sheet-power-tempor,
+.charsheet .sheet-powers-affinity~.sheet-power-torrent,
+.charsheet .sheet-powers-affinity~.sheet-power-vivus {
+  display: none;
+}
+
+.charsheet .sheet-powers-affinity[value="Aether"]~.sheet-power-aether,
+.charsheet .sheet-powers-affinity[value="Bellor"]~.sheet-power-bellor,
+.charsheet .sheet-powers-affinity[value="Inferno"]~.sheet-power-inferno,
+.charsheet .sheet-powers-affinity[value="Locus"]~.sheet-power-locus,
+.charsheet .sheet-powers-affinity[value="Lux"]~.sheet-power-lux,
+.charsheet .sheet-powers-affinity[value="Mentis"]~.sheet-power-mentis,
+.charsheet .sheet-powers-affinity[value="Mori"]~.sheet-power-mori,
+.charsheet .sheet-powers-affinity[value="Nihil"]~.sheet-power-nihil,
+.charsheet .sheet-powers-affinity[value="Nox"]~.sheet-power-nox,
+.charsheet .sheet-powers-affinity[value="Ordi"]~.sheet-power-ordi,
+.charsheet .sheet-powers-affinity[value="Phylla"]~.sheet-power-phylla,
+.charsheet .sheet-powers-affinity[value="Plaga"]~.sheet-power-plaga,
+.charsheet .sheet-powers-affinity[value="Rime"]~.sheet-power-rime,
+.charsheet .sheet-powers-affinity[value="Sangui"]~.sheet-power-sangui,
+.charsheet .sheet-powers-affinity[value="Squall"]~.sheet-power-squall,
+.charsheet .sheet-powers-affinity[value="Tellus"]~.sheet-power-tellus,
+.charsheet .sheet-powers-affinity[value="Tempest"]~.sheet-power-tempest,
+.charsheet .sheet-powers-affinity[value="Tempor"]~.sheet-power-tempor,
+.charsheet .sheet-powers-affinity[value="Torrent"]~.sheet-power-torrent,
+.charsheet .sheet-powers-affinity[value="Vivus"]~.sheet-power-vivus {
+  display: grid;
+  grid-gap: 3px;
+}
+
+
+
+.talent-trained[type=checkbox]:not(:checked)~.talent-rollbox {
+  display: none;
+}
+
+.talent-trained[type=checkbox]:checked~.talent-rollbox {
+  display: grid;
+}
+
+input[type=checkbox]:not(:checked)~.grid-container-concoction {
+  display: none;
+}
+
+input[type=checkbox]:checked~.grid-container-concoction {
+  display: grid;
+}
+
+.charsheet input[value="Nerve"]+.nerve,
+.charsheet input[value="Reflexes"]+.reflexes,
+.charsheet input[value="Vigor"]+.vigor {
+  background-color: #6962a6;
+}
+
+.skill-list {
+  /*display: inline-block;*/
+  text-align: left;
+  font-size: 16px;
+  width: 500px;
+}
+
+.skill-button {
+  margin: 0.005em;
+  font-size: 8pt;
+  /* font-weight: bold; */
+  padding: 0.02em;
+}
+
+.skill-rank-input {
+  margin-left: 0.005em;
+  margin-right: 0.005em;
+}
+
+.charsheet button[type="roll"].txt-btn:before {
+  content: ' ';
+}
+
+.charsheet button[type="roll"].txt-btn {
+  height: 20px;
+  border-style: none;
+  background-color: transparent;
+  margin: 0.005em;
+  font-weight: normal;
+  padding: 0.05em;
+  font-size: 9pt;
+}
+
+.charsheet button[type="action"].txt-btn {
+  height: 16;
+  border-style: solid 1px #37344f;
+  background-color: #4e4877;
+  color: #f2f2f2;
+  margin: 0.15em;
+  font-weight: normal;
+  padding: 0.30em;
+  font-size: 13pt;
+}
+
+.charsheet button[type="action"].txt-btn:hover {
+  background-color: #75b0f3;
+  color: #2c2a37;
+  /* border-radius: 3px; */
+}
+
+.trait-header {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.trait-input {
+  width: 25px;
+  height: 20px;
+}
+
+.charsheet button[type="roll"].txt-btn:hover {
+  background-color: #75b0f3;
+  color: #2c2a37;
+  /* border-radius: 3px; */
+}
+
+.grid-container {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  /* width:  850;*/
+  grid-template-columns: auto;
+}
+
+.grid-2col {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: auto;
+  grid-template-columns: auto auto;
+}
+
+.grid-3col {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: auto;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-4col {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: auto;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-6col {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: auto;
+  grid-template-columns: repeat(6, [col] auto);
+}
+
+.grid-cosm-header {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.sheet-cosm-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: right;
+}
+
+.grid-bamf-header {
+  text-align: center;
+}
+
+.grid-bamf-body {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-bamf-roller {
+  display: grid;
+  grid-template-columns: repeat(6, [col] auto);
+}
+
+.grid-bamf-roller .grid-container .grid-item {
+  height: 25px;
+  vertical-align: center;
+}
+
+.banner-wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(9, [col] auto);
+  align-self: center;
+  background-color: #2c2a37;
+  grid-template-areas:
+    "a a a a b b c c c"
+    "d d e f g h i j j"
+    "y y y y y y y y y"
+    "z z z z z z z z z";
+}
+
+.banner-wrapper .grid-item>button[type="roll"] {
+  padding: 2px 10px;
+}
+
+.banner-wrapper .grid-e .grid-item>button[type="roll"] {
+  margin: 0px 6px 0px 6px;
+}
+
+.grid-item {
+  display: grid;
+  background-color: #37344f;
+  color: #f2f2f2;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 100%;
+  text-align: center;
+}
+
+.banner-wrapper>.grid-item {
+  font-weight: bold;
+}
+
+.banner-wrapper>.character-name {
+  grid-area: a;
+  text-align: left;
+}
+
+.banner-wrapper>.grit {
+  grid-area: d;
+}
+
+.banner-wrapper>.grit>.grid-2col {
+    padding: 2px;
+    font-size: 10pt;
+}
+.banner-wrapper>.dying {
+  grid-area: i;
+  background-color: #bd2222ce;
+  text-align: center;
+}
+
+.banner-wrapper>.initiative {
+  grid-area: b;
+}
+
+.banner-wrapper>.defenses {
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-wrapper>.nerve {
+  grid-area: e;
+}
+
+.banner-wrapper>.reflexes {
+  grid-area: f;
+}
+
+.banner-wrapper>.vigor {
+  grid-area: g;
+}
+
+.banner-wrapper>.armor {
+  grid-area: h;
+  background-color: #555555ce;
+}
+
+.banner-wrapper>.bhits {
+  grid-area: c;
+}
+
+.banner-wrapper>.hazard {
+  grid-area: j;
+  align-items: center;
+}
+
+.banner-wrapper>.auras {
+  grid-area: y;
+}
+
+.banner-wrapper>.statuses {
+  grid-area: z;
+  justify-content: center;
+}
+
+.banner-aura {
+  display: grid;
+  grid-template-columns: repeat(10, [col] auto);
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  font-size: 10pt;
+}
+
+.banner-statuses {
+  display: grid;
+  grid-template-columns: repeat(9, [col] auto);
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  font-size: 10pt;
+}
+
+.sheet-main {
+  grid-template-columns: 2fr 4fr 3fr;
+}
+
+.grid-main-skills {
+  display: grid;
+  background-color: #37344f;
+  grid-gap: 2px;
+  padding: 3px;
+  /* width: auto; */
+  grid-template-columns: 3fr 1fr;
+}
+
+.grid-main-middle {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: auto;
+  /* grid-template-rows: auto; */
+  grid-template-areas:
+  "a"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+  "c"
+}
+
+.grid-main-right {
+  display: grid;
+  background-color: #2c2a37;
+  width: auto;
+  grid-gap: 3px;
+  grid-template-areas:
+  "a"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+  "b"
+}
+
+.grid-button-toggle {
+  display: grid;
+  border-radius: 15px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-left-pane {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "a b"
+    "c c";
+}
+
+.grid-middle-shifts {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "a b c"
+    "d d d";
+}
+
+.grid-middle-abilities {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "a b"
+    "c c";
+}
+
+.grid-main-middle-item {
+  display: grid;
+  background-color: #37344f;
+  color: #f2f2f2;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 90%;
+  text-align: left;
+  width: auto;
+  grid-template-areas:
+    "a a b"
+    "c c c";
+}
+
+.grid-main-middle-power {
+  display: grid;
+  background-color: #37344f;
+  color: #f2f2f2;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 90%;
+  text-align: left;
+  width: auto;
+  grid-template-areas:
+    "a y z b"
+    "c c c c";
+}
+
+.power-note {
+  grid-area: y;
+  font-style: italic;
+  font-size: 85%;
+}
+
+.kwords {
+  grid-area: z;
+  background-color: #096491;
+  border-radius: 4px;
+  font-size: 85%;
+}
+
+.grid-main-middle-item>label {
+  grid-area: a;
+}
+
+.grid-main-middle-item>button {
+  grid-area: b;
+
+}
+
+.talent-expand:not(:checked)~.talent-desc,
+.talent-expand:not(:checked)~.maneuvers{
+  display: none;
+}
+
+.talent-expand:checked~.talent-desc {
+  display: grid;
+  padding: 8px;
+  font-size: 85%;
+  grid-area: c;
+}
+
+.talent-expand:checked~.maneuvers {
+  display: grid;
+  padding: 8px;
+  font-size: 85%;
+}
+
+input:checked+.main-tab-toggle {
+  background-color: #37344f;
+  text-align: center;
+}
+
+input:not(:checked)+.main-tab-toggle {
+  background-color: #2c2a37;
+  text-align: center;
+}
+
+.grid-main-skills button {
+  width: auto;
+  height: 20px;
+  font-size: 8pt;
+}
+
+.grid-main-skills-action,
+.grid-main-skills-effect,
+.grid-main-shifts-basic,
+.grid-main-shifts-talents,
+.grid-main-shifts-powers,
+.grid-main-abilities-talents,
+.grid-main-abilities-powers {
+  display: none;
+}
+
+.main-tab-toggle[value="action"]:checked~.grid-main-skills-action,
+.main-tab-toggle[value="effect"]:checked~.grid-main-skills-effect {
+  display: grid;
+  grid-area: c;
+}
+
+.main-tab-toggle[value="shf-basic"]:checked~.grid-main-shifts-basic,
+.main-tab-toggle[value="shf-talents"]:checked~.grid-main-shifts-talents,
+.main-tab-toggle[value="shf-powers"]:checked~.grid-main-shifts-powers {
+  display: grid;
+  grid-area: d;
+  background-color: #2c2a37;
+  grid-gap: 3px;
+}
+
+.main-tab-toggle[value="abl-talents"]:checked~.grid-main-abilities-talents,
+.main-tab-toggle[value="abl-powers"]:checked~.grid-main-abilities-powers {
+  display: grid;
+  grid-area: c;
+  background-color: #2c2a37;
+  grid-gap: 3px;
+}
+
+
+.grid-main-mnvr-item {
+  display: grid;
+  background-color: #37344f;
+  color: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;
+  grid-template-areas:
+    "a a b"
+    "c c c"
+    "d d d";
+}
+
+.mnvr-name {
+  grid-area: a;
+  text-align: left;
+  font-weight: bold;
+}
+
+.mnvr-btn {
+  grid-area: b;
+  text-align: right;
+}
+
+.mnvr-cost {
+  grid-area: c;
+  font-size: 85%;
+  text-align: center;
+  font-style: italic;
+  padding-top: 3px;
+  background-color: #555555ce;
+  border-radius: 10px;
+}
+
+.mnvr-desc {
+  grid-area: d;
+  text-align: left;
+  font-size: 85%;
+  padding-top: 3px;
+}
+
+.grid-main-trigger-item {
+  display: grid;
+  background-color: #37344f;
+  color: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;
+  grid-template-areas:
+    "a a b"
+    "c . ."
+    "d d d";
+}
+
+.trigger-name {
+  grid-area: a;
+  text-align: left;
+  font-weight: bold;
+}
+
+.trigger-btn {
+  grid-area: b;
+  text-align: right;
+}
+
+.trigger-src {
+  grid-area: c;
+  font-size: 85%;
+  text-align: center;
+  font-style: italic;
+  padding-top: 3px;
+  background-color: #5a4d9e;
+  border-radius: 10px;
+}
+
+.trigger-desc {
+  grid-area: d;
+  text-align: left;
+  font-size: 85%;
+  padding-top: 3px;
+}
+
+.talent-trained+.grid-main-middle-item,
+.talent-trained+.grid-main-trigger-item {
+  display: none;
+}
+
+.talent-trained[value="on"]+.grid-main-middle-item,
+.talent-trained[value="on"]+.grid-main-trigger-item {
+  display: grid;
+}
+
+
+.grid-sheet-character {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-character-traits {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 3px;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.grid-character-trait-label {
+  background-color: #37344f;
+  /* border: 1px solid #f2f2f2; */
+  padding: 1px;
+  border-radius: 5px;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  grid-template-columns: 1fr;
+}
+
+.grid-trait-item {
+  background-color: #2c2a37;
+  color: #f2f2f2;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 100%;
+  text-align: center;
+}
+
+.grid-character-grit {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 3px;
+  grid-template-columns: auto auto;
+}
+
+.grid-character-grit-label {
+  background-color: #37344f;
+  padding: 1px;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-skill {
+  display: grid;
+  background-color: #2c2a37;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(7, [col] auto);
+}
+
+.grid-skill-roller-action {
+  display: grid;
+  grid-template-columns: repeat(4, [col] auto);
+}
+
+.grid-skill-roller-effect {
+  display: grid;
+  grid-template-columns: repeat(5, [col] auto);
+}
+
+.grid-character-skill-item {
+  background-color: #37344f;
+  padding: 1px;
+  text-align: right;
+}
+
+.grid-character-skill-savvy {
+  display: grid;
+  grid-template-rows: 1 / span 7;
+  grid-template-columns: auto auto;
+}
+
+.grid-character-skills-trait-label {
+  background-color: #33303e;
+  border: 1px solid #f2f2f2;
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 7;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-skills-type-label {
+  background-color: #33303e;
+  border: 1px solid #f2f2f2;
+  padding: 1px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 7;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-template-columns: 1fr;
+}
+
+.grid-character-skill-col1 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 10;
+  grid-template-columns: 2fr 3fr 1fr 1fr;
+}
+
+.grid-character-skill-col2 {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 10;
+  grid-template-columns: 2fr 3fr 1fr 1fr;
+}
+
+.grid-character-training {
+  display: grid;
+  background-color: #2c2a37;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(3, [col] auto);
+}
+
+.grid-character-training {
+  display: grid;
+  background-color: #2c2a37;
+  padding: 5px;
+  /* width: 700; */
+  grid-gap: 3px;
+  grid-template-columns: auto
+    /*repeat(3, [col] auto);*/
+}
+
+.grid-character-training-label {
+  background-color: #33303e;
+  border: 1px solid #37344f;
+  padding: 1px;
+  text-align: center;
+  grid-template-columns: auto;
+
+}
+
+.grid-training-talent-pill {
+  display: grid;
+  background-color: #37344f;
+  color: #f2f2f2;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 100%;
+  grid-template-areas:
+    "talent-name talent-trained-checkbox"
+    "talent-type talent-roll-button"
+    "talent-desc talent-desc";
+}
+
+.grid-training-talent-pill>.grid-training-talent-name {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: left;
+  grid-area: talent-name;
+}
+
+.grid-training-talent-pill>.talent-trained {
+  grid-area: talent-trained-checkbox;
+  justify-self: end;
+}
+
+
+.grid-training-talent-pill>.talent-type {
+  font-size: 8pt;
+  font-weight: bold;
+  grid-area: talent-type;
+  margin-top: 3px;
+  text-align: left;
+}
+
+.grid-training-talent-pill>button.talent-rollbox {
+  font-size: 8pt;
+  font-weight: bold;
+  grid-area: talent-roll-button;
+  justify-self: end;
+}
+
+.grid-training-talent-pill>.talent-desc {
+  font-size: 8pt;
+  background-color: #2c2a37;
+  padding: 5px;
+  text-align: left;
+  grid-area: talent-desc;
+}
+
+.grid-training-talents {
+  display: none;
+  background-color: #2c2a37;
+  padding: 5px;
+  grid-gap: 3px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-training-basic,
+.grid-training-specialization,
+.grid-training-discipline {
+  display: none;
+  grid-gap: 5px;
+  background-color: #37344f;
+  border: 1px solid #33303e;
+  border-radius: 5px;
+  padding: 1px;
+  text-align: center;
+  grid-template-columns: auto;
+}
+
+.grid-character-training-item {
+  background-color: #37344f;
+  border: 1px solid #33303e;
+  border-radius: 5px;
+  grid-gap: 8px;
+  padding: 1px;
+  text-align: center;
+}
+
+.training-tab-toggle:checked+label.training-tab-toggle {
+  background-color: #443f6b;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.training-tab-toggle[value="basics"]:checked~.grid-training-basic,
+.training-tab-toggle[value="specs"]:checked~.grid-training-specialization,
+.training-tab-toggle[value="discs"]:checked~.grid-training-discipline {
+  display: grid;
+}
+
+.training-talent-table,
+.talent-desc {
+  display: none;
+}
+
+.grid-character-training-item:checked~.training-talent-table,
+.grid-training-talent-name:checked~.talent-desc {
+  display: grid;
+}
+
+.grid-targets {
+  justify-items: right;
+  grid-template-areas: 
+  "a a a . b c"
+  "d d d . e f";
+  /* align-content: start; */
+}
+
+.grid-targets > .grid-target-desc {
+  grid-area: a;
+}
+
+.grid-targets > .grid-target-dur {
+  grid-area: b;
+}
+
+.grid-targets > .grid-target-remaining {
+  grid-area: c;
+}
+
+.grid-targets > .grid-target-cons {
+  grid-area: d;
+}
+
+.grid-targets > .grid-target-reward {
+  grid-area: e;
+}
+
+.grid-targets > .grid-target-progress {
+  grid-area: f;
+}
+
+.grid-shifts {
+  display: grid;
+  background-color: #2c2a37;
+  grid-gap: 5px;
+  padding: 5px;
+  width: 700;
+  grid-template-columns: repeat(2, [col] auto);
+}
+
+.grid-shifts-label {
+  font-size: 18pt;
+  font-weight: bold;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.item-header {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+
+.grid-container-talents {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #27262b;
+  padding: 3px;
+  /* width: 850; */
+  grid-template-columns: 415px 415px;
+}
+
+.grid-talents-label {
+  background-color: #27262b;
+  margin-bottom: 0px;
+  margin-top: 6px;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+}
+
+.grid-item-talents {
+  display: grid;
+  background-color: #33303e;
+  color: #f2f2f2;
+  padding: 3px;
+  text-align: left;
+  border-radius: 5px;
+  margin: 2px;
+  grid-template-columns: auto auto;
+  font-size: 10pt;
+}
+
+.grid-item-talents>*:nth-child(1) {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.grid-item-talents>*:nth-child(2) {
+  font-size: 8;
+  font-weight: bold;
+}
+
+.grid-item-talents>*:nth-child(odd) {
+  text-align: left;
+}
+
+.grid-item-talents>*:nth-child(even) {
+  text-align: right;
+}
+
+.grid-arcana-item {
+  background-color: #413e47;
+  border: 1px solid #727272;
+  padding: 1px;
+  margin: 2px;
+  grid-column-end: span 1;
+}
+
+.grid-arcana-table {
+  display: grid;
+  grid-template-columns: 50px auto;
+
+}
+
+.arcana-data {
+  grid-column-end: span 1;
+  padding: 4px;
+  border: 1px solid #bdbdb1;
+}
+
+.grid-container-spells {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #27262b;
+  padding: 3px;
+  width: auto;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item-spells {
+  background-color: #33303e;
+  color: #f2f2f2;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-spells-kwords {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  font-size: 8pt;
+}
+
+.grid-spells-name {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+  color: #f2f2f2;
+  padding: 3px;
+  text-align: left;
+  border-radius: 1px;
+  margin: 2px;
+  font-weight: bold;
+}
+
+.grid-spells-ranks {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  text-align: right;
+}
+
+.grid-spells-ranks input[type="number"] {
+  width: 25px;
+}
+
+.grid-spells-btn {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+  font-size: 8pt;
+  text-align: right;
+}
+
+.grid-spells-effects {
+  grid-column: 1 / span 3;
+  grid-row: 4 / span 1;
+  font-size: 8pt;
+}
+
+.gear-equipment-body {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gear-equipment-entries {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.grid-container-concoction {
+  display: grid;
+  background-color: #2c2a37;
+  text-align: left;
+  grid-gap: 5px;
+  padding: 5px;
+  width: 850;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-concoction {
+  text-align: left;
+}
+
+.grid-minions {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  text-align: right;
+  justify-self: center;
+  grid-gap: 3px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item-minions {
+  text-align: center;
+  align-content: center;
+}
+
+.grid-item-minions>.grid-container {
+  display: none;
+}
+
+.grid-item-minions:has(> select option[value="stalker"]:checked)>.grid-item-stalker,
+.grid-item-minions:has(> select option[value="ambusher"]:checked)>.grid-item-ambusher,
+.grid-item-minions:has(> select option[value="ravager"]:checked)>.grid-item-ravager,
+.grid-item-minions:has(> select option[value="hardy"]:checked)>.grid-item-hardy,
+.grid-item-minions:has(> select option[value="watcher"]:checked)>.grid-item-watcher,
+.grid-item-minions:has(> select option[value="tracker"]:checked)>.grid-item-tracker,
+.grid-item-minions:has(> select option[value="striker"]:checked)>.grid-item-striker,
+.grid-item-minions:has(> select option[value="charger"]:checked)>.grid-item-charger,
+.grid-item-minions:has(> select option[value="sentry"]:checked)>.grid-item-sentry,
+.grid-item-minions:has(> select option[value="decoy"]:checked)>.grid-item-decoy,
+.grid-item-minions:has(> select option[value="sapper"]:checked)>.grid-item-sapper,
+.grid-item-minions:has(> select option[value="spu ki"]:checked)>.grid-item-spu_ki,
+.grid-item-minions:has(> select option[value="bodyguard"]:checked)>.grid-item-bodyguard,
+.grid-item-minions:has(> select option[value="enforcer"]:checked)>.grid-item-enforcer,
+.grid-item-minions:has(> select option[value="battler"]:checked)>.grid-item-battler,
+.grid-item-minions:has(> select option[value="piker"]:checked)>.grid-item-piker,
+.grid-item-minions:has(> select option[value="arcanist"]:checked)>.grid-item-arcanist,
+.grid-item-minions:has(> select option[value="medic"]:checked)>.grid-item-medic,
+.grid-item-minions:has(> select option[value="archer"]:checked)>.grid-item-archer,
+.grid-item-minions:has(> select option[value="rogue"]:checked)>.grid-item-rogue,
+.grid-item-minions:has(> select option[value="veteran"]:checked)>.grid-item-veteran,
+.grid-item-minions:has(> select option[value="cutthroat"]:checked)>.grid-item-cutthroat,
+.grid-item-minions:has(> select option[value="consular"]:checked)>.grid-item-consular,
+.grid-item-minions:has(> select option[value="agent"]:checked)>.grid-item-agent,
+.grid-item-minions:has(> select option:checked:not([value=""]))>.grid-item-retainer {
+  display: grid;
+}
+
+.grid-item-retainer {
+  text-align: left;
+  align-content: left;
+}
+
+
+.grid-journal {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item.grid-journal {
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.demos {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.roller {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.talent {
+  display: inline-grid;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.talent-1 {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.talent-2 {
+  grid-area: 1 / 2 / 4 / 3;
+}
+
+.talent-3 {
+  grid-area: 1 / 3 / 4 / 4;
+}
+
+.trait {
+  display: inline-grid;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.trait-1 {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.trait-2 {
+  grid-area: 1 / 2 / 4 / 3;
+}
+
+.trait-3 {
+  grid-area: 1 / 3 / 4 / 4;
+}
+
+.trait-4 {
+  grid-area: 1 / 4 / 4 / 5;
+}
+
+.trait-5 {
+  grid-area: 1 / 5 / 4 / 6;
+}
+
+.talents {
+  grid-column: 1;
+  grid-row: 4 / span 3;
+}

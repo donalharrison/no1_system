@@ -1,277 +1,255 @@
-<div class="grid-container-talents">
-    <div class="grid-item-talents">
-        <div>Stall for Time</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If the current Timer equals 1 and you need more time to execute your strategy, roll 1d20 as X.<br>If X is
-                greater than Challenge + Entropy, increase the current Timer by +2.
-            </details>
+<div class="grid-container maneuvers">
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Stall for Time</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 5</div>
+        <div class="mnvr-desc">
+            If the current Timer equals 1 and you need more time to execute your strategy, roll 1d20 as X.<br>If X is
+            greater than Challenge + Entropy, increase the current Timer by +2.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Stall for Time
                   --Effect|If the current Timer equals 1 and you need more time to execute your strategy, roll 1d20 as X:^^^^If X is greater than Challenge + Entropy, increase the current Timer by +2.
-                  --Momentum Cost| 
+                  --Momentum Cost|5
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-5
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|Increase the current Timer by +2.
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Press the Advantage</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If the Momentum is greater than the Entropy, roll 1d20 as X.<br>If X is greater than Challenge + Momentum,
-                increase the current Time by +1 and Create 3
-                Advantages in your Current Zone.
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Press the Advantage</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 3</div>
+        <div class="mnvr-desc">
+            If the Momentum is greater than the Entropy, roll 1d20 as X.<br>If X is greater than Challenge + Momentum,
+            increase the current Time by +1 and Create 3
+            Advantages in your Current Zone.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Press the Advantage
                   --Effect|If the Momentum is greater than the Entropy, roll 1d20 as X:^^^^If X is greater than Challenge + Momentum, increase the current Time by +1 and Create 3 Advantages in your Current Zone.
-                  --Momentum Cost| 
+                  --Momentum Cost|3
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-3
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|momentum}]] ?? Effect:|Increase the current Time by +1 and Create 3 Advantages in your Current Zone.
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Fortune Favors the Bold</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                Roll 1d20 as X.<br>If X is greater than 10, increase the Momentum by +4.
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Fortune Favors the Bold</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 2</div>
+        <div class="mnvr-desc">
+            Roll 1d20 as X.<br>If X is greater than 10, increase the Momentum by +4.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Fortune Favors the Bold
                   --Effect|Roll 1d20 as X:^^^^If X is greater than 10, increase the Momentum by +4.
-                  --Momentum Cost| 
+                  --Momentum Cost|2
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-2
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Not Today</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If your Grit is 0 and your Dying rating is greater than 1, roll 1d20 as X.<br>If X is less than Challenge +
-                Entropy, regain +5 Grit and set your Dying rating to 0.<br>If X is greater than Challenge + Entropy,
-                reduce your Dying rating by -1 and increase the
-                Entropy by +5.
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Not Today</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 4</div>
+        <div class="mnvr-desc">
+            If your Grit is 0 and your Dying rating is greater than 1, roll 1d20 as X.<br>If X is less than Challenge +
+            Entropy, regain +5 Grit and set your Dying rating to 0.<br>If X is greater than Challenge + Entropy,
+            reduce your Dying rating by -1 and increase the
+            Entropy by +5.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Not Today
                   --Effect|If your Grit is 0 and your Dying rating is greater than 1, roll 1d20 as X:^^^^If X is less than Challenge + Entropy, regain +5 Grit and set your Dying rating to 0.^^If X is greater than Challenge + Entropy, reduce your Dying rating by -1 and increase the Entropy by
                   +5.
-                  --Momentum Cost| 
+                  --Momentum Cost|4
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-4
                   --?? $manuever.total < [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|Regain +5 Grit and set your Dying rating to 0.
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|Reduce your Dying rating by -1 and increase the Entropy by +5.
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Call in Reinforcements</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                Spend 1 Favor to have a friendly NPC dispatch a team of reinforcements to press your advantage, roll
-                1d20 as X.<br>If X is greater than Challenge + Entropy, the NPC will assign a unit of Minions you can
-                deploy to address a situation your team cannot see to personally.
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Call in Reinforcements</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 4</div>
+        <div class="mnvr-desc">
+            Spend 1 Favor to have a friendly NPC dispatch a team of reinforcements to press your advantage, roll
+            1d20 as X.<br>If X is greater than Challenge + Entropy, the NPC will assign a unit of Minions you can
+            deploy to address a situation your team cannot see to personally.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Call in Reinforcements
                   --Effect|Spend 1 Favor to have a friendly NPC dispatch a team of reinforcements to press your advantage, roll 1d20 as
                   X:^^^^If X is greater than Challenge + Entropy, the NPC will assign a unit of Minions you can deploy to
                   address a situation your team cannot see to personally.
-                  --Momentum Cost| 
+                  --Momentum Cost|4
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-4
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|The NPC will assign a unit of Minions you can deploy to address a situation your team cannot see to personally.
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>We Need backup</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If the Momentum is 8 or more less than the Entropy, contact a friendly NPC to dispatch a team of
-                reinforcements to support your current goals, roll 1d20 as X.<br>If X is greater than Challenge +
-                Entropy, the NPC will assign a unit of Minions you can deploy to address a situation your team cannot
-                see to personally.
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">We Need backup</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 5</div>
+        <div class="mnvr-desc">
+            If the Momentum is 8 or more less than the Entropy, contact a friendly NPC to dispatch a team of
+            reinforcements to support your current goals, roll 1d20 as X.<br>If X is greater than Challenge +
+            Entropy, the NPC will assign a unit of Minions you can deploy to address a situation your team cannot
+            see to personally.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - We Need backup
                   --Effect|If the Momentum is 8 or more less than the Entropy, contact a friendly NPC to dispatch a team of
                   reinforcements to support your current goals, roll 1d20 as X:^^^^If X is greater than Challenge + Entropy, the NPC will assign a unit of Minions you can deploy to address a situation your team cannot see to personally.
-                  --Momentum Cost|3
+                  --Momentum Cost|5
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-5
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|The NPC will assign a unit of Minions you can deploy to address a situation your team cannot see to personally.
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Calm the Chaos</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If Entropy is greater than Momentum, roll 1d20 as X.<br>If X is greater than Entropy, choose one (1):
-                <ul>
-                    <li>Reduce the Entroy by -2.</li>
-                    <li>Reduce the Challenge by -1.</li>
-                </ul>
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Calm the Chaos</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 4</div>
+        <div class="mnvr-desc">
+            If Entropy is greater than Momentum, roll 1d20 as X.<br>If X is greater than Entropy, choose one (1):
+            <ul>
+                <li>Reduce the Entroy by -2.</li>
+                <li>Reduce the Challenge by -1.</li>
+            </ul>
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Calm the Chaos
                   --Effect|If Entropy is greater than Momentum, roll 1d20 as X:^^^^If X is greater than Entropy, **//choose one (1)//**:^^Reduce the Entroy by -2.^^Reduce the Challenge by -1.
-                  --Momentum Cost|3
+                  --Momentum Cost|4
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-4
                   --?? $manuever.total > [[@{Cosm|entropy}]] ?? Effect:|**//Choose one (1)//**:^^Reduce the Entroy by -2.
                   ^^Reduce the Challenge by -1.
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Broley Shuffle</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                Employ misdirection to draw your enemies into a bait-and-switch, roll 1d20 as X.<br>If X is less than
-                Challenge + Entropy:
-                <ul>
-                    <li>All allies immediately us a Shift ignoring Hazards.</li>
-                    <li>Reduce the Entropy by -3.</li>
-                    <li>All enemies in your Current and all Adjacent Zones become Provoked by you.</li>
-                </ul>
-                Otherwise:
-                <ul>
-                    <li>Increase the Entropy by +2.</li>
-                    <li>All enemies in your Current and all Adjacent Zones become Provoked by you.</li>
-                </ul>
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Broley Shuffle</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 4</div>
+        <div class="mnvr-desc">
+            Employ misdirection to draw your enemies into a bait-and-switch, roll 1d20 as X.<br>If X is less than
+            Challenge + Entropy:
+            <ul>
+                <li>All allies immediately us a Shift ignoring Hazards.</li>
+                <li>Reduce the Entropy by -3.</li>
+                <li>All enemies in your Current and all Adjacent Zones become Provoked by you.</li>
+            </ul>
+            Otherwise:
+            <ul>
+                <li>Increase the Entropy by +2.</li>
+                <li>All enemies in your Current and all Adjacent Zones become Provoked by you.</li>
+            </ul>
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Broley Shuffle
                   --Effect|Employ misdirection to draw your enemies into a bait-and-switch, roll 1d20 as X:^^^^**//If X is less than Challenge + Entropy//**:^^- All allies immediately us a Shift ignoring Hazards.^^- Reduce the Entropy by -3.^^- All enemies in your Current and all Adjacent Zones become Provoked by you.^^^^
                   **//Otherwise//**:^^- Increase the Entropy by +2.^^- All enemies in your Current and all Adjacent Zones become Provoked by you.
-                  --Momentum Cost| 3
+                  --Momentum Cost|4
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-4
                   --?? $manuever.total < [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|**^^- All allies immediately us a Shift ignoring Hazards.^^- Reduce the Entropy by -3.^^- All enemies in your Current and all Adjacent Zones become Provoked by you.^^^^**
                   --?? $manuever.total >= [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|**^^- Increase the Entropy by +2.^^- All enemies in your Current and all Adjacent Zones become Provoked by you.**
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Yippee Ki Yay. . .</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If Entropy is greater than Momentum, roll 1d20 as X. If X + Momentum is greater than Challenge +
-                Entropy:
-                <ul>
-                    <li>Immediately take on Action.</li>
-                    <li>Increase the Momentum by Hits in the result set of the Action.</li>
-                    <li>Reduce Entropy by Hits in the result set of the Action.</li>
-                </ul>
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Yippee Ki Yay. . .</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 5</div>
+        <div class="mnvr-desc">
+            If Entropy is greater than Momentum, roll 1d20 as X. If X + Momentum is greater than Challenge +
+            Entropy:
+            <ul>
+                <li>Immediately take on Action.</li>
+                <li>Increase the Momentum by Hits in the result set of the Action.</li>
+                <li>Reduce Entropy by Hits in the result set of the Action.</li>
+            </ul>
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Yippee Ki Yay. . .
                   --Effect|If Entropy is greater than Momentum, roll 1d20 as X:^^^^**//If X + Momentum is greater than Challenge + Entropy//**:^^- Immediately take one Action.^^- Increase the Momentum by Hits in the result set of the Action.^^- Reduce Entropy by Hits in the result set of the Action.
-                  --Momentum Cost| 3
+                  --Momentum Cost|5
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-5
                   --?? [[$manuever.total + @{Cosm|momentum}]] > [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|**//- Immediately take one Action.^^- Increase the Momentum by Hits in the result set of the Action.^^- Reduce Entropy by Hits in the result set of the Action.//**
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>A Day May Come. . .</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If the Momentum is less than the Entropy and you need to rally your team's spirits, roll 1d20 as X. If X
-                is greater than Challenge + Momentum:
-                <ul>
-                    <li>All allies take one action, ignoring 1s in their result sets.</li>
-                    <li>Reduce the Entropy by -2.</li>
-                </ul>
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">A Day May Come. . .</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 4</div>
+        <div class="mnvr-desc">
+            If the Momentum is less than the Entropy and you need to rally your team's spirits, roll 1d20 as X. If X
+            is greater than Challenge + Momentum:
+            <ul>
+                <li>All allies take one action, ignoring 1s in their result sets.</li>
+                <li>Reduce the Entropy by -2.</li>
+            </ul>
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - A Day May Come. . .
                   --Effect|If the Momentum is less than the Entropy and you need to rally your team's spirits, roll 1d20 as X.^^- If X is greater than Challenge + Momentum:^^^^- All allies take one action, ignoring 1s in their result sets.^^- Reduce the Entropy by -2.
-                  --Momentum Cost| 3
+                  --Momentum Cost|4
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-4
                   --?? $manuever.total > [[@{Cosm|challenge} + @{Cosm|momentum}]] ?? Effect:|**//- All allies take one action, ignoring 1s in their result sets.^^- Reduce the Entropy by -2//**
                   }}">Roll</button>
         </div>
     </div>
-    <div class="grid-item-talents">
-        <div>Now for Wrath! Now for Ruin!</div>
-        <div>Momentum Cost &mdash; 3</div>
-        <div>
-            <details>
-                <summary>&#10010;</summary>
-                If Challenge + Entropy is greater than 13, roll 1d20 as X.<br>If X is less than Challenge + Entropy,
-                increase the current Timer by +2 and reduce the Entropy by -2.
-            </details>
+    <div class="grid-main-mnvr-item">
+        <div class="mnvr-name">Now for Wrath! Now for Ruin!</div>
+        <div class="mnvr-cost">Momentum Cost &mdash; 5</div>
+        <div class="mnvr-desc">
+            If Challenge + Entropy is greater than 13, roll 1d20 as X.<br>If X is less than Challenge + Entropy,
+            increase the current Timer by +2 and reduce the Entropy by -2.
         </div>
-        <div>
+        <div class="mnvr-btn">
             <button class="txt-btn" type="roll" value="!power {{
                   --name|@{character_name} - Maneuver - Now for Wrath! Now for Ruin!
                   --Effect|If Challenge + Entropy is greater than 13, roll 1d20 as X.^^If X is less than Challenge + Entropy, increase the current Timer by +2 and reduce the Entropy by -2.
-                  --Momentum Cost| 
+                  --Momentum Cost|5
                   --Result Set|[[ [$manuever|XPND] 1d20]]
                   --X|[^manuever.total]
                   --format|abilitycheck
+                  --api_modattr|_name @{Cosm} _momentum|-5
                   --?? $manuever.total < [[@{Cosm|challenge} + @{Cosm|entropy}]] ?? Effect:|Increase the current Timer by +2 and reduce the Entropy by -2.
                   }}">Roll</button>
         </div>
