@@ -8,7 +8,7 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Maintain your Composure to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.",
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.",
                 "Your Concordance measures how closely you are aligned with your Divine Doctrine.",
                 "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
@@ -21,13 +21,10 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You follow a set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.",
-                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceit, Justice, Loyalty, Honesty . . .</em>",
-                "When you uphold your Virtues or impede a Taboo, increase your Concordance by +1.",
-                "When you act against your Virtues or engage in a Taboo, reduce your Concordance by -1.",
+                "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.<br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
-                "Commitment to your Divine Doctrine lets you access Rites.  If one of your Rite's result set contains a 1, reduce your Concordance by -1.",
-                "If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
+                "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
         },
         {
@@ -83,8 +80,7 @@
             "replaces": null,
             "effect": [
                 "You have an innate ability that deviates from the normal.",
-                "When you gain this Talent, choose one of the following Effect Skills to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>",
-                "You gain +1 Skill Rank in your chosen Aberration and gain access to its associated Skill Triggers."
+                "When you gain this Talent, choose one of the following Effect Skill to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>"
             ]
         },
         {
@@ -95,7 +91,7 @@
             "requires": "Aberration",
             "replaces": null,
             "effect": [
-                "Increase your Aberration Rank to 2 (d8)."
+                "Increase your Abberation Rank to 2 (d8)."
             ]
         },
         {
@@ -117,7 +113,7 @@
             "requires": "Aberration",
             "replaces": null,
             "effect": [
-                "Increase your Aberration Rank to 3 (d10)."
+                "Increase your Abberation Rank to 3 (d10)."
             ]
         },
         {
@@ -128,7 +124,7 @@
             "requires": "Aberration",
             "replaces": null,
             "effect": [
-                "When you score 5+ Hits with your Aberration's Effect Triggers, you may immediately take another Action."
+                "When you score 5+ Hits with your Aberration's Effect Triggers, you may immediately use a different Effect Trigger from your Aberration."
             ]
         },
         {
@@ -221,7 +217,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft to gain Hits + Savvy in Concoction Ranks to prepare Concoctions.",
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Craft Actions (minimum 1 Action)."
             ]
         },
@@ -267,8 +263,7 @@
             "replaces": null,
             "effect": [
                 "When you Craft to prepare Concoctions, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Alchemist",
@@ -278,7 +273,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Once per turn you can use or apply a Concoction that requires a Shift to Use Your Equipment without using a Shift."
+                "Once per turn you can use or apply a Concoction that requires a Shift to Use Your Equipment wihtout using a Shift."
             ]
         },
         {
@@ -312,8 +307,7 @@
             "replaces": null,
             "effect": [
                 "When you Craft to prepare Concoctions, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Archmage",
@@ -378,7 +372,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike an opponent while Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the target suffers 0 Hits to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
+                "Strike an opponent while Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -433,7 +427,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you are being searched by someone attempting to disarm you of your weapons and implements, you may use Legerdemain to hide a dagger on your person if you score 1+ Hits."
+                "When you are being searched by someone attempting to disarm you of your weapons and implements, you may use Legerdemain to hide a dagger on your person is you sore 1+ Hits."
             ]
         },
         {
@@ -456,8 +450,7 @@
             "replaces": null,
             "effect": [
                 "When you Sneak Attack a target you have Marked for Death, add +2d6 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2d6 Bonus Hits"
+            ]
         },
         {
             "tree": "Assassin",
@@ -479,8 +472,7 @@
             "replaces": null,
             "effect": [
                 "Persuade one target in your Current Zone to negotiate terms of a contract, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Assassin",
@@ -531,7 +523,7 @@
             "name": "Tumble (2)",
             "type": "Static",
             "rank": "1",
-            "requires": "Tumble 1",
+            "requires": "Tumple 1",
             "replaces": null,
             "effect": [
                 "Increase your Tumble rank to 2 (d8)."
@@ -568,8 +560,7 @@
             "replaces": null,
             "effect": [
                 "You are adept in acrobatics, adding +2 Bonus Hits any result sets using Tumble."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Athlete",
@@ -580,8 +571,7 @@
             "replaces": null,
             "effect": [
                 "When you Defy Danger using Parkour!, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Athlete",
@@ -591,7 +581,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+                "When you Recover, regain +2 Defenses."
             ]
         },
         {
@@ -602,7 +592,7 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Maintain your Composure to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.",
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.",
                 "Your Concordance measures how closely you are aligned with your Divine Doctrine.",
                 "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
@@ -616,8 +606,7 @@
             "replaces": null,
             "effect": [
                 "Lead all allies in your Current Zone, allowing a number of them equal to the Hits in the result set to immediately do 1 of the following:<ul><li>Recover</li><li>Reduce one Variable Status by -1</li><li>Add +1 Bonus Hits to their next result set</li></ul>"
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Tactician",
@@ -627,7 +616,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Tactics to aid all allies in your Current Zones, allowing X allies to immediately use a Shift, where X is equal to Hits in the result set."
+                "Use your Tactics allies in your current Zones, allowing X allies to immediately use a Shift, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -651,8 +640,7 @@
             "effect": [
                 "Lead all allies in your Current Zone, granting X allies +2 Bonus Hits on their next roll, where X is the number of Hits in the result set.",
                 "If you score 4+ Hits, reduce the Entropy by -2."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Tactician",
@@ -663,8 +651,7 @@
             "replaces": null,
             "effect": [
                 "You are adept at planning battles and missions.  You add +1d4 Bonus Hits when you use your Tactics to plan a mission."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Tactician",
@@ -729,7 +716,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Tactics instead of Strike to attack an enemy in your Current Zone.  The target suffers X - 2 to their Defense, where X is equal to Hits in the result set, and you Create 1 Advantage in your Current Zone."
+                "Use your Tactics instead of Strike to attack an enemy in your Current Zone.  The target suffers Hits -2 to their Defense and you Create 1 Advantage in your Current Zone."
             ]
         },
         {
@@ -806,9 +793,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use your Tactics, add +1 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+                "When you use your Tactics, adding +1 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Heretic",
@@ -819,7 +805,7 @@
             "replaces": null,
             "effect": [
                 "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.<br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
-                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceit, Justice, Loyalty, Honesty . . .</em>",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
                 "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>.  If one your Rite's result set contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0."
             ]
@@ -866,8 +852,7 @@
             "replaces": null,
             "effect": [
                 "When you suffer Hits from an attack in your Current or and Adjacent Zone, you may spend 1 Concordance to deal +1d4 Bonus Hits to the attacking target."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Heretic",
@@ -888,7 +873,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you suffer 1+ Hits from a Power's effects, you may spend 1 Concordance to immediately recover +1d6 to your Primary Defense."
+                "When you suffer Hits from a Power effects, you may spend 1 Concordance to regain +1d6 to your Primary Defense."
             ]
         },
         {
@@ -999,11 +984,10 @@
             "replaces": null,
             "effect": [
                 "Exert yourself, entering a trance-like fury to crush your enemies, see them driven before you, and to hear the lamentations of their women. You gain a Rage Aura equal to Hits +1 in the result set.",
-                "While you have a Rage Aura, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.",
+                "While you are in a Rage, you may decrease your Rage Aura by -1 to add +2 Bonus Hits to any Action using Exert, Endure, Grapple, Intimidate, Martial Arts, Strike, or Throw.",
                 "If your Rage Aura equals 0 or you use a Shift to dismiss it, you gain Fatigued 2 and Confused 1, and the Entropy increases by +1.",
                 "If your Rage Aura is 8+, you gain Fatigued 2 and Confused, and the Entropy increases by +2."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Berserker",
@@ -1013,7 +997,7 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you have a Rage Aura and score 4+ Hits in melee combat, increase your Rage Aura by +2."
+                "When you are in a Rage and score 4+ Hits in melee combat, increase your Rage Aura by +2."
             ]
         },
         {
@@ -1024,20 +1008,19 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you have a Rage Aura and use the Recover Action, you may regain +3 to your Grit and decrease your Dying rating by -1."
+                "When you are in a Rage and use the Recover Acation, you may regain +3 to your Grit and decrease your Dying rating by -1."
             ]
         },
         {
             "tree": "Berserker",
-            "name": "Berserker's Fury",
+            "name": "Berkserker's Fury",
             "type": "Ability",
             "rank": "2",
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gain Provoked and you recover +X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>"
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "Decrease your Rage Aura by -2 and choose one (1):<ul><li>Strike or use your Martial Arts against one target in your Current Zone, adding +1d4 Bonus Hits to the restul set and your target gains Wounded 1.</li><li>Throw one target you have Grappled into an Adjacent Zone, ending the target's Grappled status.  The target and one other target in the Adjacent Zone take X Hits and become Prone, where X is equalt to Hits in the result set.</li><li>Intimidate hostile targets in your Current Zone.  Up to X targets gian Provoked and your recover X to your Primary Defense, where X is equal to Hits in the result set.</li></ul>"
+            ]
         },
         {
             "tree": "Berserker",
@@ -1047,7 +1030,7 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "While have a Rage Aura, you automatically regain +1 point to your Primary Defense at the beginning of your turn and you are immune to being Afraid."
+                "While you are in a Rage, you automatically regain +1 point to your Primary Defense at the beginning of your turn and you are immune to being Afraid."
             ]
         },
         {
@@ -1058,7 +1041,7 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you have a Rage Aura and score 5+ Hits using Grapple, Martial Arts, Strike, or Throw, you may reduce your Rage Aura by -1 to have your target gain Vulnerable 1."
+                "When  you are in a Rage and score 5+ Hits using Grapple, Martial Arts, Strike, or Throw, you may reduce your Rage Aura by -1 and your target gian Vulnerable 1."
             ]
         },
         {
@@ -1080,7 +1063,7 @@
             "requires": "Rage",
             "replaces": null,
             "effect": [
-                "When you have a Rage Aura and suffer 2+ Hits from a melee attack, increase your Rage Aura by +1."
+                "When you are in a Rage and suffer 2+ Hits from a melee attack, Increase your Rage Aura by +1."
             ]
         },
         {
@@ -1137,8 +1120,7 @@
             "effect": [
                 "Use your Martial Arts against a target in your Current Zone.",
                 "If you score 3+ Hits, add +1d4 Bonus Hits to the results set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Black Belt",
@@ -1170,8 +1152,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend X Bladeweave Aura to Strike up to X targets in your Current Zone.",
-                "On 3+ Hits in the Strike result set, you gain an additional Shift this turn and may Shift to Move ignoring Hazards."
+                "Spend X Bladeweave Aura to Strike up to X targets in your Current Zone.", "On 3+ Hits in the Strike result set, you gain an additional Shift this turn and may Shift to Move ignoring Hazards."
             ]
         },
         {
@@ -1183,8 +1164,8 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
-                "Spend 1 Bladeweave Aura to enter a Defensive Stance. You may maintain this stance until you use a Shift to Move or assume a different Stance.",
-                "While you maintain this Stance and use an Action to Strike, you gain Armor Defense X, where X is equal to your Bladeweave Aura."
+                "Spend 1 Bladeweave Aura to enter a Defensive Stance. You may maintain this stance until you use a different Shift.",
+                "While you maintain this Stance and use an Action to Strike, you gain Armor Defese X, where X is equal to your Bladeweave Aura."
             ]
         },
         {
@@ -1196,8 +1177,7 @@
             "replaces": null,
             "effect": [
                 "Spend 2 Bladeweave Aura and use a Savvy Skill, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Blade Weaver",
@@ -1208,8 +1188,7 @@
             "replaces": null,
             "effect": [
                 "Spend 2 Bladeweave Aura and use a Deft Skill, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Blade Weaver",
@@ -1264,8 +1243,7 @@
             "replaces": null,
             "effect": [
                 "When you have Bladeweave Aura 1+ and score 0 Hits with an Action, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Blade Weaver",
@@ -1341,9 +1319,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Intimidate a target in your Current Zone that you are trying to apprehend, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "Intimidate a target in yout Current Zone that you are trying to apprehend, adding +1d4 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Bounty Hunter",
@@ -1430,9 +1407,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "Persuade, Intimidate, or use your Insight when discussing the terms of a bounty, addin +1d4 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Bounty Hunter",
@@ -1488,8 +1464,7 @@
             "replaces": null,
             "effect": [
                 "Strike one target with unrelenting force, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Brute",
@@ -1500,8 +1475,7 @@
             "replaces": null,
             "effect": [
                 "Use Martial Arts against one target with unrelenting force, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Brute",
@@ -1555,7 +1529,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Strike your target to death, you can Initiate a Contest with one hostile target in your Current Zone without using a Shift."
+                "When you Strike your target to death, you can Initiate a Contest with one hostile target in your Current Zone wihtout using a Shift."
             ]
         },
         {
@@ -1691,7 +1665,7 @@
             "effect": [
                 "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
                 "Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.",
-                "If the result set of one of your Marvels contains a 1, reduce your Attunement by -X, where X is equal to Hits in the same result set.",
+                "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
                 "If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
@@ -1815,9 +1789,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are accustomed to fighting on the rolling decks of ships. While you are moving on board a ship, you add +1d4 Bonus Hits when you Strike or Shoot a target, and you reduce all Hazards by -1."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "You are adept at fighting on accustomed to the rolling decks of ships. While you are moving on board a shipYou add +1d4 Bonus Hits when you Strike or Shoot a target, and you reduce all Hazards by -1."
+            ]
         },
         {
             "tree": "Corsair",
@@ -1828,8 +1801,7 @@
             "replaces": null,
             "effect": [
                 "Persuade a sailor, pirate, or maritime merchant, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Corsair",
@@ -1883,9 +1855,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Perceive or Investigate to find hidden compartments, treasure, or valuable cargo, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "Perceive or Investigate to find hidden compartments, treaure, or valuable cargo, adding +1d4 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Corsair",
@@ -1895,7 +1866,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Lead the crew of a ship in unleashing a devastating broadside attack.  On 2+ Hits, the ship's weaponry deals double Hits on their next Shoot attempt."
+                "Lead the crew of a ship in unleashing a devastating broadside attack.  On 2+ Hits, the ballistae to deal double Hits on their next Shoot attempt."
             ]
         },
         {
@@ -1906,7 +1877,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action to reduce Fatigue, you recover any remaining Hits to your Vigor Defense once your Fatigue rating is 0."
+                "When you Recover to reduce Fatigue, recover any remaining Hits to Vigor once your Fatigue rating is 0."
             ]
         },
         {
@@ -1962,8 +1933,7 @@
             "replaces": null,
             "effect": [
                 "Lead your crew through a severe storm or troubled waters.  On 2+ Hits, all crew Actions add +2 Bonus Hits to their Result Set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Corsair",
@@ -1974,8 +1944,7 @@
             "replaces": null,
             "effect": [
                 "Deceive a target that holds a position of authority, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Corsair",
@@ -1985,7 +1954,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Lead all allies in your Current Zone allowing X allies to immediately use a Shift, where X is the number of Hits in the result set."
+                "Lead all allies in your Current Zone allowing X allies to immediately use a Shoft or Trigger, where X is the number of Hits in the result set."
             ]
         },
         {
@@ -2018,8 +1987,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert at arranging advantageous deals and alliances, leveraging your noble prowess to gain favors and resources.",
-                "At the beginning of a Waypoint when you are in a city, you may spend 2 Momentum to gain 1 Favor and 1 Wealth."
+                "You are an expert at arranging advantageous deals and alliances, leveraging your noble prowess to gain favors and resources.","At the beginning of a Waypoint when you are in a city, you may spend 2 Momentum to gain 1 Favor and 1 Wealth."
             ]
         },
         {
@@ -2031,8 +1999,7 @@
             "replaces": null,
             "effect": [
                 "Deceive your target, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Courtier",
@@ -2076,8 +2043,7 @@
             "replaces": null,
             "effect": [
                 "Deceive to adopt the mannerisms and speech of a different social class, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Courtier",
@@ -2109,9 +2075,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You excel at forming discrete alliances ensuring mutual benefits without drawing unwanted attention, allowing you to add +1d4 Bonus Hits to any result set when you Persuade or use your Insight in a private meeting."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "You excel at forming discrete alliances ensuring mutual benefits without drawing unwanted attention, allowing you to add 1d+ Bonus Hits to any result set when you Persuade or use your Insight in a private meeting."
+            ]
         },
         {
             "tree": "Courtier",
@@ -2145,8 +2110,7 @@
             "replaces": null,
             "effect": [
                 "When you are engaged in a Contest and Persuade or Intimidate your opponent, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Courtier",
@@ -2190,7 +2154,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
-                "Focus to defend yourself in combat, assuming a Defensive Stance and adding +X to your Primary Defense, where X is equal to Hits in the result set."
+                "Focus to defend yourself in combat, assuming a Defensive Stance adding +Hits to your Primary Defense."
             ]
         },
         {
@@ -2223,7 +2187,7 @@
             "requires": "Stay Close to Me",
             "replaces": null,
             "effect": [
-                "When you are protecting an ally in your Current Zone and they suffer Hits from an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Defender Rank."
+                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Defender Rank."
             ]
         },
         {
@@ -2234,7 +2198,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+                "When you Recover, recover +2 Defenses."
             ]
         },
         {
@@ -2278,9 +2242,8 @@
             "requires": "Focused Defense",
             "replaces": null,
             "effect": [
-                "When you Focus to defend yourself in combat, add +1d4 Bonus Hits to your Primary Defense."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "When you Focus to defend yourself in combat, ad +1d4 Bonus Hits to your Primary Defense."
+            ]
         },
         {
             "tree": "Guardian",
@@ -2312,7 +2275,7 @@
             "requires": "Stay Close to Me",
             "replaces": null,
             "effect": [
-                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to your Guardian Rank."
+                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Guardian Rank."
             ]
         },
         {
@@ -2334,7 +2297,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+                "When you Recover, recover +2 Defenses."
             ]
         },
         {
@@ -2401,7 +2364,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase your Vigor by +3."
+                "Increase your Vigor by 3."
             ]
         },
         {
@@ -2435,8 +2398,7 @@
             "replaces": null,
             "effect": [
                 "Persuade or Intimidate a target you are questioning, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Detective",
@@ -2491,8 +2453,7 @@
             "replaces": null,
             "effect": [
                 "Use your Insight to determine if your target is lying or to sense their intentions, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Detective",
@@ -2514,8 +2475,7 @@
             "replaces": null,
             "effect": [
                 "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Detective",
@@ -2561,7 +2521,7 @@
             "requires": "Receive Gifts",
             "replaces": null,
             "effect": [
-                "You discover your Patron dwells in the Hellplanes.  Add +2 Bonus Sits to the result sets of Actions using the Receive Gifts Ability.",
+                "You discover your Patron dwell in the Hellplanes.  Add +2 Bonus hits to the result sets of Actions using the Receive Gifts Ability.",
                 "Increase your Deceive or Persuade Rank to 1 (d6), 2 (d8), or 3 (d10)."
             ]
         },
@@ -2631,8 +2591,7 @@
             "replaces": null,
             "effect": [
                 "When you Deceive or Persuade a target, you may add +1d4 Bonus Hits to the result set.  Increase the Entropy by +1."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Diabolist",
@@ -2665,8 +2624,7 @@
             "replaces": null,
             "effect": [
                 "Nothing slips by you while engaged in social Contests, scoring +2 Bonus Hits when using Insight or Persuade."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Diplomat",
@@ -2709,9 +2667,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action to recover Nerve, add +2 Bonus Hits to the Result Set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+                "When you Recover to recover Nerve, regain and additional +2 Bonus Hits."
+            ]
         },
         {
             "tree": "Diplomat",
@@ -2790,7 +2747,7 @@
             "effect": [
                 "Endure or use your Insight to connect with nature, gaining Hits in Attunement.",
                 "Attunment measures the strength of connection to nature, which determines the strength of the Marvels you can manifest.",
-                "If the result set of one of your Marvels contains a 1, reduce your Attunement by -X, where X is equal to Hits in the same result set.",
+                "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
                 "If your Attunement equals 0 or less, you gain Fatigued 4 and the Momentum decreases by -2.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 7 - Steady Actions (minimum 1 Action)."
             ]
@@ -2815,7 +2772,7 @@
             "requires": "Nature's Bond",
             "replaces": null,
             "effect": [
-                "Select 2 additional Effect Skills from the list below to add to your Affinity:<br><em>Plaga, Rime, Squall, Torrent</em>"
+                "Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Plaga, Rime, Squall, Torrent</em>"
             ]
         },
         {
@@ -2826,7 +2783,7 @@
             "requires": "Nature's Bond",
             "replaces": null,
             "effect": [
-                "Select 2 additional Effect Skills from the list below to add to your Affinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>"
+                "Select 2 additional Effect Skills from the list below to add to your Afinity:<br><em>Inferno, Rime, Tempest, Torrent, Vivus</em>"
             ]
         },
         {
@@ -2945,10 +2902,10 @@
             "name": "Strike (3)",
             "type": "Static",
             "rank": "1",
-            "requires": "Strike 2",
+            "requires": "Stealth 2",
             "replaces": null,
             "effect": [
-                "Increase your Strike Rank to 3 (d10)."
+                "Increase your Stealth Rank to 3 (d10)."
             ]
         },
         {
@@ -2982,8 +2939,7 @@
             "replaces": null,
             "effect": [
                 "When you Strike a target while engaged in a Contest, add +2 Bonus Hits to the results set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Duelist",
@@ -2994,8 +2950,7 @@
             "replaces": null,
             "effect": [
                 "When you Strike a target in the first round of a Contest, add +2 Bonus Hits to the results set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Duelist",
@@ -3401,7 +3356,7 @@
             "requires": "The Cycle's Drain",
             "replaces": null,
             "effect": [
-                "When you gain this Talent, increase your Vivus Rank to 2 (d8).",
+                "When you gain this Talent, Increase your Vivus Rank to 2 (d8).",
                 "You can use <a href='/no1_system/characters/powers/techniques/'>Techniques</a> that call on the Vivus Skill."
             ]
         },
@@ -3447,8 +3402,7 @@
             "replaces": null,
             "effect": [
                 "Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Hunter",
@@ -3470,12 +3424,11 @@
             "replaces": null,
             "effect": [
                 "When you use Stealth in a wilderness environment, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Hunter",
-            "name": "Natural Camouflage",
+            "name": "Natural Camoflauge",
             "type": "Ability",
             "rank": "3",
             "requires": null,
@@ -3508,15 +3461,14 @@
         },
         {
             "tree": "Hunter",
-            "name": "Predator\u2019s Instinct",
+            "name": "Predator’s Instinct",
             "type": "Shift",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
                 "Focus to enter a heightened state of awareness, adding +1d4 Bonus Hits to your next Shoot attempt or Initiative Test."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Hunter",
@@ -3527,8 +3479,7 @@
             "replaces": null,
             "effect": [
                 "When you use Survival to track and locate a target, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3539,8 +3490,7 @@
             "replaces": null,
             "effect": [
                 "When you use Stealth to move through hostile or unfamiliar territory, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3550,7 +3500,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Deceive the world to gain Disguised X, where X is equal to Hits in the result set.  You cannot use this ability if you are being observed by an enemy."
+                "Deceive the world to gain Disguised X, where X is euqal to Hits in the result set.  You cannot use this ability if you are being observed by an enemy."
             ]
         },
         {
@@ -3617,8 +3567,7 @@
             "replaces": null,
             "effect": [
                 "Use your Implements to disable a lock blocking your way, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3651,8 +3600,7 @@
             "replaces": null,
             "effect": [
                 "When you Defy Danger to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3674,8 +3622,7 @@
             "replaces": null,
             "effect": [
                 "Deceive your opponents while Hidden, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3686,8 +3633,7 @@
             "replaces": null,
             "effect": [
                 "Perceive to detect hidden observers or surveillance devices, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3698,8 +3644,7 @@
             "replaces": null,
             "effect": [
                 "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3721,8 +3666,7 @@
             "replaces": null,
             "effect": [
                 "Use your Craft, Implements, or Linguistics to forge documents or objects, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Infiltrator",
@@ -3744,8 +3688,7 @@
             "replaces": null,
             "effect": [
                 "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Juggernaut",
@@ -3777,9 +3720,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Roll Martial Arts or Strike as X to slam the ground, where X is equal to Hits in the result set.",
-                "If X is 1+, create X Hazards in your Current Zone and X targets in your Current Zone become Prone.",
-                "If X is 3+, create up to X Hazards in your Current and/or Adjacent Zones and up to X targets your Current and/or Adjacent Zone become Prone."
+                "Roll Martial Arts or Strike as X to slam the ground, where X is equal to Hits in the result set.", "If X is 1+, create X Hazards in your Current Zone and X targets in your Current Zone become Prone.", "If X is 3+, create up to X Hazards in your Current and/or Adjacent Zones and up to X targets your Current and/or Adjacent Zone become Prone."
             ]
         },
         {
@@ -3790,9 +3731,7 @@
             "requires": "Immovable Object",
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
-                "Spend 1 Immovable Aura to enter a Defensive Stance.  You may maintain this Stance until you use a different Shift.",
-                "While you maintain this Stance, you gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by you."
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>", "Spend 1 Immovable Aura to enter a Defensive Stance.  You may maintain this Stance until you use a different Shift.", "While you maintain this Stance, you gain Armor Defense 10, cannot be Stunned, and all targets in your Current Zone are Provoked by you."
             ]
         },
         {
@@ -3803,7 +3742,7 @@
             "requires": "Unstoppable Force",
             "replaces": null,
             "effect": [
-                "When you have an Unstoppable Aura and roll a 1 on a Hazard Die, increase your Unstoppable Aura by +1."
+                "When you have an Unstoppable Aura 1+ and roll a 1 on a 1+ Hazard Dice, increase your Unstoppable Aura by +1."
             ]
         },
         {
@@ -3815,18 +3754,17 @@
             "replaces": null,
             "effect": [
                 "When you gain an Immovable or Unstoppable Aura, add +1d4 Bonus Hits to the Aura."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Juggernaut",
-            "name": "Ubreakable",
+            "name": "",
             "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action while you have an Immovable or Unstoppable Aura, regain +2 Grit."
+                "When you Recover while your have an Immovable or Unstoppable Aura 1+, regain +2 Grit."
             ]
         },
         {
@@ -3837,7 +3775,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, you may reduce Dying Rating by -1 instead of recovering Defense or regaining Grit."
+                "When you Recover, you may reduce Dying Rating by -1 instead of recovering Defense or regaining Grit."
             ]
         },
         {
@@ -3870,7 +3808,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "The Recover Action has the Resist keyword."
+                "The Recover Action has the Resist Keyword."
             ]
         },
         {
@@ -3881,7 +3819,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "The Endure Skill has the Resist keyword."
+                "The Endure Skill has the Resist Keyword."
             ]
         },
         {
@@ -3970,7 +3908,7 @@
             "replaces": null,
             "effect": [
                 "Your elevated status requires that you show bravery, strength, and conviction in all your affairs.",
-                "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash; braving danger and facing fear or defeat without hesitation.<br>Select two other Virtues from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceit, Justice, Loyalty, Honesty . . .</em>",
+                "Chivalric Obligations require three (3) Virtues, one of which is Courage &mdash; braving danger and facing fear or defeat without hesitation.<br>Select two other Virtues from the list below:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "You gain Dedication which measures your commitment to your Chivalric Obligation.  When you gain this Talent, your Dedication equals 3.",
                 "Whenever you act in accordance with your Virtues, increase your Dedication by +1.",
                 "Whenever you act against your Virtues, reduce your Dedication by -1.",
@@ -4037,10 +3975,10 @@
             "name": "Virtuous Act",
             "type": "Trigger",
             "rank": "2",
-            "requires": "Chivalric Obligation",
+            "requires": null,
             "replaces": null,
             "effect": [
-                "When you act in concordance with one or more of your Virtues, increase your Dedication by and additional +2."
+                "When you act in concordance with one or more of your Virtues, increase your Dedication by +2."
             ]
         },
         {
@@ -4084,7 +4022,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you score Hits and kill a target, one ally you can see in your Current Zone may immediately use the Recover Action."
+                "When you score Hits and kill a targer, one ally you can see in your Currnet Zone may immediately use the Recover action."
             ]
         },
         {
@@ -4157,15 +4095,14 @@
         },
         {
             "tree": "Mage",
-            "name": "Grasp the Arcane",
-            "type": "Trigger",
+            "name": "Grasp the arcane",
+            "type": "Ability",
             "rank": "1",
             "requires": "Study Spells",
             "replaces": null,
             "effect": [
-                "When you Study Spells, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+                "Whe nyou Study Spells, add +2 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Mage",
@@ -4186,7 +4123,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>",
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>",
                 "Increase your Rank in the chosen Effect Skill by +1."
             ]
         },
@@ -4320,7 +4257,7 @@
             "replaces": null,
             "effect": [
                 "Research the magical secrets and recipes that empower your Spells.",
-                "You gain Hits + Savvy in Spell Ranks to invest in your Spells.",
+                "You gain Hits in Spell Ranks to invest in your Spells.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 10 - Savvy Actions (minimum 1 Action)."
             ]
         },
@@ -4354,7 +4291,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>",
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>",
                 "Increase your Skill Rank in the chosen Effect Skill by +1."
             ]
         },
@@ -4377,7 +4314,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>",
+                "When you gain this Talent, select 1 Effect Skills from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Forma, Inferno, Locus, Lux, Mori, Nihil, Nox, Phylla, Plaga, Rime, Squall, Tellus, Tempest, Tempor, Torrent, Vivus</em>",
                 "Increase your Skill Rank in the chosen Effect Skill by +1."
             ]
         },
@@ -4412,8 +4349,7 @@
             "replaces": null,
             "effect": [
                 "Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Marksman",
@@ -4446,8 +4382,7 @@
             "replaces": null,
             "effect": [
                 "You know how punch through your targets' defenses, scoring +1 Bonus Hits to their Grit when you score 1+ Hits with Shoot."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Marksman",
@@ -4457,9 +4392,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you are the target on Ambush, you immediately score +1d4 Bonus Hits to one target as if you used the Shoot Skill."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "When you are the target on Ambush, you immediately deal +1d4 Bonus Hits to one target."
+            ]
         },
         {
             "tree": "Marksman",
@@ -4470,7 +4404,7 @@
             "replaces": null,
             "effect": [
                 "Use your Tactics to fire a ranged weapon in your Current or an Adjacent Zone, protecting your allies by forcing your enemies to seek cover.",
-                "Allies can ignore a number of Hazards in the targeted Zone equal to Hits in the result set."
+                "Allies can ignore a number of Hazards in the targetted Zone equal to Hits in the result set."
             ]
         },
         {
@@ -4481,7 +4415,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Shoot your target, reducing Hits in the result set by -2 but giving your target Fatigued 1 and Wounded 1."
+                "Shoot your target, redicing Hits in the result set by -2 but giving your target Fatigued 1 and Wounded 1."
             ]
         },
         {
@@ -4492,7 +4426,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Select two targets, either of which are in your Current or an Adjacent Zone.  Use Shoot and divide X Hits between the selected targets, where X is equal to Hits in the result set."
+                "Shoot two targets in your Current or an Adjacent Zon, dividing Hits between the two."
             ]
         },
         {
@@ -4537,8 +4471,7 @@
             "replaces": null,
             "effect": [
                 "Shoot your target at Hazard 1.  Add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Marksman",
@@ -4570,7 +4503,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt against the same target."
+                "When you Shoot a target with no 1s in the result set, you may immediately make a second Shoot attempt."
             ]
         },
         {
@@ -4593,8 +4526,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
-                "You assume a Defensive Stance.  You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.",
-                "While you maintain this Stance, reduce all Hits from using your Martial Arts by -1."
+                "You assume a Defensive Stance.  You may maintain this stance until you use a different Shift as long as your Reflexes are above 0.", "While you maintain this Stance, reduce all Hits from using your Martial Arts by -1."
             ]
         },
         {
@@ -4608,8 +4540,7 @@
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Aggressive Stance</span></h4>",
                 "You assume an Aggressive Stance, You may maintain this Stance until you use a different Shift and as long as your Reflexes are above 0.",
                 "While you maintain this Stance, add +1 Bonus Hits when using your Martial Arts."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Martial Artist",
@@ -4784,7 +4715,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Medicine to have one target in your Current Zone recover +X to their Primary Defense, where X is equal to Hits in the result set."
+                "Use your Medicine to have one target in your Current Zone recover X to their Primary Defense, where X is euqal to Hits in the result set."
             ]
         },
         {
@@ -4855,7 +4786,7 @@
             "requires": "Avowed Quest",
             "replaces": null,
             "effect": [
-                "Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically use one Effect Trigger from your Boon."
+                "Spend 2 Conviction.  The next time you Strike, Shoot, or use Martial Arts against a target this turn, automatically us one Effect Trigger from you Boon."
             ]
         },
         {
@@ -4899,7 +4830,7 @@
             "requires": "Avowed Quest",
             "replaces": null,
             "effect": [
-                "Spend 2 Conviction, then use your Boon to score X Hits against one target in your Current Zone, where X is equal to Hits in the result set."
+                "Spend 2 Conviction, then use your Boon to harm your foe scoring Hits against one target in your Current Zone."
             ]
         },
         {
@@ -4910,7 +4841,7 @@
             "requires": "Avowed Quest",
             "replaces": null,
             "effect": [
-                "When you are Dying, you may spend 2 Conviction and increase the Entropy by +4.  You recover from the Dying status, regain +3 Grit, and use the Recover Action without using an Action."
+                "When you are Dying, you may spend 2 Conviction and increase the Entropy by +4.  You recover from the Dying status, regain 3 Grit, and Recover without using an Action."
             ]
         },
         {
@@ -5020,7 +4951,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You can spend Momentum to add +X Bonus Hits to the results set of any Action taken to Deceive or Persuade, where X is equal to the Momentum Spent."
+                "You can spend Momentum to add Hits to the results set of any Action taken to Deceive or Persuade."
             ]
         },
         {
@@ -5111,8 +5042,7 @@
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Altered Form</span></h4>",
                 "Strike one target in your Current Zone, adding +2 Bonus Hits to the result set.  The target gains Vulnerable 1 and all other targets in your Current Zone gain Afraid 1.",
                 "On 5+ Hits, you may immediately take another Action."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Shifter",
@@ -5149,8 +5079,7 @@
             "replaces": null,
             "effect": [
                 "Spend 1 Form Aura to add +1d4 Bonus Hits to your next Action's result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Shifter",
@@ -5264,7 +5193,7 @@
             "effect": [
                 "Persuade to gain Hits + Savvy Henchmen Ranks to recruit Minions with the Henchmen keyword from the Minions table.",
                 "Henchmen are a type of Minion you can command to do your bidding.",
-                "Each type of Henchman has its own Rating which specifies the number of Henchmen Ranks you must invest to recruit them.",
+                "Each type of Henchman has it own Rating which specifies the number of Henchmen Ranks you mus invest to recruit them.",
                 "The different Henchmen have their own statistics that specify their Grit, Melee and Ranged ratings, and any Triggers they have.",
                 "If one of your Henchman's Grit reaches 0, they die.  You may compose a letter of condolences to their next of kin if you see fit to stoop.",
                 "Your Henchmen wait for your instruction.  On each of your turns, your Henchmen may only use a Shift to Move or Defy Danger unless you use a Talent to lead them.",
@@ -5293,8 +5222,7 @@
             "replaces": null,
             "effect": [
                 "When you recruit Minions, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Overseer",
@@ -5405,11 +5333,11 @@
             "effect": [
                 "Use Mori to gain Hits + Mori Haunt Ranks to recruit Haunts from the Haunt Minions table.",
                 "Haunts are a type of undead Minion you can command to do you bidding.",
-                "Each type of Haunt has it own Rating which specifies the number of Haunts Ranks you must invest to recruit them.",
+                "Each type of Haunt has it own Rating which specifies the number of Haunts Ranks you mus invest to recruit them.",
                 "The different Haunts have their own statistics that specify their Grit, Melee and Ranged ratings, and any Triggers they have.",
                 "If one of your Haunt's Grit reaches 0, they are released from your service and rejoin the souls you've yet to disturb.",
                 "Your Haunts wait for your instruction.  On each of your turns, your Haunts may only use a Shift to Move unless you use a Talent to lead them.",
-                "You may use this Ability without spending an Action at the beginning of each Waypoint if you are near the spirits or remains of the dead.  If you use it during a Waypoint while you are near the spirits or remains of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint if you are near the spirits or remain of the dead.  If you use it during a Waypoint while you are near the spirits or remain of the dead, it requires 6 - Mori Rank Actions (minimum 1 Action).",
                 "<em><strong>Advanced Haunts:</strong> Each Haunt also has a Rating that determines how experienced they are.  All Haunt have a rating of 1 when recruited.  You can increase a Haunts's rating by using the Empower Haunts talent.</em>"
             ]
         },
@@ -5434,8 +5362,7 @@
             "replaces": null,
             "effect": [
                 "When you use Mori to Stir the Dead, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Necromancer",
@@ -5633,8 +5560,7 @@
             "replaces": null,
             "effect": [
                 "When you maintain your Composure to Tame Beasts, add +1d4 Bonus Hits to the reuslt set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Beastmaster",
@@ -5655,7 +5581,7 @@
             "requires": "Recruit Henchmen, Stir the Dead, or Tame Beasts",
             "replaces": null,
             "effect": [
-                "Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the result set.  Until your next turn, any Hits you suffer are redirected to Minions in your Current Zone."
+                "Lead X Minions to Shift one Zone closer to your Current Zone, where X is the number of Hits in the resul set.  Until your next turn, any Hits you suffer are redirected to Minions in your Current Zone."
             ]
         },
         {
@@ -5743,7 +5669,7 @@
             "requires": "Divine Doctrine",
             "replaces": null,
             "effect": [
-                "Maintain your Composure to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
+                "Maintain your Composure at Challenge 3 to align yourself with the divine. Gain Hits in <strong><em>Concordance</em></strong>.<br>Your Concordance measures how closely you are aligned with your Divine Doctrine.",
                 "If the result set of one of your Rites contains a 1, reduce your Concordance by 1.<br>If you attempt to use a Rite when you Concordance is below 0, add 1 Hazard die to the roll for each point your Concordance is below 0.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
@@ -5768,7 +5694,7 @@
             "replaces": null,
             "effect": [
                 "You follow set of principles in your belief system or religious practice, referred to as your Divine Doctrine.  Each Divine Doctrine consists of <em>Virtues</em>, <em>Taboos</em>, and <em>Domains</em>.<br>When you act against your Virtues or engage in a Taboo, reduce your Concordance by 1.",
-                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceit, Justice, Loyalty, Honesty . . .</em>",
+                "Select two items from the list below to be your Virtues and two items to be your Taboos:<br><em>Temperance, Indulgence, Avarice, Charity, Humility, Compassion, Wrath, Courage, Deceipt, Justice, Loyalty, Honesty . . .</em>",
                 "Select 2 Effect Skills from the list below to be your Domain:<br><em>Bellor, Inferno, Lux, Mori, Nox, Ordi, Rime, Tempest, Vivus</em>",
                 "Commitment to your Divine Doctrine lets you access <a href='/no1_system/characters/powers#Rites'>Rites</a>."
             ]
@@ -5836,7 +5762,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Analyze to gain X Axioms, where X is equal to Hits in the result set + your Rank in Arithm."
+                "Analyze at Challenge 5 to gain X Axioms, where X is equal to Hits in the result set + your Rank in Arithm."
             ]
         },
         {
@@ -6034,7 +5960,7 @@
             "requires": "Bonded Essence",
             "replaces": null,
             "effect": [
-                "Focus or use your Insight to connect with your power, gaining Hits + Steady in Attunement.",
+                "Focus or use your Insight to connect with your power, gaining Hits in Attunement.",
                 "Attunment measures the strength of connection to your power, which determines the strength of the Marvels you can manifest.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Steady Actions (minimum 1 Action)."
             ]
@@ -6049,7 +5975,7 @@
             "effect": [
                 "When you gain this Talent, select 1 Effect Skill from the list below to be an <em>Affinity</em> allowing you to further empower your Spells with Skill Talents:<br><em>Aether, Bellor, Inferno, Lux, Mori, Nihil, Nox, Ordi, Rime, Squall, Tempest, Torrent, Vivus</em>",
                 "Your Essence is innately bound to this Affinity, allowing you to manifest its effects into reality by using Marvels.",
-                "If the result set of one of your Marvels contains a 1, reduce your Attunement by -X, where X is equal to Hits in the same result set.",
+                "If the result set of one of your Marvels contains a 1, reduce your Atttunement by X, where X is equal to Hits in the same result set.",
                 "If your Attunement equals 0 or less, you gain Stunned 3 and the Entropy increases by +3."
             ]
         },
@@ -6194,8 +6120,7 @@
             "replaces": null,
             "effect": [
                 "Use your Martial arts after you Float Like a Butterfly, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Pugilist",
@@ -6255,8 +6180,7 @@
             "effect": [
                 "When you successfully score Hits on 4+ <em>Combination Punches</em>, use your Martial Arts against your opponent adding +1d4 Bonus Hits to the result set.",
                 "On 4+ Hits, your target becomes Unconscious 1."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Pugilist",
@@ -6288,7 +6212,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+                "When you Recover, recover +2 Defenses."
             ]
         },
         {
@@ -6388,7 +6312,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use a Shift to Move and immediately use an Action to attack a target, you may spend 1 Hit to Shift again this turn."
+                "When you Shift to move and then us an Action to attack a target, you may spend 1 Hit to Shift again this turn."
             ]
         },
         {
@@ -6411,8 +6335,7 @@
             "replaces": null,
             "effect": [
                 "When you roll Survival and score 0 Hits, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Ranger",
@@ -6445,8 +6368,7 @@
             "replaces": null,
             "effect": [
                 "You are accomplished at engaging multiple foes by yourself.  If you engage your enemies without any allies in your Current Zone, add +1d4 Bonus Hits to your result sets."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Ranger",
@@ -6479,8 +6401,7 @@
             "replaces": null,
             "effect": [
                 "Strike your target, dealing +1 Bonus Hits directly to their Grit."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Reaver",
@@ -6491,8 +6412,7 @@
             "replaces": null,
             "effect": [
                 "When you are below your maximum Grit, add +1 Bonus Hits to any results set using Strike."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Reaver",
@@ -6535,9 +6455,8 @@
             "requires": "Whirlwind Strike",
             "replaces": null,
             "effect": [
-                "When you Strike at all hostile Targets in your Current Zone, deal +1 Bonus Hits to X targets, where X is equal to Hits in the result set."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+                "When you Strike at all hostile Targets in your Current Zone.  Deal +1 Bonus Hits to a number of targets equal to Hits in the result set."
+            ]
         },
         {
             "tree": "Reaver",
@@ -6548,8 +6467,7 @@
             "replaces": null,
             "effect": [
                 "When you Strike your target, deal +1 Bonus Hits directly to their Grit."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Reaver",
@@ -6586,14 +6504,14 @@
         },
         {
             "tree": "Scholar",
-            "name": "Academic Discipline",
+            "name": "Academic Dsicipline",
             "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Skills from the list below to gain as your Academic Discipline:<br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
-                "When you gain this talent, increase your Skill Rank in your chosen Academic Discipline by +1."
+                "Choose one of the Skills from the list below to gain as your Academic Dsicipline:<br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
+                "When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -6604,7 +6522,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Analyze your surroundings, gaining insights into potential weaknesses or hidden details.  Create Hits +2 Advantages in your current Zone.  Allies can only use these Advantages if you are able to communicate with them.",
+                "Analyze your surroundings, gaining insights into potential weaknesses or hidden detail.  Create Hits +2 Advantages in your current Zone.  Allies can only use these Advantages if you are able to communicate with them.",
                 "If your score 3+ Hits, you can take an additional Shift this turn."
             ]
         },
@@ -6627,8 +6545,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose a new Skill from the list below to gain as an additional Academic Discipline:<br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
-                "When you gain this talent, increase your Skill Rank in your chosen Academic Discipline by +1."
+                "Choose a new Skill from the list below to gain as your Academic Dsicipline:<br><em>Cosmology, History, Linguistics, Nature, Skrimisiology, Theology</em>",
+                "When you gain this talent, increase your Skill Rank in your chosen Academic Discpline by +1."
             ]
         },
         {
@@ -6772,8 +6690,7 @@
             "replaces": null,
             "effect": [
                 "Use your Insight to determine if someone is trying to con you, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Scoundrel",
@@ -6783,7 +6700,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Implements to throw sand in the eyes of one target in your Current Zone.  On 2+ Hits, your target gain Blind 1."
+                "Use your Implements to throw sand in your target's eyes.  In 2+ Hits, your target gain Blind."
             ]
         },
         {
@@ -6806,8 +6723,7 @@
             "replaces": null,
             "effect": [
                 "When you Deceive opponents in your Current Zone and score Hits equal to or greater than the number of opponents, you may immediately Strike, Shoot, or use your Marital Arts against, adding +1d4 Bonus Hits to the result."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Scoundrel",
@@ -6818,8 +6734,7 @@
             "replaces": null,
             "effect": [
                 "Deceive your target, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Scoundrel",
@@ -6973,8 +6888,7 @@
             "replaces": null,
             "effect": [
                 "When you Strike a target while engaged in a Contest, add +2 Bonus Hits to the results set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Seer",
@@ -7015,7 +6929,7 @@
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
                 "Spend 2 Momentum and use Locus to send a message to one target.",
                 "On 1+ Hits, you send a message of 25 words or less to your target.",
-                "On 2+ Hits, the target may reply in 10 words or less.",
+                "On 2+ Hits, the target may reply in 10 wirds of less.",
                 "On 3+ Hits, you may immediately use a different <em>Portent</em>."
             ]
         },
@@ -7089,7 +7003,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
-                "Roll 2d4 as X, then choose one:<ul><li>Spend 4 Momentum to allow one ally in your Current or an Adjacent Zone to add +X Bonus Hits to their next result set.</li><li>Increase the Entropy by +2 to reduce Hits in the next result set of one target in your Current or an Adjacent Zone by -X.</li></ul>"
+                "Roll 2d4 to gain X, then choose one:<ul><li>Spend 4 Momentum to allow one ally in your Current or Adjacent Zone to add +X Bonus Hits to their next result set.</li><li>Increase the Entropy by +2 to reduce Hits in the next result set of one target Current or Adjacent Zone by -X.</li></ul>"
             ]
         },
         {
@@ -7136,7 +7050,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Portent</span></h4>",
-                "When you use 4+ <em>Portents</em> this turn, you receive a cryptic vision.  The BAMF will describe the vision you receive, which may be unrelated to one of your current Targets."
+                "When you use 4+ <em>Portents</em> this turn, your receive a cryptic vision.  The BAMF will describe the vision you receive, which may be unrelated to one of your current Targets."
             ]
         },
         {
@@ -7207,8 +7121,7 @@
             "replaces": null,
             "effect": [
                 "When you enter a Trance, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Shaman",
@@ -7383,7 +7296,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Exert against one target in your Current Zone you just used a Shift to Move into.  On 3+ Hits, move the target to an Adjacent Zone and the target becomes Prone.",
+                "Exert against one target in your Current Zone your just used a Shift to Move into.  On 3+ Hits, move the target to an Adjacent Zone and the target becomes Prone.",
                 "On 5+ Hits, move up to 3 targets to an Adjacent Zone and the targets become Prone."
             ]
         },
@@ -7521,8 +7434,7 @@
             "replaces": null,
             "effect": [
                 "When you Entreat Spirits, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Shugenja",
@@ -7721,8 +7633,7 @@
             "replaces": null,
             "effect": [
                 "When you make an Initiative Test, you may forgo your roll to allow up to 3 allies in your Current or an Adjacent Zone to add +1 Bonus Hits to their result set."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Skald",
@@ -7732,7 +7643,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft to Create X + 2 Advantages in your Current Zone, where X is equal to Hits in the result set."
+                "Craft to grant X target in your Current Zone 1 Advantage, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -7823,8 +7734,7 @@
             "replaces": null,
             "effect": [
                 "When you are in a Defensive Stance and a target Shifts to Move in your Current or and Adjacent Zone, immediately score +1d4 Bonus Hits against that target."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Sniper",
@@ -7878,7 +7788,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use a Shift to Move into an Adjacent Zone and immediately use an Action attack your target, add +2 Bonus Hits to the result set."
+                "When you Shift to Move into an Adjacent Zone and use an Action attack your target, add +2 Hits to the result set."
             ]
         },
         {
@@ -7890,8 +7800,7 @@
             "replaces": null,
             "effect": [
                 "When you use Endure or Exert to tackle a physical task, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Soldier",
@@ -7902,8 +7811,7 @@
             "replaces": null,
             "effect": [
                 "Use a Shift to aim carefully.  Add +1d4 Bonus Hits to your next Shoot result set this turn."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Soldier",
@@ -7958,7 +7866,7 @@
             "replaces": null,
             "effect": [
                 "Use your Tactics to fire a ranged weapon in your Current or an Adjacent Zone, protecting your allies by forcing your enemies to seek cover.",
-                "Allies can ignore a number of Hazards in the targeted Zone equal to Hits in the result set."
+                "Allies can ignore a number of Hazards in the targetted Zone equal to Hits in the result set."
             ]
         },
         {
@@ -8069,7 +7977,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Locus to alter the physical matter in your Current or an Adjacent Zone by X, where X is equal to Hits in the result set.  Choose one (1):<ul><li>Create X Hazards in your Current and/or Adjacent Zones.</li><li>Remove X Hazards in your Current and/or Adjacent Zones.</li></ul>",
+                "Use Locus to alter the physical matter in your Current or an Adjacent Zone by X, where X is euqla ot Hits in the result set.  Choose one (1):<ul><li>Create X Hazards in your Current and/or Adjacent Zones.</li><li>Remove X Hazards in your Current and/or Adjacent Zones.</li></ul>",
                 "You gain Fatigued 1."
             ]
         },
@@ -8234,7 +8142,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+                "When you Recover, regain +2 Defenses."
             ]
         },
         {
@@ -8245,7 +8153,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, regain +2 Grit."
+                "When you Recover, regain +2 Grit."
             ]
         },
         {
@@ -8356,8 +8264,7 @@
             "replaces": null,
             "effect": [
                 "You leave little or no trace when you are being chased or hunted, adding +1d4 Bonus Hits to your Stealth result sets."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Thief",
@@ -8368,8 +8275,7 @@
             "replaces": null,
             "effect": [
                 "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Thief",
@@ -8390,9 +8296,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You can expertly disable dangerous devices, adding +1d4 Bonus Hits when using Implements."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "You can expertly dangerous disable devices, adding +1d4 Bonus Hits when using Implements."
+            ]
         },
         {
             "tree": "Thief",
@@ -8403,8 +8308,7 @@
             "replaces": null,
             "effect": [
                 "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Thief",
@@ -8449,8 +8353,7 @@
             "replaces": null,
             "effect": [
                 "When you score Hits against a target while Hidden, add +1d6 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d6 Bonus Hits"
+            ]
         },
         {
             "tree": "Shinobi",
@@ -8461,8 +8364,7 @@
             "replaces": null,
             "effect": [
                 "Use your Implements to throw a smoke bomb in your Current Zone, making a number of targets equal to Hits Blind.  Then, immediately Defy Danger using Stealth, gaining +2 Bonus Hits to the Hidden rating."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Shinobi",
@@ -8494,7 +8396,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Deceive all opponents in your Current Zone making X target gain Confused 1, where X is equal to Hits in the result set."
+                "Deceive all opponents in your Current Zone, making a number of them equal to Hits Confused."
             ]
         },
         {
@@ -8506,8 +8408,7 @@
             "replaces": null,
             "effect": [
                 "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Shinobi",
@@ -8573,18 +8474,17 @@
             "replaces": null,
             "effect": [
                 "Deceive your opponents to create false information or cover your tracks more effectively, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Shinobi",
-            "name": "Hensojutsu",
+            "name": "Hensōjutsu",
             "type": "Ability",
             "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Deceive to gain Disguised X + 2, where X is equal to Hits in the result set."
+                "Deceive to gain Disguised X, where X is equal to Hits in the result set + 2."
             ]
         },
         {
@@ -8596,8 +8496,7 @@
             "replaces": null,
             "effect": [
                 "When you Defy Danger to Hide! while in a Zone with a crowd, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Spy",
@@ -8607,7 +8506,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Deceive to gain Disguised X + 2, where X is equal to Hits in the result set."
+                "!!!!"
             ]
         },
         {
@@ -8618,7 +8517,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Strike an opponent while Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the target suffers 0 Hits to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
+                "Strike an opponent whil Hidden, attempting to subdue them quietly.  If you score 4+ Hits, the tareget suffers no damage to their Defenses or Grit, but gains Unconscious X, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -8685,8 +8584,7 @@
             "replaces": null,
             "effect": [
                 "When you attempt to escape being Restrained, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Spy",
@@ -8708,8 +8606,7 @@
             "replaces": null,
             "effect": [
                 "Use your Insight to detect lies and hidden motives, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Spy",
@@ -8737,7 +8634,7 @@
             "tree": "Scout",
             "name": "Trailblazer",
             "type": "Static",
-            "rank": "3",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -8764,8 +8661,7 @@
             "replaces": null,
             "effect": [
                 "When you use Stealth to move through hostile or unfamiliar territory, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Scout",
@@ -8798,8 +8694,7 @@
             "replaces": null,
             "effect": [
                 "Use your skills of Survival to track an enemy, adding +1d4 Bonus Hits and ignoring 1s in the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Scout",
@@ -8810,8 +8705,7 @@
             "replaces": null,
             "effect": [
                 "When you make an Initiative Test in an Ambush, add +2d4 Bonus Hits to the result set.<br>If your team's total Initiative is 8+ greater than your enemy's, the Initiative does not shift to the enemy during the first round of the encounter (1s still increase Entropy)."
-            ],
-            "bonus_hits": "+2d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Scout",
@@ -8821,9 +8715,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Perceive your enemy to Create an Advantage, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "When Perceive your enemy to Create an Advantage, add +1d4 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Scout",
@@ -8878,8 +8771,7 @@
             "replaces": null,
             "effect": [
                 "When you are the target of an Ambush and make an Initiative Test, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Scout",
@@ -8890,8 +8782,7 @@
             "replaces": null,
             "effect": [
                 "Use your Survival skill to Create an Advantage while scouting ahead of your allies, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Operator",
@@ -8979,8 +8870,7 @@
             "replaces": null,
             "effect": [
                 "Operate a mount, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Operator",
@@ -8991,8 +8881,7 @@
             "replaces": null,
             "effect": [
                 "Operate a watercraft, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Operator",
@@ -9003,8 +8892,7 @@
             "replaces": null,
             "effect": [
                 "Operate a land vehicle, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Operator",
@@ -9138,7 +9026,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one of the Effect Skills below to be an Affinity.<br><em>Aether, Bellor, Destroy, Inferno, Intuit, Mori, Nihil, Ordi, Rime, Vivus</em>"
+                "Choose one of the Effect Skills below to be an Affinity.<br><em></em>"
             ]
         },
         {
@@ -9315,10 +9203,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you have never visited.",
-                "On 1 Hit, you and up to X targets in your Current Zone arrive at a random location in the targeted world.  You gain Stunned 4.",
-                "On 3 Hits, you and X targets arrive at a safe location in the targeted world.  You gain Restrained 2.",
-                "On 5+ Hits, you and X targets arrive at a safe location in the targeted world, and you create X Advantages in your Current Zone in the target world, where X is equal to Hits in the result set."
+                "Spend X Gateway Aura and roll Locus to move to a different target location in the Cosm that you have never visited.", "On 1 Hit, you and up to X targets in your Current Zone arrive at a random location in the targeted world.  You gain Stunned 4.", "On 3 Hits, you and X targets arrive at a safe location in the targeted world.  You gain Restrained 2.", "On 5+ Hits, you and X targets arrive at a safe location in the targeted world.  You create X Advantages in your Current Zone in the targetd world, where X is euqal to Hits in the result set."
             ]
         },
         {
@@ -9340,9 +9225,8 @@
             "requires": "Map the Cosm",
             "replaces": null,
             "effect": [
-                "When you Map the Cosm, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "When you Map the Cosm, add +1d4 Bonus Hits to the resuilt set."
+            ]
         },
         {
             "tree": "Traveler",
@@ -9352,9 +9236,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Step Through, you may roll Locus to leave a gateway open for others to use until the beginning of your next turn.",
-                "On 1+ Hits, the gateway is open.",
-                "On 2+ Hits, the gateway is open to your allies."
+                "When you Step Through, you may roll Locus to leave a gateway open for others to use until the beginning of your next turn.", "On 1+ Hits, the gateway is open.",  "On 2+ Hits, the gateway is open to your allies."
             ]
         },
         {
@@ -9455,7 +9337,7 @@
             "effect": [
                 "You ignore Hazards when you use a Shift to Move."
             ]
-        },
+        },        
         {
             "tree": "Troubadour",
             "name": "Practiced Trouper",
@@ -9587,9 +9469,8 @@
             "requires": "Practiced Trouper",
             "replaces": null,
             "effect": [
-                "You have honed your craft in reciting Sagas.  You add +1 Bonus Hits to the result set when you Craft an Epic with the Saga keyword."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+                "You have honed your craft in reciting Sagas.  You add +1 Bonus Hits to the result set when you Craft and Epic with the Saga keyword."
+            ]
         },
         {
             "tree": "Rhapsodist",
@@ -9932,7 +9813,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Craft to gain Hits + Savvy in Concoction Ranks to prepare Concoctions.",
+                "Craft at Challenge 3 to gain Hits + Savvy in Concoction Ranks to prepare Concocions.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it requires 8 - Craft Actions (minimum 1 Action)."
             ]
         },
@@ -9945,8 +9826,7 @@
             "replaces": null,
             "effect": [
                 "When you Focus to Maintain Focus on your Ongoing effects, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Witch",
@@ -9956,7 +9836,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Persuade the spirits of the world to send you a Beast Minion.  On 1+ Hits, you may recruit a Beast of cost 1 or less from the Beast Minions table.",
+                "Persuade the spirits of the world at Challenge 3 to send you a Beast Minion.  On 1+ Hits, you may recruit a Beast of cost 1 or less from the Beast Minions table.",
                 "You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Steady Actions (minimum 1 Action)."
             ]
         },
@@ -10013,8 +9893,7 @@
             "replaces": null,
             "effect": [
                 "When you Craft to prepare Concoctions, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Witch",
@@ -10189,9 +10068,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you have a target Grappled and use an Action to Recover, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+                "When you have an target Grappled and use an Action to Recover, add +1d4 Bonus Hits to the result set."
+            ]
         },
         {
             "tree": "Zealot",
@@ -10237,8 +10115,7 @@
             "replaces": null,
             "effect": [
                 "Spend 2 Current and roll one of your Affinities as X, where X is equal to hits in the result set.  Up to X target add +2 Bonus Hits to the result set of their next Action."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Zenith",
@@ -10248,8 +10125,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use this turn.  You may choose different targets for the copy.",
-                "You gain Fatigued 2."
+                "Spend 1 Current and increase the Entropy by +1 to copy the effects of the next Technique you use this turn.  You may choose different targets for the copy.", "You gain Fatigued 2."
             ]
         },
         {
@@ -10304,7 +10180,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use the Recover Action, you may spend 2 Momentum to gain X Current, where X is equal to Hits in the result set."
+                "When you Recover, you may spend 2 Momentum to gain X Current, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -10502,7 +10378,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert Swordsman, granting you access to <em>Sworldplay</em> talents when using a gear with the <em>Sword</em> keyword."
+                "You are an expert Swordsman, granting you access to <em>Sworldplay</em> talents when using a gear with the <em>Sword</em> Keyword."
             ]
         },
         {
@@ -10513,7 +10389,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert with Axes, granting you access to <em>Hewer</em> talents when using a gear with the <em>Axe</em> keyword."
+                "You are an expert with Axes, granting you access to <em>Hewer</em> talents when using a gear with the <em>Axe</em> Keyword.."
             ]
         },
         {
@@ -10524,7 +10400,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert Maces, granting you access to <em>Crusher</em> talents when using a gear with the <em>Mace</em> keyword."
+                "You are an expert Maces, granting you access to <em>Crusher</em> talents when using a gear with the <em>Mace</em> Keyword."
             ]
         },
         {
@@ -10535,7 +10411,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert with Polearms, granting you access to <em>Poledance</em> talents when using Gear with the <em>Polearm</em> keyword."
+                "You are an expert with Polearms, granting you access to <em>Poledance</em> talents when using Gear with the <em>Polearm</em> Keyword."
             ]
         },
         {
@@ -10594,8 +10470,7 @@
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
                 "Deceive one target in your Current Zone.  One 2+ Hits, you may immediately Strike the target adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Weapon Master",
@@ -10850,8 +10725,7 @@
             "replaces": null,
             "effect": [
                 "Use Insight, Perceive, or Survival to track down or observe a target you have Targeted for Execution, adding +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Slayer",
@@ -10862,8 +10736,7 @@
             "replaces": null,
             "effect": [
                 "When you score Hits against a target that is Vulnerable, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Slayer",
@@ -10874,8 +10747,7 @@
             "replaces": null,
             "effect": [
                 "Use Martial Arts, Strike, or Shoot a target you have Targeted for Execution.  On 2+ Hits, add +1d4 Bonus Hits to the result set and you gain Vulnerable 1."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Slayer",
@@ -10908,8 +10780,7 @@
             "replaces": null,
             "effect": [
                 "When you are the Target of an Ambush, you add +1d4 Bonus Hits to your Intitive Test."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Slayer",
@@ -11130,8 +11001,7 @@
             "replaces": null,
             "effect": [
                 "You have honed your craft in reciting Ballads.  You add +1 Bonus Hits to the result set when you Craft and Epic with the Ballad keyword."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Balladeer",
@@ -11482,9 +11352,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Tempor and target your Current or an Adjacent Zone to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the targeted Zone is frozen in time.  All targets within the targeted Zone gain Silenced X, Restrained X, and can take no Actions.",
-                "Any targets that Shift to Move into and any items or effects that enter the Zone immediately suffer these effects.",
-                "When this Aura ends, you gain Slowed 2 and Fatigued 1."
+                "Use Tempor and target your Current or an Adjacent Zone to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the targeted Zone is frozen in time.  All targets within the targeted Zone gain Silenced X, Restrained X, and can take no Actions.", "Any targets that Shift to Move into and any items or effects that enter the Zone immediately suffer these effects.", "When this Aura ends, your gain Slowed 2 and Fatigued 1."
             ]
         },
         {
@@ -11495,8 +11363,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Tempor to have one target in your Current or an Adjacent Zone gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the target gains the following effects:<ul><li>Your Primary Defense is Reflexes.  You gain +10 to your Reflexes Defense.</li><li>You gain 1 additional Shift on each of your turns.</li><li>You gain 1 additional Action on each of your turns.</li><li>When this Aura ends, you gain Slowed 2 and Fatigued 3.</li></li></ul>",
-                "When this Aura ends, the current Timer decreases by -2."
+                "Use Tempor to have one target in your Current or an Adjacent Zone gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the target gains the following effects:<ul><li>Your Primary Defense is Reflexes.  You gain +10 to your Rexlexes Defense.</li><li>You gain 1 additional Shift on each of your turns.</li><li>You gain 1 additional Action on each of your turns.</li><li>When this Aura ends, you gain Slowed 2 and Fatigued 3.</li></li></ul>", "When this Aura ends, the current Timer decreases by -2."
             ]
         },
         {
@@ -11518,8 +11385,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Tempor to create an Auxiliary Timer X, where X is equal to Hits in the result set.  While the Auxiliary Timer persists, the current Timer stops and only you act on each of the Auxiliary turns.",
-                "When the Auxiliary Timer ends, you gain Dazed 1, Fatigued 2, Silenced 2, and Slowed 2."
+                "Use Tempor to create an Auxiliary Timer X, where X is equal to Hits in the result set.  While the Auxiliary Timer persists, the current Timer stops and only you act on each of the Auxiliary turns.", "When the Auxiliary Timer ends, you gain Dazed 1, Fatigued 2, Silenced 2, and Slowed 2."
             ]
         },
         {
@@ -11530,8 +11396,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Tempor to end the current Waypoint.  On 2+ Hits, the current Waypoint ends.  Any Targets and situations active in the current Waypoint advance accordingly.",
-                "The next Waypoint begins immediately."
+                "Use Tempor to end the current Waypoint.  On 2+ Hits, the current Waypoint ends.  Any Targets and situations active in the current Waypoint advance accordingly.", "The next Waypoint begins immediately."
             ]
         },
         {
@@ -11633,7 +11498,7 @@
             "effect": [
                 "You can contact experts in a given field to find valuable information for you.  Spend 3 Wealth to have the BAMF use Cosmology, Current Events, History, Linguistucs, Nature, Research, Navigate, Skrimisiology, Streetwise, or Theology at Rank 4 about a specific situation or target.",
                 "On 2+ Hits, you Gain +2 Secrets and reduce your Wealth by the total 1s in the BAMF's result set.  The BAMF will provide your Secrets at a time that makes sense in the game fiction.",
-                "On 4+ Hits, you Gain +X Secrets and reduce your Wealth by the total 1s in the BAMF's result set, where X is equal to Hits in the result set.  The BAMF will provide your Secrets at a time that makes sense in the game fiction."
+                "On 4+ Hits, you Gain +X Secrets reduce your Wealth by the total 1s in the BAMF's result set, where X is equal to Hits in the result set.  The BAMF will provide your Secrets at a time that makes sense in the game fiction."
             ]
         },
         {
@@ -11659,8 +11524,7 @@
             "replaces": null,
             "effect": [
                 "Persuade or Deceive a target in your Current Zone to negotiate prices, terms, or aggrements, adding +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Broker",
@@ -11704,7 +11568,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Persuade or Deceive a target and score 3+ Hits, the target gains Charmed 1."
+                "When you Persaude or Deceive a target and score 3+ Hits, the target gain Charmed 1."
             ]
         },
         {
@@ -11748,7 +11612,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert at conducting financial transactions, brokering deals, or acquiring goods without revealing your identity.  Targets who attempt to trace your business transactions back to you gain Fatigued 2."
+                "You are an expoert at conducting financial transactions, brokering deals, or acquiring goods without revealing your identity.  Targets who attempt to trace your business trasactions back to you gain Fatigued 2."
             ]
         },
         {
@@ -11773,6 +11637,7 @@
                 "Increase your Insight Rank to 2 (d8)."
             ]
         },
+        
         {
             "tree": "Broker",
             "name": "Insight (3)",
@@ -11859,8 +11724,7 @@
             "replaces": null,
             "effect": [
                 "When you recruit Minions, add +1d4 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
+            ]
         },
         {
             "tree": "Overlord",
@@ -11870,7 +11734,7 @@
             "requires": "Coordinated Volley",
             "replaces": null,
             "effect": [
-                "Select any number of your Minions.  Lead the selected Minions to launch a coordinated ranged attack targeted against a single Zone Adjacent to the selected Minion.  Divide X Hits among any number of targets in the targeted Zone, where X is the sum of the selected Minions' Ranged rating + Hits in the result set."
+                "Select any number of your Minions.  Lead the selected to launch a coordinated ranged attack targeted against a single Zone Adjacent to the selected Minion.  Divide X Hits among any number of targets in the targteted Zone, where X is the sum of the selected Minons' Ranged rating + Hits in the result set."
             ]
         },
         {
@@ -11881,7 +11745,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When one or more of your Minions suffer Hits from an attack outside of their Current Zone, you may Lead them to gain X Armor Defense, where X is equal to Hits in the result set."
+                "When one or more of your Minions suffer Hits from an attack outside of their Current Zone, you may Lead them to gian X Armor Defense, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -11903,7 +11767,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When your Minions kill a target, you may have one Minion score Hits equal to its Melee or Ranged rating to a different target."
+                "When your Minions kill a target, you may have one Minion score Hits euqal to its Melee or Ranged rating to a different target."
             ]
         },
         {
@@ -12037,8 +11901,7 @@
             "replaces": null,
             "effect": [
                 "When you Deceive to conceal your true intentions or cover your tracks, add +2 Bonus Hits to the result set."
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Envoy",
@@ -12060,8 +11923,7 @@
             "replaces": null,
             "effect": [
                 "Spend 1 Canny Aura to add +1 Bonus Hits to your next Action using Deceive, Insight, or Persaude."
-            ],
-            "bonus_hits": "+1 Bonus Hits"
+            ]
         },
         {
             "tree": "Envoy",
@@ -12230,13 +12092,13 @@
         },
         {
             "tree": "Shadow",
-            "name": "Shadow's Binding",
+            "name": "Shadows' Binding",
             "type": "Ability",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Increase the Entropy by +1 and use Nox against one target in your Current Zone while you are Hidden.  You gain Shadow Aura X, where X is equal to Hits in the result set +1.  While this aura persists, your shadow is bound to your target -- any Shift the target uses to Move you immediately take ignoring Hazards and the target gains Silenced 1 at the start of your turn."
+                "Increase the Entropy by +1 and use Nox against one target in your Current Zone while you are Hidden.  You gain Shadow Aura X, where X is euqal to Hits in the result set +1.  While this aura persists, your shadow is bound to your target -- any Shift the target uses to Move you immediately take ignoring Hazards and the target gains Silenced 1 at the start of your turn."
             ]
         },
         {
@@ -12315,8 +12177,7 @@
             "replaces": null,
             "effect": [
                 "When you Defy Danger using Stealth, choose one (1):<ul><li>Add +2 Bonus Hits to the result set.</li><li>Increase the Entropy by +1 and gain an additional Action this turn.</li></ul>"
-            ],
-            "bonus_hits": "+2 Bonus Hits"
+            ]
         },
         {
             "tree": "Shadow",
@@ -12944,8 +12805,7 @@
             "effect": [
                 "Increase your Navigate Rank to 1 (d6)."
             ]
-        },
-        {
+        },        {
             "tree": "Soldier",
             "name": "Operate (1)",
             "type": "Static",
@@ -13043,8 +12903,7 @@
             "effect": [
                 "Increase your Research Rank to 1 (d6)."
             ]
-        },
-        {
+        },        {
             "tree": "Skrimister",
             "name": "Skrimisiology (1)",
             "type": "Static",
@@ -13142,8 +13001,7 @@
             "effect": [
                 "Increase your Survival Rank to 1 (d6)."
             ]
-        },
-        {
+        },        {
             "tree": "Tactician",
             "name": "Tactics (1)",
             "type": "Static",

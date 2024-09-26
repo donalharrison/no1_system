@@ -14,19 +14,19 @@ Training is the cornerstone of characters' capabilities & advancement.  Players 
 Characters must meet all prerequisites before spending a Milestone on Training ranks.
 
 ## Talents
-Talents acrquired through Training make up the core of character advancement & customization.  There are four distinct types of Talents -- **Abilities, Shifts, Static, & Triggers**.
+Talents acquired through Training make up the core of character advancement & customization.  There are four distinct types of Talents -- **Abilities, Shifts, Static, & Triggers**.
 
 ### Abilities
 Ability Talents require an Action to use.  Abilities include a Skill name in their description, which indicates the Skill you roll when using the Ability.
 
 ### Shifts
-Shift Talents require a Shift to use.  Some Shift talens contains a Skill name in their description, in which case you you roll this Skill.
+Shift Talents require a Shift to use.  Some Shift Talents contains a Skill name in their description, in which case you you roll this Skill.
 
 ### Static
 Static Talents are always in effect.
 
 ### Triggers
-Triggers take effect when certain conditions are met when in the game fiction.  If Trigger's condition is met, the effects happens immediately following the resolution of the the triggering effect.
+Triggers take effect when certain conditions are met when in the game fiction.  If a Trigger's condition is met, the effects happens immediately following the resolution of the the triggering effect.  It is possible for the conditions of multiple Triggers to be met at once in the game ficiton.  When more than one Trigger would take effect, the player or players controlling the Triggers decide the order in which the Triggers are applied.
 
 ## Training Paths
 Trainings are classified as Basics, Specializations, or Disciplines.  These categories reflect the advanced experience required to study, master, & leverage the Training's talents.

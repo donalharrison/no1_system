@@ -1,8 +1,8 @@
 ---
 layout: training
-title: Controller
+title: Confessor
 parent: Training
 grand_parent: Characters
-permalink: /characters/training/controller/
+permalink: /characters/training/confessor/
 nav_exclude: true
 ---
