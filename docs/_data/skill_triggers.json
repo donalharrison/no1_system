@@ -456,7 +456,7 @@
               "effect": "When you use Insight or Persuade and score 2+ Hits, you may spend 1 Momentum and add +1d4 Bonus Hits to the result set."
             },
             {
-              "name": "Sharpened",
+              "name": "Honed",
               "skill": "Intuit",
               "type": "Trigger",
               "rank": 3,

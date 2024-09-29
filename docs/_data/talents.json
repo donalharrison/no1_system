@@ -74,63 +74,7 @@
                 "Increase one of your Domain Ranks to 3 (d10)."
             ]
         },
-        {
-            "tree": "Aberrant",
-            "name": "Aberration",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "You have an innate ability that deviates from the normal.",
-                "When you gain this Talent, choose one of the following Effect Skills to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>",
-                "You gain +1 Skill Rank in your chosen Aberration and gain access to its associated Skill Triggers."
-            ]
-        },
-        {
-            "tree": "Aberrant",
-            "name": "Aberration (2)",
-            "type": "Static",
-            "rank": "2",
-            "requires": "Aberration",
-            "replaces": null,
-            "effect": [
-                "Increase your Aberration Rank to 2 (d8)."
-            ]
-        },
-        {
-            "tree": "Aberrant",
-            "name": "Break the Mold",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": "Aberration",
-            "replaces": null,
-            "effect": [
-                "When you score 3+ Hits with your Aberration's Effect Triggers, increase the Momentum by +2."
-            ]
-        },
-        {
-            "tree": "Aberrant",
-            "name": "Aberration (3)",
-            "type": "Static",
-            "rank": "3",
-            "requires": "Aberration",
-            "replaces": null,
-            "effect": [
-                "Increase your Aberration Rank to 3 (d10)."
-            ]
-        },
-        {
-            "tree": "Aberrant",
-            "name": "Living Anomaly",
-            "type": "Trigger",
-            "rank": "3",
-            "requires": "Aberration",
-            "replaces": null,
-            "effect": [
-                "When you score 5+ Hits with your Aberration's Effect Triggers, you may immediately take another Action."
-            ]
-        },
+        
         {
             "tree": "Mystic",
             "name": "Seek Mysteries",
@@ -11531,6 +11475,167 @@
         },
         {
             "tree": "Aberrant",
+            "name": "Aberration",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You have an innate ability that deviates from the normal.",
+                "When you gain this Talent, choose one of the following Effect Skills to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>",
+                "You gain +1 Skill Rank in your chosen Aberration and gain access to its associated Skill Triggers."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Divergent",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one Trait from Dangerous, Deft, Savvy, or Steady.",
+                "Action Skills for the chosen Trait gain your Aberration's Keyword."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Aberration (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Aberration Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Break the Mold",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you score 3+ Hits with your Aberration's Skill Triggers, increase the Momentum by +2."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Aberration (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Aberration Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Aberrant",
+            "name": "Living Anomaly",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you score 5+ Hits with your Aberration's Skill Triggers, you may immediately take another Action."
+            ]
+        },
+        
+        {
+            "tree": "Prodigy",
+            "name": "Aberration",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You have an innate ability that deviates from the normal.",
+                "When you gain this Talent, choose one of the following Effect Skills to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>",
+                "You gain +1 Skill Rank in your chosen Aberration and gain access to its associated Skill Triggers."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Outlier",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Choose one Trait from Dangerous, Deft, Savvy, or Steady that does not currently have your Aberration's Keyword.",
+                "Action Skills for the chosen Trait gain your Aberration's Keyword."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Aberration (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Aberration Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Throw Off the Curve",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you score 2+ Hits with your Aberration's Skill Triggers, you may increase the Entropy by +3 to immediately take another Action."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Aberration (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Aberration Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Aberration (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "Increase your Aberration Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Mulligan",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you use an Action Skill with your Aberration's Keyword and score 2 or fewer Hits before applying your Aberration's Skill Triggers, you may increase the Entropy by +3 and reoroll the Action Skill, keeping the second result set."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Change the Game",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Aberration",
+            "replaces": null,
+            "effect": [
+                "When you use an Action Skill with your Aberration's Keyword and score 8+ Hits including your Aberration's Skill Triggers, you may increase the Entropy by +4 and immediately use the same Action Skill again.  You may choose new targets for the second result set."
+            ]
+        },
+        {
+            "tree": "Aberrant",
             "name": "Uncanny Trait Increase",
             "type": "Static",
             "rank": "2",
@@ -11542,6 +11647,28 @@
         },
         {
             "tree": "Aberrant",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Prodigy",
+            "name": "Uncanny Trait Increase",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Uncanny Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Prodigy",
             "name": "Uncanny Trait Increase",
             "type": "Static",
             "rank": "3",
