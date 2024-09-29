@@ -608,6 +608,361 @@
             ]
         },
         {
+            "tree": "Defender",
+            "name": "Focused Defense",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Stance</span></h4>",
+                "Focus to defend yourself in combat, assuming a defensive Stance and adding +X to your Primary Defense, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "You Have My Shield",
+            "type": "Shift",
+            "rank": "1",
+            "requires": "",
+            "replaces": null,
+            "effect": [
+                "Designate one target in your Current Zone as your Protectee and use Composure, Endure, or Focus to gain Protection Aura X, where X is equal to Hits in the result set.  While this Aura persists, if one of your Protectees suffer Hits while in your Current Zone, you may redirect a number of Hits from your protectee to yourself by decreasing your Protection Aura by any amount.  Reduce the total Hits your Protectee suffers and you suffer Hits equal to amount by which you reduce your Aura.  "
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Close Distance",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "",
+            "replaces": null,
+            "effect": [
+                "Shift to Move to an Adjacent Zone containing on of your Protectees.  Increase your Protection Aura by +2."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "The Best Defense",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "",
+            "replaces": null,
+            "effect": [
+                "When you are in a defensive Stance and the Entropy is greater than the Momentum, once per turn you may spend 3 Momentum and immediately take an action using a Dangerous Skill."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Stay Close to Me",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "",
+            "replaces": null,
+            "effect": [
+                "When you Shift to Move to an Adjacent Zone away from one of your Protectees, you may spend 1 Momentum to allow them to immediately Shift to Move to the Adjacent Zone with you."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Focus (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Focus 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Endure (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Harm's Way",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Stay Close to Me",
+            "replaces": null,
+            "effect": [
+                "When you redirect Hits from one of your Protectees to yourself, reduce the total number of Hits you suffer by -1."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Not On My Watch",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Stay Close to Me",
+            "replaces": null,
+            "effect": [
+                "When one of your Protectees is attacked my a target in your Current Zone, you may us Endure to rebuff the target. If Hits in your Endure result set are greater than the Hits from the target's attack, the target becomes Prone."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Shake it off",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Armor Training",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an additional +2 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Endure (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Endure 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Get Behind Me",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you gain a Protection Aura, you may designate an additional target in your Current Zone as a Protectees."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Unending Defense",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you reduce your Protection Aura and suffer 3+ hits, increase your Protection Aura +1."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Indomitable Will",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Maintain your Composure while engaged in a Contest, causing your opponent to hesitate.",
+                "Add +1 to the Contest Timer and reduce the Momentum by -Hits."
+            ]
+        },
+        {
+            "tree": "Defender",
+            "name": "Vigorous",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Vigor by +3."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Consummate Defender",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "While you have a Protection Aura, your Protectees cannot gain Vulnerable or Wounded."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Unshakable Defense",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Focused Defense",
+            "replaces": null,
+            "effect": [
+                "When you assume a defensive Stance, add +1d4 Bonus Hits to your Primary Defense."
+            ],
+            "bonus_hits": "+1d4 Bonus Hits"
+        },
+        {
+            "tree": "Guardian",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Focus 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Armor Expert",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an additional +4 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Critical Defense",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Composure, Endure, or Focus while one or more of your Protectees are in your Current Zone.  On 2+ Hits, increase your Protection Aura by +1d4 Bonus Hits."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Line of Fire",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Stay Close to Me",
+            "replaces": null,
+            "effect": [
+                "When you redirect Hits from one of your Protectees to yourself, increase the Momentum by +1."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Get Out of Here",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you negate all Hits scored against one of your Protectees, that target may immediately use a Shift to Move ignoring Hazards."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Redirect Attack",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you redirect Hits from one of your Protectees to yourself and the attacking target is in your Current Zone, you score X Hits against the attacking target, where X is 3 or the total Hits you redirected, whichever is lower."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Shake It Off",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use the Recover Action, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "You Sure About That?",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you are in a defensive Stance and one of your Protectees in your Current Zone is attacked, you may spend 3 Momentum to add 1dH to the attacker's roll."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Armor Expert",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You gain an additional +4 rating from any Armor you equip."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Endure (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Endure 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Focus (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Focus 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "I Can Take It",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you take more than 1 Hit from an effect, reduce the total Hits by -1."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Make An Opening",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When a target you can see in your Current Zone scores 1 or fewer Hits against one of you Protectees, your team gains the Initiative."
+            ]
+        },
+        {
+            "tree": "Guardian",
+            "name": "Endure (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Endure 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Endure Rank to 4 (d12)."
+            ]
+        },
+        {
             "tree": "Tactician",
             "name": "Inspire Allies",
             "type": "Ability",
@@ -2179,229 +2534,6 @@
             "replaces": null,
             "effect": [
                 "You are a master at communicating subtly and discreetly, exchanging critical information without arousing suspicion.  Deceive to communicate with an ally in your Current Zone when you are being observed by unwanted ears.  On 3+ Hits, you can speak freely without being overheard."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Focused Defense",
-            "type": "Ability",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
-                "Focus to defend yourself in combat, assuming a Defensive Stance and adding +X to your Primary Defense, where X is equal to Hits in the result set."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Stay Close to Me",
-            "type": "Shift",
-            "rank": "1",
-            "requires": "",
-            "replaces": null,
-            "effect": [
-                "Use a Shift to protect 1 ally in your Current Zone."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Focus (2)",
-            "type": "Static",
-            "rank": "1",
-            "requires": "Focus 1",
-            "replaces": null,
-            "effect": [
-                "Increase your Focus Rank to 2 (d8)."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Harm's Way",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": "Stay Close to Me",
-            "replaces": null,
-            "effect": [
-                "When you are protecting an ally in your Current Zone and they suffer Hits from an attack you can see, you may redirect a number of Hits against that ally to yourself equal to the Defender Rank."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Shake it off",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Armor Training",
-            "type": "Static",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "You gain an additional +2 rating from any Armor you equip."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Endure (2)",
-            "type": "Static",
-            "rank": "2",
-            "requires": "Endure 1",
-            "replaces": null,
-            "effect": [
-                "Increase your Endure Rank to 2 (d8)."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Armor Expert",
-            "type": "Static",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "You gain an addition +4 rating from any Armor you equip."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Unshakable Defense",
-            "type": "Trigger",
-            "rank": "1",
-            "requires": "Focused Defense",
-            "replaces": null,
-            "effect": [
-                "When you Focus to defend yourself in combat, add +1d4 Bonus Hits to your Primary Defense."
-            ],
-            "bonus_hits": "+1d4 Bonus Hits"
-        },
-        {
-            "tree": "Guardian",
-            "name": "Focus (3)",
-            "type": "Static",
-            "rank": "1",
-            "requires": "Focus 2",
-            "replaces": null,
-            "effect": [
-                "Increase your Focus Rank to 3 (d10)."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Focus (4)",
-            "type": "Static",
-            "rank": "3",
-            "requires": "Focus 3",
-            "replaces": null,
-            "effect": [
-                "Increase your Focus Rank to 4 (d12)."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Line of Fire",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": "Stay Close to Me",
-            "replaces": null,
-            "effect": [
-                "When you protect an ally in your Current Zone and they are Hit by an attack you can see, you may redirect a number of Hits against that ally to yourself equal to your Guardian Rank."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "I can take it",
-            "type": "Trigger",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "When you take more than 1 Hit from an effect, reduce the total Hits by -1."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Shake it off",
-            "type": "Trigger",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "When you use the Recover Action, add +2 Bonus Hits to the result set."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Armor Expert",
-            "type": "Static",
-            "rank": "2",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "You gain an additional +4 rating from any Armor you equip."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Endure (3)",
-            "type": "Static",
-            "rank": "2",
-            "requires": "Endure 2",
-            "replaces": null,
-            "effect": [
-                "Increase your Endure Rank to 3 (d10)."
-            ]
-        },
-        {
-            "tree": "Guardian",
-            "name": "Endure (4)",
-            "type": "Static",
-            "rank": "3",
-            "requires": "Endure 3",
-            "replaces": null,
-            "effect": [
-                "Increase your Endure Rank to 4 (d12)."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Get Behind Me",
-            "type": "Trigger",
-            "rank": "3",
-            "requires": "Stay Close to Me",
-            "replaces": null,
-            "effect": [
-                "When you use a Shift to protect 1 ally in your Current Zone, your protect 2 allies instead."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Indomitable Will",
-            "type": "Ability",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Maintain your Composure engaged in a Contest, causing your opponent to hesitate.",
-                "Add +2 to the current Timer and reduce the Momentum by -Hits."
-            ]
-        },
-        {
-            "tree": "Defender",
-            "name": "Vigorous",
-            "type": "Static",
-            "rank": "3",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Vigor by +3."
             ]
         },
         {
@@ -12573,17 +12705,6 @@
         },
         {
             "tree": "Tank",
-            "name": "Endure (1)",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Endure Rank to 1 (d6)."
-            ]
-        },
-        {
-            "tree": "Defender",
             "name": "Endure (1)",
             "type": "Static",
             "rank": "1",
