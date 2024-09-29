@@ -11494,7 +11494,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one Trait from Dangerous, Deft, Savvy, or Steady that does not have your Aberration's Keyword..",
+                "Choose one Trait from Dangerous, Deft, Savvy, or Steady that does not have your Aberration's Keywords.",
                 "Action Skills for the chosen Trait gain your Aberration's Keyword."
             ]
         },
