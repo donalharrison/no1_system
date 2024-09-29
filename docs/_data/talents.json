@@ -11494,7 +11494,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Choose one Trait from Dangerous, Deft, Savvy, or Steady.",
+                "Choose one Trait from Dangerous, Deft, Savvy, or Steady that does not have your Aberration's Keyword..",
                 "Action Skills for the chosen Trait gain your Aberration's Keyword."
             ]
         },
@@ -11542,29 +11542,15 @@
                 "When you score 5+ Hits with your Aberration's Skill Triggers, you may immediately take another Action."
             ]
         },
-        
-        {
-            "tree": "Prodigy",
-            "name": "Aberration",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "You have an innate ability that deviates from the normal.",
-                "When you gain this Talent, choose one of the following Effect Skills to be your Aberration:<br><em>Destroy, Intuit, Luck, Resist</em>",
-                "You gain +1 Skill Rank in your chosen Aberration and gain access to its associated Skill Triggers."
-            ]
-        },
         {
             "tree": "Prodigy",
             "name": "Outlier",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Aberration",
             "replaces": null,
             "effect": [
-                "Choose one Trait from Dangerous, Deft, Savvy, or Steady that does not currently have your Aberration's Keyword.",
+                "Choose one Trait from Dangerous, Deft, Savvy, or Steady that does not have your Aberration's Keyword.",
                 "Action Skills for the chosen Trait gain your Aberration's Keyword."
             ]
         },
