@@ -3707,7 +3707,9 @@
                     "threshold": [
                         {
                             "hits": 0,
-                            "effect": "You gain Fatigued 1",
+                            "effect": "You gain Fatigued 1."
+                        },
+                        {
                             "hits": 1,
                             "effect": "One ally in your Current or an Adjacent Zone gains +1d4 Bonus Hits to one Action on their next turn."
                         }
@@ -3806,7 +3808,9 @@
                     "threshold": [
                         {
                             "hits": 0,
-                            "effect": "Increase the Entropy by +3",
+                            "effect": "Increase the Entropy by +3"
+                        },
+                        {
                             "hits": 2,
                             "effect": "Increase the Entropy by +1."
                         }
@@ -3957,7 +3961,9 @@
                     "threshold": [
                         {
                             "hits": 0,
-                            "effect": "No effect",
+                            "effect": "No effect"
+                        },
+                        {
                             "hits": 3,
                             "effect": "Until the beginning of your next turn, you and your allies regain +1 Grit for every Action you take that Scores 1+ Hits."
                         }

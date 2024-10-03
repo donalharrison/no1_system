@@ -3572,6 +3572,28 @@
             ]
         },
         {
+            "tree": "Scout",
+            "name": "Perceive (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Perceive 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Perceive Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Seer",
+            "name": "Perceive (2)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Perceive 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Perceive Rank to 2 (d8)."
+            ]
+        },
+        {
             "tree": "Hunter",
             "name": "Shoot (2)",
             "type": "Static",
