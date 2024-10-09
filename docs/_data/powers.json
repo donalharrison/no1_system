@@ -1081,15 +1081,15 @@
                     "effects": [
                         {
                             "ranks": 1,
-                            "effect": "One target in yoru Current Zone gains Blind 1 and Provoked 1."
+                            "effect": "One target in your Current Zone gains Blind 1 and Provoked 1."
                         },
                         {
                             "ranks": 2,
-                            "effect": "One target in yoru Current Zone gains Blind 1 and Provoked X, where X is equal to Hits in the result set."
+                            "effect": "One target in your Current Zone gains Blind 1 and Provoked X, where X is equal to Hits in the result set."
                         },
                         {
                             "ranks": 4,
-                            "effect": "One target in yoru Current Zone gains Blind 2 and Provoked X, where X is equal to Hits in the result set."
+                            "effect": "One target in your Current Zone gains Blind 2 and Provoked X, where X is equal to Hits in the result set."
                         }
                     ]
                 },
@@ -4244,6 +4244,7 @@
             "name": "Gift of Rejuvenation",
             "rank": 1,
             "type": "Trigger",
+            "skill": null,
             "effect": "When you us the Recover Action, you may spend 1 Succor to regain +X to Grit, where X is equal to Hits in the result set.",
             "threshold": null,
             "requires": "",
@@ -4253,6 +4254,7 @@
             "name": "A Talent for Trouble",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Inferno",
             "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Inferno Affinity",
@@ -4262,6 +4264,7 @@
             "name": "A Talent for Trouble",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Destroy",
             "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Destroy Affinity",
@@ -4271,6 +4274,7 @@
             "name": "A Talent for Trouble",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Bellor",
             "effect": "When you use a Dangerous Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Bellor Affinity",
@@ -4280,6 +4284,7 @@
             "name": "A Flair for the Dramatic",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Rime",
             "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Rime Affinity",
@@ -4289,6 +4294,7 @@
             "name": "A Flair for the Dramatic",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Intuit",
             "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Intuit Affinity",
@@ -4298,6 +4304,7 @@
             "name": "Unnaturally Persistent",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Ordi",
             "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Ordi Affinity",
@@ -4307,6 +4314,7 @@
             "name": "Unnaturally Persistent",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Vivus",
             "effect": "When you use a Steady Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Vivus Affinity",
@@ -4316,6 +4324,7 @@
             "name": "Implausible Cunning",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Mori",
             "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Mori Affinity",
@@ -4325,6 +4334,7 @@
             "name": "Implausible Cunning",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Nihil",
             "effect": "When you use a Deft Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Nihil Affinity",
@@ -4334,6 +4344,7 @@
             "name": "A Flair for the Dramatic",
             "rank": 1,
             "type": "Trigger",
+            "skill": "Aether",
             "effect": "When you use a Savvy Skill and the result set contains a 1, you may spend 1 Succor to reroll the 1.",
             "threshold": null,
             "requires": "Aether Affinity",
@@ -4343,6 +4354,7 @@
             "name": "Weirding Dart",
             "rank": 1,
             "type": "Ability",
+            "skill": null,
             "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": [
                 {
@@ -4361,6 +4373,7 @@
             "name": "Weirding Cut",
             "rank": 1,
             "type": "Ability",
+            "skill": null,
             "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.",
             "threshold": [
                 {
@@ -4379,6 +4392,7 @@
             "name": "Boon of Fire",
             "rank": 1,
             "type": "Static",
+            "skill": "Inferno",
             "effect": "Your Gifts with the Weirding keyword gain the Inferno keyword.",
             "threshold": null,
             "requires": "Inferno Affinity",
@@ -4388,6 +4402,7 @@
             "name": "Boon of Destruction",
             "rank": 1,
             "type": "Static",
+            "skill": "Destroy",
             "effect": "Your Gifts with the Weirding keyword gain the Destroy keyword.",
             "threshold": null,
             "requires": "Destroy Affinity",
@@ -4397,6 +4412,7 @@
             "name": "Boon of Violence",
             "rank": 1,
             "type": "Static",
+            "skill": "Bellor",
             "effect": "Your Gifts with the Weirding keyword gain the Bellor keyword.",
             "threshold": null,
             "requires": "Bellor Affinity",
@@ -4406,6 +4422,7 @@
             "name": "Boon of Cold",
             "rank": 1,
             "type": "Static",
+            "skill": "Rime",
             "effect": "Your Gifts with the Weirding keyword gain the Rime keyword.",
             "threshold": null,
             "requires": "Rime Affinity",
@@ -4415,6 +4432,7 @@
             "name": "Boon of Intuition",
             "rank": 1,
             "type": "Static",
+            "skill": "Intuit",
             "effect": "Your Gifts with the Weirding keyword gain the Intuit keyword.",
             "threshold": null,
             "requires": "Intuit Affinity",
@@ -4424,6 +4442,7 @@
             "name": "Boon of Order",
             "rank": 1,
             "type": "Static",
+            "skill": "Ordi",
             "effect": "Your Gifts with the Weirding keyword gain the Ordi keyword.",
             "threshold": null,
             "requires": "Ordi Affinity",
@@ -4433,6 +4452,7 @@
             "name": "Boon of Vivus",
             "rank": 1,
             "type": "Static",
+            "skill": "Vivus",
             "effect": "Your Gifts with the Weirding keyword gain the Vivus keyword.",
             "threshold": null,
             "requires": "Vivus Affinity",
@@ -4442,6 +4462,7 @@
             "name": "Boon of Death",
             "rank": 1,
             "type": "Static",
+            "skill": "Mori",
             "effect": "Your Gifts with the Weirding keyword gain the Mori keyword.",
             "threshold": null,
             "requires": "Mori Affinity",
@@ -4451,6 +4472,7 @@
             "name": "Boon of Nothingness",
             "rank": 1,
             "type": "Static",
+            "skill": "Nihil",
             "effect": "Your Gifts with the Weirding keyword gain the Nihil keyword.",
             "threshold": null,
             "requires": "Nihil Affinity",
@@ -4460,6 +4482,7 @@
             "name": "Boon of Aether",
             "rank": 1,
             "type": "Static",
+            "skill": "Aether",
             "effect": "Your Gifts with the Weirding keyword gain the Aether keyword.",
             "threshold": null,
             "requires": "Aether Affinity",
@@ -4469,6 +4492,7 @@
             "name": "Mantle of Fire",
             "rank": 2,
             "type": "Static",
+            "skill": "Inferno",
             "effect": "Reduce any Hits you suffer from fire or Inferno effects by -2.",
             "threshold": null,
             "requires": "Inferno Affinity",
@@ -4478,6 +4502,7 @@
             "name": "Mantle of Pain",
             "rank": 2,
             "type": "Static",
+            "skill": "Destroy",
             "effect": "",
             "threshold": null,
             "requires": "Destroy Affinity",
@@ -4487,6 +4512,7 @@
             "name": "Mantle of Chaos",
             "rank": 2,
             "type": "Static",
+            "skill": "Bellor",
             "effect": "",
             "threshold": null,
             "requires": "Bellor Affinity",
@@ -4496,6 +4522,7 @@
             "name": "Mantle of Frost",
             "rank": 2,
             "type": "Static",
+            "skill": "Rime",
             "effect": "Reduce any Hits you suffer from cold, ice, or Rime effects by -2",
             "threshold": null,
             "requires": "Rime Affinity",
@@ -4505,6 +4532,7 @@
             "name": "Harbor of Wisdom",
             "rank": 2,
             "type": "Static",
+            "skill": "Intuit",
             "effect": "",
             "threshold": null,
             "requires": "Intuit Affinity",
@@ -4514,6 +4542,7 @@
             "name": "Bastion of Order",
             "rank": 2,
             "type": "Static",
+            "skill": "Ordi",
             "effect": "If the Entropy increases by 2+, reduce the total Entropy increase by -1.",
             "threshold": null,
             "requires": "Ordi Affinity",
@@ -4523,6 +4552,7 @@
             "name": "Friend of Life",
             "rank": 2,
             "type": "Static",
+            "skill": "Vivus",
             "effect": "Any ally that uses an Action to Recover while in your Current Zone recover +1 Defense and regains +1 to their Grit.",
             "threshold": null,
             "requires": "Vivus Affinity",
@@ -4532,7 +4562,8 @@
             "name": "Friend of Death",
             "rank": 2,
             "type": "Static",
-            "effect": "If your Dying rating increases by 2+, reduce the total Dying increase by -1.",
+            "skill": "Mori",
+            "effect": "If your Dying rating increases by 2+, reduce your Dying rating by -1.",
             "threshold": null,
             "requires": "Mori Affinity",
             "keywords": ""
@@ -4541,6 +4572,7 @@
             "name": "Harbinger of Nothing",
             "rank": 2,
             "type": "Static",
+            "skill": "Nihil",
             "effect": "",
             "threshold": null,
             "requires": "Nihil Affinity",
@@ -4550,6 +4582,7 @@
             "name": "Dweller of Stars",
             "rank": 2,
             "type": "Static",
+            "skill": "Aether",
             "effect": "",
             "threshold": null,
             "requires": "Aether Affinity",
@@ -4559,6 +4592,7 @@
             "name": "Mark of the Weird",
             "rank": 2,
             "type": "Ability",
+            "skill": null,
             "effect": "",
             "threshold": [
                 {
@@ -4573,19 +4607,21 @@
             "name": "Weirding Strike",
             "rank": 2,
             "type": "Ability",
+            "skill": null,
             "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits.",
             "threshold": null,
             "requires": "",
-            "keywords": ""
+            "keywords": "Weirding"
         },
         {
             "name": "Weirding Blast",
             "rank": 2,
             "type": "Ability",
+            "skill": null,
             "effect": "",
             "threshold": [
                 {
-                    "hits": "",
+                    "hits": "1",
                     "effect": "One target in your Current or an Adjacent Zone takes X Hits, where X is equal to Hits in the result set."
                 },
                 {
@@ -4600,6 +4636,7 @@
             "name": "Tongue of Flames",
             "rank": 2,
             "type": "Ability",
+            "skill": "Inferno",
             "effect": "Persuade or Intimidate one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Inferno Affinity",
@@ -4609,6 +4646,7 @@
             "name": "Might of Ruination",
             "rank": 2,
             "type": "Ability",
+            "skill": "Destroy",
             "effect": "Exert yourself, Intimidate, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Destroy Affinity",
@@ -4618,6 +4656,7 @@
             "name": "Show of Violence",
             "rank": 2,
             "type": "Ability",
+            "skill": "Bellor",
             "effect": "Exert yourself or Strike one target in your Current Zone, or use your Tactics, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Bellor Affinity",
@@ -4627,6 +4666,7 @@
             "name": "Treachery of Ice",
             "rank": 2,
             "type": "Ability",
+            "skill": "Rime",
             "effect": "Deceive one target in your Current Zone or Endure, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Rime Affinity",
@@ -4636,6 +4676,7 @@
             "name": "Erudition of Infinity",
             "rank": 2,
             "type": "Ability",
+            "skill": "Intuit",
             "effect": "Analyze, use your Insight, Navigate, or Perceive, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Intuit Affinity",
@@ -4645,6 +4686,7 @@
             "name": "Air of Regency",
             "rank": 2,
             "type": "Ability",
+            "skill": "Ordi",
             "effect": "Lead your allies or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Ordi Affinity",
@@ -4654,6 +4696,7 @@
             "name": "Bounty of Aegis",
             "rank": 2,
             "type": "Ability",
+            "skill": "Vivus",
             "effect": "Maintain your Compsure, Endure, or Focus, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Vivus Affinity",
@@ -4663,6 +4706,7 @@
             "name": "Tribute of Death",
             "rank": 2,
             "type": "Ability",
+            "skill": "Mori",
             "effect": "Intimidate, Shoot, or Strike one target in your Current Zone, adding +1d4 Bonus Hits to the results set.",
             "threshold": null,
             "requires": "Mori Affinity",
@@ -4672,6 +4716,7 @@
             "name": "Grant of Nullity",
             "rank": 2,
             "type": "Ability",
+            "skill": "Nihil",
             "effect": "Use Stealth or Deceive one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Nihil Affinity",
@@ -4681,6 +4726,7 @@
             "name": "Grip of Brilliance",
             "rank": 2,
             "type": "Ability",
+            "skill": "Aether",
             "effect": "Use Cosmology, Deceive or Persuade one target in your Current Zone, adding +1d4 Bonus Hits to the result set.",
             "threshold": null,
             "requires": "Aether Affinity",
@@ -4690,6 +4736,7 @@
             "name": "Whispers of Oga",
             "rank": 3,
             "type": "Static",
+            "skill": "Inferno",
             "effect": "Your uses of the Intimidate and Persuade Skills gain the Inferno keyword.",
             "threshold": null,
             "requires": "Inferno Affinity",
@@ -4699,6 +4746,7 @@
             "name": "Tidings of the Endless Ruin",
             "rank": 3,
             "type": "Static",
+            "skill": "Destroy",
             "effect": "Your uses of the Intimidate and Strike Skills gain the Destroy keyword.",
             "threshold": null,
             "requires": "Destroy Affinity",
@@ -4708,7 +4756,8 @@
             "name": "Marks of the Coming War",
             "rank": 3,
             "type": "Static",
-            "effect": "You uses of the Strike and Tactics Skills gain the Bellor keyword.",
+            "skill": "Bellor",
+            "effect": "Your uses of the Strike and Tactics Skills gain the Bellor keyword.",
             "threshold": null,
             "requires": "Bellor Affinity",
             "keywords": ""
@@ -4717,6 +4766,7 @@
             "name": "Breath of the Forgotten Cold",
             "rank": 3,
             "type": "Static",
+            "skill": "Rime",
             "effect": "Your uses of the Deceive and Endure Skills gain the Rime keyword.",
             "threshold": null,
             "requires": "Rime Affinity",
@@ -4726,6 +4776,7 @@
             "name": "Lessons of the Cosm",
             "rank": 3,
             "type": "Static",
+            "skill": "Intuit",
             "effect": "Your uses of the Analyze, Insight, Navigate, and Perceive Skills gain the Intuit keyword.",
             "threshold": null,
             "requires": "Intuit Affinity",
@@ -4735,7 +4786,8 @@
             "name": "Standard of the Shattered Peace",
             "rank": 3,
             "type": "Static",
-            "effect": "You uses of the Lead and Persaude Skills gain the Ordi keyword.",
+            "skill": "Ordi",
+            "effect": "Your uses of the Lead and Persaude Skills gain the Ordi keyword.",
             "threshold": null,
             "requires": "Ordi Affinity",
             "keywords": ""
@@ -4744,7 +4796,8 @@
             "name": "Glimpse of the Eternal Cycle",
             "rank": 3,
             "type": "Static",
-            "effect": "You uses of the Composure, Endure, and Focus Skill gain the Vivus keyword.",
+            "skill": "Vivus",
+            "effect": "Your uses of the Composure, Endure, and Focus Skill gain the Vivus keyword.",
             "threshold": null,
             "requires": "Vivus Affinity",
             "keywords": ""
@@ -4753,7 +4806,8 @@
             "name": "Perils of the Bleeding Tome",
             "rank": 3,
             "type": "Static",
-            "effect": "You uses of the Intimidate, Shoot, and Strike skill gain the Mori keyword.",
+            "skill": "Mori",
+            "effect": "Your uses of the Intimidate, Shoot, and Strike skill gain the Mori keyword.",
             "threshold": null,
             "requires": "Mori Affinity",
             "keywords": ""
@@ -4762,6 +4816,7 @@
             "name": "Shroud of the Ina",
             "rank": 3,
             "type": "Static",
+            "skill": "Nihil",
             "effect": "Your uses of the Deceive and Stealth Skills gain the Nihil keyword.",
             "threshold": null,
             "requires": "Nihil Affinity",
@@ -4771,6 +4826,7 @@
             "name": "Howls of the Dreamer's Well",
             "rank": 3,
             "type": "Static",
+            "skill": "Aether",
             "effect": "Your uses of the Cosmology, Deceive, and Persuade Skills gain the Aether keyword.",
             "threshold": null,
             "requires": "Aether Affinity",
@@ -4780,6 +4836,7 @@
             "name": "Weirding Blast",
             "rank": 3,
             "type": "Ability",
+            "skill": null,
             "effect": "",
             "threshold": [
                 {
@@ -4798,15 +4855,17 @@
             "name": "Weirding Slash",
             "rank": 3,
             "type": "Ability",
+            "skill": null,
             "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits and gains Vulnerable 1 to Power Effects.",
             "threshold": null,
             "requires": "",
-            "keywords": ""
+            "keywords": "Weirding"
         },
         {
             "name": "Gift of Fire",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Inferno",
             "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Fatigued 1.",
             "threshold": null,
             "requires": "Inferno Affinity",
@@ -4816,6 +4875,7 @@
             "name": "Gift of Destruction",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Destroy",
             "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Vulnerable 1.",
             "threshold": null,
             "requires": "Destroy Affinity",
@@ -4825,6 +4885,7 @@
             "name": "Gift of Havoc",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Bellor",
             "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 have the target gain Vulnerable 1.",
             "threshold": null,
             "requires": "Bellor Affinity",
@@ -4834,6 +4895,7 @@
             "name": "Gift of Frost",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Rime",
             "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Frozen 1.",
             "threshold": null,
             "requires": "Rime Affinity",
@@ -4843,6 +4905,7 @@
             "name": "Gift of Wisdom",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Intuit",
             "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 2 Momentum and read the target's surface thoughts.",
             "threshold": null,
             "requires": "Intuit Affinity",
@@ -4852,6 +4915,7 @@
             "name": "Gift of Order",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Ordi",
             "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword,increase the Momentum by +2.",
             "threshold": null,
             "requires": "Ordi Affinity",
@@ -4861,6 +4925,7 @@
             "name": "Gift of Life",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Vivus",
             "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and regain +1d4 to Grit.",
             "threshold": null,
             "requires": "Vivus Affinity",
@@ -4870,6 +4935,7 @@
             "name": "Gift of Death",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Mori",
             "effect": "When one target takes 3+ Hits from one of your Gifts with the Weirding keyword, you may spend 1 Momentum and have the target gain Wounded 1.",
             "threshold": null,
             "requires": "Mori Affinity",
@@ -4879,6 +4945,7 @@
             "name": "Gift of the Void",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Nihil",
             "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may increase the Entropy by +2 and the target gains Blind 2.",
             "threshold": null,
             "requires": "Nihil Affinity",
@@ -4888,6 +4955,7 @@
             "name": "Git of the Stars",
             "rank": 3,
             "type": "Trigger",
+            "skill": "Aether",
             "effect": "When one target takes 4+ Hits from one of your Gifts with the Weirding keyword, you may have the target gain Charmed 1 or Dazed 2.",
             "threshold": null,
             "requires": "Aether Affinity",
@@ -4897,6 +4965,7 @@
             "name": "Weirding Cascade",
             "rank": 4,
             "type": "Ability",
+            "skill": null,
             "effect": "",
             "threshold": [
                 {
@@ -4915,6 +4984,7 @@
             "name": "Weirding Cleave",
             "rank": 3,
             "type": "Ability",
+            "skill": null,
             "effect": "One target in your Current Zone takes X Hits, where X is equal to Hits in the result set. If the target is has an Aura with the Weirding keyword, it takes +1d4 Bonus Hits. If the target dies, you may immedately use this Abiltiy against another target in your Current Zone.",
             "threshold": null,
             "requires": "",
@@ -4924,6 +4994,7 @@
             "name": "Break the Flames",
             "rank": 3,
             "type": "Shift",
+            "skill": "Inferno",
             "effect": "",
             "threshold": [
                 {
@@ -4938,6 +5009,7 @@
             "name": "Vanquish the Foe",
             "rank": 3,
             "type": "Shift",
+            "skill": "Destroy",
             "effect": "",
             "threshold": [
                 {
@@ -4952,6 +5024,7 @@
             "name": "Lead the Chaos",
             "rank": 3,
             "type": "Shift",
+            "skill": "Bellor",
             "effect": "",
             "threshold": [
                 {
@@ -4966,6 +5039,7 @@
             "name": "Call the Ice",
             "rank": 3,
             "type": "Shift",
+            "skill": "Rime",
             "effect": "",
             "threshold": [
                 {
@@ -4980,6 +5054,7 @@
             "name": "Speak the Truths",
             "rank": 3,
             "type": "Shift",
+            "skill": "Intuit",
             "effect": "",
             "threshold": [
                 {
@@ -4994,6 +5069,7 @@
             "name": "Control the Chaos",
             "rank": 3,
             "type": "Shift",
+            "skill": "Ordi",
             "effect": "",
             "threshold": [
                 {
@@ -5008,6 +5084,7 @@
             "name": "Purge the Life",
             "rank": 3,
             "type": "Shift",
+            "skill": "Vivus",
             "effect": "",
             "threshold": [
                 {
@@ -5022,6 +5099,7 @@
             "name": "Bring the Death",
             "rank": 3,
             "type": "Shift",
+            "skill": "Mori",
             "effect": "",
             "threshold": [
                 {
@@ -5036,6 +5114,7 @@
             "name": "Release the Infinite",
             "rank": 3,
             "type": "Shift",
+            "skill": "Nihil",
             "effect": "",
             "threshold": [
                 {
@@ -5050,6 +5129,7 @@
             "name": "Shatter the Stars",
             "rank": 3,
             "type": "Shift",
+            "skill": "Aether",
             "effect": "",
             "threshold": [
                 {
@@ -5064,6 +5144,7 @@
             "name": "Extend the Mark",
             "rank": 4,
             "type": "Static",
+            "skill": null,
             "effect": "Your Weirding Mark applies to up to 2 targets.",
             "threshold": null,
             "requires": "",
@@ -5073,6 +5154,7 @@
             "name": "Gifted Allocation",
             "rank": 4,
             "type": "Trigger",
+            "skill": null,
             "effect": "When you use your Weirding Strikes, you may divide the Hits among up to 3 targets in your Current Zone.",
             "threshold": null,
             "requires": "",
@@ -5688,11 +5770,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Aether Veil",
             "rank": "1",
             "skill": "Aether",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you gain the following effects:<ul><li>On each of your turns you may have one target in your Current Zone gain Confused 1.</li><li>Add +1d4 Bonus Hits to any Action you take against a target that is Confused.</li><li>When you use the Recover Action, you may reduce one Status rating by -1.</li><ul>",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -5701,7 +5783,7 @@
             "rank": "2",
             "skill": "Aether",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -5858,11 +5940,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Veil of War",
             "rank": "1",
             "skill": "Bellor",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, whenever you use an Action to attack, you may increase the Entropy by +1 and increase your Attunement by +1.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -5871,7 +5953,7 @@
             "rank": "2",
             "skill": "Bellor",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6023,11 +6105,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Inferno Veil",
             "rank": "1",
             "skill": "Inferno",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, whenever you suffer Hits from a melee attack, the attacking target suffers X Hits, where X is equal to your Essence Aura's rating.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -6036,7 +6118,7 @@
             "rank": "2",
             "skill": "Inferno",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6188,11 +6270,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Luminous Veil",
             "rank": "1",
             "skill": "Lux",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you cannot become Hidden and whenever you suffer 3+ Hits from a melee attack, the attacking target gains Blind 1.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -6201,7 +6283,7 @@
             "rank": "2",
             "skill": "Lux",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6353,11 +6435,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Deathly Veil",
             "rank": "1",
             "skill": "Mori",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, whenever you suffer 3+ Hits from an attack, the attacking Target gains Vulnerable 1.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -6366,7 +6448,7 @@
             "rank": "2",
             "skill": "Mori",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6518,11 +6600,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Void Veil",
             "rank": "1",
             "skill": "Nihil",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you gain the following effects:<ul><li>You may spend 2 Momentum to reroll a 1 in one of your result sets.</li><li>You may increase the Entropy by +2 to add +1d4 Bonus Hits to a result set.</li><li>You may spend 2 Momentum to reduce a Status rating of one target in your Current Zone by -1.</li><li>You may increase the Entropy by +5 to have one target in your Current Zone gain Blind 1.</li></ul>",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -6531,7 +6613,7 @@
             "rank": "2",
             "skill": "Nihil",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6683,11 +6765,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Veil of Darkness",
             "rank": "1",
             "skill": "Nox",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you gain the following effects:<ul><li>Your Current Zone gains the Darkened keyword.</li><li>You gain the Nightsight keyword.</li><li>On each of your turns, you may increase your Hiddden rating by +5.</li></ul>",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -6696,7 +6778,7 @@
             "rank": "2",
             "skill": "Nox",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -6848,11 +6930,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Veil of Order",
             "rank": "1",
             "skill": "Ordi",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, Actions you take that contain 1s in their result set do not shift the Initiative to the enemy team.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -6861,7 +6943,7 @@
             "rank": "2",
             "skill": "Ordi",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7013,11 +7095,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Nature's Veil",
             "rank": "1",
             "skill": "Phylla",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists you gain the following effects:<ul><li>You cannot gain Fatigued.</li><li>Poison Concoctions have no effect on you.</li><li>On each of your turns one target in your Current Zone can reduce a Status rating by -1.</li><li>Whenever you suffer 4+ Hits from a melee attack, the attacking target gains Restrained 1.</li><ul>",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -7026,7 +7108,7 @@
             "rank": "2",
             "skill": "Phylla",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7178,11 +7260,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Veil of Frost",
             "rank": "1",
             "skill": "Rime",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, on each of your turns you may have one target in your Current Zone gain Frozen 1 and all attacks made against you gain Hazard 1.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -7191,7 +7273,7 @@
             "rank": "2",
             "skill": "Rime",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7343,11 +7425,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Wind Veil",
             "rank": "1",
             "skill": "Squall",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you gain the Flying keyword and you ignore up to 2 Hazards when you use any Shift to Move.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -7356,7 +7438,7 @@
             "rank": "2",
             "skill": "Squall",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7508,11 +7590,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Tellus Veil",
             "rank": "1",
             "skill": "Tellus",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you gian the following effects:<ul><li>You cannot become Prone.</li><li>You cannot be Moved against your will.</li><li>Whenever you score 3+ Hits with a melee attack, you may move the target to an Adjacent Zone.</li></ul>",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -7521,7 +7603,7 @@
             "rank": "2",
             "skill": "Tellus",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7673,11 +7755,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Tempest Veil",
             "rank": "1",
             "skill": "Tempest",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you impose +1 Hazards against hostile targets that move past or away from your Current Zone and whenever you suffer 4+ Hits from a melee Attack, the attacking target gains Stunned 1.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -7686,7 +7768,7 @@
             "rank": "2",
             "skill": "Tempest",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -7838,11 +7920,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Torrent Veil",
             "rank": "1",
             "skill": "Torrent",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you gain the Aquatic keyword and whenever you suffer 4+ Hits from a melee attack, the attacking target gains Fatigued 1.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -7851,7 +7933,7 @@
             "rank": "2",
             "skill": "Torrent",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -8003,11 +8085,11 @@
             "keywords": ""
         },
         {
-            "name": "Essence Veil",
+            "name": "Veil of Vitae",
             "rank": "1",
             "skill": "Vivus",
             "type": "Shift",
-            "effect": "You gain Aura X.",
+            "effect": "You gain Essence Aura X.  While this Aura persists, you cannot die regardless of your Dying Rating and one each of your turns you may designate one target in your Current Zone to regain +1d4 Grit.",
             "threshold": null,
             "keywords": "Aura"
         },
@@ -8016,7 +8098,7 @@
             "rank": "2",
             "skill": "Vivus",
             "type": "Shift",
-            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..",
+            "effect": "Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.",
             "threshold": null,
             "keywords": ""
         },
@@ -8205,7 +8287,7 @@
             "rank": "2",
             "skill": "Aether",
             "type": "Static",
-            "effect": "Your Essence Ray gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set..</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Aether.",
+            "effect": "Your Essence Ray gains the following options: <ul><li>Up to X targets in an Adjacent Zone take 2 Hits, where X is equal to Hits in the result set.</li></ul> You can use one of these options on each of your turn Ongoin by using a Shift.  For any option that contains an X value, you roll Aether.",
             "threshold": null,
             "keywords": ""
         },
@@ -8472,27 +8554,27 @@
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Aether",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Aether keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Bellor",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Bellor keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Inferno",
             "type": "Static",
             "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
@@ -8502,120 +8584,120 @@
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Lux",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Lux keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Mori",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Mori keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Nihil",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Nihil keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Nox",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Nox keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Ordi",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Ordi keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Phylla",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Phylla keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Rime",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Rime keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Squall",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Squall keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Tellus",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Tellus keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Tempest",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Tempest keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Torrent",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Torrent keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
         },
         {
             "name": "Essence Infusion",
-            "rank": "1",
+            "rank": "3",
             "skill": "Vivus",
             "type": "Static",
-            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Inferno keyword.",
+            "effect": "Actions using Grapple, Martial Arts, Shoot, Strike, and Throw gain the Vivus keyword.",
             "threshold": "",
             "hits": "1",
             "keywords": ""
@@ -14348,7 +14430,7 @@
                 },
                 {
                     "hits": 3,
-                    "effect": "Divide X Hits among up to 3 targets in yoru Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,"
+                    "effect": "Divide X Hits among up to 3 targets in your Current Zone, where X is equal to Hits in the result set.  The targets are all moved to an Adjacent Zone,"
                 }
             ],
             "requires": null,
@@ -14700,7 +14782,7 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "All targets except you in yoru Current Zone take 3 Hits and become Prone."
+                    "effect": "All targets except you in your Current Zone take 3 Hits and become Prone."
                 }
             ],
             "requires": null,
@@ -14826,7 +14908,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in yoru Current Zone regains X Grit, where X is equal to Hits in the result set."
+                    "effect": "One target in your Current Zone regains X Grit, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,

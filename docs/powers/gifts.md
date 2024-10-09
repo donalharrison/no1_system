@@ -14,7 +14,6 @@ permalink: /characters/powers/gifts/
 
 
 ## Using Gifts
-When casting a Spell, you make a roll for that specific Spell with a dice rating determined by your Ranks in that Spell.
 
 
 # Gift List
@@ -23,39 +22,48 @@ When casting a Spell, you make a roll for that specific Spell with a dice rating
 
 <div style="background-color: ; margin: 5px;">
 
-{% for s in site.data.powers.gifts %}
-    {% assign i = forloop.index | modulo: 2 %}
-    {% if i == 0 %}
-        <div style="background-color: #4b476650; margin: 10px; padding: 5px;">
-    {% else %}
-        <div class="row" style="background-color: #37344f50; margin: 10px; padding: 5px;">
-    {% endif %}
-    <h3 style="margin-top: 5px;">{{s.name}}</h3>
-    <h4 style="margin-top: 5px;">{{s.type}}</h4>
-    <em>{{s.keywords | join: ", "}}</em>
-    <details>
-        <summary></summary>
-        {% assign j = s.max_ranks %}
-        <h4 style="margin-top: 5px;">Max Ranks</h4>
-        {% for i in (1..j) %}
-            <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
-        {% endfor %}
-        {% if s.requires %}
-            <p><em>Requires: </em>{{s.requires}}</p>
-        {% endif %}
-        {% if s.effect %}
-            <p><strong>Effect</strong>
-            <br>{{s.effect}}</p>
-        {% endif %}
-        {% if threshold %}
-            {% assign thresh = s.threshold %}
-                {% for t in thresh %}
-                    <p><strong>Threshold &mdash; {{t.hits}}</strong>
-                    <br>{{t.effect}}</p>
+{% assign eskills = "Aether,Bellor,Destroy,Inferno,Intuit,Mori,Nihil,Ordi,Rime,Vivus" | split: "," %}
+{% for skill in eskills %}
+    <div style="background-color: #1f1d2b50; margin: 6px; padding: 5px;">
+        <p style='margin: 3px; font-weight:bold; font-size: 115%;'>{{skill}}</p>
+        <details>
+            <summary></summary>
+        {% assign gifts = site.data.powers.gifts | where: 'skill', skill %}
+        {% for s in gifts %}
+            {% assign i = forloop.index | modulo: 2 %}
+            {% if i == 0 %}
+                <div style="background-color: #4b476650; margin: 10px; padding: 5px;">
+            {% else %}
+                <div class="row" style="background-color: #37344f50; margin: 10px; padding: 5px;">
+            {% endif %}
+            <h3 style="margin-top: 5px;">{{s.name}}</h3>
+            <h4 style="margin-top: 5px;">{{s.type}}</h4>
+            <em>{{s.keywords | join: ", "}}</em>
+            <details>
+                <summary></summary>
+                {% assign j = s.max_ranks %}
+                <h4 style="margin-top: 5px;">Max Ranks</h4>
+                {% for i in (1..j) %}
+                    <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
                 {% endfor %}
-        {% endif %}
-    </details>
+                {% if s.requires %}
+                    <p><em>Requires: </em>{{s.requires}}</p>
+                {% endif %}
+                {% if s.effect %}
+                    <p><strong>Effect</strong>
+                    <br>{{s.effect}}</p>
+                {% endif %}
+                {% if threshold %}
+                    {% assign thresh = s.threshold %}
+                        {% for t in thresh %}
+                            <p><strong>Threshold &mdash; {{t.hits}}</strong>
+                            <br>{{t.effect}}</p>
+                        {% endfor %}
+                {% endif %}
+            </details>
+        </details>
     </div>
+    {% endfor %}
 {% endfor %}
 </div>
 </section>
