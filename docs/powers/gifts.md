@@ -61,6 +61,7 @@ permalink: /characters/powers/gifts/
                         {% endfor %}
                 {% endif %}
             </details>
+            </div>
         </details>
     </div>
     {% endfor %}
