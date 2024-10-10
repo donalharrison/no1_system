@@ -28,7 +28,7 @@ permalink: /characters/powers/gifts/
         <p style='margin: 3px; font-weight:bold; font-size: 115%;'>{{skill}}</p>
         <details>
             <summary></summary>
-        {% assign gifts = site.data.powers.gifts | where: 'skill', skill %}
+        {% assign gifts = site.data.powers.gifts | where: 'skill', skill | sort: 'rank' %}
         {% for s in gifts %}
             {% assign i = forloop.index | modulo: 2 %}
             {% if i == 0 %}
@@ -38,14 +38,10 @@ permalink: /characters/powers/gifts/
             {% endif %}
                 <h3 style="margin-top: 5px;">{{s.name}}</h3>
                 <h4 style="margin-top: 5px;">{{s.type}}</h4>
+                <strong>Rank {{s.rank}}</strong>
                 <em>{{s.keywords | join: ", "}}</em>
                 <details>
                     <summary></summary>
-                    {% assign j = s.max_ranks %}
-                    <h4 style="margin-top: 5px;">Max Ranks</h4>
-                    {% for i in (1..j) %}
-                        <img style="width: 20px" src="/no1_system/assets/img/plain-circle.png">
-                    {% endfor %}
                     {% if s.requires %}
                         <p><em>Requires: </em>{{s.requires}}</p>
                     {% endif %}

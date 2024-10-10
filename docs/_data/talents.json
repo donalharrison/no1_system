@@ -456,7 +456,7 @@
             "requires": "Deft 2",
             "replaces": null,
             "effect": [
-                "When you Shift to move to an adjacent Zone, you may move an additional Zone."
+                "When you Shift to move to an Adjacent Zone, you may move an additional Zone."
             ]
         },
         {
@@ -6333,6 +6333,30 @@
         },
         {
             "tree": "Pugilist",
+            "name": "Overhand Right",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Combination Punch</span></h4>",
+                "Use Martial Arts against one target in your Current Zone scoring X directly to Grit, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Pugilist",
+            "name": "Ear Clap",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Combination Punch</span></h4>",
+                "Use Martial Arts against on target in your Current Zone.  On 2+ Hits, the target gains Confused 1."
+            ]
+        },
+        {
+            "tree": "Pugilist",
             "name": "Uppercut",
             "type": "Ability",
             "rank": "3",
@@ -6671,17 +6695,9 @@
                 ""
             ]
         },
-        {
-            "tree": "Samurai",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                ""
-            ]
-        },
+
+
+        
         {
             "tree": "Scholar",
             "name": "Academic Discipline",
@@ -6869,7 +6885,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Insight to determine if someone is trying to con you, adding +2 Bonus Hits to the result set."
+                "Use Insight to determine if someone is trying to con you, adding +2 Bonus Hits to the result set."
             ],
             "bonus_hits": "+2 Bonus Hits"
         },
@@ -6881,18 +6897,18 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use your Implements to throw sand in the eyes of one target in your Current Zone.  On 2+ Hits, your target gain Blind 1."
+                "Use Implements to throw sand in the eyes of one target in your Current Zone.  On 2+ Hits, your target gain Blind 1."
             ]
         },
         {
             "tree": "Scoundrel",
-            "name": "It's all a facade",
+            "name": "It's All a Facade",
             "type": "Ability",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "Deceive opponents in your Current Zone, masking your true intentions."
+                "Deceive opponents in your Current Zone, masking your true intentions.  You may have up to X targets gain Charmed 2, where X is equal to Hits in the results set."
             ]
         },
         {
@@ -6903,7 +6919,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Deceive opponents in your Current Zone and score Hits equal to or greater than the number of opponents, you may immediately Strike, Shoot, or use your Marital Arts against, adding +1d4 Bonus Hits to the result."
+                "When use an Action to attack a target that is Charmed by you, add +1d4 Bonus Hits to the result."
             ],
             "bonus_hits": "+1d4 Bonus Hits"
         },
@@ -6927,7 +6943,41 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you Deceive opponents in your Current Zone and move away from them, you may ignore a number of Hazard dice equal to your Deceive Hits."
+                "When you move away from from targets Charmed by you, you may ignore any Hazard dice imposed by those targets."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "They Look Left. . .",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Deceive all targets in your Current and all Adjacent Zones.  On 5+ Hits immediately create 1 Advantage in each Zone containing an ally and you gain an additional Shift this turn."
+            ],
+            "bonus_hits": "+2 Bonus Hits"
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Yes, I'll Bet You Have. . .",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When a target Initiates a Contest with you, you may immediately use Martial Arts, Strike, or Shoot contested by the target's Insight. If you score hits greater than or equal to your opponent, you win the Contest, Gain +1 enemies, and your target gains Vulnerable 1."
+            ]
+        },
+        {
+            "tree": "Scoundrel",
+            "name": "Wild Card!",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "End the current Timer at the end of this turn.  At the start of the next Timer, your team's Initiative Test gains the Ambush keyword."
             ]
         },
         {
@@ -8229,7 +8279,7 @@
             "tree": "Swashbuckler",
             "name": "Quick Draw",
             "type": "Static",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -8238,13 +8288,179 @@
         },
         {
             "tree": "Swashbuckler",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Strike 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Finesse",
+            "type": "Static",
+            "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "You may use Deft Trait Points to reroll Actions using the Strike Skill."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Fancy Footwork",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "As long as you have 2+ Panache, you ignore Hazards imposed by hostile targets when you Shift to Move."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Strike (2)",
+            "type": "Static",
+            "rank": null,
+            "requires": "Strike 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Strike Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Tumble (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Tumble Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Tumble (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Tumble 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Tumble rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Tumble (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Tumble 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Tumble rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Persuade (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Persuade 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Perceive Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Unerring Strike",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 2 Panache and use Strike against one target in yoru Current Zone, ignoring the target's Armor Defense."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Reckless Abandon",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend X Panache to use Strike against X targets in your Current Zone.  You gain Vulnerable 2."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Panache",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Craft, Intimidate, or Persuade to gain X Panache, where X is equal to Hits in the result set.  You gain an additional Shift this turn.",
+                "On this and each of your turns, you may use a Shift to spend 1 Panahce and chose one (1) effect:<ul><li>One target in your Current Zone gains Charmed 2.</li><li>One target in yoru Current Zone gains Confused 1.</li><li>One target in your Current or an Adjacent Zone gains Provoked.</li><li>Use Focus to recover X to your Nerve, where X is equal to Hits in the result set.</li><li></li></ul>"
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Witty Retort",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When a target you can see in your Current Zone uses an action to attack you or an ally, you may spend 1 Panache to have the attacking target gain Provoked.  If the target is already Provoked by you, the target gains Confused 1.  If the target is already Confused, you may immediately use Focus to recover X to your Nerve, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Flourish",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Strike a target that is Provoked by you, you may choose one (1):<ul><li>Spend 1 Panache to add +2 Bonus Hits to the result set.</li><li>Spend 1 Panache to increase the Momentum +1.</li><li>Increase your Panache +1.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Dashing Strike",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Shift to Move and use an Action to Strike a target, choose one (1):<ul><li>On 3+ Hits, you disarm the target.</li><li>Increase your Panache by +1.</li><li>All targets in your Current Zone gain Provoked.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Last Laugh",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When your Grit is reduced to 0, you may immediately use Strike against one target in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Swashbuckler",
+            "name": "Daring Escape",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Defy Danger using Tumble, you may immediately use a Shift to Move."
             ]
         },
         {
@@ -10600,7 +10816,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert Swordsman, granting you access to <em>Sworldplay</em> talents when using a gear with the <em>Sword</em> keyword."
+                "You are an expert Swordsman, allowing you to use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword."
             ]
         },
         {
@@ -10611,7 +10827,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert with Axes, granting you access to <em>Hewer</em> talents when using a gear with the <em>Axe</em> keyword."
+                "You are an expert with Axes, allowing you to use <em>Hewer</em> talents when using a gear with the <em>Axe</em> keyword."
             ]
         },
         {
@@ -10622,7 +10838,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert Maces, granting you access to <em>Crusher</em> talents when using a gear with the <em>Mace</em> keyword."
+                "You are an expert Maces, allowing you to use <em>Crusher</em> talents when using a gear with the <em>Mace</em> keyword."
             ]
         },
         {
@@ -10633,7 +10849,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert with Polearms, granting you access to <em>Poledance</em> talents when using Gear with the <em>Polearm</em> keyword."
+                "You are an expert with Polearms, allowing you to use <em>Poledance</em> talents when using Gear with the <em>Polearm</em> keyword."
             ]
         },
         {
@@ -10644,7 +10860,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are an expert at using two weapons at once, granting you access to <em>Niten</em> talents when using two Weapon Gear at the same time."
+                "You are an expert at using two weapons at once, allowing you to use <em>Niten</em> talents when using two Weapon Gear at the same time."
             ]
         },
         {
@@ -10666,7 +10882,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
                 "Spend X Defenses and Strike one target in your Current Zone, add X Bonus Hits to the result set."
             ]
         },
@@ -10678,7 +10894,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
                 "Strike one target in your Current Zone.  You may spend 3 Hits from the result set to have the target gain Wounded 1."
             ]
         },
@@ -10690,7 +10906,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sworldplay</span></h4>",
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
                 "Deceive one target in your Current Zone.  One 2+ Hits, you may immediately Strike the target adding +1d4 Bonus Hits to the result set."
             ],
             "bonus_hits": "+1d4 Bonus Hits"
@@ -10951,6 +11167,8 @@
             ],
             "bonus_hits": "+2 Bonus Hits"
         },
+
+
         {
             "tree": "Slayer",
             "name": "Execute",
@@ -11420,6 +11638,87 @@
         },
         {
             "tree": "Samurai",
+            "name": "Path of Honor",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You follow a Path of duty and ancestral piety.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>You cannot gain Fatigued.</li><li>You may use Steady Trait Points to reroll uses of History, Insight, Martial Arts, and Strike.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</ul>"
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Path of Glory",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You follow a Path of prestige and acclaim.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>When you are the victor of a Contest, gain +1 Renown.</li><li>You may use Dangerous Trait Points to reroll uses of Current Events, Lead, Persuade, and Tactics.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Path of Courage",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You follow a Path of bravery and fearlessness.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>You cannot gain Afraid.</li><li>You may use Steady Trait Points to reroll uses of Intimidate, Strike, Survival, and Tactics.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Path of Excellence",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You follow a Path of perfection and self-mastery.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>When you score 5+ Hits using Strike or Persuade and there are no 1s in the result set before rerolls, you gain an additional Action this turn.</li><li>You may use Deft Trait Points to reroll uses of Focus, Strike, Tumble, and Persuade.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Strike (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": "Strike 1",
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Strike (3)",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": "Strike 2",
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Naginata-do",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Path of Courage (active) or Path of Glory (active)",
+            "replaces": null,
+            "effect": [
+                "You may use <em>Poledance</em> talents when using Gear with the <em>Polearm</em> keyword."
+            ]
+        },
+        {
+            "tree": "Samurai",
             "name": "Steady Trait Increase",
             "type": "Static",
             "rank": "2",
@@ -11427,6 +11726,109 @@
             "replaces": null,
             "effect": [
                 "Increase your Steady Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Ancestral Guidance",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Path of Honor (active)",
+            "replaces": null,
+            "effect": [
+                "Use Focus or Composure to call upon the wisdom of your ancestors.  Add +X Bonus Hits to your next Action, where X is euqal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Jigen-ryu",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
+                "Use Strike two times against one target in your Current Zone, scoring the total Hits from both result sets and adding +1d4 Bonus Hits against the target.  The Initiative shifts to the enemy team at the end of your turn."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Two Heavens as One",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Path of Honor (active) or Path of Glory (active)",
+            "replaces": null,
+            "effect": [
+                "You may use <em>Niten</em> talents when using two Weapon Gear at the same time."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Jigoku Tsumi Dai",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
+                "Increase the Entropy by +X and use Strike to score Hits against X targets in your Current Zone."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Yuruginai",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Path of Courage (active)",
+            "replaces": null,
+            "effect": [
+                "When you use the Recover Action, Create 1 Advantage in your Current Zone and increase the Momentum by +1."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Osoroshi Sonzai",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Path of Glory (active)",
+            "replaces": null,
+            "effect": [
+                "When you use the Strike or Persuade against one target and score 4+ Hits, you may increase the Entropy by +1 to up to X targets in your Current and all Adjacent Zones gain Afraid 1 and Charmed 1, where X is equal to Hits in the result set.  Any targets not effected by this Talent gain Provoked 1."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Shukuchi",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Path of Excellence (active)",
+            "replaces": null,
+            "effect": [
+                "Use Focus or Tumble.  On 4+ Hits, you Shift to Move ignoring Hazards and gain an additional Shift this turn."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Gatotsu",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Path of Excellence (active) or Path of Glory (active)",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
+                "Strike one target in your Current Zone.  On 4+ Hits, the target gains Wounded 2 and you may spend 3 Momentum to regain 1 Dangerous Trait Point."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Iaijutsu",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Path of Excellence (active) or Path of Courage (active)",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
+                "When you draw a melee weapon and use Strike in the same turn, add +1d4 Bonus Hits as X to the result set.  On 8+ Hits, you recover +X to yoru Primary Defense."
             ]
         },
         {
