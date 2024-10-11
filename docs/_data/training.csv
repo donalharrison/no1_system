@@ -39,6 +39,7 @@ Blade Weaver,Discipline,,"You blend martial skill with mystical arts, enchanting
 Broker,Discipline,,"You are a shrewd negotiator and financial expert, adept at navigating complex markets, acquiring rare or illicit goods, and always knowing the right connections to strike the perfect deal.",/no1_system/assets/img/broker.png,/no1_system/characters/training/broker/
 Cabalist,Discipline,,"You are a master practitioner of secret and arcane rituals, unlocking forbidden knowledge to bend reality.",/no1_system/assets/img/cabalist.png,/no1_system/characters/training/cabalist/
 Confessor,Discipline,,"You wield a righteous and divine fury, possessing the ability to extract truths through interrogation and purge the sins of the wicked masses.",/no1_system/assets/img/confessor.png,/no1_system/characters/training/confessor/
+Daredevil,Discipline,,"You are no stranger to risk, unshakable in the face of danger and and thriving hazardous cicrumstances.",/no1_system/assets/img/daredevil.png,
 Darksworn,Discipline,,"You are a devotee of shadowy forces, drawing strength from darkness and forbidden magic.",/no1_system/assets/img/darksworn.png,/no1_system/characters/training/darksworn/
 Dissident,Discipline,,"You have forsaken the patrons who granted your bountiful gifts, now marked as their enemy.",/no1_system/assets/img/dissident.png,/no1_system/characters/training/dissident/
 Dragoon,Discipline,,"You are a master of mounted combat, specializing in lance-based attacks.",/no1_system/assets/img/dragoon.png,/no1_system/characters/training/dragoon/
@@ -49,6 +50,7 @@ Juggernaut,Discipline,,"You are an unstoppable force on the battlefield, unharri
 Justiciar,Discipline,,"You are a relentless enforcer of justice, dedicated to upholding the law and punishing the wicked.",/no1_system/assets/img/justiciar.png,/no1_system/characters/training/justiciar/
 Lich,Discipline,,"You exchanged your own humanity in the pursuit of unbridled power and immortality, and it was worth it.",/no1_system/assets/img/lich.png,/no1_system/characters/training/lich/
 Mageknight,Discipline,,"You infuse martial prowess with arcane abilities, excelling in both physical and magical combat.",/no1_system/assets/img/mageknight.png,/no1_system/characters/training/mageknight/
+Mastermind,Discipline,,"You are an expert at devising schemes and plans, deploying your cunning to achieving great, and perhaps terrible, things and always finding weaknesses in your enemies' plans.",/no1_system/assets/img/mastermind.png,
 Overlord,Discipline,,"You lead armies and command troops, specializing in strategic and tactical warfare.",/no1_system/assets/img/overlord.png,/no1_system/characters/training/overlord/
 Paragon,Discipline,,"You have mastered your uncanny ablities, exemplify perfection and unparalleled expertise through your superhuman gifts..",/no1_system/assets/img/paragon.png,/no1_system/characters/training/paragon/
 Probabilist,Discipline,,"You can derive the underlying randomness of existence, allowing you to manipulate chance and influence unpredictable outcomes.",/no1_system/assets/img/probabilist.png,/no1_system/characters/training/probabilist/

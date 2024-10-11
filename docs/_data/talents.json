@@ -7302,7 +7302,7 @@
             "tree": "Seer",
             "name": "Uncanny Trait Increase",
             "type": "Ability",
-            "rank": "",
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -11167,8 +11167,117 @@
             ],
             "bonus_hits": "+2 Bonus Hits"
         },
-
-
+        {
+            "tree": "Mastermind",
+            "name": ". . .I Expect You to Die!",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Roll Deceive, Persuade, or Tactics as X, then pass the Initiative to the enemy team.  If the enemy team doesn't not score X+5 hits before the your team seizes the Initiative, increase the Momentum by +5 and your team immediately uses the Recover Action, ignoring 1s in the result sets. Otherwise, increase the Entropy by +5."
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Calculated Strike",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Select a target in your Current or an Adjacent Zone. Use Lead allowing X allies in your Current or Adjacent Zone to immediately use an Action to use Martial Arts, Strike, or Shoot against the selected target, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Unseen Hand",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use an Advantage in your Current Zone to grant an ally up to 2 Adjacent Zones away from your Current Zone to add +1d4 Bonus Hits to their next action "
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Orchestrated Chaos",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase the Entropy by +20 and use Lead to select up to X allied characters in your Current or an Adjacent Zone, where X is equal to Hits in the result set.  Until the next time the Initiative shifts to the enemy team, decrease the Entropy by -1 for each Hit scored by the selected allies' Actions."
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Calculated Risk",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Analyze your current situation to Create X Advantages in your Current Zone, where X is euqal to Hits in the resul set.  Then chose 10 or 20 as X.",
+                "If your team increases the Momentum by +X before increasing the Entropy by 8, increase the Momentum by +X.  Otherwise, increase the Entropy by +X."
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Master Plan",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Contingency Plan",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Strategic Genius",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You may use Savvy Trait Points to reroll uses of Insight, Lead, Tactics, and Investigate."
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
+            ]
+        },
+        {
+            "tree": "Mastermind",
+            "name": "Savvy Trait Increase",
+            "type": "Static",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Savvy Trait by +1."
+            ]
+        },
         {
             "tree": "Slayer",
             "name": "Execute",
@@ -11269,6 +11378,105 @@
             "replaces": null,
             "effect": [
                 "Increase your Deft Trait rating by +1."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "No Guts, No Glory",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you take an Action that requires you to roll 1 or more Hazard Dice, add +X Bonus Hits to the result set, where X is equal to the total Hazard Dice rolled."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "Fearless",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You cannot gain the Afraid status and you reduce the Hits in result sets of any Action used to Intimidate you by -3."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "Near Miss",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you roll a 1 on a Hazard Die, you may increase the Entropy +1 and reroll the Hazard Die."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "Tempt Fate",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you score a Hit on a Hazard Die, you may roll an additional Hazard Die."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "Breakneck Pace",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use an Action that requires you to roll 1 or more Hazard Dice and score 3+ hits, you can spend 1 Momentum to immediately use a Shift."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "Adrenaline Surge",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you take an Action that requires 5+ Hazards, you can immediately take another Action."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "All or Nothing",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you roll 3+ Hazard Dice and there is a 1 in the result set, you may spend 2 Momentum to roll all dice including Hazards again, keeping the second result set.","This is not a reroll, the Initiative shifts to the enemy team at the end of your turn."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "Madcap Instincts",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you roll a 4 on a Hazard Die, increase the Momentum by +1."
+            ]
+        },
+        {
+            "tree": "Daredevil",
+            "name": "With My Hands Tied Behind My Back",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Shift to Move, adding +1dH to your next roll."
             ]
         },
         {
@@ -11686,35 +11894,13 @@
         },
         {
             "tree": "Samurai",
-            "name": "Strike (2)",
-            "type": "Static",
-            "rank": "2",
-            "requires": null,
-            "replaces": "Strike 1",
-            "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Samurai",
             "name": "Strike (3)",
             "type": "Static",
             "rank": "3",
             "requires": null,
             "replaces": "Strike 2",
             "effect": [
-                ""
-            ]
-        },
-        {
-            "tree": "Samurai",
-            "name": "Naginata-do",
-            "type": "Static",
-            "rank": "2",
-            "requires": "Path of Courage (active) or Path of Glory (active)",
-            "replaces": null,
-            "effect": [
-                "You may use <em>Poledance</em> talents when using Gear with the <em>Polearm</em> keyword."
+                "Increase your Strike Rank to 3 (d10)."
             ]
         },
         {
@@ -11749,17 +11935,6 @@
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
                 "Use Strike two times against one target in your Current Zone, scoring the total Hits from both result sets and adding +1d4 Bonus Hits against the target.  The Initiative shifts to the enemy team at the end of your turn."
-            ]
-        },
-        {
-            "tree": "Samurai",
-            "name": "Two Heavens as One",
-            "type": "Static",
-            "rank": "2",
-            "requires": "Path of Honor (active) or Path of Glory (active)",
-            "replaces": null,
-            "effect": [
-                "You may use <em>Niten</em> talents when using two Weapon Gear at the same time."
             ]
         },
         {
@@ -11829,6 +12004,50 @@
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
                 "When you draw a melee weapon and use Strike in the same turn, add +1d4 Bonus Hits as X to the result set.  On 8+ Hits, you recover +X to yoru Primary Defense."
+            ]
+        },
+        {
+            "tree": "Kensei",
+            "name": "Path of Enlightenment",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Kensei",
+            "name": "Path of Justice",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Ronin",
+            "name": "Path of Vengeance",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
+            ]
+        },
+        {
+            "tree": "Ronin",
+            "name": "Path of Cruelty",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                ""
             ]
         },
         {
@@ -12181,7 +12400,7 @@
         },
         {
             "tree": "Temporalist",
-            "name": "",
+            "name": "Pocket Watch",
             "type": "Ability",
             "rank": "3",
             "requires": null,
