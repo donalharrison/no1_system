@@ -8793,7 +8793,7 @@
             "replaces": null,
             "effect": [
                 "Use Craft, Intimidate, or Persuade to gain X Panache, where X is equal to Hits in the result set.  You gain an additional Shift this turn.",
-                "On this and each of your turns, you may use a Shift to spend 1 Panahce and chose one (1) effect:<ul><li>One target in your Current Zone gains Charmed 2.</li><li>One target in your Current Zone gains Confused 1.</li><li>One target in your Current or an Adjacent Zone gains Provoked.</li><li>Use Focus to recover X to your Nerve, where X is equal to Hits in the result set.</li><li></li></ul>"
+                "On this and each of your turns, you may use a Shift to spend 1 Panahce and chose one (1) effect:<ul><li>One target in your Current Zone gains Charmed 2.</li><li>One target in your Current Zone gains Confused 1.</li><li>One target in your Current or an Adjacent Zone gains Provoked.</li><li>Use Composure to recover X to your Nerve, where X is equal to Hits in the result set.</li><li></li></ul>"
             ]
         },
         {
@@ -8804,7 +8804,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When a target you can see in your Current Zone uses an action to attack you or an ally, you may spend 1 Panache to have the attacking target gain Provoked.  If the target is already Provoked by you, the target gains Confused 1.  If the target is already Confused, you may immediately use Focus to recover X to your Nerve, where X is equal to Hits in the result set."
+                "When a target you can see in your Current Zone uses an action to attack you or an ally, you may spend 1 Panache to have the attacking target gain Provoked.  If the target is already Provoked by you, the target gains Confused 1.  If the target is already Confused, you may immediately use Composure to recover X to your Nerve, where X is equal to Hits in the result set."
             ]
         },
         {
