@@ -74,7 +74,6 @@
                 "Increase one of your Domain Ranks to 3 (d10)."
             ]
         },
-        
         {
             "tree": "Mystic",
             "name": "Seek Mysteries",
@@ -295,12 +294,12 @@
         {
             "tree": "Assassin",
             "name": "Poison Expert",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are a master of using Poison, doubling the Poison's effects."
+                "When you coat your weapons in Poison, double the Poison's effect."
             ]
         },
         {
@@ -3252,12 +3251,12 @@
         {
             "tree": "Engineer",
             "name": "Reinforced Armor",
-            "type": "",
+            "type": "Trigger",
             "rank": "",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "When you spend Tinkering points on a piece of Gear with the Armor Keyword, it gains the following Trigger: When you use the Recover Action while wearing this Gear, the Gear regains +1 Rating."
             ]
         },
         {
@@ -3274,12 +3273,12 @@
         {
             "tree": "Engineer",
             "name": "Repair Expert",
-            "type": "",
+            "type": "Trigger",
             "rank": "",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "When you use the Craft Skill to restore Gear Rating, add +2 Bonus Hits to the result set."
             ]
         },
         {
@@ -3301,7 +3300,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "The Implements Skill gains the Craft keyword."
             ]
         },
         {
@@ -3318,12 +3317,12 @@
         {
             "tree": "Engineer",
             "name": "Field Modifications",
-            "type": "",
+            "type": "Shift",
             "rank": "",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use the Craft Skill. . ."
             ]
         },
         {
@@ -4389,13 +4388,272 @@
         },
         {
             "tree": "Mageknight",
-            "name": "",
+            "name": "Study Signs",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use Analyze, Focus, or Implements to gain Hits + Dangerous Sign Ranks.  You may spend Sign Ranks across Talents you have trained that have the Sign keyword."
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Inferno Sign",
+            "type": "Shift",
+            "rank": "1",
+            "requires": "Study Signs",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Inferno</span></h4>",
+                "Spend X Sign Ranks from this Sign, then choose one (1) and roll a number of dX equal to Challenge :<ul><li>Deal 2 Hits to up to 3 targets in an Adjacent Zone.</li><li>One target in your Current Zone takes X Hits, where X is equal to Hits in the result set.</li><li><strong>Threshold &mdash; 5</strong><br>Increase the Entropy by +3, icrease the Momentum by +2, and target your Current or an Adjacent Zone. The targeted Zone and all adjacent Zones gain Hazard 2, and all targets currently in those Zones take 3 Hits.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Tempest Sign",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Study Signs",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Tempest</span></h4>",
+                "Spend X Sign Ranks from this Sign, then choose one (1) and roll a number of dX equal to Challenge :<ul><li>Up to X targets in your Current Zone gain Dazed 2, where X is equal to Hits in the result set.</li><li>Choose 3 targets you can see in your Current Zone. Deal X Hits the first target, X-1 Hits to the second target, & X-2 Hit to the third, where X is equal to Hits in the result set.</li><li>Divide X Hits between up to 2 target in your Current or an Adjacent Zone, where X is equal to Hits in the result set.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Hoarfrost Sign",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Rime</span></h4>",
+                "Spend X Sign Ranks from this Sign, then choose one (1) and roll a number of dX equal to Challenge :<ul><li>One target in your Current or an Adjacent Zone gains Restrained X and Slowed X-2, where X is equal to Hits in the result set.</li><li>One target in your Current Zone gains Slowed 2 and Fatigued X, where X is equal to Hits in the result set.</li><li>All targets in your Current Zone gain Frozen X, where X is equal to Hits in the result set.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Runic Ward",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you suffer Hits from an attack, you may spend X Sign Ranks from any one Sign any reduce the Hits suffered by -X."
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Arcane Battler",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use Grapple, Strike, Shoot, or Throw, you may spend 1 Sign Rank to have the attack gain the Sign's keywords."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Cosmology (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Cosmology Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Cosmology (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Cosmology 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Cosmology Rank to 1 (d8)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Cosmology (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Cosmology 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Cosmology Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Implements (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Implements Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Implements (2)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Implements 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Implements Rank to 1 (d8)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Implements (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Implements 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Implements Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Cosmology (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Cosmology 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Cosmology Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Prune the Weave",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Write a Target to slay a specific NPC Arcanist."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Hex Ward",
+            "type": "Abliity",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Cosmology, Endure, or Resist to ward yourself against arcane effects, gaining Aura X.  While this Aura persists, you may reduce the Aura by -X to reduce Hits in the result set of any Power that targets you or your Current Zone by -X."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Magebane's Mark",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Insight or Tactics to mark a target with Powers in your Current or an Adjacent Zone giving them Aura X, where X is equal to Hits in your result set.   While this Aura persists, the target gains Provoked equal to the Arua's rating.",
+                "If you currently have an Aura from Hex Ward, increase the Aura by +X-2."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Scourge of the Arcane",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use Implements, Martial Arts, Strike, or Shoot against a target with your Magebane's Mark, add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Spellbreaker's Snare",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Spend 1 Mage Hunter Gear and use Implements to set a trap with rating X in your Current Zone, where X is equal to hits in the result set.  The next time a target with your Magebane's Mark uses a Power in this Zone, reduce Hits in the Power's result set by -X."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Mage Hunter Gear",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Implements to gain Mage Hunter Gear with Rating X, where X is equal to Hits in the result set.",
+                "You may use this Ability without using an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 6 - Deft Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Arrest the Soma",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Mage Hunter Gear",
+            "replaces": null,
+            "effect": [
+                "Spend 2 Mage Hunter Gear and roll Implements as X, then choose one (1):<ul><li>One target in your Current or an Adjacent Zone gains Restrained 2.</li><li>One target with your Magebane's Mark gain Restrained X+2.</li><li>One target with your Magebane's Mark gains Restrained 2 and you increase your Hex Ward by +X.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Spellbreaker's Fury",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Hex Ward",
+            "replaces": null,
+            "effect": [
+                "When use your Hex Ward to reduce the Hits in the result set of a Power to 0, you may Strike or Shoot the target that used the Power if they are in range.",
+                "On 5+ Hits, if you currently have an Aura from Hex Ward, increase the Aura by +1."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Arcane Ward",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Hex Ward",
+            "replaces": null,
+            "effect": [
+                "When you gain an Aura from Hex Ward, add +1d4 Bonus Hits to the Aura's rating."
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Stifle the Chant",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Magebane's Mark",
+            "replaces": null,
+            "effect": [
+                "Use Martial Arts, Strike, or Shoot against a target with your Magebane's Mark.  You may spend 3 Hits from the result set to have the target gain Silenced 1. "
+            ]
+        },
+        {
+            "tree": "Mage Hunter",
+            "name": "Blind the Augur",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Mage Hunter Gear",
+            "replaces": null,
+            "effect": [
+                "Spend 3 Mage Hunter Gear and use Implements.  On 4+ Hits, the target gains Blind 2. "
             ]
         },
         {
@@ -6675,13 +6933,14 @@
         },
         {
             "tree": "Reaver",
-            "name": "",
+            "name": "Relentless Assault",
             "type": "Ability",
-            "rank": null,
+            "rank": "3",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use Strike 3 times, totaling Hits in the result set as X.  You may divide X among any number of targets in your Current Zone.",
+                "If X is 12+, all targets in your Current Zone gain Vulnerable 1."
             ]
         },
         {
@@ -6695,9 +6954,138 @@
                 ""
             ]
         },
-
-
-        
+        {
+            "tree": "Skrimister",
+            "name": "Skrimisiology (1)",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Increase your Skrimisiology Rank to 1 (d6)."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Skrimisiology (2)",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Skrimisiology 1",
+            "replaces": null,
+            "effect": [
+                "Increase your Skrimisiology Rank to 2 (d8)."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Skrimisiology (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Skrimisiology 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Skrimisiology Rank to 3 (d10)."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Skrimisiology (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Skrimisiology 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Skrimisiology Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Hunt the Hunter",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Perceive or Survival to detect or track a target, add +2 Bonus Hits to the result set.  If the target is monstrous, add an additional +1d4 Bonus Hits."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Think Like the Monster",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Tactics or Skrimisiology while there is a monstrous target in your Current or an Adjacent Zone.  Create X+2 Advantages in your Current Zone, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Reflexive Venator",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When there Use an Advantage and there is a monstrous target in your Current or an Adjacent Zone, you gain an additional Shift this turn."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Know Its Weakness",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Skrimisiology or Tactics to mark a monstrous target in your Current or an Adjacent Zone, giving them Aura X.  Your target is Vulnerable 1 to any Action you take against it while the Aura persists."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Oil Expert",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you coat your weapons with an Oil, double the Oil's effect."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Responsive Metabolism",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you use an Elixir, double the Elixir's effect."
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Exploit Its Weakness",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Know Its Weakness",
+            "replaces": null,
+            "effect": [
+                "When you score Hits against a target affected by Know Its Weakness, you may reduce the target's Aura by -1 and choose one (1):<ul><li>The target loses the Flying keyword until the beginning of your next turn.</li><li>The target gains Wounded 1.</li><li>The target becomes Provoked by you.</li><li>The target gains Restrained 3.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Skrimister",
+            "name": "Monster Slayer",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you kill a target a target affected by Know Its Weakness, you may spend 5 Momentum to gain +1 Milestone."
+            ]
+        },
         {
             "tree": "Scholar",
             "name": "Academic Discipline",
@@ -6753,7 +7141,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Research to gain critical information about the current situation.  Increase the current Timer by Hits - 2 and decrease the Challenge by -1d."
+                "Research to gain critical information about the current situation.  On 3+ Hits, Increase the current Timer by Hits - 2 and decrease the Challenge by -1d."
             ]
         },
         {
@@ -8382,7 +8770,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Spend 2 Panache and use Strike against one target in yoru Current Zone, ignoring the target's Armor Defense."
+                "Spend 2 Panache and use Strike against one target in your Current Zone, ignoring the target's Armor Defense."
             ]
         },
         {
@@ -8405,7 +8793,7 @@
             "replaces": null,
             "effect": [
                 "Use Craft, Intimidate, or Persuade to gain X Panache, where X is equal to Hits in the result set.  You gain an additional Shift this turn.",
-                "On this and each of your turns, you may use a Shift to spend 1 Panahce and chose one (1) effect:<ul><li>One target in your Current Zone gains Charmed 2.</li><li>One target in yoru Current Zone gains Confused 1.</li><li>One target in your Current or an Adjacent Zone gains Provoked.</li><li>Use Focus to recover X to your Nerve, where X is equal to Hits in the result set.</li><li></li></ul>"
+                "On this and each of your turns, you may use a Shift to spend 1 Panahce and chose one (1) effect:<ul><li>One target in your Current Zone gains Charmed 2.</li><li>One target in your Current Zone gains Confused 1.</li><li>One target in your Current or an Adjacent Zone gains Provoked.</li><li>Use Focus to recover X to your Nerve, where X is equal to Hits in the result set.</li><li></li></ul>"
             ]
         },
         {
@@ -8960,12 +9348,12 @@
         {
             "tree": "Spy",
             "name": "Poison Expert",
-            "type": "Static",
+            "type": "Trigger",
             "rank": "2",
             "requires": null,
             "replaces": null,
             "effect": [
-                "You are a master of using Poison, doubling the Poison's effects."
+                "When you coat your weapons in Poison, double the Poison's effect."
             ]
         },
         {
@@ -10006,13 +10394,95 @@
         },
         {
             "tree": "Vanguard",
-            "name": "",
+            "name": "Bulwark Charge",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Roll Exert as X and move 2 Linear Zones from your Current Zone.  In the first Zone you move through, up to X targets again Prone.  In the Zone where your move ends, up to X-2 targets are moved to an Adjacent Zone.",
+                "If X is 4+, up to 4 target each allies may spend 1 Momentum to follow your move path ignoring Hazards."
+            ]
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Rallying Cry",
+            "type": "Ability",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Intimidate or Lead while there are hostile targets in your Current Zone, inspirng X allies in your Current and all Adjacent Zones to fight on, recovering +X to their Primary Defenses, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Phalanx Stance",
+            "type": "Shift",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Exert or Endure to adopt a with Aura X, where X is equal to its in the result set.  While this Aura persists, you and all allies in your Current Zone gain Slowed X, cannot gain Prone, and gain Armor Defense X."
+            ]
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Spearhead Strike",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you Shift to Move and use an Action to Strike a target, use Exert to to break through enemy lines and sow chaos among their ranks adding +X Bonus Hits to the result set, where X is equal to Hits in the Exert result set.",
+                "If X is 3+, your target gains Prone and up to X hostile targets in your Current Zone gain Confused 1."
+            ]
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Hold the Line",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Exert or Endure to plant yourself firmly in place, gaining Aura X, where X is equal to its in the result set.  While this Aura persists, you cannot gain Prone and any hostile target that attempts to move through your Curreent Zone must use a Shift to Exert or Tumble contested by your Aura's rating or gain Restrained 2."
+            ]
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Overwatch",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Defensive Stance</span></h4>",
+                "Position yourself in your Current Zone to assume a Defensive Stance.",
+                "You may maintain this stance until you use a different Shift as long as your Reflexes are above 0."
+            ]
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Make Them Pay",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Overwatch",
+            "replaces": null,
+            "effect": [
+                "When you are in a Defensive Stance and a target Shifts to Move in your Current or and Adjacent Zone, immediately score +1d4 Bonus Hits against that target."
+            ],
+            "bonus_hits": "+1d4 Bonus Hits"
+        },
+        {
+            "tree": "Vanguard",
+            "name": "Vanguard’s Fortitude",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "You are do not waiver when fighting apart from you allies.  When you use the Recover Action while engaging your enemies without any allies in your Current Zone, add you regain +X to your Grit, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -11219,7 +11689,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Analyze your current situation to Create X Advantages in your Current Zone, where X is euqal to Hits in the resul set.  Then chose 10 or 20 as X.",
+                "Analyze your current situation to Create X Advantages in your Current Zone, where X is equal to Hits in the resul set.  Then chose 10 or 20 as X.",
                 "If your team increases the Momentum by +X before increasing the Entropy by 8, increase the Momentum by +X.  Otherwise, increase the Entropy by +X."
             ]
         },
@@ -11454,7 +11924,8 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you roll 3+ Hazard Dice and there is a 1 in the result set, you may spend 2 Momentum to roll all dice including Hazards again, keeping the second result set.","This is not a reroll, the Initiative shifts to the enemy team at the end of your turn."
+                "When you roll 3+ Hazard Dice and there is a 1 in the result set, you may spend 2 Momentum to roll all dice including Hazards again, keeping the second result set.",
+                "This is not a reroll, the Initiative shifts to the enemy team at the end of your turn."
             ]
         },
         {
@@ -11846,14 +12317,27 @@
         },
         {
             "tree": "Samurai",
-            "name": "Path of Honor",
+            "name": "Warrior's Path",
             "type": "Static",
             "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
+                "Your study of war and temperance grant you the option to commit yourself to a Path.  At the beginning of each Waypoint you may select a Talent you have trained with the Path keyword as your active Path.  You may only have one Path active at a time.",
+                "While you have a Path is active, you gain the Path's benefits, can use Talents you have trained that require the Path, and you may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword."
+            ]
+        },
+        {
+            "tree": "Samurai",
+            "name": "Path of Honor",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Warrior's Path",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
                 "You follow a Path of duty and ancestral piety.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
-                "While this Path is active, you gain the following:<ul><li>You cannot gain Fatigued.</li><li>You may use Steady Trait Points to reroll uses of History, Insight, Martial Arts, and Strike.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</ul>"
+                "While this Path is active, you gain the following:<ul><li>You cannot gain Fatigued.</li><li>You may use Steady Trait Points to reroll uses of History, Insight, Martial Arts, and Strike.</li></ul>"
             ]
         },
         {
@@ -11861,11 +12345,12 @@
             "name": "Path of Glory",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Warrior's Path",
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
                 "You follow a Path of prestige and acclaim.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
-                "While this Path is active, you gain the following:<ul><li>When you are the victor of a Contest, gain +1 Renown.</li><li>You may use Dangerous Trait Points to reroll uses of Current Events, Lead, Persuade, and Tactics.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</li></ul>"
+                "While this Path is active, you gain the following:<ul><li>When you are the victor of a Contest, gain +1 Renown.</li><li>You may use Dangerous Trait Points to reroll uses of Current Events, Lead, Persuade, and Tactics.</li></ul>"
             ]
         },
         {
@@ -11873,11 +12358,12 @@
             "name": "Path of Courage",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Warrior's Path",
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
                 "You follow a Path of bravery and fearlessness.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
-                "While this Path is active, you gain the following:<ul><li>You cannot gain Afraid.</li><li>You may use Steady Trait Points to reroll uses of Intimidate, Strike, Survival, and Tactics.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</li></ul>"
+                "While this Path is active, you gain the following:<ul><li>You cannot gain Afraid.</li><li>You may use Steady Trait Points to reroll uses of Intimidate, Strike, Survival, and Tactics.</li></ul>"
             ]
         },
         {
@@ -11885,11 +12371,12 @@
             "name": "Path of Excellence",
             "type": "Static",
             "rank": "1",
-            "requires": null,
+            "requires": "Warrior's Path",
             "replaces": null,
             "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
                 "You follow a Path of perfection and self-mastery.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
-                "While this Path is active, you gain the following:<ul><li>When you score 5+ Hits using Strike or Persuade and there are no 1s in the result set before rerolls, you gain an additional Action this turn.</li><li>You may use Deft Trait Points to reroll uses of Focus, Strike, Tumble, and Persuade.</li><li>You may use <em>Swordplay</em> talents when using a gear with the <em>Sword</em> keyword.</li></ul>"
+                "While this Path is active, you gain the following:<ul><li>When you score 5+ Hits using Strike or Persuade and there are no 1s in the result set before rerolls, you gain an additional Action this turn.</li><li>You may use Deft Trait Points to reroll uses of Focus, Strike, Tumble, and Persuade.</li></ul>"
             ]
         },
         {
@@ -11922,7 +12409,7 @@
             "requires": "Path of Honor (active)",
             "replaces": null,
             "effect": [
-                "Use Focus or Composure to call upon the wisdom of your ancestors.  Add +X Bonus Hits to your next Action, where X is euqal to Hits in the result set."
+                "Use Focus or Composure to call upon the wisdom of your ancestors.  Add +X Bonus Hits to your next Action, where X is equal to Hits in the result set."
             ]
         },
         {
@@ -11934,7 +12421,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
-                "Use Strike two times against one target in your Current Zone, scoring the total Hits from both result sets and adding +1d4 Bonus Hits against the target.  The Initiative shifts to the enemy team at the end of your turn."
+                "Use Strike against one target in your Current Zone, scoring the double the Hits from the result set and adding +1d4 Bonus Hits against the target.  The Initiative shifts to the enemy team at the end of your turn."
             ]
         },
         {
@@ -12003,7 +12490,7 @@
             "replaces": null,
             "effect": [
                 "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Swordplay</span></h4>",
-                "When you draw a melee weapon and use Strike in the same turn, add +1d4 Bonus Hits as X to the result set.  On 8+ Hits, you recover +X to yoru Primary Defense."
+                "When you draw a melee weapon and use Strike in the same turn, add +1d4 Bonus Hits as X to the result set.  On 8+ Hits, you recover +X to your Primary Defense."
             ]
         },
         {
@@ -12014,7 +12501,9 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
+                "You follow a Path of wisdom and equanimity.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>You cannot gain Confused.</li><li>When you use the Recover Action and roll Composure, you may have one target in your Current Zone regain +X Grit, where X is equal to Hits in the result set.</li></ul>"
             ]
         },
         {
@@ -12025,7 +12514,33 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
+                "You follow a Path of order and righteousness.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>You may use Dangerous Trait Points to reroll uses of Composure, Endure, Insight, Focus, and Ordi.</li><li>Your uses of Strike and Martial Arts gain the Ordi keyword.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Kensei",
+            "name": "Path of Devastation",
+            "type": "Static",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
+                "You follow a Path of conquest and destruction.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>When you score 5+ Hits using Strike or Destroy and there are no 1s in the result set before rerolls, you gain an additional Action this turn.</li><li>Your uses of Strike and Martial Arts gain the Destroy keyword.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Kensei",
+            "name": "Many Paths, One Destination",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you select a Path to be active, you may select a second Path to be active simultaneously."
             ]
         },
         {
@@ -12036,7 +12551,9 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
+                "You follow a Path of retribution and exaction.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>You cannot gain Vulnerable.</li><li></li></ul>"
             ]
         },
         {
@@ -12047,7 +12564,22 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
+                "You follow a Path of barbarism and brutality.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>When you score 5+ Hits using Strike or Intimidate and there are no 1s in the result set before rerolls, you gain an additional Action this turn.</li><li>Your uses of Strike and Martial Arts gain the Destroy keyword.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Ronin",
+            "name": "Path of Redemption",
+            "type": "Static",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Path</span></h4>",
+                "You follow a Path of aboslution and vindication.  At the beginning of each Waypoint you may select this talent as your active Path.  You may only have one Path active at a time.",
+                "While this Path is active, you gain the following:<ul><li>You may use Steady Trait Points to reroll uses of Endure, Intuit, Martial Arts, Resist, Strike, and Vivus.</li><li>When you use a Trait Point to reroll a 1 in your result set, increase the add +1 Bonus Hits to the result set.</li></ul>"
             ]
         },
         {
@@ -12383,7 +12915,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "Use Tempor to have one target in your Current or an Adjacent Zone gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the target gains the following effects:<ul><li>Your Primary Defense is Reflexes.  You gain +10 to your Reflexes Defense.</li><li>You gain 1 additional Shift on each of your turns.</li><li>You gain 1 additional Action on each of your turns.</li><li>When this Aura ends, you gain Slowed 2 and Fatigued 3.</li></li></ul>",
+                "Use Tempor to have one target in your Current or an Adjacent Zone gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, the target gains the following effects:<ul><li>Your Primary Defense is Reflexes.  You gain +10 to your Reflexes Defense.</li><li>You gain 1 additional Shift on each of your turns.</li><li>You gain 1 additional Action on each of your turns.</li><li>When this Aura ends, you gain Slowed 2 and Fatigued 3.</li></ul>",
                 "When this Aura ends, the current Timer decreases by -2."
             ]
         },
@@ -13405,17 +13937,6 @@
             ]
         },
         {
-            "tree": "Mage Hunter",
-            "name": "Cosmology (1)",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Cosmology Rank to 1 (d6)."
-            ]
-        },
-        {
             "tree": "Diplomat",
             "name": "Current Events (1)",
             "type": "Static",
@@ -13919,17 +14440,6 @@
             "replaces": null,
             "effect": [
                 "Increase your Research Rank to 1 (d6)."
-            ]
-        },
-        {
-            "tree": "Skrimister",
-            "name": "Skrimisiology (1)",
-            "type": "Static",
-            "rank": "1",
-            "requires": null,
-            "replaces": null,
-            "effect": [
-                "Increase your Skrimisiology Rank to 1 (d6)."
             ]
         },
         {

@@ -10750,7 +10750,7 @@
                 },
                 {
                     "hits": 5,
-                    "effect": "<em><strong>Trigger</strong></em> &mdash; Immediately cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
+                    "effect": "Deal X to one Target in your Current or an Adjacent Zone, where X is equal to Hits in the result set.<em><strong>Trigger</strong></em> &mdash; Immediately cast this spell again choosing a different target.  This copy uses the last target's Zone as its Current Zone."
                 }
             ],
             "requires": "Arc Lightning 2",
@@ -10786,11 +10786,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone becomees Afraidd of you and gains Fatigued X, where x is equal to Hits in the result set."
+                    "effect": "One target in your Current Zone becomees Afraid of you and gains Fatigued X, where X is equal to Hits in the result set."
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to two targets in your Current Zone becomee Afraidd of you and gains Fatigued X, where x is equal to Hits in the result set."
+                    "effect": "Up to two targets in your Current Zone becomee Afraid of you and gains Fatigued X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -10807,11 +10807,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set."
+                    "effect": "One target in your Current Zone gains Slowed 2 and Fatigued X, where X is equal to Hits in the result set."
                 },
                 {
                     "hits": 3,
-                    "effect": "Up to two targets in your Current Zone gains Slowed 2 and Fatigued X, where x is equal to Hits in the result set."
+                    "effect": "Up to two targets in your Current Zone gains Slowed 2 and Fatigued X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -11519,7 +11519,7 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><strong><em>Trigger &emdash</em></strong> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
+                    "effect": "One target in your Current or an Adjacent Zone takes 3 Hits.<br><strong><em>Trigger &mdash;</em></strong> If you cast this Spell last turn, the target takes 3 + X Hits instead, where X is the number of consecutive turns you have cast this spell."
                 }
             ],
             "requires": null,
@@ -11555,11 +11555,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraidd 2."
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraid 2."
                 },
                 {
                     "hits": 4,
-                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraidd X, where X is equal to Hits in the result set."
+                    "effect": "One target in your Current or an Adjacent Zone takes 2 Hits and gains Afraid X, where X is equal to Hits in the result set."
                 }
             ],
             "requires": null,
@@ -11870,11 +11870,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "One target in your Current or an Adjacent Zone gains Afraidd 1 and Vulnerable 1 on each of their turns Ongoing."
+                    "effect": "One target in your Current or an Adjacent Zone gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing."
                 },
                 {
                     "hits": 4,
-                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraidd 1 and Vulnerable 1 on each of their turns Ongoing."
+                    "effect": "Up to 2 targets in your Current or an Adjacent Zone gains Afraid 1 and Vulnerable 1 on each of their turns Ongoing."
                 }
             ],
             "requires": null,
@@ -13906,11 +13906,11 @@
             "threshold": [
                 {
                     "hits": 3,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one (1):<ul><li>All targets in the targeted Zone gain Afraid 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul>"
                 },
                 {
                     "hits": 5,
-                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone gain Afraidd 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul>"
+                    "effect": "Target your Current or an Adjacent Zone, then choose one or both:<ul><li>All hostile targets in the targeted Zone gain Afraid 2 and gain Confused 2.</li><li>Increase the Entropy by +1 and you gain +3 Current.</li></ul>"
                 }
             ],
             "requires": null,
@@ -13978,11 +13978,11 @@
             "threshold": [
                 {
                     "hits": 2,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraidd 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul>"
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose one (1):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraid 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul>"
                 },
                 {
                     "hits": 4,
-                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraidd 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul>"
+                    "effect": "Select one target in your Current or an Adjacent Zone and choose two (2):<ul><li>The target takes X Hits to their Nerve, where X is equal to Hits in the result set.</li><li>The target gains Afraid 2 and Wounded 1.</li><li>You gain +3 Current.</li></ul>"
                 }
             ],
             "requires": null,
