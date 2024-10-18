@@ -13354,7 +13354,7 @@
             "tree": "Blackguard",
             "name": "Dread Oath",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -13379,11 +13379,10 @@
             "tree": "Blackguard",
             "name": "Dreadful Countenance",
             "type": "Shift",
-            "rank": null,
-            "requires": null,
+            "rank": "2",
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
-               ""
                "Use Intimidate one target in your Current or an Adjacent Zone.  The targets gains Afraid X, where X is equal to Hits in the result set.",
                "Increase your Dread by +1."
             ]
@@ -13392,19 +13391,19 @@
             "tree": "Blackguard",
             "name": "Dread Aura",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-               "Use Bellor, Intimidate, or Nihil to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, all targets in your Current Zone gain Afraid 1.",
+               "Use Bellor, Intimidate, or Nihil to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, all targets in your Current Zone gain Afraid 1."
             ]
          },
          {
             "tree": "Blackguard",
             "name": "Dread Siphon",
-            "type": "",
-            "rank": null,
-            "requires": null,
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
                "Increase your Dread by +1 for each target in your Current and all Adjacent zones who are Afraid."
@@ -13415,7 +13414,7 @@
             "name": "Dread Tidings",
             "type": "Ability",
             "rank": "3",
-            "requires": null,
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
                "Increase the Entropy +10 and spend 20 Dread.  Gain +1 Milestone."
@@ -13426,7 +13425,7 @@
             "name": "Dread Exemplar",
             "type": "Shift",
             "rank": "2",
-            "requires": null,
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
                "Spend X Dread to add X Hits to your next roll."
@@ -13437,7 +13436,7 @@
             "name": "Dread Actor",
             "type": "Trigger",
             "rank": "2",
-            "requires": ,
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
                 "When you use an Action Skill with the Dread keyword and score 4+ Hits, increase your Dread by +2."
@@ -13448,7 +13447,7 @@
             "name": "Frightful Bearing",
             "type": "Trigger",
             "rank": "1",
-            "requires": null,
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
                "When you gain this Talent, choose an Action Skill to gain the Dread keyword.  When you use the chosen Skill, increase your Dread by +1."
@@ -13459,7 +13458,7 @@
             "name": "Frightful Approach",
             "type": "Trigger",
             "rank": "3",
-            "requires": null,
+            "requires": "Dread Oath",
             "replaces": null,
             "effect": [
                "When you gain this Talent, choose an Action Skill to gain the Dread keyword.  When you use the chosen Skill, increase your Dread by +1."
@@ -13470,7 +13469,7 @@
             "tree": "Blackguard",
             "name": "Corruptor",
             "type": "Trigger",
-            "rank": "2",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
@@ -13481,8 +13480,8 @@
             "tree": "Blackguard",
             "name": "Twist Their Wills",
             "type": "Shift",
-            "rank": "3",
-            "requires": null,
+            "rank": "2",
+            "requires": "Corruptor",
             "replaces": null,
             "effect": [
                "Reduce the Corruption of one target in your Current Zone by -X and choose one (1):<ul><li>If X > 1, the target gain Charmed 2.</li><li>If X > 3, you gain +1 Secret from the target.</li><li>If X > 5, you may dictate one Action the target must take.</li><li>If X > 15, the target becomes your vassal.</li></ul>"
