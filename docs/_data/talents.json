@@ -3437,13 +3437,126 @@
         },
         {
             "tree": "Fury",
-            "name": "",
-            "type": "Ability",
-            "rank": null,
+            "name": "Storm Icon",
+            "type": "Shift",
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Let the storm build within you, gaining Ongoing 3 and Fury 0.  When you use your next Power this turn, spend X Hits from the result set to increase your Fury by +X.",
+                "If you fail to Maintain Focus while your Fury is 1+, your Fury euqals 0."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Maelstrom Surge",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "Spend 10 Fury.  You gain an additional Action this turn."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Stormcaller's Embrace",
+            "type": "Ability",
+            "rank": "1",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "Use Rime, Squall, Tempest, or Torrent to unleash the storm, scoring 1 Hits aginst up to X targets in your Current Zone and Adjacent Zones, where X is equal to Hits in the result set.  Increase your Fury by the number of targets affected by this ability."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Thunderous Reverberation",
+            "type": "Shift",
+            "rank": "2",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "Spend 4 Fury.  Copy the next Power you use this turn.  You may choose new targets for the copy."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Consuming Fury",
+            "type": "Shift",
+            "rank": "1",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "Spend X Grit while your Fury is 1+.  Increase your Fury by +X."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Eye of the Storm",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "When you use the Recover Action and you have 1+ Fury, you may reduce the amount you recover to your Primary Defense by -X to increase your Fury by +X."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Stormborne",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "When you have 6+ Fury, you gain an additional Shift on each of your turns."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Storm Mage",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "When you score 4+ Hits with one of your Powers, increase your Fury by +1."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Maelstrom's Tendrils",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "Spend X Fury.  Score up to X Hits against one target in your Current Zone and you regain up to X Grit.",
+                "Your Fury equals 0."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Grapeshot",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "Spend X Fury.  Score X Hits divided among up to X targets in your Current or an Adjacent Zone.",
+                "Your Fury equals 0."
+            ]
+        },
+        {
+            "tree": "Fury",
+            "name": "Stormrider",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Storm Icon",
+            "replaces": null,
+            "effect": [
+                "When your Fury is 6+, you gain the Flying keyword."
             ]
         },
         {
@@ -4394,6 +4507,7 @@
             "requires": null,
             "replaces": null,
             "effect": [
+                "You wield arcane powers to defeat your foes, known as Signs.",
                 "Use Analyze, Focus, or Implements to gain Hits + Dangerous Sign Ranks.  You may spend Sign Ranks across Talents you have trained that have the Sign keyword."
             ]
         },
@@ -4452,7 +4566,78 @@
             "requires": null,
             "replaces": null,
             "effect": [
-                "When you use Grapple, Strike, Shoot, or Throw, you may spend 1 Sign Rank to have the attack gain the Sign's keywords."
+                "When you use Grapple, Strike, Shoot, or Throw, you may spend 1 Sign Ranks to have the attack gain the Sign's keywords."
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Void Sign",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Nihil</span></h4>",
+                "Spend X Sign Ranks from this Sign, then choose one (1) and roll a number of dX equal to Challenge :<ul><li>X Targets in your Current Zone gain Fatigued 1, where X is euqal to Hits in the result set.  Increase the Entropy by +X.</li><li>You and one target in your Current Zone reduce one Status by X, where X is equal to Hits in the result set. Increase the Entropy by +2.</li><li><strong>Threshold &mdash; 2</strong><br>Move to and Adjacent Zone ignoring Hazards and increase the Entropy by +X, where X is equal to Hits in the result set.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Phoenix Sign",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": "Inferno Sign",
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Inferno</span><span style='background-color: #096491;border-radius: 4px'>Vivus</span></h4>",
+                "If you are Dying and use Recover Action, you may spend X Sign Ranks from this Sign to add +X Bonus Hits to the result set and regain +X Grit.</li><li></li><li></li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Aether Sign",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Aether</span></h4>",
+                "Spend X Sign Ranks from this Sign, then choose one (1) and roll a number of dX equal to Challenge :<ul><li>Up to X targets in your Current Zone gain Charmed 2 and Dazed 1, where X is equal to Hits in the result set.</li><li>Add +X Bonus Hits to the result set of your next Action, where X is equal to Hits in the result set.  The target of that Action gains Vulnerable 1.</li><li>Target your Current or an Adjacent Zone.  Up to X targets in the targeted Zone gain Confused 2, where X is equal to Hits in the result set.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Zephyr Sign",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "<h4 style='margin: 3px;'><span style='background-color: #096491;border-radius: 4px'>Sign</span><span style='background-color: #096491;border-radius: 4px'>Squall</span></h4>",
+                "Spend X Sign Ranks from this Sign, then choose one (1) and roll a number of dX equal to Challenge :<ul><li>You gain Aura X, where X is eqlau to Hits in the result set.  While this Aura persists, you gain the Flying keyword.</li><li><strong>Threshold &mdash; 2</strong><br>One target in your Current or an Adjacent Zone loses the Flying keyword until the beginning of your next turn.</li><li><strong>Threshold &mdash; 2</strong><br>Target your Current or an Adjacent Zone. Up to X targets in the targeted Zone are pushed to a different Zone adjacent to targeted Zone, and the targeted Zone gains Hazard X, where X is equal to Hits in the result set.</li></ul>"
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "Hex Blade",
+            "type": "Ability",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "Use Strike or Shoot against one target.  On 4+ Hits, choose one (1):<ul><li>Increase one of your Sign's Ranks by +3.</li><li>Immediately use one of your Talents with the Sign keyword without using a Shift.</li><li>Gain an additional Shift this turn.</li></ul>",
+                "On 6+ Hits, choose two (2)."
+            ]
+        },
+        {
+            "tree": "Mageknight",
+            "name": "War Mage",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+                "When you score 5+ Hits on one of your Signs or Spells, you may immediately use Strike against one target in your Current Zone."
             ]
         },
         {
@@ -6487,6 +6672,17 @@
             ]
         },
         {
+            "tree": "Fury",
+            "name": "Focus (3)",
+            "type": "Static",
+            "rank": "2",
+            "requires": "Focus 2",
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 3 (d10)."
+            ]
+        },
+        {
             "tree": "Nexus",
             "name": "Momentous Marvel",
             "type": "Shift",
@@ -6510,6 +6706,17 @@
         },
         {
             "tree": "Nexus",
+            "name": "Focus (4)",
+            "type": "Static",
+            "rank": "3",
+            "requires": "Focus 3",
+            "replaces": null,
+            "effect": [
+                "Increase your Focus Rank to 4 (d12)."
+            ]
+        },
+        {
+            "tree": "Fury",
             "name": "Focus (4)",
             "type": "Static",
             "rank": "3",
@@ -10979,13 +11186,125 @@
         },
         {
             "tree": "Zealot",
-            "name": "",
+            "name": "Divine Zeal",
             "type": "Ability",
-            "rank": null,
+            "rank": "1",
             "requires": null,
             "replaces": null,
             "effect": [
-                ""
+                "Use Exert, Focus, or Insight to gain X Zeal, where X is equal to Hits in the result set.  You gain Armor Defense equal to your Zeal.",
+                "If your Zeal is greater than 5, increase the Entropy +1 each time you take an Action.",
+                "You may use this Ability without spending an Action at the beginning of each Waypoint.  If you use it during a Waypoint, it requires 5 - Zeal Actions (minimum 1 Action)."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Zealous Actor",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When you use an Action Skill with the Zealous keyword and score 4+ Hits, increase your Zeal by +2."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Fervent Act",
+            "type": "Ability",
+            "rank": "2",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "Spend 3 Zeal and use an Action against one target, adding X Bonus Hits to the result set, where X is equal to Hits in the result set."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Unyielding Devotion",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When you are Dying, you may increase your Dying Rating by +1 and spend X Zeal.  You recover from the Dying status and your Grit and Primary Defense equal X."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Zealous Conviction",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When your Zeal is 8+, you canot gain Afraid, Charmed, Fatigued, or Stunned."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Indomitable Devotion",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When you use the Recover Action and you have 3+ Zeal, you may reduce the amount you recover to your Primary Defense by -X to increase your Zeal by +X."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Fanatical Bearing",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, choose an Action Skill to gain the Zealous keyword.  When you use the chosen Skill, you may spend 1 Zeal to add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Fanatical Manner",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, choose an Action Skill to gain the Zealous keyword.  When you use the chosen Skill, you may spend 1 Zeal to add +2 Bonus Hits to the result set."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Empowered Fanaticism",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "When you gain this Talent, choose an Effect Skill.  When your Zeal is 5+, Action Skills with the Zealous keyword gain the chosen Effect Skill's keyword."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Voice of the Zealot",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "Roll Exert, Lead, or Persuade as X to inspire fervor among your allies.  Up to X allies in your Current or an Adjacent Zone recover +X to their Primary Defenses and you increase your Zeal by +X."
+            ]
+        },
+        {
+            "tree": "Zealot",
+            "name": "Divine Sacrifice",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Divine Zeal",
+            "replaces": null,
+            "effect": [
+                "Spend X Grit.  Increase your Zeal by +X and Create 1 Advantage in up to X target Zones containing one or more allies."
             ]
         },
         {
@@ -13031,6 +13350,155 @@
                 "When you suffer Hits from a target, you may gain gain Dazed 2 and have the target reroll their effect, using the new result set."
             ]
         },
+        {
+            "tree": "Blackguard",
+            "name": "Dread Oath",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "Use Bellor, Cosmology, Deceive, Insight, Intuit, Nihil, or Theology to commit yourself to your wicked campaign.",
+               "Increase the Entropy by +1 and increase your Dread by +X, where X is equal to Hits in the result set.",
+               "You may use this Ability without spending an Action at the beginning of each Waypoint. If you use it during a Waypoint, it increase the Entropy by +5."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Fallen Knight",
+            "type": "Static",
+            "rank": "1",
+            "requires": "Knight 1+",
+            "replaces": null,
+            "effect": [
+               "You are a Knight who has turned away from your Chivaliric Obligation.",
+               "When you select this Talent, remove all Milestones you have spent in the Knight Training tree and apply them to the Blackguard Training tree."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dreadful Countenance",
+            "type": "Shift",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               ""
+               "Use Intimidate one target in your Current or an Adjacent Zone.  The targets gains Afraid X, where X is equal to Hits in the result set.",
+               "Increase your Dread by +1."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dread Aura",
+            "type": "Ability",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "Use Bellor, Intimidate, or Nihil to gain Aura X, where X is equal to Hits in the result set.  While this Aura persists, all targets in your Current Zone gain Afraid 1.",
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dread Siphon",
+            "type": "",
+            "rank": null,
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "Increase your Dread by +1 for each target in your Current and all Adjacent zones who are Afraid."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dread Tidings",
+            "type": "Ability",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "Increase the Entropy +10 and spend 20 Dread.  Gain +1 Milestone."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dread Exemplar",
+            "type": "Shift",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "Spend X Dread to add X Hits to your next roll."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dread Actor",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": ,
+            "replaces": null,
+            "effect": [
+                "When you use an Action Skill with the Dread keyword and score 4+ Hits, increase your Dread by +2."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Frightful Bearing",
+            "type": "Trigger",
+            "rank": "1",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "When you gain this Talent, choose an Action Skill to gain the Dread keyword.  When you use the chosen Skill, increase your Dread by +1."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Frightful Approach",
+            "type": "Trigger",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "When you gain this Talent, choose an Action Skill to gain the Dread keyword.  When you use the chosen Skill, increase your Dread by +1."
+            ]
+         },
+         
+         {
+            "tree": "Blackguard",
+            "name": "Corruptor",
+            "type": "Trigger",
+            "rank": "2",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "When you use Deceive, Intimidate, Lead, or Persaude, you may spend X Hits from the result set to have your target gains Corruption X."
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Twist Their Wills",
+            "type": "Shift",
+            "rank": "3",
+            "requires": null,
+            "replaces": null,
+            "effect": [
+               "Reduce the Corruption of one target in your Current Zone by -X and choose one (1):<ul><li>If X > 1, the target gain Charmed 2.</li><li>If X > 3, you gain +1 Secret from the target.</li><li>If X > 5, you may dictate one Action the target must take.</li><li>If X > 15, the target becomes your vassal.</li></ul>"
+            ]
+         },
+         {
+            "tree": "Blackguard",
+            "name": "Dread Lord",
+            "type": "Ability",
+            "rank": "3",
+            "requires": "Dread 30+",
+            "replaces": null,
+            "effect": [
+               "Increase the Entropy by +3 and gain Aura 5.  While this Aura persists, your Current Zone gain the Darkened keyword, you gain the Nightsight keyword, and all hostile targets in your Current Zone gain Afraid 1.  If a target that is Afraid starts its turn in your Current Zone, you score +1d6 Bonus Hits against them and they gain 3 Corruption."
+            ]
+         },
         {
             "tree": "Broker",
             "name": "Market Savvy",

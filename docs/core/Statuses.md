@@ -20,7 +20,7 @@ While Blind, add Hazard 4 to all of your rolls and you do not create Hazards whe
 
 ## Charmed
 #### Variable
-While Charmed, any attempt to Persuade you gain +1 Bonus Hits in the result set.  Charmed decreases by -1 eahc round.
+While Charmed, any attempt to Persuade or Deceive you gains +1 Bonus Hits in the result set.  Charmed decreases by -1 each round.
 
 ## Confused
 #### Fixed
@@ -40,7 +40,7 @@ Your Disguised rating determines how well you have concealed your identity.  Act
 
 ## Dying
 #### Incremental
-When your Grit is 0, roll 1d4 to determine your Dying rating.  While your Dying rating is above 0, you can take not Actions and use no Shifts.  Each turn while your Grit is 0, increase your Dying rating by +1.  If you suffer Hits from a hostile Action, increase your Dying Rating by +1.  When your Dying rating is 5 or greater, you are Dead.
+When your Grit is 0, increase your Dying rating by +1d4 and gain Unconscious X, where X is equal to your Dying rating.  Each turn while your Grit is 0, increase your Dying rating by +1.  If you suffer Hits from a hostile Action, increase your Dying Rating by +1.  When your Dying rating is 5 or greater, you are Dead.
 
 ## Fatigued
 #### Variable
@@ -84,7 +84,7 @@ You can only take the Recover Action as long as you have a Stunned rating of 1 o
 
 ## Unconscious
 #### Variable
-You have Vulnerable 2 and can only take the Recover Action using Nerve as long as you have a Unconscious rating of 1 or higher.  When you take the Recover Action, reduce your Unconscious rating by Hits and do not regain any Defenses.
+You gain Prone and can only take the Recover Action using Endure as long as you have a Unconscious rating of 1+.  When you take the Recover Action, reduce your Unconscious rating by Hits in the result set and do not regain any Defenses.
 
 ## Vulnerable
 #### Variable
