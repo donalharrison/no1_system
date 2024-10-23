@@ -32,22 +32,29 @@
               "name": "Ethereal",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you use the Recover Action and score 4+ Hits, you may reduce one Status by -1."
             },
             {
               "name": "Otherworldly",
               "skill": "Aether",
               "type": "Trigger",
-              "rank": null,
+              "rank": 1,
               "effect": "When you score 3+ Hits with a Aether effect, you may have the effect's Zone lose Darkened until your next turn."
             },
             {
               "name": "Chimeric",
               "skill": "Aether",
               "type": "Trigger",
+              "rank": 1,
+              "effect": "When you score 3+ Hits with an Aether effect, you may have the target gain Charmed 1."
+            },
+            {
+              "name": "Elucidating",
+              "skill": "Aether",
+              "type": "Trigger",
               "rank": null,
-              "effect": "When you score 3+ Hits with an Inferno effect, you may have the target gain Charmed 1."
+              "effect": "When you use Cosmology, History, Insight, or Perceive and score 0 Hits, add +1d4 Bonus Hits to the result set."
             },
             {
               "name": "",
@@ -56,6 +63,14 @@
               "rank": null,
               "effect": null
             },
+            {
+              "name": "",
+              "skill": "Aether",
+              "type": "Trigger",
+              "rank": null,
+              "effect": null
+            },
+
             {
               "name": "Scalar",
               "skill": "Arithm",

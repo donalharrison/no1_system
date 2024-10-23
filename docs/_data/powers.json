@@ -4493,7 +4493,7 @@
             "rank": 2,
             "type": "Static",
             "skill": "Inferno",
-            "effect": "Reduce any Hits you suffer from fire or Inferno effects by -2.",
+            "effect": "Reduce any Hits you suffer from fire or effects with the Inferno keyword by -2.",
             "threshold": null,
             "requires": "Inferno Affinity",
             "keywords": ""
@@ -4501,9 +4501,9 @@
         {
             "name": "Mantle of Pain",
             "rank": 2,
-            "type": "Static",
+            "type": "Trigger",
             "skill": "Destroy",
-            "effect": "",
+            "effect": "When you suffer Hits from a melee attack, the attacking target suffers +1 Bonus Hits.",
             "threshold": null,
             "requires": "Destroy Affinity",
             "keywords": ""
@@ -4511,9 +4511,9 @@
         {
             "name": "Mantle of Chaos",
             "rank": 2,
-            "type": "Static",
+            "type": "Trigger",
             "skill": "Bellor",
-            "effect": "",
+            "effect": "When the Entropy increases, you may increase the Entropy +2 and increase your Succor +1.",
             "threshold": null,
             "requires": "Bellor Affinity",
             "keywords": ""
